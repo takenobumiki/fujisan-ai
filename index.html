@@ -552,9 +552,9 @@
         .btn-text { background: transparent; color: var(--accent); }
         .btn-text:hover { background: rgba(0,113,227,0.08); }
         .btn-primary { background: var(--accent); color: #fff; }
-        .btn-primary:hover { background: var(--accent-hover); }
+        .btn-primary:hover { background: #e57a82; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(255,140,148,0.4); }
         .btn-secondary { background: var(--bg-tertiary); color: var(--text-primary); }
-        .btn-secondary:hover { background: var(--border); }
+        .btn-secondary:hover { background: #d0d0d5; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
         .btn-success { background: var(--success); color: #fff; }
         .btn-danger { background: var(--danger); color: #fff; }
         .btn-google { background: #fff; color: #333; border: 1px solid var(--border); }
@@ -1512,6 +1512,9 @@
         .pricing-features li { display: flex; align-items: center; gap: 10px; padding: 10px 0; font-size: 14px; color: var(--text-secondary); border-bottom: 1px solid var(--border); }
         .pricing-features li:last-child { border-bottom: none; }
         .pricing-features li::before { content: ''; width: 18px; height: 18px; background: var(--success); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: center; background-size: 12px; }
+        .pricing-cta-btn { width: 100%; transition: all 0.25s ease !important; }
+        .pricing-cta-btn:hover { transform: translateY(-3px) !important; box-shadow: 0 8px 20px rgba(0,0,0,0.15) !important; }
+        .pricing-card.featured .pricing-cta-btn:hover { box-shadow: 0 8px 20px rgba(255,140,148,0.4) !important; }
         
         /* Japan Section */
         .japan-section { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: #fff; }
@@ -2376,13 +2379,21 @@
                                 <div style="font-size:12px;color:var(--text-secondary);margin-top:8px;" data-i18n="referral_input_hint">Get 30-day free trial instead of 7 days!</div>
                             </div>
                             
+                            <!-- Billing Toggle -->
+                            <div style="display:flex;justify-content:center;margin-bottom:32px;">
+                                <div class="billing-toggle" style="display:inline-flex;background:rgba(118,118,128,0.12);border-radius:10px;padding:3px;">
+                                    <button id="billing-monthly" class="billing-btn" onclick="setBillingPeriod('monthly')" style="padding:10px 24px;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.25s;background:transparent;color:#666;">Monthly</button>
+                                    <button id="billing-annual" class="billing-btn active" onclick="setBillingPeriod('annual')" style="padding:10px 24px;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.25s;background:white;color:#333;box-shadow:0 2px 8px rgba(0,0,0,0.1);">Annual <span style="color:#34C759;font-size:12px;margin-left:4px;">Save 50%</span></button>
+                                </div>
+                            </div>
+                            
                             <div class="pricing-grid">
                                 <!-- Basic Plan -->
                                 <div class="pricing-card">
                                     <h3 class="pricing-name">Basic</h3>
-                                    <div class="pricing-price">$47.99<span>/yr</span></div>
-                                    <div class="pricing-daily" data-i18n="plan_basic_monthly">or $7.99/month</div>
-                                    <div class="pricing-save" data-i18n="plan_save">Save 17% yearly</div>
+                                    <div class="pricing-price" data-monthly="$7.99" data-annual="$3.99">$3.99<span>/mo</span></div>
+                                    <div class="pricing-billing" data-monthly="" data-annual="billed $47.99/year" style="font-size:13px;color:#888;margin-bottom:4px;">billed $47.99/year</div>
+                                    <div class="pricing-save" data-monthly="" data-annual="Save 50% vs monthly" style="color:#34C759;">Save 50% vs monthly</div>
                                     <ul class="pricing-features">
                                         <li data-i18n="plan_basic_f1">JLPT N5-N3 all content</li>
                                         <li data-i18n="plan_basic_f2">Learn / Practice / Test modes</li>
@@ -2390,15 +2401,15 @@
                                         <li data-i18n="plan_basic_f4">Daily challenges & XP</li>
                                         <li data-i18n="plan_basic_f5">League competition</li>
                                     </ul>
-                                    <a href="#" onclick="openSignupWithPlan('basic_annual'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                                    <a href="#" onclick="openSignupWithPlan('basic'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                                 
                                 <!-- Standard Plan -->
                                 <div class="pricing-card featured">
                                     <h3 class="pricing-name">Standard</h3>
-                                    <div class="pricing-price">$89.99<span>/yr</span></div>
-                                    <div class="pricing-daily" data-i18n="plan_standard_monthly">or $14.99/month</div>
-                                    <div class="pricing-save" data-i18n="plan_popular">Most Popular</div>
+                                    <div class="pricing-price" data-monthly="$14.99" data-annual="$7.49">$7.49<span>/mo</span></div>
+                                    <div class="pricing-billing" data-monthly="" data-annual="billed $89.99/year" style="font-size:13px;color:#888;margin-bottom:4px;">billed $89.99/year</div>
+                                    <div class="pricing-save" data-monthly="" data-annual="Most Popular" style="color:#34C759;">Most Popular</div>
                                     <ul class="pricing-features">
                                         <li data-i18n="plan_standard_f1">Everything in Basic, plus:</li>
                                         <li data-i18n="plan_standard_f2">AI Explanations</li>
@@ -2406,15 +2417,15 @@
                                         <li data-i18n="plan_standard_f4">Full mock tests</li>
                                         <li>AI explains every mistake</li>
                                     </ul>
-                                    <a href="#" onclick="openSignupWithPlan('standard_annual'); return false;" class="btn btn-primary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                                    <a href="#" onclick="openSignupWithPlan('standard'); return false;" class="btn btn-primary btn-large pricing-cta-btn" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                                 
                                 <!-- Premium Plan -->
                                 <div class="pricing-card">
                                     <h3 class="pricing-name">Premium</h3>
-                                    <div class="pricing-price">$179.99<span>/yr</span></div>
-                                    <div class="pricing-daily" data-i18n="plan_premium_monthly">or $29.99/month</div>
-                                    <div class="pricing-save" data-i18n="plan_best">Best Value</div>
+                                    <div class="pricing-price" data-monthly="$29.99" data-annual="$14.99">$14.99<span>/mo</span></div>
+                                    <div class="pricing-billing" data-monthly="" data-annual="billed $179.99/year" style="font-size:13px;color:#888;margin-bottom:4px;">billed $179.99/year</div>
+                                    <div class="pricing-save" data-monthly="" data-annual="Best Value" style="color:#34C759;">Best Value</div>
                                     <ul class="pricing-features">
                                         <li data-i18n="plan_premium_f1">Everything in Standard, plus:</li>
                                         <li data-i18n="plan_premium_f2">AI Tutor (24/7 Japanese Q&A)</li>
@@ -2422,7 +2433,7 @@
                                         <li data-i18n="plan_premium_f4"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2" style="vertical-align:middle;margin-right:4px;"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg> Priority support</li>
                                         <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2" style="vertical-align:middle;margin-right:4px;"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Early access to new features</li>
                                     </ul>
-                                    <a href="#" onclick="openSignupWithPlan('premium_annual'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" style="width:100%;" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                                    <a href="#" onclick="openSignupWithPlan('premium'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                             </div>
                         
@@ -2543,7 +2554,7 @@
                     </div>
                     <div class="footer-bottom">
                         <div data-i18n="footer_copyright">© 2025 TORAIZ Inc. All rights reserved.</div>
-                        <div style="opacity:0.5;">v19.1.12</div>
+                        <div style="opacity:0.5;">v19.1.13</div>
                         <div data-i18n="footer_made">Made with ❤️ in Tokyo, Japan</div>
                     </div>
                 </footer>
@@ -3816,8 +3827,45 @@
             document.getElementById(type + 'Modal').classList.add('open');
         }
         
+        // Billing period state
+        let selectedBillingPeriod = 'annual';
+        
+        function setBillingPeriod(period) {
+            selectedBillingPeriod = period;
+            
+            // Update toggle buttons
+            document.getElementById('billing-monthly').style.background = period === 'monthly' ? 'white' : 'transparent';
+            document.getElementById('billing-monthly').style.color = period === 'monthly' ? '#333' : '#666';
+            document.getElementById('billing-monthly').style.boxShadow = period === 'monthly' ? '0 2px 8px rgba(0,0,0,0.1)' : 'none';
+            
+            document.getElementById('billing-annual').style.background = period === 'annual' ? 'white' : 'transparent';
+            document.getElementById('billing-annual').style.color = period === 'annual' ? '#333' : '#666';
+            document.getElementById('billing-annual').style.boxShadow = period === 'annual' ? '0 2px 8px rgba(0,0,0,0.1)' : 'none';
+            
+            // Update prices
+            document.querySelectorAll('.pricing-price').forEach(el => {
+                const price = el.dataset[period];
+                if (price) {
+                    el.innerHTML = price + '<span>/mo</span>';
+                }
+            });
+            
+            // Update billing info
+            document.querySelectorAll('.pricing-billing').forEach(el => {
+                el.textContent = el.dataset[period] || '';
+            });
+            
+            // Update save badges
+            document.querySelectorAll('.pricing-save').forEach(el => {
+                el.textContent = el.dataset[period] || '';
+                el.style.visibility = el.dataset[period] ? 'visible' : 'hidden';
+            });
+        }
+        
         function openSignupWithPlan(planValue) {
-            state.selectedPlan = planValue;
+            // Append billing period to plan value
+            const fullPlan = planValue + '_' + selectedBillingPeriod;
+            state.selectedPlan = fullPlan;
             openModal('signup');
         }
         
