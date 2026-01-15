@@ -1,5 +1,5 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.1.10';
+const APP_VERSION = '19.1.12';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -5338,9 +5338,9 @@ function showMockQuestion() {
   // Update progress
   document.getElementById('mock-progress').textContent = `${mockState.current + 1}/${mockState.questions.length}`;
   
-  // Update section header
-  document.getElementById('mockSectionCurrent').textContent = q.section;
-  document.getElementById('mockSubsectionCurrent').textContent = (q.subsection || q.type || '').replace('_', ' ');
+  // Update section header (innerHTML for ruby support)
+  document.getElementById('mockSectionCurrent').innerHTML = q.section || '';
+  document.getElementById('mockSubsectionCurrent').innerHTML = (q.subsection || q.type || '').replace('_', ' ');
   
   // Get instruction based on subsection
   const instruction = getMockInstruction(q.subsection || q.type);
@@ -5388,7 +5388,8 @@ function showMockQuestion() {
     const isConversation = scriptContent.includes('おとこのひと') || scriptContent.includes('おんなのひと') || 
                            scriptContent.includes('男の人') || scriptContent.includes('女の人') ||
                            scriptContent.includes('おとこ：') || scriptContent.includes('おんな：') || 
-                           scriptContent.includes('男：') || scriptContent.includes('女：');
+                           scriptContent.includes('男：') || scriptContent.includes('女：') ||
+                           scriptContent.includes('M:') || scriptContent.includes('F:');
     
     if (isConversation) {
       questionTextEl.innerHTML = '<div style="text-align:center;padding:10px;">' +
@@ -5399,8 +5400,22 @@ function showMockQuestion() {
     }
     
     // TTSテキスト：script + question を連結
+    // 質問文が主語なしの場合、適切な主語を追加
+    let questionForTTS = questionText;
+    if (questionText && !questionText.match(/^(男|女|おとこ|おんな|何|なに|どこ|いつ|だれ|どれ|どの|どう|いくつ|いくら)/)) {
+      // 会話の最後の発話者に基づいて主語を推測
+      if (scriptContent.includes('M:') || scriptContent.includes('おとこ：') || scriptContent.includes('男：')) {
+        if (scriptContent.lastIndexOf('M:') > scriptContent.lastIndexOf('F:') ||
+            scriptContent.lastIndexOf('おとこ：') > scriptContent.lastIndexOf('おんな：')) {
+          questionForTTS = '男の人は、' + questionText;
+        } else {
+          questionForTTS = '女の人は、' + questionText;
+        }
+      }
+    }
+    
     const ttsText = (q.script || q.q || (typeof q.text === 'string' ? q.text : '') || '') + 
-                    (questionText ? '。質問：' + questionText : '');
+                    (questionForTTS ? '。質問：' + questionForTTS : '');
     
     audioBtn.classList.remove('hidden');
     audioBtn.innerHTML = '🔊';
@@ -5523,8 +5538,18 @@ function playListeningTTS(text) {
     .replace(/<ruby>([^<]*)<rt>[^<]*<\/rt><\/ruby>/g, '$1')
     .replace(/<[^>]*>/g, '');
   
-  // 会話を分割
-  const lines = cleanText.split(/(?=おとこ：|おんな：|男：|女：)/);
+  // 改行で分割してから処理
+  const rawLines = cleanText.split('\n').map(l => l.trim()).filter(l => l);
+  
+  // 会話パターン（M: F: おとこ： おんな： 男： 女：）でさらに分割
+  const lines = [];
+  rawLines.forEach(line => {
+    // M: F: を含む行は分割
+    const parts = line.split(/(?=M:|F:|おとこ：|おんな：|男：|女：)/);
+    parts.forEach(p => {
+      if (p.trim()) lines.push(p.trim());
+    });
+  });
   
   const audioBtn = document.getElementById('mockAudioBtn');
   if (audioBtn) {
@@ -5549,7 +5574,14 @@ function playListeningTTS(text) {
     let isMale = false;
     let isFemale = false;
     
-    if (line.startsWith('おとこ：') || line.startsWith('男：')) {
+    // M: F: 形式に対応
+    if (line.startsWith('M:') || line.startsWith('M：')) {
+      isMale = true;
+      line = line.replace(/^M[:：]\s*/, '').trim();
+    } else if (line.startsWith('F:') || line.startsWith('F：')) {
+      isFemale = true;
+      line = line.replace(/^F[:：]\s*/, '').trim();
+    } else if (line.startsWith('おとこ：') || line.startsWith('男：')) {
       isMale = true;
       line = line.replace(/^(おとこ：|男：)/, '').trim();
     } else if (line.startsWith('おんな：') || line.startsWith('女：')) {
@@ -5566,15 +5598,30 @@ function playListeningTTS(text) {
     const voices = speechSynthesis.getVoices();
     const japaneseVoices = voices.filter(v => v.lang.startsWith('ja'));
     
+    // 男性と女性の声を分ける
+    const maleVoices = japaneseVoices.filter(v => 
+      v.name.toLowerCase().includes('male') || 
+      v.name.includes('Otoya') || 
+      v.name.includes('Ichiro') ||
+      (!v.name.toLowerCase().includes('female') && !v.name.includes('Kyoko') && !v.name.includes('O-Ren'))
+    );
+    const femaleVoices = japaneseVoices.filter(v => 
+      v.name.toLowerCase().includes('female') || 
+      v.name.includes('Kyoko') || 
+      v.name.includes('O-Ren')
+    );
+    
     if (japaneseVoices.length > 0) {
       if (isMale) {
+        utterance.voice = maleVoices.length > 0 ? maleVoices[0] : japaneseVoices[0];
+        utterance.pitch = 0.85;
+      } else if (isFemale) {
+        utterance.voice = femaleVoices.length > 0 ? femaleVoices[0] : japaneseVoices[japaneseVoices.length > 1 ? 1 : 0];
+        utterance.pitch = 1.2;
+      } else {
+        // 状況説明などはニュートラルな声
         utterance.voice = japaneseVoices[0];
         utterance.pitch = 1.0;
-      } else if (isFemale) {
-        utterance.voice = japaneseVoices[japaneseVoices.length > 1 ? 1 : 0];
-        utterance.pitch = 1.15;
-      } else {
-        utterance.voice = japaneseVoices[0];
       }
     }
     

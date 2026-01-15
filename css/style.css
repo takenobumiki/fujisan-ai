@@ -125,21 +125,21 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .dashboard-content { flex: 1; display: flex; flex-direction: column; gap: 8px; min-height: 0; overflow: hidden; position: relative; z-index: 1; }
 
 /* Level Selector - Compact */
-.dash-level-row { display: flex; gap: 4px; flex-shrink: 0; margin-bottom: 8px; background: var(--card); padding: 4px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
-.level-select-btn { flex: 1; padding: 8px 4px; border: none; border-radius: 6px; background: transparent; font-size: 13px; font-weight: 600; color: var(--text-secondary); cursor: pointer; transition: all 0.3s var(--ease-out-expo); }
+.dash-level-row { display: flex; gap: 4px; flex-shrink: 0; margin: 0 16px 12px; background: rgba(118, 118, 128, 0.12); padding: 3px; border-radius: 10px; }
+.level-select-btn { flex: 1; padding: 10px 6px; border: none; border-radius: 8px; background: transparent; font-size: 14px; font-weight: 600; color: var(--text-secondary); cursor: pointer; transition: all 0.25s var(--ease-out-expo); position: relative; }
 .level-select-btn:active { transform: scale(0.95); }
-.level-select-btn:hover:not(.active) { background: rgba(0,0,0,0.05); }
+.level-select-btn:hover:not(.active) { background: rgba(0,0,0,0.04); }
 .level-select-btn[data-level="N5"]:hover:not(.active) { background: var(--n5-light); color: var(--n5); }
 .level-select-btn[data-level="N4"]:hover:not(.active) { background: var(--n4-light); color: var(--n4); }
 .level-select-btn[data-level="N3"]:hover:not(.active) { background: var(--n3-light); color: var(--n3); }
 .level-select-btn[data-level="N2"]:hover:not(.active) { background: var(--n2-light); color: var(--n2); }
 .level-select-btn[data-level="N1"]:hover:not(.active) { background: var(--n1-light); color: var(--n1); }
-.level-select-btn.active { color: white; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: scale(1.02); }
-.level-select-btn[data-level="N5"].active { background: var(--n5); box-shadow: 0 4px 12px rgba(52, 199, 89, 0.4); }
-.level-select-btn[data-level="N4"].active { background: var(--n4); box-shadow: 0 4px 12px rgba(0, 122, 255, 0.4); }
-.level-select-btn[data-level="N3"].active { background: var(--n3); box-shadow: 0 4px 12px rgba(175, 82, 222, 0.4); }
-.level-select-btn[data-level="N2"].active { background: var(--n2); box-shadow: 0 4px 12px rgba(30, 58, 95, 0.4); }
-.level-select-btn[data-level="N1"].active { background: var(--n1); box-shadow: 0 4px 12px rgba(255, 59, 48, 0.4); }
+.level-select-btn.active { color: white; box-shadow: 0 2px 8px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.08); transform: none; font-weight: 700; }
+.level-select-btn[data-level="N5"].active { background: var(--n5); box-shadow: 0 2px 8px rgba(52, 199, 89, 0.35), 0 1px 2px rgba(52, 199, 89, 0.2); }
+.level-select-btn[data-level="N4"].active { background: var(--n4); box-shadow: 0 2px 8px rgba(0, 122, 255, 0.35), 0 1px 2px rgba(0, 122, 255, 0.2); }
+.level-select-btn[data-level="N3"].active { background: var(--n3); box-shadow: 0 2px 8px rgba(175, 82, 222, 0.35), 0 1px 2px rgba(175, 82, 222, 0.2); }
+.level-select-btn[data-level="N2"].active { background: var(--n2); box-shadow: 0 2px 8px rgba(30, 58, 95, 0.35), 0 1px 2px rgba(30, 58, 95, 0.2); }
+.level-select-btn[data-level="N1"].active { background: var(--n1); box-shadow: 0 2px 8px rgba(255, 59, 48, 0.35), 0 1px 2px rgba(255, 59, 48, 0.2); }
 
 /* Level Grid for Mock */
 .level-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-sm); margin-bottom: var(--space-sm); flex-shrink: 0; }
@@ -153,7 +153,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .level-btn[data-level="N1"].active { background: var(--n1); }
 
 /* Unit Grid - Compact */
-.dash-unit-section { flex: 1; background: var(--card); border-radius: 12px; padding: 10px; display: flex; flex-direction: column; min-height: 0; box-shadow: 0 2px 12px rgba(0,0,0,0.06); overflow: hidden; }
+.dash-unit-section { flex: 1; background: var(--card); border-radius: 16px; padding: 12px; display: flex; flex-direction: column; min-height: 0; box-shadow: 0 0.5px 0 0 rgba(0,0,0,0.04), 0 1px 3px 0 rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.04); border: 0.5px solid rgba(0,0,0,0.04); overflow: hidden; }
 .dash-unit-section .unit-grid { flex: 1; display: grid; grid-template-columns: repeat(10, 1fr); gap: 3px; align-content: start; overflow-y: auto; -webkit-overflow-scrolling: touch; padding-bottom: 6px; }
 .unit-grid-section { margin-bottom: var(--space-sm); flex-shrink: 0; }
 .unit-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 4px; }
@@ -177,7 +177,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 
 /* Category Buttons - Compact */
 .category-row { display: flex; gap: 8px; flex-shrink: 0; }
-.category-btn { flex: 1; padding: 10px 8px; border: none; border-radius: 12px; background: var(--card); cursor: pointer; text-align: center; transition: all 0.25s var(--ease-out-expo); box-shadow: 0 2px 8px rgba(0,0,0,0.06); display: flex; flex-direction: column; align-items: center; gap: 4px; }
+.category-btn { flex: 1; padding: 12px 8px; border: none; border-radius: 14px; background: var(--card); cursor: pointer; text-align: center; transition: all 0.25s var(--ease-out-expo); box-shadow: 0 0.5px 0 0 rgba(0,0,0,0.04), 0 1px 3px 0 rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.04); border: 0.5px solid rgba(0,0,0,0.04); display: flex; flex-direction: column; align-items: center; gap: 4px; }
 .category-btn:active { transform: scale(0.96); box-shadow: 0 1px 4px rgba(0,0,0,0.1); }
 .category-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
 .category-icon { font-size: 22px; margin-bottom: 0; }
@@ -1145,11 +1145,15 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 
 /* ===== AI Coach Card (Adaptive Learning) ===== */
 .ai-coach-card {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(118, 75, 162, 0.08) 100%);
-  border: 1px solid rgba(102, 126, 234, 0.2);
-  border-radius: 12px;
-  padding: 10px 12px;
-  margin: 0 0 8px;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.06) 0%, rgba(118, 75, 162, 0.06) 100%);
+  border: none;
+  border-radius: 16px;
+  padding: 14px 16px;
+  margin: 0 16px 12px;
+  box-shadow: 
+    0 0.5px 0 0 rgba(102, 126, 234, 0.1),
+    0 1px 3px 0 rgba(102, 126, 234, 0.06),
+    0 4px 8px 0 rgba(102, 126, 234, 0.04);
 }
 
 .ai-coach-header {
@@ -1536,10 +1540,15 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 /* ===== Study Habit Tracker ===== */
 .habit-tracker {
   background: white;
-  border-radius: 14px;
-  padding: 14px 16px;
+  border-radius: 16px;
+  padding: 16px;
   margin: 0 16px 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  /* iOS 17+ style subtle shadow */
+  box-shadow: 
+    0 0.5px 0 0 rgba(0,0,0,0.04),
+    0 1px 3px 0 rgba(0,0,0,0.04),
+    0 4px 8px 0 rgba(0,0,0,0.04);
+  border: 0.5px solid rgba(0,0,0,0.04);
 }
 
 .habit-header {
