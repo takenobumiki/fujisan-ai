@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.1';
+const APP_VERSION = '19.8.2';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13056,12 +13056,21 @@ function getTimeBasedGreeting() {
 // Generate opening message based on context and user interests
 async function generateOpeningMessage() {
   const greeting = getTimeBasedGreeting();
+  
+  // First time user - ask name FIRST (before anything else)
+  if (!talkProfile.name && talkProfile.conversationCount <= 1) {
+    return {
+      ja: `${greeting.ja} 初めまして！私はAIの会話パートナーです。お名前を教えてもらえますか？`,
+      en: `${greeting.en} Nice to meet you! I'm your AI conversation partner. May I know your name?`
+    };
+  }
+  
   const context = await fetchCachedContext();
   
   let topicMessage = { ja: '', en: '' };
   
   // If returning user with pending follow-up
-  if (talkProfile.pendingFollowUp && talkProfile.conversationCount > 0) {
+  if (talkProfile.pendingFollowUp && talkProfile.conversationCount > 1) {
     return {
       ja: `${greeting.ja} ${talkProfile.pendingFollowUp}`,
       en: greeting.en
@@ -13099,14 +13108,6 @@ async function generateOpeningMessage() {
         en: `"${context.anime.trending[0]}" anime seems popular lately. Do you know it?`
       };
     }
-  }
-  
-  // First time user - ask name
-  if (!talkProfile.name && talkProfile.conversationCount === 0) {
-    return {
-      ja: `${greeting.ja} 初めまして！私はAIの会話パートナーです。お名前を教えてもらえますか？`,
-      en: `${greeting.en} Nice to meet you! I'm your AI conversation partner. May I know your name?`
-    };
   }
   
   return {
@@ -13587,7 +13588,7 @@ FORBIDDEN:
 
   if (talkState.isUnitMode && talkState.unitRestrictions) {
     // Unit-linked mode with vocabulary restrictions
-    systemPrompt = `You are a warm, friendly Japanese conversation partner named ゆき. Help JLPT ${state.level} learners practice natural conversation.
+    systemPrompt = `You are a warm, friendly Japanese conversation partner. Help JLPT ${state.level} learners practice natural conversation.
 
 VOCABULARY RESTRICTIONS:
 Prefer using these words: ${talkState.unitRestrictions.vocab.slice(0, 30).join(', ')}
@@ -13600,7 +13601,7 @@ Always respond in JSON format: {"ja": "Japanese response", "en": "English transl
 ONLY add "feedback" field if there is an actual grammar mistake to correct.`;
   } else {
     const scenario = TALK_SCENARIOS[talkState.currentScenario];
-    systemPrompt = `You are a warm, friendly Japanese conversation partner named ゆき. ${scenario ? scenario.prompt : 'Have a natural conversation to help the user practice Japanese.'}
+    systemPrompt = `You are a warm, friendly Japanese conversation partner. ${scenario ? scenario.prompt : 'Have a natural conversation to help the user practice Japanese.'}
 
 ${TALK_LEVEL_INSTRUCTIONS[state.level]}
 ${userContext}
