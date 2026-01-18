@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.21';
+const APP_VERSION = '19.8.26';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -12956,7 +12956,15 @@ let talkState = {
   isUnitMode: false,
   unitRestrictions: null,
   cachedContext: null,
-  lastContextFetch: null
+  lastContextFetch: null,
+  // News feature
+  cachedNews: null,
+  lastNewsFetch: null,
+  userCountry: null,
+  // Silence detection
+  silenceTimer: null,
+  lastUserInput: null,
+  newsUsedInSession: [] // Track which news items have been used
 };
 
 // Talk user profile (persisted in localStorage)
@@ -12989,6 +12997,180 @@ function saveTalkProfile() {
   } catch (e) {
     console.error('Failed to save talk profile:', e);
   }
+}
+
+// Get user's country from timezone or IP
+async function getUserCountry() {
+  if (talkState.userCountry) return talkState.userCountry;
+  
+  try {
+    // Try to get from timezone
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const tzCountryMap = {
+      'Asia/Tokyo': 'JP', 'Asia/Seoul': 'KR', 'Asia/Shanghai': 'CN', 'Asia/Taipei': 'TW',
+      'Asia/Hong_Kong': 'HK', 'Asia/Bangkok': 'TH', 'Asia/Ho_Chi_Minh': 'VN', 'Asia/Jakarta': 'ID',
+      'Asia/Manila': 'PH', 'Asia/Singapore': 'SG', 'Asia/Kuala_Lumpur': 'MY',
+      'America/New_York': 'US', 'America/Los_Angeles': 'US', 'America/Chicago': 'US',
+      'America/Sao_Paulo': 'BR', 'America/Mexico_City': 'MX', 'America/Buenos_Aires': 'AR',
+      'Europe/London': 'GB', 'Europe/Paris': 'FR', 'Europe/Berlin': 'DE', 'Europe/Madrid': 'ES',
+      'Europe/Rome': 'IT', 'Europe/Amsterdam': 'NL', 'Europe/Moscow': 'RU',
+      'Australia/Sydney': 'AU', 'Pacific/Auckland': 'NZ'
+    };
+    
+    if (tzCountryMap[tz]) {
+      talkState.userCountry = tzCountryMap[tz];
+      return talkState.userCountry;
+    }
+    
+    // Fallback to JP
+    talkState.userCountry = 'JP';
+    return 'JP';
+  } catch (e) {
+    console.error('Failed to get user country:', e);
+    return 'JP';
+  }
+}
+
+// Fetch news for user's country (cached for 4 hours)
+async function fetchUserNews() {
+  const now = Date.now();
+  const CACHE_DURATION = 4 * 60 * 60 * 1000; // 4 hours
+  
+  // Check cache
+  if (talkState.cachedNews && talkState.lastNewsFetch && (now - talkState.lastNewsFetch < CACHE_DURATION)) {
+    return talkState.cachedNews;
+  }
+  
+  try {
+    const country = await getUserCountry();
+    const response = await fetch(`/.netlify/functions/get-news?country=${country}`);
+    const data = await response.json();
+    
+    if (data.news && data.news.length > 0) {
+      talkState.cachedNews = {
+        news: data.news,
+        country: data.country,
+        countryNameJa: data.countryNameJa
+      };
+      talkState.lastNewsFetch = now;
+      talkState.newsUsedInSession = []; // Reset used news for new fetch
+      return talkState.cachedNews;
+    }
+  } catch (e) {
+    console.error('Failed to fetch news:', e);
+  }
+  
+  return null;
+}
+
+// Get an unused news item for conversation
+function getUnusedNewsItem() {
+  if (!talkState.cachedNews || !talkState.cachedNews.news) return null;
+  
+  const unusedNews = talkState.cachedNews.news.filter((_, idx) => 
+    !talkState.newsUsedInSession.includes(idx)
+  );
+  
+  if (unusedNews.length === 0) {
+    // All news used, reset
+    talkState.newsUsedInSession = [];
+    return talkState.cachedNews.news[0];
+  }
+  
+  const idx = talkState.cachedNews.news.indexOf(unusedNews[0]);
+  talkState.newsUsedInSession.push(idx);
+  return unusedNews[0];
+}
+
+// Start silence timer (10 seconds)
+function startSilenceTimer() {
+  clearSilenceTimer();
+  talkState.lastUserInput = Date.now();
+  talkState.silenceTimer = setTimeout(() => {
+    handleUserSilence();
+  }, 10000); // 10 seconds
+}
+
+// Clear silence timer
+function clearSilenceTimer() {
+  if (talkState.silenceTimer) {
+    clearTimeout(talkState.silenceTimer);
+    talkState.silenceTimer = null;
+  }
+}
+
+// Handle user silence - Sakura initiates conversation with news (uses Gemini free tier)
+async function handleUserSilence() {
+  // Don't interrupt if already speaking or processing
+  if (window.speechSynthesis && window.speechSynthesis.speaking) return;
+  
+  // Check if we have news
+  const newsData = await fetchUserNews();
+  if (!newsData) {
+    // No news, restart timer and wait
+    startSilenceTimer();
+    return;
+  }
+  
+  const newsItem = getUnusedNewsItem();
+  if (!newsItem) {
+    startSilenceTimer();
+    return;
+  }
+  
+  // Generate a natural news introduction
+  const countryName = newsData.countryNameJa || newsData.country;
+  const topic = newsItem.topicJa || 'ニュース';
+  const newsTitle = newsItem.title;
+  
+  const newsIntros = [
+    `そういえば、${countryName}で最近こんなニュースがありましたよ。`,
+    `ところで、${countryName}のニュースで気になるのがあったんですけど、`,
+    `あ、そうだ！${countryName}で面白いニュースを見たんです。`,
+    `ねえ、${countryName}のニュース、聞きました？`,
+    `最近のニュースなんですけど、`
+  ];
+  
+  const intro = newsIntros[Math.floor(Math.random() * newsIntros.length)];
+  
+  // Call Gemini to generate a natural conversation about this news (free tier)
+  try {
+    const response = await fetch('/.netlify/functions/talk-gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messages: [
+          ...talkState.conversationHistory,
+          { 
+            role: 'user', 
+            content: `[System: User has been silent. Bring up this news naturally: "${newsTitle}" (Topic: ${topic}, Country: ${countryName}). Keep it conversational and ask their opinion.]`
+          }
+        ],
+        level: state.level,
+        systemPrompt: `You are Sakura. The user has been quiet. Naturally bring up this news topic. Start with something like "${intro}" then briefly mention the news and ask what they think. Keep it short (2-3 sentences). Respond in JSON: {"ja": "...", "en": "..."}`
+      })
+    });
+    
+    const data = await response.json();
+    if (data.ja) {
+      addTalkMessage('ai', data.ja, data.en);
+      talkState.messages.push({ role: 'ai', ja: data.ja, en: data.en });
+      talkState.conversationHistory.push({ role: 'assistant', content: data.ja });
+    }
+  } catch (e) {
+    console.error('Failed to generate news conversation:', e);
+    // Fallback to template if API fails
+    const fallbackJa = `${intro}「${newsTitle}」っていうニュース、どう思います？`;
+    const fallbackEn = `${intro} What do you think about "${newsTitle}"?`;
+    addTalkMessage('ai', fallbackJa, fallbackEn);
+    talkState.messages.push({ role: 'ai', ja: fallbackJa, en: fallbackEn });
+    talkState.conversationHistory.push({ role: 'assistant', content: fallbackJa });
+  }
+  
+  // Restart silence timer (longer after news prompt - 30 seconds)
+  talkState.silenceTimer = setTimeout(() => {
+    handleUserSilence();
+  }, 30000);
 }
 
 // Fetch cached context from server
@@ -13044,6 +13226,7 @@ function getTimeBasedGreeting() {
 // Generate opening message based on context and user interests
 async function generateOpeningMessage() {
   const hour = new Date().getHours();
+  const today = new Date().toDateString();
   
   // If we don't know the user's name, always ask first
   if (!talkProfile.name) {
@@ -13095,42 +13278,158 @@ async function generateOpeningMessage() {
     };
   }
   
-  // Build topic question
-  let topicJa = '';
-  let topicEn = '';
+  // Try to use news as the first topic (priority over other topics)
+  try {
+    const newsData = await fetchUserNews();
+    if (newsData && newsData.news && newsData.news.length > 0) {
+      const newsItem = getUnusedNewsItem();
+      if (newsItem) {
+        const countryName = newsData.countryNameJa || newsData.country;
+        const newsTitle = newsItem.title;
+        
+        const newsIntros = [
+          `${countryName}のニュースで、`,
+          `最近のニュースなんですけど、`,
+          `そういえば、`,
+          `ところで、`
+        ];
+        const intro = newsIntros[Math.floor(Math.random() * newsIntros.length)];
+        
+        return {
+          ja: `${jaGreeting} ${intro}「${newsTitle}」って聞きました？どう思います？`,
+          en: `${enGreeting} Have you heard about "${newsTitle}"? What do you think?`
+        };
+      }
+    }
+  } catch (e) {
+    console.log('News not available for opening, using default topic');
+  }
   
-  // Check user interests for personalized topic
+  // Fallback to topic pool if no news available
+  // Topic pool - varied questions to avoid repetition
+  const topicPool = {
+    anime: [
+      { ja: '最近、何かアニメを見ていますか？', en: 'Have you been watching any anime lately?' },
+      { ja: '好きなアニメは何ですか？', en: 'What\'s your favorite anime?' },
+      { ja: '最近見たアニメで面白かったのはありますか？', en: 'Any interesting anime you\'ve watched recently?' },
+      { ja: '今期のアニメで気になるものはありますか？', en: 'Any anime this season catching your interest?' },
+    ],
+    sports: [
+      { ja: '最近、スポーツは見ましたか？', en: 'Have you watched any sports lately?' },
+      { ja: '好きなスポーツチームはありますか？', en: 'Do you have a favorite sports team?' },
+      { ja: '何かスポーツはしていますか？', en: 'Do you play any sports?' },
+      { ja: '最近、運動していますか？', en: 'Have you been exercising lately?' },
+    ],
+    music: [
+      { ja: '最近、どんな音楽を聴いていますか？', en: 'What kind of music have you been listening to?' },
+      { ja: '好きな歌手やバンドはいますか？', en: 'Do you have a favorite singer or band?' },
+      { ja: '最近、いい曲を見つけましたか？', en: 'Have you found any good songs lately?' },
+      { ja: '日本の音楽は聴きますか？', en: 'Do you listen to Japanese music?' },
+    ],
+    food: [
+      { ja: '今日は何を食べましたか？', en: 'What did you eat today?' },
+      { ja: '好きな食べ物は何ですか？', en: 'What\'s your favorite food?' },
+      { ja: '最近、美味しいものを食べましたか？', en: 'Have you eaten anything delicious lately?' },
+      { ja: '日本料理は好きですか？', en: 'Do you like Japanese food?' },
+    ],
+    morning: [
+      { ja: '今日は何をする予定ですか？', en: 'What are your plans for today?' },
+      { ja: 'よく眠れましたか？', en: 'Did you sleep well?' },
+      { ja: '今朝は何を食べましたか？', en: 'What did you have for breakfast?' },
+      { ja: '今日の天気はどうですか？', en: 'How\'s the weather today?' },
+    ],
+    afternoon: [
+      { ja: '今日はどうですか？', en: 'How is your day going?' },
+      { ja: 'お昼ご飯は食べましたか？', en: 'Have you had lunch?' },
+      { ja: '今日は忙しいですか？', en: 'Are you busy today?' },
+      { ja: '何か面白いことはありましたか？', en: 'Has anything interesting happened?' },
+    ],
+    evening: [
+      { ja: '今日はどんな一日でしたか？', en: 'How was your day?' },
+      { ja: '今日は何をしましたか？', en: 'What did you do today?' },
+      { ja: '夕ご飯は食べましたか？', en: 'Have you had dinner?' },
+      { ja: '今夜は何をする予定ですか？', en: 'What are your plans for tonight?' },
+    ],
+    general: [
+      { ja: '最近、何か新しいことを始めましたか？', en: 'Have you started anything new lately?' },
+      { ja: '週末は何をしましたか？', en: 'What did you do over the weekend?' },
+      { ja: '最近、楽しかったことは何ですか？', en: 'What\'s something fun you\'ve done recently?' },
+      { ja: '何か質問はありますか？', en: 'Do you have any questions?' },
+    ]
+  };
+  
+  // Get today's used topics from localStorage
+  const usedTopicsKey = `talk_used_topics_${today}`;
+  let usedTopics = [];
+  try {
+    const stored = localStorage.getItem(usedTopicsKey);
+    usedTopics = stored ? JSON.parse(stored) : [];
+  } catch (e) {
+    usedTopics = [];
+  }
+  
+  // Determine topic category
+  let category = 'general';
   const topInterest = getTopInterest();
   
-  if (topInterest === 'anime') {
-    topicJa = '最近、何かアニメを見ていますか？';
-    topicEn = 'Have you been watching any anime lately?';
-  } else if (topInterest === 'sports') {
-    topicJa = '最近、スポーツは見ましたか？';
-    topicEn = 'Have you watched any sports lately?';
-  } else if (topInterest === 'music') {
-    topicJa = '最近、どんな音楽を聴いていますか？';
-    topicEn = 'What kind of music have you been listening to?';
-  } else if (topInterest === 'food') {
-    topicJa = '今日は何を食べましたか？';
-    topicEn = 'What did you eat today?';
+  if (topInterest && topicPool[topInterest]) {
+    category = topInterest;
+  } else if (hour >= 5 && hour < 12) {
+    category = 'morning';
+  } else if (hour >= 12 && hour < 18) {
+    category = 'afternoon';
   } else {
-    // Default topics based on time
-    if (hour >= 5 && hour < 12) {
-      topicJa = '今日は何をする予定ですか？';
-      topicEn = 'What are your plans for today?';
-    } else if (hour >= 12 && hour < 18) {
-      topicJa = '今日はどうですか？';
-      topicEn = 'How is your day going?';
-    } else {
-      topicJa = '今日はどんな一日でしたか？';
-      topicEn = 'How was your day?';
+    category = 'evening';
+  }
+  
+  // Get available topics (not used today)
+  let availableTopics = topicPool[category].filter((t, i) => 
+    !usedTopics.includes(`${category}_${i}`)
+  );
+  
+  // If all topics in category used, try general or reset
+  if (availableTopics.length === 0) {
+    availableTopics = topicPool.general.filter((t, i) => 
+      !usedTopics.includes(`general_${i}`)
+    );
+  }
+  
+  // If still empty, reset and use any
+  if (availableTopics.length === 0) {
+    usedTopics = [];
+    availableTopics = topicPool[category];
+  }
+  
+  // Pick random topic
+  const topicIndex = Math.floor(Math.random() * availableTopics.length);
+  const selectedTopic = availableTopics[topicIndex];
+  
+  // Record used topic
+  const originalIndex = topicPool[category].findIndex(t => t.ja === selectedTopic.ja);
+  if (originalIndex !== -1) {
+    usedTopics.push(`${category}_${originalIndex}`);
+  } else {
+    const generalIndex = topicPool.general.findIndex(t => t.ja === selectedTopic.ja);
+    if (generalIndex !== -1) {
+      usedTopics.push(`general_${generalIndex}`);
     }
   }
   
+  // Save used topics
+  try {
+    localStorage.setItem(usedTopicsKey, JSON.stringify(usedTopics));
+    // Clean up old dates
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      if (key && key.startsWith('talk_used_topics_') && key !== usedTopicsKey) {
+        localStorage.removeItem(key);
+      }
+    }
+  } catch (e) {}
+  
   return {
-    ja: `${jaGreeting} ${topicJa}`,
-    en: `${enGreeting} ${topicEn}`
+    ja: `${jaGreeting} ${selectedTopic.ja}`,
+    en: `${enGreeting} ${selectedTopic.en}`
   };
 }
 
@@ -13263,6 +13562,12 @@ function updateTalkUnitCard() {
 
 // Start unit-linked conversation
 async function startTalkUnit() {
+  // Check Premium access
+  if (!canUseAITutor()) {
+    showUpgradeModal('ai', 'Premium');
+    return;
+  }
+  
   const level = state.level;
   const d = DATA[level];
   if (!d) return;
@@ -13302,8 +13607,12 @@ async function startTalkUnit() {
   talkState.currentScenario = 'unit';
   talkState.messages = [];
   talkState.conversationHistory = [];
+  talkState.newsUsedInSession = []; // Reset news tracking
   
   showTalkChat(`${level} Unit 1-${upToUnit}`);
+  
+  // Prefetch news for this user's country
+  fetchUserNews();
   
   // Generate dynamic opening message
   generateOpeningMessage().then(firstMessage => {
@@ -13312,6 +13621,8 @@ async function startTalkUnit() {
     talkProfile.conversationCount++;
     talkProfile.lastConversation = new Date().toISOString();
     saveTalkProfile();
+    // Start silence timer after greeting
+    startSilenceTimer();
   });
   
   // Hide suggestions for cleaner UI
@@ -13320,6 +13631,12 @@ async function startTalkUnit() {
 
 // Start scenario conversation
 function startTalkScenario(scenarioId) {
+  // Check Premium access
+  if (!canUseAITutor()) {
+    showUpgradeModal('ai', 'Premium');
+    return;
+  }
+  
   const scenario = TALK_SCENARIOS[scenarioId];
   if (!scenario) return;
   
@@ -13328,14 +13645,21 @@ function startTalkScenario(scenarioId) {
   talkState.unitRestrictions = null;
   talkState.messages = [];
   talkState.conversationHistory = [];
+  talkState.newsUsedInSession = []; // Reset news tracking
   
   showTalkChat(getText(scenario.nameKey) || scenario.name);
+  
+  // Prefetch news for this user's country
+  fetchUserNews();
   
   // Use scenario's first message (AI speaks first)
   addTalkMessage('ai', scenario.firstMessage.ja, scenario.firstMessage.en);
   talkProfile.conversationCount++;
   talkProfile.lastConversation = new Date().toISOString();
   saveTalkProfile();
+  
+  // Start silence timer after greeting
+  startSilenceTimer();
   
   // Hide suggestions for cleaner UI
   showTalkSuggestions([]);
@@ -13355,6 +13679,9 @@ function showTalkChat(title) {
 
 // Exit chat
 function exitTalkChat() {
+  // Clear silence timer when exiting
+  clearSilenceTimer();
+  
   document.getElementById('talk-chat').style.display = 'none';
   document.getElementById('talk-welcome').style.display = 'flex';
   talkState.currentScenario = null;
@@ -13506,6 +13833,9 @@ async function sendTalkMessage() {
   const text = input.value.trim();
   if (!text) return;
   
+  // Reset silence timer on user input
+  clearSilenceTimer();
+  
   // Check if user is providing their name (first conversation)
   if (!talkProfile.name && talkProfile.conversationCount <= 1) {
     const nameMatch = text.match(/(?:私は|僕は|名前は|I'm |I am |My name is |call me )?([\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF\w]+)/i);
@@ -13564,6 +13894,9 @@ async function sendTalkMessage() {
   
   // Update suggestions
   updateTalkSuggestions();
+  
+  // Restart silence timer after AI response
+  startSilenceTimer();
 }
 
 // Call Gemini API via Netlify Function

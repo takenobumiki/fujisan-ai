@@ -3,8 +3,8 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const CACHE_NAME = 'fujisan-v19.8.21';
-const APP_VERSION = '19.8.21';
+const CACHE_NAME = 'fujisan-v19.8.26';
+const APP_VERSION = '19.8.26';
 
 const urlsToCache = [
   '/',
