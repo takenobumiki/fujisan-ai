@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.6';
+const APP_VERSION = '19.8.7';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13317,13 +13317,11 @@ function startTalkScenario(scenarioId) {
   
   showTalkChat(getText(scenario.nameKey) || scenario.name);
   
-  // Generate dynamic opening message for scenarios too
-  generateOpeningMessage().then(firstMessage => {
-    addTalkMessage('ai', firstMessage.ja, firstMessage.en);
-    talkProfile.conversationCount++;
-    talkProfile.lastConversation = new Date().toISOString();
-    saveTalkProfile();
-  });
+  // Use scenario's first message (AI speaks first)
+  addTalkMessage('ai', scenario.firstMessage.ja, scenario.firstMessage.en);
+  talkProfile.conversationCount++;
+  talkProfile.lastConversation = new Date().toISOString();
+  saveTalkProfile();
   
   // Hide suggestions for cleaner UI
   showTalkSuggestions([]);
