@@ -3,26 +3,46 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.28';
+const APP_VERSION = '19.8.29';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
-// ========== VERSION INTEGRITY CHECK ==========
-// 起動時にversionファイルと照合し、不一致なら警告
-(async function checkVersionIntegrity() {
+// ========== IMMEDIATE VERSION CHECK & AUTO-UPDATE ==========
+// 起動直後にバージョンをチェックし、古ければ即座に更新
+(async function immediateVersionCheck() {
   try {
     const res = await fetch('/version?t=' + Date.now(), { cache: 'no-store' });
     if (!res.ok) return;
     const serverVersion = (await res.text()).trim();
-    if (serverVersion !== APP_VERSION) {
-      console.error(`[VERSION MISMATCH] app.js: ${APP_VERSION}, version file: ${serverVersion}`);
-      console.error('[VERSION MISMATCH] Run sync-version.sh before deploying!');
-      // 開発者向け警告（本番では非表示）
-      if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
-        alert(`⚠️ VERSION MISMATCH!\n\napp.js: ${APP_VERSION}\nversion file: ${serverVersion}\n\nRun: ./sync-version.sh`);
+    
+    console.log('[Boot] Local version:', APP_VERSION, 'Server version:', serverVersion);
+    
+    if (serverVersion && serverVersion !== APP_VERSION) {
+      console.log('[Boot] Version mismatch detected! Forcing update...');
+      
+      // Clear all caches
+      if ('caches' in window) {
+        const cacheNames = await caches.keys();
+        await Promise.all(cacheNames.map(name => caches.delete(name)));
+        console.log('[Boot] Caches cleared');
       }
+      
+      // Unregister service workers
+      if ('serviceWorker' in navigator) {
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        for (const reg of registrations) {
+          await reg.unregister();
+        }
+        console.log('[Boot] Service workers unregistered');
+      }
+      
+      // Hard reload
+      window.location.reload(true);
+      return; // Stop execution
     }
-  } catch(e) { /* ignore */ }
+  } catch(e) {
+    console.log('[Boot] Version check failed:', e.message);
+  }
 })();
 
 // ========== FURIGANA SYSTEM ==========
