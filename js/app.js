@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.2';
+const APP_VERSION = '19.8.3';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -12636,6 +12636,10 @@ function shouldShowFeedbackPopup() {
   
   // Don't show during onboarding
   if (!state.onboardingComplete) return false;
+  
+  // Don't show on Talk screen
+  const talkScreen = document.getElementById('screen-talk');
+  if (talkScreen && talkScreen.classList.contains('active')) return false;
   
   // Check if at least 7 days since signup
   const signupDate = state.trialStart || state.createdAt;
