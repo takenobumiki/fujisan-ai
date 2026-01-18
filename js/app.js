@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.7';
+const APP_VERSION = '19.8.8';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13664,14 +13664,100 @@ function updateTalkSuggestions() {
 }
 
 // Speak message (remove furigana in parentheses)
+// Japanese TTS with natural voice selection
+let cachedJapaneseVoice = null;
+
+function getBestJapaneseVoice() {
+  if (cachedJapaneseVoice) return cachedJapaneseVoice;
+  
+  const voices = speechSynthesis.getVoices();
+  if (voices.length === 0) return null;
+  
+  // Priority order for natural Japanese voices
+  const priorityNames = [
+    // iOS/macOS - very natural
+    'Kyoko', 'Otoya', 'O-Ren', 'Hattori',
+    // Google - good quality
+    'Google 日本語',
+    // Microsoft - decent
+    'Microsoft Nanami', 'Microsoft Keita',
+    'Haruka', 'Ichiro', 'Sayaka',
+    // Android
+    'ja-JP-language', 'Japanese'
+  ];
+  
+  // First try priority voices
+  for (const name of priorityNames) {
+    const voice = voices.find(v => 
+      v.name.includes(name) && v.lang.startsWith('ja')
+    );
+    if (voice) {
+      cachedJapaneseVoice = voice;
+      console.log('Selected Japanese voice:', voice.name);
+      return voice;
+    }
+  }
+  
+  // Fallback: any Japanese voice, prefer local over network
+  const jaVoices = voices.filter(v => v.lang.startsWith('ja'));
+  const localVoice = jaVoices.find(v => v.localService);
+  if (localVoice) {
+    cachedJapaneseVoice = localVoice;
+    return localVoice;
+  }
+  
+  cachedJapaneseVoice = jaVoices[0] || null;
+  return cachedJapaneseVoice;
+}
+
 function speakTalkMessage(text) {
-  if ('speechSynthesis' in window) {
-    // Remove furigana in parentheses like (てんき) or （てんき）
-    const cleanText = text.replace(/[（(][ぁ-んァ-ン]+[）)]/g, '');
+  if (!('speechSynthesis' in window)) return;
+  
+  // Cancel any ongoing speech
+  speechSynthesis.cancel();
+  
+  // Remove furigana in parentheses like (てんき) or （てんき）
+  let cleanText = text.replace(/[（(][ぁ-んァ-ン]+[）)]/g, '');
+  
+  // Add natural pauses at punctuation
+  cleanText = cleanText
+    .replace(/。/g, '。 ')  // Pause after period
+    .replace(/、/g, '、')   // Short pause after comma
+    .replace(/！/g, '！ ')  // Pause after exclamation
+    .replace(/？/g, '？ '); // Pause after question
+  
+  const speak = () => {
+    const voice = getBestJapaneseVoice();
     const utterance = new SpeechSynthesisUtterance(cleanText);
+    
     utterance.lang = 'ja-JP';
-    utterance.rate = 0.9;
+    utterance.rate = 0.85;  // Slightly slower for clarity
+    utterance.pitch = 1.0;
+    
+    if (voice) {
+      utterance.voice = voice;
+    }
+    
+    // Handle iOS audio context requirement
+    utterance.onstart = () => {
+      console.log('TTS started');
+    };
+    
+    utterance.onerror = (e) => {
+      console.error('TTS error:', e);
+    };
+    
     speechSynthesis.speak(utterance);
+  };
+  
+  // Ensure voices are loaded
+  if (speechSynthesis.getVoices().length === 0) {
+    speechSynthesis.onvoiceschanged = () => {
+      cachedJapaneseVoice = null; // Reset cache
+      speak();
+    };
+  } else {
+    speak();
   }
 }
 
