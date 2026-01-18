@@ -2911,6 +2911,8 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   display: flex;
   flex-direction: column;
   gap: 16px;
+  overflow: hidden; /* Prevent content overflow */
+  min-height: 0; /* Important for flex children to shrink */
 }
 
 /* AI Hero Card (Primary CTA) */
@@ -3816,9 +3818,10 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .talk-chat {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 140px);
-  height: calc(100dvh - 140px); /* Dynamic viewport for mobile */
-  min-height: 300px;
+  height: calc(100vh - 320px);
+  height: calc(100dvh - 320px); /* Dynamic viewport for mobile: header(130) + lang(40) + level(40) + footer(70) + padding */
+  min-height: 250px;
+  max-height: calc(100dvh - 280px);
   position: relative;
 }
 .talk-chat-header {
