@@ -8,6 +8,10 @@
 [context.production]
   environment = { NODE_VERSION = "18" }
 
+# Enable Netlify Blobs
+[blobs]
+  enabled = true
+
 # Stripe Webhook endpoint
 [[redirects]]
   from = "/api/stripe-webhook"

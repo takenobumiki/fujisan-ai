@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.7.8';
+const APP_VERSION = '19.8.0';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -12966,11 +12966,226 @@ let talkState = {
   messages: [],
   conversationHistory: [],
   isUnitMode: false,
-  unitRestrictions: null
+  unitRestrictions: null,
+  cachedContext: null,
+  lastContextFetch: null
 };
+
+// Talk user profile (persisted in localStorage)
+const TALK_PROFILE_KEY = 'fujisan_talk_profile';
+let talkProfile = {
+  name: null,
+  interests: {}, // { "anime": 5, "sports": 2, ... }
+  lastTopics: [], // Last 5 conversation topics
+  conversationCount: 0,
+  lastConversation: null,
+  pendingFollowUp: null // "前回の転職の話、どうなりました？"
+};
+
+// Load talk profile from localStorage
+function loadTalkProfile() {
+  try {
+    const saved = localStorage.getItem(TALK_PROFILE_KEY);
+    if (saved) {
+      talkProfile = { ...talkProfile, ...JSON.parse(saved) };
+    }
+  } catch (e) {
+    console.error('Failed to load talk profile:', e);
+  }
+}
+
+// Save talk profile to localStorage
+function saveTalkProfile() {
+  try {
+    localStorage.setItem(TALK_PROFILE_KEY, JSON.stringify(talkProfile));
+  } catch (e) {
+    console.error('Failed to save talk profile:', e);
+  }
+}
+
+// Fetch cached context from server
+async function fetchCachedContext() {
+  // Cache for 30 minutes client-side
+  const now = Date.now();
+  if (talkState.cachedContext && talkState.lastContextFetch && (now - talkState.lastContextFetch < 30 * 60 * 1000)) {
+    return talkState.cachedContext;
+  }
+  
+  try {
+    const lang = state.lang || 'en';
+    const response = await fetch(`/.netlify/functions/get-context?lang=${lang}`);
+    const data = await response.json();
+    if (data.context) {
+      talkState.cachedContext = data.context;
+      talkState.lastContextFetch = now;
+      return data.context;
+    }
+  } catch (e) {
+    console.error('Failed to fetch context:', e);
+  }
+  return null;
+}
+
+// Get time-based greeting
+function getTimeBasedGreeting() {
+  const hour = new Date().getHours();
+  const name = talkProfile.name ? `${talkProfile.name}さん、` : '';
+  
+  if (hour >= 5 && hour < 10) {
+    return { ja: `${name}おはようございます！`, en: `Good morning${talkProfile.name ? ' ' + talkProfile.name : ''}!` };
+  } else if (hour >= 10 && hour < 12) {
+    return { ja: `${name}こんにちは！`, en: `Hello${talkProfile.name ? ' ' + talkProfile.name : ''}!` };
+  } else if (hour >= 12 && hour < 14) {
+    return { ja: `${name}こんにちは！お昼ごはんは食べましたか？`, en: `Hello! Have you had lunch yet?` };
+  } else if (hour >= 14 && hour < 17) {
+    return { ja: `${name}こんにちは！`, en: `Good afternoon${talkProfile.name ? ' ' + talkProfile.name : ''}!` };
+  } else if (hour >= 17 && hour < 21) {
+    return { ja: `${name}こんばんは！お疲れさまです。`, en: `Good evening! Thanks for your hard work today.` };
+  } else {
+    return { ja: `${name}こんばんは！遅くまでお疲れさまです。`, en: `Good evening! Working late?` };
+  }
+}
+
+// Generate opening message based on context and user interests
+async function generateOpeningMessage() {
+  const greeting = getTimeBasedGreeting();
+  const context = await fetchCachedContext();
+  
+  let topicMessage = { ja: '', en: '' };
+  
+  // If returning user with pending follow-up
+  if (talkProfile.pendingFollowUp && talkProfile.conversationCount > 0) {
+    return {
+      ja: `${greeting.ja} ${talkProfile.pendingFollowUp}`,
+      en: greeting.en
+    };
+  }
+  
+  // Check user interests and context
+  const topInterest = getTopInterest();
+  
+  if (context) {
+    if (topInterest === 'anime' && context.anime?.trending?.[0]) {
+      topicMessage = {
+        ja: `最近「${context.anime.trending[0]}」が人気みたいですね。見ていますか？`,
+        en: `"${context.anime.trending[0]}" seems popular lately. Are you watching it?`
+      };
+    } else if (topInterest === 'sports' && context.sports?.recent) {
+      topicMessage = {
+        ja: `${context.sports.recent}。スポーツは好きですか？`,
+        en: `${context.sports.recent}. Do you like sports?`
+      };
+    } else if (topInterest === 'news' && context.news?.[0]) {
+      topicMessage = {
+        ja: `${context.news[0].headline}というニュースがありましたね。`,
+        en: `There was news about "${context.news[0].headline}".`
+      };
+    } else if (context.weather) {
+      topicMessage = {
+        ja: `今日の天気は${context.weather.description}ですね。`,
+        en: `The weather today is ${context.weather.condition}.`
+      };
+    } else if (context.anime?.trending?.[0]) {
+      // Default to anime for language learners
+      topicMessage = {
+        ja: `最近「${context.anime.trending[0]}」というアニメが人気みたいですよ。知っていますか？`,
+        en: `"${context.anime.trending[0]}" anime seems popular lately. Do you know it?`
+      };
+    }
+  }
+  
+  // First time user - ask name
+  if (!talkProfile.name && talkProfile.conversationCount === 0) {
+    return {
+      ja: `${greeting.ja} 初めまして！私はAIの会話パートナーです。お名前を教えてもらえますか？`,
+      en: `${greeting.en} Nice to meet you! I'm your AI conversation partner. May I know your name?`
+    };
+  }
+  
+  return {
+    ja: `${greeting.ja} ${topicMessage.ja}`,
+    en: `${greeting.en} ${topicMessage.en}`
+  };
+}
+
+// Get user's top interest
+function getTopInterest() {
+  const interests = talkProfile.interests;
+  if (!interests || Object.keys(interests).length === 0) return null;
+  
+  return Object.entries(interests).sort((a, b) => b[1] - a[1])[0][0];
+}
+
+// Update interest score based on conversation
+function updateInterestScore(message) {
+  const keywords = {
+    anime: ['アニメ', 'anime', '漫画', 'manga', 'マンガ', '鬼滅', '進撃', 'ワンピース', 'ナルト'],
+    sports: ['サッカー', 'soccer', '野球', 'baseball', 'バスケ', 'スポーツ', 'sport', '試合'],
+    music: ['音楽', 'music', '歌', 'song', 'アーティスト', 'バンド', 'コンサート'],
+    movies: ['映画', 'movie', 'film', 'ドラマ', 'drama', 'Netflix'],
+    food: ['料理', '食べ', 'ご飯', 'レストラン', '美味しい', 'food', 'eat', 'delicious'],
+    travel: ['旅行', 'travel', '旅', '観光', '国', 'country'],
+    work: ['仕事', 'work', '会社', 'company', '転職', 'キャリア', 'career'],
+    study: ['勉強', 'study', '日本語', 'JLPT', '試験', 'exam', '学校'],
+    news: ['ニュース', 'news', '政治', 'politics', '経済', 'economy']
+  };
+  
+  const lowerMsg = message.toLowerCase();
+  
+  for (const [category, words] of Object.entries(keywords)) {
+    for (const word of words) {
+      if (lowerMsg.includes(word.toLowerCase())) {
+        talkProfile.interests[category] = (talkProfile.interests[category] || 0) + 1;
+      }
+    }
+  }
+  
+  saveTalkProfile();
+}
+
+// Detect user emotion from message
+function detectEmotion(message) {
+  const emotions = {
+    tired: ['疲れ', '眠い', 'つかれ', '大変', 'tired', 'sleepy', 'exhausted'],
+    happy: ['嬉しい', '楽しい', 'うれしい', 'たのしい', '最高', 'happy', 'great', 'awesome', '！！'],
+    sad: ['悲しい', '辛い', 'つらい', 'かなしい', 'sad', 'difficult', '困'],
+    excited: ['すごい', 'やばい', 'すげー', 'マジ', 'excited', 'amazing', 'wow'],
+    worried: ['心配', '不安', 'しんぱい', 'ふあん', 'worried', 'anxious', 'nervous']
+  };
+  
+  const lowerMsg = message.toLowerCase();
+  
+  for (const [emotion, words] of Object.entries(emotions)) {
+    for (const word of words) {
+      if (lowerMsg.includes(word.toLowerCase())) {
+        return emotion;
+      }
+    }
+  }
+  return null;
+}
+
+// Extract potential follow-up topic
+function extractFollowUpTopic(message) {
+  const followUpPatterns = [
+    { pattern: /転職|仕事.*変/, followUp: '転職の話、その後どうなりましたか？' },
+    { pattern: /試験|テスト|JLPT/, followUp: '試験の準備は順調ですか？' },
+    { pattern: /旅行.*計画|行きたい.*国/, followUp: '旅行の計画、進んでいますか？' },
+    { pattern: /引っ越|引越/, followUp: '引っ越しはどうなりましたか？' },
+    { pattern: /彼女|彼氏|デート/, followUp: '最近、恋愛の方はどうですか？' }
+  ];
+  
+  for (const { pattern, followUp } of followUpPatterns) {
+    if (pattern.test(message)) {
+      return followUp;
+    }
+  }
+  return null;
+}
 
 // Initialize Talk screen
 function initTalkScreen() {
+  loadTalkProfile();
   updateTalkUnitCard();
   initTalkInputListeners();
   
@@ -13058,12 +13273,15 @@ async function startTalkUnit() {
   
   showTalkChat(`${level} Unit 1-${upToUnit}`);
   
-  // First AI message (Japanese is always shown, translation based on user language)
-  const firstMessage = {
-    ja: `こんにちは！${level}の単語を使って話しましょう。何について話したいですか？`,
-    en: `Hello! Let's talk using ${level} vocabulary. What would you like to talk about?`
-  };
-  addTalkMessage('ai', firstMessage.ja, firstMessage.en);
+  // Generate dynamic opening message
+  generateOpeningMessage().then(firstMessage => {
+    addTalkMessage('ai', firstMessage.ja, firstMessage.en);
+    // Increment conversation count
+    talkProfile.conversationCount++;
+    talkProfile.lastConversation = new Date().toISOString();
+    saveTalkProfile();
+  });
+  
   // Hide suggestions for cleaner UI
   showTalkSuggestions([]);
 }
@@ -13080,7 +13298,15 @@ function startTalkScenario(scenarioId) {
   talkState.conversationHistory = [];
   
   showTalkChat(getText(scenario.nameKey) || scenario.name);
-  addTalkMessage('ai', scenario.firstMessage.ja, scenario.firstMessage.en);
+  
+  // Generate dynamic opening message for scenarios too
+  generateOpeningMessage().then(firstMessage => {
+    addTalkMessage('ai', firstMessage.ja, firstMessage.en);
+    talkProfile.conversationCount++;
+    talkProfile.lastConversation = new Date().toISOString();
+    saveTalkProfile();
+  });
+  
   // Hide suggestions for cleaner UI
   showTalkSuggestions([]);
 }
@@ -13218,6 +13444,33 @@ async function sendTalkMessage() {
   const text = input.value.trim();
   if (!text) return;
   
+  // Check if user is providing their name (first conversation)
+  if (!talkProfile.name && talkProfile.conversationCount <= 1) {
+    const nameMatch = text.match(/(?:私は|僕は|名前は|I'm |I am |My name is |call me )?([\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FFF\w]+)/i);
+    if (nameMatch && nameMatch[1] && nameMatch[1].length <= 20) {
+      const potentialName = nameMatch[1];
+      // Simple validation - not common words
+      const commonWords = ['はい', 'いいえ', 'です', 'ます', 'yes', 'no', 'hello'];
+      if (!commonWords.includes(potentialName.toLowerCase())) {
+        talkProfile.name = potentialName;
+        saveTalkProfile();
+      }
+    }
+  }
+  
+  // Update interest scores
+  updateInterestScore(text);
+  
+  // Extract potential follow-up topic
+  const followUp = extractFollowUpTopic(text);
+  if (followUp) {
+    talkProfile.pendingFollowUp = followUp;
+    saveTalkProfile();
+  }
+  
+  // Detect emotion for context
+  const emotion = detectEmotion(text);
+  
   // Add user message
   addTalkMessage('user', text, '');
   input.value = '';
@@ -13226,8 +13479,8 @@ async function sendTalkMessage() {
   // Show typing
   showTalkTyping();
   
-  // Call Gemini
-  const response = await callTalkGemini(text);
+  // Call Gemini with emotion context
+  const response = await callTalkGemini(text, emotion);
   
   // Hide typing
   hideTalkTyping();
@@ -13241,52 +13494,113 @@ async function sendTalkMessage() {
   // Add AI response
   addTalkMessage('ai', cleanJa, cleanEn, cleanFeedback);
   
+  // Clear pending follow-up if we used it
+  if (talkProfile.pendingFollowUp) {
+    talkProfile.pendingFollowUp = null;
+    saveTalkProfile();
+  }
+  
   // Update suggestions
   updateTalkSuggestions();
 }
 
 // Call Gemini API via Netlify Function
-async function callTalkGemini(userMessage) {
+async function callTalkGemini(userMessage, emotion = null) {
   let systemPrompt = '';
   
+  // Get user context (time, timezone)
+  const now = new Date();
+  const userTime = now.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' });
+  const userDate = now.toLocaleDateString('ja-JP', { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
+  const hour = now.getHours();
+  let timeOfDay = 'morning';
+  if (hour >= 12 && hour < 17) timeOfDay = 'afternoon';
+  else if (hour >= 17 && hour < 21) timeOfDay = 'evening';
+  else if (hour >= 21 || hour < 5) timeOfDay = 'night';
+  
+  // Build user profile context
+  let profileContext = '';
+  if (talkProfile.name) {
+    profileContext += `- User's name: ${talkProfile.name} (address them by name occasionally)\n`;
+  }
+  const topInterest = getTopInterest();
+  if (topInterest) {
+    profileContext += `- User's main interest: ${topInterest}\n`;
+  }
+  
+  // Build emotion context
+  let emotionContext = '';
+  if (emotion) {
+    const emotionResponses = {
+      tired: 'User seems tired. Show empathy, ask if they are okay.',
+      happy: 'User seems happy! Share their excitement, ask what happened.',
+      sad: 'User seems sad. Be supportive and gentle, offer to listen.',
+      excited: 'User is excited! Match their energy, show enthusiasm.',
+      worried: 'User seems worried. Be reassuring and supportive.'
+    };
+    emotionContext = `\nUSER EMOTION: ${emotionResponses[emotion] || ''}`;
+  }
+  
+  // Build cached context
+  let cachedInfo = '';
+  if (talkState.cachedContext) {
+    const ctx = talkState.cachedContext;
+    cachedInfo = `
+CURRENT REAL-WORLD INFO (use naturally when relevant):`;
+    if (ctx.weather) cachedInfo += `\n- Weather: ${ctx.weather.description || ctx.weather.condition}`;
+    if (ctx.anime?.trending) cachedInfo += `\n- Popular anime: ${ctx.anime.trending.slice(0, 2).join(', ')}`;
+    if (ctx.news?.[0]) cachedInfo += `\n- Recent news: ${ctx.news[0].headline}`;
+    if (ctx.sports?.recent) cachedInfo += `\n- Sports: ${ctx.sports.recent}`;
+    if (ctx.events?.holiday) cachedInfo += `\n- Holiday: ${ctx.events.holiday}`;
+  }
+  
+  const userContext = `
+CURRENT CONTEXT:
+- Current time: ${userTime} (${timeOfDay})
+- Current date: ${userDate}
+${profileContext}${cachedInfo}${emotionContext}`;
+
   const commonRules = `
-CRITICAL RULES - MUST FOLLOW:
-1. NEVER use markdown: no **, no *, no quotes, no formatting
-2. Write plain Japanese text only
-3. Keep responses short and natural (1-2 sentences)
-4. Respond naturally to what the user actually said
-5. Ask simple follow-up questions
-6. Be friendly and encouraging
+CONVERSATION STYLE - BE NATURAL AND FRIENDLY:
+1. NEVER use markdown: no **, no *, no quotes
+2. Use natural Japanese with appropriate 相槌 (aizuchi) like へー、なるほど、そうですか
+3. Keep responses short (1-2 sentences)
+4. Show genuine interest in what the user says
+5. React to their emotions appropriately
+6. Ask follow-up questions naturally
+7. Use the user's name occasionally if known
+8. Reference current context (weather, news, anime) when natural
 
 FORBIDDEN:
 - **word** or *word* formatting
-- Putting emphasis marks around words
-- Unnatural or robotic responses`;
+- Robotic or formal responses
+- Asking multiple questions at once
+- Ignoring user's emotions`;
 
 
   if (talkState.isUnitMode && talkState.unitRestrictions) {
     // Unit-linked mode with vocabulary restrictions
-    systemPrompt = `You are a friendly Japanese conversation partner helping a JLPT ${state.level} learner practice conversation.
+    systemPrompt = `You are a warm, friendly Japanese conversation partner named ゆき. Help JLPT ${state.level} learners practice natural conversation.
 
 VOCABULARY RESTRICTIONS:
 Prefer using these words: ${talkState.unitRestrictions.vocab.slice(0, 30).join(', ')}
 
 ${TALK_LEVEL_INSTRUCTIONS[state.level]}
+${userContext}
 ${commonRules}
 
-Keep your responses short (1-2 sentences). Be encouraging and natural.
 Always respond in JSON format: {"ja": "Japanese response", "en": "English translation"}
 ONLY add "feedback" field if there is an actual grammar mistake to correct.`;
   } else {
     const scenario = TALK_SCENARIOS[talkState.currentScenario];
-    systemPrompt = `${scenario ? scenario.prompt : 'You are a friendly Japanese conversation partner.'}
+    systemPrompt = `You are a warm, friendly Japanese conversation partner named ゆき. ${scenario ? scenario.prompt : 'Have a natural conversation to help the user practice Japanese.'}
 
 ${TALK_LEVEL_INSTRUCTIONS[state.level]}
+${userContext}
 ${commonRules}
 
 Always respond in JSON format: {"ja": "Japanese response", "en": "English translation"}
-ONLY add "feedback" field if there is an actual grammar mistake to correct.
-Keep responses short (1-2 sentences).`;
+ONLY add "feedback" field if there is an actual grammar mistake to correct.`;
   }
   
   // Add user message to state

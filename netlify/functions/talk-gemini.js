@@ -42,6 +42,9 @@ exports.handler = async (event) => {
         body: JSON.stringify({
           contents: geminiMessages,
           systemInstruction: { parts: [{ text: systemPrompt }] },
+          tools: [{
+            googleSearch: {}
+          }],
           generationConfig: {
             temperature: 0.8,
             maxOutputTokens: 500
