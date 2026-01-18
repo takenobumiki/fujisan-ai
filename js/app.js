@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.9';
+const APP_VERSION = '19.8.12';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13059,87 +13059,78 @@ function getTimeBasedGreeting() {
 
 // Generate opening message based on context and user interests
 async function generateOpeningMessage() {
-  const greeting = getTimeBasedGreeting();
+  const hour = new Date().getHours();
   
   // First time user - ask name FIRST (before anything else)
   if (!talkProfile.name && talkProfile.conversationCount <= 1) {
     return {
-      ja: `こんにちは！初めまして。私はAIの会話パートナーです。お名前を教えてもらえますか？`,
-      en: `Hello! Nice to meet you! I'm your AI conversation partner. May I know your name?`
+      ja: 'こんにちは！初めまして。私はさくらです。日本語の練習を手伝いますね！お名前を教えてもらえますか？',
+      en: "Hello! Nice to meet you! I'm Sakura. I'll help you practice Japanese! May I know your name?"
     };
   }
   
   // Get user name for greeting
-  const userName = talkProfile.name ? `${talkProfile.name}さん` : '';
+  const userName = talkProfile.name || '';
+  
+  // Build time-based greeting
+  let jaGreeting = '';
+  let enGreeting = '';
+  
+  if (hour >= 5 && hour < 12) {
+    jaGreeting = userName ? `${userName}さん、おはようございます！` : 'おはようございます！';
+    enGreeting = userName ? `Good morning, ${userName}!` : 'Good morning!';
+  } else if (hour >= 12 && hour < 18) {
+    jaGreeting = userName ? `${userName}さん、こんにちは！` : 'こんにちは！';
+    enGreeting = userName ? `Hello, ${userName}!` : 'Hello!';
+  } else {
+    jaGreeting = userName ? `${userName}さん、こんばんは！` : 'こんばんは！';
+    enGreeting = userName ? `Good evening, ${userName}!` : 'Good evening!';
+  }
   
   // If returning user with pending follow-up
   if (talkProfile.pendingFollowUp && talkProfile.conversationCount > 1) {
     return {
-      ja: `${userName}${userName ? '、' : ''}${greeting.ja.replace(/さん、|さん/g, '')} ${talkProfile.pendingFollowUp}`,
-      en: greeting.en
+      ja: `${jaGreeting} ${talkProfile.pendingFollowUp}`,
+      en: enGreeting
     };
   }
   
-  // Simple time-based greetings with optional topic
-  const hour = new Date().getHours();
-  let topicMessage = { ja: '', en: '' };
+  // Build topic question
+  let topicJa = '';
+  let topicEn = '';
   
   // Check user interests for personalized topic
   const topInterest = getTopInterest();
   
   if (topInterest === 'anime') {
-    topicMessage = {
-      ja: '最近、何かアニメを見ていますか？',
-      en: 'Have you been watching any anime lately?'
-    };
+    topicJa = '最近、何かアニメを見ていますか？';
+    topicEn = 'Have you been watching any anime lately?';
   } else if (topInterest === 'sports') {
-    topicMessage = {
-      ja: '最近、スポーツは見ましたか？',
-      en: 'Have you watched any sports lately?'
-    };
+    topicJa = '最近、スポーツは見ましたか？';
+    topicEn = 'Have you watched any sports lately?';
   } else if (topInterest === 'music') {
-    topicMessage = {
-      ja: '最近、どんな音楽を聴いていますか？',
-      en: 'What kind of music have you been listening to?'
-    };
+    topicJa = '最近、どんな音楽を聴いていますか？';
+    topicEn = 'What kind of music have you been listening to?';
   } else if (topInterest === 'food') {
-    topicMessage = {
-      ja: '今日は何を食べましたか？',
-      en: 'What did you eat today?'
-    };
+    topicJa = '今日は何を食べましたか？';
+    topicEn = 'What did you eat today?';
   } else {
     // Default topics based on time
     if (hour >= 5 && hour < 12) {
-      topicMessage = {
-        ja: '今日は何をする予定ですか？',
-        en: 'What are your plans for today?'
-      };
+      topicJa = '今日は何をする予定ですか？';
+      topicEn = 'What are your plans for today?';
     } else if (hour >= 12 && hour < 18) {
-      topicMessage = {
-        ja: '今日はどうですか？',
-        en: 'How is your day going?'
-      };
+      topicJa = '今日はどうですか？';
+      topicEn = 'How is your day going?';
     } else {
-      topicMessage = {
-        ja: '今日はどんな一日でしたか？',
-        en: 'How was your day?'
-      };
+      topicJa = '今日はどんな一日でしたか？';
+      topicEn = 'How was your day?';
     }
   }
   
-  // Build greeting with user name
-  let jaGreeting = '';
-  if (hour >= 5 && hour < 12) {
-    jaGreeting = userName ? `${userName}、おはようございます！` : 'おはようございます！';
-  } else if (hour >= 12 && hour < 18) {
-    jaGreeting = userName ? `${userName}、こんにちは！` : 'こんにちは！';
-  } else {
-    jaGreeting = userName ? `${userName}、こんばんは！` : 'こんばんは！';
-  }
-  
   return {
-    ja: `${jaGreeting} ${topicMessage.ja}`,
-    en: `${greeting.en} ${topicMessage.en}`
+    ja: `${jaGreeting} ${topicJa}`,
+    en: `${enGreeting} ${topicEn}`
   };
 }
 
@@ -13597,6 +13588,11 @@ CONVERSATION STYLE - BE NATURAL AND FRIENDLY:
 7. Use the user's name occasionally if known
 8. Use appropriate 相槌 (aizuchi) like へー、なるほど、そうなんですね
 
+KEEPING CONVERSATION GOING:
+- If the conversation seems to be ending or the topic is exhausted, introduce a new topic
+- Suggest current/trending topics: popular anime, movies, music, food, travel, seasonal events
+- Example transitions: "そういえば、最近〇〇が話題ですね" or "ところで、〇〇は好きですか？"
+
 CRITICAL - NATURAL JAPANESE:
 - Use natural contractions: 書けません (not 書くことができません)
 - Avoid overly formal or textbook Japanese
@@ -13612,7 +13608,7 @@ FORBIDDEN:
 
   if (talkState.isUnitMode && talkState.unitRestrictions) {
     // Unit-linked mode with vocabulary restrictions
-    systemPrompt = `You are a warm, friendly Japanese conversation partner. Help JLPT ${state.level} learners practice natural conversation.
+    systemPrompt = `You are Sakura (さくら), a warm, friendly Japanese conversation partner. Help JLPT ${state.level} learners practice natural conversation.
 
 VOCABULARY RESTRICTIONS:
 Prefer using these words: ${talkState.unitRestrictions.vocab.slice(0, 30).join(', ')}
@@ -13625,7 +13621,7 @@ Always respond in JSON format: {"ja": "Japanese response", "en": "English transl
 ONLY add "feedback" field if there is an actual grammar mistake to correct.`;
   } else {
     const scenario = TALK_SCENARIOS[talkState.currentScenario];
-    systemPrompt = `You are a warm, friendly Japanese conversation partner. ${scenario ? scenario.prompt : 'Have a natural conversation to help the user practice Japanese.'}
+    systemPrompt = `You are Sakura (さくら), a warm, friendly Japanese conversation partner. ${scenario ? scenario.prompt : 'Have a natural conversation to help the user practice Japanese.'}
 
 ${TALK_LEVEL_INSTRUCTIONS[state.level]}
 ${userContext}
@@ -13728,6 +13724,37 @@ function speakTalkMessage(text) {
   
   // Remove furigana in parentheses like (てんき) or （てんき）
   let cleanText = text.replace(/[（(][ぁ-んァ-ン]+[）)]/g, '');
+  
+  // Fix common TTS mispronunciations (replace kanji with hiragana)
+  const ttsFixMap = {
+    'AI': 'エーアイ',
+    '行って': 'いって',
+    '行った': 'いった',
+    '行く': 'いく',
+    '行き': 'いき',
+    '行こう': 'いこう',
+    '行ける': 'いける',
+    '行けない': 'いけない',
+    '行きたい': 'いきたい',
+    '行きます': 'いきます',
+    '行きました': 'いきました',
+    '行ってみ': 'いってみ',
+    '今日': 'きょう',
+    '明日': 'あした',
+    '昨日': 'きのう',
+    '一人': 'ひとり',
+    '二人': 'ふたり',
+    '大人': 'おとな',
+    '下手': 'へた',
+    '上手': 'じょうず',
+    '何': 'なに',
+    '何か': 'なにか',
+    '何も': 'なにも'
+  };
+  
+  for (const [kanji, hiragana] of Object.entries(ttsFixMap)) {
+    cleanText = cleanText.replace(new RegExp(kanji, 'g'), hiragana);
+  }
   
   // Add natural pauses at punctuation
   cleanText = cleanText
