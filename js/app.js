@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.7.6';
+const APP_VERSION = '19.7.7';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13232,8 +13232,14 @@ async function sendTalkMessage() {
   // Hide typing
   hideTalkTyping();
   
+  // Sanitize response - remove markdown formatting
+  const sanitizeText = (t) => t ? t.replace(/\*\*/g, '').replace(/\*/g, '').trim() : '';
+  const cleanJa = sanitizeText(response.ja);
+  const cleanEn = sanitizeText(response.en);
+  const cleanFeedback = sanitizeText(response.feedback);
+  
   // Add AI response
-  addTalkMessage('ai', response.ja, response.en, response.feedback);
+  addTalkMessage('ai', cleanJa, cleanEn, cleanFeedback);
   
   // Update suggestions
   updateTalkSuggestions();
@@ -13243,17 +13249,30 @@ async function sendTalkMessage() {
 async function callTalkGemini(userMessage) {
   let systemPrompt = '';
   
+  const commonRules = `
+CRITICAL RULES - MUST FOLLOW:
+1. NEVER use markdown: no **, no *, no quotes, no formatting
+2. Write plain Japanese text only
+3. Keep responses short and natural (1-2 sentences)
+4. Respond naturally to what the user actually said
+5. Ask simple follow-up questions
+6. Be friendly and encouraging
+
+FORBIDDEN:
+- **word** or *word* formatting
+- Putting emphasis marks around words
+- Unnatural or robotic responses`;
+
+
   if (talkState.isUnitMode && talkState.unitRestrictions) {
     // Unit-linked mode with vocabulary restrictions
     systemPrompt = `You are a friendly Japanese conversation partner helping a JLPT ${state.level} learner practice conversation.
 
-IMPORTANT VOCABULARY RESTRICTIONS:
-Use ONLY these words in your responses: ${talkState.unitRestrictions.vocab.slice(0, 50).join(', ')}
-
-GRAMMAR RESTRICTIONS:
-Use ONLY these patterns: ${talkState.unitRestrictions.grammar.slice(0, 20).join(', ')}
+VOCABULARY RESTRICTIONS:
+Prefer using these words: ${talkState.unitRestrictions.vocab.slice(0, 30).join(', ')}
 
 ${TALK_LEVEL_INSTRUCTIONS[state.level]}
+${commonRules}
 
 Keep your responses short (1-2 sentences). Be encouraging and natural.
 Always respond in JSON format: {"ja": "Japanese response", "en": "English translation"}
@@ -13263,6 +13282,7 @@ ONLY add "feedback" field if there is an actual grammar mistake to correct.`;
     systemPrompt = `${scenario ? scenario.prompt : 'You are a friendly Japanese conversation partner.'}
 
 ${TALK_LEVEL_INSTRUCTIONS[state.level]}
+${commonRules}
 
 Always respond in JSON format: {"ja": "Japanese response", "en": "English translation"}
 ONLY add "feedback" field if there is an actual grammar mistake to correct.
