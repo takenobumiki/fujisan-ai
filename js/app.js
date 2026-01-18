@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.7.2';
+const APP_VERSION = '19.7.3';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13301,26 +13301,18 @@ Keep responses short (1-2 sentences).`;
   }
 }
 
-// Update suggestions based on context
+// Update suggestions based on context - disabled for cleaner UI
 function updateTalkSuggestions() {
-  const dynamicSuggestions = [
-    { ja: 'はい', en: 'Yes' },
-    { ja: 'いいえ', en: 'No' },
-    { ja: 'もう一度お願いします', en: 'Please say again' },
-    { ja: 'わかりました', en: 'I understand' }
-  ];
-  
-  if (talkState.currentScenario && TALK_SCENARIOS[talkState.currentScenario]) {
-    dynamicSuggestions.push(...TALK_SCENARIOS[talkState.currentScenario].suggestions.slice(0, 2));
-  }
-  
-  showTalkSuggestions(dynamicSuggestions.slice(0, 6));
+  // Hide suggestions for cleaner 1-page UI
+  showTalkSuggestions([]);
 }
 
-// Speak message
+// Speak message (remove furigana in parentheses)
 function speakTalkMessage(text) {
   if ('speechSynthesis' in window) {
-    const utterance = new SpeechSynthesisUtterance(text);
+    // Remove furigana in parentheses like (てんき) or （てんき）
+    const cleanText = text.replace(/[（(][ぁ-んァ-ン]+[）)]/g, '');
+    const utterance = new SpeechSynthesisUtterance(cleanText);
     utterance.lang = 'ja-JP';
     utterance.rate = 0.9;
     speechSynthesis.speak(utterance);
