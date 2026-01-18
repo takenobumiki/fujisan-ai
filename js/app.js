@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.7.4';
+const APP_VERSION = '19.7.5';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 

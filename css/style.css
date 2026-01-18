@@ -3816,8 +3816,10 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
 .talk-chat {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 200px);
-  min-height: 400px;
+  height: calc(100vh - 140px);
+  height: calc(100dvh - 140px); /* Dynamic viewport for mobile */
+  min-height: 300px;
+  position: relative;
 }
 .talk-chat-header {
   display: flex;
@@ -3825,6 +3827,7 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   gap: 12px;
   padding: 12px 0;
   border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
 }
 .talk-back-btn {
   width: 36px;
@@ -3861,6 +3864,8 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   display: flex;
   flex-direction: column;
   gap: 16px;
+  -webkit-overflow-scrolling: touch;
+  min-height: 0; /* Important for flex scroll */
 }
 .talk-message {
   display: flex;
@@ -4038,6 +4043,12 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   flex-wrap: wrap;
   gap: 8px;
   border-top: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.talk-suggestions:empty {
+  display: none;
+  padding: 0;
+  border: none;
 }
 .talk-suggestion {
   padding: 10px 16px;
@@ -4061,13 +4072,16 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   margin-left: 6px;
 }
 
-/* Input Area */
+/* Input Area - Fixed at bottom */
 .talk-input-area {
   padding: 12px 0;
+  padding-bottom: max(12px, env(safe-area-inset-bottom));
   display: flex;
   gap: 10px;
   align-items: flex-end;
   border-top: 1px solid var(--border);
+  background: var(--bg);
+  flex-shrink: 0;
 }
 .talk-voice-btn {
   width: 44px;
