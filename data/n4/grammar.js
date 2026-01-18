@@ -2119,11 +2119,11 @@ const N4_GRAMMAR = [
     "p": "ようにする",
     "m": {
       "en": "try to; make sure to",
-      "zh-TW": "[try to; make sure to]",
-      "zh-CN": "[try to; make sure to]",
-      "ko": "[try to; make sure to]",
-      "vi": "[try to; make sure to]",
-      "id": "[try to; make sure to]"
+      "zh-TW": "try to; make sure to",
+      "zh-CN": "try to; make sure to",
+      "ko": "try to; make sure to",
+      "vi": "try to; make sure to",
+      "id": "try to; make sure to"
     }
   },
   {
@@ -2131,11 +2131,11 @@ const N4_GRAMMAR = [
     "p": "ようになる",
     "m": {
       "en": "come to; become able to",
-      "zh-TW": "[come to; become able to]",
-      "zh-CN": "[come to; become able to]",
-      "ko": "[come to; become able to]",
-      "vi": "[come to; become able to]",
-      "id": "[come to; become able to]"
+      "zh-TW": "come to; become able to",
+      "zh-CN": "come to; become able to",
+      "ko": "come to; become able to",
+      "vi": "come to; become able to",
+      "id": "come to; become able to"
     }
   },
   {
@@ -2143,11 +2143,11 @@ const N4_GRAMMAR = [
     "p": "ことにする",
     "m": {
       "en": "decide to",
-      "zh-TW": "[decide to]",
-      "zh-CN": "[decide to]",
-      "ko": "[decide to]",
-      "vi": "[decide to]",
-      "id": "[decide to]"
+      "zh-TW": "decide to",
+      "zh-CN": "decide to",
+      "ko": "decide to",
+      "vi": "decide to",
+      "id": "decide to"
     }
   },
   {
@@ -2155,11 +2155,11 @@ const N4_GRAMMAR = [
     "p": "ことになる",
     "m": {
       "en": "it has been decided that",
-      "zh-TW": "[it has been decided that]",
-      "zh-CN": "[it has been decided that]",
-      "ko": "[it has been decided that]",
-      "vi": "[it has been decided that]",
-      "id": "[it has been decided that]"
+      "zh-TW": "it has been decided that",
+      "zh-CN": "it has been decided that",
+      "ko": "it has been decided that",
+      "vi": "it has been decided that",
+      "id": "it has been decided that"
     }
   },
   {
@@ -2167,11 +2167,11 @@ const N4_GRAMMAR = [
     "p": "はずだ",
     "m": {
       "en": "should be; expected to",
-      "zh-TW": "[should be; expected to]",
-      "zh-CN": "[should be; expected to]",
-      "ko": "[should be; expected to]",
-      "vi": "[should be; expected to]",
-      "id": "[should be; expected to]"
+      "zh-TW": "should be; expected to",
+      "zh-CN": "should be; expected to",
+      "ko": "should be; expected to",
+      "vi": "should be; expected to",
+      "id": "should be; expected to"
     }
   },
   {
@@ -2179,11 +2179,11 @@ const N4_GRAMMAR = [
     "p": "はずがない",
     "m": {
       "en": "cannot be; impossible",
-      "zh-TW": "[cannot be; impossible]",
-      "zh-CN": "[cannot be; impossible]",
-      "ko": "[cannot be; impossible]",
-      "vi": "[cannot be; impossible]",
-      "id": "[cannot be; impossible]"
+      "zh-TW": "cannot be; impossible",
+      "zh-CN": "cannot be; impossible",
+      "ko": "cannot be; impossible",
+      "vi": "cannot be; impossible",
+      "id": "cannot be; impossible"
     }
   },
   {
@@ -2191,11 +2191,11 @@ const N4_GRAMMAR = [
     "p": "ところだ",
     "m": {
       "en": "about to; just did",
-      "zh-TW": "[about to; just did]",
-      "zh-CN": "[about to; just did]",
-      "ko": "[about to; just did]",
-      "vi": "[about to; just did]",
-      "id": "[about to; just did]"
+      "zh-TW": "about to; just did",
+      "zh-CN": "about to; just did",
+      "ko": "about to; just did",
+      "vi": "about to; just did",
+      "id": "about to; just did"
     }
   },
   {
@@ -2203,11 +2203,11 @@ const N4_GRAMMAR = [
     "p": "ばかり",
     "m": {
       "en": "just did; nothing but",
-      "zh-TW": "[just did; nothing but]",
-      "zh-CN": "[just did; nothing but]",
-      "ko": "[just did; nothing but]",
-      "vi": "[just did; nothing but]",
-      "id": "[just did; nothing but]"
+      "zh-TW": "just did; nothing but",
+      "zh-CN": "just did; nothing but",
+      "ko": "just did; nothing but",
+      "vi": "just did; nothing but",
+      "id": "just did; nothing but"
     }
   },
   {
@@ -2215,11 +2215,11 @@ const N4_GRAMMAR = [
     "p": "らしい",
     "m": {
       "en": "seems like; apparently",
-      "zh-TW": "[seems like; apparently]",
-      "zh-CN": "[seems like; apparently]",
-      "ko": "[seems like; apparently]",
-      "vi": "[seems like; apparently]",
-      "id": "[seems like; apparently]"
+      "zh-TW": "seems like; apparently",
+      "zh-CN": "seems like; apparently",
+      "ko": "seems like; apparently",
+      "vi": "seems like; apparently",
+      "id": "seems like; apparently"
     }
   },
   {
@@ -2227,11 +2227,11 @@ const N4_GRAMMAR = [
     "p": "そうだ（様態）",
     "m": {
       "en": "looks like; appears",
-      "zh-TW": "[looks like; appears]",
-      "zh-CN": "[looks like; appears]",
-      "ko": "[looks like; appears]",
-      "vi": "[looks like; appears]",
-      "id": "[looks like; appears]"
+      "zh-TW": "looks like; appears",
+      "zh-CN": "looks like; appears",
+      "ko": "looks like; appears",
+      "vi": "looks like; appears",
+      "id": "looks like; appears"
     }
   },
   {
@@ -2239,11 +2239,11 @@ const N4_GRAMMAR = [
     "p": "そうだ（伝聞）",
     "m": {
       "en": "I heard that",
-      "zh-TW": "[I heard that]",
-      "zh-CN": "[I heard that]",
-      "ko": "[I heard that]",
-      "vi": "[I heard that]",
-      "id": "[I heard that]"
+      "zh-TW": "I heard that",
+      "zh-CN": "I heard that",
+      "ko": "I heard that",
+      "vi": "I heard that",
+      "id": "I heard that"
     }
   },
   {
@@ -2251,11 +2251,11 @@ const N4_GRAMMAR = [
     "p": "みたいだ",
     "m": {
       "en": "like; similar to",
-      "zh-TW": "[like; similar to]",
-      "zh-CN": "[like; similar to]",
-      "ko": "[like; similar to]",
-      "vi": "[like; similar to]",
-      "id": "[like; similar to]"
+      "zh-TW": "like; similar to",
+      "zh-CN": "like; similar to",
+      "ko": "like; similar to",
+      "vi": "like; similar to",
+      "id": "like; similar to"
     }
   },
   {
@@ -2263,11 +2263,11 @@ const N4_GRAMMAR = [
     "p": "かもしれない",
     "m": {
       "en": "might; maybe",
-      "zh-TW": "[might; maybe]",
-      "zh-CN": "[might; maybe]",
-      "ko": "[might; maybe]",
-      "vi": "[might; maybe]",
-      "id": "[might; maybe]"
+      "zh-TW": "might; maybe",
+      "zh-CN": "might; maybe",
+      "ko": "might; maybe",
+      "vi": "might; maybe",
+      "id": "might; maybe"
     }
   },
   {
@@ -2275,11 +2275,11 @@ const N4_GRAMMAR = [
     "p": "でしょう",
     "m": {
       "en": "probably; I think",
-      "zh-TW": "[probably; I think]",
-      "zh-CN": "[probably; I think]",
-      "ko": "[probably; I think]",
-      "vi": "[probably; I think]",
-      "id": "[probably; I think]"
+      "zh-TW": "probably; I think",
+      "zh-CN": "probably; I think",
+      "ko": "probably; I think",
+      "vi": "probably; I think",
+      "id": "probably; I think"
     }
   },
   {
@@ -2287,11 +2287,11 @@ const N4_GRAMMAR = [
     "p": "だろう",
     "m": {
       "en": "probably; I think",
-      "zh-TW": "[probably; I think]",
-      "zh-CN": "[probably; I think]",
-      "ko": "[probably; I think]",
-      "vi": "[probably; I think]",
-      "id": "[probably; I think]"
+      "zh-TW": "probably; I think",
+      "zh-CN": "probably; I think",
+      "ko": "probably; I think",
+      "vi": "probably; I think",
+      "id": "probably; I think"
     }
   },
   {
@@ -2299,11 +2299,11 @@ const N4_GRAMMAR = [
     "p": "つもりだ",
     "m": {
       "en": "intend to; plan to",
-      "zh-TW": "[intend to; plan to]",
-      "zh-CN": "[intend to; plan to]",
-      "ko": "[intend to; plan to]",
-      "vi": "[intend to; plan to]",
-      "id": "[intend to; plan to]"
+      "zh-TW": "intend to; plan to",
+      "zh-CN": "intend to; plan to",
+      "ko": "intend to; plan to",
+      "vi": "intend to; plan to",
+      "id": "intend to; plan to"
     }
   },
   {
@@ -2311,11 +2311,11 @@ const N4_GRAMMAR = [
     "p": "ことがある",
     "m": {
       "en": "sometimes; there are times when",
-      "zh-TW": "[sometimes; there are times when]",
-      "zh-CN": "[sometimes; there are times when]",
-      "ko": "[sometimes; there are times when]",
-      "vi": "[sometimes; there are times when]",
-      "id": "[sometimes; there are times when]"
+      "zh-TW": "sometimes; there are times when",
+      "zh-CN": "sometimes; there are times when",
+      "ko": "sometimes; there are times when",
+      "vi": "sometimes; there are times when",
+      "id": "sometimes; there are times when"
     }
   },
   {
@@ -2323,11 +2323,11 @@ const N4_GRAMMAR = [
     "p": "ことができる",
     "m": {
       "en": "can; be able to",
-      "zh-TW": "[can; be able to]",
-      "zh-CN": "[can; be able to]",
-      "ko": "[can; be able to]",
-      "vi": "[can; be able to]",
-      "id": "[can; be able to]"
+      "zh-TW": "can; be able to",
+      "zh-CN": "can; be able to",
+      "ko": "can; be able to",
+      "vi": "can; be able to",
+      "id": "can; be able to"
     }
   },
   {
@@ -2335,11 +2335,11 @@ const N4_GRAMMAR = [
     "p": "たことがある",
     "m": {
       "en": "have done before",
-      "zh-TW": "[have done before]",
-      "zh-CN": "[have done before]",
-      "ko": "[have done before]",
-      "vi": "[have done before]",
-      "id": "[have done before]"
+      "zh-TW": "have done before",
+      "zh-CN": "have done before",
+      "ko": "have done before",
+      "vi": "have done before",
+      "id": "have done before"
     }
   },
   {
@@ -2347,11 +2347,11 @@ const N4_GRAMMAR = [
     "p": "たほうがいい",
     "m": {
       "en": "should; had better",
-      "zh-TW": "[should; had better]",
-      "zh-CN": "[should; had better]",
-      "ko": "[should; had better]",
-      "vi": "[should; had better]",
-      "id": "[should; had better]"
+      "zh-TW": "should; had better",
+      "zh-CN": "should; had better",
+      "ko": "should; had better",
+      "vi": "should; had better",
+      "id": "should; had better"
     }
   }
 ];

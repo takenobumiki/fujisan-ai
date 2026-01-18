@@ -22,6 +22,7 @@
   <!-- PWA Meta Tags -->
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#005BAC">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Fujisan.AI">
@@ -50,6 +51,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <!-- LOADING OVERLAY - Smooth transition from LP -->
+<style>
+  @keyframes fadeOutOverlay {
+    0%, 80% { opacity: 1; pointer-events: auto; }
+    100% { opacity: 0; pointer-events: none; }
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  #app-loading-overlay {
+    animation: fadeOutOverlay 2.5s ease-out forwards;
+  }
+</style>
 <div id="app-loading-overlay" style="
   position: fixed;
   top: 0;
@@ -62,7 +75,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   align-items: center;
   justify-content: center;
   z-index: 10000;
-  transition: opacity 0.3s ease-out;
 ">
   <div style="text-align: center;">
     <!-- Fuji Logo -->
@@ -86,11 +98,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
 </div>
-<style>
-  @keyframes spin {
-    to { transform: rotate(360deg); }
-  }
-</style>
 
 <!-- ONBOARDING -->
 <div id="onboarding-overlay" class="onboarding-overlay" style="display:none;">
@@ -102,6 +109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <span class="onboarding-dot" data-step="3"></span>
       <span class="onboarding-dot" data-step="4"></span>
       <span class="onboarding-dot" data-step="5"></span>
+      <span class="onboarding-dot" data-step="6"></span>
     </div>
     
     <!-- Step 1: Welcome -->
@@ -215,8 +223,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     
-    <!-- Step 5: Ready -->
+    <!-- Step 5: How Units Work -->
     <div class="onboarding-step" data-step="5">
+      <h1 class="onboarding-title" data-i18n="onboarding_units_title">Tap a Unit to Start</h1>
+      <p class="onboarding-desc" data-i18n="onboarding_units_desc">Each unit contains ~22 questions. Complete units to build your skills!</p>
+      <div class="onboarding-unit-demo">
+        <div class="unit-demo-row">
+          <div class="unit-demo-box">1</div>
+          <div class="unit-demo-box">2</div>
+          <div class="unit-demo-box">3</div>
+          <div class="unit-demo-box">4</div>
+          <div class="unit-demo-box">5</div>
+        </div>
+        <div class="unit-demo-arrow">
+          <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="#667eea" stroke-width="2">
+            <path d="M12 5v14M5 12l7 7 7-7"/>
+          </svg>
+        </div>
+        <div class="unit-demo-label" data-i18n="onboarding_units_tap">Tap any number to start practicing!</div>
+      </div>
+    </div>
+    
+    <!-- Step 6: Ready -->
+    <div class="onboarding-step" data-step="6">
       <div class="onboarding-icon"><svg viewBox="0 0 24 24" width="64" height="64" fill="none" stroke="#667eea" stroke-width="1.5"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg></div>
       <h1 class="onboarding-title" data-i18n="onboarding_ready">You're all set!</h1>
       <p class="onboarding-desc" data-i18n="onboarding_ready_desc">Start with Unit 1 and let AI guide your journey to JLPT success.</p>
@@ -237,127 +266,116 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <!-- DASHBOARD -->
-<div id="screen-drill" class="screen active dashboard-fixed">
-  <div class="header">
-    <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
-    <div class="header-right">
-      <select class="lang-selector" id="lang-select" onchange="changeLang(this.value)">
-        <option value="en">EN</option>
-        <option value="zh-CN">简体中文</option>
-        <option value="id">Indonesia</option>
-        <option value="ko">한국어</option>
-        <option value="vi">Tiếng Việt</option>
-        <option value="zh-TW">繁體中文</option>
-        <option value="es">Español</option>
-        <option value="pt">Português</option>
-      </select>
-      <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
-    </div>
-  </div>
-  
-  <!-- Level Selector (TOP) -->
-  <div class="dash-level-row" id="drill-level-row">
-    <button class="level-select-btn active" data-level="N5">N5</button>
-    <button class="level-select-btn" data-level="N4">N4</button>
-    <button class="level-select-btn" data-level="N3">N3</button>
-    <button class="level-select-btn" data-level="N2">N2</button>
-    <button class="level-select-btn" data-level="N1">N1</button>
-  </div>
-  
-  <!-- Study Habit Tracker -->
-  <div class="habit-tracker" id="habit-tracker" style="display:none;">
-    <div class="habit-header">
-      <svg class="habit-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-      <span id="habit-greeting">This Week</span>
-    </div>
-    <div class="habit-week" id="habit-week">
-      <!-- Generated by JS -->
-    </div>
-    <div class="habit-stats">
-      <div class="habit-streak" id="habit-streak">
-        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
-        <span>0 days</span>
+<div id="screen-drill" class="screen active dashboard-90">
+  <!-- Header with Logo, Level Mini, Streak, Settings -->
+  <div class="header-90">
+    <div class="logo-90" onclick="goHome()" style="cursor:pointer">Fujisan.AI</div>
+    <div class="header-right-90">
+      <div class="streak-badge" id="streak-badge" title="Study streak">
+        <span class="streak-fire">🔥</span>
+        <span class="streak-count" id="streak-count">0</span>
       </div>
-      <div class="habit-today" id="habit-today">
-        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        <span>0 min today</span>
+      <div class="level-mini" id="drill-level-row">
+        <button class="level-mini-btn active" data-level="N5">N5</button>
+        <button class="level-mini-btn" data-level="N4">N4</button>
+        <button class="level-mini-btn" data-level="N3">N3</button>
+        <button class="level-mini-btn" data-level="N2">N2</button>
+        <button class="level-mini-btn" data-level="N1">N1</button>
       </div>
-    </div>
-    <div class="habit-alert" id="habit-alert" style="display:none;">
-      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
-      <span id="habit-alert-text">Keep your streak going!</span>
+      <button class="header-btn-90" onclick="event.stopPropagation(); showScreen('settings')">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+      </button>
     </div>
   </div>
   
-  <!-- AI Coach Card (Adaptive Learning) - Enhanced Today's Focus -->
-  <div class="ai-coach-card" id="ai-coach-card">
-    <div class="ai-coach-header">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
-      <span data-i18n="ai_coach_title">Today's Focus</span>
-      <button class="ai-coach-refresh" onclick="refreshAICoach()" title="Refresh">
-        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+  <!-- Language Swiper -->
+  <div class="lang-swiper" id="langSwiper">
+    <div class="lang-track">
+      <div class="lang-option active" data-lang="en" onclick="selectLangSwipe(this, 'en')">English</div>
+      <div class="lang-option" data-lang="zh-CN" onclick="selectLangSwipe(this, 'zh-CN')">简体中文</div>
+      <div class="lang-option" data-lang="zh-TW" onclick="selectLangSwipe(this, 'zh-TW')">繁體中文</div>
+      <div class="lang-option" data-lang="ko" onclick="selectLangSwipe(this, 'ko')">한국어</div>
+      <div class="lang-option" data-lang="vi" onclick="selectLangSwipe(this, 'vi')">Tiếng Việt</div>
+      <div class="lang-option" data-lang="id" onclick="selectLangSwipe(this, 'id')">Indonesia</div>
+      <div class="lang-option" data-lang="es" onclick="selectLangSwipe(this, 'es')">Español</div>
+      <div class="lang-option" data-lang="pt" onclick="selectLangSwipe(this, 'pt')">Português</div>
+    </div>
+  </div>
+  
+  <!-- Main Content -->
+  <div class="main-content-90">
+    
+    <!-- AI Hero Card (Primary CTA) -->
+    <div class="ai-hero" id="ai-hero">
+      <div class="ai-greeting-90" id="ai-greeting-text">Good evening.</div>
+      <div class="ai-recommend-text" id="ai-recommend-title">Review 5 items you found challenging.</div>
+      <div class="ai-recommend-meta" id="ai-recommend-meta">About 3 minutes</div>
+      <button class="ai-start-btn" id="ai-recommend-btn" onclick="startAIRecommendation()">
+        <span data-i18n="ai_recommend_start">Start</span>
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
       </button>
     </div>
     
-    <!-- Today's Focus Content (Dynamic) -->
-    <div class="today-focus-content" id="today-focus-content">
-      <!-- Populated by updateTodayFocus() -->
+    <!-- Progress Bar (Subtle) -->
+    <div class="progress-row" id="progress-summary">
+      <span class="progress-level-90" id="progress-level">N5</span>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill-90" id="progress-bar-fill" style="width: 0%"></div>
+      </div>
+      <span class="progress-percent-90" id="progress-percent">0/47 units (0%)</span>
     </div>
     
-    <!-- Pass Probability Section -->
-    <div class="pass-probability" id="pass-probability" style="display:none;">
-      <div class="pass-header">
-        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-        <span data-i18n="pass_probability">Pass Probability</span>
-        <span class="pass-pct" id="pass-pct">--%</span>
-      </div>
-      <div class="pass-bar">
-        <div class="pass-bar-fill" id="pass-bar-fill"></div>
-        <div class="pass-threshold"></div>
-      </div>
-      <div class="pass-sections" id="pass-sections"></div>
-      <div class="pass-recommendation" id="pass-recommendation"></div>
+    <!-- Unit Grid Header -->
+    <div class="unit-grid-header">
+      <span class="unit-grid-title" data-i18n="units">Units</span>
+      <span class="unit-grid-count" id="unit-grid-count">0/47</span>
     </div>
     
-    <div class="ai-coach-expand" id="ai-coach-expand" onclick="toggleAICoachDetails()">
-      <span data-i18n="ai_coach_details">View Details</span> ▼
+    <!-- Category Links (Text links, subtle) -->
+    <div class="category-links">
+      <a href="#" class="category-link" onclick="event.preventDefault(); selectCategoryAndStart('vocab')">
+        <span data-i18n="vocab">Vocabulary</span>
+        <span class="category-link-pct" id="vocab-progress">0%</span>
+      </a>
+      <a href="#" class="category-link" onclick="event.preventDefault(); selectCategoryAndStart('kanji')">
+        <span data-i18n="new_kanji">Kanji</span>
+        <span class="category-link-pct" id="kanji-progress">0%</span>
+      </a>
+      <a href="#" class="category-link" onclick="event.preventDefault(); selectCategoryAndStart('grammar')">
+        <span data-i18n="grammar">Grammar</span>
+        <span class="category-link-pct" id="grammar-progress">0%</span>
+      </a>
     </div>
-    <div class="ai-coach-details" id="ai-coach-details" style="display:none;">
-      <div class="ai-coach-celebrate" id="ai-coach-celebrate" style="display:none;"></div>
-      <div class="ai-coach-skills">
-        <div class="skill-bar-label"><span data-i18n="ai_coach_receptive">Understanding</span> <span id="receptive-pct">-</span></div>
-        <div class="skill-bar"><div class="skill-bar-fill receptive" id="receptive-bar"></div></div>
-        <div class="skill-bar-label"><span data-i18n="ai_coach_productive">Using</span> <span id="productive-pct">-</span></div>
-        <div class="skill-bar"><div class="skill-bar-fill productive" id="productive-bar"></div></div>
-      </div>
-      <div class="ai-coach-insight" id="ai-coach-insight"></div>
-      <div class="ai-coach-units" id="ai-coach-units"></div>
-      <div class="ai-coach-encouragement" id="ai-coach-encouragement"></div>
+    
+    <!-- Habit Tracker (Compact, subtle) -->
+    <div class="habit-row" id="habit-tracker">
+      <div class="habit-days" id="habit-week"></div>
+      <span class="habit-streak-text" id="habit-streak">0 day streak</span>
     </div>
+    
+    <!-- Feedback Link -->
+    <div class="feedback-link-row" id="feedback-link-row" onclick="openFeedbackModal()">
+      <svg class="feedback-icon-svg" viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+      <span class="feedback-link-text" data-i18n="feedback_cta">How's Fujisan.AI? Share your thoughts →</span>
+    </div>
+    
   </div>
   
-  <!-- NAV BAR (3 items: Drill, Mock, AI) -->
-  <nav class="nav-bar nav-bar-3">
-    <button class="nav-btn active" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>
-    <button class="nav-btn" data-screen="mock"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg></span>Mock</button>
-    <button class="nav-btn" data-screen="ai"><span class="nav-icon ai-nav-icon"></span>AI</button>
+  <!-- Footer Navigation -->
+  <nav class="footer-nav-90">
+    <button class="footer-btn-90 active" data-screen="drill" onclick="showScreen('drill')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 3L2 12h3v9h6v-6h2v6h6v-9h3L12 3z"/></svg>
+      <span data-i18n="nav_drill">Drill</span>
+    </button>
+    <button class="footer-btn-90" data-screen="mock" onclick="showScreen('mock')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg>
+      <span data-i18n="nav_mock">Mock</span>
+    </button>
+    <button class="footer-btn-90" data-screen="talk" onclick="showScreen('talk')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+      <span data-i18n="nav_talk">Talk</span>
+    </button>
   </nav>
-  
-  <!-- MAIN CONTENT AREA (Fixed Layout) -->
-  <div class="dashboard-content">
-    <!-- Unit Grid -->
-    <div class="dash-unit-section">
-      <div class="unit-grid" id="unit-grid"></div>
-    </div>
-    
-    <!-- Category Buttons (tap to start quiz) -->
-    <div class="category-row">
-      <button class="category-btn" data-cat="vocab" onclick="selectCategoryAndStart('vocab')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg></div><div class="category-name" data-i18n="vocab">Vocab</div></button>
-      <button class="category-btn" data-cat="kanji" onclick="selectCategoryAndStart('kanji')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M5 4v3h5.5v12h3V7H19V4H5z"/></svg></div><div class="category-name" data-i18n="new_kanji">New Kanji</div></button>
-      <button class="category-btn" data-cat="grammar" onclick="selectCategoryAndStart('grammar')"><div class="category-icon"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg></div><div class="category-name" data-i18n="grammar">Grammar</div></button>
-    </div>
-    
-  </div>
 </div>
 
 <!-- QUIZ (All Modes) -->
@@ -391,8 +409,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="ai-comment-loading">Loading...</div>
       </div>
       
-      <!-- Follow-up Question Input -->
-      <div class="feedback-followup">
+      <!-- Ask More Button (default visible) -->
+      <button class="ask-more-btn" id="ask-more-btn" onclick="toggleFollowup()" data-i18n="ask_more">Ask more →</button>
+      
+      <!-- Follow-up Question Input (default hidden) -->
+      <div class="feedback-followup" id="feedback-followup" style="display:none">
         <input type="text" class="followup-input" id="followup-input" placeholder="Ask a follow-up question...">
         <button class="followup-btn" id="followup-btn" onclick="askFollowup()">→</button>
       </div>
@@ -418,6 +439,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
   
+  <!-- AI Coach Feedback Card -->
+  <div class="ai-feedback-card" id="ai-feedback-card">
+    <div class="ai-feedback-icon">💬</div>
+    <div class="ai-feedback-text" id="ai-feedback-text">Great work!</div>
+  </div>
+  
   <!-- Wrong Answers with AI Explanation -->
   <div class="wrong-answers-section" id="wrongAnswersSection" style="display: none;">
     <div class="wrong-answers-title">Review Your Mistakes</div>
@@ -433,111 +460,76 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <!-- MOCK -->
-<div id="screen-mock" class="screen mock-screen-compact">
-  <div class="header">
-    <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
-    <div class="header-right">
-      <select class="lang-selector" onchange="changeLang(this.value)">
-        <option value="en">EN</option>
-        <option value="zh-CN">简体中文</option>
-        <option value="id">Indonesia</option>
-        <option value="ko">한국어</option>
-        <option value="vi">Tiếng Việt</option>
-        <option value="zh-TW">繁體中文</option>
-        <option value="es">Español</option>
-        <option value="pt">Português</option>
-      </select>
-      <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
+<div id="screen-mock" class="screen dashboard-90">
+  <!-- Header with Logo, Level Mini, Settings (same as Drill) -->
+  <div class="header-90">
+    <div class="logo-90" onclick="goHome()" style="cursor:pointer">Fujisan.AI</div>
+    <div class="header-right-90">
+      <div class="level-mini" id="mock-level-row">
+        <button class="level-mini-btn active" data-level="N5">N5</button>
+        <button class="level-mini-btn" data-level="N4">N4</button>
+        <button class="level-mini-btn" data-level="N3">N3</button>
+        <button class="level-mini-btn" data-level="N2">N2</button>
+        <button class="level-mini-btn" data-level="N1">N1</button>
+      </div>
+      <button class="header-btn-90" onclick="event.stopPropagation(); showScreen('settings')">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+      </button>
     </div>
   </div>
   
-  <!-- Level Selection -->
-  <div class="dash-level-row" id="mock-levels">
-    <button class="level-select-btn active" data-level="N5">N5</button>
-    <button class="level-select-btn" data-level="N4">N4</button>
-    <button class="level-select-btn" data-level="N3">N3</button>
-    <button class="level-select-btn" data-level="N2">N2</button>
-    <button class="level-select-btn" data-level="N1">N1</button>
+  <!-- Language Swiper (same as Drill) -->
+  <div class="lang-swiper">
+    <div class="lang-track">
+      <div class="lang-option active" data-lang="en" onclick="selectLangSwipe(this, 'en')">English</div>
+      <div class="lang-option" data-lang="zh-CN" onclick="selectLangSwipe(this, 'zh-CN')">简体中文</div>
+      <div class="lang-option" data-lang="zh-TW" onclick="selectLangSwipe(this, 'zh-TW')">繁體中文</div>
+      <div class="lang-option" data-lang="ko" onclick="selectLangSwipe(this, 'ko')">한국어</div>
+      <div class="lang-option" data-lang="vi" onclick="selectLangSwipe(this, 'vi')">Tiếng Việt</div>
+      <div class="lang-option" data-lang="id" onclick="selectLangSwipe(this, 'id')">Indonesia</div>
+      <div class="lang-option" data-lang="es" onclick="selectLangSwipe(this, 'es')">Español</div>
+      <div class="lang-option" data-lang="pt" onclick="selectLangSwipe(this, 'pt')">Português</div>
+    </div>
   </div>
   
-  <nav class="nav-bar nav-bar-3">
-    <button class="nav-btn" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>
-    <button class="nav-btn active" data-screen="mock"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg></span>Mock</button>
-    <button class="nav-btn" data-screen="ai"><span class="nav-icon ai-nav-icon"></span>AI</button>
-  </nav>
-  
-  <!-- Mock Content Area -->
-  <div class="mock-content">
-    <!-- Quick Start Card -->
-    <div class="mock-quick-card">
-      <div class="mock-quick-header">
-        <span class="mock-quick-level" id="mock-level-badge">N5</span>
-        <span class="mock-quick-title">Mock Test</span>
-      </div>
-      <div class="mock-quick-stats">
-        <div class="mock-quick-stat"><span class="mock-stat-num" id="mock-q-count">91</span><span class="mock-stat-label">Q</span></div>
-        <div class="mock-quick-divider"></div>
-        <div class="mock-quick-stat"><span class="mock-stat-num" id="mock-time">105</span><span class="mock-stat-label">min</span></div>
-      </div>
-      <button class="mock-start-btn" onclick="startMock()">
-        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
-        Start Test
+  <!-- Main Content -->
+  <div class="main-content-90">
+    
+    <!-- Mock Hero Card (Primary CTA) -->
+    <div class="mock-hero" id="mock-hero">
+      <div class="mock-hero-level" id="mock-hero-level">N5</div>
+      <div class="mock-hero-title" data-i18n="mock_title">Mock Test</div>
+      <div class="mock-hero-subtitle" id="mock-hero-subtitle" data-i18n="mock_select_set">Select a set to start</div>
+      <button class="ai-start-btn" id="mock-start-btn" onclick="startMock()">
+        <span data-i18n="mock_start">Start</span>
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
       </button>
     </div>
     
-    <!-- Mode & Set Selection -->
-    <div class="mock-options">
-      <div class="mock-option-row">
-        <span class="mock-option-label">Mode</span>
-        <div class="mock-option-toggle">
-          <button class="mock-toggle-btn active" data-mode="full" onclick="selectMockMode('full')">Full</button>
-          <button class="mock-toggle-btn" data-mode="section" onclick="selectMockMode('section')">Section</button>
-        </div>
-      </div>
-      
-      <!-- Section Selection (hidden by default) -->
-      <div class="mock-section-select hidden" id="mockSectionSelect">
-        <div class="mock-section-pills">
-          <button class="mock-pill" data-section="moji" onclick="selectMockSection(this)"><span data-i18n="sectionMoji">文字</span></button>
-          <button class="mock-pill" data-section="bunpou" onclick="selectMockSection(this)"><span data-i18n="sectionBunpou">文法</span></button>
-          <button class="mock-pill" data-section="choukai" onclick="selectMockSection(this)"><span data-i18n="sectionChoukai">聴解</span></button>
-        </div>
-      </div>
-      
-      <div class="mock-option-row">
-        <span class="mock-option-label">Set</span>
-        <select class="mock-set-select" id="mockSetSelect" onchange="selectMockSet(this.value)">
-          <option value="1" selected>Set 1</option>
-          <option value="2">Set 2</option>
-          <option value="3">Set 3</option>
-          <option value="4">Set 4</option>
-          <option value="5">Set 5</option>
-          <option value="6">Set 6</option>
-          <option value="7">Set 7</option>
-          <option value="8">Set 8</option>
-          <option value="9">Set 9</option>
-          <option value="10">Set 10</option>
-          <option value="11">Set 11</option>
-          <option value="12">Set 12</option>
-          <option value="13">Set 13</option>
-          <option value="14">Set 14</option>
-          <option value="15">Set 15</option>
-          <option value="16">Set 16</option>
-          <option value="17">Set 17</option>
-          <option value="18">Set 18</option>
-          <option value="19">Set 19</option>
-          <option value="20">Set 20</option>
-          <option value="random">🎲 Random</option>
-        </select>
-      </div>
+    <!-- Mock Set List -->
+    <div class="mock-set-list" id="mock-set-list">
+      <!-- Sets will be populated by JS -->
     </div>
     
-    <!-- Recent Score (if exists) -->
-    <div class="mock-recent" id="mockRecent" style="display:none;">
-      <div class="mock-recent-label">Last Score</div>
-      <div class="mock-recent-score" id="mockRecentScore">--</div>
+    <!-- Feedback Link -->
+    <div class="feedback-link-row" onclick="openFeedbackModal()">
+      <span class="feedback-link-icon">💬</span>
+      <span class="feedback-link-text" data-i18n="feedback_cta">How's Fujisan.AI? Share your thoughts →</span>
     </div>
+    
   </div>
+  
+  <!-- Footer Navigation -->
+  <nav class="footer-nav-90">
+    <button class="footer-btn-90" data-screen="drill" onclick="showScreen('drill')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 3L2 12h3v9h6v-6h2v6h6v-9h3L12 3z"/></svg>
+      <span data-i18n="nav_drill">Drill</span>
+    </button>
+    <button class="footer-btn-90 active" data-screen="mock" onclick="showScreen('mock')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg>
+      <span data-i18n="nav_mock">Mock</span>
+    </button>
+  </nav>
 </div>
 
 <!-- MOCK-Q (JLPT Format) -->
@@ -606,24 +598,162 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 
+<!-- TALK (AI Conversation Practice) -->
+<div id="screen-talk" class="screen dashboard-90">
+  <div class="header">
+    <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
+    <div class="header-right">
+      <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
+    </div>
+  </div>
+  
+  <!-- Language Swiper -->
+  <div class="lang-swiper">
+    <div class="lang-track">
+      <div class="lang-option" data-lang="en" onclick="selectLangSwipe(this, 'en')">English</div>
+      <div class="lang-option" data-lang="zh-CN" onclick="selectLangSwipe(this, 'zh-CN')">简体中文</div>
+      <div class="lang-option" data-lang="zh-TW" onclick="selectLangSwipe(this, 'zh-TW')">繁體中文</div>
+      <div class="lang-option" data-lang="ko" onclick="selectLangSwipe(this, 'ko')">한국어</div>
+      <div class="lang-option" data-lang="vi" onclick="selectLangSwipe(this, 'vi')">Tiếng Việt</div>
+      <div class="lang-option" data-lang="id" onclick="selectLangSwipe(this, 'id')">Indonesia</div>
+      <div class="lang-option" data-lang="es" onclick="selectLangSwipe(this, 'es')">Español</div>
+      <div class="lang-option" data-lang="pt" onclick="selectLangSwipe(this, 'pt')">Português</div>
+    </div>
+  </div>
+  
+  <!-- Level Mini Buttons -->
+  <div class="level-mini-bar">
+    <button class="level-mini-btn active" data-level="N5">N5</button>
+    <button class="level-mini-btn" data-level="N4">N4</button>
+    <button class="level-mini-btn" data-level="N3">N3</button>
+    <button class="level-mini-btn" data-level="N2">N2</button>
+    <button class="level-mini-btn" data-level="N1">N1</button>
+  </div>
+  
+  <div class="main-content-90">
+    <!-- Talk Welcome Screen -->
+    <div class="talk-welcome" id="talk-welcome">
+      <div class="talk-welcome-icon">
+        <svg viewBox="0 0 64 64" width="64" height="64"><path fill="none" stroke="#667eea" stroke-width="2" d="M32 8c13.255 0 24 9.85 24 22s-10.745 22-24 22c-3.2 0-6.25-.6-9.05-1.7L12 54l3.7-8.55C11.4 41.65 8 36.1 8 30c0-12.15 10.745-22 24-22z"/><circle cx="20" cy="30" r="3" fill="#667eea"/><circle cx="32" cy="30" r="3" fill="#667eea"/><circle cx="44" cy="30" r="3" fill="#667eea"/></svg>
+      </div>
+      <h2 class="talk-welcome-title" data-i18n="talk_title">AI Conversation Practice</h2>
+      <p class="talk-welcome-desc" data-i18n="talk_desc">Practice Japanese conversation with AI</p>
+      
+      <!-- Unit-linked Mode Card -->
+      <div class="talk-unit-card" id="talk-unit-card">
+        <div class="talk-unit-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28"><path fill="currentColor" d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"/></svg>
+        </div>
+        <div class="talk-unit-info">
+          <h3 data-i18n="talk_unit_mode">Unit-linked Mode</h3>
+          <p id="talk-unit-desc" data-i18n="talk_unit_desc_default">Practice with Unit vocabulary</p>
+        </div>
+        <button class="talk-unit-btn" onclick="startTalkUnit()">
+          <span data-i18n="talk_start">Start</span>
+          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/></svg>
+        </button>
+      </div>
+      
+      <!-- Free Theme Section -->
+      <div class="talk-theme-section">
+        <h3 class="talk-theme-title" data-i18n="talk_free_theme">Free Theme</h3>
+        <div class="talk-theme-grid">
+          <div class="talk-theme-card" onclick="startTalkScenario('greeting')">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+            <span data-i18n="talk_greeting">Self-intro</span>
+          </div>
+          <div class="talk-theme-card" onclick="startTalkScenario('restaurant')">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg>
+            <span data-i18n="talk_restaurant">Restaurant</span>
+          </div>
+          <div class="talk-theme-card" onclick="startTalkScenario('shopping')">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M18 6h-2c0-2.21-1.79-4-4-4S8 3.79 8 6H6c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-6-2c1.1 0 2 .9 2 2h-4c0-1.1.9-2 2-2zm6 16H6V8h2v2c0 .55.45 1 1 1s1-.45 1-1V8h4v2c0 .55.45 1 1 1s1-.45 1-1V8h2v12z"/></svg>
+            <span data-i18n="talk_shopping">Shopping</span>
+          </div>
+          <div class="talk-theme-card" onclick="startTalkScenario('directions')">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span data-i18n="talk_directions">Directions</span>
+          </div>
+          <div class="talk-theme-card" onclick="startTalkScenario('travel')">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+            <span data-i18n="talk_travel">Travel</span>
+          </div>
+          <div class="talk-theme-card" onclick="startTalkScenario('free')">
+            <svg viewBox="0 0 24 24" width="32" height="32"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+            <span data-i18n="talk_free">Free Talk</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Chat Screen (hidden initially) -->
+    <div class="talk-chat" id="talk-chat" style="display:none;">
+      <div class="talk-chat-header">
+        <button class="talk-back-btn" onclick="exitTalkChat()">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+        </button>
+        <div class="talk-chat-title" id="talk-chat-title" data-i18n="talk_chat_title">AI Conversation</div>
+        <div class="talk-chat-level" id="talk-chat-level">N5</div>
+      </div>
+      
+      <div class="talk-messages" id="talk-messages"></div>
+      
+      <div class="talk-suggestions" id="talk-suggestions"></div>
+      
+      <div class="talk-input-area">
+        <button class="talk-voice-btn" id="talk-voice-btn" onclick="toggleTalkVoice()">
+          <svg viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.91-3c-.49 0-.9.36-.98.85C16.52 14.2 14.47 16 12 16s-4.52-1.8-4.93-4.15c-.08-.49-.49-.85-.98-.85-.61 0-1.09.54-1 1.14.49 3 2.89 5.35 5.91 5.78V20c0 .55.45 1 1 1s1-.45 1-1v-2.08c3.02-.43 5.42-2.78 5.91-5.78.1-.6-.39-1.14-1-1.14z"/></svg>
+        </button>
+        <div class="talk-input-wrapper">
+          <textarea class="talk-input" id="talk-input" placeholder="日本語で入力..." data-i18n-placeholder="talk_input_placeholder" rows="1"></textarea>
+        </div>
+        <button class="talk-send-btn" id="talk-send-btn" onclick="sendTalkMessage()" disabled>
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer Navigation (for Talk screen) -->
+  <nav class="footer-nav-90">
+    <button class="footer-btn-90" data-screen="drill" onclick="showScreen('drill')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 3L2 12h3v9h6v-6h2v6h6v-9h3L12 3z"/></svg>
+      <span data-i18n="nav_drill">Drill</span>
+    </button>
+    <button class="footer-btn-90" data-screen="mock" onclick="showScreen('mock')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg>
+      <span data-i18n="nav_mock">Mock</span>
+    </button>
+    <button class="footer-btn-90 active" data-screen="talk" onclick="showScreen('talk')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+      <span data-i18n="nav_talk">Talk</span>
+    </button>
+  </nav>
+</div>
+
 <!-- AI -->
 <div id="screen-ai" class="screen">
   <div class="header">
     <div class="logo" onclick="goHome()" style="cursor:pointer"><img src="/images/logo.png" alt="Fujisan.AI" class="logo-img" style="height:130px;"></div>
     <div class="header-right">
-      <select class="lang-selector" onchange="changeLang(this.value)">
-        <option value="en">EN</option>
-        <option value="zh-CN">简体中文</option>
-        <option value="id">Indonesia</option>
-        <option value="ko">한국어</option>
-        <option value="vi">Tiếng Việt</option>
-        <option value="zh-TW">繁體中文</option>
-        <option value="es">Español</option>
-        <option value="pt">Português</option>
-      </select>
       <button class="header-btn" onclick="event.stopPropagation(); showScreen('settings')"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align:-2px"><path fill="currentColor" d="M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
     </div>
   </div>
+  
+  <!-- Language Swiper -->
+  <div class="lang-swiper">
+    <div class="lang-track">
+      <div class="lang-option" data-lang="en" onclick="selectLangSwipe(this, 'en')">English</div>
+      <div class="lang-option" data-lang="zh-CN" onclick="selectLangSwipe(this, 'zh-CN')">简体中文</div>
+      <div class="lang-option" data-lang="zh-TW" onclick="selectLangSwipe(this, 'zh-TW')">繁體中文</div>
+      <div class="lang-option" data-lang="ko" onclick="selectLangSwipe(this, 'ko')">한국어</div>
+      <div class="lang-option" data-lang="vi" onclick="selectLangSwipe(this, 'vi')">Tiếng Việt</div>
+      <div class="lang-option" data-lang="id" onclick="selectLangSwipe(this, 'id')">Indonesia</div>
+      <div class="lang-option" data-lang="es" onclick="selectLangSwipe(this, 'es')">Español</div>
+      <div class="lang-option" data-lang="pt" onclick="selectLangSwipe(this, 'pt')">Português</div>
+    </div>
+  </div>
+  
   <nav class="nav-bar nav-bar-3">
     <button class="nav-btn" data-screen="drill"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6c1.1 0 2 .9 2 2v14c0-.55-.45-1-1-1H4V4zm16 0h-6c-1.1 0-2 .9-2 2v14c0-.55.45-1 1-1h7V4z"/></svg></span>Drill</button>
     <button class="nav-btn" data-screen="mock"><span class="nav-icon"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg></span>Mock</button>
@@ -721,6 +851,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <button class="setting-action-btn" id="manageSubBtn" onclick="openCustomerPortal()" style="background:#f3f4f6;color:#374151;">Manage</button>
       </div>
+      <!-- Data Retention Info -->
+      <div class="setting-item" style="background:rgba(102,126,234,0.03);">
+        <div class="setting-icon"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="#667eea" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg></div>
+        <div class="setting-info">
+          <div class="setting-title">Data Retention</div>
+          <div class="setting-desc" style="color:#666;">Your learning progress is stored for 2 years after last activity</div>
+        </div>
+      </div>
     </div>
     
     <!-- Study Settings -->
@@ -759,6 +897,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
     
+    <!-- Referral Section -->
+    <div class="settings-section">
+      <div class="settings-section-title">Invite Friends</div>
+      <div class="referral-card" style="background:linear-gradient(135deg,rgba(102,126,234,0.1),rgba(118,75,162,0.1));border-radius:16px;padding:20px;margin-bottom:8px;">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+          <div style="width:48px;height:48px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:12px;display:flex;align-items:center;justify-content:center;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><rect x="4" y="10" width="16" height="4" rx="1"/><path d="M12 4v6"/><path d="m8 8 4-4 4 4"/></svg>
+          </div>
+          <div>
+            <div style="font-weight:700;font-size:16px;color:var(--text);">Get Free Months!</div>
+            <div style="font-size:13px;color:var(--text-secondary);">1 free month per friend who subscribes</div>
+          </div>
+        </div>
+        
+        <div style="background:var(--card-bg);border-radius:12px;padding:14px;margin-bottom:12px;">
+          <div style="font-size:11px;color:var(--text-secondary);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;">Your Referral Link</div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <input type="text" id="referralLinkInput" readonly style="flex:1;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:13px;background:var(--bg);color:var(--text);font-family:monospace;">
+            <button onclick="copyReferralLink()" style="padding:10px 16px;background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;border:none;border-radius:8px;font-weight:600;font-size:13px;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px;" id="copyReferralBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span>Copy</span>
+            </button>
+          </div>
+        </div>
+        
+        <div style="display:flex;gap:8px;">
+          <button onclick="shareReferralTwitter()" style="flex:1;padding:10px;background:#1DA1F2;color:#fff;border:none;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Share
+          </button>
+          <button onclick="shareReferralLine()" style="flex:1;padding:10px;background:#06C755;color:#fff;border:none;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63h2.386c.349 0 .63.285.63.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.627-.63.349 0 .631.285.631.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.349 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+            LINE
+          </button>
+          <button onclick="shareReferralWhatsApp()" style="flex:1;padding:10px;background:#25D366;color:#fff;border:none;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </button>
+        </div>
+        
+        <div id="referralStats" style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border);display:none;">
+          <div style="display:flex;justify-content:space-around;text-align:center;">
+            <div>
+              <div style="font-size:24px;font-weight:700;color:var(--primary);" id="referralCount">0</div>
+              <div style="font-size:11px;color:var(--text-secondary);">Friends Invited</div>
+            </div>
+            <div>
+              <div style="font-size:24px;font-weight:700;color:#16a34a;" id="freeMonthsEarned">0</div>
+              <div style="font-size:11px;color:var(--text-secondary);">Free Months Earned</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <!-- Data Section -->
     <div class="settings-section">
       <div class="settings-section-title">Data</div>
@@ -789,7 +982,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="app-links" style="margin-top:8px;">
         <a href="mailto:support@fujisan.ai">Support</a> · <a href="help.html">Help</a>
       </div>
-      <div class="app-links" style="margin-top:12px;">
+      <div class="app-links" style="margin-top:8px;">
+        <a href="/?preview=true">View Homepage</a>
+      </div>
+      <div class="app-links" style="margin-top:12px;" id="cancelSubscriptionLink">
         <a href="#" onclick="openCustomerPortal(); return false;" style="color:#dc2626;">Cancel Subscription</a>
       </div>
     </div>
@@ -928,6 +1124,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="auth-form-group">
         <label class="auth-label">Email</label>
         <input type="email" id="authSignupEmail" class="auth-input" placeholder="your@email.com">
+      </div>
+      
+      <!-- Honeypot field - hidden from humans, bots will fill it -->
+      <div class="auth-form-group" style="position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden;" aria-hidden="true">
+        <label class="auth-label">Website (leave empty)</label>
+        <input type="text" id="authSignupWebsite" class="auth-input" tabindex="-1" autocomplete="off">
       </div>
       
       <div class="auth-form-group">
@@ -1073,6 +1275,55 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </p>
     
     <button class="btn-secondary" style="width:100%;padding:10px;font-size:13px;" onclick="closeSubscriptionRequiredModal()">Log Out</button>
+  </div>
+</div>
+
+<!-- Feedback Modal -->
+<div class="feedback-modal hidden" id="feedbackModal">
+  <div class="feedback-modal-box">
+    <div class="feedback-modal-header">
+      <span class="feedback-modal-title" data-i18n="feedback_title">Share Your Feedback</span>
+      <button class="feedback-modal-close" onclick="closeFeedbackModal()">×</button>
+    </div>
+    
+    <p class="feedback-modal-desc" data-i18n="feedback_desc">Your feedback helps us improve Fujisan.AI!</p>
+    
+    <form id="feedbackForm" onsubmit="submitFeedbackModal(event)">
+      <!-- Star Rating -->
+      <div class="feedback-form-group">
+        <label class="feedback-form-label" data-i18n="feedback_rating">How would you rate Fujisan.AI?</label>
+        <div class="feedback-stars" id="feedbackStars">
+          <span class="feedback-star" data-rating="1">★</span>
+          <span class="feedback-star" data-rating="2">★</span>
+          <span class="feedback-star" data-rating="3">★</span>
+          <span class="feedback-star" data-rating="4">★</span>
+          <span class="feedback-star" data-rating="5">★</span>
+        </div>
+        <input type="hidden" id="feedbackRating" value="0">
+      </div>
+      
+      <!-- Comment -->
+      <div class="feedback-form-group">
+        <label class="feedback-form-label" data-i18n="feedback_comment">Your comment</label>
+        <textarea class="feedback-form-textarea" id="feedbackComment" placeholder="What do you like? What could be better?" data-i18n-placeholder="feedback_comment_placeholder"></textarea>
+      </div>
+      
+      <!-- Nickname -->
+      <div class="feedback-form-group">
+        <label class="feedback-form-label" data-i18n="feedback_nickname">Nickname (optional)</label>
+        <input type="text" class="feedback-form-input" id="feedbackNickname" placeholder="How should we call you?" data-i18n-placeholder="feedback_nickname_placeholder">
+      </div>
+      
+      <!-- Permission checkbox -->
+      <div class="feedback-form-group">
+        <label class="feedback-checkbox-label">
+          <input type="checkbox" id="feedbackPermission">
+          <span data-i18n="feedback_permission">I allow my feedback to be displayed on the website</span>
+        </label>
+      </div>
+      
+      <button type="submit" class="feedback-submit-btn" id="feedbackSubmitBtn" data-i18n="feedback_submit">Send Feedback</button>
+    </form>
   </div>
 </div>
 

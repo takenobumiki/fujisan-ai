@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Admin - Fujisan.AI</title>
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f5f5f5;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      background: #fff;
+      padding: 20px 24px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 4px;
+    }
+    .subtitle {
+      color: #666;
+      font-size: 14px;
+    }
+    .stats {
+      display: flex;
+      gap: 16px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+    .stat-card {
+      background: #f8f9fa;
+      padding: 12px 20px;
+      border-radius: 8px;
+      min-width: 120px;
+    }
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: #667eea;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: #666;
+      margin-top: 2px;
+    }
+    .filters {
+      background: #fff;
+      padding: 16px 24px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .filter-group label {
+      font-size: 13px;
+      color: #666;
+    }
+    select, input[type="text"] {
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      font-size: 14px;
+      background: #fff;
+    }
+    select:focus, input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+    .btn {
+      padding: 8px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: #667eea;
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: #5a6fd6;
+    }
+    .btn-secondary {
+      background: #f3f4f6;
+      color: #374151;
+    }
+    .btn-secondary:hover {
+      background: #e5e7eb;
+    }
+    .btn-success {
+      background: #10b981;
+      color: #fff;
+    }
+    .btn-success:hover {
+      background: #059669;
+    }
+    .feedback-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .feedback-card {
+      background: #fff;
+      padding: 20px 24px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: all 0.2s;
+    }
+    .feedback-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .feedback-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+    .feedback-user {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .user-avatar {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    .user-info h3 {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 2px;
+    }
+    .user-meta {
+      font-size: 12px;
+      color: #999;
+    }
+    .feedback-rating {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .star {
+      color: #fbbf24;
+      font-size: 18px;
+    }
+    .star.empty {
+      color: #e5e7eb;
+    }
+    .feedback-comment {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+      padding: 16px;
+      background: #f8f9fa;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .feedback-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: #999;
+    }
+    .feedback-tags {
+      display: flex;
+      gap: 8px;
+    }
+    .tag {
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+    }
+    .tag-consent {
+      background: #d1fae5;
+      color: #065f46;
+    }
+    .tag-level {
+      background: #e0e7ff;
+      color: #3730a3;
+    }
+    .tag-plan {
+      background: #fef3c7;
+      color: #92400e;
+    }
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: #999;
+    }
+    .empty-state svg {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #666;
+    }
+    .login-form {
+      max-width: 400px;
+      margin: 100px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 24px;
+      color: #333;
+    }
+    .login-form input {
+      width: 100%;
+      padding: 12px 16px;
+      margin-bottom: 16px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+    .login-form .btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+    }
+    .login-error {
+      color: #ef4444;
+      font-size: 13px;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .hidden { display: none !important; }
+    
+    @media (max-width: 768px) {
+      .filters {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .filter-group {
+        width: 100%;
+      }
+      .filter-group select {
+        flex: 1;
+      }
+      .feedback-header {
+        flex-direction: column;
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Login Form -->
+  <div id="loginSection" class="login-form">
+    <h2>🔐 Admin Login</h2>
+    <input type="email" id="adminEmail" placeholder="Admin Email">
+    <input type="password" id="adminPassword" placeholder="Password">
+    <div id="loginError" class="login-error hidden"></div>
+    <button class="btn btn-primary" onclick="adminLogin()">Login</button>
+  </div>
+
+  <!-- Main Content -->
+  <div id="mainContent" class="container hidden">
+    <header>
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <div>
+          <h1>📝 Feedback Dashboard</h1>
+          <p class="subtitle">User feedback from Fujisan.AI</p>
+        </div>
+        <button class="btn btn-secondary" onclick="logout()">Logout</button>
+      </div>
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-value" id="statTotal">-</div>
+          <div class="stat-label">Total Feedback</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="statAvg">-</div>
+          <div class="stat-label">Avg Rating</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat5Star">-</div>
+          <div class="stat-label">5-Star</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="statConsent">-</div>
+          <div class="stat-label">LP Consent</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="filters">
+      <div class="filter-group">
+        <label>Rating:</label>
+        <select id="filterRating" onchange="applyFilters()">
+          <option value="all">All</option>
+          <option value="5">★★★★★ (5)</option>
+          <option value="4">★★★★☆ (4+)</option>
+          <option value="3">★★★☆☆ (3+)</option>
+          <option value="2">★★☆☆☆ (2+)</option>
+          <option value="1">★☆☆☆☆ (1+)</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Consent:</label>
+        <select id="filterConsent" onchange="applyFilters()">
+          <option value="all">All</option>
+          <option value="yes">LP Consent Only</option>
+          <option value="no">No Consent</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label>Level:</label>
+        <select id="filterLevel" onchange="applyFilters()">
+          <option value="all">All</option>
+          <option value="N5">N5</option>
+          <option value="N4">N4</option>
+          <option value="N3">N3</option>
+          <option value="N2">N2</option>
+          <option value="N1">N1</option>
+        </select>
+      </div>
+      <div class="filter-group" style="margin-left:auto;">
+        <button class="btn btn-success" onclick="exportCSV()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Export CSV
+        </button>
+        <button class="btn btn-secondary" onclick="loadFeedback()">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px;"><path d="M23 4v6h-6"/><path d="M1 20v-6h6"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          Refresh
+        </button>
+      </div>
+    </div>
+
+    <div id="feedbackList" class="feedback-list">
+      <div class="loading">Loading feedback...</div>
+    </div>
+  </div>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+
+  <script>
+    // Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyA9eLl6ycA74I6neVi2ZU6Ue-4AOVHUVZQ",
+      authDomain: "toraiz-f81ed.firebaseapp.com",
+      projectId: "toraiz-f81ed",
+      storageBucket: "toraiz-f81ed.firebasestorage.app",
+      messagingSenderId: "973aborting46652498",
+      appId: "1:973046652498:web:e5e38e4d97a4ac6a5b3f4a"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    // Admin emails (add your admin emails here)
+    const ADMIN_EMAILS = [
+      'take@toraiz.jp',
+      'admin@fujisan.ai'
+    ];
+
+    let allFeedback = [];
+    let filteredFeedback = [];
+
+    // Check auth state
+    auth.onAuthStateChanged(user => {
+      if (user && ADMIN_EMAILS.includes(user.email)) {
+        document.getElementById('loginSection').classList.add('hidden');
+        document.getElementById('mainContent').classList.remove('hidden');
+        loadFeedback();
+      } else {
+        document.getElementById('loginSection').classList.remove('hidden');
+        document.getElementById('mainContent').classList.add('hidden');
+        if (user) {
+          // Logged in but not admin
+          auth.signOut();
+          showLoginError('Access denied. Admin only.');
+        }
+      }
+    });
+
+    function adminLogin() {
+      const email = document.getElementById('adminEmail').value;
+      const password = document.getElementById('adminPassword').value;
+      
+      if (!email || !password) {
+        showLoginError('Please enter email and password');
+        return;
+      }
+
+      auth.signInWithEmailAndPassword(email, password)
+        .then(userCredential => {
+          if (!ADMIN_EMAILS.includes(userCredential.user.email)) {
+            auth.signOut();
+            showLoginError('Access denied. Admin only.');
+          }
+        })
+        .catch(err => {
+          showLoginError(err.message);
+        });
+    }
+
+    function showLoginError(msg) {
+      const el = document.getElementById('loginError');
+      el.textContent = msg;
+      el.classList.remove('hidden');
+    }
+
+    function logout() {
+      auth.signOut();
+    }
+
+    async function loadFeedback() {
+      const listEl = document.getElementById('feedbackList');
+      listEl.innerHTML = '<div class="loading">Loading feedback...</div>';
+
+      try {
+        const snapshot = await db.collection('feedback')
+          .orderBy('createdAt', 'desc')
+          .limit(500)
+          .get();
+
+        allFeedback = [];
+        snapshot.forEach(doc => {
+          allFeedback.push({ id: doc.id, ...doc.data() });
+        });
+
+        updateStats();
+        applyFilters();
+      } catch (err) {
+        console.error('Error loading feedback:', err);
+        listEl.innerHTML = '<div class="empty-state">Error loading feedback: ' + err.message + '</div>';
+      }
+    }
+
+    function updateStats() {
+      document.getElementById('statTotal').textContent = allFeedback.length;
+      
+      const avgRating = allFeedback.length > 0
+        ? (allFeedback.reduce((sum, f) => sum + (f.rating || 0), 0) / allFeedback.length).toFixed(1)
+        : '-';
+      document.getElementById('statAvg').textContent = avgRating;
+
+      const fiveStars = allFeedback.filter(f => f.rating === 5).length;
+      document.getElementById('stat5Star').textContent = fiveStars;
+
+      const consents = allFeedback.filter(f => f.consentToPublish).length;
+      document.getElementById('statConsent').textContent = consents;
+    }
+
+    function applyFilters() {
+      const rating = document.getElementById('filterRating').value;
+      const consent = document.getElementById('filterConsent').value;
+      const level = document.getElementById('filterLevel').value;
+
+      filteredFeedback = allFeedback.filter(f => {
+        if (rating !== 'all' && f.rating < parseInt(rating)) return false;
+        if (consent === 'yes' && !f.consentToPublish) return false;
+        if (consent === 'no' && f.consentToPublish) return false;
+        if (level !== 'all' && f.userLevel !== level) return false;
+        return true;
+      });
+
+      renderFeedback();
+    }
+
+    function renderFeedback() {
+      const listEl = document.getElementById('feedbackList');
+
+      if (filteredFeedback.length === 0) {
+        listEl.innerHTML = `
+          <div class="empty-state">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+            <p>No feedback found</p>
+          </div>
+        `;
+        return;
+      }
+
+      listEl.innerHTML = filteredFeedback.map(f => {
+        const initial = (f.nickname || 'U')[0].toUpperCase();
+        const stars = renderStars(f.rating || 0);
+        const date = f.createdAt ? formatDate(f.createdAt) : '-';
+        
+        return `
+          <div class="feedback-card">
+            <div class="feedback-header">
+              <div class="feedback-user">
+                <div class="user-avatar">${initial}</div>
+                <div class="user-info">
+                  <h3>${escapeHtml(f.nickname || 'Anonymous')}</h3>
+                  <div class="user-meta">${escapeHtml(f.country || 'Unknown')} · ${date}</div>
+                </div>
+              </div>
+              <div class="feedback-rating">${stars}</div>
+            </div>
+            ${f.comment ? `<div class="feedback-comment">${escapeHtml(f.comment)}</div>` : ''}
+            <div class="feedback-footer">
+              <div class="feedback-tags">
+                ${f.consentToPublish ? '<span class="tag tag-consent">LP Consent</span>' : ''}
+                ${f.userLevel ? `<span class="tag tag-level">${f.userLevel}</span>` : ''}
+                ${f.userPlan ? `<span class="tag tag-plan">${f.userPlan}</span>` : ''}
+              </div>
+              <div style="font-size:11px;color:#bbb;">${f.userId ? f.userId.substring(0, 8) + '...' : ''}</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderStars(rating) {
+      let html = '';
+      for (let i = 1; i <= 5; i++) {
+        html += `<span class="star ${i <= rating ? '' : 'empty'}">★</span>`;
+      }
+      return html;
+    }
+
+    function formatDate(timestamp) {
+      if (!timestamp) return '-';
+      const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
+      return date.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    }
+
+    function escapeHtml(text) {
+      if (!text) return '';
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    function exportCSV() {
+      if (filteredFeedback.length === 0) {
+        alert('No feedback to export');
+        return;
+      }
+
+      const headers = ['Date', 'Rating', 'Nickname', 'Country', 'Comment', 'LP Consent', 'Level', 'Plan', 'User ID'];
+      const rows = filteredFeedback.map(f => {
+        const date = f.createdAt ? (f.createdAt.toDate ? f.createdAt.toDate() : new Date(f.createdAt)).toISOString() : '';
+        return [
+          date,
+          f.rating || '',
+          f.nickname || '',
+          f.country || '',
+          (f.comment || '').replace(/"/g, '""'),
+          f.consentToPublish ? 'Yes' : 'No',
+          f.userLevel || '',
+          f.userPlan || '',
+          f.userId || ''
+        ];
+      });
+
+      let csv = headers.join(',') + '\n';
+      rows.forEach(row => {
+        csv += row.map(cell => `"${cell}"`).join(',') + '\n';
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = `fujisan_feedback_${new Date().toISOString().split('T')[0]}.csv`;
+      link.click();
+    }
+
+    // Enter key login
+    document.getElementById('adminPassword').addEventListener('keypress', e => {
+      if (e.key === 'Enter') adminLogin();
+    });
+  </script>
+</body>
+</html>

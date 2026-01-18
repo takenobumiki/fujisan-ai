@@ -5113,11 +5113,11 @@ const N3_GRAMMAR = [
     "p": "ために",
     "m": {
       "en": "in order to; for the purpose of",
-      "zh-TW": "[in order to; for the purpose of]",
-      "zh-CN": "[in order to; for the purpose of]",
-      "ko": "[in order to; for the purpose of]",
-      "vi": "[in order to; for the purpose of]",
-      "id": "[in order to; for the purpose of]"
+      "zh-TW": "in order to; for the purpose of",
+      "zh-CN": "in order to; for the purpose of",
+      "ko": "in order to; for the purpose of",
+      "vi": "in order to; for the purpose of",
+      "id": "in order to; for the purpose of"
     }
   },
   {
@@ -5125,11 +5125,11 @@ const N3_GRAMMAR = [
     "p": "ように",
     "m": {
       "en": "so that; in order to",
-      "zh-TW": "[so that; in order to]",
-      "zh-CN": "[so that; in order to]",
-      "ko": "[so that; in order to]",
-      "vi": "[so that; in order to]",
-      "id": "[so that; in order to]"
+      "zh-TW": "so that; in order to",
+      "zh-CN": "so that; in order to",
+      "ko": "so that; in order to",
+      "vi": "so that; in order to",
+      "id": "so that; in order to"
     }
   },
   {
@@ -5137,11 +5137,11 @@ const N3_GRAMMAR = [
     "p": "として",
     "m": {
       "en": "as; in the role of",
-      "zh-TW": "[as; in the role of]",
-      "zh-CN": "[as; in the role of]",
-      "ko": "[as; in the role of]",
-      "vi": "[as; in the role of]",
-      "id": "[as; in the role of]"
+      "zh-TW": "as; in the role of",
+      "zh-CN": "as; in the role of",
+      "ko": "as; in the role of",
+      "vi": "as; in the role of",
+      "id": "as; in the role of"
     }
   },
   {
@@ -5149,11 +5149,11 @@ const N3_GRAMMAR = [
     "p": "について",
     "m": {
       "en": "about; concerning",
-      "zh-TW": "[about; concerning]",
-      "zh-CN": "[about; concerning]",
-      "ko": "[about; concerning]",
-      "vi": "[about; concerning]",
-      "id": "[about; concerning]"
+      "zh-TW": "about; concerning",
+      "zh-CN": "about; concerning",
+      "ko": "about; concerning",
+      "vi": "about; concerning",
+      "id": "about; concerning"
     }
   },
   {
@@ -5161,11 +5161,11 @@ const N3_GRAMMAR = [
     "p": "によって",
     "m": {
       "en": "by means of; depending on",
-      "zh-TW": "[by means of; depending on]",
-      "zh-CN": "[by means of; depending on]",
-      "ko": "[by means of; depending on]",
-      "vi": "[by means of; depending on]",
-      "id": "[by means of; depending on]"
+      "zh-TW": "by means of; depending on",
+      "zh-CN": "by means of; depending on",
+      "ko": "by means of; depending on",
+      "vi": "by means of; depending on",
+      "id": "by means of; depending on"
     }
   },
   {
@@ -5174,11 +5174,11 @@ const N3_GRAMMAR = [
     "r": "にたいして",
     "m": {
       "en": "toward; in contrast to",
-      "zh-TW": "[toward; in contrast to]",
-      "zh-CN": "[toward; in contrast to]",
-      "ko": "[toward; in contrast to]",
-      "vi": "[toward; in contrast to]",
-      "id": "[toward; in contrast to]"
+      "zh-TW": "toward; in contrast to",
+      "zh-CN": "toward; in contrast to",
+      "ko": "toward; in contrast to",
+      "vi": "toward; in contrast to",
+      "id": "toward; in contrast to"
     }
   },
   {
@@ -5186,11 +5186,11 @@ const N3_GRAMMAR = [
     "p": "において",
     "m": {
       "en": "in; at; on",
-      "zh-TW": "[in; at; on]",
-      "zh-CN": "[in; at; on]",
-      "ko": "[in; at; on]",
-      "vi": "[in; at; on]",
-      "id": "[in; at; on]"
+      "zh-TW": "in; at; on",
+      "zh-CN": "in; at; on",
+      "ko": "in; at; on",
+      "vi": "in; at; on",
+      "id": "in; at; on"
     }
   },
   {
@@ -5198,11 +5198,11 @@ const N3_GRAMMAR = [
     "p": "にとって",
     "m": {
       "en": "for; to",
-      "zh-TW": "[for; to]",
-      "zh-CN": "[for; to]",
-      "ko": "[for; to]",
-      "vi": "[for; to]",
-      "id": "[for; to]"
+      "zh-TW": "for; to",
+      "zh-CN": "for; to",
+      "ko": "for; to",
+      "vi": "for; to",
+      "id": "for; to"
     }
   },
   {
@@ -5210,11 +5210,11 @@ const N3_GRAMMAR = [
     "p": "に比べて",
     "m": {
       "en": "compared to",
-      "zh-TW": "[compared to]",
-      "zh-CN": "[compared to]",
-      "ko": "[compared to]",
-      "vi": "[compared to]",
-      "id": "[compared to]"
+      "zh-TW": "compared to",
+      "zh-CN": "compared to",
+      "ko": "compared to",
+      "vi": "compared to",
+      "id": "compared to"
     }
   },
   {
@@ -5223,11 +5223,11 @@ const N3_GRAMMAR = [
     "r": "にかんして",
     "m": {
       "en": "regarding; concerning",
-      "zh-TW": "[regarding; concerning]",
-      "zh-CN": "[regarding; concerning]",
-      "ko": "[regarding; concerning]",
-      "vi": "[regarding; concerning]",
-      "id": "[regarding; concerning]"
+      "zh-TW": "regarding; concerning",
+      "zh-CN": "regarding; concerning",
+      "ko": "regarding; concerning",
+      "vi": "regarding; concerning",
+      "id": "regarding; concerning"
     }
   },
   {
@@ -5235,11 +5235,11 @@ const N3_GRAMMAR = [
     "p": "に基づいて",
     "m": {
       "en": "based on",
-      "zh-TW": "[based on]",
-      "zh-CN": "[based on]",
-      "ko": "[based on]",
-      "vi": "[based on]",
-      "id": "[based on]"
+      "zh-TW": "based on",
+      "zh-CN": "based on",
+      "ko": "based on",
+      "vi": "based on",
+      "id": "based on"
     }
   },
   {
@@ -5247,11 +5247,11 @@ const N3_GRAMMAR = [
     "p": "を通じて",
     "m": {
       "en": "through; via",
-      "zh-TW": "[through; via]",
-      "zh-CN": "[through; via]",
-      "ko": "[through; via]",
-      "vi": "[through; via]",
-      "id": "[through; via]"
+      "zh-TW": "through; via",
+      "zh-CN": "through; via",
+      "ko": "through; via",
+      "vi": "through; via",
+      "id": "through; via"
     }
   },
   {
@@ -5259,11 +5259,11 @@ const N3_GRAMMAR = [
     "p": "わけだ",
     "m": {
       "en": "that's why; no wonder",
-      "zh-TW": "[that's why; no wonder]",
-      "zh-CN": "[that's why; no wonder]",
-      "ko": "[that's why; no wonder]",
-      "vi": "[that's why; no wonder]",
-      "id": "[that's why; no wonder]"
+      "zh-TW": "that's why; no wonder",
+      "zh-CN": "that's why; no wonder",
+      "ko": "that's why; no wonder",
+      "vi": "that's why; no wonder",
+      "id": "that's why; no wonder"
     }
   },
   {
@@ -5271,11 +5271,11 @@ const N3_GRAMMAR = [
     "p": "わけではない",
     "m": {
       "en": "it doesn't mean that",
-      "zh-TW": "[it doesn't mean that]",
-      "zh-CN": "[it doesn't mean that]",
-      "ko": "[it doesn't mean that]",
-      "vi": "[it doesn't mean that]",
-      "id": "[it doesn't mean that]"
+      "zh-TW": "it doesn't mean that",
+      "zh-CN": "it doesn't mean that",
+      "ko": "it doesn't mean that",
+      "vi": "it doesn't mean that",
+      "id": "it doesn't mean that"
     }
   },
   {
@@ -5283,11 +5283,11 @@ const N3_GRAMMAR = [
     "p": "わけがない",
     "m": {
       "en": "there's no way that",
-      "zh-TW": "[there's no way that]",
-      "zh-CN": "[there's no way that]",
-      "ko": "[there's no way that]",
-      "vi": "[there's no way that]",
-      "id": "[there's no way that]"
+      "zh-TW": "there's no way that",
+      "zh-CN": "there's no way that",
+      "ko": "there's no way that",
+      "vi": "there's no way that",
+      "id": "there's no way that"
     }
   },
   {
@@ -5295,11 +5295,11 @@ const N3_GRAMMAR = [
     "p": "わけにはいかない",
     "m": {
       "en": "cannot; must not",
-      "zh-TW": "[cannot; must not]",
-      "zh-CN": "[cannot; must not]",
-      "ko": "[cannot; must not]",
-      "vi": "[cannot; must not]",
-      "id": "[cannot; must not]"
+      "zh-TW": "cannot; must not",
+      "zh-CN": "cannot; must not",
+      "ko": "cannot; must not",
+      "vi": "cannot; must not",
+      "id": "cannot; must not"
     }
   },
   {
@@ -5307,11 +5307,11 @@ const N3_GRAMMAR = [
     "p": "ざるを得ない",
     "m": {
       "en": "have no choice but to",
-      "zh-TW": "[have no choice but to]",
-      "zh-CN": "[have no choice but to]",
-      "ko": "[have no choice but to]",
-      "vi": "[have no choice but to]",
-      "id": "[have no choice but to]"
+      "zh-TW": "have no choice but to",
+      "zh-CN": "have no choice but to",
+      "ko": "have no choice but to",
+      "vi": "have no choice but to",
+      "id": "have no choice but to"
     }
   },
   {
@@ -5319,11 +5319,11 @@ const N3_GRAMMAR = [
     "p": "ないわけにはいかない",
     "m": {
       "en": "cannot help but",
-      "zh-TW": "[cannot help but]",
-      "zh-CN": "[cannot help but]",
-      "ko": "[cannot help but]",
-      "vi": "[cannot help but]",
-      "id": "[cannot help but]"
+      "zh-TW": "cannot help but",
+      "zh-CN": "cannot help but",
+      "ko": "cannot help but",
+      "vi": "cannot help but",
+      "id": "cannot help but"
     }
   },
   {
@@ -5331,11 +5331,11 @@ const N3_GRAMMAR = [
     "p": "てたまらない",
     "m": {
       "en": "unbearably; extremely",
-      "zh-TW": "[unbearably; extremely]",
-      "zh-CN": "[unbearably; extremely]",
-      "ko": "[unbearably; extremely]",
-      "vi": "[unbearably; extremely]",
-      "id": "[unbearably; extremely]"
+      "zh-TW": "unbearably; extremely",
+      "zh-CN": "unbearably; extremely",
+      "ko": "unbearably; extremely",
+      "vi": "unbearably; extremely",
+      "id": "unbearably; extremely"
     }
   },
   {
@@ -5343,11 +5343,11 @@ const N3_GRAMMAR = [
     "p": "てならない",
     "m": {
       "en": "can't help but",
-      "zh-TW": "[can't help but]",
-      "zh-CN": "[can't help but]",
-      "ko": "[can't help but]",
-      "vi": "[can't help but]",
-      "id": "[can't help but]"
+      "zh-TW": "can't help but",
+      "zh-CN": "can't help but",
+      "ko": "can't help but",
+      "vi": "can't help but",
+      "id": "can't help but"
     }
   },
   {
@@ -5355,11 +5355,11 @@ const N3_GRAMMAR = [
     "p": "てしょうがない",
     "m": {
       "en": "can't help; extremely",
-      "zh-TW": "[can't help; extremely]",
-      "zh-CN": "[can't help; extremely]",
-      "ko": "[can't help; extremely]",
-      "vi": "[can't help; extremely]",
-      "id": "[can't help; extremely]"
+      "zh-TW": "can't help; extremely",
+      "zh-CN": "can't help; extremely",
+      "ko": "can't help; extremely",
+      "vi": "can't help; extremely",
+      "id": "can't help; extremely"
     }
   },
   {
@@ -5367,11 +5367,11 @@ const N3_GRAMMAR = [
     "p": "おかげで",
     "m": {
       "en": "thanks to",
-      "zh-TW": "[thanks to]",
-      "zh-CN": "[thanks to]",
-      "ko": "[thanks to]",
-      "vi": "[thanks to]",
-      "id": "[thanks to]"
+      "zh-TW": "thanks to",
+      "zh-CN": "thanks to",
+      "ko": "thanks to",
+      "vi": "thanks to",
+      "id": "thanks to"
     }
   },
   {
@@ -5379,11 +5379,11 @@ const N3_GRAMMAR = [
     "p": "せいで",
     "m": {
       "en": "because of; due to",
-      "zh-TW": "[because of; due to]",
-      "zh-CN": "[because of; due to]",
-      "ko": "[because of; due to]",
-      "vi": "[because of; due to]",
-      "id": "[because of; due to]"
+      "zh-TW": "because of; due to",
+      "zh-CN": "because of; due to",
+      "ko": "because of; due to",
+      "vi": "because of; due to",
+      "id": "because of; due to"
     }
   },
   {
@@ -5391,11 +5391,11 @@ const N3_GRAMMAR = [
     "p": "上で",
     "m": {
       "en": "after; upon",
-      "zh-TW": "[after; upon]",
-      "zh-CN": "[after; upon]",
-      "ko": "[after; upon]",
-      "vi": "[after; upon]",
-      "id": "[after; upon]"
+      "zh-TW": "after; upon",
+      "zh-CN": "after; upon",
+      "ko": "after; upon",
+      "vi": "after; upon",
+      "id": "after; upon"
     }
   },
   {
@@ -5403,11 +5403,11 @@ const N3_GRAMMAR = [
     "p": "上に",
     "m": {
       "en": "in addition to",
-      "zh-TW": "[in addition to]",
-      "zh-CN": "[in addition to]",
-      "ko": "[in addition to]",
-      "vi": "[in addition to]",
-      "id": "[in addition to]"
+      "zh-TW": "in addition to",
+      "zh-CN": "in addition to",
+      "ko": "in addition to",
+      "vi": "in addition to",
+      "id": "in addition to"
     }
   },
   {
@@ -5416,11 +5416,11 @@ const N3_GRAMMAR = [
     "r": "いっぽうで",
     "m": {
       "en": "on the other hand; while",
-      "zh-TW": "[on the other hand; while]",
-      "zh-CN": "[on the other hand; while]",
-      "ko": "[on the other hand; while]",
-      "vi": "[on the other hand; while]",
-      "id": "[on the other hand; while]"
+      "zh-TW": "on the other hand; while",
+      "zh-CN": "on the other hand; while",
+      "ko": "on the other hand; while",
+      "vi": "on the other hand; while",
+      "id": "on the other hand; while"
     }
   },
   {
@@ -5429,11 +5429,11 @@ const N3_GRAMMAR = [
     "r": "はんめん",
     "m": {
       "en": "on the other hand; while",
-      "zh-TW": "[on the other hand; while]",
-      "zh-CN": "[on the other hand; while]",
-      "ko": "[on the other hand; while]",
-      "vi": "[on the other hand; while]",
-      "id": "[on the other hand; while]"
+      "zh-TW": "on the other hand; while",
+      "zh-CN": "on the other hand; while",
+      "ko": "on the other hand; while",
+      "vi": "on the other hand; while",
+      "id": "on the other hand; while"
     }
   }
 ];

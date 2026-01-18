@@ -1,7 +1,29 @@
 // ========== CONFIG ==========
-const APP_VERSION = '19.1.13';
+// ============================================================
+// 【重要】バージョン更新時は sync-version.sh を実行すること！
+// 手動編集禁止 - versionファイルが Single Source of Truth
+// ============================================================
+const APP_VERSION = '19.7.2';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
+
+// ========== VERSION INTEGRITY CHECK ==========
+// 起動時にversionファイルと照合し、不一致なら警告
+(async function checkVersionIntegrity() {
+  try {
+    const res = await fetch('/version?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) return;
+    const serverVersion = (await res.text()).trim();
+    if (serverVersion !== APP_VERSION) {
+      console.error(`[VERSION MISMATCH] app.js: ${APP_VERSION}, version file: ${serverVersion}`);
+      console.error('[VERSION MISMATCH] Run sync-version.sh before deploying!');
+      // 開発者向け警告（本番では非表示）
+      if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+        alert(`⚠️ VERSION MISMATCH!\n\napp.js: ${APP_VERSION}\nversion file: ${serverVersion}\n\nRun: ./sync-version.sh`);
+      }
+    }
+  } catch(e) { /* ignore */ }
+})();
 
 // ========== FURIGANA SYSTEM ==========
 // 各レベルで学習済みとみなす漢字セット（そのレベルより下のレベルの漢字）
@@ -141,9 +163,7 @@ async function forceUpdate() {
     return;
   }
   window._forceUpdateCalled = true;
-  
-  // Show update notification
-  showUpdateNotification();
+  console.log('[Update] Starting force update...');
   
   try {
     // 1. Unregister service worker
@@ -167,36 +187,14 @@ async function forceUpdate() {
     // 3. Clear localStorage version marker (but keep user data)
     localStorage.removeItem('fujisan_app_version');
     
-    // 4. Hard reload after short delay
-    setTimeout(() => {
-      window.location.reload(true);
-    }, 1000);
+    // 4. Hard reload immediately
+    window.location.reload(true);
     
   } catch(e) {
     console.error('[Update] Force update failed:', e);
     // Fallback: just reload
     window.location.reload(true);
   }
-}
-
-// Show update notification overlay
-function showUpdateNotification() {
-  const overlay = document.createElement('div');
-  overlay.id = 'update-overlay';
-  overlay.innerHTML = `
-    <div style="position:fixed;inset:0;background:rgba(0,0,0,0.8);display:flex;align-items:center;justify-content:center;z-index:99999;">
-      <div style="background:#fff;padding:32px;border-radius:16px;text-align:center;max-width:300px;">
-        <div style="font-size:48px;margin-bottom:16px;">🔄</div>
-        <div style="font-size:18px;font-weight:600;margin-bottom:8px;">Updating Fujisan.AI</div>
-        <div style="font-size:14px;color:#666;">Please wait...</div>
-        <div style="margin-top:16px;width:100%;height:4px;background:#eee;border-radius:2px;overflow:hidden;">
-          <div style="width:100%;height:100%;background:linear-gradient(90deg,#667eea,#764ba2);animation:loading 1s ease-in-out infinite;"></div>
-        </div>
-      </div>
-    </div>
-    <style>@keyframes loading{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}</style>
-  `;
-  document.body.appendChild(overlay);
 }
 
 // Listen for Service Worker update messages
@@ -225,8 +223,32 @@ if (document.readyState === 'loading') {
 const UI_TEXTS = {
   en: {
     // Navigation
-    nav_drill: 'Drill', nav_mock: 'Mock', nav_ai: 'AI',
+    nav_drill: 'Drill', nav_mock: 'Mock', nav_ai: 'AI', nav_talk: 'Talk',
     nav_vocab: 'Vocab', nav_kanji: 'Kanji', nav_new_kanji: 'New Kanji', nav_grammar: 'Grammar',
+    // Talk (AI Conversation)
+    talk_title: 'AI Conversation Practice',
+    talk_desc: 'Practice Japanese conversation with AI',
+    talk_unit_mode: 'Unit-linked Mode',
+    talk_start: 'Start',
+    talk_free_theme: 'Free Theme',
+    talk_greeting: 'Self-intro',
+    talk_restaurant: 'Restaurant',
+    talk_shopping: 'Shopping',
+    talk_directions: 'Directions',
+    talk_travel: 'Travel',
+    talk_free: 'Free Talk',
+    talk_api_required: 'Gemini API key required',
+    talk_setup_api: 'Setup in Settings',
+    talk_unit_practice: 'Practice with Unit 1-{n} vocabulary',
+    talk_intro_want: 'I want to introduce myself',
+    talk_hobby_want: 'I want to talk about hobbies',
+    talk_japan_question: 'I have questions about Japan',
+    talk_input_placeholder: 'Type in Japanese...',
+    talk_unit_desc_default: 'Practice with Unit vocabulary',
+    talk_chat_title: 'AI Conversation',
+    talk_first_msg: 'Hello! Let\'s talk using {level} vocabulary. What would you like to talk about?',
+    talk_feedback: 'Feedback',
+    talk_you: 'You',
     // Onboarding
     onboarding_welcome: 'Welcome to Fujisan.AI',
     onboarding_welcome_desc: 'Your AI-powered JLPT tutor. Master Japanese with personalized learning.',
@@ -250,6 +272,9 @@ const UI_TEXTS = {
     onboarding_ready: "You're all set!",
     onboarding_ready_desc: 'Start with Unit 1 and let AI guide your journey to JLPT success.',
     onboarding_tip: 'Pro Tip:', onboarding_skip: 'Skip', onboarding_next: 'Next',
+    onboarding_units_title: 'Tap a Unit to Start',
+    onboarding_units_desc: 'Each unit contains ~22 questions. Complete units to build your skills!',
+    onboarding_units_tap: 'Tap any number to start practicing!',
     // Quiz/Drill
     quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time', correct_answer: 'Correct answer',
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
@@ -270,6 +295,7 @@ const UI_TEXTS = {
     trial_bonus_applied: 'Trial bonus applied',
     // Mock Test
     mock_title: 'Mock Test', mock_mode: 'Mode', mock_full: 'Full', mock_section: 'Section',
+    mock_select_set: 'Select a set to start', mock_not_attempted: 'Not attempted',
     mock_set: 'Set', mock_random: '🎲 Random', mock_last_score: 'Last Score',
     mock_start: 'Start Test', mock_next: 'Next →', mock_prev: '← Previous',
     mock_result: 'Mock Test Result', mock_analyzing: 'Analyzing your results...',
@@ -392,8 +418,26 @@ const UI_TEXTS = {
     pass_country: 'Your Country/Region', pass_message: 'Your Message (will be shown on our website)',
     pass_photo: 'Certificate Photo (optional)', pass_upload: 'Click to upload your certificate',
     pass_submit: 'Submit Report',
+    // Feedback
+    feedback_cta: "How's Fujisan.AI? Share your thoughts →",
+    ask_more: 'Ask more →',
+    feedback_title: 'Share Your Feedback',
+    feedback_desc: 'Your feedback helps us improve Fujisan.AI!',
+    feedback_rating: 'How would you rate Fujisan.AI?',
+    feedback_comment: 'Your comment',
+    feedback_comment_placeholder: 'What do you like? What could be better?',
+    feedback_nickname: 'Nickname (optional)',
+    feedback_nickname_placeholder: 'How should we call you?',
+    feedback_permission: 'I allow my feedback to be displayed on the website',
+    feedback_submit: 'Send Feedback',
+    feedback_select_rating: 'Please select a rating',
+    feedback_sending: 'Sending...',
+    feedback_thanks: 'Thank you for your feedback!',
+    feedback_thank_title: 'Thank you!',
+    feedback_thank_desc: 'Your feedback helps us improve.',
     // Common
     upgrade: 'Upgrade', upgrade_premium: 'Upgrade to Premium',
+    feedback_prompt: 'How do you like Fujisan.AI?', feedback_title: 'Your Feedback', feedback_placeholder: 'Tell us what you think...', feedback_submit: 'Submit', feedback_thanks: 'Thank you for your feedback!', feedback_rating: 'Rate your experience',
     // LP - Methodology Banner
     methodology_label: 'A New Paradigm in Language Learning',
     methodology_headline: 'Instructional Design. SLA Theory. AI.',
@@ -524,8 +568,6 @@ const UI_TEXTS = {
     plan_basic_f1: 'JLPT N5-N3 all content',
     plan_basic_f2: 'Learn / Practice / Test modes',
     plan_basic_f3: 'Progress tracking dashboard',
-    plan_basic_f4: 'Daily challenges & XP',
-    plan_basic_f5: 'League competition',
     plan_standard_f1: 'Everything in Basic, plus:',
     plan_standard_f2: 'AI Explanations',
     plan_standard_f3: 'AI Pass Probability Prediction',
@@ -578,11 +620,117 @@ const UI_TEXTS = {
     coming_soon: 'Soon',
     coming: 'Coming',
     coming_2025: '2025',
-    level_n5_units: '50 Units'
+    level_n5_units: '50 Units',
+    referral_banner_title: 'Invite Friends, Get Free!',
+    referral_banner_sub: '1 month free per friend',
+    greeting_morning: 'Good morning',
+    greeting_afternoon: 'Good afternoon', 
+    greeting_evening: 'Good evening',
+    greeting_start: 'Ready to continue?',
+    greeting_continue: 'Great progress today. Keep going.',
+    ai_recommend_label: 'Recommended for you',
+    ai_recommend_start: 'Start',
+    ai_recommend_default: 'Start with vocabulary basics',
+    ai_recommend_review: 'Review items you found challenging',
+    ai_recommend_continue: 'Continue with',
+    ai_recommend_focus: 'Focus on',
+    ai_recommend_today: 'today',
+    ai_recommend_about: 'About',
+    ai_recommend_minutes: 'minutes',
+    ai_recommend_complete: 'complete',
+    nav_learn: 'Learn',
+    nav_invite: 'Invite',
+    // JLPT Level Detail Info (Official JLPT descriptions)
+    level_detail_title: 'About This Level',
+    level_detail_official: 'Official JLPT Description',
+    level_detail_cando: 'What You Can Do',
+    level_detail_content: 'Fujisan.AI Content',
+    level_detail_study_hours: 'Study Hours',
+    level_detail_pass_mark: 'Pass Mark',
+    level_detail_test_time: 'Test Duration',
+    level_detail_start: 'Start Learning',
+    level_detail_reading: 'Reading',
+    level_detail_listening: 'Listening',
+    level_n5_difficulty: 'Beginner',
+    level_n4_difficulty: 'Elementary',
+    level_n3_difficulty: 'Intermediate',
+    level_n2_difficulty: 'Advanced',
+    level_n1_difficulty: 'Expert',
+    // N5 Official
+    level_n5_official: 'The ability to understand some basic Japanese.',
+    level_n5_reading: 'Read and understand typical expressions and sentences written in hiragana, katakana, and basic kanji.',
+    level_n5_listening: 'Listen and comprehend conversations about topics regularly encountered in daily life and classroom situations, picking up necessary information from short conversations spoken slowly.',
+    level_n5_cando_1: 'Introduce yourself and family',
+    level_n5_cando_2: 'Ask for and give basic directions',
+    level_n5_cando_3: 'Order food at restaurants',
+    level_n5_cando_4: 'Understand simple announcements',
+    // N4 Official
+    level_n4_official: 'The ability to understand basic Japanese.',
+    level_n4_reading: 'Read and understand passages on familiar daily topics written in basic vocabulary and kanji.',
+    level_n4_listening: 'Listen and comprehend conversations encountered in daily life, generally following their contents when spoken slowly.',
+    level_n4_cando_1: 'Have simple conversations about daily life',
+    level_n4_cando_2: 'Read and understand short notices and signs',
+    level_n4_cando_3: 'Write simple messages and postcards',
+    level_n4_cando_4: 'Follow basic TV programs with visual aids',
+    // N3 Official
+    level_n3_official: 'The ability to understand Japanese used in everyday situations to a certain degree.',
+    level_n3_reading: 'Read materials with specific contents on everyday topics. Grasp summary information such as newspaper headlines. Understand slightly difficult writings if alternative phrases are available.',
+    level_n3_listening: 'Listen and comprehend coherent conversations in everyday situations at near-natural speed, following contents and grasping relationships among people involved.',
+    level_n3_cando_1: 'Understand most everyday conversations',
+    level_n3_cando_2: 'Read newspaper headlines and simple articles',
+    level_n3_cando_3: 'Express opinions on familiar topics',
+    level_n3_cando_4: 'Handle basic business communications',
+    // N2 Official
+    level_n2_official: 'The ability to understand Japanese used in everyday situations, and in a variety of circumstances to a certain degree.',
+    level_n2_reading: 'Read materials written clearly on various topics such as newspaper/magazine articles and simple critiques. Follow narratives on general topics and understand the intent of writers.',
+    level_n2_listening: 'Comprehend news reports and conversations at nearly natural speed in everyday situations, understanding relationships among people and essential points.',
+    level_n2_cando_1: 'Work in Japanese business environments',
+    level_n2_cando_2: 'Read newspapers and magazines comfortably',
+    level_n2_cando_3: 'Attend university lectures in Japanese',
+    level_n2_cando_4: 'Understand most TV programs and movies',
+    // N1 Official
+    level_n1_official: 'The ability to understand Japanese used in a variety of circumstances.',
+    level_n1_reading: 'Read writings with logical complexity and abstract topics such as editorials and critiques. Read materials with profound contents and understand the intent of writers comprehensively.',
+    level_n1_listening: 'Comprehend news reports, lectures, and coherent conversations at natural speed in broad settings. Understand relationships, logical structures, and essential points comprehensively.',
+    level_n1_cando_1: 'Read academic papers and literary works',
+    level_n1_cando_2: 'Participate in professional discussions fluently',
+    level_n1_cando_3: 'Understand subtle nuances and cultural references',
+    level_n1_cando_4: 'Work as translator/interpreter',
+    // Unit Preview
+    unit_preview_title: 'Unit Preview',
+    unit_preview_items: 'Items in this unit',
+    unit_preview_vocab: 'Vocabulary',
+    unit_preview_kanji: 'Kanji',
+    unit_preview_grammar: 'Grammar',
+    unit_preview_start: 'Start Unit',
+    unit_preview_sample: 'Sample items',
+    units: 'Units'
   },
   'zh-TW': {
-    nav_drill: '練習', nav_mock: '模擬', nav_ai: 'AI',
+    nav_drill: '練習', nav_mock: '模擬', nav_ai: 'AI', nav_talk: '對話',
     nav_vocab: '單字', nav_kanji: '漢字', nav_new_kanji: '新出漢字', nav_grammar: '文法',
+    // Talk
+    talk_title: 'AI對話練習',
+    talk_desc: '與AI練習日語會話',
+    talk_unit_mode: '單元連動模式',
+    talk_start: '開始',
+    talk_free_theme: '自由主題',
+    talk_greeting: '自我介紹',
+    talk_restaurant: '餐廳',
+    talk_shopping: '購物',
+    talk_directions: '問路',
+    talk_travel: '旅行',
+    talk_free: '自由對話',
+    talk_unit_practice: '使用Unit 1-{n}的單字練習',
+    talk_intro_want: '我想自我介紹',
+    talk_hobby_want: '我想聊興趣',
+    talk_japan_question: '我有關於日本的問題',
+    talk_input_placeholder: '用日語輸入...',
+    talk_unit_desc_default: '使用單元單字練習',
+    talk_chat_title: 'AI對話',
+    talk_first_msg: '你好！讓我們用{level}的單字來聊天吧。你想聊什麼？',
+    talk_feedback: '反饋',
+    talk_you: '你',
     onboarding_welcome: '歡迎使用 Fujisan.AI',
     onboarding_welcome_desc: '您的AI日語學習夥伴。透過個人化學習掌握日語。',
     onboarding_goal: '您的目標是什麼？',
@@ -605,6 +753,9 @@ const UI_TEXTS = {
     onboarding_ready: '準備就緒！',
     onboarding_ready_desc: '從第1單元開始，讓AI引導您邁向JLPT成功。',
     onboarding_tip: '小提示：', onboarding_skip: '跳過', onboarding_next: '下一步',
+    onboarding_units_title: '點擊單元開始學習',
+    onboarding_units_desc: '每個單元包含約22道題目。完成單元，提升實力！',
+    onboarding_units_tap: '點擊任意數字開始練習！',
     quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間', correct_answer: '正確答案',
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
     quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
@@ -621,6 +772,7 @@ const UI_TEXTS = {
     pass_change_photo: '點擊更換照片',
     trial_bonus_applied: '試用獎勵已套用',
     mock_title: '模擬測驗', mock_mode: '模式', mock_full: '完整', mock_section: '分段',
+    mock_select_set: '選擇套題開始', mock_not_attempted: '尚未作答',
     mock_set: '套', mock_random: '🎲 隨機', mock_last_score: '上次分數',
     mock_start: '開始測驗', mock_next: '下一題 →', mock_prev: '← 上一題',
     mock_result: '模擬測驗結果', mock_analyzing: '正在分析您的結果...',
@@ -733,6 +885,9 @@ const UI_TEXTS = {
     pass_photo: '證書照片（選填）', pass_upload: '點擊上傳您的證書',
     pass_submit: '提交報告',
     upgrade: '升級', upgrade_premium: '升級至高級',
+    feedback_prompt: 'Fujisan.AI使用感如何？', feedback_title: '您的意見', feedback_placeholder: '請告訴我們您的想法...', feedback_submit: '提交', feedback_thanks: '感謝您的寶貴意見！', feedback_rating: '評價您的體驗', feedback_cta: 'Fujisan.AI如何？分享您的想法 →',
+    ask_more: '詳細を聞く →',
+    feedback_desc: '您的回饋幫助我們改進Fujisan.AI！', feedback_comment: '您的評論', feedback_comment_placeholder: '您喜歡什麼？有什麼可以改進的？', feedback_nickname: '暱稱（選填）', feedback_nickname_placeholder: '您希望我們怎麼稱呼您？', feedback_permission: '我允許在網站上展示我的回饋',
     // LP - 繁體中文
     methodology_label: '語言學習新範式',
     methodology_headline: '教學設計・第二語言習得理論・AI',
@@ -799,7 +954,7 @@ const UI_TEXTS = {
     referral_input_title: '有推薦碼？', referral_input_hint: '獲得30天免費試用而非7天！',
     plan_basic_monthly: '或 $7.99/月', plan_standard_monthly: '或 $14.99/月', plan_premium_monthly: '或 $29.99/月',
     plan_save: '年付省17%', plan_popular: '最受歡迎', plan_best: '最佳價值',
-    plan_basic_f1: 'JLPT N5-N3全部內容', plan_basic_f2: '學習/練習/測驗模式', plan_basic_f3: '進度追蹤儀表板', plan_basic_f4: '每日挑戰與XP', plan_basic_f5: '排行榜競賽',
+    plan_basic_f1: 'JLPT N5-N3全部內容', plan_basic_f2: '學習/練習/測驗模式', plan_basic_f3: '進度追蹤儀表板',
     plan_standard_f1: '基本方案全部功能，加：', plan_standard_f2: 'AI解說', plan_standard_f3: 'AI通過機率預測', plan_standard_f4: '完整模擬測驗',
     plan_premium_f1: '標準方案全部功能，加：', plan_premium_f2: 'AI導師（24/7日語問答）', plan_premium_f3: '所有JLPT等級（N5-N1）', plan_premium_f4: '優先支援',
     price_cta: '開始7天免費試用', price_card_note: '試用需要信用卡。試用期結束前可隨時取消。',
@@ -817,11 +972,107 @@ const UI_TEXTS = {
     footer_contact: '聯絡', footer_copyright: '© 2025 TORAIZ Inc. 保留所有權利。', footer_made: '用❤️在東京製作',
     nav_features: '功能', nav_levels: '等級', nav_pricing: '價格',
     btn_login: '登入', btn_start: '免費開始', btn_account: '帳戶', btn_logout: '登出',
-    demo_listen: '播放', coming_soon: '即將', coming: '即將推出', coming_2025: '2025', level_n5_units: '50單元'
+    demo_listen: '播放', coming_soon: '即將', coming: '即將推出', coming_2025: '2025', level_n5_units: '50單元',
+    referral_banner_title: '邀請好友，免費學習！',
+    referral_banner_sub: '每位好友贈送1個月',
+    greeting_morning: '早安',
+    greeting_afternoon: '午安',
+    greeting_evening: '晚安',
+    ai_recommend_start: '開始',
+    ai_recommend_default: '從詞彙基礎開始',
+    ai_recommend_review: '複習需要加強的項目',
+    ai_recommend_continue: '繼續學習',
+    ai_recommend_focus: '專注於',
+    ai_recommend_today: '今天',
+    ai_recommend_about: '約',
+    ai_recommend_minutes: '分鐘',
+    ai_recommend_complete: '完成',
+    nav_learn: '學習',
+    nav_invite: '邀請',
+    day_streak: '天連續',
+    // JLPT Level Info
+    level_detail_title: '關於此級別',
+    level_detail_study_hours: '學習時數',
+    level_detail_pass_mark: '合格分數',
+    level_detail_test_time: '考試時長',
+    level_detail_start: '開始學習',
+    level_detail_reading: '閱讀',
+    level_detail_listening: '聽力',
+    level_detail_cando: '你能做什麼',
+    level_detail_content: 'Fujisan.AI 內容',
+    level_n5_difficulty: '初學者',
+    level_n4_difficulty: '基礎',
+    level_n3_difficulty: '中級',
+    level_n2_difficulty: '進階',
+    level_n1_difficulty: '專家',
+    level_n5_official: '理解一些基本日語的能力。',
+    level_n5_reading: '閱讀並理解用平假名、片假名和基本漢字書寫的典型表達和句子。',
+    level_n5_listening: '聽懂日常生活和課堂中經常遇到的話題對話，從慢速短對話中獲取必要資訊。',
+    level_n5_cando_1: '自我介紹和家人介紹',
+    level_n5_cando_2: '詢問和提供基本方向',
+    level_n5_cando_3: '在餐廳點餐',
+    level_n5_cando_4: '理解簡單的通知',
+    level_n4_official: '理解基本日語的能力。',
+    level_n4_reading: '閱讀並理解用基本詞彙和漢字書寫的熟悉日常話題文章。',
+    level_n4_listening: '聽懂日常生活中的對話，在慢速說話時大致理解其內容。',
+    level_n4_cando_1: '進行日常生活的簡單對話',
+    level_n4_cando_2: '閱讀和理解簡短的通知和標誌',
+    level_n4_cando_3: '寫簡單的訊息和明信片',
+    level_n4_cando_4: '藉助視覺輔助觀看基本電視節目',
+    level_n3_official: '在一定程度上理解日常情境中使用的日語的能力。',
+    level_n3_reading: '閱讀關於日常話題的具體內容材料。掌握報紙標題等摘要資訊。如有替代表達輔助，可理解稍難的文章。',
+    level_n3_listening: '以接近自然的速度聽懂日常情境中的連貫對話，理解內容並把握人物關係。',
+    level_n3_cando_1: '理解大部分日常對話',
+    level_n3_cando_2: '閱讀報紙標題和簡單文章',
+    level_n3_cando_3: '就熟悉的話題表達意見',
+    level_n3_cando_4: '處理基本的商務溝通',
+    level_n2_official: '在一定程度上理解日常情境和各種情況中使用的日語的能力。',
+    level_n2_reading: '閱讀報章雜誌文章和簡單評論等各種話題的清晰材料。理解一般話題的敘述和作者意圖。',
+    level_n2_listening: '在日常和各種情境中，以接近自然的速度理解新聞報導和對話，把握人物關係和要點。',
+    level_n2_cando_1: '在日語商務環境中工作',
+    level_n2_cando_2: '輕鬆閱讀報紙和雜誌',
+    level_n2_cando_3: '參加日語大學講座',
+    level_n2_cando_4: '理解大部分電視節目和電影',
+    level_n1_official: '理解各種情況中使用的日語的能力。',
+    level_n1_reading: '閱讀邏輯複雜和抽象的文章，如社論和評論。閱讀內容深刻的材料，全面理解作者意圖。',
+    level_n1_listening: '在各種場合以自然速度理解新聞報導、演講和連貫對話。全面理解人物關係、邏輯結構和要點。',
+    level_n1_cando_1: '閱讀學術論文和文學作品',
+    level_n1_cando_2: '流利地參與專業討論',
+    level_n1_cando_3: '理解微妙的語氣和文化含義',
+    level_n1_cando_4: '擔任翻譯/口譯工作',
+    unit_preview_title: '單元預覽',
+    unit_preview_vocab: '詞彙',
+    unit_preview_kanji: '漢字',
+    unit_preview_grammar: '文法',
+    unit_preview_start: '開始單元',
+    unit_preview_sample: '範例項目',
+    units: '單元'
   },
   'zh-CN': {
-    nav_drill: '练习', nav_mock: '模拟', nav_ai: 'AI',
+    nav_drill: '练习', nav_mock: '模拟', nav_ai: 'AI', nav_talk: '对话',
     nav_vocab: '单词', nav_kanji: '汉字', nav_new_kanji: '新出汉字', nav_grammar: '语法',
+    // Talk
+    talk_title: 'AI对话练习',
+    talk_desc: '与AI练习日语会话',
+    talk_unit_mode: '单元联动模式',
+    talk_start: '开始',
+    talk_free_theme: '自由主题',
+    talk_greeting: '自我介绍',
+    talk_restaurant: '餐厅',
+    talk_shopping: '购物',
+    talk_directions: '问路',
+    talk_travel: '旅行',
+    talk_free: '自由对话',
+    talk_unit_practice: '使用Unit 1-{n}的单词练习',
+    talk_intro_want: '我想自我介绍',
+    talk_hobby_want: '我想聊兴趣',
+    talk_japan_question: '我有关于日本的问题',
+    talk_input_placeholder: '用日语输入...',
+    talk_unit_desc_default: '使用单元单词练习',
+    talk_chat_title: 'AI对话',
+    talk_first_msg: '你好！让我们用{level}的单词来聊天吧。你想聊什么？',
+    talk_feedback: '反馈',
+    talk_you: '你',
     onboarding_welcome: '欢迎使用 Fujisan.AI',
     onboarding_welcome_desc: '您的AI日语学习伙伴。通过个性化学习掌握日语。',
     onboarding_goal: '您的目标是什么？',
@@ -844,6 +1095,9 @@ const UI_TEXTS = {
     onboarding_ready: '准备就绪！',
     onboarding_ready_desc: '从第1单元开始，让AI引导您迈向JLPT成功。',
     onboarding_tip: '小提示：', onboarding_skip: '跳过', onboarding_next: '下一步',
+    onboarding_units_title: '点击单元开始学习',
+    onboarding_units_desc: '每个单元包含约22道题目。完成单元，提升实力！',
+    onboarding_units_tap: '点击任意数字开始练习！',
     quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间', correct_answer: '正确答案',
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
     quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
@@ -860,6 +1114,7 @@ const UI_TEXTS = {
     pass_change_photo: '点击更换照片',
     trial_bonus_applied: '试用奖励已应用',
     mock_title: '模拟测验', mock_mode: '模式', mock_full: '完整', mock_section: '分段',
+    mock_select_set: '选择套题开始', mock_not_attempted: '尚未作答',
     mock_set: '套', mock_random: '🎲 随机', mock_last_score: '上次分数',
     mock_start: '开始测验', mock_next: '下一题 →', mock_prev: '← 上一题',
     mock_result: '模拟测验结果', mock_analyzing: '正在分析您的结果...',
@@ -971,7 +1226,25 @@ const UI_TEXTS = {
     pass_country: '您的国家/地区', pass_message: '您的留言（将显示在我们的网站上）',
     pass_photo: '证书照片（选填）', pass_upload: '点击上传您的证书',
     pass_submit: '提交报告',
+    // Feedback
+    feedback_cta: 'Fujisan.AI怎么样？分享您的想法 →',
+    ask_more: '了解更多 →',
+    feedback_title: '分享您的反馈',
+    feedback_desc: '您的反馈帮助我们改进Fujisan.AI！',
+    feedback_rating: '您如何评价Fujisan.AI？',
+    feedback_comment: '您的评论',
+    feedback_comment_placeholder: '您喜欢什么？有什么可以改进的？',
+    feedback_nickname: '昵称（可选）',
+    feedback_nickname_placeholder: '您希望我们怎么称呼您？',
+    feedback_permission: '我允许在网站上展示我的反馈',
+    feedback_submit: '发送反馈',
+    feedback_select_rating: '请选择评分',
+    feedback_sending: '发送中...',
+    feedback_thanks: '感谢您的反馈！',
+    feedback_thank_title: '谢谢！',
+    feedback_thank_desc: '您的反馈帮助我们改进。',
     upgrade: '升级', upgrade_premium: '升级至高级',
+    feedback_prompt: 'Fujisan.AI使用感如何？', feedback_title: '您的意见', feedback_placeholder: '请告诉我们您的想法...', feedback_submit: '提交', feedback_thanks: '感谢您的宝贵意见！', feedback_rating: '评价您的体验',
     // LP - 简体中文
     methodology_label: '语言学习新范式',
     methodology_headline: '教学设计・第二语言习得理论・AI',
@@ -1038,7 +1311,7 @@ const UI_TEXTS = {
     referral_input_title: '有推荐码？', referral_input_hint: '获得30天免费试用而非7天！',
     plan_basic_monthly: '或 $7.99/月', plan_standard_monthly: '或 $14.99/月', plan_premium_monthly: '或 $29.99/月',
     plan_save: '年付省17%', plan_popular: '最受欢迎', plan_best: '最佳价值',
-    plan_basic_f1: 'JLPT N5-N3全部内容', plan_basic_f2: '学习/练习/测验模式', plan_basic_f3: '进度追踪仪表板', plan_basic_f4: '每日挑战与XP', plan_basic_f5: '排行榜竞赛',
+    plan_basic_f1: 'JLPT N5-N3全部内容', plan_basic_f2: '学习/练习/测验模式', plan_basic_f3: '进度追踪仪表板',
     plan_standard_f1: '基本方案全部功能，加：', plan_standard_f2: 'AI解说', plan_standard_f3: 'AI通过概率预测', plan_standard_f4: '完整模拟测验',
     plan_premium_f1: '标准方案全部功能，加：', plan_premium_f2: 'AI导师（24/7日语问答）', plan_premium_f3: '所有JLPT等级（N5-N1）', plan_premium_f4: '优先支持',
     price_cta: '开始7天免费试用', price_card_note: '试用需要信用卡。试用期结束前可随时取消。',
@@ -1056,11 +1329,105 @@ const UI_TEXTS = {
     footer_contact: '联系', footer_copyright: '© 2025 TORAIZ Inc. 保留所有权利。', footer_made: '用❤️在东京制作',
     nav_features: '功能', nav_levels: '等级', nav_pricing: '价格',
     btn_login: '登录', btn_start: '免费开始', btn_account: '账户', btn_logout: '登出',
-    demo_listen: '播放', coming_soon: '即将', coming: '即将推出', coming_2025: '2025', level_n5_units: '50单元'
+    demo_listen: '播放', coming_soon: '即将', coming: '即将推出', coming_2025: '2025', level_n5_units: '50单元',
+    greeting_morning: '早上好',
+    greeting_afternoon: '下午好',
+    greeting_evening: '晚上好',
+    ai_recommend_start: '开始',
+    ai_recommend_default: '从词汇基础开始',
+    ai_recommend_review: '复习需要加强的项目',
+    ai_recommend_continue: '继续学习',
+    ai_recommend_focus: '专注于',
+    ai_recommend_today: '今天',
+    ai_recommend_about: '约',
+    ai_recommend_minutes: '分钟',
+    ai_recommend_complete: '完成',
+    nav_learn: '学习',
+    nav_invite: '邀请',
+    day_streak: '天连续',
+    // JLPT Level Info
+    level_detail_title: '关于此级别',
+    level_detail_study_hours: '学习时长',
+    level_detail_pass_mark: '合格分数',
+    level_detail_test_time: '考试时长',
+    level_detail_start: '开始学习',
+    level_detail_reading: '阅读',
+    level_detail_listening: '听力',
+    level_detail_cando: '你能做什么',
+    level_detail_content: 'Fujisan.AI 内容',
+    level_n5_difficulty: '初学者',
+    level_n4_difficulty: '基础',
+    level_n3_difficulty: '中级',
+    level_n2_difficulty: '进阶',
+    level_n1_difficulty: '专家',
+    level_n5_official: '理解一些基本日语的能力。',
+    level_n5_reading: '阅读并理解用平假名、片假名和基本汉字书写的典型表达和句子。',
+    level_n5_listening: '听懂日常生活和课堂中经常遇到的话题对话，从慢速短对话中获取必要信息。',
+    level_n5_cando_1: '自我介绍和家人介绍',
+    level_n5_cando_2: '询问和提供基本方向',
+    level_n5_cando_3: '在餐厅点餐',
+    level_n5_cando_4: '理解简单的通知',
+    level_n4_official: '理解基本日语的能力。',
+    level_n4_reading: '阅读并理解用基本词汇和汉字书写的熟悉日常话题文章。',
+    level_n4_listening: '听懂日常生活中的对话，在慢速说话时大致理解其内容。',
+    level_n4_cando_1: '进行日常生活的简单对话',
+    level_n4_cando_2: '阅读和理解简短的通知和标志',
+    level_n4_cando_3: '写简单的消息和明信片',
+    level_n4_cando_4: '借助视觉辅助观看基本电视节目',
+    level_n3_official: '在一定程度上理解日常情境中使用的日语的能力。',
+    level_n3_reading: '阅读关于日常话题的具体内容材料。掌握报纸标题等摘要信息。如有替代表达辅助，可理解稍难的文章。',
+    level_n3_listening: '以接近自然的速度听懂日常情境中的连贯对话，理解内容并把握人物关系。',
+    level_n3_cando_1: '理解大部分日常对话',
+    level_n3_cando_2: '阅读报纸标题和简单文章',
+    level_n3_cando_3: '就熟悉的话题表达意见',
+    level_n3_cando_4: '处理基本的商务沟通',
+    level_n2_official: '在一定程度上理解日常情境和各种情况中使用的日语的能力。',
+    level_n2_reading: '阅读报刊杂志文章和简单评论等各种话题的清晰材料。理解一般话题的叙述和作者意图。',
+    level_n2_listening: '在日常和各种情境中，以接近自然的速度理解新闻报道和对话，把握人物关系和要点。',
+    level_n2_cando_1: '在日语商务环境中工作',
+    level_n2_cando_2: '轻松阅读报纸和杂志',
+    level_n2_cando_3: '参加日语大学讲座',
+    level_n2_cando_4: '理解大部分电视节目和电影',
+    level_n1_official: '理解各种情况中使用的日语的能力。',
+    level_n1_reading: '阅读逻辑复杂和抽象的文章，如社论和评论。阅读内容深刻的材料，全面理解作者意图。',
+    level_n1_listening: '在各种场合以自然速度理解新闻报道、演讲和连贯对话。全面理解人物关系、逻辑结构和要点。',
+    level_n1_cando_1: '阅读学术论文和文学作品',
+    level_n1_cando_2: '流利地参与专业讨论',
+    level_n1_cando_3: '理解微妙的语气和文化含义',
+    level_n1_cando_4: '担任翻译/口译工作',
+    unit_preview_title: '单元预览',
+    unit_preview_vocab: '词汇',
+    unit_preview_kanji: '汉字',
+    unit_preview_grammar: '语法',
+    unit_preview_start: '开始单元',
+    unit_preview_sample: '示例项目',
+    units: '单元'
   },
   ko: {
-    nav_drill: '연습', nav_mock: '모의', nav_ai: 'AI',
+    nav_drill: '연습', nav_mock: '모의', nav_ai: 'AI', nav_talk: '대화',
     nav_vocab: '단어', nav_kanji: '한자', nav_new_kanji: '새 한자', nav_grammar: '문법',
+    // Talk
+    talk_title: 'AI 회화 연습',
+    talk_desc: 'AI와 일본어 회화 연습',
+    talk_unit_mode: '유닛 연동 모드',
+    talk_start: '시작',
+    talk_free_theme: '자유 주제',
+    talk_greeting: '자기소개',
+    talk_restaurant: '레스토랑',
+    talk_shopping: '쇼핑',
+    talk_directions: '길 안내',
+    talk_travel: '여행',
+    talk_free: '자유 대화',
+    talk_unit_practice: 'Unit 1-{n} 단어로 연습',
+    talk_intro_want: '자기소개를 하고 싶어요',
+    talk_hobby_want: '취미에 대해 이야기하고 싶어요',
+    talk_japan_question: '일본에 대해 질문이 있어요',
+    talk_input_placeholder: '일본어로 입력...',
+    talk_unit_desc_default: '유닛 단어로 연습',
+    talk_chat_title: 'AI 대화',
+    talk_first_msg: '안녕하세요! {level} 단어로 이야기해요. 무엇에 대해 이야기할까요?',
+    talk_feedback: '피드백',
+    talk_you: '나',
     onboarding_welcome: 'Fujisan.AI에 오신 것을 환영합니다',
     onboarding_welcome_desc: 'AI 기반 JLPT 튜터. 맞춤형 학습으로 일본어를 마스터하세요.',
     onboarding_goal: '목표가 무엇인가요?',
@@ -1083,6 +1450,9 @@ const UI_TEXTS = {
     onboarding_ready: '준비 완료!',
     onboarding_ready_desc: '1단원부터 시작하고 AI가 JLPT 성공으로 안내해 드립니다.',
     onboarding_tip: '팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음',
+    onboarding_units_title: '유닛을 탭하여 시작하세요',
+    onboarding_units_desc: '각 유닛에는 약 22개의 문제가 있어요. 유닛을 완료하며 실력을 쌓으세요!',
+    onboarding_units_tap: '아무 번호나 탭하여 연습 시작!',
     quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간', correct_answer: '정답',
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
     quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
@@ -1099,6 +1469,7 @@ const UI_TEXTS = {
     pass_change_photo: '사진 변경하려면 클릭',
     trial_bonus_applied: '체험 보너스 적용됨',
     mock_title: '모의 테스트', mock_mode: '모드', mock_full: '전체', mock_section: '섹션',
+    mock_select_set: '세트를 선택하여 시작', mock_not_attempted: '미응시',
     mock_set: '세트', mock_random: '🎲 랜덤', mock_last_score: '이전 점수',
     mock_start: '테스트 시작', mock_next: '다음 →', mock_prev: '← 이전',
     mock_result: '모의 테스트 결과', mock_analyzing: '결과 분석 중...',
@@ -1211,6 +1582,9 @@ const UI_TEXTS = {
     pass_photo: '증명서 사진(선택)', pass_upload: '증명서를 업로드하려면 클릭',
     pass_submit: '보고서 제출',
     upgrade: '업그레이드', upgrade_premium: '프리미엄으로 업그레이드',
+    feedback_prompt: 'Fujisan.AI 어떠세요?', feedback_title: '피드백', feedback_placeholder: '의견을 들려주세요...', feedback_submit: '제출', feedback_thanks: '소중한 의견 감사합니다!', feedback_rating: '경험 평가하기', feedback_cta: 'Fujisan.AI 어떠세요? 의견을 공유해주세요 →',
+    ask_more: '더 알아보기 →',
+    feedback_desc: '여러분의 피드백이 Fujisan.AI 개선에 도움이 됩니다!', feedback_comment: '코멘트', feedback_comment_placeholder: '무엇이 좋았나요? 개선할 점이 있나요?', feedback_nickname: '닉네임 (선택)', feedback_nickname_placeholder: '어떻게 불러드릴까요?', feedback_permission: '웹사이트에 내 피드백 표시를 허용합니다',
     // LP - 한국어
     methodology_label: '언어 학습의 새로운 패러다임',
     methodology_headline: '교수 설계・제2언어 습득 이론・AI',
@@ -1277,7 +1651,7 @@ const UI_TEXTS = {
     referral_input_title: '추천 코드가 있나요?', referral_input_hint: '7일 대신 30일 무료 체험!',
     plan_basic_monthly: '또는 $7.99/월', plan_standard_monthly: '또는 $14.99/월', plan_premium_monthly: '또는 $29.99/월',
     plan_save: '연간 17% 절약', plan_popular: '가장 인기', plan_best: '최고 가치',
-    plan_basic_f1: 'JLPT N5-N3 전체 콘텐츠', plan_basic_f2: '학습/연습/테스트 모드', plan_basic_f3: '진도 추적 대시보드', plan_basic_f4: '일일 챌린지 & XP', plan_basic_f5: '리그 경쟁',
+    plan_basic_f1: 'JLPT N5-N3 전체 콘텐츠', plan_basic_f2: '학습/연습/테스트 모드', plan_basic_f3: '진도 추적 대시보드',
     plan_standard_f1: '기본 플랜 전체 기능 +', plan_standard_f2: 'AI 해설', plan_standard_f3: 'AI 합격 확률 예측', plan_standard_f4: '전체 모의고사',
     plan_premium_f1: '스탠다드 플랜 전체 기능 +', plan_premium_f2: 'AI 튜터 (24시간 일본어 Q&A)', plan_premium_f3: '전 JLPT 레벨 (N5-N1)', plan_premium_f4: '우선 지원',
     price_cta: '7일 무료 체험 시작', price_card_note: '체험에 카드 필요. 체험 종료 전 언제든 취소.',
@@ -1295,11 +1669,105 @@ const UI_TEXTS = {
     footer_contact: '연락처', footer_copyright: '© 2025 TORAIZ Inc. All rights reserved.', footer_made: '도쿄에서 ❤️로 제작',
     nav_features: '기능', nav_levels: '레벨', nav_pricing: '가격',
     btn_login: '로그인', btn_start: '무료 시작', btn_account: '계정', btn_logout: '로그아웃',
-    demo_listen: '재생', coming_soon: '곧', coming: '출시 예정', coming_2025: '2025', level_n5_units: '50 단원'
+    demo_listen: '재생', coming_soon: '곧', coming: '출시 예정', coming_2025: '2025', level_n5_units: '50 단원',
+    greeting_morning: '좋은 아침이에요',
+    greeting_afternoon: '좋은 오후에요',
+    greeting_evening: '좋은 저녁이에요',
+    ai_recommend_start: '시작',
+    ai_recommend_default: '어휘 기초부터 시작',
+    ai_recommend_review: '어려웠던 항목 복습',
+    ai_recommend_continue: '계속 학습',
+    ai_recommend_focus: '집중하기',
+    ai_recommend_today: '오늘',
+    ai_recommend_about: '약',
+    ai_recommend_minutes: '분',
+    ai_recommend_complete: '완료',
+    nav_learn: '학습',
+    nav_invite: '초대',
+    day_streak: '일 연속',
+    // JLPT Level Info
+    level_detail_title: '이 레벨 정보',
+    level_detail_study_hours: '학습 시간',
+    level_detail_pass_mark: '합격 점수',
+    level_detail_test_time: '시험 시간',
+    level_detail_start: '학습 시작',
+    level_detail_reading: '읽기',
+    level_detail_listening: '듣기',
+    level_detail_cando: '할 수 있는 것',
+    level_detail_content: 'Fujisan.AI 콘텐츠',
+    level_n5_difficulty: '초급',
+    level_n4_difficulty: '기초',
+    level_n3_difficulty: '중급',
+    level_n2_difficulty: '고급',
+    level_n1_difficulty: '전문가',
+    level_n5_official: '기본적인 일본어를 어느 정도 이해하는 능력.',
+    level_n5_reading: '히라가나, 가타카나, 기본 한자로 쓰인 전형적인 표현과 문장을 읽고 이해합니다.',
+    level_n5_listening: '일상생활과 교실에서 자주 접하는 주제의 대화를 듣고, 천천히 말하는 짧은 대화에서 필요한 정보를 얻습니다.',
+    level_n5_cando_1: '자기소개와 가족 소개',
+    level_n5_cando_2: '기본적인 길 안내 묻고 답하기',
+    level_n5_cando_3: '식당에서 주문하기',
+    level_n5_cando_4: '간단한 안내 이해하기',
+    level_n4_official: '기본적인 일본어를 이해하는 능력.',
+    level_n4_reading: '기본 어휘와 한자로 쓰인 익숙한 일상 주제의 글을 읽고 이해합니다.',
+    level_n4_listening: '일상생활의 대화를 듣고, 천천히 말할 때 대체로 내용을 이해합니다.',
+    level_n4_cando_1: '일상생활에 대한 간단한 대화하기',
+    level_n4_cando_2: '짧은 공지와 표지판 읽고 이해하기',
+    level_n4_cando_3: '간단한 메시지와 엽서 쓰기',
+    level_n4_cando_4: '시각 보조와 함께 기본 TV 프로그램 시청',
+    level_n3_official: '일상 상황에서 사용되는 일본어를 어느 정도 이해하는 능력.',
+    level_n3_reading: '일상 주제에 관한 구체적인 내용의 글을 읽습니다. 신문 헤드라인 같은 요약 정보를 파악합니다. 대체 표현이 있으면 약간 어려운 글도 이해합니다.',
+    level_n3_listening: '거의 자연스러운 속도로 일상 상황의 연속된 대화를 듣고, 내용과 인물 관계를 파악합니다.',
+    level_n3_cando_1: '대부분의 일상 대화 이해',
+    level_n3_cando_2: '신문 헤드라인과 간단한 기사 읽기',
+    level_n3_cando_3: '익숙한 주제에 대해 의견 표현',
+    level_n3_cando_4: '기본적인 비즈니스 커뮤니케이션 처리',
+    level_n2_official: '일상 상황과 다양한 상황에서 사용되는 일본어를 어느 정도 이해하는 능력.',
+    level_n2_reading: '신문·잡지 기사와 간단한 평론 등 다양한 주제의 명확한 글을 읽습니다. 일반 주제의 서술과 작자의 의도를 이해합니다.',
+    level_n2_listening: '일상과 다양한 상황에서 거의 자연스러운 속도로 뉴스와 대화를 이해하고, 인물 관계와 요점을 파악합니다.',
+    level_n2_cando_1: '일본어 비즈니스 환경에서 근무',
+    level_n2_cando_2: '신문과 잡지를 편하게 읽기',
+    level_n2_cando_3: '일본어 대학 강의 수강',
+    level_n2_cando_4: '대부분의 TV 프로그램과 영화 이해',
+    level_n1_official: '다양한 상황에서 사용되는 일본어를 이해하는 능력.',
+    level_n1_reading: '사설과 평론 같은 논리적으로 복잡하고 추상적인 글을 읽습니다. 심도 있는 내용의 글을 읽고 작자의 의도를 종합적으로 이해합니다.',
+    level_n1_listening: '다양한 장면에서 자연스러운 속도로 뉴스, 강연, 연속된 대화를 이해합니다. 인물 관계, 논리 구조, 요점을 종합적으로 이해합니다.',
+    level_n1_cando_1: '학술 논문과 문학 작품 읽기',
+    level_n1_cando_2: '전문적인 토론에 유창하게 참여',
+    level_n1_cando_3: '미묘한 뉘앙스와 문화적 의미 이해',
+    level_n1_cando_4: '번역/통역 업무 수행',
+    unit_preview_title: '유닛 미리보기',
+    unit_preview_vocab: '어휘',
+    unit_preview_kanji: '한자',
+    unit_preview_grammar: '문법',
+    unit_preview_start: '유닛 시작',
+    unit_preview_sample: '샘플 항목',
+    units: '유닛'
   },
   vi: {
-    nav_drill: 'Luyện tập', nav_mock: 'Thi thử', nav_ai: 'AI',
+    nav_drill: 'Luyện tập', nav_mock: 'Thi thử', nav_ai: 'AI', nav_talk: 'Hội thoại',
     nav_vocab: 'Từ vựng', nav_kanji: 'Kanji', nav_new_kanji: 'Kanji mới', nav_grammar: 'Ngữ pháp',
+    // Talk
+    talk_title: 'Luyện hội thoại AI',
+    talk_desc: 'Luyện hội thoại tiếng Nhật với AI',
+    talk_unit_mode: 'Chế độ liên kết Unit',
+    talk_start: 'Bắt đầu',
+    talk_free_theme: 'Chủ đề tự do',
+    talk_greeting: 'Giới thiệu',
+    talk_restaurant: 'Nhà hàng',
+    talk_shopping: 'Mua sắm',
+    talk_directions: 'Hỏi đường',
+    talk_travel: 'Du lịch',
+    talk_free: 'Trò chuyện tự do',
+    talk_unit_practice: 'Luyện với từ vựng Unit 1-{n}',
+    talk_intro_want: 'Tôi muốn tự giới thiệu',
+    talk_hobby_want: 'Tôi muốn nói về sở thích',
+    talk_japan_question: 'Tôi có câu hỏi về Nhật Bản',
+    talk_input_placeholder: 'Nhập tiếng Nhật...',
+    talk_unit_desc_default: 'Luyện với từ vựng Unit',
+    talk_chat_title: 'Hội thoại AI',
+    talk_first_msg: 'Xin chào! Hãy trò chuyện bằng từ vựng {level}. Bạn muốn nói về gì?',
+    talk_feedback: 'Phản hồi',
+    talk_you: 'Bạn',
     onboarding_welcome: 'Chào mừng đến với Fujisan.AI',
     onboarding_welcome_desc: 'Gia sư JLPT AI của bạn. Làm chủ tiếng Nhật với học tập cá nhân hóa.',
     onboarding_goal: 'Mục tiêu của bạn là gì?',
@@ -1322,6 +1790,9 @@ const UI_TEXTS = {
     onboarding_ready: 'Bạn đã sẵn sàng!',
     onboarding_ready_desc: 'Bắt đầu với Bài 1 và để AI hướng dẫn bạn đến thành công JLPT.',
     onboarding_tip: 'Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp',
+    onboarding_units_title: 'Chạm vào Bài để bắt đầu',
+    onboarding_units_desc: 'Mỗi bài có khoảng 22 câu hỏi. Hoàn thành bài để nâng cao kỹ năng!',
+    onboarding_units_tap: 'Chạm vào bất kỳ số nào để bắt đầu luyện tập!',
     quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian', correct_answer: 'Đáp án đúng',
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
     quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
@@ -1338,6 +1809,7 @@ const UI_TEXTS = {
     pass_change_photo: 'Nhấp để thay đổi ảnh',
     trial_bonus_applied: 'Đã áp dụng thưởng dùng thử',
     mock_title: 'Thi thử', mock_mode: 'Chế độ', mock_full: 'Đầy đủ', mock_section: 'Phần',
+    mock_select_set: 'Chọn bộ để bắt đầu', mock_not_attempted: 'Chưa làm',
     mock_set: 'Bộ', mock_random: '🎲 Ngẫu nhiên', mock_last_score: 'Điểm trước',
     mock_start: 'Bắt đầu thi', mock_next: 'Tiếp →', mock_prev: '← Trước',
     mock_result: 'Kết quả thi thử', mock_analyzing: 'Đang phân tích kết quả...',
@@ -1450,6 +1922,9 @@ const UI_TEXTS = {
     pass_photo: 'Ảnh chứng chỉ (tùy chọn)', pass_upload: 'Nhấp để tải lên chứng chỉ',
     pass_submit: 'Gửi báo cáo',
     upgrade: 'Nâng cấp', upgrade_premium: 'Nâng cấp lên Cao cấp',
+    feedback_prompt: 'Bạn thấy Fujisan.AI thế nào?', feedback_title: 'Phản hồi của bạn', feedback_placeholder: 'Cho chúng tôi biết ý kiến của bạn...', feedback_submit: 'Gửi', feedback_thanks: 'Cảm ơn phản hồi của bạn!', feedback_rating: 'Đánh giá trải nghiệm', feedback_cta: 'Fujisan.AI thế nào? Chia sẻ ý kiến →',
+    ask_more: 'Hỏi thêm →',
+    feedback_desc: 'Phản hồi của bạn giúp chúng tôi cải thiện Fujisan.AI!', feedback_comment: 'Bình luận của bạn', feedback_comment_placeholder: 'Bạn thích gì? Điều gì có thể cải thiện?', feedback_nickname: 'Biệt danh (tùy chọn)', feedback_nickname_placeholder: 'Bạn muốn được gọi là gì?', feedback_permission: 'Tôi cho phép hiển thị phản hồi của tôi trên website',
     // LP - Tiếng Việt
     methodology_label: 'Mô hình mới trong học ngôn ngữ',
     methodology_headline: 'Thiết kế giảng dạy. Lý thuyết SLA. AI.',
@@ -1498,7 +1973,7 @@ const UI_TEXTS = {
     referral_input_title: 'Có mã giới thiệu?', referral_input_hint: 'Nhận 30 ngày dùng thử thay vì 7 ngày!',
     plan_basic_monthly: 'hoặc $7.99/tháng', plan_standard_monthly: 'hoặc $14.99/tháng', plan_premium_monthly: 'hoặc $29.99/tháng',
     plan_save: 'Tiết kiệm 17% hàng năm', plan_popular: 'Phổ biến nhất', plan_best: 'Giá trị tốt nhất',
-    plan_basic_f1: 'Toàn bộ nội dung JLPT N5-N3', plan_basic_f2: 'Chế độ Học/Luyện/Thi', plan_basic_f3: 'Bảng theo dõi tiến độ', plan_basic_f4: 'Thử thách hàng ngày & XP', plan_basic_f5: 'Thi đua bảng xếp hạng',
+    plan_basic_f1: 'Toàn bộ nội dung JLPT N5-N3', plan_basic_f2: 'Chế độ Học/Luyện/Thi', plan_basic_f3: 'Bảng theo dõi tiến độ',
     plan_standard_f1: 'Tất cả tính năng Cơ bản +', plan_standard_f2: 'Giải thích AI', plan_standard_f3: 'Dự đoán xác suất đỗ AI', plan_standard_f4: 'Thi thử đầy đủ',
     plan_premium_f1: 'Tất cả tính năng Tiêu chuẩn +', plan_premium_f2: 'Gia sư AI (Hỏi đáp tiếng Nhật 24/7)', plan_premium_f3: 'Tất cả cấp JLPT (N5-N1)', plan_premium_f4: 'Hỗ trợ ưu tiên',
     price_cta: 'Dùng thử 7 ngày miễn phí', price_card_note: 'Cần thẻ để dùng thử. Hủy bất cứ lúc nào.',
@@ -1516,12 +1991,106 @@ const UI_TEXTS = {
     footer_contact: 'Liên hệ', footer_copyright: '© 2025 TORAIZ Inc.', footer_made: 'Được làm với ❤️ tại Tokyo',
     nav_features: 'Tính năng', nav_levels: 'Cấp độ', nav_pricing: 'Giá',
     btn_login: 'Đăng nhập', btn_start: 'Bắt đầu miễn phí', btn_account: 'Tài khoản', btn_logout: 'Đăng xuất',
-    demo_listen: 'Phát', coming_soon: 'Sắp', coming: 'Sắp ra mắt', coming_2025: '2025', level_n5_units: '50 Bài'
+    demo_listen: 'Phát', coming_soon: 'Sắp', coming: 'Sắp ra mắt', coming_2025: '2025', level_n5_units: '50 Bài',
+    greeting_morning: 'Chào buổi sáng',
+    greeting_afternoon: 'Chào buổi chiều',
+    greeting_evening: 'Chào buổi tối',
+    ai_recommend_start: 'Bắt đầu',
+    ai_recommend_default: 'Bắt đầu với từ vựng cơ bản',
+    ai_recommend_review: 'Ôn tập các mục cần cải thiện',
+    ai_recommend_continue: 'Tiếp tục với',
+    ai_recommend_focus: 'Tập trung vào',
+    ai_recommend_today: 'hôm nay',
+    ai_recommend_about: 'Khoảng',
+    ai_recommend_minutes: 'phút',
+    ai_recommend_complete: 'hoàn thành',
+    nav_learn: 'Học',
+    nav_invite: 'Mời',
+    day_streak: 'ngày liên tiếp',
+    // JLPT Level Info
+    level_detail_title: 'Về Cấp Độ Này',
+    level_detail_study_hours: 'Giờ Học',
+    level_detail_pass_mark: 'Điểm Đậu',
+    level_detail_test_time: 'Thời Gian Thi',
+    level_detail_start: 'Bắt Đầu Học',
+    level_detail_reading: 'Đọc',
+    level_detail_listening: 'Nghe',
+    level_detail_cando: 'Bạn Có Thể Làm Gì',
+    level_detail_content: 'Nội Dung Fujisan.AI',
+    level_n5_difficulty: 'Sơ cấp',
+    level_n4_difficulty: 'Cơ bản',
+    level_n3_difficulty: 'Trung cấp',
+    level_n2_difficulty: 'Cao cấp',
+    level_n1_difficulty: 'Chuyên gia',
+    level_n5_official: 'Khả năng hiểu một số tiếng Nhật cơ bản.',
+    level_n5_reading: 'Đọc và hiểu các biểu đạt và câu điển hình viết bằng hiragana, katakana và kanji cơ bản.',
+    level_n5_listening: 'Nghe và hiểu các cuộc hội thoại về chủ đề thường gặp trong cuộc sống và lớp học, lấy thông tin cần thiết từ các cuộc hội thoại ngắn nói chậm.',
+    level_n5_cando_1: 'Giới thiệu bản thân và gia đình',
+    level_n5_cando_2: 'Hỏi và chỉ đường cơ bản',
+    level_n5_cando_3: 'Gọi món ở nhà hàng',
+    level_n5_cando_4: 'Hiểu thông báo đơn giản',
+    level_n4_official: 'Khả năng hiểu tiếng Nhật cơ bản.',
+    level_n4_reading: 'Đọc và hiểu các đoạn văn về chủ đề quen thuộc viết bằng từ vựng và kanji cơ bản.',
+    level_n4_listening: 'Nghe và hiểu các cuộc hội thoại hàng ngày, nắm được nội dung khi nói chậm.',
+    level_n4_cando_1: 'Hội thoại đơn giản về cuộc sống hàng ngày',
+    level_n4_cando_2: 'Đọc và hiểu thông báo và biển báo ngắn',
+    level_n4_cando_3: 'Viết tin nhắn và bưu thiếp đơn giản',
+    level_n4_cando_4: 'Xem chương trình TV cơ bản với hình ảnh hỗ trợ',
+    level_n3_official: 'Khả năng hiểu tiếng Nhật sử dụng trong tình huống hàng ngày ở mức độ nhất định.',
+    level_n3_reading: 'Đọc tài liệu có nội dung cụ thể về chủ đề hàng ngày. Nắm được thông tin tóm tắt như tiêu đề báo. Hiểu văn bản khó hơn nếu có cách diễn đạt thay thế.',
+    level_n3_listening: 'Nghe và hiểu hội thoại liền mạch trong tình huống hàng ngày ở tốc độ gần tự nhiên, nắm được nội dung và quan hệ giữa các nhân vật.',
+    level_n3_cando_1: 'Hiểu hầu hết hội thoại hàng ngày',
+    level_n3_cando_2: 'Đọc tiêu đề báo và bài viết đơn giản',
+    level_n3_cando_3: 'Bày tỏ ý kiến về chủ đề quen thuộc',
+    level_n3_cando_4: 'Xử lý giao tiếp kinh doanh cơ bản',
+    level_n2_official: 'Khả năng hiểu tiếng Nhật sử dụng trong tình huống hàng ngày và các tình huống đa dạng ở mức độ nhất định.',
+    level_n2_reading: 'Đọc tài liệu rõ ràng về nhiều chủ đề như bài báo và bình luận đơn giản. Hiểu nội dung và ý định của tác giả.',
+    level_n2_listening: 'Hiểu tin tức và hội thoại ở tốc độ gần tự nhiên trong tình huống hàng ngày và đa dạng, nắm được quan hệ và điểm chính.',
+    level_n2_cando_1: 'Làm việc trong môi trường kinh doanh Nhật',
+    level_n2_cando_2: 'Đọc báo và tạp chí thoải mái',
+    level_n2_cando_3: 'Tham dự bài giảng đại học bằng tiếng Nhật',
+    level_n2_cando_4: 'Hiểu hầu hết chương trình TV và phim',
+    level_n1_official: 'Khả năng hiểu tiếng Nhật sử dụng trong nhiều tình huống khác nhau.',
+    level_n1_reading: 'Đọc văn bản logic phức tạp và trừu tượng như xã luận và phê bình. Đọc tài liệu sâu sắc và hiểu toàn diện ý định tác giả.',
+    level_n1_listening: 'Hiểu tin tức, bài giảng và hội thoại liền mạch ở tốc độ tự nhiên trong nhiều tình huống. Hiểu toàn diện quan hệ, cấu trúc logic và điểm chính.',
+    level_n1_cando_1: 'Đọc luận văn và tác phẩm văn học',
+    level_n1_cando_2: 'Tham gia thảo luận chuyên môn lưu loát',
+    level_n1_cando_3: 'Hiểu sắc thái tinh tế và ý nghĩa văn hóa',
+    level_n1_cando_4: 'Làm phiên dịch/biên dịch',
+    unit_preview_title: 'Xem Trước Bài',
+    unit_preview_vocab: 'Từ vựng',
+    unit_preview_kanji: 'Kanji',
+    unit_preview_grammar: 'Ngữ pháp',
+    unit_preview_start: 'Bắt Đầu Bài',
+    unit_preview_sample: 'Mục mẫu',
+    units: 'Bài'
   },
   id: {
     // Bahasa Indonesia - App & LP
-    nav_drill: 'Latihan', nav_mock: 'Simulasi', nav_ai: 'AI',
+    nav_drill: 'Latihan', nav_mock: 'Simulasi', nav_ai: 'AI', nav_talk: 'Percakapan',
     nav_vocab: 'Kosakata', nav_kanji: 'Kanji', nav_new_kanji: 'Kanji Baru', nav_grammar: 'Tata Bahasa',
+    // Talk
+    talk_title: 'Latihan Percakapan AI',
+    talk_desc: 'Latihan percakapan bahasa Jepang dengan AI',
+    talk_unit_mode: 'Mode Unit Terkait',
+    talk_start: 'Mulai',
+    talk_free_theme: 'Tema Bebas',
+    talk_greeting: 'Perkenalan',
+    talk_restaurant: 'Restoran',
+    talk_shopping: 'Belanja',
+    talk_directions: 'Tanya Arah',
+    talk_travel: 'Wisata',
+    talk_free: 'Obrolan Bebas',
+    talk_unit_practice: 'Latihan dengan kosakata Unit 1-{n}',
+    talk_intro_want: 'Saya ingin memperkenalkan diri',
+    talk_hobby_want: 'Saya ingin bicara tentang hobi',
+    talk_japan_question: 'Saya punya pertanyaan tentang Jepang',
+    talk_input_placeholder: 'Ketik dalam bahasa Jepang...',
+    talk_unit_desc_default: 'Latihan dengan kosakata Unit',
+    talk_chat_title: 'Percakapan AI',
+    talk_first_msg: 'Halo! Mari bicara menggunakan kosakata {level}. Anda ingin bicara tentang apa?',
+    talk_feedback: 'Umpan balik',
+    talk_you: 'Anda',
     onboarding_welcome: 'Selamat datang di Fujisan.AI',
     onboarding_welcome_desc: 'Tutor JLPT AI Anda. Kuasai bahasa Jepang dengan pembelajaran personal.',
     onboarding_goal: 'Apa tujuan Anda?',
@@ -1544,6 +2113,9 @@ const UI_TEXTS = {
     onboarding_ready: 'Anda siap!',
     onboarding_ready_desc: 'Mulai dari Unit 1 dan biarkan AI membimbing Anda menuju sukses JLPT.',
     onboarding_tip: 'Tips:', onboarding_skip: 'Lewati', onboarding_next: 'Lanjut',
+    onboarding_units_title: 'Ketuk Unit untuk Mulai',
+    onboarding_units_desc: 'Setiap unit berisi sekitar 22 soal. Selesaikan unit untuk meningkatkan skill!',
+    onboarding_units_tap: 'Ketuk nomor mana saja untuk mulai latihan!',
     quiz_prompt: 'Apa artinya ini?', quiz_correct: 'Benar', quiz_wrong: 'Salah', quiz_time: 'Waktu', correct_answer: 'Jawaban benar',
     quiz_review_title: 'Review Kesalahan', quiz_review_btn: 'Review Kesalahan',
     quiz_try_again: 'Coba lagi', quiz_home: 'Beranda', quiz_continue: 'Lanjut', quiz_next_unit: 'Unit Selanjutnya →', quiz_next: 'Lanjut →',
@@ -1560,6 +2132,7 @@ const UI_TEXTS = {
     pass_change_photo: 'Klik untuk ganti foto',
     trial_bonus_applied: 'Bonus uji coba diterapkan',
     mock_title: 'Simulasi', mock_mode: 'Mode', mock_full: 'Lengkap', mock_section: 'Bagian',
+    mock_select_set: 'Pilih set untuk mulai', mock_not_attempted: 'Belum dicoba',
     mock_set: 'Set', mock_random: '🎲 Acak', mock_last_score: 'Skor terakhir',
     mock_start: 'Mulai Tes', mock_next: 'Lanjut →', mock_prev: '← Sebelum',
     mock_result: 'Hasil Simulasi', mock_analyzing: 'Menganalisis hasil...',
@@ -1670,6 +2243,9 @@ const UI_TEXTS = {
     pass_photo: 'Foto Sertifikat (opsional)', pass_upload: 'Klik untuk upload sertifikat',
     pass_submit: 'Kirim Laporan',
     upgrade: 'Tingkatkan', upgrade_premium: 'Upgrade ke Premium',
+    feedback_prompt: 'Bagaimana pendapat Anda tentang Fujisan.AI?', feedback_title: 'Masukan Anda', feedback_placeholder: 'Beritahu kami pendapat Anda...', feedback_submit: 'Kirim', feedback_thanks: 'Terima kasih atas masukan Anda!', feedback_rating: 'Nilai pengalaman Anda', feedback_cta: 'Bagaimana Fujisan.AI? Bagikan pendapat Anda →',
+    ask_more: 'Tanya lagi →',
+    feedback_desc: 'Masukan Anda membantu kami meningkatkan Fujisan.AI!', feedback_comment: 'Komentar Anda', feedback_comment_placeholder: 'Apa yang Anda suka? Apa yang bisa diperbaiki?', feedback_nickname: 'Nama panggilan (opsional)', feedback_nickname_placeholder: 'Bagaimana kami harus memanggil Anda?', feedback_permission: 'Saya mengizinkan masukan saya ditampilkan di website',
     // LP - Bahasa Indonesia
     methodology_label: 'Paradigma Baru dalam Pembelajaran Bahasa',
     methodology_headline: 'Desain Instruksional. Teori SLA. AI.',
@@ -1717,7 +2293,7 @@ const UI_TEXTS = {
     referral_input_title: 'Punya kode referral?', referral_input_hint: 'Dapatkan uji coba 30 hari!',
     plan_basic_monthly: 'atau $7.99/bulan', plan_standard_monthly: 'atau $14.99/bulan', plan_premium_monthly: 'atau $29.99/bulan',
     plan_save: 'Hemat 17% tahunan', plan_popular: 'Paling Populer', plan_best: 'Nilai Terbaik',
-    plan_basic_f1: 'Semua konten JLPT N5-N3', plan_basic_f2: 'Mode Belajar/Latihan/Tes', plan_basic_f3: 'Dasbor pelacakan kemajuan', plan_basic_f4: 'Tantangan harian & XP', plan_basic_f5: 'Kompetisi liga',
+    plan_basic_f1: 'Semua konten JLPT N5-N3', plan_basic_f2: 'Mode Belajar/Latihan/Tes', plan_basic_f3: 'Dasbor pelacakan kemajuan',
     plan_standard_f1: 'Semua fitur Dasar +', plan_standard_f2: 'Penjelasan AI', plan_standard_f3: 'Prediksi probabilitas lulus AI', plan_standard_f4: 'Simulasi lengkap',
     plan_premium_f1: 'Semua fitur Standar +', plan_premium_f2: 'Tutor AI (Tanya Jawab 24/7)', plan_premium_f3: 'Semua level JLPT (N5-N1)', plan_premium_f4: 'Dukungan prioritas',
     price_cta: 'Mulai 7 Hari Gratis', price_card_note: 'Kartu diperlukan. Batalkan kapan saja.',
@@ -1735,11 +2311,105 @@ const UI_TEXTS = {
     footer_contact: 'Kontak', footer_copyright: '© 2025 TORAIZ Inc.', footer_made: 'Dibuat dengan ❤️ di Tokyo',
     nav_features: 'Fitur', nav_levels: 'Level', nav_pricing: 'Harga',
     btn_login: 'Masuk', btn_start: 'Mulai Gratis', btn_account: 'Akun', btn_logout: 'Keluar',
-    demo_listen: 'Putar', coming_soon: 'Segera', coming: 'Segera', coming_2025: '2025', level_n5_units: '50 Unit'
+    demo_listen: 'Putar', coming_soon: 'Segera', coming: 'Segera', coming_2025: '2025', level_n5_units: '50 Unit',
+    greeting_morning: 'Selamat pagi',
+    greeting_afternoon: 'Selamat siang',
+    greeting_evening: 'Selamat malam',
+    ai_recommend_start: 'Mulai',
+    ai_recommend_default: 'Mulai dengan dasar kosakata',
+    ai_recommend_review: 'Ulang item yang perlu diperbaiki',
+    ai_recommend_continue: 'Lanjutkan dengan',
+    ai_recommend_focus: 'Fokus pada',
+    ai_recommend_today: 'hari ini',
+    ai_recommend_about: 'Sekitar',
+    ai_recommend_minutes: 'menit',
+    ai_recommend_complete: 'selesai',
+    nav_learn: 'Belajar',
+    nav_invite: 'Undang',
+    day_streak: 'hari berturut',
+    // JLPT Level Info
+    level_detail_title: 'Tentang Level Ini',
+    level_detail_study_hours: 'Jam Belajar',
+    level_detail_pass_mark: 'Nilai Lulus',
+    level_detail_test_time: 'Durasi Ujian',
+    level_detail_start: 'Mulai Belajar',
+    level_detail_reading: 'Membaca',
+    level_detail_listening: 'Mendengar',
+    level_detail_cando: 'Yang Bisa Kamu Lakukan',
+    level_detail_content: 'Konten Fujisan.AI',
+    level_n5_difficulty: 'Pemula',
+    level_n4_difficulty: 'Dasar',
+    level_n3_difficulty: 'Menengah',
+    level_n2_difficulty: 'Lanjutan',
+    level_n1_difficulty: 'Ahli',
+    level_n5_official: 'Kemampuan memahami beberapa bahasa Jepang dasar.',
+    level_n5_reading: 'Membaca dan memahami ekspresi dan kalimat khas yang ditulis dalam hiragana, katakana, dan kanji dasar.',
+    level_n5_listening: 'Mendengarkan dan memahami percakapan tentang topik yang sering ditemui dalam kehidupan sehari-hari dan situasi kelas, mengambil informasi yang diperlukan dari percakapan pendek yang diucapkan perlahan.',
+    level_n5_cando_1: 'Memperkenalkan diri dan keluarga',
+    level_n5_cando_2: 'Menanyakan dan memberikan petunjuk arah dasar',
+    level_n5_cando_3: 'Memesan makanan di restoran',
+    level_n5_cando_4: 'Memahami pengumuman sederhana',
+    level_n4_official: 'Kemampuan memahami bahasa Jepang dasar.',
+    level_n4_reading: 'Membaca dan memahami teks tentang topik sehari-hari yang akrab dengan kosakata dan kanji dasar.',
+    level_n4_listening: 'Mendengarkan dan memahami percakapan dalam kehidupan sehari-hari, umumnya mengikuti isinya saat diucapkan perlahan.',
+    level_n4_cando_1: 'Melakukan percakapan sederhana tentang kehidupan sehari-hari',
+    level_n4_cando_2: 'Membaca dan memahami pemberitahuan dan tanda pendek',
+    level_n4_cando_3: 'Menulis pesan dan kartu pos sederhana',
+    level_n4_cando_4: 'Mengikuti program TV dasar dengan bantuan visual',
+    level_n3_official: 'Kemampuan memahami bahasa Jepang yang digunakan dalam situasi sehari-hari sampai tingkat tertentu.',
+    level_n3_reading: 'Membaca materi dengan konten spesifik tentang topik sehari-hari. Menangkap informasi ringkasan seperti headline surat kabar. Memahami tulisan yang sedikit sulit jika ada frasa alternatif.',
+    level_n3_listening: 'Mendengarkan dan memahami percakapan koheren dalam situasi sehari-hari dengan kecepatan mendekati alami, mengikuti isi dan memahami hubungan antar orang.',
+    level_n3_cando_1: 'Memahami sebagian besar percakapan sehari-hari',
+    level_n3_cando_2: 'Membaca headline surat kabar dan artikel sederhana',
+    level_n3_cando_3: 'Mengekspresikan pendapat tentang topik yang akrab',
+    level_n3_cando_4: 'Menangani komunikasi bisnis dasar',
+    level_n2_official: 'Kemampuan memahami bahasa Jepang yang digunakan dalam situasi sehari-hari dan berbagai keadaan sampai tingkat tertentu.',
+    level_n2_reading: 'Membaca materi yang ditulis dengan jelas tentang berbagai topik seperti artikel koran/majalah dan kritik sederhana. Mengikuti narasi dan memahami maksud penulis.',
+    level_n2_listening: 'Memahami laporan berita dan percakapan dengan kecepatan mendekati alami dalam situasi sehari-hari dan berbagai setting, memahami hubungan dan poin penting.',
+    level_n2_cando_1: 'Bekerja di lingkungan bisnis Jepang',
+    level_n2_cando_2: 'Membaca koran dan majalah dengan nyaman',
+    level_n2_cando_3: 'Menghadiri kuliah universitas dalam bahasa Jepang',
+    level_n2_cando_4: 'Memahami sebagian besar program TV dan film',
+    level_n1_official: 'Kemampuan memahami bahasa Jepang yang digunakan dalam berbagai keadaan.',
+    level_n1_reading: 'Membaca tulisan dengan kompleksitas logis dan abstrak seperti editorial dan kritik. Membaca materi mendalam dan memahami maksud penulis secara komprehensif.',
+    level_n1_listening: 'Memahami laporan berita, ceramah, dan percakapan koheren dengan kecepatan alami dalam berbagai setting. Memahami hubungan, struktur logis, dan poin penting secara komprehensif.',
+    level_n1_cando_1: 'Membaca makalah akademik dan karya sastra',
+    level_n1_cando_2: 'Berpartisipasi dalam diskusi profesional dengan lancar',
+    level_n1_cando_3: 'Memahami nuansa halus dan referensi budaya',
+    level_n1_cando_4: 'Bekerja sebagai penerjemah/interpreter',
+    unit_preview_title: 'Pratinjau Unit',
+    unit_preview_vocab: 'Kosakata',
+    unit_preview_kanji: 'Kanji',
+    unit_preview_grammar: 'Tata Bahasa',
+    unit_preview_start: 'Mulai Unit',
+    unit_preview_sample: 'Item contoh',
+    units: 'Unit'
   },
   es: {
-    nav_drill: 'Práctica', nav_mock: 'Simulacro', nav_ai: 'IA',
+    nav_drill: 'Práctica', nav_mock: 'Simulacro', nav_ai: 'IA', nav_talk: 'Hablar',
     nav_vocab: 'Vocabulario', nav_kanji: 'Kanji', nav_new_kanji: 'Kanji Nuevo', nav_grammar: 'Gramática',
+    // Talk
+    talk_title: 'Práctica de Conversación IA',
+    talk_desc: 'Practica conversación en japonés con IA',
+    talk_unit_mode: 'Modo Unidad Vinculada',
+    talk_start: 'Iniciar',
+    talk_free_theme: 'Tema Libre',
+    talk_greeting: 'Presentación',
+    talk_restaurant: 'Restaurante',
+    talk_shopping: 'Compras',
+    talk_directions: 'Direcciones',
+    talk_travel: 'Viaje',
+    talk_free: 'Charla Libre',
+    talk_unit_practice: 'Practica con vocabulario de Unit 1-{n}',
+    talk_intro_want: 'Quiero presentarme',
+    talk_hobby_want: 'Quiero hablar de pasatiempos',
+    talk_japan_question: 'Tengo preguntas sobre Japón',
+    talk_input_placeholder: 'Escribe en japonés...',
+    talk_unit_desc_default: 'Practica con vocabulario de Unit',
+    talk_chat_title: 'Conversación IA',
+    talk_first_msg: '¡Hola! Hablemos usando vocabulario de {level}. ¿De qué quieres hablar?',
+    talk_feedback: 'Comentarios',
+    talk_you: 'Tú',
     onboarding_welcome: 'Bienvenido a Fujisan.AI',
     onboarding_welcome_desc: 'Tu tutor JLPT con IA. Domina el japonés con aprendizaje personalizado.',
     onboarding_goal: '¿Cuál es tu objetivo?', onboarding_goal_desc: 'Selecciona tu nivel JLPT objetivo',
@@ -1756,6 +2426,9 @@ const UI_TEXTS = {
     onboarding_ai_note: 'Funciones IA incluidas en todos los planes',
     onboarding_ready: '¡Estás listo!', onboarding_ready_desc: 'Comienza con la Unidad 1.',
     onboarding_tip: 'Consejo:', onboarding_skip: 'Saltar', onboarding_next: 'Siguiente',
+    onboarding_units_title: 'Toca una Unidad para empezar',
+    onboarding_units_desc: 'Cada unidad tiene ~22 preguntas. ¡Completa unidades para mejorar!',
+    onboarding_units_tap: '¡Toca cualquier número para empezar a practicar!',
     quiz_prompt: '¿Qué significa esto?', quiz_correct: 'Correcto', quiz_wrong: 'Incorrecto', quiz_time: 'Tiempo', correct_answer: 'Respuesta correcta',
     quiz_review_title: 'Revisa tus Errores', quiz_review_btn: 'Revisar Errores',
     quiz_try_again: 'Intentar de Nuevo', quiz_home: 'Inicio', quiz_continue: 'Continuar', quiz_next_unit: 'Siguiente Unidad →', quiz_next: 'Siguiente →',
@@ -1766,6 +2439,7 @@ const UI_TEXTS = {
     pass_submitting: 'Enviando...', pass_submitted: '¡Enviado!', pass_change_photo: 'Cambiar foto',
     trial_bonus_applied: 'Bonificación aplicada',
     mock_title: 'Simulacro', mock_mode: 'Modo', mock_full: 'Completo', mock_section: 'Sección',
+    mock_select_set: 'Selecciona un set para empezar', mock_not_attempted: 'Sin intentar',
     mock_set: 'Set', mock_random: '🎲 Aleatorio', mock_last_score: 'Última Puntuación',
     mock_start: 'Iniciar Examen', mock_next: 'Siguiente →', mock_prev: '← Anterior',
     mock_result: 'Resultado del Simulacro', mock_analyzing: 'Analizando resultados...',
@@ -1832,6 +2506,9 @@ const UI_TEXTS = {
     pass_score: 'Puntuación (opcional)', pass_name: 'Nombre *', pass_country: 'País/Región',
     pass_message: 'Tu Mensaje', pass_photo: 'Foto Certificado', pass_upload: 'Subir certificado', pass_submit: 'Enviar',
     upgrade: 'Mejorar', upgrade_premium: 'Mejorar a Premium',
+    feedback_prompt: '¿Qué te parece Fujisan.AI?', feedback_title: 'Tu opinión', feedback_placeholder: 'Cuéntanos qué piensas...', feedback_submit: 'Enviar', feedback_thanks: '¡Gracias por tu opinión!', feedback_rating: 'Califica tu experiencia', feedback_cta: '¿Qué tal Fujisan.AI? Comparte tu opinión →',
+    ask_more: 'Preguntar más →',
+    feedback_desc: '¡Tu opinión nos ayuda a mejorar Fujisan.AI!', feedback_comment: 'Tu comentario', feedback_comment_placeholder: '¿Qué te gusta? ¿Qué podría mejorar?', feedback_nickname: 'Apodo (opcional)', feedback_nickname_placeholder: '¿Cómo te llamamos?', feedback_permission: 'Permito que mi opinión se muestre en el sitio web',
     methodology_label: 'Nuevo Paradigma', methodology_headline: 'Diseño Instruccional. SLA. IA.',
     methodology_desc: 'Ciencia de adquisición de idiomas para resultados medibles.',
     hero_badge: 'Aprendizaje Científico', hero_title: '¡Domina el Japonés de Verdad!',
@@ -1869,7 +2546,7 @@ const UI_TEXTS = {
     section_pricing: 'Elige tu Plan', referral_input_title: '¿Código de referido?', referral_input_hint: '¡30 días de prueba!',
     plan_basic_monthly: 'o $7.99/mes', plan_standard_monthly: 'o $14.99/mes', plan_premium_monthly: 'o $29.99/mes',
     plan_save: 'Ahorra 17%', plan_popular: 'Más Popular', plan_best: 'Mejor Valor',
-    plan_basic_f1: 'JLPT N5-N3', plan_basic_f2: 'Todos los modos', plan_basic_f3: 'Seguimiento', plan_basic_f4: 'Desafíos diarios', plan_basic_f5: 'Liga',
+    plan_basic_f1: 'JLPT N5-N3', plan_basic_f2: 'Todos los modos', plan_basic_f3: 'Seguimiento',
     plan_standard_f1: 'Básico +', plan_standard_f2: 'Explicaciones IA', plan_standard_f3: 'Predicción', plan_standard_f4: 'Simulacros completos',
     plan_premium_f1: 'Estándar +', plan_premium_f2: 'Tutor IA 24/7', plan_premium_f3: 'Todos los niveles', plan_premium_f4: 'Soporte prioritario',
     price_cta: '¡Empieza Gratis Ahora!', price_card_note: 'Tarjeta requerida. Cancela cuando quieras.',
@@ -1887,11 +2564,105 @@ const UI_TEXTS = {
     footer_contact: 'Contacto', footer_copyright: '© 2025 TORAIZ Inc.', footer_made: 'Hecho con ❤️ en Tokio',
     nav_features: 'Características', nav_levels: 'Niveles', nav_pricing: 'Precios',
     btn_login: 'Iniciar Sesión', btn_start: 'Comenzar Gratis', btn_account: 'Cuenta', btn_logout: 'Cerrar Sesión',
-    demo_listen: 'Reproducir', coming_soon: 'Pronto', coming: 'Próximamente', coming_2025: '2025', level_n5_units: '50 Unidades'
+    demo_listen: 'Reproducir', coming_soon: 'Pronto', coming: 'Próximamente', coming_2025: '2025', level_n5_units: '50 Unidades',
+    greeting_morning: 'Buenos días',
+    greeting_afternoon: 'Buenas tardes',
+    greeting_evening: 'Buenas noches',
+    ai_recommend_start: 'Comenzar',
+    ai_recommend_default: 'Empieza con vocabulario básico',
+    ai_recommend_review: 'Repasa los items difíciles',
+    ai_recommend_continue: 'Continuar con',
+    ai_recommend_focus: 'Enfócate en',
+    ai_recommend_today: 'hoy',
+    ai_recommend_about: 'Aproximadamente',
+    ai_recommend_minutes: 'minutos',
+    ai_recommend_complete: 'completado',
+    nav_learn: 'Aprender',
+    nav_invite: 'Invitar',
+    day_streak: 'días seguidos',
+    // JLPT Level Info
+    level_detail_title: 'Sobre Este Nivel',
+    level_detail_study_hours: 'Horas de Estudio',
+    level_detail_pass_mark: 'Nota de Aprobación',
+    level_detail_test_time: 'Duración del Examen',
+    level_detail_start: 'Comenzar a Aprender',
+    level_detail_reading: 'Lectura',
+    level_detail_listening: 'Comprensión Auditiva',
+    level_detail_cando: 'Lo Que Puedes Hacer',
+    level_detail_content: 'Contenido de Fujisan.AI',
+    level_n5_difficulty: 'Principiante',
+    level_n4_difficulty: 'Elemental',
+    level_n3_difficulty: 'Intermedio',
+    level_n2_difficulty: 'Avanzado',
+    level_n1_difficulty: 'Experto',
+    level_n5_official: 'Capacidad para entender algo de japonés básico.',
+    level_n5_reading: 'Leer y comprender expresiones y oraciones típicas escritas en hiragana, katakana y kanji básico.',
+    level_n5_listening: 'Escuchar y comprender conversaciones sobre temas que se encuentran regularmente en la vida diaria y situaciones de clase, obteniendo información necesaria de conversaciones cortas habladas lentamente.',
+    level_n5_cando_1: 'Presentarse a sí mismo y a la familia',
+    level_n5_cando_2: 'Pedir y dar direcciones básicas',
+    level_n5_cando_3: 'Pedir comida en restaurantes',
+    level_n5_cando_4: 'Entender anuncios simples',
+    level_n4_official: 'Capacidad para entender japonés básico.',
+    level_n4_reading: 'Leer y comprender textos sobre temas cotidianos familiares escritos con vocabulario y kanji básico.',
+    level_n4_listening: 'Escuchar y comprender conversaciones de la vida diaria, siguiendo generalmente su contenido cuando se habla lentamente.',
+    level_n4_cando_1: 'Tener conversaciones simples sobre la vida diaria',
+    level_n4_cando_2: 'Leer y entender avisos y señales cortas',
+    level_n4_cando_3: 'Escribir mensajes y postales simples',
+    level_n4_cando_4: 'Seguir programas de TV básicos con ayuda visual',
+    level_n3_official: 'Capacidad para entender el japonés usado en situaciones cotidianas hasta cierto grado.',
+    level_n3_reading: 'Leer materiales con contenido específico sobre temas cotidianos. Captar información resumida como titulares de periódicos. Comprender escritos algo difíciles si hay frases alternativas.',
+    level_n3_listening: 'Escuchar y comprender conversaciones coherentes en situaciones cotidianas a velocidad casi natural, siguiendo el contenido y captando las relaciones entre las personas.',
+    level_n3_cando_1: 'Entender la mayoría de conversaciones cotidianas',
+    level_n3_cando_2: 'Leer titulares de periódicos y artículos simples',
+    level_n3_cando_3: 'Expresar opiniones sobre temas familiares',
+    level_n3_cando_4: 'Manejar comunicaciones comerciales básicas',
+    level_n2_official: 'Capacidad para entender el japonés usado en situaciones cotidianas y en diversas circunstancias hasta cierto grado.',
+    level_n2_reading: 'Leer materiales escritos claramente sobre diversos temas como artículos de periódicos/revistas y críticas simples. Seguir narraciones y comprender la intención de los escritores.',
+    level_n2_listening: 'Comprender noticias y conversaciones a velocidad casi natural en situaciones cotidianas, entendiendo relaciones y puntos esenciales.',
+    level_n2_cando_1: 'Trabajar en entornos empresariales japoneses',
+    level_n2_cando_2: 'Leer periódicos y revistas cómodamente',
+    level_n2_cando_3: 'Asistir a clases universitarias en japonés',
+    level_n2_cando_4: 'Entender la mayoría de programas de TV y películas',
+    level_n1_official: 'Capacidad para entender el japonés usado en diversas circunstancias.',
+    level_n1_reading: 'Leer escritos con complejidad lógica y temas abstractos como editoriales y críticas. Leer materiales profundos y comprender la intención de los escritores de manera integral.',
+    level_n1_listening: 'Comprender noticias, conferencias y conversaciones coherentes a velocidad natural en diversos entornos. Entender relaciones, estructuras lógicas y puntos esenciales de manera integral.',
+    level_n1_cando_1: 'Leer trabajos académicos y obras literarias',
+    level_n1_cando_2: 'Participar en discusiones profesionales con fluidez',
+    level_n1_cando_3: 'Entender matices sutiles y referencias culturales',
+    level_n1_cando_4: 'Trabajar como traductor/intérprete',
+    unit_preview_title: 'Vista Previa de Unidad',
+    unit_preview_vocab: 'Vocabulario',
+    unit_preview_kanji: 'Kanji',
+    unit_preview_grammar: 'Gramática',
+    unit_preview_start: 'Comenzar Unidad',
+    unit_preview_sample: 'Elementos de muestra',
+    units: 'Unidades'
   },
   pt: {
-    nav_drill: 'Prática', nav_mock: 'Simulado', nav_ai: 'IA',
+    nav_drill: 'Prática', nav_mock: 'Simulado', nav_ai: 'IA', nav_talk: 'Falar',
     nav_vocab: 'Vocabulário', nav_kanji: 'Kanji', nav_new_kanji: 'Kanji Novo', nav_grammar: 'Gramática',
+    // Talk
+    talk_title: 'Prática de Conversação IA',
+    talk_desc: 'Pratique conversação em japonês com IA',
+    talk_unit_mode: 'Modo Unidade Vinculada',
+    talk_start: 'Iniciar',
+    talk_free_theme: 'Tema Livre',
+    talk_greeting: 'Apresentação',
+    talk_restaurant: 'Restaurante',
+    talk_shopping: 'Compras',
+    talk_directions: 'Direções',
+    talk_travel: 'Viagem',
+    talk_free: 'Conversa Livre',
+    talk_unit_practice: 'Pratique com vocabulário de Unit 1-{n}',
+    talk_intro_want: 'Quero me apresentar',
+    talk_hobby_want: 'Quero falar sobre hobbies',
+    talk_japan_question: 'Tenho perguntas sobre o Japão',
+    talk_input_placeholder: 'Digite em japonês...',
+    talk_unit_desc_default: 'Pratique com vocabulário de Unit',
+    talk_chat_title: 'Conversa IA',
+    talk_first_msg: 'Olá! Vamos conversar usando vocabulário de {level}. Sobre o que você quer falar?',
+    talk_feedback: 'Feedback',
+    talk_you: 'Você',
     onboarding_welcome: 'Bem-vindo ao Fujisan.AI',
     onboarding_welcome_desc: 'Seu tutor JLPT com IA. Domine o japonês com aprendizado personalizado.',
     onboarding_goal: 'Qual é seu objetivo?', onboarding_goal_desc: 'Selecione seu nível JLPT alvo',
@@ -1908,6 +2679,9 @@ const UI_TEXTS = {
     onboarding_ai_note: 'Recursos IA incluídos em todos os planos',
     onboarding_ready: 'Você está pronto!', onboarding_ready_desc: 'Comece com a Unidade 1.',
     onboarding_tip: 'Dica:', onboarding_skip: 'Pular', onboarding_next: 'Próximo',
+    onboarding_units_title: 'Toque numa Unidade para começar',
+    onboarding_units_desc: 'Cada unidade tem ~22 questões. Complete unidades para melhorar!',
+    onboarding_units_tap: 'Toque em qualquer número para começar a praticar!',
     quiz_prompt: 'O que significa?', quiz_correct: 'Correto', quiz_wrong: 'Incorreto', quiz_time: 'Tempo', correct_answer: 'Resposta correta',
     quiz_review_title: 'Revise seus Erros', quiz_review_btn: 'Revisar Erros',
     quiz_try_again: 'Tentar Novamente', quiz_home: 'Início', quiz_continue: 'Continuar', quiz_next_unit: 'Próxima Unidade →', quiz_next: 'Próximo →',
@@ -1918,6 +2692,7 @@ const UI_TEXTS = {
     pass_submitting: 'Enviando...', pass_submitted: 'Enviado!', pass_change_photo: 'Trocar foto',
     trial_bonus_applied: 'Bônus aplicado',
     mock_title: 'Simulado', mock_mode: 'Modo', mock_full: 'Completo', mock_section: 'Seção',
+    mock_select_set: 'Selecione um set para começar', mock_not_attempted: 'Não tentado',
     mock_set: 'Conjunto', mock_random: '🎲 Aleatório', mock_last_score: 'Última Pontuação',
     mock_start: 'Iniciar Teste', mock_next: 'Próximo →', mock_prev: '← Anterior',
     mock_result: 'Resultado do Simulado', mock_analyzing: 'Analisando resultados...',
@@ -1984,6 +2759,9 @@ const UI_TEXTS = {
     pass_score: 'Pontuação (opcional)', pass_name: 'Nome *', pass_country: 'País/Região',
     pass_message: 'Sua Mensagem', pass_photo: 'Foto Certificado', pass_upload: 'Enviar certificado', pass_submit: 'Enviar',
     upgrade: 'Fazer Upgrade', upgrade_premium: 'Upgrade para Premium',
+    feedback_prompt: 'O que acha do Fujisan.AI?', feedback_title: 'Sua opinião', feedback_placeholder: 'Conte-nos o que você pensa...', feedback_submit: 'Enviar', feedback_thanks: 'Obrigado pela sua opinião!', feedback_rating: 'Avalie sua experiência', feedback_cta: 'O que acha do Fujisan.AI? Compartilhe →',
+    ask_more: 'Perguntar mais →',
+    feedback_desc: 'Sua opinião nos ajuda a melhorar o Fujisan.AI!', feedback_comment: 'Seu comentário', feedback_comment_placeholder: 'O que você gosta? O que poderia melhorar?', feedback_nickname: 'Apelido (opcional)', feedback_nickname_placeholder: 'Como devemos chamá-lo?', feedback_permission: 'Permito que minha opinião seja exibida no site',
     methodology_label: 'Novo Paradigma', methodology_headline: 'Design Instrucional. SLA. IA.',
     methodology_desc: 'Ciência de aquisição de idiomas para resultados mensuráveis.',
     hero_badge: 'Aprendizado Científico', hero_title: 'Domine o Japonês de Verdade!',
@@ -2021,7 +2799,7 @@ const UI_TEXTS = {
     section_pricing: 'Escolha seu Plano', referral_input_title: 'Código de indicação?', referral_input_hint: '30 dias de teste!',
     plan_basic_monthly: 'ou R$39,99/mês', plan_standard_monthly: 'ou R$74,99/mês', plan_premium_monthly: 'ou R$149,99/mês',
     plan_save: 'Economize 17%', plan_popular: 'Mais Popular', plan_best: 'Melhor Valor',
-    plan_basic_f1: 'JLPT N5-N3', plan_basic_f2: 'Todos os modos', plan_basic_f3: 'Acompanhamento', plan_basic_f4: 'Desafios diários', plan_basic_f5: 'Liga',
+    plan_basic_f1: 'JLPT N5-N3', plan_basic_f2: 'Todos os modos', plan_basic_f3: 'Acompanhamento',
     plan_standard_f1: 'Básico +', plan_standard_f2: 'Explicações IA', plan_standard_f3: 'Previsão', plan_standard_f4: 'Simulados completos',
     plan_premium_f1: 'Padrão +', plan_premium_f2: 'Tutor IA 24/7', plan_premium_f3: 'Todos os níveis', plan_premium_f4: 'Suporte prioritário',
     price_cta: 'Iniciar 7 Dias Grátis', price_card_note: 'Cartão necessário. Cancele quando quiser.',
@@ -2039,7 +2817,79 @@ const UI_TEXTS = {
     footer_contact: 'Contato', footer_copyright: '© 2025 TORAIZ Inc.', footer_made: 'Feito com ❤️ em Tóquio',
     nav_features: 'Recursos', nav_levels: 'Níveis', nav_pricing: 'Preços',
     btn_login: 'Entrar', btn_start: 'Começar Grátis', btn_account: 'Conta', btn_logout: 'Sair',
-    demo_listen: 'Reproduzir', coming_soon: 'Em breve', coming: 'Em breve', coming_2025: '2025', level_n5_units: '50 Unidades'
+    demo_listen: 'Reproduzir', coming_soon: 'Em breve', coming: 'Em breve', coming_2025: '2025', level_n5_units: '50 Unidades',
+    greeting_morning: 'Bom dia',
+    greeting_afternoon: 'Boa tarde',
+    greeting_evening: 'Boa noite',
+    ai_recommend_start: 'Começar',
+    ai_recommend_default: 'Comece com vocabulário básico',
+    ai_recommend_review: 'Revise os itens difíceis',
+    ai_recommend_continue: 'Continuar com',
+    ai_recommend_focus: 'Foque em',
+    ai_recommend_today: 'hoje',
+    ai_recommend_about: 'Aproximadamente',
+    ai_recommend_minutes: 'minutos',
+    ai_recommend_complete: 'completo',
+    nav_learn: 'Aprender',
+    nav_invite: 'Convidar',
+    day_streak: 'dias seguidos',
+    // JLPT Level Info
+    level_detail_title: 'Sobre Este Nível',
+    level_detail_study_hours: 'Horas de Estudo',
+    level_detail_pass_mark: 'Nota de Aprovação',
+    level_detail_test_time: 'Duração do Exame',
+    level_detail_start: 'Começar a Aprender',
+    level_detail_reading: 'Leitura',
+    level_detail_listening: 'Compreensão Auditiva',
+    level_detail_cando: 'O Que Você Pode Fazer',
+    level_detail_content: 'Conteúdo do Fujisan.AI',
+    level_n5_difficulty: 'Iniciante',
+    level_n4_difficulty: 'Elementar',
+    level_n3_difficulty: 'Intermediário',
+    level_n2_difficulty: 'Avançado',
+    level_n1_difficulty: 'Expert',
+    level_n5_official: 'Capacidade de entender algum japonês básico.',
+    level_n5_reading: 'Ler e compreender expressões e frases típicas escritas em hiragana, katakana e kanji básico.',
+    level_n5_listening: 'Ouvir e compreender conversas sobre temas encontrados regularmente na vida diária e situações de sala de aula, obtendo informações necessárias de conversas curtas faladas lentamente.',
+    level_n5_cando_1: 'Apresentar-se e apresentar a família',
+    level_n5_cando_2: 'Pedir e dar direções básicas',
+    level_n5_cando_3: 'Pedir comida em restaurantes',
+    level_n5_cando_4: 'Entender anúncios simples',
+    level_n4_official: 'Capacidade de entender japonês básico.',
+    level_n4_reading: 'Ler e compreender textos sobre temas cotidianos familiares escritos com vocabulário e kanji básico.',
+    level_n4_listening: 'Ouvir e compreender conversas do dia a dia, geralmente acompanhando seu conteúdo quando faladas lentamente.',
+    level_n4_cando_1: 'Ter conversas simples sobre a vida diária',
+    level_n4_cando_2: 'Ler e entender avisos e placas curtas',
+    level_n4_cando_3: 'Escrever mensagens e cartões postais simples',
+    level_n4_cando_4: 'Acompanhar programas de TV básicos com ajuda visual',
+    level_n3_official: 'Capacidade de entender o japonês usado em situações cotidianas até certo grau.',
+    level_n3_reading: 'Ler materiais com conteúdo específico sobre temas cotidianos. Captar informações resumidas como manchetes de jornais. Compreender textos um pouco difíceis se houver frases alternativas.',
+    level_n3_listening: 'Ouvir e compreender conversas coerentes em situações cotidianas em velocidade quase natural, acompanhando o conteúdo e captando as relações entre as pessoas.',
+    level_n3_cando_1: 'Entender a maioria das conversas cotidianas',
+    level_n3_cando_2: 'Ler manchetes de jornais e artigos simples',
+    level_n3_cando_3: 'Expressar opiniões sobre temas familiares',
+    level_n3_cando_4: 'Lidar com comunicações comerciais básicas',
+    level_n2_official: 'Capacidade de entender o japonês usado em situações cotidianas e em várias circunstâncias até certo grau.',
+    level_n2_reading: 'Ler materiais escritos claramente sobre vários temas como artigos de jornais/revistas e críticas simples. Acompanhar narrativas e compreender a intenção dos escritores.',
+    level_n2_listening: 'Compreender notícias e conversas em velocidade quase natural em situações cotidianas, entendendo relações e pontos essenciais.',
+    level_n2_cando_1: 'Trabalhar em ambientes empresariais japoneses',
+    level_n2_cando_2: 'Ler jornais e revistas confortavelmente',
+    level_n2_cando_3: 'Assistir aulas universitárias em japonês',
+    level_n2_cando_4: 'Entender a maioria dos programas de TV e filmes',
+    level_n1_official: 'Capacidade de entender o japonês usado em várias circunstâncias.',
+    level_n1_reading: 'Ler textos com complexidade lógica e temas abstratos como editoriais e críticas. Ler materiais profundos e compreender a intenção dos escritores de forma abrangente.',
+    level_n1_listening: 'Compreender notícias, palestras e conversas coerentes em velocidade natural em diversos ambientes. Entender relações, estruturas lógicas e pontos essenciais de forma abrangente.',
+    level_n1_cando_1: 'Ler trabalhos acadêmicos e obras literárias',
+    level_n1_cando_2: 'Participar de discussões profissionais com fluência',
+    level_n1_cando_3: 'Entender nuances sutis e referências culturais',
+    level_n1_cando_4: 'Trabalhar como tradutor/intérprete',
+    unit_preview_title: 'Prévia da Unidade',
+    unit_preview_vocab: 'Vocabulário',
+    unit_preview_kanji: 'Kanji',
+    unit_preview_grammar: 'Gramática',
+    unit_preview_start: 'Começar Unidade',
+    unit_preview_sample: 'Itens de amostra',
+    units: 'Unidades'
   }
 };
 
@@ -2070,6 +2920,65 @@ const TOTAL_ITEMS = {
 };
 const SKILL_TYPES = ['listening', 'reading', 'meaning', 'writing'];
 
+// ========== JLPT LEVEL INFO (Official + Fujisan.AI Data) ==========
+const JLPT_LEVEL_INFO = {
+  N5: {
+    color: '#34c759',
+    difficulty: 'Beginner',
+    studyHours: '250-450',
+    passRate: '80/180 (44%)',
+    testTime: '105 min',
+    vocab: 800,
+    kanji: 144,
+    grammar: 75,
+    units: 47
+  },
+  N4: {
+    color: '#007aff',
+    difficulty: 'Elementary',
+    studyHours: '400-700',
+    passRate: '90/180 (50%)',
+    testTime: '125 min',
+    vocab: 1500,
+    kanji: 247,
+    grammar: 190,
+    units: 89
+  },
+  N3: {
+    color: '#af52de',
+    difficulty: 'Intermediate',
+    studyHours: '700-1100',
+    passRate: '95/180 (53%)',
+    testTime: '140 min',
+    vocab: 3750,
+    kanji: 577,
+    grammar: 450,
+    units: 218
+  },
+  N2: {
+    color: '#1e3a5f',
+    difficulty: 'Advanced',
+    studyHours: '1150-1800',
+    passRate: '90/180 (50%)',
+    testTime: '155 min',
+    vocab: 6000,
+    kanji: 663,
+    grammar: 249,
+    units: 315
+  },
+  N1: {
+    color: '#ff3b30',
+    difficulty: 'Expert',
+    studyHours: '1700-2600',
+    passRate: '100/180 (56%)',
+    testTime: '170 min',
+    vocab: 10000,
+    kanji: 575,
+    grammar: 195,
+    units: 490
+  }
+};
+
 // ========== AUDIO PATH HELPER ==========
 function getAudioPath(level, setNum, audioFile) {
   if (!audioFile) return null;
@@ -2085,6 +2994,11 @@ function getQuestionKey(questionId) {
 function getCategoryKey() {
   return `${state.level}_${state.category}`;
 }
+
+// ========== FREE CAMPAIGN SETTINGS ==========
+// Campaign runs until March 31, 2025 23:59:59 JST
+const FREE_CAMPAIGN_END = new Date('2026-03-31T23:59:59+09:00');
+const IS_FREE_CAMPAIGN = new Date() < FREE_CAMPAIGN_END;
 
 // ========== STRIPE LINKS ==========
 const STRIPE_LINKS = {
@@ -2268,6 +3182,63 @@ function fallbackCopyReferralCode(text) {
   showToast('✅ Referral link copied!');
 }
 
+// Copy referral link from Settings page
+function copyReferralLink() {
+  const code = getMyReferralCode();
+  const referralUrl = `https://fujisan.ai/?ref=${code}`;
+  
+  const btn = document.getElementById('copyReferralBtn');
+  
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(referralUrl).then(() => {
+      showToast('✅ Link copied!');
+      if (btn) {
+        btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg><span>Copied!</span>';
+        setTimeout(() => {
+          btn.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg><span>Copy</span>';
+        }, 2000);
+      }
+    }).catch(() => {
+      fallbackCopyReferralCode(referralUrl);
+    });
+  } else {
+    fallbackCopyReferralCode(referralUrl);
+  }
+}
+
+// Share on Twitter/X
+function shareReferralTwitter() {
+  const code = getMyReferralCode();
+  const referralUrl = `https://fujisan.ai/?ref=${code}`;
+  const text = encodeURIComponent("I'm studying Japanese with Fujisan.AI! 🗻🇯🇵 AI-powered JLPT prep that actually works. Try it free:");
+  window.open(`https://twitter.com/intent/tweet?text=${text}&url=${encodeURIComponent(referralUrl)}`, '_blank');
+}
+
+// Share on LINE
+function shareReferralLine() {
+  const code = getMyReferralCode();
+  const referralUrl = `https://fujisan.ai/?ref=${code}`;
+  const text = encodeURIComponent("Fujisan.AIで日本語勉強してる！AIでJLPT対策ができるよ🗻 無料で試してみて:");
+  window.open(`https://line.me/R/msg/text/?${text}%20${encodeURIComponent(referralUrl)}`, '_blank');
+}
+
+// Share on WhatsApp
+function shareReferralWhatsApp() {
+  const code = getMyReferralCode();
+  const referralUrl = `https://fujisan.ai/?ref=${code}`;
+  const text = encodeURIComponent(`I'm learning Japanese with Fujisan.AI! 🗻 AI-powered JLPT prep. Try it free: ${referralUrl}`);
+  window.open(`https://wa.me/?text=${text}`, '_blank');
+}
+
+// Initialize referral link input in Settings
+function initReferralSection() {
+  const input = document.getElementById('referralLinkInput');
+  if (input) {
+    const code = getMyReferralCode();
+    input.value = `fujisan.ai/?ref=${code}`;
+  }
+}
+
 // Update referral code display in settings
 function updateReferralDisplay() {
   const codeEl = document.getElementById('myReferralCode');
@@ -2275,6 +3246,9 @@ function updateReferralDisplay() {
     const code = getMyReferralCode();
     codeEl.textContent = `fujisan.ai/?ref=${code}`;
   }
+  
+  // Also update new referral link input
+  initReferralSection();
   
   // Show referral status if user was referred
   const statusEl = document.getElementById('referralStatus');
@@ -2576,6 +3550,11 @@ let state = {
   lastPaymentError: null,
   stripeCustomerId: null,
   stripeSubscriptionId: null,
+  // FREE CAMPAIGN
+  freeCampaign: false,
+  freeCampaignEnd: null,
+  planStatus: null,
+  createdAt: null,
   // XP & Progress
   xp: 0,
   // Pass Report
@@ -2585,7 +3564,11 @@ let state = {
   pwaDismissed: false,
   onboardingComplete: false,
   // SRS (Spaced Repetition System)
-  srs: {} // { "N5_vocab_V0001": { interval, ease, nextReview, reviewCount, lastReview }, ... }
+  srs: {}, // { "N5_vocab_V0001": { interval, ease, nextReview, reviewCount, lastReview }, ... }
+  // AI Coach System
+  jlptExamDate: null,  // JLPT試験日 (ISO date string)
+  aiCoachMessage: null, // キャッシュされたAIコーチメッセージ
+  aiCoachTimestamp: null // 最後にメッセージを生成した時刻
 };
 let session = { mode: null, questions: [], current: 0, correct: 0, wrong: 0, startTime: null, answers: [], currentItem: null, currentSkillIndex: 0 };
 let currentWord = '';
@@ -2609,8 +3592,10 @@ function hideAppLoadingOverlay() {
   const overlay = document.getElementById('app-loading-overlay');
   if (overlay) {
     overlay.style.opacity = '0';
+    overlay.style.pointerEvents = 'none';
     setTimeout(() => {
       overlay.style.display = 'none';
+      if (overlay.parentNode) overlay.remove();
     }, 300);
   }
 }
@@ -2626,9 +3611,12 @@ function showScreen(id) {
     console.error('Screen not found: screen-' + id);
   }
   document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.screen === id));
+  // Update footer nav (90-point dashboard)
+  document.querySelectorAll('.footer-btn-90').forEach(btn => btn.classList.toggle('active', btn.dataset.screen === id));
   if (id === 'drill') updateDrillScreen();
   if (id === 'mock') updateMockScreen();
   if (id === 'ai') updateAIScreen();
+  if (id === 'talk') initTalkScreen();
   if (id === 'settings') updateSettingsUI();
   
   // Track screen view
@@ -2652,6 +3640,9 @@ function updateDrillScreen() {
   updateDashboardUnitGrid();
   updateDrillColors();
   updateHabitTracker();
+  updateSimpleDashboard(); // 新しいシンプルダッシュボード更新
+  syncLangSwiper(); // 言語スワイパー同期
+  checkFeedbackSubmitted(); // フィードバック送信済みチェック
   
   // Update level selector buttons
   document.querySelectorAll('.level-select-btn').forEach(btn => {
@@ -2662,6 +3653,325 @@ function updateDrillScreen() {
   document.querySelectorAll('.category-btn').forEach(btn => {
     btn.classList.toggle('selected', btn.dataset.cat === state.category);
   });
+}
+
+// Simple Dashboard Progress Update (案A)
+function updateSimpleDashboard() {
+  const level = state.level;
+  const d = DATA[level];
+  if (!d) return;
+  
+  // Level colors
+  const levelColors = { N5: '#34c759', N4: '#007aff', N3: '#af52de', N2: '#1e3a5f', N1: '#ff3b30' };
+  const levelColor = levelColors[level] || '#007aff';
+  
+  // Apply level color as CSS variable to dashboard
+  const dashboard = document.querySelector('.dashboard-90');
+  if (dashboard) {
+    dashboard.style.setProperty('--level-color', levelColor);
+  }
+  
+  // Update level mini buttons
+  document.querySelectorAll('.level-mini-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.level === level);
+  });
+  
+  // Calculate progress per category
+  const categories = ['vocab', 'kanji', 'grammar'];
+  let totalMastered = 0;
+  let totalItems = 0;
+  let categoryProgress = {};
+  
+  categories.forEach(cat => {
+    const items = d[cat] || [];
+    let mastered = 0;
+    items.forEach(item => {
+      const baseKey = `${level}_${item.id}`;
+      const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+      if (allComplete) mastered++;
+    });
+    
+    totalMastered += mastered;
+    totalItems += items.length;
+    categoryProgress[cat] = { mastered, total: items.length, percent: items.length > 0 ? Math.round((mastered / items.length) * 100) : 0 };
+    
+    // Update category link progress
+    const progressEl = document.getElementById(`${cat}-progress`);
+    if (progressEl) {
+      progressEl.textContent = `${categoryProgress[cat].percent}%`;
+    }
+  });
+  
+  // Update overall progress - now in units format
+  const overallPercent = totalItems > 0 ? Math.round((totalMastered / totalItems) * 100) : 0;
+  
+  // Calculate completed units
+  const allItems = [...(d.vocab || []), ...(d.kanji || []), ...(d.grammar || [])];
+  const totalUnits = Math.ceil(allItems.length / ITEMS_PER_UNIT);
+  let completedUnits = 0;
+  
+  for (let u = 0; u < totalUnits; u++) {
+    const unitStart = u * ITEMS_PER_UNIT;
+    const unitEnd = Math.min(unitStart + ITEMS_PER_UNIT, allItems.length);
+    const unitItems = allItems.slice(unitStart, unitEnd);
+    
+    let unitMastered = 0;
+    unitItems.forEach(item => {
+      const baseKey = `${level}_${item.id}`;
+      const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+      if (allComplete) unitMastered++;
+    });
+    
+    if (unitMastered === unitItems.length) completedUnits++;
+  }
+  
+  const levelEl = document.getElementById('progress-level');
+  const percentEl = document.getElementById('progress-percent');
+  const barEl = document.getElementById('progress-bar-fill');
+  const unitGridCountEl = document.getElementById('unit-grid-count');
+  
+  if (levelEl) levelEl.textContent = level;
+  if (percentEl) percentEl.textContent = `${completedUnits}/${totalUnits} units (${overallPercent}%)`;
+  if (barEl) barEl.style.width = `${overallPercent}%`;
+  if (unitGridCountEl) unitGridCountEl.textContent = `${completedUnits}/${totalUnits}`;
+  
+  // Update AI greeting (90-point version - combined with recommendation)
+  updateAIGreeting90(categoryProgress, level);
+  
+  // Update habit tracker
+  updateHabitTracker90();
+  
+  // Update footer nav active state
+  document.querySelectorAll('.footer-btn-90').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.screen === 'drill');
+  });
+}
+
+// AI Greeting + Recommendation Combined (90-point version)
+// Now uses the new AI Coach Message System
+function updateAIGreeting90(categoryProgress, level) {
+  // Use the new AI Coach system
+  updateAICoachMessage();
+}
+
+// Show level info in AI card when level changes
+function showLevelInfoInCard(level) {
+  const greetingEl = document.getElementById('ai-greeting-text');
+  const titleEl = document.getElementById('ai-recommend-title');
+  const metaEl = document.getElementById('ai-recommend-meta');
+  const btnEl = document.getElementById('ai-recommend-btn');
+  
+  if (!greetingEl || !titleEl || !metaEl) return;
+  
+  const info = JLPT_LEVEL_INFO[level];
+  if (!info) return;
+  
+  // Get localized texts
+  const officialDesc = getText('level_' + level.toLowerCase() + '_official') || '';
+  const difficulty = getText('level_' + level.toLowerCase() + '_difficulty') || info.difficulty;
+  
+  // Update card with level info
+  greetingEl.innerHTML = `<span style="color:${info.color}">${level}</span> - ${difficulty}`;
+  titleEl.textContent = officialDesc;
+  metaEl.textContent = `${info.vocab.toLocaleString()} vocab · ${info.kanji} kanji · ${info.grammar} grammar · ${info.units} units`;
+  
+  // Change button to "Start Learning"
+  if (btnEl) {
+    const startText = getText('level_detail_start') || 'Start Learning';
+    btnEl.querySelector('span').textContent = startText;
+    btnEl.dataset.action = 'level';
+    btnEl.dataset.type = 'level';
+  }
+  
+  // Reset to normal after 5 seconds
+  setTimeout(() => {
+    updateDrillScreen();
+  }, 5000);
+}
+
+// Show unit info in AI card when unit is selected
+async function showUnitInfoInCard(unitIndex) {
+  const greetingEl = document.getElementById('ai-greeting-text');
+  const titleEl = document.getElementById('ai-recommend-title');
+  const metaEl = document.getElementById('ai-recommend-meta');
+  const btnEl = document.getElementById('ai-recommend-btn');
+  
+  if (!greetingEl || !titleEl || !metaEl) return;
+  
+  const level = state.level;
+  
+  // Ensure data is loaded
+  if (!DATA[level] || !DATA[level].vocab) {
+    await loadDrillData(level);
+  }
+  
+  const d = DATA[level];
+  if (!d) return;
+  
+  const allItems = [...(d.vocab || []), ...(d.kanji || []), ...(d.grammar || [])];
+  const unitStart = unitIndex * ITEMS_PER_UNIT;
+  const unitEnd = Math.min(unitStart + ITEMS_PER_UNIT, allItems.length);
+  const unitItems = allItems.slice(unitStart, unitEnd);
+  
+  // Categorize items
+  const vocabItems = unitItems.filter(item => item.w);
+  const kanjiItems = unitItems.filter(item => item.k && !item.w);
+  const grammarItems = unitItems.filter(item => item.p);
+  
+  // Get sample words
+  const samples = [];
+  if (vocabItems.length > 0) samples.push(vocabItems.slice(0, 2).map(v => v.w).join(', '));
+  if (kanjiItems.length > 0) samples.push(kanjiItems.slice(0, 2).map(k => k.k).join(', '));
+  if (grammarItems.length > 0) samples.push(grammarItems[0]?.p || '');
+  
+  const levelColor = JLPT_LEVEL_INFO[level]?.color || '#007aff';
+  
+  // Update card with unit info
+  greetingEl.innerHTML = `<span style="color:${levelColor}">${level} Unit ${unitIndex + 1}</span>`;
+  titleEl.textContent = samples.join(' · ') || 'Ready to learn!';
+  metaEl.textContent = `${vocabItems.length} vocab · ${kanjiItems.length} kanji · ${grammarItems.length} grammar`;
+  
+  // Update button - use dataset to pass unit info
+  if (btnEl) {
+    const startText = getText('unit_preview_start') || 'Start Unit';
+    btnEl.querySelector('span').textContent = `${startText} ${unitIndex + 1}`;
+    btnEl.dataset.action = 'unit';
+    btnEl.dataset.type = 'unit';
+    btnEl.dataset.unitIndex = unitIndex;
+  }
+}
+
+// Habit Tracker 90-point version
+function updateHabitTracker90() {
+  const daysEl = document.getElementById('habit-week');
+  const streakEl = document.getElementById('habit-streak');
+  const streakBadgeEl = document.getElementById('streak-badge');
+  const streakCountEl = document.getElementById('streak-count');
+  if (!daysEl) return;
+  
+  const today = new Date();
+  const dayNames = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+  const studyHistory = JSON.parse(localStorage.getItem('fujisan_study_history') || '{}');
+  
+  let html = '';
+  let streak = calculateStreak(); // Use the unified streak calculation
+  
+  // Generate week days
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const dateKey = d.toISOString().split('T')[0];
+    const isToday = i === 0;
+    const hasStudied = studyHistory[dateKey] && studyHistory[dateKey].minutes > 0;
+    
+    html += `<div class="habit-day ${hasStudied ? 'active' : ''} ${isToday ? 'today' : ''}">${dayNames[d.getDay()]}</div>`;
+  }
+  
+  daysEl.innerHTML = html;
+  
+  // Update streak text in habit tracker
+  if (streakEl) {
+    streakEl.textContent = `${streak} day streak`;
+  }
+  
+  // Update streak badge in header
+  if (streakBadgeEl && streakCountEl) {
+    streakCountEl.textContent = streak;
+    streakBadgeEl.dataset.streak = streak;
+    // Show/hide based on streak
+    if (streak > 0) {
+      streakBadgeEl.classList.remove('hidden');
+    } else {
+      streakBadgeEl.classList.add('hidden');
+    }
+  }
+}
+
+// Start AI Recommendation
+function startAIRecommendation() {
+  const btnEl = document.getElementById('ai-recommend-btn');
+  if (!btnEl) return;
+  
+  const action = btnEl.dataset.action || 'vocab';
+  const type = btnEl.dataset.type || 'new';
+  
+  if (type === 'review') {
+    startReview();
+  } else if (type === 'unit') {
+    // Start specific unit
+    const unitIndex = parseInt(btnEl.dataset.unitIndex || '0');
+    startUnitDrill(unitIndex);
+  } else if (type === 'level') {
+    // Level info was shown, just start with default category
+    selectCategoryAndStart('vocab');
+  } else {
+    selectCategoryAndStart(action);
+  }
+}
+
+// Progress encouraging messages (no emoji)
+function getProgressMessage(percent, mastered, total) {
+  if (percent === 0) {
+    return { message: "Let's take the first step together." };
+  } else if (percent < 10) {
+    return { message: "Great start. Keep the momentum going." };
+  } else if (percent < 25) {
+    return { message: "You're building a solid foundation." };
+  } else if (percent < 50) {
+    return { message: "Real progress. You're getting there." };
+  } else if (percent < 75) {
+    return { message: "Halfway and beyond. Well done." };
+  } else if (percent < 90) {
+    return { message: "The finish line is in sight." };
+  } else if (percent < 100) {
+    return { message: "Almost there. One final push." };
+  } else {
+    return { message: "Mastered. Ready for the next level?" };
+  }
+}
+
+function updateHabitTrackerCompact() {
+  const weekEl = document.querySelector('.habit-week-compact');
+  if (!weekEl) return;
+  
+  const today = new Date();
+  const dayNames = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+  const studyHistory = JSON.parse(localStorage.getItem('fujisan_study_history') || '{}');
+  
+  let html = '';
+  let streak = 0;
+  
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const dateKey = d.toISOString().split('T')[0];
+    const isToday = i === 0;
+    const hasStudied = studyHistory[dateKey] && studyHistory[dateKey].minutes > 0;
+    
+    html += `<div class="habit-day ${hasStudied ? 'active' : ''} ${isToday ? 'today' : ''}">${dayNames[d.getDay()]}</div>`;
+  }
+  
+  weekEl.innerHTML = html;
+  
+  // Calculate streak
+  for (let i = 0; i <= 365; i++) {
+    const d = new Date(today);
+    d.setDate(d.getDate() - i);
+    const dateKey = d.toISOString().split('T')[0];
+    if (studyHistory[dateKey] && studyHistory[dateKey].minutes > 0) {
+      streak++;
+    } else if (i > 0) {
+      break;
+    }
+  }
+  
+  // Update streak display (no emoji)
+  const streakEl = document.querySelector('.habit-streak-compact');
+  if (streakEl) {
+    const todayKey = today.toISOString().split('T')[0];
+    const todayMinutes = studyHistory[todayKey]?.minutes || 0;
+    streakEl.innerHTML = `<span>${streak} day streak</span><span>${todayMinutes} min today</span>`;
+  }
 }
 
 // S1: Auto-select first incomplete unit
@@ -2695,35 +4005,123 @@ function getFirstIncompleteUnit() {
 }
 
 function updateMockScreen() {
-  // Update level badge
-  const levelBadge = document.getElementById('mock-level-badge');
-  if (levelBadge) levelBadge.textContent = state.level;
+  // Update hero level badge
+  const heroLevel = document.getElementById('mock-hero-level');
+  if (heroLevel) heroLevel.textContent = state.level;
   
-  // Update level buttons (both old and new selectors)
-  document.querySelectorAll('#mock-levels .level-btn, #mock-levels .level-select-btn').forEach(btn => {
+  // Update level buttons
+  document.querySelectorAll('#mock-level-row .level-mini-btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.level === state.level);
   });
   
-  // Update question count and time based on level
-  const mockConfig = {
-    N5: { q: 91, time: 105 },
-    N4: { q: 94, time: 115 },
-    N3: { q: 103, time: 140 },
-    N2: { q: 116, time: 155 },
-    N1: { q: 117, time: 170 }
+  // Apply level color
+  updateMockLevelColor();
+  
+  // Sync language swiper
+  syncLangSwiper();
+  
+  // Generate set list
+  renderMockSetList();
+  
+  // Check feedback submitted
+  checkFeedbackSubmitted();
+}
+
+function updateMockLevelColor() {
+  const levelColors = {
+    N5: { color: '#22c55e', shadow: 'rgba(34, 197, 94, 0.35)' },
+    N4: { color: '#3b82f6', shadow: 'rgba(59, 130, 246, 0.35)' },
+    N3: { color: '#a855f7', shadow: 'rgba(168, 85, 247, 0.35)' },
+    N2: { color: '#f97316', shadow: 'rgba(249, 115, 22, 0.35)' },
+    N1: { color: '#ef4444', shadow: 'rgba(239, 68, 68, 0.35)' }
   };
-  const config = mockConfig[state.level] || mockConfig.N5;
-  const qCountEl = document.getElementById('mock-q-count');
-  const timeEl = document.getElementById('mock-time');
-  if (qCountEl) qCountEl.textContent = config.q;
-  if (timeEl) timeEl.textContent = config.time;
+  const colors = levelColors[state.level] || levelColors.N5;
+  const mockScreen = document.getElementById('screen-mock');
+  if (mockScreen) {
+    mockScreen.style.setProperty('--level-color', colors.color);
+    mockScreen.style.setProperty('--level-shadow', colors.shadow);
+  }
+}
+
+function renderMockSetList() {
+  const container = document.getElementById('mock-set-list');
+  if (!container) return;
   
-  // Update set dropdown with completion status
-  updateMockSetDropdown();
+  // Get mock scores from localStorage
+  const mockScores = JSON.parse(localStorage.getItem('fujisan_mock_scores') || '{}');
+  const levelScores = mockScores[state.level] || {};
   
-  // Show recent score if exists
-  updateMockRecentScore();
-  updateCategoryNames();
+  // Find first incomplete set
+  let firstIncompleteSet = 1;
+  for (let i = 1; i <= 20; i++) {
+    if (!levelScores[i]) {
+      firstIncompleteSet = i;
+      break;
+    }
+    if (i === 20) firstIncompleteSet = 1; // All complete, start from 1
+  }
+  
+  // Update hero subtitle
+  const subtitle = document.getElementById('mock-hero-subtitle');
+  if (subtitle) {
+    subtitle.textContent = `Set ${firstIncompleteSet} • ${t('mock_select_set') || 'Select a set to start'}`;
+  }
+  
+  // Store selected set
+  state.mockSet = firstIncompleteSet;
+  mockState.selectedSet = firstIncompleteSet;
+  mockState.mode = 'full';
+  
+  // Generate set items
+  let html = '';
+  for (let i = 1; i <= 20; i++) {
+    const scoreData = levelScores[i];
+    const isCompleted = !!scoreData;
+    const isActive = i === firstIncompleteSet;
+    
+    let meta = '';
+    let scoreDisplay = '';
+    
+    if (isCompleted) {
+      const date = scoreData.date ? new Date(scoreData.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+      meta = date + (scoreData.correct !== undefined ? ` • ${scoreData.correct}/${scoreData.total}` : '');
+      scoreDisplay = scoreData.percent !== undefined ? `${scoreData.percent}%` : '--';
+    } else {
+      meta = t('mock_not_attempted') || 'Not attempted';
+      scoreDisplay = '--';
+    }
+    
+    html += `
+      <div class="mock-set-item ${isCompleted ? 'completed' : ''} ${isActive ? 'active' : ''}" onclick="selectMockSetNew(${i}, this)">
+        <div class="mock-set-num">${i}</div>
+        <div class="mock-set-info">
+          <div class="mock-set-title">Set ${i}</div>
+          <div class="mock-set-meta">${meta}</div>
+        </div>
+        <div class="mock-set-score ${isCompleted ? '' : 'not-attempted'}">${scoreDisplay}</div>
+      </div>
+    `;
+  }
+  
+  container.innerHTML = html;
+}
+
+function selectMockSetNew(setNum, element) {
+  state.mockSet = setNum;
+  mockState.selectedSet = setNum;
+  mockState.mode = 'full'; // Default to full mode
+  
+  // Update active state
+  document.querySelectorAll('.mock-set-item').forEach(item => {
+    item.classList.remove('active');
+  });
+  if (element) element.classList.add('active');
+  
+  // Update hero subtitle
+  const subtitle = document.getElementById('mock-hero-subtitle');
+  if (subtitle) {
+    subtitle.textContent = `Set ${setNum} • Tap Start to begin`;
+  }
 }
 
 document.querySelectorAll('.nav-btn').forEach(btn => { 
@@ -2748,6 +4146,26 @@ document.querySelectorAll('.level-select-btn').forEach(btn => {
     state.level = level;
     saveState();
     updateDrillScreen();
+  };
+});
+
+// Level mini buttons (90-point dashboard + mock screen)
+document.querySelectorAll('.level-mini-btn').forEach(btn => {
+  btn.onclick = function() {
+    const level = this.dataset.level;
+    if (!canAccessLevel(level)) {
+      const requiredPlan = (level === 'N2' || level === 'N1') ? 'Premium' : 'Basic';
+      showUpgradeModal('level', requiredPlan);
+      return;
+    }
+    document.querySelectorAll('.level-mini-btn').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    state.level = level;
+    saveState();
+    updateDrillScreen();
+    updateMockScreen();
+    // Show level info in AI card
+    showLevelInfoInCard(level);
   };
 });
 
@@ -2888,7 +4306,7 @@ function updateDashboardUnitGrid() {
       cell.textContent = u + 1;
     }
     
-    cell.onclick = () => startUnitDrill(u);
+    cell.onclick = () => showUnitInfoInCard(u);
     grid.appendChild(cell);
   }
 }
@@ -2931,6 +4349,388 @@ function calculateStreak() {
   }
   
   return streak;
+}
+
+// ========== AI COACH MESSAGE SYSTEM ==========
+// Generates personalized motivational messages based on user data
+
+async function generateAICoachMessage() {
+  const streak = calculateStreak();
+  const level = state.level;
+  const lang = state.lang || 'en';
+  
+  // Get today's stats
+  const today = new Date().toISOString().split('T')[0];
+  const todayStats = JSON.parse(localStorage.getItem(`fujisan_stats_${today}`) || '{}');
+  const studiedToday = todayStats.quizzes > 0;
+  
+  // Get overall progress for current level
+  const d = DATA[level];
+  if (!d) return getDefaultCoachMessage(streak, level, lang);
+  
+  const allItems = [...(d.vocab || []), ...(d.kanji || []), ...(d.grammar || [])];
+  let masteredCount = 0;
+  allItems.forEach(item => {
+    const baseKey = `${level}_${item.id}`;
+    const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+    if (allComplete) masteredCount++;
+  });
+  const progressPercent = allItems.length > 0 ? Math.round((masteredCount / allItems.length) * 100) : 0;
+  
+  // Get units info
+  const totalUnits = Math.ceil(allItems.length / ITEMS_PER_UNIT);
+  let completedUnits = 0;
+  let currentUnit = 0;
+  for (let u = 0; u < totalUnits; u++) {
+    const unitStart = u * ITEMS_PER_UNIT;
+    const unitEnd = Math.min(unitStart + ITEMS_PER_UNIT, allItems.length);
+    const unitItems = allItems.slice(unitStart, unitEnd);
+    let unitMastered = 0;
+    unitItems.forEach(item => {
+      const baseKey = `${level}_${item.id}`;
+      const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+      if (allComplete) unitMastered++;
+    });
+    if (unitMastered === unitItems.length) {
+      completedUnits++;
+    } else if (unitMastered > 0 && currentUnit === 0) {
+      currentUnit = u + 1;
+    }
+  }
+  if (currentUnit === 0) currentUnit = completedUnits + 1;
+  
+  // Calculate days until JLPT exam
+  let daysUntilExam = null;
+  if (state.jlptExamDate) {
+    const examDate = new Date(state.jlptExamDate);
+    const now = new Date();
+    daysUntilExam = Math.ceil((examDate - now) / (1000 * 60 * 60 * 24));
+  }
+  
+  // Get category progress
+  const categoryProgress = getCategoryProgress(level);
+  const weakestCategory = Object.entries(categoryProgress)
+    .filter(([_, data]) => data.total > 0)
+    .sort((a, b) => a[1].percent - b[1].percent)[0];
+  
+  // Build context for AI
+  const context = {
+    streak,
+    level,
+    progressPercent,
+    completedUnits,
+    totalUnits,
+    currentUnit,
+    daysUntilExam,
+    studiedToday,
+    todayCorrect: todayStats.correct || 0,
+    todayTotal: todayStats.total || 0,
+    weakestCategory: weakestCategory ? weakestCategory[0] : null,
+    weakestPercent: weakestCategory ? weakestCategory[1].percent : null
+  };
+  
+  // Generate message locally (no API call for speed)
+  return generateLocalCoachMessage(context, lang);
+}
+
+function generateLocalCoachMessage(ctx, lang) {
+  const { streak, level, progressPercent, completedUnits, totalUnits, currentUnit, 
+          daysUntilExam, studiedToday, todayCorrect, todayTotal, weakestCategory, weakestPercent } = ctx;
+  
+  // Message templates by language
+  const templates = getCoachTemplates(lang);
+  
+  let greeting = '';
+  let recommendation = '';
+  let meta = '';
+  
+  // === GREETING (based on streak and study status) ===
+  if (streak >= 30) {
+    greeting = templates.streak30.replace('{streak}', streak);
+  } else if (streak >= 7) {
+    greeting = templates.streak7.replace('{streak}', streak);
+  } else if (streak >= 3) {
+    greeting = templates.streak3.replace('{streak}', streak);
+  } else if (streak === 1 && studiedToday) {
+    greeting = templates.streakStart;
+  } else if (!studiedToday && streak === 0) {
+    greeting = templates.comeBack;
+  } else {
+    greeting = templates.default;
+  }
+  
+  // === RECOMMENDATION (based on progress and exam date) ===
+  if (daysUntilExam !== null && daysUntilExam <= 30 && daysUntilExam > 0) {
+    // Exam coming soon - urgent mode
+    recommendation = templates.examSoon.replace('{days}', daysUntilExam);
+    meta = templates.examMeta.replace('{level}', level);
+  } else if (daysUntilExam !== null && daysUntilExam <= 90 && daysUntilExam > 30) {
+    // Exam in 1-3 months
+    recommendation = templates.examPrepare.replace('{days}', daysUntilExam);
+    meta = templates.unitMeta.replace('{current}', currentUnit).replace('{total}', totalUnits);
+  } else if (weakestCategory && weakestPercent < 50) {
+    // Focus on weak area
+    const catName = templates.categories[weakestCategory] || weakestCategory;
+    recommendation = templates.focusWeak.replace('{category}', catName).replace('{percent}', weakestPercent);
+    meta = templates.focusMeta;
+  } else if (progressPercent < 30) {
+    // Early stage - encourage progress
+    recommendation = templates.keepGoing.replace('{unit}', currentUnit);
+    meta = templates.progressMeta.replace('{percent}', progressPercent);
+  } else if (progressPercent >= 80) {
+    // Almost done!
+    recommendation = templates.almostDone.replace('{percent}', progressPercent);
+    meta = templates.finishMeta.replace('{remaining}', totalUnits - completedUnits);
+  } else {
+    // Normal progress
+    recommendation = templates.continueUnit.replace('{unit}', currentUnit);
+    meta = templates.progressMeta.replace('{percent}', progressPercent);
+  }
+  
+  // Add today's accuracy if studied
+  if (studiedToday && todayTotal >= 5) {
+    const accuracy = Math.round((todayCorrect / todayTotal) * 100);
+    if (accuracy >= 90) {
+      greeting += ' ' + templates.excellentToday;
+    } else if (accuracy >= 70) {
+      greeting += ' ' + templates.goodToday;
+    }
+  }
+  
+  return { greeting, recommendation, meta };
+}
+
+function getCoachTemplates(lang) {
+  const templates = {
+    'en': {
+      streak30: '🔥 {streak} days! Incredible dedication!',
+      streak7: '🔥 {streak} day streak! Keep it up!',
+      streak3: '{streak} days in a row! Nice momentum.',
+      streakStart: 'Great start today!',
+      comeBack: 'Ready to get back on track?',
+      default: 'Let\'s make progress today.',
+      examSoon: 'JLPT in {days} days. Focus time!',
+      examPrepare: '{days} days until JLPT. You\'ve got this.',
+      examMeta: 'Review {level} essentials',
+      focusWeak: 'Let\'s strengthen {category} ({percent}%)',
+      focusMeta: 'About 10 minutes',
+      keepGoing: 'Continue Unit {unit}',
+      progressMeta: '{percent}% complete',
+      almostDone: '{percent}% mastered! Final push!',
+      finishMeta: '{remaining} units to go',
+      continueUnit: 'Unit {unit} awaits',
+      unitMeta: 'Unit {current}/{total}',
+      excellentToday: 'Excellent accuracy today! 🎯',
+      goodToday: 'Good progress!',
+      categories: { vocab: 'Vocabulary', kanji: 'Kanji', grammar: 'Grammar' }
+    },
+    'zh-TW': {
+      streak30: '🔥 連續{streak}天！太厲害了！',
+      streak7: '🔥 連續{streak}天！繼續保持！',
+      streak3: '連續{streak}天！保持這個勢頭。',
+      streakStart: '今天開始得很棒！',
+      comeBack: '準備好回來學習了嗎？',
+      default: '今天也一起進步吧。',
+      examSoon: 'JLPT還有{days}天，衝刺！',
+      examPrepare: '距離JLPT還有{days}天，加油！',
+      examMeta: '複習{level}重點',
+      focusWeak: '加強{category}（{percent}%）',
+      focusMeta: '約10分鐘',
+      keepGoing: '繼續第{unit}單元',
+      progressMeta: '已完成{percent}%',
+      almostDone: '已掌握{percent}%！最後衝刺！',
+      finishMeta: '還剩{remaining}個單元',
+      continueUnit: '第{unit}單元等著你',
+      unitMeta: '單元{current}/{total}',
+      excellentToday: '今天正確率超高！🎯',
+      goodToday: '進步很大！',
+      categories: { vocab: '單字', kanji: '漢字', grammar: '文法' }
+    },
+    'zh-CN': {
+      streak30: '🔥 连续{streak}天！太厉害了！',
+      streak7: '🔥 连续{streak}天！继续保持！',
+      streak3: '连续{streak}天！保持这个势头。',
+      streakStart: '今天开始得很棒！',
+      comeBack: '准备好回来学习了吗？',
+      default: '今天也一起进步吧。',
+      examSoon: 'JLPT还有{days}天，冲刺！',
+      examPrepare: '距离JLPT还有{days}天，加油！',
+      examMeta: '复习{level}重点',
+      focusWeak: '加强{category}（{percent}%）',
+      focusMeta: '约10分钟',
+      keepGoing: '继续第{unit}单元',
+      progressMeta: '已完成{percent}%',
+      almostDone: '已掌握{percent}%！最后冲刺！',
+      finishMeta: '还剩{remaining}个单元',
+      continueUnit: '第{unit}单元等着你',
+      unitMeta: '单元{current}/{total}',
+      excellentToday: '今天正确率超高！🎯',
+      goodToday: '进步很大！',
+      categories: { vocab: '词汇', kanji: '汉字', grammar: '语法' }
+    },
+    'ko': {
+      streak30: '🔥 {streak}일 연속! 대단해요!',
+      streak7: '🔥 {streak}일 연속! 계속 힘내세요!',
+      streak3: '{streak}일 연속! 좋은 흐름이에요.',
+      streakStart: '오늘 좋은 시작이에요!',
+      comeBack: '다시 시작할 준비 됐나요?',
+      default: '오늘도 함께 성장해요.',
+      examSoon: 'JLPT {days}일 전. 집중!',
+      examPrepare: 'JLPT까지 {days}일. 화이팅!',
+      examMeta: '{level} 핵심 복습',
+      focusWeak: '{category} 강화 ({percent}%)',
+      focusMeta: '약 10분',
+      keepGoing: '유닛 {unit} 계속하기',
+      progressMeta: '{percent}% 완료',
+      almostDone: '{percent}% 마스터! 마지막 스퍼트!',
+      finishMeta: '{remaining}개 유닛 남음',
+      continueUnit: '유닛 {unit} 시작',
+      unitMeta: '유닛 {current}/{total}',
+      excellentToday: '오늘 정답률 최고! 🎯',
+      goodToday: '잘하고 있어요!',
+      categories: { vocab: '어휘', kanji: '한자', grammar: '문법' }
+    },
+    'vi': {
+      streak30: '🔥 {streak} ngày liên tục! Tuyệt vời!',
+      streak7: '🔥 {streak} ngày liên tục! Tiếp tục nhé!',
+      streak3: '{streak} ngày liên tục! Giữ vững nhịp độ.',
+      streakStart: 'Khởi đầu tốt hôm nay!',
+      comeBack: 'Sẵn sàng quay lại chưa?',
+      default: 'Hôm nay cùng tiến bộ nhé.',
+      examSoon: 'Còn {days} ngày đến JLPT. Tập trung!',
+      examPrepare: 'Còn {days} ngày đến JLPT. Cố lên!',
+      examMeta: 'Ôn tập {level}',
+      focusWeak: 'Củng cố {category} ({percent}%)',
+      focusMeta: 'Khoảng 10 phút',
+      keepGoing: 'Tiếp tục Unit {unit}',
+      progressMeta: 'Đã hoàn thành {percent}%',
+      almostDone: 'Đã nắm {percent}%! Nước rút cuối!',
+      finishMeta: 'Còn {remaining} unit',
+      continueUnit: 'Unit {unit} đang chờ',
+      unitMeta: 'Unit {current}/{total}',
+      excellentToday: 'Độ chính xác hôm nay tuyệt vời! 🎯',
+      goodToday: 'Tiến bộ tốt!',
+      categories: { vocab: 'Từ vựng', kanji: 'Kanji', grammar: 'Ngữ pháp' }
+    },
+    'id': {
+      streak30: '🔥 {streak} hari berturut! Luar biasa!',
+      streak7: '🔥 {streak} hari berturut! Lanjutkan!',
+      streak3: '{streak} hari berturut! Momentum bagus.',
+      streakStart: 'Awal yang bagus hari ini!',
+      comeBack: 'Siap kembali belajar?',
+      default: 'Mari buat kemajuan hari ini.',
+      examSoon: 'JLPT dalam {days} hari. Fokus!',
+      examPrepare: '{days} hari menuju JLPT. Semangat!',
+      examMeta: 'Review {level}',
+      focusWeak: 'Perkuat {category} ({percent}%)',
+      focusMeta: 'Sekitar 10 menit',
+      keepGoing: 'Lanjutkan Unit {unit}',
+      progressMeta: '{percent}% selesai',
+      almostDone: '{percent}% dikuasai! Sedikit lagi!',
+      finishMeta: '{remaining} unit tersisa',
+      continueUnit: 'Unit {unit} menanti',
+      unitMeta: 'Unit {current}/{total}',
+      excellentToday: 'Akurasi hari ini sangat bagus! 🎯',
+      goodToday: 'Kemajuan bagus!',
+      categories: { vocab: 'Kosakata', kanji: 'Kanji', grammar: 'Tata bahasa' }
+    },
+    'es': {
+      streak30: '🔥 ¡{streak} días! ¡Increíble dedicación!',
+      streak7: '🔥 ¡{streak} días seguidos! ¡Sigue así!',
+      streak3: '¡{streak} días seguidos! Buen ritmo.',
+      streakStart: '¡Buen comienzo hoy!',
+      comeBack: '¿Listo para volver?',
+      default: 'Hagamos progreso hoy.',
+      examSoon: 'JLPT en {days} días. ¡A enfocarse!',
+      examPrepare: '{days} días para JLPT. ¡Tú puedes!',
+      examMeta: 'Repasar {level}',
+      focusWeak: 'Fortalecer {category} ({percent}%)',
+      focusMeta: 'Unos 10 minutos',
+      keepGoing: 'Continuar Unidad {unit}',
+      progressMeta: '{percent}% completado',
+      almostDone: '¡{percent}% dominado! ¡Último empujón!',
+      finishMeta: '{remaining} unidades restantes',
+      continueUnit: 'Unidad {unit} te espera',
+      unitMeta: 'Unidad {current}/{total}',
+      excellentToday: '¡Excelente precisión hoy! 🎯',
+      goodToday: '¡Buen progreso!',
+      categories: { vocab: 'Vocabulario', kanji: 'Kanji', grammar: 'Gramática' }
+    },
+    'pt': {
+      streak30: '🔥 {streak} dias! Dedicação incrível!',
+      streak7: '🔥 {streak} dias seguidos! Continue assim!',
+      streak3: '{streak} dias seguidos! Bom ritmo.',
+      streakStart: 'Ótimo começo hoje!',
+      comeBack: 'Pronto para voltar?',
+      default: 'Vamos progredir hoje.',
+      examSoon: 'JLPT em {days} dias. Hora de focar!',
+      examPrepare: '{days} dias para JLPT. Você consegue!',
+      examMeta: 'Revisar {level}',
+      focusWeak: 'Fortalecer {category} ({percent}%)',
+      focusMeta: 'Cerca de 10 minutos',
+      keepGoing: 'Continuar Unidade {unit}',
+      progressMeta: '{percent}% completo',
+      almostDone: '{percent}% dominado! Reta final!',
+      finishMeta: '{remaining} unidades restantes',
+      continueUnit: 'Unidade {unit} aguarda',
+      unitMeta: 'Unidade {current}/{total}',
+      excellentToday: 'Excelente precisão hoje! 🎯',
+      goodToday: 'Bom progresso!',
+      categories: { vocab: 'Vocabulário', kanji: 'Kanji', grammar: 'Gramática' }
+    }
+  };
+  
+  return templates[lang] || templates['en'];
+}
+
+function getDefaultCoachMessage(streak, level, lang) {
+  const templates = getCoachTemplates(lang);
+  return {
+    greeting: streak > 0 ? templates.streak3.replace('{streak}', streak) : templates.default,
+    recommendation: templates.keepGoing.replace('{unit}', '1'),
+    meta: templates.progressMeta.replace('{percent}', '0')
+  };
+}
+
+function getCategoryProgress(level) {
+  const d = DATA[level];
+  if (!d) return {};
+  
+  const progress = {};
+  ['vocab', 'kanji', 'grammar'].forEach(cat => {
+    const items = d[cat] || [];
+    let mastered = 0;
+    items.forEach(item => {
+      const baseKey = `${level}_${item.id}`;
+      const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+      if (allComplete) mastered++;
+    });
+    progress[cat] = {
+      mastered,
+      total: items.length,
+      percent: items.length > 0 ? Math.round((mastered / items.length) * 100) : 0
+    };
+  });
+  
+  return progress;
+}
+
+// Update AI Coach message in the UI
+async function updateAICoachMessage() {
+  const greetingEl = document.getElementById('ai-greeting-text');
+  const titleEl = document.getElementById('ai-recommend-title');
+  const metaEl = document.getElementById('ai-recommend-meta');
+  
+  if (!greetingEl || !titleEl || !metaEl) return;
+  
+  try {
+    const message = await generateAICoachMessage();
+    greetingEl.textContent = message.greeting;
+    titleEl.textContent = message.recommendation;
+    metaEl.textContent = message.meta;
+  } catch (e) {
+    console.error('AI Coach message error:', e);
+  }
 }
 
 function recordDrillActivity(correct) {
@@ -3459,22 +5259,22 @@ function updateUITexts() {
   
   document.querySelectorAll('.settings-section-title').forEach(el => {
     if (el.textContent === 'Account' || el.textContent === '帳戶') el.textContent = texts.settings_account;
-    if (el.textContent === 'Study Settings' || el.textContent === '學習設定') el.textContent = texts.settings_study;
-    if (el.textContent === 'Data' || el.textContent === '數據') el.textContent = texts.settings_data;
+    if (el.textContent === 'Study Settings' || el.textContent === '學習設定' || el.textContent === '学习设置' || el.textContent === '학습 설정' || el.textContent === 'Cài đặt học' || el.textContent === 'Pengaturan Belajar' || el.textContent === 'Config. de Estudio' || el.textContent === 'Config. de Estudo') el.textContent = texts.settings_study;
+    if (el.textContent === 'Data' || el.textContent === '數據' || el.textContent === '数据' || el.textContent === '데이터' || el.textContent === 'Dữ liệu' || el.textContent === 'Datos' || el.textContent === 'Dados') el.textContent = texts.settings_data;
   });
   
   document.querySelectorAll('.setting-title').forEach(el => {
-    if (el.textContent === 'Email' || el.textContent === '電子郵件') el.textContent = texts.settings_email;
-    if (el.textContent === 'Current Plan' || el.textContent === '目前方案') el.textContent = texts.settings_plan;
-    if (el.textContent === 'Questions per Unit') el.textContent = texts.settings_qcount;
-    if (el.textContent === 'Sound Effects') el.textContent = texts.settings_sound;
-    if (el.textContent === 'Reset Progress') el.textContent = texts.settings_reset;
+    if (el.textContent === 'Email' || el.textContent === '電子郵件' || el.textContent === '电子邮件' || el.textContent === '이메일' || el.textContent === 'Correo') el.textContent = texts.settings_email;
+    if (el.textContent === 'Current Plan' || el.textContent === '目前方案' || el.textContent === '当前方案' || el.textContent === '현재 플랜' || el.textContent === 'Gói hiện tại' || el.textContent === 'Paket Saat Ini' || el.textContent === 'Plan Actual' || el.textContent === 'Plano Atual') el.textContent = texts.settings_plan;
+    if (el.textContent === 'Questions per Unit' || el.textContent === '每單元問題數' || el.textContent === '每单元问题数' || el.textContent === '유닛당 문제 수' || el.textContent === 'Câu hỏi mỗi Unit' || el.textContent === 'Pertanyaan per Unit' || el.textContent === 'Preguntas por Unidad' || el.textContent === 'Perguntas por Unidade') el.textContent = texts.settings_qcount;
+    if (el.textContent === 'Sound Effects' || el.textContent === '音效' || el.textContent === '효과음' || el.textContent === 'Hiệu ứng âm thanh' || el.textContent === 'Efek Suara' || el.textContent === 'Efectos de Sonido' || el.textContent === 'Efeitos Sonoros') el.textContent = texts.settings_sound;
+    if (el.textContent === 'Reset Progress' || el.textContent === '重設進度' || el.textContent === '重置进度' || el.textContent === '진도 초기화' || el.textContent === 'Đặt lại tiến độ' || el.textContent === 'Reset Kemajuan' || el.textContent === 'Resetear Progreso' || el.textContent === 'Resetar Progresso') el.textContent = texts.settings_reset;
   });
   
   document.querySelectorAll('.setting-desc').forEach(el => {
-    if (el.textContent === 'Items in each session') el.textContent = texts.settings_qcount_desc;
-    if (el.textContent === 'Quiz sounds') el.textContent = texts.settings_sound_desc;
-    if (el.textContent === 'Clear all learning data') el.textContent = texts.settings_reset_desc;
+    if (el.textContent === 'Items in each session' || el.textContent === '每次練習題數' || el.textContent === '每次练习题数' || el.textContent === '세션 당 문항 수' || el.textContent === 'Số câu mỗi phiên' || el.textContent === 'Item per sesi' || el.textContent === 'Ítems por sesión' || el.textContent === 'Itens por sessão') el.textContent = texts.settings_qcount_desc;
+    if (el.textContent === 'Quiz sounds' || el.textContent === '測驗音效' || el.textContent === '测验音效' || el.textContent === '퀴즈 소리' || el.textContent === 'Âm thanh quiz' || el.textContent === 'Suara kuis' || el.textContent === 'Sonidos del quiz' || el.textContent === 'Sons do quiz') el.textContent = texts.settings_sound_desc;
+    if (el.textContent === 'Clear all learning data' || el.textContent === '清除所有學習資料' || el.textContent === '清除所有学习数据' || el.textContent === '모든 학습 데이터 삭제' || el.textContent === 'Xóa toàn bộ dữ liệu' || el.textContent === 'Hapus semua data' || el.textContent === 'Borrar todos los datos' || el.textContent === 'Limpar todos os dados') el.textContent = texts.settings_reset_desc;
     if (el.textContent === 'Sign out of your account') el.textContent = texts.settings_logout_desc;
   });
   
@@ -3497,6 +5297,25 @@ function updateUITexts() {
   
   const trialLaterBtn = document.querySelector('#subscriptionRequiredModal .btn-secondary');
   if (trialLaterBtn) trialLaterBtn.textContent = texts.trial_later;
+  
+  // Talk screen placeholders and titles
+  const talkInput = document.getElementById('talk-input');
+  if (talkInput && texts.talk_input_placeholder) {
+    talkInput.placeholder = texts.talk_input_placeholder;
+  }
+  
+  const talkChatTitle = document.getElementById('talk-chat-title');
+  if (talkChatTitle && texts.talk_chat_title) {
+    talkChatTitle.textContent = texts.talk_chat_title;
+  }
+  
+  // Update all data-i18n-placeholder elements
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+    const key = el.dataset.i18nPlaceholder;
+    if (texts[key]) {
+      el.placeholder = texts[key];
+    }
+  });
 }
 
 function updateProgressCard() {
@@ -3585,7 +5404,7 @@ function updateUnitGrid(level, totalUnits, masteredItems, allItems) {
     }
     
     // Click to start specific unit
-    cell.onclick = () => startUnitDrill(u);
+    cell.onclick = () => showUnitInfoInCard(u);
     grid.appendChild(cell);
   }
 }
@@ -3684,7 +5503,7 @@ async function startUnitDrill(unitIndex) {
   state.lastSession = { level: state.level, unit: unitIndex, category: state.category, timestamp: Date.now() };
   saveState();
   
-  document.getElementById('quiz-title').textContent = `Unit ${unitIndex + 1}`;
+  document.getElementById('quiz-title').textContent = `${state.level} Unit ${unitIndex + 1}`;
   showScreen('quiz');
   showLearningQuestion();
 }
@@ -4146,7 +5965,7 @@ async function startDrill() {
     itemResults: {} // Track results per item
   };
   
-  document.getElementById('quiz-title').textContent = '✍️ ' + (getText('quiz_drill_title') || 'Drill');
+  document.getElementById('quiz-title').textContent = `${state.level} ${getText('quiz_drill_title') || 'Drill'}`;
   showScreen('quiz');
   showLearningQuestion();
 }
@@ -5003,6 +6822,19 @@ function getErrorMessage() {
   return messages[state.lang] || messages.en;
 }
 
+function toggleFollowup() {
+  const followupDiv = document.getElementById('feedback-followup');
+  const askMoreBtn = document.getElementById('ask-more-btn');
+  if (followupDiv.style.display === 'none') {
+    followupDiv.style.display = 'flex';
+    askMoreBtn.style.display = 'none';
+    document.getElementById('followup-input').focus();
+  } else {
+    followupDiv.style.display = 'none';
+    askMoreBtn.style.display = 'block';
+  }
+}
+
 async function askFollowup() {
   const input = document.getElementById('followup-input');
   const btn = document.getElementById('followup-btn');
@@ -5541,11 +7373,11 @@ function playListeningTTS(text) {
   // 改行で分割してから処理
   const rawLines = cleanText.split('\n').map(l => l.trim()).filter(l => l);
   
-  // 会話パターン（M: F: おとこ： おんな： 男： 女：）でさらに分割
+  // 会話パターン（M: F: おとこ： おんな： 男： 女： 話者A： 話者B： 上司： 部下： 社員： 課長：）でさらに分割
   const lines = [];
   rawLines.forEach(line => {
-    // M: F: を含む行は分割
-    const parts = line.split(/(?=M:|F:|おとこ：|おんな：|男：|女：)/);
+    // 話者ラベルを含む行は分割
+    const parts = line.split(/(?=M:|F:|おとこ：|おんな：|男：|女：|話者A：|話者B：|上司：|部下：|社員：|課長：)/);
     parts.forEach(p => {
       if (p.trim()) lines.push(p.trim());
     });
@@ -5587,6 +7419,18 @@ function playListeningTTS(text) {
     } else if (line.startsWith('おんな：') || line.startsWith('女：')) {
       isFemale = true;
       line = line.replace(/^(おんな：|女：)/, '').trim();
+    } else if (line.startsWith('話者A：') || line.startsWith('話者A:')) {
+      isMale = true;
+      line = line.replace(/^話者A[:：]\s*/, '').trim();
+    } else if (line.startsWith('話者B：') || line.startsWith('話者B:')) {
+      isFemale = true;
+      line = line.replace(/^話者B[:：]\s*/, '').trim();
+    } else if (line.startsWith('上司：') || line.startsWith('上司:') || line.startsWith('課長：') || line.startsWith('課長:')) {
+      isMale = true;
+      line = line.replace(/^(上司|課長)[:：]\s*/, '').trim();
+    } else if (line.startsWith('部下：') || line.startsWith('部下:') || line.startsWith('社員：') || line.startsWith('社員:')) {
+      isFemale = true;
+      line = line.replace(/^(部下|社員)[:：]\s*/, '').trim();
     }
     
     if (!line) { index++; speakNext(); return; }
@@ -6222,7 +8066,195 @@ function showResult() {
     wrongSection.style.display = 'none';
   }
   
+  // Generate AI Coach feedback for the result
+  updateResultAIFeedback(score, session.correct, session.wrong, session.answers);
+  
   showScreen('result');
+}
+
+// Generate AI feedback for result screen
+function updateResultAIFeedback(score, correct, wrong, answers) {
+  const feedbackEl = document.getElementById('ai-feedback-text');
+  if (!feedbackEl) return;
+  
+  const lang = state.lang || 'en';
+  const streak = calculateStreak();
+  const level = state.level;
+  
+  // Feedback templates by language
+  const templates = {
+    'en': {
+      excellent: [
+        `Perfect! ${correct} correct answers shows real mastery.`,
+        `Outstanding! Your ${level} skills are improving fast.`,
+        `${score}%! You're ready for the next challenge.`
+      ],
+      good: [
+        `Nice work! ${correct} out of ${correct + wrong} correct.`,
+        `Good progress! Focus on the ${wrong} mistakes for next time.`,
+        `${score}% - getting stronger! Review and try again.`
+      ],
+      needsWork: [
+        `${correct} correct - keep practicing! Every mistake is a learning opportunity.`,
+        `Focus on the items you missed. You'll get there!`,
+        `${wrong} to review. Small steps lead to big progress.`
+      ],
+      streakBonus: ` ${streak} day streak! 🔥`,
+      unitComplete: ` Unit complete!`
+    },
+    'zh-TW': {
+      excellent: [
+        `完美！${correct}題正確，真的很棒！`,
+        `太厲害了！你的${level}能力進步很快。`,
+        `${score}%！準備好迎接下一個挑戰了。`
+      ],
+      good: [
+        `做得好！${correct + wrong}題中答對${correct}題。`,
+        `進步了！下次專注練習這${wrong}個錯誤。`,
+        `${score}% - 越來越強了！複習後再試一次。`
+      ],
+      needsWork: [
+        `答對${correct}題 - 繼續練習！每個錯誤都是學習機會。`,
+        `專注練習錯的題目，你一定可以的！`,
+        `${wrong}題要複習。小步驟帶來大進步。`
+      ],
+      streakBonus: ` 連續${streak}天！🔥`,
+      unitComplete: ` 單元完成！`
+    },
+    'zh-CN': {
+      excellent: [
+        `完美！${correct}题正确，真的很棒！`,
+        `太厉害了！你的${level}能力进步很快。`,
+        `${score}%！准备好迎接下一个挑战了。`
+      ],
+      good: [
+        `做得好！${correct + wrong}题中答对${correct}题。`,
+        `进步了！下次专注练习这${wrong}个错误。`,
+        `${score}% - 越来越强了！复习后再试一次。`
+      ],
+      needsWork: [
+        `答对${correct}题 - 继续练习！每个错误都是学习机会。`,
+        `专注练习错的题目，你一定可以的！`,
+        `${wrong}题要复习。小步骤带来大进步。`
+      ],
+      streakBonus: ` 连续${streak}天！🔥`,
+      unitComplete: ` 单元完成！`
+    },
+    'ko': {
+      excellent: [
+        `완벽해요! ${correct}개 정답, 정말 대단해요!`,
+        `훌륭해요! ${level} 실력이 빠르게 늘고 있어요.`,
+        `${score}%! 다음 도전 준비 완료!`
+      ],
+      good: [
+        `잘했어요! ${correct + wrong}개 중 ${correct}개 정답.`,
+        `발전했어요! 다음엔 ${wrong}개 오답에 집중해봐요.`,
+        `${score}% - 점점 강해지고 있어요! 복습 후 다시 도전!`
+      ],
+      needsWork: [
+        `${correct}개 정답 - 계속 연습해요! 실수는 배움의 기회예요.`,
+        `틀린 문제에 집중하면 분명 할 수 있어요!`,
+        `${wrong}개 복습할 거예요. 작은 걸음이 큰 발전을 만들어요.`
+      ],
+      streakBonus: ` ${streak}일 연속! 🔥`,
+      unitComplete: ` 유닛 완료!`
+    },
+    'vi': {
+      excellent: [
+        `Hoàn hảo! ${correct} câu đúng, tuyệt vời!`,
+        `Xuất sắc! Kỹ năng ${level} của bạn tiến bộ nhanh.`,
+        `${score}%! Sẵn sàng cho thử thách tiếp theo.`
+      ],
+      good: [
+        `Tốt lắm! ${correct}/${correct + wrong} câu đúng.`,
+        `Tiến bộ rồi! Lần sau tập trung vào ${wrong} câu sai nhé.`,
+        `${score}% - đang mạnh lên! Ôn tập và thử lại.`
+      ],
+      needsWork: [
+        `${correct} câu đúng - tiếp tục luyện tập! Mỗi lỗi sai là cơ hội học.`,
+        `Tập trung vào phần sai. Bạn làm được!`,
+        `${wrong} câu cần ôn. Bước nhỏ tạo tiến bộ lớn.`
+      ],
+      streakBonus: ` ${streak} ngày liên tục! 🔥`,
+      unitComplete: ` Hoàn thành unit!`
+    },
+    'id': {
+      excellent: [
+        `Sempurna! ${correct} jawaban benar, luar biasa!`,
+        `Hebat! Kemampuan ${level} kamu berkembang pesat.`,
+        `${score}%! Siap untuk tantangan berikutnya.`
+      ],
+      good: [
+        `Bagus! ${correct} dari ${correct + wrong} benar.`,
+        `Maju terus! Fokus pada ${wrong} kesalahan untuk lain kali.`,
+        `${score}% - semakin kuat! Ulang dan coba lagi.`
+      ],
+      needsWork: [
+        `${correct} benar - terus berlatih! Setiap kesalahan adalah kesempatan belajar.`,
+        `Fokus pada yang salah. Kamu pasti bisa!`,
+        `${wrong} untuk diulang. Langkah kecil membawa kemajuan besar.`
+      ],
+      streakBonus: ` ${streak} hari berturut! 🔥`,
+      unitComplete: ` Unit selesai!`
+    },
+    'es': {
+      excellent: [
+        `¡Perfecto! ${correct} respuestas correctas, ¡increíble!`,
+        `¡Excelente! Tus habilidades de ${level} mejoran rápido.`,
+        `¡${score}%! Listo para el siguiente desafío.`
+      ],
+      good: [
+        `¡Bien! ${correct} de ${correct + wrong} correctas.`,
+        `¡Progresando! Enfócate en los ${wrong} errores la próxima vez.`,
+        `${score}% - ¡cada vez mejor! Repasa y vuelve a intentar.`
+      ],
+      needsWork: [
+        `${correct} correctas - ¡sigue practicando! Cada error es oportunidad de aprender.`,
+        `Enfócate en lo que fallaste. ¡Lo lograrás!`,
+        `${wrong} para repasar. Pequeños pasos, gran progreso.`
+      ],
+      streakBonus: ` ¡${streak} días seguidos! 🔥`,
+      unitComplete: ` ¡Unidad completada!`
+    },
+    'pt': {
+      excellent: [
+        `Perfeito! ${correct} respostas corretas, incrível!`,
+        `Excelente! Suas habilidades de ${level} estão melhorando rápido.`,
+        `${score}%! Pronto para o próximo desafio.`
+      ],
+      good: [
+        `Bom trabalho! ${correct} de ${correct + wrong} corretas.`,
+        `Progredindo! Foque nos ${wrong} erros na próxima vez.`,
+        `${score}% - cada vez melhor! Revise e tente novamente.`
+      ],
+      needsWork: [
+        `${correct} corretas - continue praticando! Cada erro é chance de aprender.`,
+        `Foque no que errou. Você consegue!`,
+        `${wrong} para revisar. Pequenos passos, grande progresso.`
+      ],
+      streakBonus: ` ${streak} dias seguidos! 🔥`,
+      unitComplete: ` Unidade completa!`
+    }
+  };
+  
+  const t = templates[lang] || templates['en'];
+  let feedback = '';
+  
+  // Select feedback based on score
+  if (score >= 90) {
+    feedback = t.excellent[Math.floor(Math.random() * t.excellent.length)];
+  } else if (score >= 60) {
+    feedback = t.good[Math.floor(Math.random() * t.good.length)];
+  } else {
+    feedback = t.needsWork[Math.floor(Math.random() * t.needsWork.length)];
+  }
+  
+  // Add streak bonus message if streak >= 3
+  if (streak >= 3) {
+    feedback += t.streakBonus;
+  }
+  
+  feedbackEl.textContent = feedback;
 }
 
 function goToNextUnit() {
@@ -6423,11 +8455,51 @@ function changeLang(lang) {
   localStorage.setItem('fujisan_lang', lang);
   // 全ての言語セレクターを同期
   document.querySelectorAll('.lang-selector').forEach(sel => sel.value = lang);
+  // スワイプ言語セレクターを同期
+  syncLangSwiper();
   // カテゴリ名を更新
   updateCategoryNames();
   // UIテキストを更新
   updateUITexts();
+  // 90点ダッシュボードを更新
+  updateAIGreeting90();
 }
+
+// Language Swiper functions
+function selectLangSwipe(el, lang) {
+  // Update active state
+  document.querySelectorAll('.lang-option').forEach(opt => opt.classList.remove('active'));
+  el.classList.add('active');
+  
+  // Scroll to center the selected option
+  el.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+  
+  // Change language (reuse existing function but skip alert for swipe)
+  state.lang = lang;
+  saveState();
+  localStorage.setItem('fujisan_lang', lang);
+  
+  // Track
+  FujisanAnalytics.trackLanguageChange(lang);
+  FujisanAnalytics.setUserProperties({ user_language: lang });
+  
+  // Update UI instantly
+  document.querySelectorAll('.lang-selector').forEach(sel => sel.value = lang);
+  updateCategoryNames();
+  updateUITexts();
+  updateAIGreeting90();
+}
+
+function syncLangSwiper() {
+  const currentLang = state.lang || 'en';
+  document.querySelectorAll('.lang-option').forEach(opt => {
+    opt.classList.toggle('active', opt.dataset.lang === currentLang);
+    if (opt.dataset.lang === currentLang) {
+      setTimeout(() => opt.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }), 100);
+    }
+  });
+}
+
 function changeQCount(count) { state.qCount = parseInt(count); saveState(); }
 function toggleSound(enabled) { 
   state.soundEnabled = enabled; 
@@ -6565,7 +8637,19 @@ function isTrialActive() {
   return now < expiry;
 }
 
+function isInFreeCampaign() {
+  // Check if currently in free campaign period AND user signed up during campaign
+  if (!IS_FREE_CAMPAIGN) return false;
+  // If user has freeCampaign flag in their state
+  if (state.freeCampaign || state.planStatus === 'free_campaign') return true;
+  // Or if signed in during campaign period
+  return IS_FREE_CAMPAIGN && state.userId;
+}
+
 function isInTrialPeriod() {
+  // FREE CAMPAIGN: All features unlocked during campaign
+  if (isInFreeCampaign()) return true;
+  
   // Check if user is in the trial period (first 7 days after signup)
   if (!state.plan || !state.planExpiry) return false;
   const now = new Date();
@@ -6657,6 +8741,10 @@ function showUpgradeModal(feature, requiredPlan) {
 
 function showSubscriptionRequiredModal() {
   const modal = document.getElementById('subscriptionRequiredModal');
+  
+  // Check if user was on free campaign (campaign ended)
+  const isFreeCampaignExpired = state.freeCampaign && !IS_FREE_CAMPAIGN;
+  
   if (modal) {
     // Update modal content based on user status
     const titleEl = modal.querySelector('.modal-title');
@@ -6664,7 +8752,16 @@ function showSubscriptionRequiredModal() {
     const noteEl = document.getElementById('trialNote');
     const returningNotice = document.getElementById('returningUserNotice');
     
-    if (state.isExpiredUser) {
+    if (isFreeCampaignExpired) {
+      // Free campaign user after campaign ended
+      if (titleEl) titleEl.textContent = 'Free Campaign Ended';
+      if (subtitleEl) subtitleEl.textContent = 'Subscribe to continue learning';
+      if (noteEl) noteEl.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="vertical-align:-2px;margin-right:4px;"><path d="M20 6L9 17l-5-5"/></svg> Your progress is saved • Start from $4/month';
+      if (returningNotice) {
+        returningNotice.classList.remove('hidden');
+        returningNotice.innerHTML = '<p style="background:#fff3e0;padding:12px;border-radius:8px;font-size:13px;color:#e65100;margin-top:12px;display:flex;align-items:flex-start;gap:8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#e65100" stroke-width="2" style="flex-shrink:0;margin-top:2px;"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg><span>The free campaign ended on March 31, 2026. To continue using Fujisan.AI, please choose a plan below. Your learning progress has been saved!</span></p>';
+      }
+    } else if (state.isExpiredUser) {
       // Returning user (previously subscribed, now expired)
       if (titleEl) titleEl.textContent = 'Welcome Back!';
       if (subtitleEl) subtitleEl.textContent = 'Reactivate your subscription';
@@ -6681,13 +8778,18 @@ function showSubscriptionRequiredModal() {
     modal.classList.remove('hidden');
   } else {
     // Fallback if modal doesn't exist
-    if (state.isExpiredUser) {
-      if (confirm('👋 Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\n⚠️ As a returning user, subscriptions start immediately (no free trial).\n\nSubscribe now to continue?')) {
+    if (isFreeCampaignExpired) {
+      if (confirm('Free Campaign Ended\n\nThank you for trying Fujisan.AI during our free campaign!\n\nThe campaign ended on March 31, 2026. Your learning progress is saved.\n\nSubscribe now to continue learning?')) {
+        const email = currentUser?.email || '';
+        redirectToStripeCheckout(email);
+      }
+    } else if (state.isExpiredUser) {
+      if (confirm('Welcome Back!\n\nYour subscription has expired. Your learning data is still saved.\n\nAs a returning user, subscriptions start immediately (no free trial).\n\nSubscribe now to continue?')) {
         const email = currentUser?.email || '';
         redirectToStripeCheckout(email);
       }
     } else {
-      if (confirm('🔒 Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
+      if (confirm('Start Your Free Trial\n\nGet full access to all JLPT levels, Mock Tests, and AI Tutor for 7 days free.\n\nNo charge until trial ends. Cancel anytime.\n\nStart free trial now?')) {
         const email = currentUser?.email || '';
         redirectToStripeCheckout(email);
       }
@@ -6757,6 +8859,113 @@ function openPassReportModal() {
 
 function closePassReportModal() {
   document.getElementById('passReportModal').classList.add('hidden');
+}
+
+// Feedback Modal Functions
+function openFeedbackModal() {
+  document.getElementById('feedbackModal').classList.remove('hidden');
+  initFeedbackStars();
+}
+
+function closeFeedbackModal() {
+  document.getElementById('feedbackModal').classList.add('hidden');
+}
+
+function initFeedbackStars() {
+  const stars = document.querySelectorAll('#feedbackStars .feedback-star');
+  stars.forEach(star => {
+    star.classList.remove('active');
+    star.onclick = function() {
+      const rating = parseInt(this.dataset.rating);
+      document.getElementById('feedbackRating').value = rating;
+      stars.forEach((s, i) => {
+        s.classList.toggle('active', i < rating);
+      });
+    };
+  });
+}
+
+async function submitFeedbackModal(event) {
+  event.preventDefault();
+  
+  const rating = parseInt(document.getElementById('feedbackRating').value);
+  const comment = document.getElementById('feedbackComment').value.trim();
+  const nickname = document.getElementById('feedbackNickname').value.trim();
+  const permission = document.getElementById('feedbackPermission').checked;
+  
+  if (rating === 0) {
+    alert(getText('feedback_select_rating') || 'Please select a rating');
+    return;
+  }
+  
+  const btn = document.getElementById('feedbackSubmitBtn');
+  btn.disabled = true;
+  btn.textContent = getText('feedback_sending') || 'Sending...';
+  
+  const feedbackData = {
+    rating,
+    comment,
+    nickname: nickname || 'Anonymous',
+    permission,
+    level: state.level,
+    lang: state.lang,
+    timestamp: new Date().toISOString(),
+    userAgent: navigator.userAgent,
+    uid: currentUser?.uid || null
+  };
+  
+  try {
+    // Save to Firestore
+    if (typeof firebase !== 'undefined' && firebase.firestore) {
+      await firebase.firestore().collection('feedback').add(feedbackData);
+    }
+  } catch (err) {
+    console.error('Firestore feedback save error:', err);
+  }
+  
+  // Save locally as backup
+  const localFeedback = JSON.parse(localStorage.getItem('fujisan_feedback_modal') || '[]');
+  localFeedback.push(feedbackData);
+  localStorage.setItem('fujisan_feedback_modal', JSON.stringify(localFeedback));
+  
+  // Mark as submitted
+  localStorage.setItem('fujisan_feedback_submitted', 'true');
+  
+  closeFeedbackModal();
+  
+  // Hide the feedback link
+  const feedbackRow = document.getElementById('feedback-link-row');
+  if (feedbackRow) {
+    feedbackRow.innerHTML = '<span style="color:#34c759;font-size:13px;">✓ ' + (getText('feedback_thanks') || 'Thank you for your feedback!') + '</span>';
+  }
+  
+  // Show thank you message
+  const thankYou = document.createElement('div');
+  thankYou.innerHTML = `
+    <div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:32px;border-radius:16px;text-align:center;z-index:10001;box-shadow:0 10px 40px rgba(0,0,0,0.3);">
+      <div style="font-size:48px;margin-bottom:12px;">🙏</div>
+      <h3 style="margin:0 0 8px;">${getText('feedback_thank_title') || 'Thank you!'}</h3>
+      <p style="margin:0;color:#666;">${getText('feedback_thank_desc') || 'Your feedback helps us improve.'}</p>
+    </div>
+    <div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.4);z-index:10000;" onclick="this.parentElement.remove()"></div>
+  `;
+  document.body.appendChild(thankYou);
+  setTimeout(() => thankYou.remove(), 2500);
+  
+  btn.disabled = false;
+  btn.textContent = getText('feedback_submit') || 'Send Feedback';
+}
+
+// Check if feedback already submitted
+function checkFeedbackSubmitted() {
+  if (localStorage.getItem('fujisan_feedback_submitted') === 'true') {
+    const feedbackRow = document.getElementById('feedback-link-row');
+    if (feedbackRow) {
+      feedbackRow.innerHTML = '<span style="color:#34c759;font-size:13px;">✓ ' + (getText('feedback_thanks') || 'Thank you for your feedback!') + '</span>';
+      feedbackRow.style.cursor = 'default';
+      feedbackRow.onclick = null;
+    }
+  }
 }
 
 function previewCertificate(input) {
@@ -7879,6 +10088,9 @@ function closeAuthModal() {
   document.getElementById('authModal').classList.add('hidden');
 }
 
+// Bot detection: track when signup form was opened
+let signupFormOpenedAt = 0;
+
 function showAuthView(view) {
   // Hide all views
   document.getElementById('authLoginView').classList.add('hidden');
@@ -7893,6 +10105,7 @@ function showAuthView(view) {
     document.getElementById('authLoginView').classList.remove('hidden');
   } else if (view === 'signup') {
     document.getElementById('authSignupView').classList.remove('hidden');
+    signupFormOpenedAt = Date.now(); // Track when form was opened
   } else if (view === 'reset') {
     document.getElementById('authResetView').classList.remove('hidden');
   }
@@ -7953,10 +10166,27 @@ function getSelectedAuthPlan() {
 function authSignup() {
   const email = document.getElementById('authSignupEmail').value.trim();
   const password = document.getElementById('authSignupPassword').value;
+  const honeypot = document.getElementById('authSignupWebsite').value;
   const ageCheck = document.getElementById('authAgeCheck').checked;
   const termsCheck = document.getElementById('authTermsCheck').checked;
   const renewalCheck = document.getElementById('authRenewalCheck').checked;
   const selectedPlanKey = getSelectedAuthPlan();
+  
+  // Honeypot check - if filled, silently reject (bot detected)
+  if (honeypot) {
+    console.log('[Bot Detection] Honeypot triggered');
+    // Show fake success to confuse bots
+    showAuthError('authSignupError', 'Account created! Please check your email.');
+    return;
+  }
+  
+  // Timing check - humans take at least 3 seconds to fill the form
+  const timeTaken = Date.now() - signupFormOpenedAt;
+  if (signupFormOpenedAt > 0 && timeTaken < 3000) {
+    console.log('[Bot Detection] Form submitted too fast:', timeTaken, 'ms');
+    showAuthError('authSignupError', 'Account created! Please check your email.');
+    return;
+  }
   
   if (!email) {
     showAuthError('authSignupError', 'Please enter your email');
@@ -7985,7 +10215,14 @@ function authSignup() {
       try {
         await firebaseDb.collection('users').doc(userCredential.user.uid).set({
           email: email,
-          createdAt: new Date().toISOString()
+          createdAt: new Date().toISOString(),
+          // FREE CAMPAIGN: Grant premium access until campaign ends
+          ...(IS_FREE_CAMPAIGN && {
+            freeCampaign: true,
+            freeCampaignEnd: FREE_CAMPAIGN_END.toISOString(),
+            plan: 'premium',
+            planStatus: 'free_campaign'
+          })
         }, { merge: true });
         console.log('User document created in Firestore');
       } catch (err) {
@@ -7994,6 +10231,14 @@ function authSignup() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('email');
+      
+      // FREE CAMPAIGN: Skip Stripe, go directly to app
+      if (IS_FREE_CAMPAIGN) {
+        console.log('[FREE CAMPAIGN] Skipping Stripe, going to app');
+        window.location.href = '/app.html';
+        return;
+      }
+      
       // After signup, redirect to Stripe with selected plan
       redirectToStripeCheckoutWithPlanKey(email, selectedPlanKey, userCredential.user.uid);
     })
@@ -8032,7 +10277,14 @@ function authSignupGoogle() {
       try {
         await firebaseDb.collection('users').doc(result.user.uid).set({
           email: result.user.email,
-          createdAt: new Date().toISOString()
+          createdAt: new Date().toISOString(),
+          // FREE CAMPAIGN: Grant premium access until campaign ends
+          ...(IS_FREE_CAMPAIGN && {
+            freeCampaign: true,
+            freeCampaignEnd: FREE_CAMPAIGN_END.toISOString(),
+            plan: 'premium',
+            planStatus: 'free_campaign'
+          })
         }, { merge: true });
         console.log('User document created in Firestore');
       } catch (err) {
@@ -8041,6 +10293,14 @@ function authSignupGoogle() {
       
       closeAuthModal();
       FujisanAnalytics.trackSignUp('google');
+      
+      // FREE CAMPAIGN: Skip Stripe, go directly to app
+      if (IS_FREE_CAMPAIGN) {
+        console.log('[FREE CAMPAIGN] Skipping Stripe, going to app');
+        window.location.href = '/app.html';
+        return;
+      }
+      
       // After signup, redirect to Stripe with selected plan
       redirectToStripeCheckoutWithPlanKey(result.user.email, selectedPlanKey, result.user.uid);
     })
@@ -8122,6 +10382,9 @@ function redirectToStripeCheckoutWithPlanKey(email, planKey, uid) {
 function hasValidSubscription() {
   if (!currentUser) return false;
   
+  // FREE CAMPAIGN: Always valid during campaign
+  if (isInFreeCampaign()) return true;
+  
   // Check for cancelled but still within period
   if (state.isCancelled && state.planExpiry) {
     return new Date(state.planExpiry) > new Date();
@@ -8179,9 +10442,21 @@ function initFirebase() {
         if (hasValidSubscription() || isInTrialPeriod() || fromCheckout) {
           // User has active subscription, trial, or just completed checkout
           showScreen('drill');
-        } else {
-          // User logged in but no subscription - auto-grant trial
-          console.log('No subscription - auto-granting trial');
+          // Show onboarding for first-time users
+          if (!state.onboardingComplete) {
+            setTimeout(() => showOnboarding(), 300);
+          }
+          // Check if should show feedback popup
+          checkFeedbackTrigger();
+        } else if (state.freeCampaign && !IS_FREE_CAMPAIGN) {
+          // FREE CAMPAIGN user after campaign ended - show subscription modal
+          console.log('Free campaign ended - showing subscription modal');
+          hideAppLoadingOverlay();
+          showSubscriptionRequiredModal();
+          return;
+        } else if (!state.trialStart) {
+          // First time user - grant trial
+          console.log('First time user - granting trial');
           const now = new Date();
           const trialEnd = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
           state.trialStart = now.toISOString();
@@ -8208,6 +10483,17 @@ function initFirebase() {
           }
           
           showScreen('drill');
+          // Show onboarding for first-time users
+          if (!state.onboardingComplete) {
+            setTimeout(() => showOnboarding(), 300);
+          }
+        } else {
+          // Trial already used and expired, no subscription - show modal
+          console.log('Trial expired, no subscription - showing modal');
+          state.isExpiredUser = true;
+          hideAppLoadingOverlay();
+          showSubscriptionRequiredModal();
+          return;
         }
       } else {
         // Not logged in - redirect to LP
@@ -8312,6 +10598,29 @@ async function syncUserData() {
       }
       // ========== END SUBSCRIPTION SYNC ==========
       
+      // ========== TRIAL SYNC (prevent multi-device infinite trial) ==========
+      if (userData.trialStart && !state.trialStart) {
+        // User had trial on another device - sync it
+        console.log('[Sync] Trial data from Firestore:', userData.trialStart);
+        state.trialStart = userData.trialStart;
+        state.trialEnd = userData.trialEnd;
+      }
+      // ========== END TRIAL SYNC ==========
+      
+      // ========== FREE CAMPAIGN SYNC ==========
+      if (userData.freeCampaign) {
+        console.log('[Sync] Free campaign user detected');
+        state.freeCampaign = true;
+        state.planStatus = userData.planStatus || 'free_campaign';
+        state.freeCampaignEnd = userData.freeCampaignEnd;
+        state.createdAt = userData.createdAt; // For feedback timing
+        // Ensure premium access during campaign
+        if (IS_FREE_CAMPAIGN) {
+          state.plan = 'premium';
+        }
+      }
+      // ========== END FREE CAMPAIGN SYNC ==========
+      
       // Merge other cloud data with local state
       if (userData.xp) state.xp = Math.max(state.xp, userData.xp);
       if (userData.streak) state.streak = Math.max(state.streak, userData.streak);
@@ -8344,6 +10653,7 @@ function updateSubscriptionUI() {
   const subStatusTitle = document.getElementById('subscriptionStatusTitle');
   const subStatusDesc = document.getElementById('subscriptionStatusDesc');
   const manageSubBtn = document.getElementById('manageSubBtn');
+  const cancelSubLink = document.getElementById('cancelSubscriptionLink');
   
   if (!planDescEl) return;
   
@@ -8356,6 +10666,33 @@ function updateSubscriptionUI() {
   
   // Reset visibility
   if (subStatusItem) subStatusItem.classList.add('hidden');
+  
+  // Hide Cancel Subscription link for FREE CAMPAIGN users (no subscription to cancel)
+  if (cancelSubLink) {
+    cancelSubLink.style.display = isInFreeCampaign() ? 'none' : '';
+  }
+  
+  // FREE CAMPAIGN user
+  if (isInFreeCampaign()) {
+    planDescEl.innerHTML = `Premium <span style="color:#00C853;">(Free Campaign)</span>`;
+    if (planActionBtn) {
+      planActionBtn.style.display = 'none'; // No upgrade needed
+    }
+    if (subStatusItem) {
+      subStatusItem.classList.remove('hidden');
+      subStatusItem.style.background = 'rgba(0,200,83,0.1)';
+      subStatusTitle.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2" style="vertical-align:-2px;margin-right:4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg> Free Campaign';
+      subStatusTitle.style.color = '#00C853';
+      subStatusDesc.textContent = 'All features free until March 31, 2026';
+      if (manageSubBtn) manageSubBtn.style.display = 'none';
+    }
+    return;
+  }
+  
+  // Show Cancel Subscription link for paid users
+  if (cancelSubLink) {
+    cancelSubLink.style.display = (state.plan && !state.isCancelled) ? '' : 'none';
+  }
   
   if (state.paymentFailed) {
     // Payment failed state
@@ -8561,7 +10898,7 @@ function logout() {
 
 // ========== ONBOARDING ==========
 let onboardingStep = 1;
-const totalOnboardingSteps = 5;
+const totalOnboardingSteps = 6;
 
 function showOnboarding() {
   if (state.onboardingComplete) return;
@@ -8614,6 +10951,251 @@ function selectOnboardingLevel(level) {
   }, 300);
 }
 
+// Show level detail modal (from onboarding or dashboard)
+function showLevelDetailModal(level, fromOnboarding = false) {
+  const lang = state.lang || 'en';
+  const texts = UI_TEXTS[lang] || UI_TEXTS['en'];
+  const info = JLPT_LEVEL_INFO[level];
+  
+  if (!info) return;
+  
+  // Create modal if it doesn't exist
+  let modal = document.getElementById('level-detail-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'level-detail-modal';
+    modal.className = 'level-detail-modal';
+    document.body.appendChild(modal);
+  }
+  
+  const totalItems = info.vocab + info.kanji + info.grammar;
+  
+  modal.innerHTML = `
+    <div class="level-detail-content" style="--level-color: ${info.color}">
+      <button class="level-detail-close" onclick="closeLevelDetailModal()">&times;</button>
+      
+      <div class="level-detail-header">
+        <span class="level-tag-large ${level.toLowerCase()}">${level}</span>
+        <div class="level-detail-title-area">
+          <h2>${texts['level_' + level.toLowerCase() + '_difficulty'] || info.difficulty}</h2>
+          <p class="level-official-summary">${texts['level_' + level.toLowerCase() + '_official'] || ''}</p>
+        </div>
+      </div>
+      
+      <div class="level-detail-stats">
+        <div class="level-stat">
+          <span class="level-stat-value">${info.studyHours}</span>
+          <span class="level-stat-label">${texts.level_detail_study_hours || 'Study Hours'}</span>
+        </div>
+        <div class="level-stat">
+          <span class="level-stat-value">${info.passRate.split(' ')[0]}</span>
+          <span class="level-stat-label">${texts.level_detail_pass_mark || 'Pass Mark'}</span>
+        </div>
+        <div class="level-stat">
+          <span class="level-stat-value">${info.testTime}</span>
+          <span class="level-stat-label">${texts.level_detail_test_time || 'Test Duration'}</span>
+        </div>
+      </div>
+      
+      <div class="level-detail-section">
+        <h3>📖 ${texts.level_detail_reading || 'Reading'}</h3>
+        <p>${texts['level_' + level.toLowerCase() + '_reading'] || ''}</p>
+      </div>
+      
+      <div class="level-detail-section">
+        <h3>🎧 ${texts.level_detail_listening || 'Listening'}</h3>
+        <p>${texts['level_' + level.toLowerCase() + '_listening'] || ''}</p>
+      </div>
+      
+      <div class="level-detail-section">
+        <h3>✅ ${texts.level_detail_cando || 'What You Can Do'}</h3>
+        <ul class="cando-list">
+          <li>${texts['level_' + level.toLowerCase() + '_cando_1'] || ''}</li>
+          <li>${texts['level_' + level.toLowerCase() + '_cando_2'] || ''}</li>
+          <li>${texts['level_' + level.toLowerCase() + '_cando_3'] || ''}</li>
+          <li>${texts['level_' + level.toLowerCase() + '_cando_4'] || ''}</li>
+        </ul>
+      </div>
+      
+      <div class="level-detail-section">
+        <h3>📚 ${texts.level_detail_content || 'Fujisan.AI Content'}</h3>
+        <div class="level-content-grid">
+          <div class="level-content-item">
+            <span class="content-count">${info.vocab.toLocaleString()}</span>
+            <span class="content-label">${texts.level_vocabulary || 'Vocabulary'}</span>
+          </div>
+          <div class="level-content-item">
+            <span class="content-count">${info.kanji.toLocaleString()}</span>
+            <span class="content-label">${texts.level_new_kanji || 'Kanji'}</span>
+          </div>
+          <div class="level-content-item">
+            <span class="content-count">${info.grammar.toLocaleString()}</span>
+            <span class="content-label">${texts.level_grammar || 'Grammar'}</span>
+          </div>
+          <div class="level-content-item">
+            <span class="content-count">${info.units}</span>
+            <span class="content-label">Units</span>
+          </div>
+        </div>
+      </div>
+      
+      <button class="level-detail-start-btn" onclick="confirmLevelSelection('${level}', ${fromOnboarding})">
+        ${texts.level_detail_start || 'Start Learning'} ${level}
+      </button>
+    </div>
+  `;
+  
+  modal.style.display = 'flex';
+  setTimeout(() => modal.classList.add('active'), 10);
+}
+
+function closeLevelDetailModal() {
+  const modal = document.getElementById('level-detail-modal');
+  if (modal) {
+    modal.classList.remove('active');
+    setTimeout(() => modal.style.display = 'none', 300);
+  }
+}
+
+function confirmLevelSelection(level, fromOnboarding) {
+  state.level = level;
+  saveState();
+  
+  closeLevelDetailModal();
+  
+  if (fromOnboarding) {
+    // Update onboarding UI
+    document.querySelectorAll('.onboarding-level-btn').forEach(btn => {
+      btn.classList.toggle('selected', btn.dataset.level === level);
+    });
+    
+    // Auto-advance after selection
+    setTimeout(() => {
+      nextOnboardingStep();
+    }, 300);
+  } else {
+    // From dashboard - update UI
+    selectLevelFromDashboard(level);
+  }
+}
+
+// Show unit preview modal when clicking a unit
+function showUnitPreview(unitIndex) {
+  const lang = state.lang || 'en';
+  const texts = UI_TEXTS[lang] || UI_TEXTS['en'];
+  const level = state.level;
+  const d = DATA[level];
+  
+  if (!d) return;
+  
+  const allItems = [...(d.vocab || []), ...(d.kanji || []), ...(d.grammar || [])];
+  const unitStart = unitIndex * ITEMS_PER_UNIT;
+  const unitEnd = Math.min(unitStart + ITEMS_PER_UNIT, allItems.length);
+  const unitItems = allItems.slice(unitStart, unitEnd);
+  
+  // Categorize items
+  const vocabItems = unitItems.filter(item => item.w);
+  const kanjiItems = unitItems.filter(item => item.k && !item.w);
+  const grammarItems = unitItems.filter(item => item.p);
+  
+  // Get sample items for preview
+  const sampleVocab = vocabItems.slice(0, 3);
+  const sampleKanji = kanjiItems.slice(0, 3);
+  const sampleGrammar = grammarItems.slice(0, 2);
+  
+  // Calculate progress
+  let unitMastered = 0;
+  unitItems.forEach(item => {
+    const baseKey = `${level}_${item.id}`;
+    const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+    if (allComplete) unitMastered++;
+  });
+  const progress = Math.round((unitMastered / unitItems.length) * 100);
+  
+  const levelColor = JLPT_LEVEL_INFO[level]?.color || '#007aff';
+  
+  // Create modal if it doesn't exist
+  let modal = document.getElementById('unit-preview-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'unit-preview-modal';
+    modal.className = 'unit-preview-modal';
+    document.body.appendChild(modal);
+  }
+  
+  modal.innerHTML = `
+    <div class="unit-preview-content" style="--level-color: ${levelColor}">
+      <button class="unit-preview-close" onclick="closeUnitPreview()">&times;</button>
+      
+      <div class="unit-preview-header">
+        <span class="unit-number" style="background: ${levelColor}">${unitIndex + 1}</span>
+        <div>
+          <h2>${texts.unit_preview_title || 'Unit Preview'} ${unitIndex + 1}</h2>
+          <p class="unit-progress-text">${progress}% ${texts.ai_recommend_complete || 'complete'}</p>
+        </div>
+      </div>
+      
+      <div class="unit-preview-stats">
+        <div class="unit-stat">
+          <span class="unit-stat-value">${vocabItems.length}</span>
+          <span class="unit-stat-label">${texts.unit_preview_vocab || 'Vocabulary'}</span>
+        </div>
+        <div class="unit-stat">
+          <span class="unit-stat-value">${kanjiItems.length}</span>
+          <span class="unit-stat-label">${texts.unit_preview_kanji || 'Kanji'}</span>
+        </div>
+        <div class="unit-stat">
+          <span class="unit-stat-value">${grammarItems.length}</span>
+          <span class="unit-stat-label">${texts.unit_preview_grammar || 'Grammar'}</span>
+        </div>
+      </div>
+      
+      <div class="unit-preview-samples">
+        <h3>${texts.unit_preview_sample || 'Sample items'}</h3>
+        ${sampleVocab.length > 0 ? `
+          <div class="sample-category">
+            <span class="sample-label">${texts.unit_preview_vocab || 'Vocabulary'}</span>
+            <div class="sample-items">
+              ${sampleVocab.map(v => `<span class="sample-item">${v.w}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+        ${sampleKanji.length > 0 ? `
+          <div class="sample-category">
+            <span class="sample-label">${texts.unit_preview_kanji || 'Kanji'}</span>
+            <div class="sample-items">
+              ${sampleKanji.map(k => `<span class="sample-item kanji">${k.k}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+        ${sampleGrammar.length > 0 ? `
+          <div class="sample-category">
+            <span class="sample-label">${texts.unit_preview_grammar || 'Grammar'}</span>
+            <div class="sample-items">
+              ${sampleGrammar.map(g => `<span class="sample-item grammar">${g.p}</span>`).join('')}
+            </div>
+          </div>
+        ` : ''}
+      </div>
+      
+      <button class="unit-preview-start-btn" onclick="closeUnitPreview(); startUnitDrill(${unitIndex})">
+        ${texts.unit_preview_start || 'Start Unit'} ${unitIndex + 1}
+      </button>
+    </div>
+  `;
+  
+  modal.style.display = 'flex';
+  setTimeout(() => modal.classList.add('active'), 10);
+}
+
+function closeUnitPreview() {
+  const modal = document.getElementById('unit-preview-modal');
+  if (modal) {
+    modal.classList.remove('active');
+    setTimeout(() => modal.style.display = 'none', 300);
+  }
+}
+
 function skipOnboarding() {
   completeOnboarding();
 }
@@ -8653,26 +11235,29 @@ updateUITexts(); // Apply translations on init
 // Check if coming from LP login (skip onboarding)
 const urlParams = new URLSearchParams(window.location.search);
 const fromLogin = urlParams.get('logged_in');
-if (fromLogin) {
+const levelParam = urlParams.get('level');
+
+// Handle level parameter from LP
+if (levelParam && ['N5', 'N4', 'N3', 'N2', 'N1'].includes(levelParam)) {
+  state.level = levelParam;
+  saveState();
+}
+
+if (fromLogin || levelParam) {
   // Clean URL
   window.history.replaceState({}, '', window.location.pathname);
-  // Mark onboarding as complete for logged-in users from LP
-  if (!state.onboardingComplete) {
-    state.onboardingComplete = true;
-    saveState();
-  }
-} else {
+}
+
+if (!fromLogin && !levelParam) {
   // Direct access to app.html (not from LP) - hide loading immediately
   // Only show loading for LP → app transitions
   hideAppLoadingOverlay();
 }
 
-// Show onboarding for new users (only if not from LP login)
-if (!fromLogin) {
-  setTimeout(() => {
-    showOnboarding();
-  }, 100);
-}
+// Show onboarding for new users
+setTimeout(() => {
+  showOnboarding();
+}, 100);
 
 // S3: Swipe to switch tabs
 (function initSwipeNavigation() {
@@ -9071,6 +11656,9 @@ function displayDailyCoach(prefs) {
   // Personalized greeting
   const focusEl = document.getElementById('ai-coach-focus');
   const reasonEl = document.getElementById('ai-coach-reason');
+  
+  // Check if elements exist
+  if (!focusEl || !reasonEl) return;
   
   // Check progress
   const progressKey = PROGRESS_KEY_PREFIX + state.level;
@@ -9872,15 +12460,6 @@ function displayAICoach(analysis) {
   document.getElementById('ai-coach-focus').textContent = focus;
   document.getElementById('ai-coach-reason').textContent = reason;
   
-  // Skill balance
-  const receptive = analysis.skillBalance?.receptive || 0;
-  const productive = analysis.skillBalance?.productive || 0;
-  
-  document.getElementById('receptive-pct').textContent = receptive + '%';
-  document.getElementById('productive-pct').textContent = productive + '%';
-  document.getElementById('receptive-bar').style.width = receptive + '%';
-  document.getElementById('productive-bar').style.width = productive + '%';
-  
   // Insight
   const insightEl = document.getElementById('ai-coach-insight');
   if (analysis.skillBalance?.insight) {
@@ -10040,4 +12619,782 @@ function checkSubscriptionStatus() {
   console.log('hasValidPlan():', hasValidPlan());
   console.log('hasValidSubscription():', hasValidSubscription());
   console.log('canAccessLevel(N1):', canAccessLevel('N1'));
+}
+
+// ==========================================
+// FEEDBACK COLLECTION SYSTEM
+// ==========================================
+const FEEDBACK_STORAGE_KEY = 'fujisan_feedback_last_shown';
+const FEEDBACK_INTERVAL_DAYS = 7;
+const FEEDBACK_MIN_DAYS_AFTER_SIGNUP = 7;
+
+function shouldShowFeedbackPopup() {
+  // Check if user is logged in
+  if (!state.userId) return false;
+  
+  // Don't show during onboarding
+  if (!state.onboardingComplete) return false;
+  
+  // Check if at least 7 days since signup
+  const signupDate = state.trialStart || state.createdAt;
+  if (signupDate) {
+    const daysSinceSignup = (Date.now() - new Date(signupDate).getTime()) / (1000 * 60 * 60 * 24);
+    if (daysSinceSignup < FEEDBACK_MIN_DAYS_AFTER_SIGNUP) return false;
+  } else {
+    // No signup date - check freeCampaign signup
+    if (state.freeCampaignEnd) {
+      // Assume signup was when they joined, check if 7 days passed
+      const campaignEnd = new Date(state.freeCampaignEnd);
+      const assumedSignup = new Date(campaignEnd.getTime() - 75 * 24 * 60 * 60 * 1000); // ~75 days before end
+      const daysSinceSignup = (Date.now() - assumedSignup.getTime()) / (1000 * 60 * 60 * 24);
+      if (daysSinceSignup < FEEDBACK_MIN_DAYS_AFTER_SIGNUP) return false;
+    }
+  }
+  
+  // Check last shown date (don't show more than once per 7 days)
+  const lastShown = localStorage.getItem(FEEDBACK_STORAGE_KEY);
+  if (lastShown) {
+    const daysSince = (Date.now() - parseInt(lastShown)) / (1000 * 60 * 60 * 24);
+    if (daysSince < FEEDBACK_INTERVAL_DAYS) return false;
+  }
+  
+  return true;
+}
+
+function showFeedbackPopup() {
+  if (!shouldShowFeedbackPopup()) return;
+  
+  // Create popup HTML
+  const popup = document.createElement('div');
+  popup.id = 'feedback-popup';
+  popup.innerHTML = `
+    <div class="feedback-overlay" onclick="closeFeedbackPopup()"></div>
+    <div class="feedback-modal">
+      <button class="feedback-close" onclick="closeFeedbackPopup()">×</button>
+      <div class="feedback-header">
+        <div class="feedback-emoji">📝</div>
+        <h3>How's your experience?</h3>
+        <p>Your feedback helps us improve Fujisan.AI</p>
+      </div>
+      
+      <div class="feedback-stars" id="feedback-stars">
+        <span class="star" data-rating="1">★</span>
+        <span class="star" data-rating="2">★</span>
+        <span class="star" data-rating="3">★</span>
+        <span class="star" data-rating="4">★</span>
+        <span class="star" data-rating="5">★</span>
+      </div>
+      <div class="feedback-rating-text" id="feedback-rating-text">Tap to rate</div>
+      
+      <input type="text" id="feedback-nickname" placeholder="Nickname (optional)" maxlength="30">
+      <input type="text" id="feedback-country" placeholder="Country (optional)" maxlength="50">
+      <textarea id="feedback-comment" placeholder="Share your thoughts (optional)" maxlength="500" rows="3"></textarea>
+      
+      <div class="feedback-consent">
+        <label>
+          <input type="checkbox" id="feedback-consent-check" checked>
+          <span>I agree to my feedback being displayed on Fujisan.AI website and promotional materials</span>
+        </label>
+      </div>
+      
+      <button class="feedback-submit" onclick="submitFeedback()" id="feedback-submit-btn" disabled>Submit Feedback</button>
+      <button class="feedback-skip" onclick="closeFeedbackPopup()">Maybe Later</button>
+    </div>
+  `;
+  
+  // Add styles
+  const style = document.createElement('style');
+  style.textContent = `
+    #feedback-popup { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 10000; display: flex; align-items: center; justify-content: center; }
+    .feedback-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); }
+    .feedback-modal { position: relative; background: #fff; border-radius: 20px; padding: 32px; max-width: 400px; width: 90%; text-align: center; animation: feedbackSlideIn 0.3s ease; }
+    @keyframes feedbackSlideIn { from { transform: translateY(20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+    .feedback-close { position: absolute; top: 12px; right: 12px; background: none; border: none; font-size: 24px; cursor: pointer; color: #999; }
+    .feedback-header h3 { margin: 0 0 8px; font-size: 20px; }
+    .feedback-header p { margin: 0; color: #666; font-size: 14px; }
+    .feedback-emoji { font-size: 48px; margin-bottom: 12px; }
+    .feedback-stars { font-size: 36px; margin: 20px 0 8px; }
+    .feedback-stars .star { color: #ddd; cursor: pointer; transition: color 0.2s, transform 0.2s; }
+    .feedback-stars .star:hover { transform: scale(1.2); }
+    .feedback-stars .star.active { color: #FFD700; }
+    .feedback-rating-text { font-size: 14px; color: #666; margin-bottom: 16px; min-height: 20px; }
+    #feedback-nickname, #feedback-country, #feedback-comment { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; margin-bottom: 12px; box-sizing: border-box; }
+    #feedback-comment { resize: none; }
+    .feedback-consent { text-align: left; font-size: 12px; color: #666; margin-bottom: 16px; }
+    .feedback-consent label { display: flex; align-items: flex-start; gap: 8px; cursor: pointer; }
+    .feedback-consent input { margin-top: 2px; }
+    .feedback-submit { width: 100%; padding: 14px; background: linear-gradient(135deg, #00C853, #00E676); color: #fff; border: none; border-radius: 10px; font-size: 16px; font-weight: 600; cursor: pointer; margin-bottom: 8px; }
+    .feedback-submit:disabled { background: #ccc; cursor: not-allowed; }
+    .feedback-skip { background: none; border: none; color: #999; font-size: 14px; cursor: pointer; }
+  `;
+  document.head.appendChild(style);
+  document.body.appendChild(popup);
+  
+  // Star rating interaction
+  let selectedRating = 0;
+  const stars = popup.querySelectorAll('.star');
+  const ratingText = popup.querySelector('#feedback-rating-text');
+  const submitBtn = popup.querySelector('#feedback-submit-btn');
+  
+  const ratingTexts = {
+    1: 'Poor 😞',
+    2: 'Fair 😐',
+    3: 'Good 🙂',
+    4: 'Great 😊',
+    5: 'Excellent 🎉'
+  };
+  
+  stars.forEach(star => {
+    star.addEventListener('click', () => {
+      selectedRating = parseInt(star.dataset.rating);
+      stars.forEach((s, i) => {
+        s.classList.toggle('active', i < selectedRating);
+      });
+      ratingText.textContent = ratingTexts[selectedRating];
+      submitBtn.disabled = false;
+    });
+    
+    star.addEventListener('mouseenter', () => {
+      const hoverRating = parseInt(star.dataset.rating);
+      stars.forEach((s, i) => {
+        s.style.color = i < hoverRating ? '#FFD700' : '#ddd';
+      });
+    });
+    
+    star.addEventListener('mouseleave', () => {
+      stars.forEach((s, i) => {
+        s.style.color = i < selectedRating ? '#FFD700' : '#ddd';
+      });
+    });
+  });
+  
+  // Store selected rating for submission
+  popup.dataset.rating = selectedRating;
+  
+  // Mark as shown
+  localStorage.setItem(FEEDBACK_STORAGE_KEY, Date.now().toString());
+}
+
+function closeFeedbackPopup() {
+  const popup = document.getElementById('feedback-popup');
+  if (popup) popup.remove();
+}
+
+async function submitFeedback() {
+  const popup = document.getElementById('feedback-popup');
+  const rating = parseInt(popup.querySelector('.star.active:last-of-type')?.dataset.rating || '0');
+  const nickname = popup.querySelector('#feedback-nickname').value.trim();
+  const country = popup.querySelector('#feedback-country').value.trim();
+  const comment = popup.querySelector('#feedback-comment').value.trim();
+  const consentToPublish = popup.querySelector('#feedback-consent-check').checked;
+  
+  if (rating === 0) {
+    alert('Please select a rating');
+    return;
+  }
+  
+  const feedbackData = {
+    userId: state.userId || 'anonymous',
+    rating,
+    nickname: nickname || null,
+    country: country || null,
+    comment: comment || null,
+    consentToPublish,
+    createdAt: new Date().toISOString(),
+    userLevel: state.level || null,
+    userPlan: state.plan || 'free_campaign'
+  };
+  
+  // Save to Firestore
+  try {
+    if (firebaseDb) {
+      await firebaseDb.collection('feedback').add(feedbackData);
+      console.log('Feedback saved to Firestore');
+    }
+  } catch (err) {
+    console.log('Could not save feedback to Firestore:', err.message);
+  }
+  
+  // Also save locally as backup
+  const localFeedback = JSON.parse(localStorage.getItem('fujisan_feedback_history') || '[]');
+  localFeedback.push(feedbackData);
+  localStorage.setItem('fujisan_feedback_history', JSON.stringify(localFeedback));
+  
+  closeFeedbackPopup();
+  
+  // Show thank you message
+  const thankYou = document.createElement('div');
+  thankYou.innerHTML = `
+    <div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:32px;border-radius:16px;text-align:center;z-index:10001;box-shadow:0 10px 40px rgba(0,0,0,0.3);">
+      <div style="font-size:48px;margin-bottom:12px;">🙏</div>
+      <h3 style="margin:0 0 8px;">Thank you!</h3>
+      <p style="margin:0;color:#666;">Your feedback helps us improve.</p>
+    </div>
+    <div style="position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.4);z-index:10000;" onclick="this.parentElement.remove()"></div>
+  `;
+  document.body.appendChild(thankYou);
+  setTimeout(() => thankYou.remove(), 2500);
+}
+
+// Check and show feedback popup after mock test completion or on app load
+function checkFeedbackTrigger() {
+  // Delay to not interrupt user flow
+  setTimeout(() => {
+    if (shouldShowFeedbackPopup()) {
+      showFeedbackPopup();
+    }
+  }, 3000);
+}
+
+// ========== TALK (AI CONVERSATION PRACTICE) ==========
+const TALK_SCENARIOS = {
+  greeting: {
+    name: 'Self-intro',
+    nameKey: 'talk_greeting',
+    prompt: `You are a friendly Japanese conversation partner helping a student practice self-introduction.
+Start by introducing yourself briefly in simple Japanese (appropriate for the student's level), then ask the student to introduce themselves.
+Guide them through: name, where they're from, hobbies, occupation/studies.
+Keep your responses short (1-2 sentences). Use natural, conversational Japanese.`,
+    firstMessage: {
+      ja: 'こんにちは！私は田中さくらです。東京に住んでいます。あなたの名前は何ですか？',
+      en: "Hello! I'm Sakura Tanaka. I live in Tokyo. What's your name?"
+    },
+    suggestions: [
+      { ja: '私は〇〇です', en: "I'm ___" },
+      { ja: '〇〇から来ました', en: "I'm from ___" },
+      { ja: 'よろしくお願いします', en: 'Nice to meet you' }
+    ]
+  },
+  restaurant: {
+    name: 'Restaurant',
+    nameKey: 'talk_restaurant',
+    prompt: `You are a friendly Japanese waiter/waitress at a casual restaurant.
+The student is a customer ordering food. Guide them through a natural restaurant interaction.
+Include: greeting, taking order, recommending dishes, confirming order, saying goodbye.
+Keep responses short and natural. Use polite です/ます form.`,
+    firstMessage: {
+      ja: 'いらっしゃいませ！何名様ですか？',
+      en: 'Welcome! How many people?'
+    },
+    suggestions: [
+      { ja: '一人です', en: 'Just one' },
+      { ja: 'メニューをください', en: 'Menu please' },
+      { ja: 'おすすめは何ですか', en: "What's recommended?" }
+    ]
+  },
+  shopping: {
+    name: 'Shopping',
+    nameKey: 'talk_shopping',
+    prompt: `You are a helpful Japanese shop assistant at a clothing/general store.
+Help the student practice shopping conversations: asking about items, prices, sizes, colors, trying things on, paying.
+Keep responses short and helpful. Use polite です/ます form.`,
+    firstMessage: {
+      ja: 'いらっしゃいませ！何かお探しですか？',
+      en: 'Welcome! Are you looking for something?'
+    },
+    suggestions: [
+      { ja: 'これはいくらですか', en: 'How much is this?' },
+      { ja: '他の色はありますか', en: 'Do you have other colors?' },
+      { ja: '試着してもいいですか', en: 'Can I try it on?' }
+    ]
+  },
+  directions: {
+    name: 'Directions',
+    nameKey: 'talk_directions',
+    prompt: `You are a helpful local Japanese person on the street.
+The student is asking for directions. Help them practice asking for and understanding directions.
+Use simple direction words: まっすぐ (straight), 右 (right), 左 (left), 角 (corner), 信号 (traffic light).
+Keep explanations simple and clear.`,
+    firstMessage: {
+      ja: 'はい、どうしましたか？',
+      en: 'Yes, how can I help?'
+    },
+    suggestions: [
+      { ja: '駅はどこですか', en: "Where's the station?" },
+      { ja: 'コンビニはありますか', en: 'Is there a convenience store?' },
+      { ja: 'ここから遠いですか', en: 'Is it far from here?' }
+    ]
+  },
+  travel: {
+    name: 'Travel',
+    nameKey: 'talk_travel',
+    prompt: `You are a helpful Japanese person at an airport, hotel, or train station.
+Help the student practice travel-related conversations: checking in, asking about trains/buses, hotel requests.
+Use polite です/ます form. Include useful travel phrases.`,
+    firstMessage: {
+      ja: 'いらっしゃいませ。ご予約はございますか？',
+      en: 'Welcome. Do you have a reservation?'
+    },
+    suggestions: [
+      { ja: 'チェックインお願いします', en: 'Check-in please' },
+      { ja: '〇〇行きの電車は何番線ですか', en: 'Which platform for train to ___?' },
+      { ja: 'Wi-Fiはありますか', en: 'Is there Wi-Fi?' }
+    ]
+  },
+  free: {
+    name: 'Free Talk',
+    nameKey: 'talk_free',
+    prompt: `You are a friendly Japanese conversation partner for free conversation practice.
+Talk about any topic the student wants: daily life, hobbies, travel, food, culture, etc.
+Match your language complexity to their level. Ask follow-up questions to keep the conversation going.
+Be encouraging and natural.`,
+    firstMessage: {
+      ja: '今日は何について話しましょうか？',
+      en: 'What shall we talk about today?'
+    },
+    suggestions: [
+      { ja: '週末は何をしましたか', en: 'What did you do this weekend?' },
+      { ja: '日本に行ったことがありますか', en: 'Have you been to Japan?' },
+      { ja: '趣味は何ですか', en: 'What are your hobbies?' }
+    ]
+  }
+};
+
+const TALK_LEVEL_INSTRUCTIONS = {
+  N5: 'Use only N5 level Japanese: basic hiragana/katakana, simple present/past tense, basic particles (は、が、を、に、で), common greetings. Avoid kanji or add furigana in parentheses.',
+  N4: 'Use N4 level Japanese: て-form, たい-form, potential form, basic keigo, common N4 kanji with furigana for difficult ones.',
+  N3: 'Use N3 level Japanese: more complex grammar, conditional forms, passive/causative, intermediate vocabulary and kanji.',
+  N2: 'Use N2 level Japanese: advanced grammar patterns, formal expressions, news-level vocabulary, most common kanji without furigana.',
+  N1: 'Use native-level Japanese: natural expressions, idioms, nuanced grammar, full kanji usage, colloquialisms when appropriate.'
+};
+
+// Talk state
+let talkState = {
+  currentScenario: null,
+  messages: [],
+  conversationHistory: [],
+  isUnitMode: false,
+  unitRestrictions: null
+};
+
+// Initialize Talk screen
+function initTalkScreen() {
+  updateTalkUnitCard();
+  initTalkInputListeners();
+  
+  // Apply placeholder translation
+  const talkInput = document.getElementById('talk-input');
+  const texts = UI_TEXTS[state.lang || 'en'] || UI_TEXTS['en'];
+  if (talkInput && texts.talk_input_placeholder) {
+    talkInput.placeholder = texts.talk_input_placeholder;
+  }
+}
+
+// Update unit-linked card with current progress
+function updateTalkUnitCard() {
+  const level = state.level;
+  const d = DATA[level];
+  if (!d) return;
+  
+  const allItems = [...(d.vocab || []), ...(d.kanji || []), ...(d.grammar || [])];
+  const totalUnits = Math.ceil(allItems.length / ITEMS_PER_UNIT);
+  
+  // Find highest completed unit
+  let completedUnits = 0;
+  for (let u = 0; u < totalUnits; u++) {
+    const unitStart = u * ITEMS_PER_UNIT;
+    const unitEnd = Math.min(unitStart + ITEMS_PER_UNIT, allItems.length);
+    const unitItems = allItems.slice(unitStart, unitEnd);
+    let unitMastered = 0;
+    unitItems.forEach(item => {
+      const baseKey = `${level}_${item.id}`;
+      const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+      if (allComplete) unitMastered++;
+    });
+    if (unitMastered === unitItems.length) completedUnits++;
+  }
+  
+  const unitDescEl = document.getElementById('talk-unit-desc');
+  if (unitDescEl) {
+    const upToUnit = Math.max(1, completedUnits + 1);
+    const template = getText('talk_unit_practice') || 'Practice with Unit 1-{n} vocabulary';
+    unitDescEl.textContent = template.replace('{n}', upToUnit);
+  }
+}
+
+// Start unit-linked conversation
+async function startTalkUnit() {
+  const level = state.level;
+  const d = DATA[level];
+  if (!d) return;
+  
+  // Load data if needed
+  if (!d.vocab || d.vocab.length === 0) {
+    await loadDrillData(level);
+  }
+  
+  // Calculate restrictions based on completed units
+  const allItems = [...(d.vocab || []), ...(d.kanji || []), ...(d.grammar || [])];
+  const totalUnits = Math.ceil(allItems.length / ITEMS_PER_UNIT);
+  let completedUnits = 0;
+  for (let u = 0; u < totalUnits; u++) {
+    const unitStart = u * ITEMS_PER_UNIT;
+    const unitEnd = Math.min(unitStart + ITEMS_PER_UNIT, allItems.length);
+    const unitItems = allItems.slice(unitStart, unitEnd);
+    let unitMastered = 0;
+    unitItems.forEach(item => {
+      const baseKey = `${level}_${item.id}`;
+      const allComplete = SKILL_TYPES.every(skill => state.skills && state.skills[`${baseKey}_${skill}`]);
+      if (allComplete) unitMastered++;
+    });
+    if (unitMastered === unitItems.length) completedUnits++;
+  }
+  
+  const upToUnit = Math.max(1, completedUnits + 1);
+  const restrictedItems = allItems.slice(0, upToUnit * ITEMS_PER_UNIT);
+  
+  talkState.isUnitMode = true;
+  talkState.unitRestrictions = {
+    vocab: restrictedItems.filter(item => item.w).map(v => v.w),
+    grammar: restrictedItems.filter(item => item.p).map(g => g.p)
+  };
+  
+  // Start conversation
+  talkState.currentScenario = 'unit';
+  talkState.messages = [];
+  talkState.conversationHistory = [];
+  
+  showTalkChat(`${level} Unit 1-${upToUnit}`);
+  
+  // First AI message (Japanese is always shown, translation based on user language)
+  const firstMessage = {
+    ja: `こんにちは！${level}の単語を使って話しましょう。何について話したいですか？`,
+    en: `Hello! Let's talk using ${level} vocabulary. What would you like to talk about?`
+  };
+  addTalkMessage('ai', firstMessage.ja, firstMessage.en);
+  showTalkSuggestions([
+    { ja: '自己紹介をしたい', en: getText('talk_intro_want') || 'I want to introduce myself' },
+    { ja: '趣味について話したい', en: getText('talk_hobby_want') || 'I want to talk about hobbies' },
+    { ja: '日本について質問がある', en: getText('talk_japan_question') || 'I have questions about Japan' }
+  ]);
+}
+
+// Start scenario conversation
+function startTalkScenario(scenarioId) {
+  const scenario = TALK_SCENARIOS[scenarioId];
+  if (!scenario) return;
+  
+  talkState.currentScenario = scenarioId;
+  talkState.isUnitMode = false;
+  talkState.unitRestrictions = null;
+  talkState.messages = [];
+  talkState.conversationHistory = [];
+  
+  showTalkChat(getText(scenario.nameKey) || scenario.name);
+  addTalkMessage('ai', scenario.firstMessage.ja, scenario.firstMessage.en);
+  showTalkSuggestions(scenario.suggestions);
+}
+
+// Show chat interface
+function showTalkChat(title) {
+  document.getElementById('talk-welcome').style.display = 'none';
+  document.getElementById('talk-chat').style.display = 'flex';
+  document.getElementById('talk-chat-title').textContent = title;
+  document.getElementById('talk-chat-level').textContent = state.level;
+  document.getElementById('talk-messages').innerHTML = '';
+  document.getElementById('talk-suggestions').innerHTML = '';
+  document.getElementById('talk-input').value = '';
+  document.getElementById('talk-send-btn').disabled = true;
+}
+
+// Exit chat
+function exitTalkChat() {
+  document.getElementById('talk-chat').style.display = 'none';
+  document.getElementById('talk-welcome').style.display = 'flex';
+  talkState.currentScenario = null;
+  talkState.messages = [];
+  talkState.conversationHistory = [];
+}
+
+// Add message to chat
+function addTalkMessage(role, ja, en, feedback = null) {
+  const message = { role, ja, en };
+  talkState.messages.push(message);
+  
+  const messagesEl = document.getElementById('talk-messages');
+  const msgDiv = document.createElement('div');
+  msgDiv.className = `talk-message ${role}`;
+  
+  const userLabel = getText('talk_you') || 'You';
+  const avatarContent = role === 'ai' 
+    ? `<div class="ai-orb">
+        <div class="ai-orb-glow"></div>
+        <div class="ai-orb-ring2"></div>
+        <div class="ai-orb-ring"></div>
+        <div class="ai-orb-core"></div>
+      </div>`
+    : userLabel;
+  
+  let bubbleContent = `<div class="talk-bubble-ja">${ja}</div>`;
+  if (en) {
+    bubbleContent += `<div class="talk-bubble-en">${en}</div>`;
+  }
+  
+  const speakBtn = role === 'ai' ? `
+    <button class="talk-speak-btn" onclick="speakTalkMessage('${ja.replace(/'/g, "\\'")}')">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+    </button>
+  ` : '';
+  
+  msgDiv.innerHTML = `
+    <div class="talk-avatar">${avatarContent}</div>
+    <div class="talk-bubble">${bubbleContent}</div>
+    ${speakBtn}
+  `;
+  
+  messagesEl.appendChild(msgDiv);
+  
+  // Add feedback if present
+  if (feedback && feedback.trim()) {
+    const feedbackDiv = document.createElement('div');
+    feedbackDiv.className = 'talk-feedback';
+    const feedbackLabel = getText('talk_feedback') || 'Feedback';
+    feedbackDiv.innerHTML = `
+      <div class="talk-feedback-header">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        <span>${feedbackLabel}</span>
+      </div>
+      <div class="talk-feedback-content">${feedback}</div>
+    `;
+    messagesEl.appendChild(feedbackDiv);
+  }
+  
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+// Show typing indicator
+function showTalkTyping() {
+  const messagesEl = document.getElementById('talk-messages');
+  const typingDiv = document.createElement('div');
+  typingDiv.className = 'talk-message ai';
+  typingDiv.id = 'talk-typing';
+  typingDiv.innerHTML = `
+    <div class="talk-avatar">
+      <div class="ai-orb">
+        <div class="ai-orb-glow"></div>
+        <div class="ai-orb-ring2"></div>
+        <div class="ai-orb-ring"></div>
+        <div class="ai-orb-core"></div>
+      </div>
+    </div>
+    <div class="talk-bubble">
+      <div class="talk-typing">
+        <div class="talk-typing-dot"></div>
+        <div class="talk-typing-dot"></div>
+        <div class="talk-typing-dot"></div>
+      </div>
+    </div>
+  `;
+  messagesEl.appendChild(typingDiv);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+// Hide typing indicator
+function hideTalkTyping() {
+  const typing = document.getElementById('talk-typing');
+  if (typing) typing.remove();
+}
+
+// Show suggestions
+function showTalkSuggestions(suggestions) {
+  const container = document.getElementById('talk-suggestions');
+  container.innerHTML = suggestions.map(s => `
+    <div class="talk-suggestion" onclick="useTalkSuggestion('${s.ja.replace(/'/g, "\\'")}')">
+      <span class="jp">${s.ja}</span>
+      <span class="en">${s.en}</span>
+    </div>
+  `).join('');
+}
+
+// Use suggestion
+function useTalkSuggestion(text) {
+  document.getElementById('talk-input').value = text;
+  document.getElementById('talk-send-btn').disabled = false;
+}
+
+// Send message
+async function sendTalkMessage() {
+  const input = document.getElementById('talk-input');
+  const text = input.value.trim();
+  if (!text) return;
+  
+  // Add user message
+  addTalkMessage('user', text, '');
+  input.value = '';
+  document.getElementById('talk-send-btn').disabled = true;
+  
+  // Show typing
+  showTalkTyping();
+  
+  // Call Gemini
+  const response = await callTalkGemini(text);
+  
+  // Hide typing
+  hideTalkTyping();
+  
+  // Add AI response
+  addTalkMessage('ai', response.ja, response.en, response.feedback);
+  
+  // Update suggestions
+  updateTalkSuggestions();
+}
+
+// Call Gemini API via Netlify Function
+async function callTalkGemini(userMessage) {
+  let systemPrompt = '';
+  
+  if (talkState.isUnitMode && talkState.unitRestrictions) {
+    // Unit-linked mode with vocabulary restrictions
+    systemPrompt = `You are a friendly Japanese conversation partner helping a JLPT ${state.level} learner practice conversation.
+
+IMPORTANT VOCABULARY RESTRICTIONS:
+Use ONLY these words in your responses: ${talkState.unitRestrictions.vocab.slice(0, 50).join(', ')}
+
+GRAMMAR RESTRICTIONS:
+Use ONLY these patterns: ${talkState.unitRestrictions.grammar.slice(0, 20).join(', ')}
+
+${TALK_LEVEL_INSTRUCTIONS[state.level]}
+
+Keep your responses short (1-2 sentences). Be encouraging and natural.
+Always respond in JSON format: {"ja": "Japanese response", "en": "English translation"}
+ONLY add "feedback" field if there is an actual grammar mistake to correct.`;
+  } else {
+    const scenario = TALK_SCENARIOS[talkState.currentScenario];
+    systemPrompt = `${scenario ? scenario.prompt : 'You are a friendly Japanese conversation partner.'}
+
+${TALK_LEVEL_INSTRUCTIONS[state.level]}
+
+Always respond in JSON format: {"ja": "Japanese response", "en": "English translation"}
+ONLY add "feedback" field if there is an actual grammar mistake to correct.
+Keep responses short (1-2 sentences).`;
+  }
+  
+  // Add user message to state
+  const messagesForApi = [...talkState.messages, { role: 'user', ja: userMessage }];
+  
+  try {
+    const response = await fetch('/.netlify/functions/talk-gemini', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        messages: messagesForApi,
+        systemPrompt: systemPrompt,
+        level: state.level
+      })
+    });
+    
+    const data = await response.json();
+    
+    if (data.error) {
+      throw new Error(data.error);
+    }
+    
+    return data;
+    
+  } catch (error) {
+    console.error('Talk API error:', error);
+    return {
+      ja: 'エラーが発生しました。',
+      en: 'An error occurred: ' + error.message,
+      error: true
+    };
+  }
+}
+
+// Update suggestions based on context
+function updateTalkSuggestions() {
+  const dynamicSuggestions = [
+    { ja: 'はい', en: 'Yes' },
+    { ja: 'いいえ', en: 'No' },
+    { ja: 'もう一度お願いします', en: 'Please say again' },
+    { ja: 'わかりました', en: 'I understand' }
+  ];
+  
+  if (talkState.currentScenario && TALK_SCENARIOS[talkState.currentScenario]) {
+    dynamicSuggestions.push(...TALK_SCENARIOS[talkState.currentScenario].suggestions.slice(0, 2));
+  }
+  
+  showTalkSuggestions(dynamicSuggestions.slice(0, 6));
+}
+
+// Speak message
+function speakTalkMessage(text) {
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'ja-JP';
+    utterance.rate = 0.9;
+    speechSynthesis.speak(utterance);
+  }
+}
+
+// Voice input
+let talkRecognition = null;
+let talkIsRecording = false;
+
+function toggleTalkVoice() {
+  const btn = document.getElementById('talk-voice-btn');
+  
+  if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+    alert('Your browser does not support speech recognition.');
+    return;
+  }
+  
+  if (talkIsRecording) {
+    talkRecognition.stop();
+    btn.classList.remove('recording');
+    talkIsRecording = false;
+  } else {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    talkRecognition = new SpeechRecognition();
+    talkRecognition.lang = 'ja-JP';
+    talkRecognition.interimResults = false;
+    
+    talkRecognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
+      document.getElementById('talk-input').value = transcript;
+      document.getElementById('talk-send-btn').disabled = false;
+    };
+    
+    talkRecognition.onend = () => {
+      btn.classList.remove('recording');
+      talkIsRecording = false;
+    };
+    
+    talkRecognition.onerror = (event) => {
+      console.error('Speech recognition error:', event.error);
+      btn.classList.remove('recording');
+      talkIsRecording = false;
+    };
+    
+    talkRecognition.start();
+    btn.classList.add('recording');
+    talkIsRecording = true;
+  }
+}
+
+// Input handling for Talk
+function initTalkInputListeners() {
+  const talkInput = document.getElementById('talk-input');
+  if (talkInput && !talkInput.dataset.listenerAdded) {
+    talkInput.dataset.listenerAdded = 'true';
+    talkInput.addEventListener('input', function() {
+      document.getElementById('talk-send-btn').disabled = !this.value.trim();
+      this.style.height = 'auto';
+      this.style.height = Math.min(this.scrollHeight, 120) + 'px';
+    });
+    
+    talkInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' && !e.shiftKey) {
+        e.preventDefault();
+        sendTalkMessage();
+      }
+    });
+  }
+}
+
+// Initialize on DOMContentLoaded or immediately if already loaded
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initTalkInputListeners);
+} else {
+  initTalkInputListeners();
 }

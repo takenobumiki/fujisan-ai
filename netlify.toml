@@ -5,6 +5,9 @@
 [functions]
   node_bundler = "esbuild"
 
+[context.production]
+  environment = { NODE_VERSION = "18" }
+
 # Stripe Webhook endpoint
 [[redirects]]
   from = "/api/stripe-webhook"

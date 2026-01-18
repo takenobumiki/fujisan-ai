@@ -9,7 +9,7 @@
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WG9LDKZG');</script>
+    })(window,document,'script','dataLayer','GTM-5MR9GQN');</script>
     <!-- End Google Tag Manager -->
     
     <!-- Primary SEO -->
@@ -988,7 +988,7 @@
         }
         
         .modal-header {
-            padding: 24px;
+            padding: 20px 24px 16px;
             text-align: center;
             border-bottom: 0.5px solid var(--border);
         }
@@ -996,19 +996,19 @@
         .modal-header h3 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
         .modal-header p { font-size: 14px; color: var(--text-secondary); }
         
-        .modal-body { padding: 24px; }
+        .modal-body { padding: 20px 24px 16px; }
         .modal-body-scroll { padding: 24px; max-height: 400px; overflow-y: auto; }
         
-        .form-group { margin-bottom: 16px; }
+        .form-group { margin-bottom: 12px; }
         .form-label { display: block; font-size: 13px; font-weight: 500; color: var(--text-secondary); margin-bottom: 4px; }
         .form-input {
             width: 100%;
-            height: 50px;
-            padding: 0 16px;
+            height: 44px;
+            padding: 0 14px;
             background: var(--bg-secondary);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            font-size: 17px;
+            border-radius: 10px;
+            font-size: 16px;
             color: var(--text-primary);
         }
         .form-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.15); }
@@ -1019,7 +1019,7 @@
         .forgot-password-link:hover { text-decoration: underline; }
         
         /* Checkbox */
-        .checkbox-group { margin-bottom: 12px; }
+        .checkbox-group { margin-bottom: 8px; }
         .checkbox-label {
             display: flex;
             align-items: flex-start;
@@ -1057,8 +1057,8 @@
         .checkbox-text { color: var(--text-secondary); }
         .checkbox-text a { color: var(--accent); text-decoration: none; }
         
-        .modal-actions { padding: 16px 24px 24px; }
-        .modal-actions .btn { width: 100%; height: 50px; font-size: 17px; border-radius: 12px; margin-bottom: 8px; }
+        .modal-actions { padding: 12px 24px 20px; }
+        .modal-actions .btn { width: 100%; height: 48px; font-size: 16px; border-radius: 12px; margin-bottom: 6px; }
         .modal-note { text-align: center; font-size: 13px; color: var(--text-tertiary); }
         .modal-note a { color: var(--accent); text-decoration: none; }
         
@@ -1079,7 +1079,7 @@
             display: flex;
             align-items: center;
             gap: 16px;
-            margin: 20px 0;
+            margin: 12px 0;
             color: var(--text-tertiary);
             font-size: 13px;
         }
@@ -1693,7 +1693,7 @@
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WG9LDKZG"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MR9GQN"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
@@ -1709,6 +1709,7 @@
                 <img src="/images/logo.png" alt="Fujisan.AI" style="height:48px;">
             </div>
             <nav class="header-nav" id="headerNav">
+                <a href="#ai-features" data-i18n="nav_ai">AI Features</a>
                 <a href="#features" data-i18n="nav_features">Features</a>
                 <a href="#levels" data-i18n="nav_levels">Levels</a>
                 <a href="#pricing" data-i18n="nav_pricing">Pricing</a>
@@ -1779,32 +1780,49 @@
                 <section class="methodology-banner">
                     <div class="methodology-content">
                         <div class="methodology-text">
-                            <span class="methodology-label">A New Paradigm in Language Learning</span>
-                            <h2 class="methodology-headline">Instructional Design.<br>SLA Theory. AI.</h2>
-                            <p class="methodology-desc">The science of language acquisition, engineered for measurable outcomes.</p>
+                            <span class="methodology-label" data-i18n="methodology_label">A New Paradigm in Language Learning</span>
+                            <h2 class="methodology-headline" data-i18n-html="methodology_headline">Instructional Design.<br>SLA Theory. AI.</h2>
+                            <p class="methodology-desc" data-i18n="methodology_desc">The science of language acquisition, engineered for measurable outcomes.</p>
                         </div>
                     </div>
                 </section>
                 
                 <!-- Hero -->
+                <!-- FREE CAMPAIGN BANNER -->
+                <div id="free-campaign-banner" style="background:linear-gradient(90deg,#00C853,#00E676);color:#fff;text-align:center;padding:12px 20px;font-weight:600;font-size:15px;position:relative;">
+                    <span style="display:inline-flex;align-items:center;gap:8px;">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <span data-i18n="campaign_banner">FREE until March 31, 2026! All features unlocked. No credit card required.</span>
+                    </span>
+                    <a href="#pricing" style="color:#fff;text-decoration:underline;margin-left:12px;font-weight:700;" data-i18n="campaign_banner_cta">Start Now →</a>
+                </div>
+
                 <section class="hero">
                     <div class="hero-content">
-                        <div class="hero-badge">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
-                            <span>Evidence-Based Learning</span>
+                        <div class="hero-badge" style="background:linear-gradient(135deg,#667eea,#764ba2);color:#fff;">
+                            <div class="hero-badge-orb" style="width:20px;height:20px;position:relative;margin-right:8px;">
+                                <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:12px;height:12px;background:radial-gradient(circle at 30% 30%, #a78bfa, #667eea);border-radius:50%;animation:heroOrbPulse 2s ease-in-out infinite;"></div>
+                                <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:18px;height:18px;border:1px solid rgba(255,255,255,0.5);border-radius:50%;animation:heroOrbRing 2s ease-in-out infinite;"></div>
+                            </div>
+                            <span data-i18n="hero_badge">Powered by Google Gemini AI</span>
                         </div>
-                        <h1 class="hero-title">Master Japanese.<br>Scientifically.</h1>
+                        <style>
+                        @keyframes heroOrbPulse { 0%,100%{transform:translate(-50%,-50%) scale(1);} 50%{transform:translate(-50%,-50%) scale(1.2);} }
+                        @keyframes heroOrbRing { 0%,100%{transform:translate(-50%,-50%) scale(1);opacity:0.8;} 50%{transform:translate(-50%,-50%) scale(1.2);opacity:0.4;} }
+                        </style>
+                        <h1 class="hero-title" data-i18n-html="hero_title_full">Your AI Japanese Tutor.<br>Always Available.</h1>
                         
-                        <p class="hero-subtitle" data-i18n="hero_subtitle">
-                            Instructional Design meets SLA theory and AI-driven personalization. Pass JLPT N5-N1 with a system engineered for results.
-                        </p>
+                        <p class="hero-subtitle" data-i18n="hero_subtitle">Practice conversations, get instant explanations, and learn at your own pace. AI that adapts to your level and teaches in your language.</p>
                         
                         <div class="hero-cta">
-                            <a href="#pricing" class="btn btn-hero btn-large" style="font-size:20px;padding:18px 40px;animation:pulse 2s infinite;display:inline-flex;align-items:center;gap:10px;" data-i18n="hero_cta">
+                            <a href="#pricing" class="btn btn-hero btn-large" style="font-size:20px;padding:18px 40px;animation:pulse 2s infinite;display:inline-flex;align-items:center;gap:10px;">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><path d="M12 3v12"/><path d="m8 7 4-4 4 4"/><rect x="4" y="12" width="16" height="2" rx="1"/></svg>
-                                Start Free Trial
+                                <span data-i18n="hero_cta_free">Start Free</span>
                             </a>
-                            <p class="hero-note" data-i18n="hero_note">7-day FREE trial • No charge until trial ends</p>
+                            <p class="hero-note" style="display:inline-flex;align-items:center;gap:6px;">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                <span data-i18n="hero_note_free">Free until March 31, 2026 · No credit card required</span>
+                            </p>
                         </div>
                         
                         <style>
@@ -1816,8 +1834,11 @@
                         
                         <div class="hero-stats">
                             <div class="hero-stat">
-                                <div class="hero-stat-value">94%</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_retention">Retention</div>
+                                <div class="hero-stat-value" style="display:flex;align-items:center;justify-content:center;gap:6px;">
+                                    <div style="width:12px;height:12px;background:radial-gradient(circle,#a78bfa,#667eea);border-radius:50%;animation:heroOrbPulse 2s infinite;"></div>
+                                    AI
+                                </div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_ai">Conversation</div>
                             </div>
                             <div class="hero-stat">
                                 <div class="hero-stat-value">16K+</div>
@@ -1825,7 +1846,7 @@
                             </div>
                             <div class="hero-stat">
                                 <div class="hero-stat-value">N5-N1</div>
-                                <div class="hero-stat-label" data-i18n="hero_stat_levels">Coverage</div>
+                                <div class="hero-stat-label" data-i18n="hero_stat_levels">All Levels</div>
                             </div>
                         </div>
                     </div>
@@ -1834,34 +1855,28 @@
                     </div>
                 </section>
                 
-                <!-- Quick Pricing Preview (Above the fold) -->
-                <section style="padding:40px 0;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);">
+                <!-- FREE CAMPAIGN PRICING PREVIEW -->
+                <section style="padding:40px 0;background:linear-gradient(135deg,#00C853 0%,#00E676 100%);">
                     <div class="container" style="text-align:center;color:#fff;">
-                        <p style="font-size:14px;opacity:0.9;margin-bottom:8px;display:inline-flex;align-items:center;gap:8px;">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                            Special Offer: 7-Day Free Trial
+                        <p style="font-size:16px;opacity:0.95;margin-bottom:12px;display:inline-flex;align-items:center;gap:8px;font-weight:600;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+                            <span data-i18n="campaign_preview_title">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:-3px;margin-right:4px;"><path d="M20 6h-2.18c.11-.31.18-.65.18-1a3 3 0 0 0-3-3c-1.05 0-1.99.54-2.53 1.35L12 4l-.47-.65C11.01 2.54 10.05 2 9 2a3 3 0 0 0-3 3c0 .35.07.69.18 1H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-5-2c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zM9 4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm11 15H4v-2h16v2zm0-5H4V8h5.08L7 10.83 8.62 12 12 7.4l3.38 4.6L17 10.83 14.92 8H20v6z"/></svg>
+                                Limited Time: FREE Until March 31, 2026
+                            </span>
                         </p>
                         <div style="display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-bottom:20px;">
-                            <div style="background:rgba(255,255,255,0.15);padding:16px 24px;border-radius:12px;">
-                                <div style="font-size:12px;opacity:0.8;">Basic</div>
-                                <div style="font-size:24px;font-weight:700;">$4/mo</div>
-                            </div>
-                            <div style="background:rgba(255,255,255,0.25);padding:16px 24px;border-radius:12px;border:2px solid #fff;">
-                                <div style="font-size:12px;opacity:0.8;display:inline-flex;align-items:center;gap:4px;">
-                                    Standard
-                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                                </div>
-                                <div style="font-size:24px;font-weight:700;">$7.50/mo</div>
-                            </div>
-                            <div style="background:rgba(255,255,255,0.15);padding:16px 24px;border-radius:12px;">
-                                <div style="font-size:12px;opacity:0.8;">Premium</div>
-                                <div style="font-size:24px;font-weight:700;">$15/mo</div>
+                            <div style="background:rgba(255,255,255,0.2);padding:20px 32px;border-radius:16px;border:2px solid rgba(255,255,255,0.5);">
+                                <div style="font-size:14px;opacity:0.9;margin-bottom:4px;" data-i18n="campaign_preview_normally">Normally from $4/mo</div>
+                                <div style="font-size:36px;font-weight:700;" data-i18n="campaign_preview_free">FREE</div>
+                                <div style="font-size:13px;opacity:0.9;margin-top:4px;" data-i18n="campaign_preview_all">All features unlocked</div>
                             </div>
                         </div>
-                        <a href="#pricing" class="btn" style="background:#fff;color:#667eea;padding:14px 32px;font-weight:600;border-radius:30px;display:inline-flex;align-items:center;gap:8px;">
-                            View All Plans
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        <a href="#pricing" class="btn" style="background:#fff;color:#00C853;padding:16px 40px;font-weight:700;border-radius:30px;display:inline-flex;align-items:center;gap:8px;font-size:16px;">
+                            <span data-i18n="campaign_preview_cta">Get Started Free</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </a>
+                        <p style="font-size:12px;opacity:0.85;margin-top:12px;" data-i18n="campaign_preview_note">No credit card required • Instant access</p>
                     </div>
                 </section>
                 
@@ -1869,9 +1884,9 @@
                 <section class="section demo-section" id="demo">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label">Try It Now — No Sign Up Required</div>
-                            <h2 class="section-title">Experience AI-Powered Learning</h2>
-                            <p class="section-subtitle">Answer 3 real JLPT questions and see how our AI explains every answer</p>
+                            <div class="section-label" data-i18n="demo_label">Try It Now — No Sign Up Required</div>
+                            <h2 class="section-title" data-i18n="demo_title">Experience AI-Powered Learning</h2>
+                            <p class="section-subtitle" data-i18n="demo_subtitle">Answer 3 real JLPT questions and see how our AI explains every answer</p>
                         </div>
                         
                         <div class="demo-quiz-container" id="demoQuizContainer">
@@ -1932,15 +1947,15 @@
                             <div class="demo-complete-stats">
                                 <div class="demo-stat">
                                     <div class="demo-stat-value">10x</div>
-                                    <div class="demo-stat-label">Faster than traditional study</div>
+                                    <div class="demo-stat-label" data-i18n="demo_stat_faster">Faster than traditional study</div>
                                 </div>
                                 <div class="demo-stat">
                                     <div class="demo-stat-value">94%</div>
-                                    <div class="demo-stat-label">Long-term retention rate</div>
+                                    <div class="demo-stat-label" data-i18n="demo_stat_retention">Long-term retention rate</div>
                                 </div>
                             </div>
-                            <a href="#pricing" class="btn btn-hero btn-large">Start 7-Day Free Trial</a>
-                            <button class="demo-retry-btn" onclick="restartDemo()">Try Again</button>
+                            <a href="#pricing" class="btn btn-hero btn-large" data-i18n="demo_cta">Start 7-Day Free Trial</a>
+                            <button class="demo-retry-btn" onclick="restartDemo()" data-i18n="demo_retry">Try Again</button>
                         </div>
                     </div>
                 </section>
@@ -1949,9 +1964,9 @@
                 <section class="section section-science">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label">Theoretical Foundation</div>
-                            <h2 class="section-title">Built on Proven Learning Science</h2>
-                            <p class="section-subtitle">Where Instructional Design principles meet Second Language Acquisition research</p>
+                            <div class="section-label" data-i18n="science_label">Theoretical Foundation</div>
+                            <h2 class="section-title" data-i18n="science_title">Built on Proven Learning Science</h2>
+                            <p class="section-subtitle" data-i18n="science_subtitle">Where Instructional Design principles meet Second Language Acquisition research</p>
                         </div>
                         
                         <div class="science-grid">
@@ -2092,6 +2107,140 @@
                                 <img src="images/exam-room.jpg" alt="JLPT mock test with timer">
                             </div>
                         </div>
+                    </div>
+                </section>
+                
+                <!-- AI Features - NEW -->
+                <section class="section section-ai" id="ai-features" style="background:linear-gradient(180deg, #0f0f23 0%, #1a1a3e 100%); padding: 80px 0;">
+                    <div class="container">
+                        <div class="section-header" style="color:#fff;">
+                            <div class="section-label" style="color:#a78bfa;" data-i18n="ai_label">Powered by Google Gemini</div>
+                            <h2 class="section-title" style="color:#fff;" data-i18n="ai_title">AI That Understands Language Learning</h2>
+                            <p class="section-subtitle" style="color:rgba(255,255,255,0.7);" data-i18n="ai_subtitle">Not just a chatbot. An intelligent tutor that adapts to your level, tracks your progress, and speaks your language.</p>
+                        </div>
+                        
+                        <!-- AI Orb Animation -->
+                        <div style="display:flex;justify-content:center;margin:40px 0;">
+                            <div class="lp-ai-orb">
+                                <div class="lp-ai-orb-glow"></div>
+                                <div class="lp-ai-orb-ring2"></div>
+                                <div class="lp-ai-orb-ring"></div>
+                                <div class="lp-ai-orb-core"></div>
+                            </div>
+                        </div>
+                        
+                        <style>
+                        .lp-ai-orb {
+                            width: 120px;
+                            height: 120px;
+                            position: relative;
+                        }
+                        .lp-ai-orb-core {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 60px;
+                            height: 60px;
+                            background: radial-gradient(circle at 30% 30%, #a78bfa, #667eea 50%, #4c1d95);
+                            border-radius: 50%;
+                            animation: lpOrbPulse 2.5s ease-in-out infinite;
+                            box-shadow: 0 0 40px rgba(167, 139, 250, 0.6), inset 0 0 20px rgba(255,255,255,0.3);
+                        }
+                        .lp-ai-orb-ring {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 90px;
+                            height: 90px;
+                            border: 3px solid rgba(167, 139, 250, 0.4);
+                            border-radius: 50%;
+                            animation: lpOrbRing 2.5s ease-in-out infinite;
+                        }
+                        .lp-ai-orb-ring2 {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 120px;
+                            height: 120px;
+                            border: 2px solid rgba(167, 139, 250, 0.2);
+                            border-radius: 50%;
+                            animation: lpOrbRing 2.5s ease-in-out infinite 0.5s;
+                        }
+                        .lp-ai-orb-glow {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 80px;
+                            height: 80px;
+                            background: radial-gradient(circle, rgba(167, 139, 250, 0.5) 0%, transparent 70%);
+                            border-radius: 50%;
+                            animation: lpOrbGlow 3s ease-in-out infinite;
+                        }
+                        @keyframes lpOrbPulse {
+                            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+                            50% { transform: translate(-50%, -50%) scale(1.1); }
+                        }
+                        @keyframes lpOrbRing {
+                            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.6; }
+                            50% { transform: translate(-50%, -50%) scale(1.15); opacity: 0.3; }
+                        }
+                        @keyframes lpOrbGlow {
+                            0%, 100% { opacity: 0.6; transform: translate(-50%, -50%) scale(1); }
+                            50% { opacity: 1; transform: translate(-50%, -50%) scale(1.3); }
+                        }
+                        </style>
+                        
+                        <div class="ai-features-grid" style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:48px;">
+                            <!-- AI Conversation -->
+                            <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:32px;text-align:center;">
+                                <div style="width:64px;height:64px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                                </div>
+                                <h3 style="color:#fff;font-size:20px;font-weight:600;margin-bottom:12px;" data-i18n="ai_conv_title">AI Conversation Practice</h3>
+                                <p style="color:rgba(255,255,255,0.6);font-size:14px;line-height:1.6;" data-i18n="ai_conv_desc">Practice real Japanese conversations with AI. Choose from scenarios like restaurant, shopping, travel, or let AI use only the vocabulary you've learned in your current unit.</p>
+                                <div style="margin-top:20px;padding:16px;background:rgba(167,139,250,0.1);border-radius:12px;">
+                                    <div style="color:#a78bfa;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;" data-i18n="ai_conv_feature">Unit-Linked Mode</div>
+                                    <div style="color:rgba(255,255,255,0.8);font-size:13px;margin-top:8px;" data-i18n="ai_conv_feature_desc">AI restricts vocabulary to your completed units</div>
+                                </div>
+                            </div>
+                            
+                            <!-- AI Tutor -->
+                            <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:32px;text-align:center;">
+                                <div style="width:64px;height:64px;background:linear-gradient(135deg,#00C853,#00E676);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                                </div>
+                                <h3 style="color:#fff;font-size:20px;font-weight:600;margin-bottom:12px;" data-i18n="ai_tutor_title">24/7 AI Tutor</h3>
+                                <p style="color:rgba(255,255,255,0.6);font-size:14px;line-height:1.6;" data-i18n="ai_tutor_desc">Ask any question about Japanese grammar, vocabulary, or kanji. Get instant, personalized explanations in your native language with example sentences.</p>
+                                <div style="margin-top:20px;padding:16px;background:rgba(0,200,83,0.1);border-radius:12px;">
+                                    <div style="color:#00E676;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;" data-i18n="ai_tutor_feature">8 Languages</div>
+                                    <div style="color:rgba(255,255,255,0.8);font-size:13px;margin-top:8px;" data-i18n="ai_tutor_feature_desc">Explanations in English, 中文, 한국어, and more</div>
+                                </div>
+                            </div>
+                            
+                            <!-- AI Explanations -->
+                            <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:20px;padding:32px;text-align:center;">
+                                <div style="width:64px;height:64px;background:linear-gradient(135deg,#FF6B6B,#FF8E53);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                                </div>
+                                <h3 style="color:#fff;font-size:20px;font-weight:600;margin-bottom:12px;" data-i18n="ai_explain_title">Instant "Why?" Explanations</h3>
+                                <p style="color:rgba(255,255,255,0.6);font-size:14px;line-height:1.6;" data-i18n="ai_explain_desc">Got an answer wrong? Tap "Why?" and AI instantly explains the correct answer, why other options were wrong, and provides memory tips.</p>
+                                <div style="margin-top:20px;padding:16px;background:rgba(255,107,107,0.1);border-radius:12px;">
+                                    <div style="color:#FF8E53;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;" data-i18n="ai_explain_feature">Learn From Mistakes</div>
+                                    <div style="color:rgba(255,255,255,0.8);font-size:13px;margin-top:8px;" data-i18n="ai_explain_feature_desc">Turn every error into a learning opportunity</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Responsive -->
+                        <style>
+                        @media (max-width: 900px) {
+                            .ai-features-grid { grid-template-columns: 1fr !important; }
+                        }
+                        </style>
                     </div>
                 </section>
                 
@@ -2323,13 +2472,7 @@
                                         <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                         <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
                                     </tr>
-                                    <tr>
-                                        <td>League & Gamification</td>
-                                        <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
-                                        <td><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
-                                        <td><span class="cross"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span></td>
-                                        <td><span class="partial"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 9v4M12 17h.01M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/></svg></span></td>
-                                    </tr>
+
                                     <tr>
                                         <td data-i18n="compare_japan">Made in Japan (Tokyo)</td>
                                         <td class="highlight-col"><span class="check"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></span></td>
@@ -2360,25 +2503,42 @@
                 <section class="section section-pricing-bg" id="pricing">
                     <div class="container">
                         <div class="section-header">
-                            <div class="section-label">Pricing</div>
-                            <h2 class="section-title" data-i18n="section_pricing">Choose Your Plan</h2>
-                                <p class="section-subtitle">7-day free trial on all plans (card required)</p>
+                            <div class="section-label" style="background:#00C853;color:#fff;display:inline-flex;align-items:center;gap:6px;">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                                Limited Time
+                            </div>
+                            <h2 class="section-title" data-i18n="section_pricing_free">Free Until March 31, 2026</h2>
+                            <p class="section-subtitle" data-i18n="section_pricing_free_sub">All premium features unlocked. No credit card required.</p>
+                        </div>
+                            
+                            <!-- FREE CAMPAIGN CARD -->
+                            <div style="max-width:500px;margin:0 auto 40px;">
+                                <div class="pricing-card featured" style="border:3px solid #00C853;position:relative;">
+                                    <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:#00C853;color:#fff;padding:6px 20px;border-radius:20px;font-size:13px;font-weight:700;" data-i18n="campaign_badge">FREE CAMPAIGN</div>
+                                    <h3 class="pricing-name" style="margin-top:16px;" data-i18n="campaign_plan_name">Full Access</h3>
+                                    <div style="margin:16px 0;">
+                                        <span style="font-size:18px;color:#888;text-decoration:line-through;">$14.99/mo</span>
+                                        <span style="font-size:48px;font-weight:700;color:#00C853;margin-left:12px;" data-i18n="campaign_price">FREE</span>
+                                    </div>
+                                    <div style="font-size:14px;color:#666;margin-bottom:20px;" data-i18n="campaign_until">Until March 31, 2026</div>
+                                    <ul class="pricing-features" style="text-align:left;">
+                                        <li data-i18n="campaign_f1"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="3" style="vertical-align:-2px;margin-right:4px;"><path d="M20 6L9 17l-5-5"/></svg> All JLPT levels (N5-N1)</li>
+                                        <li data-i18n="campaign_f2"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="3" style="vertical-align:-2px;margin-right:4px;"><path d="M20 6L9 17l-5-5"/></svg> 22,000+ vocabulary & 2,200+ kanji</li>
+                                        <li data-i18n="campaign_f3"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="3" style="vertical-align:-2px;margin-right:4px;"><path d="M20 6L9 17l-5-5"/></svg> 100 authentic mock tests</li>
+                                        <li data-i18n="campaign_f4"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="3" style="vertical-align:-2px;margin-right:4px;"><path d="M20 6L9 17l-5-5"/></svg> AI Tutor & AI explanations</li>
+                                        <li data-i18n="campaign_f5"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="3" style="vertical-align:-2px;margin-right:4px;"><path d="M20 6L9 17l-5-5"/></svg> No credit card required</li>
+                                    </ul>
+                                    <a href="#" onclick="openFreeSignup(); return false;" class="btn btn-primary btn-large pricing-cta-btn" style="background:#00C853;border-color:#00C853;font-size:18px;padding:16px 40px;" data-i18n="campaign_cta">
+                                        Start Free Now →
+                                    </a>
+                                    <p style="font-size:12px;color:#888;margin-top:12px;" data-i18n="campaign_note">Just email & password. Instant access.</p>
+                                </div>
                             </div>
                             
-                            <!-- 紹介コード入力エリア -->
-                            <div id="referral-input-box" style="max-width:500px;margin:0 auto 32px;padding:20px;background:rgba(102,126,234,0.08);border:2px dashed rgba(102,126,234,0.3);border-radius:16px;text-align:center;">
-                                <div style="font-weight:600;margin-bottom:12px;display:flex;align-items:center;justify-content:center;gap:8px;" data-i18n="referral_input_title">
-                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><rect x="4" y="10" width="16" height="4" rx="1"/><path d="M12 4v6"/><path d="m8 8 4-4 4 4"/></svg>
-                                    Have a referral code?
-                                </div>
-                                <div style="display:flex;gap:8px;justify-content:center;align-items:center;flex-wrap:wrap;">
-                                    <input type="text" id="referral-code-input" placeholder="REF001" style="padding:12px 16px;border:1px solid #ddd;border-radius:8px;font-size:16px;width:140px;text-transform:uppercase;text-align:center;">
-                                    <button id="referral-apply-btn" onclick="applyReferralCode()" style="padding:12px 24px;background:linear-gradient(90deg,#667eea,#764ba2);color:#fff;border:none;border-radius:8px;font-weight:600;cursor:pointer;">Apply</button>
-                                </div>
-                                <div id="referral-message" style="margin-top:8px;font-size:13px;min-height:20px;"></div>
-                                <div style="font-size:12px;color:var(--text-secondary);margin-top:8px;" data-i18n="referral_input_hint">Get 30-day free trial instead of 7 days!</div>
-                            </div>
-                            
+                            <!-- POST-CAMPAIGN PRICING (hidden, shown after April 1) -->
+                            <div id="post-campaign-pricing" style="display:none;">
+                                <p style="text-align:center;color:#666;margin-bottom:24px;" data-i18n="post_campaign_info">After April 1, 2026, choose from our plans:</p>
+                                
                             <!-- Billing Toggle -->
                             <div style="display:flex;justify-content:center;margin-bottom:32px;">
                                 <div class="billing-toggle" style="display:inline-flex;background:rgba(118,118,128,0.12);border-radius:10px;padding:3px;">
@@ -2398,8 +2558,6 @@
                                         <li data-i18n="plan_basic_f1">JLPT N5-N3 all content</li>
                                         <li data-i18n="plan_basic_f2">Learn / Practice / Test modes</li>
                                         <li data-i18n="plan_basic_f3">Progress tracking dashboard</li>
-                                        <li data-i18n="plan_basic_f4">Daily challenges & XP</li>
-                                        <li data-i18n="plan_basic_f5">League competition</li>
                                     </ul>
                                     <a href="#" onclick="openSignupWithPlan('basic'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
@@ -2436,29 +2594,42 @@
                                     <a href="#" onclick="openSignupWithPlan('premium'); return false;" class="btn btn-secondary btn-large pricing-cta-btn" data-i18n="price_cta">Start 7-Day Free Trial</a>
                                 </div>
                             </div>
+                            </div>
+                            
+                            <!-- Important Notice -->
+                            <div style="max-width:600px;margin:32px auto 0;padding:20px;background:rgba(255,193,7,0.1);border:1px solid rgba(255,193,7,0.3);border-radius:12px;">
+                                <p style="font-size:14px;color:#666;margin:0;line-height:1.8;">
+                                    <strong style="color:#F57C00;display:inline-flex;align-items:center;gap:6px;" data-i18n="campaign_notice_title">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F57C00" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+                                        Important Notice:
+                                    </strong><br>
+                                    <span data-i18n="campaign_notice_text">
+                                        • This free campaign ends on <strong>March 31, 2026</strong><br>
+                                        • Starting <strong>April 1, 2026</strong>, a paid subscription ($4-15/month) will be required<br>
+                                        • <strong>No automatic charges</strong> — you'll need to subscribe manually to continue<br>
+                                        • Your learning progress will be saved for 2 years
+                                    </span>
+                                </p>
+                                <p style="font-size:12px;color:#999;margin:12px 0 0;padding-top:10px;border-top:1px solid rgba(255,193,7,0.2);" data-i18n="beta_notice">
+                                    <strong>BETA:</strong> This is a beta version. Features may change and re-registration may be required in rare cases.
+                                </p>
+                            </div>
                         
-                        <p style="text-align:center;margin-top:16px;font-size:13px;color:var(--text-secondary);display:flex;align-items:center;justify-content:center;gap:6px;" data-i18n="price_card_note">
+                        <!-- Hidden during free campaign -->
+                        <p id="price-card-note-original" style="display:none;text-align:center;margin-top:16px;font-size:13px;color:var(--text-secondary);display:flex;align-items:center;justify-content:center;gap:6px;" data-i18n="price_card_note">
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
                             Card required for trial. Cancel anytime before trial ends.
                         </p>
                         
-                        <!-- Referral Banner -->
-                        <div style="text-align:center;margin-top:24px;padding:20px;background:linear-gradient(90deg,#f093fb,#f5576c);border-radius:16px;color:#fff;">
-                            <strong style="display:inline-flex;align-items:center;gap:8px;" data-i18n="referral_title">
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><rect x="4" y="10" width="16" height="4" rx="1"/><path d="M12 4v6"/><path d="m8 8 4-4 4 4"/></svg>
-                                Invite Friends, Earn Free Months!
-                            </strong>
-                            <p style="margin:8px 0 0;opacity:0.9;" data-i18n="referral_desc">Get 1 free month for every friend who subscribes</p>
-                        </div>
                     </div>
                 </section>
                 
                 <!-- Final CTA -->
-                <section class="section cta-section">
+                <section class="section cta-section" style="background:linear-gradient(135deg,#00C853 0%,#00E676 100%);">
                     <div class="container">
-                        <h2 data-i18n="final_cta_title">Stop Wasting Time on Inefficient Study</h2>
-                        <p data-i18n="final_cta_sub">Experience AI-optimized learning. 7-day free trial · Card required · Cancel anytime</p>
-                        <a href="#pricing" class="btn btn-hero btn-large" data-i18n="price_cta">Start 7-Day Free Trial</a>
+                        <h2 data-i18n="final_cta_title_free" style="color:#fff;">Don't Miss This Free Opportunity</h2>
+                        <p data-i18n="final_cta_sub_free" style="color:rgba(255,255,255,0.9);">All features free until March 31, 2026 · No credit card required</p>
+                        <a href="#pricing" class="btn btn-large" style="background:#fff;color:#00C853;font-weight:700;" data-i18n="campaign_cta">Start Free Now →</a>
                     </div>
                 </section>
                 
@@ -2570,31 +2741,27 @@
                     <div class="level-card level-n5" onclick="openLevel('N5')">
                         <div class="level-icon">N5</div>
                         <div class="level-name" data-i18n="level_beginner">Beginner</div>
-                        <div class="level-desc" data-i18n="level_n5_units">50 Units</div>
+                        <div class="level-desc">50 Units</div>
                     </div>
-                    <div class="level-card level-n4 coming-soon">
-                        <span class="level-badge" data-i18n="coming_soon">Soon</span>
+                    <div class="level-card level-n4" onclick="openLevel('N4')">
                         <div class="level-icon">N4</div>
                         <div class="level-name" data-i18n="level_elementary">Elementary</div>
-                        <div class="level-desc" data-i18n="coming">Coming</div>
+                        <div class="level-desc">89 Units</div>
                     </div>
-                    <div class="level-card level-n3 coming-soon">
-                        <span class="level-badge" data-i18n="coming_soon">Soon</span>
+                    <div class="level-card level-n3" onclick="openLevel('N3')">
                         <div class="level-icon">N3</div>
                         <div class="level-name" data-i18n="level_intermediate">Intermediate</div>
-                        <div class="level-desc" data-i18n="coming">Coming</div>
+                        <div class="level-desc">217 Units</div>
                     </div>
-                    <div class="level-card level-n2 coming-soon">
-                        <span class="level-badge" data-i18n="coming_soon">Soon</span>
+                    <div class="level-card level-n2" onclick="openLevel('N2')">
                         <div class="level-icon">N2</div>
                         <div class="level-name" data-i18n="level_advanced">Advanced</div>
-                        <div class="level-desc" data-i18n="coming_2025">2025</div>
+                        <div class="level-desc">314 Units</div>
                     </div>
-                    <div class="level-card level-n1 coming-soon">
-                        <span class="level-badge" data-i18n="coming_soon">Soon</span>
+                    <div class="level-card level-n1" onclick="openLevel('N1')">
                         <div class="level-icon">N1</div>
                         <div class="level-name" data-i18n="level_expert">Expert</div>
-                        <div class="level-desc" data-i18n="coming_2025">2025</div>
+                        <div class="level-desc">490 Units</div>
                     </div>
                 </div>
             </div>
@@ -2702,31 +2869,31 @@
     <div class="modal-overlay" id="loginModal">
         <div class="modal">
             <div class="modal-header">
-                <h3>Welcome Back</h3>
-                <p>Log in to continue learning</p>
+                <h3 data-i18n="login_title">Welcome Back</h3>
+                <p data-i18n="login_subtitle">Log in to continue learning</p>
             </div>
             <div class="modal-body">
                 <button class="btn btn-google" style="width:100%;height:50px;font-size:16px;border-radius:12px;margin-bottom:16px;" onclick="loginWithGoogle()">
                     <svg width="18" height="18" viewBox="0 0 18 18"><path fill="#4285F4" d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z"/><path fill="#34A853" d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z"/><path fill="#FBBC05" d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z"/><path fill="#EA4335" d="M8.98 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.59a8 8 0 0 0-12.17 2.07l2.67 2.07A4.8 4.8 0 0 1 8.98 3.58z"/></svg>
-                    Continue with Google
+                    <span data-i18n="login_google">Continue with Google</span>
                 </button>
-                <div class="divider">or</div>
+                <div class="divider" data-i18n="login_or">or</div>
                 <div class="form-group">
-                    <label class="form-label">Email</label>
+                    <label class="form-label" data-i18n="login_email">Email</label>
                     <input type="email" class="form-input" id="loginEmail" placeholder="you@example.com">
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Password</label>
+                    <label class="form-label" data-i18n="login_password">Password</label>
                     <input type="password" class="form-input" id="loginPassword" placeholder="Password">
-                    <a href="#" class="forgot-password-link" onclick="openModal('forgotPassword'); return false;">Forgot password?</a>
+                    <a href="#" class="forgot-password-link" onclick="openModal('forgotPassword'); return false;" data-i18n="login_forgot">Forgot password?</a>
                 </div>
                 <div id="loginError" class="form-error hidden"></div>
             </div>
             <div class="modal-actions">
-                <button class="btn btn-primary" onclick="loginWithEmail()">Log In</button>
-                <p class="modal-note">No account? <a href="#" onclick="openModal('signup'); return false;">Sign up</a></p>
+                <button class="btn btn-primary" onclick="loginWithEmail()" data-i18n="login_btn">Log In</button>
+                <p class="modal-note"><span data-i18n="login_no_account">No account?</span> <a href="#" onclick="openModal('signup'); return false;" data-i18n="login_signup_link">Sign up</a></p>
             </div>
-            <button class="modal-close" onclick="closeModal()">Cancel</button>
+            <button class="modal-close" onclick="closeModal()" data-i18n="modal_cancel">Cancel</button>
         </div>
     </div>
     
@@ -2734,22 +2901,22 @@
     <div class="modal-overlay" id="forgotPasswordModal">
         <div class="modal">
             <div class="modal-header">
-                <h3>Reset Password</h3>
-                <p>Enter your email to receive a reset link</p>
+                <h3 data-i18n="reset_title">Reset Password</h3>
+                <p data-i18n="reset_subtitle">Enter your email to receive a reset link</p>
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label class="form-label">Email</label>
+                    <label class="form-label" data-i18n="login_email">Email</label>
                     <input type="email" class="form-input" id="resetEmail" placeholder="you@example.com">
                 </div>
                 <div id="resetError" class="form-error hidden"></div>
                 <div id="resetSuccess" class="form-success hidden"></div>
             </div>
             <div class="modal-actions">
-                <button class="btn btn-primary" onclick="sendPasswordReset()">Send Reset Link</button>
-                <p class="modal-note">Remember your password? <a href="#" onclick="openModal('login'); return false;">Log in</a></p>
+                <button class="btn btn-primary" onclick="sendPasswordReset()" data-i18n="reset_btn">Send Reset Link</button>
+                <p class="modal-note"><span data-i18n="reset_remember">Remember your password?</span> <a href="#" onclick="openModal('login'); return false;" data-i18n="reset_login_link">Log in</a></p>
             </div>
-            <button class="modal-close" onclick="closeModal()">Cancel</button>
+            <button class="modal-close" onclick="closeModal()" data-i18n="modal_cancel">Cancel</button>
         </div>
     </div>
     
@@ -2757,57 +2924,71 @@
     <div class="modal-overlay" id="signupModal">
         <div class="modal">
             <div class="modal-header">
-                <h3>Start 7-Day Free Trial</h3>
-                <p>Choose your plan - upgrade or downgrade anytime</p>
+                <h3 data-i18n="signup_title">Start Free Now</h3>
+                <p data-i18n="signup_subtitle">All features free until March 31, 2026</p>
             </div>
             <div class="modal-body">
-                <button class="btn btn-google" style="width:100%;height:50px;font-size:16px;border-radius:12px;margin-bottom:16px;" onclick="signupWithGoogle()">
+                <button class="btn btn-google" style="width:100%;height:44px;font-size:15px;border-radius:12px;margin-bottom:12px;" onclick="signupWithGoogle()">
                     <svg width="18" height="18" viewBox="0 0 18 18"><path fill="#4285F4" d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z"/><path fill="#34A853" d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z"/><path fill="#FBBC05" d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z"/><path fill="#EA4335" d="M8.98 3.58c1.32 0 2.5.45 3.44 1.35l2.58-2.59a8 8 0 0 0-12.17 2.07l2.67 2.07A4.8 4.8 0 0 1 8.98 3.58z"/></svg>
-                    Continue with Google
+                    <span data-i18n="login_google">Continue with Google</span>
                 </button>
-                <div class="divider">or</div>
+                <div class="divider" data-i18n="login_or">or</div>
                 <div class="form-group">
-                    <label class="form-label">Email</label>
+                    <label class="form-label" data-i18n="login_email">Email</label>
                     <input type="email" class="form-input" id="signupEmail" placeholder="you@example.com">
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Password (min 8 characters)</label>
+                    <label class="form-label" data-i18n="signup_password_label">Password (min 8 characters)</label>
                     <input type="password" class="form-input" id="signupPassword" placeholder="Create password">
                 </div>
-                <div class="renewal-notice">
-                    ⚠️ Your 7-day free trial will automatically convert to a paid subscription. Cancel anytime before to avoid charges.
+                
+                <!-- FREE CAMPAIGN Notice (shown during campaign) -->
+                <div id="freeCampaignNotice" class="renewal-notice" style="background:#e8f5e9;border-color:#00C853;color:#2e7d32;padding:10px 12px;margin:8px 0;">
+                    <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00C853" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        <strong style="font-size:13px;" data-i18n="signup_free_until">FREE until March 31, 2026!</strong>
+                        <span style="font-size:11px;color:#666;margin-left:auto;" data-i18n="signup_no_card">No credit card</span>
+                    </div>
+                    <div style="font-size:10px;color:#666;line-height:1.4;" data-i18n="beta_notice_short">BETA: Features may change. Re-registration may be required in rare cases.</div>
                 </div>
+                
+                <!-- Normal Renewal Notice (hidden during campaign) -->
+                <div id="normalRenewalNotice" class="renewal-notice" style="display:none;" data-i18n="signup_trial_notice">⚠️ Your 7-day free trial will automatically convert to a paid subscription. Cancel anytime before to avoid charges.</div>
                 
                 <!-- Required Checkboxes -->
                 <div class="checkbox-group">
                     <label class="checkbox-label">
                         <input type="checkbox" id="ageCheck">
                         <span class="checkbox-box"></span>
-                        <span class="checkbox-text">I am 13 years of age or older</span>
+                        <span class="checkbox-text" data-i18n="signup_age_check">I am 13 years of age or older</span>
                     </label>
                 </div>
                 <div class="checkbox-group">
                     <label class="checkbox-label">
                         <input type="checkbox" id="termsCheck">
                         <span class="checkbox-box"></span>
-                        <span class="checkbox-text">I agree to the <a href="/terms.html" target="_blank">Terms of Service</a> and <a href="/privacy.html" target="_blank">Privacy Policy</a></span>
+                        <span class="checkbox-text" data-i18n-html="signup_terms_check">I agree to the <a href="/terms.html" target="_blank">Terms of Service</a> and <a href="/privacy.html" target="_blank">Privacy Policy</a></span>
                     </label>
                 </div>
-                <div class="checkbox-group">
+                <!-- Renewal checkbox (hidden during free campaign) -->
+                <div class="checkbox-group" id="renewalCheckGroup" style="display:none;">
                     <label class="checkbox-label">
                         <input type="checkbox" id="renewalCheck">
                         <span class="checkbox-box"></span>
-                        <span class="checkbox-text">I understand my subscription will auto-renew after trial</span>
+                        <span class="checkbox-text" data-i18n="signup_renewal_check">I understand my subscription will auto-renew after trial</span>
                     </label>
                 </div>
                 
                 <div id="signupError" class="form-error hidden"></div>
             </div>
             <div class="modal-actions">
-                <button class="btn btn-primary" onclick="signupWithEmail()">Continue to Payment →</button>
-                <p class="modal-note"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Secured by Stripe · Cancel anytime</p>
+                <button class="btn btn-primary" id="signupSubmitBtn" onclick="signupWithEmail()" style="background:#00C853;border-color:#00C853;" data-i18n="signup_btn">Start Free →</button>
+                <p class="modal-note" id="signupModalNote" style="display:inline-flex;align-items:center;gap:6px;">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                    <span data-i18n="signup_no_card">No credit card required</span>
+                </p>
             </div>
-            <button class="modal-close" onclick="closeModal()">Cancel</button>
+            <button class="modal-close" onclick="closeModal()" data-i18n="modal_cancel">Cancel</button>
         </div>
     </div>
     
@@ -3018,24 +3199,24 @@
     <div class="modal-overlay" id="accountModal">
         <div class="modal">
             <div class="modal-header">
-                <h3>Account Settings</h3>
+                <h3 data-i18n="account_title">Account Settings</h3>
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <label class="form-label">Email</label>
+                    <label class="form-label" data-i18n="login_email">Email</label>
                     <input type="email" class="form-input" id="accountEmail" disabled>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Subscription</label>
+                    <label class="form-label" data-i18n="account_subscription">Subscription</label>
                     <div style="padding:16px;background:var(--bg-secondary);border-radius:12px;">
-                        <div style="font-weight:600;" id="accountPlan">Free Trial</div>
-                        <div style="font-size:13px;color:var(--text-secondary);" id="accountStatus">Active</div>
+                        <div style="font-weight:600;" id="accountPlan" data-i18n="account_free_campaign">Free Campaign</div>
+                        <div style="font-size:13px;color:var(--text-secondary);" id="accountStatus" data-i18n="account_active">Active</div>
                     </div>
                 </div>
-                <button class="btn btn-secondary" style="width:100%;margin-top:8px;" onclick="alert('Manage subscription in Stripe Customer Portal')">Manage Subscription</button>
-                <button class="btn btn-danger" style="width:100%;margin-top:8px;" onclick="deleteAccount()">Delete Account</button>
+                <button class="btn btn-secondary" style="width:100%;margin-top:8px;" onclick="alert('Manage subscription in Stripe Customer Portal')" data-i18n="account_manage">Manage Subscription</button>
+                <button class="btn btn-danger" style="width:100%;margin-top:8px;" onclick="deleteAccount()" data-i18n="account_delete">Delete Account</button>
             </div>
-            <button class="modal-close" onclick="closeModal()">Close</button>
+            <button class="modal-close" onclick="closeModal()" data-i18n="account_close">Close</button>
         </div>
     </div>
 
@@ -3066,6 +3247,12 @@
         } catch (e) {
             console.log('Firebase not configured - running in demo mode');
         }
+        
+        // ==========================================
+        // FREE CAMPAIGN Configuration
+        // ==========================================
+        const FREE_CAMPAIGN_END = new Date('2026-03-31T23:59:59+09:00');
+        const IS_FREE_CAMPAIGN = new Date() < FREE_CAMPAIGN_END;
         
         // ==========================================
         // Stripe Configuration
@@ -3291,6 +3478,12 @@
                             console.log('Signing up - skip redirect to app.html');
                             return;
                         }
+                        // LPプレビューモードならリダイレクトしない
+                        if (isLPPreviewMode()) {
+                            console.log('LP Preview mode - skip redirect to app.html');
+                            updateUI();
+                            return;
+                        }
                         // ログイン済みならapp.htmlへリダイレクト
                         window.location.href = 'app.html?logged_in=1';
                         return;
@@ -3301,13 +3494,29 @@
                 // Demo mode
                 document.getElementById('loadingOverlay').style.display = 'none';
                 loadDemoState();
-                // デモモードでもログイン済みならapp.htmlへ
-                if (state.isLoggedIn) {
+                // デモモードでもログイン済みならapp.htmlへ（プレビューモード除く）
+                if (state.isLoggedIn && !isLPPreviewMode()) {
                     window.location.href = 'app.html?logged_in=1';
                     return;
                 }
                 updateUI();
             }
+        }
+        
+        // LPプレビューモード判定（URLパラメータまたはsessionStorage）
+        function isLPPreviewMode() {
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('preview') === 'true') {
+                sessionStorage.setItem('lp_preview', 'true');
+                return true;
+            }
+            return sessionStorage.getItem('lp_preview') === 'true';
+        }
+        
+        // LPプレビューモードを終了してアプリへ
+        function exitLPPreview() {
+            sessionStorage.removeItem('lp_preview');
+            window.location.href = 'app.html';
         }
         
         function loadDemoState() {
@@ -3495,6 +3704,26 @@
                     // Firestoreにユーザードキュメントを作成
                     const user = userCredential.user;
                     const now = new Date().toISOString();
+                    
+                    // FREE CAMPAIGN: Different data structure
+                    if (IS_FREE_CAMPAIGN) {
+                        await db.collection('users').doc(user.uid).set({
+                            email: user.email,
+                            plan: 'premium',
+                            planStatus: 'free_campaign',
+                            freeCampaign: true,
+                            freeCampaignEnd: FREE_CAMPAIGN_END.toISOString(),
+                            createdAt: now,
+                            updatedAt: now
+                        });
+                        
+                        closeModal();
+                        // Go directly to app, skip Stripe
+                        window.location.href = '/app.html';
+                        return;
+                    }
+                    
+                    // Normal flow (after campaign)
                     const trialEnd = new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString();
                     
                     await db.collection('users').doc(user.uid).set({
@@ -3517,7 +3746,11 @@
         function validateSignup() {
             const ageCheck = document.getElementById('ageCheck').checked;
             const termsCheck = document.getElementById('termsCheck').checked;
-            const renewalCheck = document.getElementById('renewalCheck').checked;
+            const renewalCheck = document.getElementById('renewalCheck')?.checked;
+            
+            console.log('[validateSignup] IS_FREE_CAMPAIGN:', IS_FREE_CAMPAIGN);
+            console.log('[validateSignup] FREE_CAMPAIGN_END:', FREE_CAMPAIGN_END);
+            console.log('[validateSignup] Current date:', new Date());
             
             if (!ageCheck) {
                 showError('signupError', 'You must be 13 years or older');
@@ -3527,7 +3760,9 @@
                 showError('signupError', 'You must agree to the Terms of Service and Privacy Policy');
                 return false;
             }
-            if (!renewalCheck) {
+            // Skip renewal check during FREE CAMPAIGN
+            if (!IS_FREE_CAMPAIGN && !renewalCheck) {
+                console.log('[validateSignup] Renewal check failed - IS_FREE_CAMPAIGN is false');
                 showError('signupError', 'You must acknowledge the auto-renewal policy');
                 return false;
             }
@@ -3746,8 +3981,20 @@
         // UI
         // ==========================================
         function updateUI() {
-            document.getElementById('authButtons').classList.toggle('hidden', state.isLoggedIn);
-            document.getElementById('userMenu').classList.toggle('hidden', !state.isLoggedIn);
+            const isPreview = isLPPreviewMode();
+            const isLoggedIn = state.isLoggedIn || (typeof auth !== 'undefined' && auth.currentUser);
+            
+            // プレビューモードでログイン済みの場合、「アプリに戻る」ボタンを表示
+            if (isPreview && isLoggedIn) {
+                document.getElementById('authButtons').innerHTML = `
+                    <a href="app.html" class="btn btn-primary" onclick="sessionStorage.removeItem('lp_preview')">Back to App →</a>
+                `;
+                document.getElementById('authButtons').classList.remove('hidden');
+                document.getElementById('userMenu').classList.add('hidden');
+            } else {
+                document.getElementById('authButtons').classList.toggle('hidden', state.isLoggedIn);
+                document.getElementById('userMenu').classList.toggle('hidden', !state.isLoggedIn);
+            }
             
             if (state.user) {
                 document.getElementById('userAvatar').textContent = state.user.name[0].toUpperCase();
@@ -3869,6 +4116,13 @@
             openModal('signup');
         }
         
+        // FREE CAMPAIGN: Open signup without Stripe
+        function openFreeSignup() {
+            state.selectedPlan = 'free_campaign';
+            state.freeCampaign = true;
+            openModal('signup');
+        }
+        
         function closeModal() {
             document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('open'));
             document.querySelectorAll('.form-error').forEach(e => e.classList.add('hidden'));
@@ -3912,14 +4166,19 @@
                 btn_account: "Account",
                 btn_logout: "Log Out",
                 
+                // Nav
+                nav_ai: "AI Features",
+                
                 // Hero
-                hero_badge: "Built by Japanese Language Experts in Tokyo",
+                hero_badge: "Powered by Google Gemini AI",
                 hero_title: "Pass JLPT with",
                 hero_title_accent: "AI-Powered Learning",
-                hero_subtitle: "The most authentic JLPT preparation platform with thousands of questions, smart mock tests, and personalized study plans. Made in Japan since 2006.",
+                hero_title_full: "Your AI Japanese Tutor.<br>Always Available.",
+                hero_subtitle: "Practice conversations, get instant explanations, and learn at your own pace. AI that adapts to your level and teaches in your language.",
                 hero_cta: "Start Free",
                 hero_learn: "Learn More",
                 hero_note: "Card required · Cancel anytime",
+                hero_stat_ai: "Conversation",
                 hero_stat_questions: "Practice Questions",
                 hero_stat_units: "Learning Units",
                 hero_stat_levels: "All Levels",
@@ -4068,8 +4327,6 @@
                 plan_basic_f1: "Full JLPT N5-N3 content",
                 plan_basic_f2: "Learn / Practice / Review / Test modes",
                 plan_basic_f3: "Progress tracking",
-                plan_basic_f4: "Daily challenges",
-                plan_basic_f5: "League & rankings",
                 plan_standard_f1: "Everything in Basic",
                 plan_standard_f2: "AI Explanations",
                 plan_standard_f3: "Pass probability prediction",
@@ -4288,7 +4545,115 @@
                 why_ai_tutor_title: "24/7 AI Japanese Tutor",
                 why_ai_tutor_desc: "Questions at 2am? No problem. Get instant, natural responses powered by Google Gemini. Ask anything about grammar, vocabulary, or study strategies — anytime.",
                 why_ai_curve_title: "Forgetting Curve Optimization",
-                why_ai_curve_desc: "Based on Ebbinghaus research: without review, you forget 80% in 24 hours. Our AI predicts your personal forgetting curve and schedules reviews at the optimal moment."
+                why_ai_curve_desc: "Based on Ebbinghaus research: without review, you forget 80% in 24 hours. Our AI predicts your personal forgetting curve and schedules reviews at the optimal moment.",
+                
+                // Beta Notice
+                beta_notice: "<strong>BETA:</strong> This is a beta version. Features may change and re-registration may be required in rare cases.",
+                beta_notice_short: "BETA: Features may change. Re-registration may be required in rare cases.",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "Start Free Now →",
+                campaign_badge: "FREE CAMPAIGN",
+                campaign_banner: "🎉 FREE until March 31, 2026!",
+                campaign_banner_cta: "Get Free Access →",
+                campaign_notice_title: "Important Notice:",
+                campaign_notice_text: "• This free campaign ends on <strong>March 31, 2026</strong><br>• Starting <strong>April 1, 2026</strong>, a paid subscription ($4-15/month) will be required<br>• <strong>No automatic charges</strong> — you'll need to subscribe manually to continue<br>• Your learning progress will be saved for 2 years",
+                final_cta_title_free: "Don't Miss This Free Opportunity",
+                final_cta_sub_free: "All features free until March 31, 2026 · No credit card required",
+                
+                // Additional Campaign Keys
+                campaign_f1: "Full N5-N3 Content",
+                campaign_f2: "AI Explanations",
+                campaign_f3: "Authentic Mock Tests",
+                campaign_f4: "AI Tutor",
+                campaign_f5: "Progress Analytics",
+                campaign_note: "* Paid subscription starts April 1, 2026",
+                campaign_plan_name: "Premium Plan",
+                campaign_preview_title: "Features Available Free",
+                campaign_preview_free: "Free",
+                campaign_preview_normally: "Normally $179/year",
+                campaign_preview_all: "All features available",
+                campaign_preview_note: "No credit card · No automatic charges",
+                campaign_preview_cta: "Start free now →",
+                campaign_price: "Free",
+                campaign_until: "until March 31, 2026",
+                hero_cta_free: "Start Free",
+                hero_note_free: "Free until March 31, 2026 · No credit card required",
+                hero_stat_students: "Students",
+                hero_stat_retention: "Retention rate",
+                post_campaign_info: "Starting April 1, 2026, a paid subscription ($4-15/month) will be required",
+                section_pricing_free: "Free Now!",
+                section_pricing_free_sub: "All Premium features free until March 31, 2026",
+                footer_cancel: "Cancel Subscription",
+                
+                // Login Modal
+                login_title: "Welcome Back",
+                login_subtitle: "Log in to continue learning",
+                login_google: "Continue with Google",
+                login_or: "or",
+                login_email: "Email",
+                login_password: "Password",
+                login_forgot: "Forgot password?",
+                login_btn: "Log In",
+                login_no_account: "No account?",
+                login_signup_link: "Sign up",
+                modal_cancel: "Cancel",
+                
+                // Reset Password Modal
+                reset_title: "Reset Password",
+                reset_subtitle: "Enter your email to receive a reset link",
+                reset_btn: "Send Reset Link",
+                reset_remember: "Remember your password?",
+                reset_login_link: "Log in",
+                
+                // Signup Modal
+                signup_title: "Start Free Now",
+                signup_subtitle: "All features free until March 31, 2026",
+                signup_password_label: "Password (min 8 characters)",
+                signup_free_until: "FREE until March 31, 2026!",
+                signup_no_card: "No credit card",
+                signup_trial_notice: "⚠️ Your 7-day free trial will automatically convert to a paid subscription. Cancel anytime before to avoid charges.",
+                signup_age_check: "I am 13 years of age or older",
+                signup_terms_check: "I agree to the <a href='/terms.html' target='_blank'>Terms of Service</a> and <a href='/privacy.html' target='_blank'>Privacy Policy</a>",
+                signup_renewal_check: "I understand my subscription will auto-renew after trial",
+                signup_btn: "Start Free →",
+                
+                // Science Section
+                science_label: "Theoretical Foundation",
+                science_title: "Built on Proven Learning Science",
+                science_subtitle: "Where Instructional Design principles meet Second Language Acquisition research",
+                
+                // Account Modal
+                account_title: "Account Settings",
+                account_subscription: "Subscription",
+                account_free_campaign: "Free Campaign",
+                account_active: "Active",
+                account_manage: "Manage Subscription",
+                account_delete: "Delete Account",
+                account_close: "Close",
+                
+                // AI Features Section
+                ai_label: "Powered by Google Gemini",
+                ai_title: "AI That Understands Language Learning",
+                ai_subtitle: "Not just a chatbot. An intelligent tutor that adapts to your level, tracks your progress, and speaks your language.",
+                ai_conv_title: "AI Conversation Practice",
+                ai_conv_desc: "Practice real Japanese conversations with AI. Choose from scenarios like restaurant, shopping, travel, or let AI use only the vocabulary you've learned.",
+                ai_conv_feature: "Unit-Linked Mode",
+                ai_conv_feature_desc: "AI restricts vocabulary to your completed units",
+                ai_tutor_title: "24/7 AI Tutor",
+                ai_tutor_desc: "Ask any question about Japanese grammar, vocabulary, or kanji. Get instant, personalized explanations in your native language.",
+                ai_tutor_feature: "8 Languages",
+                ai_tutor_feature_desc: "Explanations in English, 中文, 한국어, and more",
+                ai_explain_title: "Instant \"Why?\" Explanations",
+                ai_explain_desc: "Got an answer wrong? Tap \"Why?\" and AI explains the correct answer, why other options were wrong, and provides memory tips.",
+                ai_explain_feature: "Learn From Mistakes",
+                ai_explain_feature_desc: "Turn every error into a learning opportunity",
+                
+                // Methodology Banner
+                methodology_label: "A New Paradigm in Language Learning",
+                methodology_headline: "Instructional Design.<br>SLA Theory. AI.",
+                methodology_desc: "The science of language acquisition, engineered for measurable outcomes.",
+                hero_title_full: "Master Japanese.<br>Scientifically."
             },
             'zh-tw': {
                 // Nav
@@ -4456,8 +4821,6 @@
                 plan_basic_f1: "JLPT N5-N3 全部內容",
                 plan_basic_f2: "學習 / 練習 / 複習 / 測驗",
                 plan_basic_f3: "學習進度追蹤",
-                plan_basic_f4: "每日挑戰",
-                plan_basic_f5: "排行榜系統",
                 plan_standard_f1: "Basic 全部功能",
                 plan_standard_f2: "AI解説",
                 plan_standard_f3: "合格機率預測",
@@ -4674,7 +5037,124 @@
                 why_ai_tutor_title: "24/7 AI日語導師",
                 why_ai_tutor_desc: "凌晨2點有問題？沒問題。獲得由Google Gemini驅動的即時、自然回應。隨時詢問文法、詞彙或學習策略。",
                 why_ai_curve_title: "遺忘曲線優化",
-                why_ai_curve_desc: "基於艾賓浩斯研究：不複習的話，24小時內會忘記80%。AI預測您個人的遺忘曲線，在最佳時刻安排複習。"
+                why_ai_curve_desc: "基於艾賓浩斯研究：不複習的話，24小時內會忘記80%。AI預測您個人的遺忘曲線，在最佳時刻安排複習。",
+                
+                // Beta Notice
+                beta_notice: "<strong>測試版：</strong>目前為測試版本，功能可能會調整，極少數情況下可能需要重新註冊。",
+                beta_notice_short: "測試版：功能可能變更，極少數情況下需重新註冊。",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "立即免費開始 →",
+                campaign_badge: "免費活動",
+                campaign_banner: "🎉 2026年3月31日前完全免費！",
+                campaign_banner_cta: "免費領取 →",
+                campaign_notice_title: "重要通知：",
+                campaign_notice_text: "• 此免費活動將於<strong>2026年3月31日</strong>結束<br>• <strong>2026年4月1日</strong>起需付費訂閱（每月$4-15美元）<br>• <strong>不會自動扣款</strong>——需要手動訂閱才能繼續使用<br>• 學習進度將保存2年",
+                final_cta_title_free: "把握這次免費機會！",
+                final_cta_sub_free: "2026年3月31日前所有功能免費 · 無需信用卡",
+                
+                // Additional Campaign Keys
+                campaign_f1: "N5-N3 完整內容",
+                campaign_f2: "AI 解說",
+                campaign_f3: "仿真模擬考",
+                campaign_f4: "AI 導師",
+                campaign_f5: "學習分析",
+                campaign_note: "* 2026年4月1日起轉為付費",
+                campaign_plan_name: "高級方案",
+                campaign_preview_title: "免費功能一覽",
+                campaign_preview_free: "免費",
+                campaign_preview_normally: "原價 $179/年",
+                campaign_preview_all: "所有功能皆可使用",
+                campaign_preview_note: "無需信用卡 · 不會自動扣款",
+                campaign_preview_cta: "立即免費開始 →",
+                campaign_price: "免費",
+                campaign_until: "至2026年3月31日",
+                hero_cta_free: "免費開始",
+                hero_note_free: "2026年3月31日前免費 · 無需信用卡",
+                hero_stat_students: "學員",
+                hero_stat_retention: "記憶留存率",
+                post_campaign_info: "2026年4月1日起需付費訂閱（每月$4-15美元）",
+                section_pricing_free: "現在免費！",
+                section_pricing_free_sub: "2026年3月31日前所有高級功能免費",
+                footer_cancel: "取消訂閱",
+                
+                // Modes
+                modes_label: "學習模式",
+                modes_title: "4種學習模式",
+                modes_subtitle: "循序漸進的系統學習",
+                mode_learn_title: "學習",
+                mode_learn_desc: "學習新單字和文法",
+                mode_practice_title: "練習",
+                mode_practice_desc: "練習所學內容",
+                mode_review_title: "複習",
+                mode_review_desc: "重做錯題",
+                mode_mock_title: "模擬考",
+                mode_mock_desc: "仿真實戰測驗",
+                
+                // Features
+                features_label: "功能",
+                features_headline: "通過JLPT所需的一切",
+                features_subheadline: "AI驅動的高效學習",
+                feature_srs_title: "智慧複習系統",
+                feature_srs_desc: "AI計算最佳複習時機，讓記憶更持久。",
+                feature_ai_title: "AI個人化學習",
+                feature_ai_desc: "分析您的弱點，推薦最適合的內容。",
+                feature_mock_title: "仿真模擬考",
+                feature_mock_desc: "與真實考試相同的題型和時間。",
+                coverage_mock: "模擬考",
+                demo_listen: "🔊 聽",
+                
+                // Login Modal
+                login_title: "歡迎回來",
+                login_subtitle: "登入以繼續學習",
+                login_google: "使用 Google 登入",
+                login_or: "或",
+                login_email: "電子郵件",
+                login_password: "密碼",
+                login_forgot: "忘記密碼？",
+                login_btn: "登入",
+                login_no_account: "沒有帳戶？",
+                login_signup_link: "註冊",
+                modal_cancel: "取消",
+                
+                // Reset Password Modal
+                reset_title: "重設密碼",
+                reset_subtitle: "輸入您的電子郵件以接收重設連結",
+                reset_btn: "發送重設連結",
+                reset_remember: "記得密碼了？",
+                reset_login_link: "登入",
+                
+                // Signup Modal
+                signup_title: "立即免費開始",
+                signup_subtitle: "2026年3月31日前所有功能免費",
+                signup_password_label: "密碼（至少8個字元）",
+                signup_free_until: "2026年3月31日前免費！",
+                signup_no_card: "無需信用卡",
+                signup_trial_notice: "⚠️ 7天免費試用後將自動轉為付費訂閱。可隨時在扣款前取消。",
+                signup_age_check: "我已年滿13歲",
+                signup_terms_check: "我同意<a href='/terms.html' target='_blank'>服務條款</a>和<a href='/privacy.html' target='_blank'>隱私政策</a>",
+                signup_renewal_check: "我了解試用結束後將自動續訂",
+                signup_btn: "免費開始 →",
+                
+                // Science Section
+                science_label: "學習科學",
+                science_title: "基於驗證的學習科學",
+                science_subtitle: "教學設計原理與第二語言習得研究的結合",
+                
+                // Account Modal
+                account_title: "帳戶設定",
+                account_subscription: "訂閱方案",
+                account_free_campaign: "免費活動",
+                account_active: "進行中",
+                account_manage: "管理訂閱",
+                account_delete: "刪除帳戶",
+                account_close: "關閉",
+                
+                // Methodology Banner
+                methodology_label: "語言學習的新範式",
+                methodology_headline: "教學設計。<br>第二語言習得理論。AI。",
+                methodology_desc: "語言習得的科學，為可衡量的成果而設計。",
+                hero_title_full: "科學地<br>掌握日語。"
             },
             'zh-cn': {
                 // Nav
@@ -4808,8 +5288,6 @@
                 plan_basic_f1: "JLPT N5-N3 全部内容",
                 plan_basic_f2: "学习 / 练习 / 复习 / 测验",
                 plan_basic_f3: "学习进度追踪",
-                plan_basic_f4: "每日挑战",
-                plan_basic_f5: "排行榜系统",
                 plan_standard_f1: "Basic 全部功能",
                 plan_standard_f2: "AI解説",
                 plan_standard_f3: "合格概率预测",
@@ -5026,7 +5504,124 @@
                 why_ai_tutor_title: "24/7 AI日语导师",
                 why_ai_tutor_desc: "凌晨2点有问题？没问题。获得由Google Gemini驱动的即时、自然回应。随时询问语法、词汇或学习策略。",
                 why_ai_curve_title: "遗忘曲线优化",
-                why_ai_curve_desc: "基于艾宾浩斯研究：不复习的话，24小时内会忘记80%。AI预测您个人的遗忘曲线，在最佳时刻安排复习。"
+                why_ai_curve_desc: "基于艾宾浩斯研究：不复习的话，24小时内会忘记80%。AI预测您个人的遗忘曲线，在最佳时刻安排复习。",
+                
+                // Beta Notice
+                beta_notice: "<strong>测试版：</strong>目前为测试版本，功能可能会调整，极少数情况下可能需要重新注册。",
+                beta_notice_short: "测试版：功能可能变更，极少数情况下需重新注册。",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "立即免费开始 →",
+                campaign_badge: "免费活动",
+                campaign_banner: "🎉 2026年3月31日前完全免费！",
+                campaign_banner_cta: "免费领取 →",
+                campaign_notice_title: "重要通知：",
+                campaign_notice_text: "• 此免费活动将于<strong>2026年3月31日</strong>结束<br>• <strong>2026年4月1日</strong>起需付费订阅（每月$4-15美元）<br>• <strong>不会自动扣款</strong>——需要手动订阅才能继续使用<br>• 学习进度将保存2年",
+                final_cta_title_free: "把握这次免费机会！",
+                final_cta_sub_free: "2026年3月31日前所有功能免费 · 无需信用卡",
+                
+                // Additional Campaign Keys
+                campaign_f1: "N5-N3 完整内容",
+                campaign_f2: "AI 解说",
+                campaign_f3: "仿真模拟考",
+                campaign_f4: "AI 导师",
+                campaign_f5: "学习分析",
+                campaign_note: "* 2026年4月1日起转为付费",
+                campaign_plan_name: "高级方案",
+                campaign_preview_title: "免费功能一览",
+                campaign_preview_free: "免费",
+                campaign_preview_normally: "原价 $179/年",
+                campaign_preview_all: "所有功能皆可使用",
+                campaign_preview_note: "无需信用卡 · 不会自动扣款",
+                campaign_preview_cta: "立即免费开始 →",
+                campaign_price: "免费",
+                campaign_until: "至2026年3月31日",
+                hero_cta_free: "免费开始",
+                hero_note_free: "2026年3月31日前免费 · 无需信用卡",
+                hero_stat_students: "学员",
+                hero_stat_retention: "记忆留存率",
+                post_campaign_info: "2026年4月1日起需付费订阅（每月$4-15美元）",
+                section_pricing_free: "现在免费！",
+                section_pricing_free_sub: "2026年3月31日前所有高级功能免费",
+                footer_cancel: "取消订阅",
+                
+                // Modes
+                modes_label: "学习模式",
+                modes_title: "4种学习模式",
+                modes_subtitle: "循序渐进的系统学习",
+                mode_learn_title: "学习",
+                mode_learn_desc: "学习新单词和语法",
+                mode_practice_title: "练习",
+                mode_practice_desc: "练习所学内容",
+                mode_review_title: "复习",
+                mode_review_desc: "重做错题",
+                mode_mock_title: "模拟考",
+                mode_mock_desc: "仿真实战测验",
+                
+                // Features
+                features_label: "功能",
+                features_headline: "通过JLPT所需的一切",
+                features_subheadline: "AI驱动的高效学习",
+                feature_srs_title: "智慧复习系统",
+                feature_srs_desc: "AI计算最佳复习时机，让记忆更持久。",
+                feature_ai_title: "AI个性化学习",
+                feature_ai_desc: "分析您的弱点，推荐最适合的内容。",
+                feature_mock_title: "仿真模拟考",
+                feature_mock_desc: "与真实考试相同的题型和时间。",
+                coverage_mock: "模拟考",
+                demo_listen: "🔊 听",
+                
+                // Login Modal
+                login_title: "欢迎回来",
+                login_subtitle: "登录以继续学习",
+                login_google: "使用 Google 登录",
+                login_or: "或",
+                login_email: "电子邮件",
+                login_password: "密码",
+                login_forgot: "忘记密码？",
+                login_btn: "登录",
+                login_no_account: "没有账户？",
+                login_signup_link: "注册",
+                modal_cancel: "取消",
+                
+                // Reset Password Modal
+                reset_title: "重设密码",
+                reset_subtitle: "输入您的电子邮件以接收重设链接",
+                reset_btn: "发送重设链接",
+                reset_remember: "记得密码了？",
+                reset_login_link: "登录",
+                
+                // Signup Modal
+                signup_title: "立即免费开始",
+                signup_subtitle: "2026年3月31日前所有功能免费",
+                signup_password_label: "密码（至少8个字符）",
+                signup_free_until: "2026年3月31日前免费！",
+                signup_no_card: "无需信用卡",
+                signup_trial_notice: "⚠️ 7天免费试用后将自动转为付费订阅。可随时在扣款前取消。",
+                signup_age_check: "我已年满13岁",
+                signup_terms_check: "我同意<a href='/terms.html' target='_blank'>服务条款</a>和<a href='/privacy.html' target='_blank'>隐私政策</a>",
+                signup_renewal_check: "我了解试用结束后将自动续订",
+                signup_btn: "免费开始 →",
+                
+                // Science Section
+                science_label: "学习科学",
+                science_title: "基于验证的学习科学",
+                science_subtitle: "教学设计原理与第二语言习得研究的结合",
+                
+                // Account Modal
+                account_title: "账户设置",
+                account_subscription: "订阅方案",
+                account_free_campaign: "免费活动",
+                account_active: "进行中",
+                account_manage: "管理订阅",
+                account_delete: "删除账户",
+                account_close: "关闭",
+                
+                // Methodology Banner
+                methodology_label: "语言学习的新范式",
+                methodology_headline: "教学设计。<br>第二语言习得理论。AI。",
+                methodology_desc: "语言习得的科学，为可衡量的成果而设计。",
+                hero_title_full: "科学地<br>掌握日语。"
             },
             'ko': {
                 // Navigation
@@ -5102,8 +5697,6 @@
                 plan_basic_f1: "JLPT N5-N3 전체 콘텐츠",
                 plan_basic_f2: "학습 / 연습 / 복습 / 테스트",
                 plan_basic_f3: "학습 진도 관리",
-                plan_basic_f4: "일일 챌린지",
-                plan_basic_f5: "리그 시스템",
                 plan_standard_f1: "Basic 전체 기능 포함",
                 plan_standard_f2: "AI 설명",
                 plan_standard_f3: "합격 확률 예측",
@@ -5194,7 +5787,176 @@
                 why_ai_tutor_title: "24시간 AI 일본어 튜터",
                 why_ai_tutor_desc: "새벽에 갑자기 궁금한 게 생겼나요? 괜찮아요! Google Gemini 기반 AI가 언제든 답변해 드려요.",
                 why_ai_curve_title: "망각 곡선 최적화",
-                why_ai_curve_desc: "복습 안 하면 24시간 내 80%를 잊는다는 거 아세요? AI가 개인별 망각 패턴을 분석해서 딱 맞는 타이밍에 복습을 알려드려요."
+                why_ai_curve_desc: "복습 안 하면 24시간 내 80%를 잊는다는 거 아세요? AI가 개인별 망각 패턴을 분석해서 딱 맞는 타이밍에 복습을 알려드려요.",
+                
+                // Beta Notice
+                beta_notice: "<strong>베타 버전:</strong> 현재 베타 테스트 중입니다. 기능이 변경되거나 드물게 재가입이 필요할 수 있어요.",
+                beta_notice_short: "베타: 기능 변경 가능, 드물게 재가입 필요",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "무료로 시작하기 →",
+                campaign_badge: "무료 캠페인",
+                campaign_banner: "🎉 2026년 3월 31일까지 완전 무료!",
+                campaign_banner_cta: "무료 이용하기 →",
+                campaign_notice_title: "중요 안내:",
+                campaign_notice_text: "• 이 무료 캠페인은 <strong>2026년 3월 31일</strong>에 종료됩니다<br>• <strong>2026년 4월 1일</strong>부터 유료 구독($4-15/월)이 필요합니다<br>• <strong>자동 결제 없음</strong> — 계속 이용하려면 직접 구독해야 합니다<br>• 학습 기록은 2년간 보관됩니다",
+                final_cta_title_free: "이 무료 기회를 놓치지 마세요!",
+                final_cta_sub_free: "2026년 3월 31일까지 모든 기능 무료 · 신용카드 불필요",
+                
+                // Additional Missing Translations
+                campaign_f1: "N5-N3 전체 콘텐츠",
+                campaign_f2: "AI 해설",
+                campaign_f3: "실전 모의고사",
+                campaign_f4: "AI 튜터",
+                campaign_f5: "진도 분석",
+                campaign_note: "* 2026년 4월 1일부터 유료 전환",
+                campaign_plan_name: "프리미엄 플랜",
+                campaign_preview_title: "무료로 이용 가능한 기능",
+                campaign_preview_free: "무료",
+                campaign_preview_normally: "정가 $179/년",
+                campaign_preview_all: "전체 기능 이용 가능",
+                campaign_preview_note: "신용카드 불필요 · 자동 결제 없음",
+                campaign_preview_cta: "지금 무료 시작 →",
+                campaign_price: "무료",
+                campaign_until: "2026년 3월 31일까지",
+                coming: "출시 예정",
+                coming_soon: "곧 출시",
+                compare_label: "비교",
+                compare_title: "왜 Fujisan.AI인가요?",
+                compare_subtitle: "다른 JLPT 학습 방법과 비교해 보세요",
+                compare_feature: "기능",
+                compare_textbooks: "교재",
+                compare_other: "타 앱",
+                compare_jlpt: "JLPT 특화 커리큘럼",
+                compare_mock: "실전 모의고사",
+                compare_japan: "일본 제작",
+                compare_levels: "전 레벨 (N5-N1)",
+                compare_full: "완벽 지원",
+                compare_partial: "일부/제한적",
+                compare_none: "미지원",
+                coverage_vocab: "어휘",
+                coverage_kanji: "한자",
+                coverage_grammar: "문법",
+                coverage_mock: "모의고사",
+                demo_listen: "듣기",
+                faq_q3: "모의고사는 다른 앱과 뭐가 다른가요?",
+                faq_a3: "20년 이상의 실제 JLPT 시험을 분석하여 설계했습니다. 실제 시험과 동일한 형식, 시간, 난이도로 구성되어 있어요.",
+                faq_q4: "스마트폰에서도 이용할 수 있나요?",
+                faq_a4: "네! Fujisan.AI는 데스크톱, 태블릿, 스마트폰 어디서든 이용 가능합니다. 진도는 모든 기기에서 자동 동기화됩니다.",
+                faq_q5: "Fujisan.AI는 누가 만들었나요?",
+                faq_a5: "2006년부터 일본 온라인 어학 교육을 선도해 온 도쿄 기반 TORAIZ Inc.가 개발했습니다.",
+                feature_srs_title: "스마트 복습 시스템",
+                feature_srs_desc: "AI가 최적의 복습 타이밍을 계산하여 효율적으로 기억할 수 있도록 도와드려요.",
+                feature_lang_title: "8개 언어 지원",
+                feature_lang_desc: "한국어, 영어, 中文, Tiếng Việt, Bahasa Indonesia, Español, Português로 학습하세요.",
+                features_label: "기능",
+                features_headline: "합격을 위한 모든 기능",
+                features_subheadline: "AI 기반 학습으로 효율적인 JLPT 준비",
+                footer_features: "기능",
+                footer_levels: "레벨",
+                footer_pricing: "요금제",
+                footer_legal: "법적 정보",
+                footer_made: "도쿄에서 제작 🇯🇵",
+                footer_cancel: "구독 취소",
+                hero_cta_free: "무료로 시작하기",
+                hero_note_free: "2026년 3월 31일까지 무료 · 신용카드 불필요",
+                hero_stat_students: "학습자",
+                hero_stat_retention: "기억 유지율",
+                japan_title: "왜 일본에서 만든 앱이 중요할까요?",
+                japan_p1: "일본어 교육 전문가가 직접 제작",
+                japan_p2: "실제 JLPT 출제 경향 완벽 반영",
+                japan_p3: "원어민 감수로 자연스러운 일본어",
+                level_n5_desc: "일본어 여정의 시작. 히라가나, 가타카나, 기초 한자와 필수 문법을 마스터하세요.",
+                level_n4_desc: "기초를 다지세요. 복잡한 대화를 처리하고 간단한 글을 읽을 수 있어요.",
+                level_n3_desc: "유창함으로 가는 다리. 일상 일본어를 이해하고 섬세한 의견을 표현하세요.",
+                level_n2_desc: "전문가 수준. 신문을 읽고 대부분의 일본어를 이해할 수 있어요.",
+                level_n1_desc: "네이티브 수준. 복잡하고 섬세한 일본어로 어떤 상황도 처리할 수 있어요.",
+                level_vocabulary: "어휘",
+                level_new_kanji: "신규 한자",
+                level_grammar: "문법",
+                level_total: "총 항목",
+                level_n5_units: "50개 유닛",
+                level_n5_f1: "히라가나 & 가타카나 마스터",
+                level_n5_f2: "기본 문형",
+                level_n5_f3: "자기소개 & 일상생활",
+                level_n4_f1: "て형과 동사 활용",
+                level_n4_f2: "가능형과 수동형",
+                level_n4_f3: "짧은 글 읽기",
+                level_n3_f1: "복합 문법 패턴",
+                level_n3_f2: "자연스러운 대화",
+                level_n3_f3: "비즈니스 일본어 기초",
+                level_n2_f1: "비즈니스 일본어",
+                level_n2_f2: "학술적 읽기",
+                level_n2_f3: "고급 청해",
+                level_n1_f1: "문학적 표현",
+                level_n1_f2: "섬세한 의사소통",
+                level_n1_f3: "대학 수준의 텍스트",
+                modes_label: "학습 모드",
+                modes_title: "4가지 학습 모드",
+                modes_subtitle: "단계별로 체계적인 학습",
+                mode_learn_title: "학습",
+                mode_learn_desc: "새로운 어휘와 문법을 배워요",
+                mode_practice_title: "연습",
+                mode_practice_desc: "배운 내용을 연습해요",
+                mode_review_title: "복습",
+                mode_review_desc: "틀린 문제를 다시 풀어요",
+                mode_mock_title: "모의고사",
+                mode_mock_desc: "실전처럼 시험을 봐요",
+                post_campaign_info: "2026년 4월 1일부터 월 $4-15의 유료 구독이 필요합니다",
+                section_pricing_free: "지금 무료!",
+                section_pricing_free_sub: "2026년 3월 31일까지 모든 프리미엄 기능 무료",
+                
+                // Login Modal
+                login_title: "다시 오신 걸 환영해요!",
+                login_subtitle: "로그인하고 학습을 계속하세요",
+                login_google: "Google로 계속하기",
+                login_or: "또는",
+                login_email: "이메일",
+                login_password: "비밀번호",
+                login_forgot: "비밀번호 찾기",
+                login_btn: "로그인",
+                login_no_account: "계정이 없으신가요?",
+                login_signup_link: "가입하기",
+                modal_cancel: "취소",
+                
+                // Reset Password Modal
+                reset_title: "비밀번호 재설정",
+                reset_subtitle: "재설정 링크를 받을 이메일을 입력하세요",
+                reset_btn: "재설정 링크 보내기",
+                reset_remember: "비밀번호가 기억나셨나요?",
+                reset_login_link: "로그인",
+                
+                // Signup Modal
+                signup_title: "지금 무료로 시작",
+                signup_subtitle: "2026년 3월 31일까지 모든 기능 무료",
+                signup_password_label: "비밀번호 (최소 8자)",
+                signup_free_until: "2026년 3월 31일까지 무료!",
+                signup_no_card: "신용카드 불필요",
+                signup_trial_notice: "⚠️ 7일 무료 체험 후 자동으로 유료 구독으로 전환됩니다. 청구 전 언제든 취소 가능합니다.",
+                signup_age_check: "만 13세 이상입니다",
+                signup_terms_check: "<a href='/terms.html' target='_blank'>이용약관</a>과 <a href='/privacy.html' target='_blank'>개인정보처리방침</a>에 동의합니다",
+                signup_renewal_check: "체험 종료 후 자동 갱신됨을 이해합니다",
+                signup_btn: "무료 시작 →",
+                
+                // Science Section
+                science_label: "학습 과학",
+                science_title: "검증된 학습 과학 기반",
+                science_subtitle: "교수 설계 원리와 제2언어 습득 연구의 만남",
+                
+                // Account Modal
+                account_title: "계정 설정",
+                account_subscription: "구독",
+                account_free_campaign: "무료 캠페인",
+                account_active: "활성",
+                account_manage: "구독 관리",
+                account_delete: "계정 삭제",
+                account_close: "닫기",
+                
+                // Methodology Banner
+                methodology_label: "언어 학습의 새로운 패러다임",
+                methodology_headline: "교수 설계.<br>SLA 이론. AI.",
+                methodology_desc: "측정 가능한 결과를 위해 설계된 언어 습득 과학.",
+                hero_title_full: "과학적으로<br>일본어 마스터."
             },
             'vi': {
                 // Navigation
@@ -5270,8 +6032,6 @@
                 plan_basic_f1: "Toàn bộ nội dung JLPT N5-N3",
                 plan_basic_f2: "Học / Luyện tập / Ôn tập / Kiểm tra",
                 plan_basic_f3: "Theo dõi tiến độ học tập",
-                plan_basic_f4: "Thử thách hàng ngày",
-                plan_basic_f5: "Hệ thống xếp hạng",
                 plan_standard_f1: "Bao gồm tất cả tính năng Basic",
                 plan_standard_f2: "Giải thích AI",
                 plan_standard_f3: "Dự đoán khả năng đỗ",
@@ -5362,7 +6122,175 @@
                 why_ai_tutor_title: "Gia sư AI 24/7",
                 why_ai_tutor_desc: "Có câu hỏi lúc 2 giờ sáng? Không vấn đề. Nhận phản hồi tức thì, tự nhiên được hỗ trợ bởi Google Gemini.",
                 why_ai_curve_title: "Tối ưu hóa đường cong quên",
-                why_ai_curve_desc: "Theo nghiên cứu Ebbinghaus: không ôn tập sẽ quên 80% trong 24 giờ. AI dự đoán đường cong quên cá nhân và lên lịch ôn tập vào thời điểm tối ưu."
+                why_ai_curve_desc: "Theo nghiên cứu Ebbinghaus: không ôn tập sẽ quên 80% trong 24 giờ. AI dự đoán đường cong quên cá nhân và lên lịch ôn tập vào thời điểm tối ưu.",
+                
+                // Beta Notice
+                beta_notice: "<strong>BETA:</strong> Đây là phiên bản thử nghiệm. Tính năng có thể thay đổi và trong một số ít trường hợp có thể cần đăng ký lại.",
+                beta_notice_short: "BETA: Tính năng có thể thay đổi, có thể cần đăng ký lại.",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "Bắt đầu Miễn phí →",
+                campaign_badge: "MIỄN PHÍ",
+                campaign_banner: "🎉 MIỄN PHÍ đến 31/03/2026!",
+                campaign_banner_cta: "Nhận Miễn phí →",
+                campaign_notice_title: "Lưu ý quan trọng:",
+                campaign_notice_text: "• Chương trình miễn phí kết thúc vào <strong>31/03/2026</strong><br>• Từ <strong>01/04/2026</strong>, cần đăng ký trả phí ($4-15/tháng)<br>• <strong>Không tự động tính phí</strong> — bạn cần đăng ký thủ công để tiếp tục<br>• Tiến độ học tập được lưu 2 năm",
+                final_cta_title_free: "Đừng bỏ lỡ cơ hội miễn phí này!",
+                final_cta_sub_free: "Tất cả tính năng miễn phí đến 31/03/2026 · Không cần thẻ tín dụng",
+                
+                // Additional Missing Translations
+                campaign_f1: "Toàn bộ N5-N3",
+                campaign_f2: "Giải thích AI",
+                campaign_f3: "Đề thi thử thực tế",
+                campaign_f4: "Gia sư AI",
+                campaign_f5: "Phân tích tiến độ",
+                campaign_note: "* Chuyển sang trả phí từ 01/04/2026",
+                campaign_plan_name: "Gói Premium",
+                campaign_preview_title: "Tính năng miễn phí",
+                campaign_preview_free: "Miễn phí",
+                campaign_preview_normally: "Thường $179/năm",
+                campaign_preview_all: "Tất cả tính năng",
+                campaign_preview_note: "Không cần thẻ · Không tự động tính phí",
+                campaign_preview_cta: "Bắt đầu miễn phí →",
+                campaign_price: "Miễn phí",
+                campaign_until: "đến 31/03/2026",
+                coming: "Sắp ra mắt",
+                coming_soon: "Sắp có",
+                compare_label: "So sánh",
+                compare_title: "Tại sao chọn Fujisan.AI?",
+                compare_subtitle: "So sánh với các phương pháp học JLPT khác",
+                compare_feature: "Tính năng",
+                compare_textbooks: "Sách giáo khoa",
+                compare_other: "Ứng dụng khác",
+                compare_jlpt: "Giáo trình JLPT chuyên biệt",
+                compare_mock: "Đề thi thử chuẩn",
+                compare_japan: "Sản xuất tại Nhật",
+                compare_levels: "Tất cả cấp độ (N5-N1)",
+                compare_full: "Hỗ trợ đầy đủ",
+                compare_partial: "Một phần/Giới hạn",
+                compare_none: "Không có",
+                coverage_vocab: "Từ vựng",
+                coverage_kanji: "Kanji",
+                coverage_grammar: "Ngữ pháp",
+                coverage_mock: "Đề thi thử",
+                faq_q3: "Đề thi thử khác gì các ứng dụng khác?",
+                faq_a3: "Đề thi của chúng tôi được thiết kế dựa trên phân tích 20 năm đề thi JLPT thực tế. Cùng định dạng, thời gian và độ khó như đề thật.",
+                faq_q4: "Tôi có thể dùng trên điện thoại không?",
+                faq_a4: "Có! Fujisan.AI hoạt động trên mọi thiết bị có trình duyệt web. Tiến độ tự động đồng bộ giữa các thiết bị.",
+                faq_q5: "Ai tạo ra Fujisan.AI?",
+                faq_a5: "Fujisan.AI được phát triển bởi TORAIZ Inc., công ty có trụ sở tại Tokyo, tiên phong trong giáo dục ngôn ngữ trực tuyến từ 2006.",
+                feature_srs_title: "Hệ thống ôn tập thông minh",
+                feature_srs_desc: "AI tính toán thời điểm ôn tập tối ưu để bạn nhớ lâu hơn.",
+                feature_lang_title: "Hỗ trợ 8 ngôn ngữ",
+                feature_lang_desc: "Học bằng Tiếng Việt, English, 中文, 한국어, Bahasa Indonesia, Español, Português.",
+                features_label: "Tính năng",
+                features_headline: "Mọi thứ để đỗ JLPT",
+                features_subheadline: "Học hiệu quả với AI",
+                footer_features: "Tính năng",
+                footer_levels: "Cấp độ",
+                footer_pricing: "Bảng giá",
+                footer_legal: "Pháp lý",
+                footer_made: "Sản xuất tại Tokyo 🇯🇵",
+                footer_cancel: "Hủy đăng ký",
+                hero_cta_free: "Bắt đầu miễn phí",
+                hero_note_free: "Miễn phí đến 31/03/2026 · Không cần thẻ",
+                hero_stat_students: "Học viên",
+                hero_stat_retention: "Tỷ lệ ghi nhớ",
+                japan_title: "Tại sao ứng dụng từ Nhật Bản quan trọng?",
+                japan_p1: "Chuyên gia giáo dục Nhật Bản trực tiếp thiết kế",
+                japan_p2: "Phản ánh chính xác xu hướng đề thi JLPT",
+                japan_p3: "Tiếng Nhật tự nhiên được người bản ngữ kiểm duyệt",
+                level_n5_desc: "Khởi đầu hành trình. Thành thạo hiragana, katakana, kanji cơ bản và ngữ pháp thiết yếu.",
+                level_n4_desc: "Xây dựng nền tảng. Xử lý hội thoại phức tạp và đọc văn bản đơn giản.",
+                level_n3_desc: "Cầu nối đến lưu loát. Hiểu tiếng Nhật hàng ngày và diễn đạt ý kiến tinh tế.",
+                level_n2_desc: "Cấp độ chuyên nghiệp. Đọc báo và hiểu hầu hết tiếng Nhật nói.",
+                level_n1_desc: "Gần như bản ngữ. Xử lý mọi tình huống với tiếng Nhật phức tạp, tinh tế.",
+                level_vocabulary: "Từ vựng",
+                level_new_kanji: "Kanji mới",
+                level_grammar: "Ngữ pháp",
+                level_total: "Tổng số",
+                level_n5_units: "50 bài",
+                level_n5_f1: "Thành thạo Hiragana & Katakana",
+                level_n5_f2: "Mẫu câu cơ bản",
+                level_n5_f3: "Tự giới thiệu & Cuộc sống hàng ngày",
+                level_n4_f1: "Dạng て và chia động từ",
+                level_n4_f2: "Thể khả năng và bị động",
+                level_n4_f3: "Đọc đoạn văn ngắn",
+                level_n3_f1: "Mẫu ngữ pháp phức tạp",
+                level_n3_f2: "Hội thoại tự nhiên",
+                level_n3_f3: "Tiếng Nhật thương mại cơ bản",
+                level_n2_f1: "Tiếng Nhật thương mại",
+                level_n2_f2: "Đọc học thuật",
+                level_n2_f3: "Nghe phức tạp",
+                level_n1_f1: "Biểu đạt văn học",
+                level_n1_f2: "Giao tiếp tinh tế",
+                level_n1_f3: "Văn bản cấp đại học",
+                modes_label: "Chế độ học",
+                modes_title: "4 chế độ học tập",
+                modes_subtitle: "Học có hệ thống từng bước",
+                mode_learn_title: "Học",
+                mode_learn_desc: "Học từ vựng và ngữ pháp mới",
+                mode_practice_title: "Luyện tập",
+                mode_practice_desc: "Thực hành những gì đã học",
+                mode_review_title: "Ôn tập",
+                mode_review_desc: "Làm lại câu sai",
+                mode_mock_title: "Thi thử",
+                mode_mock_desc: "Thi như thật",
+                post_campaign_info: "Từ 01/04/2026, cần đăng ký trả phí $4-15/tháng",
+                section_pricing_free: "Miễn phí ngay!",
+                section_pricing_free_sub: "Tất cả tính năng Premium miễn phí đến 31/03/2026",
+                
+                // Login Modal
+                login_title: "Chào mừng trở lại",
+                login_subtitle: "Đăng nhập để tiếp tục học",
+                login_google: "Tiếp tục với Google",
+                login_or: "hoặc",
+                login_email: "Email",
+                login_password: "Mật khẩu",
+                login_forgot: "Quên mật khẩu?",
+                login_btn: "Đăng nhập",
+                login_no_account: "Chưa có tài khoản?",
+                login_signup_link: "Đăng ký",
+                modal_cancel: "Hủy",
+                
+                // Reset Password Modal
+                reset_title: "Đặt lại mật khẩu",
+                reset_subtitle: "Nhập email để nhận link đặt lại",
+                reset_btn: "Gửi link đặt lại",
+                reset_remember: "Nhớ mật khẩu rồi?",
+                reset_login_link: "Đăng nhập",
+                
+                // Signup Modal
+                signup_title: "Bắt đầu miễn phí",
+                signup_subtitle: "Tất cả tính năng miễn phí đến 31/03/2026",
+                signup_password_label: "Mật khẩu (tối thiểu 8 ký tự)",
+                signup_free_until: "Miễn phí đến 31/03/2026!",
+                signup_no_card: "Không cần thẻ",
+                signup_trial_notice: "⚠️ Sau 7 ngày dùng thử, sẽ tự động chuyển sang trả phí. Hủy bất cứ lúc nào trước khi bị tính phí.",
+                signup_age_check: "Tôi từ 13 tuổi trở lên",
+                signup_terms_check: "Tôi đồng ý với <a href='/terms.html' target='_blank'>Điều khoản dịch vụ</a> và <a href='/privacy.html' target='_blank'>Chính sách bảo mật</a>",
+                signup_renewal_check: "Tôi hiểu đăng ký sẽ tự động gia hạn sau dùng thử",
+                signup_btn: "Bắt đầu miễn phí →",
+                
+                // Science Section
+                science_label: "Khoa học học tập",
+                science_title: "Dựa trên khoa học học tập đã được chứng minh",
+                science_subtitle: "Khi nguyên lý thiết kế giảng dạy gặp nghiên cứu tiếp thu ngôn ngữ thứ hai",
+                
+                // Account Modal
+                account_title: "Cài đặt tài khoản",
+                account_subscription: "Đăng ký",
+                account_free_campaign: "Miễn phí",
+                account_active: "Đang hoạt động",
+                account_manage: "Quản lý đăng ký",
+                account_delete: "Xóa tài khoản",
+                account_close: "Đóng",
+                
+                // Methodology Banner
+                methodology_label: "Mô hình mới trong học ngôn ngữ",
+                methodology_headline: "Thiết kế giảng dạy.<br>Lý thuyết SLA. AI.",
+                methodology_desc: "Khoa học tiếp thu ngôn ngữ, được thiết kế cho kết quả đo lường được.",
+                hero_title_full: "Thành thạo tiếng Nhật.<br>Một cách khoa học."
             },
             'id': {
                 // Navigation
@@ -5438,8 +6366,6 @@
                 plan_basic_f1: "Seluruh konten JLPT N5-N3",
                 plan_basic_f2: "Belajar / Latihan / Review / Tes",
                 plan_basic_f3: "Pantau perkembangan belajar",
-                plan_basic_f4: "Tantangan harian",
-                plan_basic_f5: "Sistem peringkat",
                 plan_standard_f1: "Termasuk semua fitur Basic",
                 plan_standard_f2: "Penjelasan AI",
                 plan_standard_f3: "Prediksi peluang lulus",
@@ -5482,7 +6408,168 @@
                 
                 // Final CTA
                 final_cta_title: "Mulai Perjalanan JLPT Anda Sekarang",
-                final_cta_sub: "7 hari gratis · Kartu kredit diperlukan · Bisa batal kapan saja"
+                final_cta_sub: "7 hari gratis · Kartu kredit diperlukan · Bisa batal kapan saja",
+                
+                // Beta Notice
+                beta_notice: "<strong>BETA:</strong> Ini adalah versi beta. Fitur dapat berubah dan dalam kasus langka mungkin perlu registrasi ulang.",
+                beta_notice_short: "BETA: Fitur dapat berubah. Mungkin perlu registrasi ulang.",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "Mulai Gratis →",
+                campaign_badge: "GRATIS",
+                campaign_banner: "🎉 GRATIS sampai 31 Maret 2026!",
+                campaign_banner_cta: "Dapatkan Gratis →",
+                campaign_notice_title: "Pemberitahuan Penting:",
+                campaign_notice_text: "• Kampanye gratis ini berakhir pada <strong>31 Maret 2026</strong><br>• Mulai <strong>1 April 2026</strong>, diperlukan langganan berbayar ($4-15/bulan)<br>• <strong>Tidak ada tagihan otomatis</strong> — Anda perlu berlangganan manual untuk melanjutkan<br>• Progress belajar disimpan selama 2 tahun",
+                final_cta_title_free: "Jangan Lewatkan Kesempatan Gratis Ini!",
+                final_cta_sub_free: "Semua fitur gratis sampai 31 Maret 2026 · Tanpa kartu kredit",
+                
+                // Additional Missing Translations
+                campaign_f1: "Seluruh konten N5-N3",
+                campaign_f2: "Penjelasan AI",
+                campaign_f3: "Simulasi ujian nyata",
+                campaign_f4: "Tutor AI",
+                campaign_f5: "Analisis progress",
+                campaign_note: "* Berbayar mulai 1 April 2026",
+                campaign_plan_name: "Paket Premium",
+                campaign_preview_title: "Fitur yang tersedia gratis",
+                campaign_preview_free: "Gratis",
+                campaign_preview_normally: "Biasanya $179/tahun",
+                campaign_preview_all: "Semua fitur tersedia",
+                campaign_preview_note: "Tanpa kartu kredit · Tanpa tagihan otomatis",
+                campaign_preview_cta: "Mulai gratis sekarang →",
+                campaign_price: "Gratis",
+                campaign_until: "sampai 31 Maret 2026",
+                coming: "Segera hadir",
+                coming_soon: "Segera",
+                compare_label: "Perbandingan",
+                compare_title: "Kenapa Fujisan.AI?",
+                compare_subtitle: "Bandingkan dengan metode belajar JLPT lainnya",
+                compare_feature: "Fitur",
+                compare_textbooks: "Buku Teks",
+                compare_other: "Aplikasi Lain",
+                compare_jlpt: "Kurikulum khusus JLPT",
+                compare_mock: "Simulasi ujian autentik",
+                compare_japan: "Buatan Jepang",
+                compare_levels: "Semua level (N5-N1)",
+                compare_full: "Dukungan penuh",
+                compare_partial: "Sebagian/Terbatas",
+                compare_none: "Tidak tersedia",
+                coverage_mock: "Simulasi",
+                faq_q3: "Apa bedanya simulasi ujian dengan aplikasi lain?",
+                faq_a3: "Simulasi kami dirancang berdasarkan analisis 20 tahun soal JLPT asli. Format, waktu, dan tingkat kesulitan sama persis dengan ujian nyata.",
+                faq_q4: "Bisa digunakan di HP?",
+                faq_a4: "Ya! Fujisan.AI bisa diakses di perangkat apapun dengan browser web. Progress otomatis tersinkron di semua perangkat.",
+                faq_q5: "Siapa yang membuat Fujisan.AI?",
+                faq_a5: "Fujisan.AI dikembangkan oleh TORAIZ Inc., perusahaan berbasis di Tokyo yang menjadi pionir pendidikan bahasa online sejak 2006.",
+                feature_srs_title: "Sistem Review Cerdas",
+                feature_srs_desc: "AI menghitung waktu review optimal agar Anda mengingat lebih lama.",
+                feature_lang_title: "Dukungan 8 Bahasa",
+                feature_lang_desc: "Belajar dalam Bahasa Indonesia, English, 中文, 한국어, Tiếng Việt, Español, Português.",
+                features_label: "Fitur",
+                features_headline: "Semua yang dibutuhkan untuk lulus",
+                features_subheadline: "Belajar efektif dengan AI",
+                footer_features: "Fitur",
+                footer_levels: "Level",
+                footer_pricing: "Harga",
+                footer_legal: "Legal",
+                footer_made: "Dibuat di Tokyo 🇯🇵",
+                footer_cancel: "Batalkan langganan",
+                hero_cta_free: "Mulai Gratis",
+                hero_note_free: "Gratis sampai 31 Maret 2026 · Tanpa kartu kredit",
+                hero_stat_students: "Pelajar",
+                hero_stat_retention: "Tingkat retensi",
+                japan_title: "Kenapa aplikasi dari Jepang penting?",
+                japan_p1: "Dirancang langsung oleh ahli pendidikan Jepang",
+                japan_p2: "Mencerminkan tren soal JLPT yang sebenarnya",
+                japan_p3: "Bahasa Jepang natural, diverifikasi penutur asli",
+                level_n5_desc: "Mulai perjalanan Anda. Kuasai hiragana, katakana, kanji dasar, dan tata bahasa penting.",
+                level_n4_desc: "Bangun fondasi. Tangani percakapan kompleks dan baca teks sederhana.",
+                level_n3_desc: "Jembatan ke kefasihan. Pahami bahasa Jepang sehari-hari dan ungkapkan pendapat halus.",
+                level_n2_desc: "Level profesional. Baca koran dan pahami sebagian besar bahasa Jepang lisan.",
+                level_n1_desc: "Hampir native. Tangani situasi apapun dengan bahasa Jepang yang kompleks dan halus.",
+                level_n5_units: "50 Unit",
+                level_n5_f1: "Menguasai Hiragana & Katakana",
+                level_n5_f2: "Pola kalimat dasar",
+                level_n5_f3: "Perkenalan diri & kehidupan sehari-hari",
+                level_n4_f1: "Bentuk て dan konjugasi kata kerja",
+                level_n4_f2: "Bentuk potensial dan pasif",
+                level_n4_f3: "Membaca teks pendek",
+                level_n3_f1: "Pola tata bahasa kompleks",
+                level_n3_f2: "Percakapan natural",
+                level_n3_f3: "Dasar bahasa Jepang bisnis",
+                level_n2_f1: "Bahasa Jepang bisnis",
+                level_n2_f2: "Bacaan akademis",
+                level_n2_f3: "Listening kompleks",
+                level_n1_f1: "Ekspresi sastra",
+                level_n1_f2: "Komunikasi halus",
+                level_n1_f3: "Teks level universitas",
+                modes_label: "Mode Belajar",
+                modes_title: "4 Mode Belajar",
+                modes_subtitle: "Belajar sistematis step by step",
+                mode_learn_title: "Belajar",
+                mode_learn_desc: "Pelajari kosakata dan tata bahasa baru",
+                mode_practice_title: "Latihan",
+                mode_practice_desc: "Praktikkan yang sudah dipelajari",
+                mode_review_title: "Review",
+                mode_review_desc: "Kerjakan ulang soal yang salah",
+                mode_mock_title: "Simulasi",
+                mode_mock_desc: "Ujian seperti yang asli",
+                post_campaign_info: "Mulai 1 April 2026, diperlukan langganan berbayar $4-15/bulan",
+                section_pricing_free: "Gratis sekarang!",
+                section_pricing_free_sub: "Semua fitur Premium gratis sampai 31 Maret 2026",
+                
+                // Login Modal
+                login_title: "Selamat Datang Kembali",
+                login_subtitle: "Masuk untuk melanjutkan belajar",
+                login_google: "Lanjutkan dengan Google",
+                login_or: "atau",
+                login_email: "Email",
+                login_password: "Kata sandi",
+                login_forgot: "Lupa kata sandi?",
+                login_btn: "Masuk",
+                login_no_account: "Belum punya akun?",
+                login_signup_link: "Daftar",
+                modal_cancel: "Batal",
+                
+                // Reset Password Modal
+                reset_title: "Reset Kata Sandi",
+                reset_subtitle: "Masukkan email untuk menerima link reset",
+                reset_btn: "Kirim Link Reset",
+                reset_remember: "Ingat kata sandi?",
+                reset_login_link: "Masuk",
+                
+                // Signup Modal
+                signup_title: "Mulai Gratis Sekarang",
+                signup_subtitle: "Semua fitur gratis sampai 31 Maret 2026",
+                signup_password_label: "Kata sandi (min 8 karakter)",
+                signup_free_until: "Gratis sampai 31 Maret 2026!",
+                signup_no_card: "Tanpa kartu kredit",
+                signup_trial_notice: "⚠️ Setelah 7 hari gratis, akan otomatis berlangganan berbayar. Batalkan kapan saja sebelum ditagih.",
+                signup_age_check: "Saya berusia 13 tahun ke atas",
+                signup_terms_check: "Saya setuju dengan <a href='/terms.html' target='_blank'>Ketentuan Layanan</a> dan <a href='/privacy.html' target='_blank'>Kebijakan Privasi</a>",
+                signup_renewal_check: "Saya paham langganan akan otomatis diperpanjang setelah masa coba",
+                signup_btn: "Mulai Gratis →",
+                
+                // Science Section
+                science_label: "Sains Pembelajaran",
+                science_title: "Berbasis Sains Pembelajaran Terbukti",
+                science_subtitle: "Pertemuan prinsip desain instruksional dengan riset pemerolehan bahasa kedua",
+                
+                // Account Modal
+                account_title: "Pengaturan Akun",
+                account_subscription: "Langganan",
+                account_free_campaign: "Gratis",
+                account_active: "Aktif",
+                account_manage: "Kelola Langganan",
+                account_delete: "Hapus Akun",
+                account_close: "Tutup",
+                
+                // Methodology Banner
+                methodology_label: "Paradigma Baru dalam Belajar Bahasa",
+                methodology_headline: "Desain Instruksional.<br>Teori SLA. AI.",
+                methodology_desc: "Sains pemerolehan bahasa, dirancang untuk hasil terukur.",
+                hero_title_full: "Kuasai Bahasa Jepang.<br>Secara Ilmiah."
             },
             'es': {
                 // Navigation
@@ -5560,8 +6647,6 @@
                 plan_basic_f1: "Todo el contenido JLPT N5-N3",
                 plan_basic_f2: "Aprender / Practicar / Repasar / Test",
                 plan_basic_f3: "Seguimiento de progreso",
-                plan_basic_f4: "Desafíos diarios",
-                plan_basic_f5: "Sistema de ranking",
                 plan_standard_f1: "Incluye todas las funciones de Básico",
                 plan_standard_f2: "Explicaciones IA",
                 plan_standard_f3: "Predicción de probabilidad",
@@ -5604,7 +6689,175 @@
                 
                 // Final CTA
                 final_cta_title: "Comienza tu Viaje JLPT Hoy",
-                final_cta_sub: "7 días gratis · Se requiere tarjeta · Cancela cuando quieras"
+                final_cta_sub: "7 días gratis · Se requiere tarjeta · Cancela cuando quieras",
+                
+                // Beta Notice
+                beta_notice: "<strong>BETA:</strong> Esta es una versión beta. Las funciones pueden cambiar y en casos excepcionales puede ser necesario registrarse de nuevo.",
+                beta_notice_short: "BETA: Las funciones pueden cambiar. Posible re-registro.",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "Empezar Gratis →",
+                campaign_badge: "GRATIS",
+                campaign_banner: "🎉 ¡GRATIS hasta el 31 de marzo de 2026!",
+                campaign_banner_cta: "Obtener Gratis →",
+                campaign_notice_title: "Aviso importante:",
+                campaign_notice_text: "• Esta campaña gratuita termina el <strong>31 de marzo de 2026</strong><br>• A partir del <strong>1 de abril de 2026</strong>, se requerirá suscripción de pago ($4-15/mes)<br>• <strong>Sin cargos automáticos</strong> — deberás suscribirte manualmente para continuar<br>• Tu progreso de aprendizaje se guardará por 2 años",
+                final_cta_title_free: "¡No te pierdas esta oportunidad gratuita!",
+                final_cta_sub_free: "Todas las funciones gratis hasta el 31 de marzo de 2026 · Sin tarjeta de crédito",
+                
+                // Additional Missing Translations
+                campaign_f1: "Todo el contenido N5-N3",
+                campaign_f2: "Explicaciones IA",
+                campaign_f3: "Simulacros reales",
+                campaign_f4: "Tutor IA",
+                campaign_f5: "Análisis de progreso",
+                campaign_note: "* De pago a partir del 1 de abril de 2026",
+                campaign_plan_name: "Plan Premium",
+                campaign_preview_title: "Funciones disponibles gratis",
+                campaign_preview_free: "Gratis",
+                campaign_preview_normally: "Normalmente $179/año",
+                campaign_preview_all: "Todas las funciones disponibles",
+                campaign_preview_note: "Sin tarjeta · Sin cargos automáticos",
+                campaign_preview_cta: "Empezar gratis ahora →",
+                campaign_price: "Gratis",
+                campaign_until: "hasta el 31 de marzo de 2026",
+                coming: "Próximamente",
+                coming_soon: "Pronto",
+                compare_label: "Comparación",
+                compare_title: "¿Por qué Fujisan.AI?",
+                compare_subtitle: "Compara con otros métodos de estudio JLPT",
+                compare_feature: "Característica",
+                compare_textbooks: "Libros de texto",
+                compare_other: "Otras Apps",
+                compare_jlpt: "Currículo especializado JLPT",
+                compare_mock: "Simulacros auténticos",
+                compare_japan: "Hecho en Japón",
+                compare_levels: "Todos los niveles (N5-N1)",
+                compare_full: "Soporte completo",
+                compare_partial: "Parcial/Limitado",
+                compare_none: "No disponible",
+                coverage_vocab: "Vocabulario",
+                coverage_kanji: "Kanji",
+                coverage_grammar: "Gramática",
+                coverage_mock: "Simulacros",
+                faq_q3: "¿Cómo son diferentes los simulacros?",
+                faq_a3: "Nuestros simulacros están diseñados basándose en el análisis de más de 20 años de exámenes JLPT reales. Siguen exactamente el mismo formato, tiempo y nivel de dificultad.",
+                faq_q4: "¿Puedo usar Fujisan.AI en mi móvil?",
+                faq_a4: "¡Sí! Fujisan.AI funciona en cualquier dispositivo con navegador web. Tu progreso se sincroniza automáticamente entre todos tus dispositivos.",
+                faq_q5: "¿Quién creó Fujisan.AI?",
+                faq_a5: "Fujisan.AI fue desarrollado por TORAIZ Inc., una empresa con sede en Tokio pionera en educación de idiomas online desde 2006.",
+                feature_srs_title: "Sistema de Repaso Inteligente",
+                feature_srs_desc: "La IA calcula el momento óptimo de repaso para que recuerdes más tiempo.",
+                feature_lang_title: "8 Idiomas",
+                feature_lang_desc: "Estudia en Español, English, 中文, 한국어, Tiếng Việt, Bahasa Indonesia, Português.",
+                features_label: "Funciones",
+                features_headline: "Todo para aprobar el JLPT",
+                features_subheadline: "Aprende eficientemente con IA",
+                footer_features: "Funciones",
+                footer_levels: "Niveles",
+                footer_pricing: "Precios",
+                footer_legal: "Legal",
+                footer_made: "Hecho en Tokio 🇯🇵",
+                footer_cancel: "Cancelar suscripción",
+                hero_cta_free: "Empezar Gratis",
+                hero_note_free: "Gratis hasta el 31/03/2026 · Sin tarjeta",
+                hero_stat_students: "Estudiantes",
+                hero_stat_retention: "Tasa de retención",
+                japan_title: "¿Por qué importa que sea de Japón?",
+                japan_p1: "Diseñado directamente por expertos en educación japonesa",
+                japan_p2: "Refleja las tendencias reales del examen JLPT",
+                japan_p3: "Japonés natural, verificado por hablantes nativos",
+                level_n5_desc: "Comienza tu viaje. Domina hiragana, katakana, kanji básico y gramática esencial.",
+                level_n4_desc: "Construye tu base. Maneja conversaciones complejas y lee textos simples.",
+                level_n3_desc: "El puente a la fluidez. Comprende el japonés cotidiano y expresa opiniones matizadas.",
+                level_n2_desc: "Nivel profesional. Lee periódicos y comprende la mayoría del japonés hablado.",
+                level_n1_desc: "Casi nativo. Maneja cualquier situación con japonés complejo y matizado.",
+                level_vocabulary: "Vocabulario",
+                level_new_kanji: "Kanji Nuevo",
+                level_grammar: "Gramática",
+                level_total: "Total Ítems",
+                level_n5_units: "50 Unidades",
+                level_n5_f1: "Dominio de Hiragana y Katakana",
+                level_n5_f2: "Patrones de oraciones básicos",
+                level_n5_f3: "Autopresentación y vida diaria",
+                level_n4_f1: "Forma て y conjugaciones verbales",
+                level_n4_f2: "Formas potencial y pasiva",
+                level_n4_f3: "Lectura de textos cortos",
+                level_n3_f1: "Patrones gramaticales complejos",
+                level_n3_f2: "Conversación natural",
+                level_n3_f3: "Japonés de negocios básico",
+                level_n2_f1: "Japonés de negocios",
+                level_n2_f2: "Lectura académica",
+                level_n2_f3: "Comprensión auditiva compleja",
+                level_n1_f1: "Expresiones literarias",
+                level_n1_f2: "Comunicación matizada",
+                level_n1_f3: "Textos universitarios",
+                modes_label: "Modos de Estudio",
+                modes_title: "4 Modos de Estudio",
+                modes_subtitle: "Aprende paso a paso de forma sistemática",
+                mode_learn_title: "Aprender",
+                mode_learn_desc: "Aprende nuevo vocabulario y gramática",
+                mode_practice_title: "Practicar",
+                mode_practice_desc: "Practica lo que has aprendido",
+                mode_review_title: "Repasar",
+                mode_review_desc: "Repite las preguntas fallidas",
+                mode_mock_title: "Simulacro",
+                mode_mock_desc: "Examen como el real",
+                post_campaign_info: "A partir del 1 de abril de 2026, se requiere suscripción de $4-15/mes",
+                section_pricing_free: "¡Gratis ahora!",
+                section_pricing_free_sub: "Todas las funciones Premium gratis hasta el 31 de marzo de 2026",
+                
+                // Login Modal
+                login_title: "Bienvenido de nuevo",
+                login_subtitle: "Inicia sesión para continuar aprendiendo",
+                login_google: "Continuar con Google",
+                login_or: "o",
+                login_email: "Email",
+                login_password: "Contraseña",
+                login_forgot: "¿Olvidaste tu contraseña?",
+                login_btn: "Iniciar Sesión",
+                login_no_account: "¿No tienes cuenta?",
+                login_signup_link: "Regístrate",
+                modal_cancel: "Cancelar",
+                
+                // Reset Password Modal
+                reset_title: "Restablecer Contraseña",
+                reset_subtitle: "Ingresa tu email para recibir el enlace de restablecimiento",
+                reset_btn: "Enviar Enlace",
+                reset_remember: "¿Recordaste tu contraseña?",
+                reset_login_link: "Iniciar sesión",
+                
+                // Signup Modal
+                signup_title: "Empieza Gratis Ahora",
+                signup_subtitle: "Todas las funciones gratis hasta el 31 de marzo de 2026",
+                signup_password_label: "Contraseña (mín 8 caracteres)",
+                signup_free_until: "¡Gratis hasta el 31 de marzo de 2026!",
+                signup_no_card: "Sin tarjeta de crédito",
+                signup_trial_notice: "⚠️ Después de los 7 días gratis, se convertirá automáticamente en suscripción de pago. Cancela en cualquier momento antes del cobro.",
+                signup_age_check: "Tengo 13 años o más",
+                signup_terms_check: "Acepto los <a href='/terms.html' target='_blank'>Términos de Servicio</a> y la <a href='/privacy.html' target='_blank'>Política de Privacidad</a>",
+                signup_renewal_check: "Entiendo que mi suscripción se renovará automáticamente después del periodo de prueba",
+                signup_btn: "Empezar Gratis →",
+                
+                // Science Section
+                science_label: "Ciencia del Aprendizaje",
+                science_title: "Basado en Ciencia del Aprendizaje Probada",
+                science_subtitle: "Donde los principios del diseño instruccional se encuentran con la investigación de adquisición de segundas lenguas",
+                
+                // Account Modal
+                account_title: "Configuración de Cuenta",
+                account_subscription: "Suscripción",
+                account_free_campaign: "Gratis",
+                account_active: "Activa",
+                account_manage: "Gestionar Suscripción",
+                account_delete: "Eliminar Cuenta",
+                account_close: "Cerrar",
+                
+                // Methodology Banner
+                methodology_label: "Un Nuevo Paradigma en el Aprendizaje de Idiomas",
+                methodology_headline: "Diseño Instruccional.<br>Teoría SLA. IA.",
+                methodology_desc: "La ciencia de la adquisición del lenguaje, diseñada para resultados medibles.",
+                hero_title_full: "Domina el Japonés.<br>Científicamente."
             },
             'pt': {
                 // Navigation
@@ -5682,8 +6935,6 @@
                 plan_basic_f1: "Todo o conteúdo JLPT N5-N3",
                 plan_basic_f2: "Aprender / Praticar / Revisar / Teste",
                 plan_basic_f3: "Acompanhamento de progresso",
-                plan_basic_f4: "Desafios diários",
-                plan_basic_f5: "Sistema de ranking",
                 plan_standard_f1: "Inclui todos os recursos do Básico",
                 plan_standard_f2: "Explicações IA",
                 plan_standard_f3: "Previsão de probabilidade",
@@ -5726,7 +6977,175 @@
                 
                 // Final CTA
                 final_cta_title: "Comece sua Jornada JLPT Hoje",
-                final_cta_sub: "7 dias grátis · Cartão necessário · Cancele quando quiser"
+                final_cta_sub: "7 dias grátis · Cartão necessário · Cancele quando quiser",
+                
+                // Beta Notice
+                beta_notice: "<strong>BETA:</strong> Esta é uma versão beta. Os recursos podem mudar e em casos raros pode ser necessário se registrar novamente.",
+                beta_notice_short: "BETA: Recursos podem mudar. Novo registro pode ser necessário.",
+                
+                // FREE CAMPAIGN
+                campaign_cta: "Começar Grátis →",
+                campaign_badge: "GRÁTIS",
+                campaign_banner: "🎉 GRÁTIS até 31 de março de 2026!",
+                campaign_banner_cta: "Obter Grátis →",
+                campaign_notice_title: "Aviso importante:",
+                campaign_notice_text: "• Esta campanha gratuita termina em <strong>31 de março de 2026</strong><br>• A partir de <strong>1 de abril de 2026</strong>, será necessária assinatura paga ($4-15/mês)<br>• <strong>Sem cobrança automática</strong> — você precisará assinar manualmente para continuar<br>• Seu progresso de aprendizado será salvo por 2 anos",
+                final_cta_title_free: "Não perca esta oportunidade gratuita!",
+                final_cta_sub_free: "Todos os recursos grátis até 31 de março de 2026 · Sem cartão de crédito",
+                
+                // Additional Missing Translations
+                campaign_f1: "Todo o conteúdo N5-N3",
+                campaign_f2: "Explicações IA",
+                campaign_f3: "Simulados reais",
+                campaign_f4: "Tutor IA",
+                campaign_f5: "Análise de progresso",
+                campaign_note: "* Pago a partir de 1 de abril de 2026",
+                campaign_plan_name: "Plano Premium",
+                campaign_preview_title: "Recursos disponíveis grátis",
+                campaign_preview_free: "Grátis",
+                campaign_preview_normally: "Normalmente $179/ano",
+                campaign_preview_all: "Todos os recursos disponíveis",
+                campaign_preview_note: "Sem cartão · Sem cobrança automática",
+                campaign_preview_cta: "Começar grátis agora →",
+                campaign_price: "Grátis",
+                campaign_until: "até 31 de março de 2026",
+                coming: "Em breve",
+                coming_soon: "Em breve",
+                compare_label: "Comparação",
+                compare_title: "Por que Fujisan.AI?",
+                compare_subtitle: "Compare com outros métodos de estudo JLPT",
+                compare_feature: "Recurso",
+                compare_textbooks: "Livros",
+                compare_other: "Outros Apps",
+                compare_jlpt: "Currículo especializado JLPT",
+                compare_mock: "Simulados autênticos",
+                compare_japan: "Feito no Japão",
+                compare_levels: "Todos os níveis (N5-N1)",
+                compare_full: "Suporte completo",
+                compare_partial: "Parcial/Limitado",
+                compare_none: "Não disponível",
+                coverage_vocab: "Vocabulário",
+                coverage_kanji: "Kanji",
+                coverage_grammar: "Gramática",
+                coverage_mock: "Simulados",
+                faq_q3: "Como os simulados são diferentes?",
+                faq_a3: "Nossos simulados são baseados na análise de mais de 20 anos de provas JLPT reais. Seguem exatamente o mesmo formato, tempo e nível de dificuldade.",
+                faq_q4: "Posso usar no celular?",
+                faq_a4: "Sim! Fujisan.AI funciona em qualquer dispositivo com navegador web. Seu progresso sincroniza automaticamente entre todos os dispositivos.",
+                faq_q5: "Quem criou o Fujisan.AI?",
+                faq_a5: "Fujisan.AI foi desenvolvido pela TORAIZ Inc., empresa sediada em Tóquio pioneira em educação de idiomas online desde 2006.",
+                feature_srs_title: "Sistema de Revisão Inteligente",
+                feature_srs_desc: "A IA calcula o momento ideal de revisão para você lembrar por mais tempo.",
+                feature_lang_title: "8 Idiomas",
+                feature_lang_desc: "Estude em Português, English, 中文, 한국어, Tiếng Việt, Bahasa Indonesia, Español.",
+                features_label: "Recursos",
+                features_headline: "Tudo para passar no JLPT",
+                features_subheadline: "Aprenda eficientemente com IA",
+                footer_features: "Recursos",
+                footer_levels: "Níveis",
+                footer_pricing: "Preços",
+                footer_legal: "Legal",
+                footer_made: "Feito em Tóquio 🇯🇵",
+                footer_cancel: "Cancelar assinatura",
+                hero_cta_free: "Começar Grátis",
+                hero_note_free: "Grátis até 31/03/2026 · Sem cartão",
+                hero_stat_students: "Estudantes",
+                hero_stat_retention: "Taxa de retenção",
+                japan_title: "Por que importa ser do Japão?",
+                japan_p1: "Projetado diretamente por especialistas em educação japonesa",
+                japan_p2: "Reflete as tendências reais do exame JLPT",
+                japan_p3: "Japonês natural, verificado por falantes nativos",
+                level_n5_desc: "Comece sua jornada. Domine hiragana, katakana, kanji básico e gramática essencial.",
+                level_n4_desc: "Construa sua base. Lide com conversas complexas e leia textos simples.",
+                level_n3_desc: "A ponte para a fluência. Compreenda o japonês cotidiano e expresse opiniões refinadas.",
+                level_n2_desc: "Nível profissional. Leia jornais e compreenda a maior parte do japonês falado.",
+                level_n1_desc: "Quase nativo. Lide com qualquer situação com japonês complexo e refinado.",
+                level_vocabulary: "Vocabulário",
+                level_new_kanji: "Kanji Novo",
+                level_grammar: "Gramática",
+                level_total: "Total Itens",
+                level_n5_units: "50 Unidades",
+                level_n5_f1: "Domínio de Hiragana e Katakana",
+                level_n5_f2: "Padrões básicos de frases",
+                level_n5_f3: "Autoapresentação e vida diária",
+                level_n4_f1: "Forma て e conjugações verbais",
+                level_n4_f2: "Formas potencial e passiva",
+                level_n4_f3: "Leitura de textos curtos",
+                level_n3_f1: "Padrões gramaticais complexos",
+                level_n3_f2: "Conversa natural",
+                level_n3_f3: "Japonês de negócios básico",
+                level_n2_f1: "Japonês de negócios",
+                level_n2_f2: "Leitura acadêmica",
+                level_n2_f3: "Compreensão auditiva complexa",
+                level_n1_f1: "Expressões literárias",
+                level_n1_f2: "Comunicação refinada",
+                level_n1_f3: "Textos universitários",
+                modes_label: "Modos de Estudo",
+                modes_title: "4 Modos de Estudo",
+                modes_subtitle: "Aprenda passo a passo de forma sistemática",
+                mode_learn_title: "Aprender",
+                mode_learn_desc: "Aprenda novo vocabulário e gramática",
+                mode_practice_title: "Praticar",
+                mode_practice_desc: "Pratique o que aprendeu",
+                mode_review_title: "Revisar",
+                mode_review_desc: "Refaça as questões erradas",
+                mode_mock_title: "Simulado",
+                mode_mock_desc: "Prova como a real",
+                post_campaign_info: "A partir de 1 de abril de 2026, será necessária assinatura de $4-15/mês",
+                section_pricing_free: "Grátis agora!",
+                section_pricing_free_sub: "Todos os recursos Premium grátis até 31 de março de 2026",
+                
+                // Login Modal
+                login_title: "Bem-vindo de volta",
+                login_subtitle: "Entre para continuar aprendendo",
+                login_google: "Continuar com Google",
+                login_or: "ou",
+                login_email: "Email",
+                login_password: "Senha",
+                login_forgot: "Esqueceu a senha?",
+                login_btn: "Entrar",
+                login_no_account: "Não tem conta?",
+                login_signup_link: "Cadastre-se",
+                modal_cancel: "Cancelar",
+                
+                // Reset Password Modal
+                reset_title: "Redefinir Senha",
+                reset_subtitle: "Digite seu email para receber o link de redefinição",
+                reset_btn: "Enviar Link",
+                reset_remember: "Lembrou da senha?",
+                reset_login_link: "Entrar",
+                
+                // Signup Modal
+                signup_title: "Comece Grátis Agora",
+                signup_subtitle: "Todos os recursos grátis até 31 de março de 2026",
+                signup_password_label: "Senha (mín 8 caracteres)",
+                signup_free_until: "Grátis até 31 de março de 2026!",
+                signup_no_card: "Sem cartão de crédito",
+                signup_trial_notice: "⚠️ Após os 7 dias grátis, será convertido automaticamente em assinatura paga. Cancele a qualquer momento antes da cobrança.",
+                signup_age_check: "Tenho 13 anos ou mais",
+                signup_terms_check: "Concordo com os <a href='/terms.html' target='_blank'>Termos de Serviço</a> e a <a href='/privacy.html' target='_blank'>Política de Privacidade</a>",
+                signup_renewal_check: "Entendo que minha assinatura será renovada automaticamente após o período de teste",
+                signup_btn: "Começar Grátis →",
+                
+                // Science Section
+                science_label: "Ciência da Aprendizagem",
+                science_title: "Baseado em Ciência da Aprendizagem Comprovada",
+                science_subtitle: "Onde os princípios do design instrucional encontram a pesquisa de aquisição de segundas línguas",
+                
+                // Account Modal
+                account_title: "Configurações da Conta",
+                account_subscription: "Assinatura",
+                account_free_campaign: "Grátis",
+                account_active: "Ativa",
+                account_manage: "Gerenciar Assinatura",
+                account_delete: "Excluir Conta",
+                account_close: "Fechar",
+                
+                // Methodology Banner
+                methodology_label: "Um Novo Paradigma no Aprendizado de Idiomas",
+                methodology_headline: "Design Instrucional.<br>Teoria SLA. IA.",
+                methodology_desc: "A ciência da aquisição de linguagem, projetada para resultados mensuráveis.",
+                hero_title_full: "Domine o Japonês.<br>Cientificamente."
             }
         };
         
@@ -5741,6 +7160,14 @@
                 const key = el.getAttribute('data-i18n');
                 if (t[key]) {
                     el.textContent = t[key];
+                }
+            });
+            
+            // Update all elements with data-i18n-html attribute (for HTML content like links)
+            document.querySelectorAll('[data-i18n-html]').forEach(el => {
+                const key = el.getAttribute('data-i18n-html');
+                if (t[key]) {
+                    el.innerHTML = t[key];
                 }
             });
             
@@ -6248,26 +7675,20 @@
         <div style="background:#fff;border-radius:24px;padding:40px;max-width:480px;margin:20px;text-align:center;position:relative;box-shadow:0 20px 60px rgba(0,0,0,0.3);">
             <button onclick="closeExitPopup()" style="position:absolute;top:16px;right:16px;background:none;border:none;font-size:24px;cursor:pointer;color:#666;">×</button>
             <div style="margin-bottom:16px;">
-                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#667eea" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/>
-                    <rect x="4" y="10" width="16" height="4" rx="1" fill="#667eea" opacity="0.2"/>
-                    <path d="M12 3v9"/>
-                    <path d="m8 8 4-4 4 4"/>
-                    <circle cx="12" cy="17" r="1.5" fill="#667eea"/>
-                </svg>
+                <div style="font-size:64px;color:#00C853;"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 12v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6"/><rect x="4" y="10" width="16" height="4" rx="1" fill="currentColor" opacity="0.2"/><path d="M12 3v9"/><path d="m8 8 4-4 4 4"/></svg></div>
             </div>
-            <h2 style="font-size:28px;margin-bottom:12px;color:#1a1a2e;">Wait! Don't miss this...</h2>
-            <p style="font-size:18px;color:#666;margin-bottom:24px;">Start your <strong style="color:#667eea;">7-day FREE trial</strong> now and get instant access to all JLPT preparation materials!</p>
-            <div style="background:linear-gradient(135deg,#f5f7fa,#e4e8f0);border-radius:16px;padding:20px;margin-bottom:24px;">
-                <div style="font-size:14px;color:#888;text-decoration:line-through;">$89.99/year</div>
-                <div style="font-size:32px;font-weight:700;color:#1a1a2e;">$0 for 7 days</div>
-                <div style="font-size:14px;color:#667eea;font-weight:600;">Then only $7.50/month</div>
+            <h2 style="font-size:28px;margin-bottom:12px;color:#1a1a2e;">Wait! It's completely FREE!</h2>
+            <p style="font-size:18px;color:#666;margin-bottom:24px;">Don't miss this limited-time opportunity to access <strong style="color:#00C853;">all JLPT materials for FREE</strong> until March 31!</p>
+            <div style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9);border-radius:16px;padding:20px;margin-bottom:24px;border:2px solid #00C853;">
+                <div style="font-size:14px;color:#666;text-decoration:line-through;">Usually $7.50-$15/month</div>
+                <div style="font-size:42px;font-weight:700;color:#00C853;">FREE</div>
+                <div style="font-size:14px;color:#2e7d32;font-weight:600;">No credit card required</div>
             </div>
-            <a href="#pricing" onclick="closeExitPopup()" class="btn btn-primary btn-large" style="width:100%;padding:18px 32px;font-size:18px;margin-bottom:12px;display:inline-flex;align-items:center;justify-content:center;gap:10px;">
+            <a href="#pricing" onclick="closeExitPopup()" class="btn btn-large" style="width:100%;padding:18px 32px;font-size:18px;margin-bottom:12px;display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#00C853;border-color:#00C853;color:#fff;">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                Start Free Trial Now
+                Get Free Access Now
             </a>
-            <p style="font-size:13px;color:#999;">No charge until trial ends • Cancel anytime</p>
+            <p style="font-size:13px;color:#666;display:inline-flex;align-items:center;gap:4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Offer ends March 31, 2026</p>
         </div>
     </div>
     

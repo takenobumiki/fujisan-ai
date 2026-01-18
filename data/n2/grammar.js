@@ -2419,11 +2419,11 @@ const N2_GRAMMAR = [
     "r": "にさいして",
     "m": {
       "en": "on the occasion of",
-      "zh-TW": "[on the occasion of]",
-      "zh-CN": "[on the occasion of]",
-      "ko": "[on the occasion of]",
-      "vi": "[on the occasion of]",
-      "id": "[on the occasion of]"
+      "zh-TW": "on the occasion of",
+      "zh-CN": "on the occasion of",
+      "ko": "on the occasion of",
+      "vi": "on the occasion of",
+      "id": "on the occasion of"
     }
   },
   {
@@ -2431,11 +2431,11 @@ const N2_GRAMMAR = [
     "p": "にあたって",
     "m": {
       "en": "on the occasion of; when",
-      "zh-TW": "[on the occasion of; when]",
-      "zh-CN": "[on the occasion of; when]",
-      "ko": "[on the occasion of; when]",
-      "vi": "[on the occasion of; when]",
-      "id": "[on the occasion of; when]"
+      "zh-TW": "on the occasion of; when",
+      "zh-CN": "on the occasion of; when",
+      "ko": "on the occasion of; when",
+      "vi": "on the occasion of; when",
+      "id": "on the occasion of; when"
     }
   },
   {
@@ -2443,11 +2443,11 @@ const N2_GRAMMAR = [
     "p": "に先立って",
     "m": {
       "en": "prior to; before",
-      "zh-TW": "[prior to; before]",
-      "zh-CN": "[prior to; before]",
-      "ko": "[prior to; before]",
-      "vi": "[prior to; before]",
-      "id": "[prior to; before]"
+      "zh-TW": "prior to; before",
+      "zh-CN": "prior to; before",
+      "ko": "prior to; before",
+      "vi": "prior to; before",
+      "id": "prior to; before"
     }
   },
   {
@@ -2455,11 +2455,11 @@ const N2_GRAMMAR = [
     "p": "をもって",
     "m": {
       "en": "with; by means of",
-      "zh-TW": "[with; by means of]",
-      "zh-CN": "[with; by means of]",
-      "ko": "[with; by means of]",
-      "vi": "[with; by means of]",
-      "id": "[with; by means of]"
+      "zh-TW": "with; by means of",
+      "zh-CN": "with; by means of",
+      "ko": "with; by means of",
+      "vi": "with; by means of",
+      "id": "with; by means of"
     }
   },
   {
@@ -2467,11 +2467,11 @@ const N2_GRAMMAR = [
     "p": "をもとに",
     "m": {
       "en": "based on",
-      "zh-TW": "[based on]",
-      "zh-CN": "[based on]",
-      "ko": "[based on]",
-      "vi": "[based on]",
-      "id": "[based on]"
+      "zh-TW": "based on",
+      "zh-CN": "based on",
+      "ko": "based on",
+      "vi": "based on",
+      "id": "based on"
     }
   },
   {
@@ -2479,11 +2479,11 @@ const N2_GRAMMAR = [
     "p": "を踏まえて",
     "m": {
       "en": "based on; considering",
-      "zh-TW": "[based on; considering]",
-      "zh-CN": "[based on; considering]",
-      "ko": "[based on; considering]",
-      "vi": "[based on; considering]",
-      "id": "[based on; considering]"
+      "zh-TW": "based on; considering",
+      "zh-CN": "based on; considering",
+      "ko": "based on; considering",
+      "vi": "based on; considering",
+      "id": "based on; considering"
     }
   },
   {
@@ -2491,11 +2491,11 @@ const N2_GRAMMAR = [
     "p": "を契機に",
     "m": {
       "en": "taking the opportunity of",
-      "zh-TW": "[taking the opportunity of]",
-      "zh-CN": "[taking the opportunity of]",
-      "ko": "[taking the opportunity of]",
-      "vi": "[taking the opportunity of]",
-      "id": "[taking the opportunity of]"
+      "zh-TW": "taking the opportunity of",
+      "zh-CN": "taking the opportunity of",
+      "ko": "taking the opportunity of",
+      "vi": "taking the opportunity of",
+      "id": "taking the opportunity of"
     }
   },
   {
@@ -2504,11 +2504,11 @@ const N2_GRAMMAR = [
     "r": "をかわきりに",
     "m": {
       "en": "starting with",
-      "zh-TW": "[starting with]",
-      "zh-CN": "[starting with]",
-      "ko": "[starting with]",
-      "vi": "[starting with]",
-      "id": "[starting with]"
+      "zh-TW": "starting with",
+      "zh-CN": "starting with",
+      "ko": "starting with",
+      "vi": "starting with",
+      "id": "starting with"
     }
   },
   {
@@ -2516,11 +2516,11 @@ const N2_GRAMMAR = [
     "p": "からして",
     "m": {
       "en": "judging from; even",
-      "zh-TW": "[judging from; even]",
-      "zh-CN": "[judging from; even]",
-      "ko": "[judging from; even]",
-      "vi": "[judging from; even]",
-      "id": "[judging from; even]"
+      "zh-TW": "judging from; even",
+      "zh-CN": "judging from; even",
+      "ko": "judging from; even",
+      "vi": "judging from; even",
+      "id": "judging from; even"
     }
   },
   {
@@ -2528,11 +2528,11 @@ const N2_GRAMMAR = [
     "p": "からいうと",
     "m": {
       "en": "from the standpoint of",
-      "zh-TW": "[from the standpoint of]",
-      "zh-CN": "[from the standpoint of]",
-      "ko": "[from the standpoint of]",
-      "vi": "[from the standpoint of]",
-      "id": "[from the standpoint of]"
+      "zh-TW": "from the standpoint of",
+      "zh-CN": "from the standpoint of",
+      "ko": "from the standpoint of",
+      "vi": "from the standpoint of",
+      "id": "from the standpoint of"
     }
   },
   {
@@ -2540,11 +2540,11 @@ const N2_GRAMMAR = [
     "p": "からすると",
     "m": {
       "en": "judging from",
-      "zh-TW": "[judging from]",
-      "zh-CN": "[judging from]",
-      "ko": "[judging from]",
-      "vi": "[judging from]",
-      "id": "[judging from]"
+      "zh-TW": "judging from",
+      "zh-CN": "judging from",
+      "ko": "judging from",
+      "vi": "judging from",
+      "id": "judging from"
     }
   },
   {
@@ -2552,11 +2552,11 @@ const N2_GRAMMAR = [
     "p": "からには",
     "m": {
       "en": "since; now that",
-      "zh-TW": "[since; now that]",
-      "zh-CN": "[since; now that]",
-      "ko": "[since; now that]",
-      "vi": "[since; now that]",
-      "id": "[since; now that]"
+      "zh-TW": "since; now that",
+      "zh-CN": "since; now that",
+      "ko": "since; now that",
+      "vi": "since; now that",
+      "id": "since; now that"
     }
   },
   {
@@ -2565,11 +2565,11 @@ const N2_GRAMMAR = [
     "r": "いじょう",
     "m": {
       "en": "since; as long as",
-      "zh-TW": "[since; as long as]",
-      "zh-CN": "[since; as long as]",
-      "ko": "[since; as long as]",
-      "vi": "[since; as long as]",
-      "id": "[since; as long as]"
+      "zh-TW": "since; as long as",
+      "zh-CN": "since; as long as",
+      "ko": "since; as long as",
+      "vi": "since; as long as",
+      "id": "since; as long as"
     }
   },
   {
@@ -2577,11 +2577,11 @@ const N2_GRAMMAR = [
     "p": "上は",
     "m": {
       "en": "since; now that",
-      "zh-TW": "[since; now that]",
-      "zh-CN": "[since; now that]",
-      "ko": "[since; now that]",
-      "vi": "[since; now that]",
-      "id": "[since; now that]"
+      "zh-TW": "since; now that",
+      "zh-CN": "since; now that",
+      "ko": "since; now that",
+      "vi": "since; now that",
+      "id": "since; now that"
     }
   },
   {
@@ -2589,11 +2589,11 @@ const N2_GRAMMAR = [
     "p": "ものなら",
     "m": {
       "en": "if one could",
-      "zh-TW": "[if one could]",
-      "zh-CN": "[if one could]",
-      "ko": "[if one could]",
-      "vi": "[if one could]",
-      "id": "[if one could]"
+      "zh-TW": "if one could",
+      "zh-CN": "if one could",
+      "ko": "if one could",
+      "vi": "if one could",
+      "id": "if one could"
     }
   },
   {
@@ -2601,11 +2601,11 @@ const N2_GRAMMAR = [
     "p": "ものの",
     "m": {
       "en": "although; but",
-      "zh-TW": "[although; but]",
-      "zh-CN": "[although; but]",
-      "ko": "[although; but]",
-      "vi": "[although; but]",
-      "id": "[although; but]"
+      "zh-TW": "although; but",
+      "zh-CN": "although; but",
+      "ko": "although; but",
+      "vi": "although; but",
+      "id": "although; but"
     }
   },
   {
@@ -2613,11 +2613,11 @@ const N2_GRAMMAR = [
     "p": "ものだから",
     "m": {
       "en": "because",
-      "zh-TW": "[because]",
-      "zh-CN": "[because]",
-      "ko": "[because]",
-      "vi": "[because]",
-      "id": "[because]"
+      "zh-TW": "because",
+      "zh-CN": "because",
+      "ko": "because",
+      "vi": "because",
+      "id": "because"
     }
   },
   {
@@ -2625,11 +2625,11 @@ const N2_GRAMMAR = [
     "p": "ものがある",
     "m": {
       "en": "there is something",
-      "zh-TW": "[there is something]",
-      "zh-CN": "[there is something]",
-      "ko": "[there is something]",
-      "vi": "[there is something]",
-      "id": "[there is something]"
+      "zh-TW": "there is something",
+      "zh-CN": "there is something",
+      "ko": "there is something",
+      "vi": "there is something",
+      "id": "there is something"
     }
   },
   {
@@ -2637,11 +2637,11 @@ const N2_GRAMMAR = [
     "p": "ことだ",
     "m": {
       "en": "should; ought to",
-      "zh-TW": "[should; ought to]",
-      "zh-CN": "[should; ought to]",
-      "ko": "[should; ought to]",
-      "vi": "[should; ought to]",
-      "id": "[should; ought to]"
+      "zh-TW": "should; ought to",
+      "zh-CN": "should; ought to",
+      "ko": "should; ought to",
+      "vi": "should; ought to",
+      "id": "should; ought to"
     }
   },
   {
@@ -2649,11 +2649,11 @@ const N2_GRAMMAR = [
     "p": "ことか",
     "m": {
       "en": "how...!",
-      "zh-TW": "[how...!]",
-      "zh-CN": "[how...!]",
-      "ko": "[how...!]",
-      "vi": "[how...!]",
-      "id": "[how...!]"
+      "zh-TW": "how...!",
+      "zh-CN": "how...!",
+      "ko": "how...!",
+      "vi": "how...!",
+      "id": "how...!"
     }
   },
   {
@@ -2661,11 +2661,11 @@ const N2_GRAMMAR = [
     "p": "ことから",
     "m": {
       "en": "from the fact that",
-      "zh-TW": "[from the fact that]",
-      "zh-CN": "[from the fact that]",
-      "ko": "[from the fact that]",
-      "vi": "[from the fact that]",
-      "id": "[from the fact that]"
+      "zh-TW": "from the fact that",
+      "zh-CN": "from the fact that",
+      "ko": "from the fact that",
+      "vi": "from the fact that",
+      "id": "from the fact that"
     }
   },
   {
@@ -2673,11 +2673,11 @@ const N2_GRAMMAR = [
     "p": "ことなく",
     "m": {
       "en": "without",
-      "zh-TW": "[without]",
-      "zh-CN": "[without]",
-      "ko": "[without]",
-      "vi": "[without]",
-      "id": "[without]"
+      "zh-TW": "without",
+      "zh-CN": "without",
+      "ko": "without",
+      "vi": "without",
+      "id": "without"
     }
   },
   {
@@ -2685,11 +2685,11 @@ const N2_GRAMMAR = [
     "p": "ことはない",
     "m": {
       "en": "no need to",
-      "zh-TW": "[no need to]",
-      "zh-CN": "[no need to]",
-      "ko": "[no need to]",
-      "vi": "[no need to]",
-      "id": "[no need to]"
+      "zh-TW": "no need to",
+      "zh-CN": "no need to",
+      "ko": "no need to",
+      "vi": "no need to",
+      "id": "no need to"
     }
   },
   {
@@ -2697,11 +2697,11 @@ const N2_GRAMMAR = [
     "p": "どころか",
     "m": {
       "en": "far from; let alone",
-      "zh-TW": "[far from; let alone]",
-      "zh-CN": "[far from; let alone]",
-      "ko": "[far from; let alone]",
-      "vi": "[far from; let alone]",
-      "id": "[far from; let alone]"
+      "zh-TW": "far from; let alone",
+      "zh-CN": "far from; let alone",
+      "ko": "far from; let alone",
+      "vi": "far from; let alone",
+      "id": "far from; let alone"
     }
   },
   {
@@ -2709,11 +2709,11 @@ const N2_GRAMMAR = [
     "p": "どころではない",
     "m": {
       "en": "not the time/place for",
-      "zh-TW": "[not the time/place for]",
-      "zh-CN": "[not the time/place for]",
-      "ko": "[not the time/place for]",
-      "vi": "[not the time/place for]",
-      "id": "[not the time/place for]"
+      "zh-TW": "not the time/place for",
+      "zh-CN": "not the time/place for",
+      "ko": "not the time/place for",
+      "vi": "not the time/place for",
+      "id": "not the time/place for"
     }
   },
   {
@@ -2721,11 +2721,11 @@ const N2_GRAMMAR = [
     "p": "ばかりか",
     "m": {
       "en": "not only...but also",
-      "zh-TW": "[not only...but also]",
-      "zh-CN": "[not only...but also]",
-      "ko": "[not only...but also]",
-      "vi": "[not only...but also]",
-      "id": "[not only...but also]"
+      "zh-TW": "not only...but also",
+      "zh-CN": "not only...but also",
+      "ko": "not only...but also",
+      "vi": "not only...but also",
+      "id": "not only...but also"
     }
   },
   {
@@ -2733,11 +2733,11 @@ const N2_GRAMMAR = [
     "p": "ばかりに",
     "m": {
       "en": "just because",
-      "zh-TW": "[just because]",
-      "zh-CN": "[just because]",
-      "ko": "[just because]",
-      "vi": "[just because]",
-      "id": "[just because]"
+      "zh-TW": "just because",
+      "zh-CN": "just because",
+      "ko": "just because",
+      "vi": "just because",
+      "id": "just because"
     }
   },
   {
@@ -2745,11 +2745,11 @@ const N2_GRAMMAR = [
     "p": "ならでは",
     "m": {
       "en": "unique to; only",
-      "zh-TW": "[unique to; only]",
-      "zh-CN": "[unique to; only]",
-      "ko": "[unique to; only]",
-      "vi": "[unique to; only]",
-      "id": "[unique to; only]"
+      "zh-TW": "unique to; only",
+      "zh-CN": "unique to; only",
+      "ko": "unique to; only",
+      "vi": "unique to; only",
+      "id": "unique to; only"
     }
   },
   {
@@ -2757,11 +2757,11 @@ const N2_GRAMMAR = [
     "p": "ないことには",
     "m": {
       "en": "unless",
-      "zh-TW": "[unless]",
-      "zh-CN": "[unless]",
-      "ko": "[unless]",
-      "vi": "[unless]",
-      "id": "[unless]"
+      "zh-TW": "unless",
+      "zh-CN": "unless",
+      "ko": "unless",
+      "vi": "unless",
+      "id": "unless"
     }
   },
   {
@@ -2769,11 +2769,11 @@ const N2_GRAMMAR = [
     "p": "ないまでも",
     "m": {
       "en": "even if not",
-      "zh-TW": "[even if not]",
-      "zh-CN": "[even if not]",
-      "ko": "[even if not]",
-      "vi": "[even if not]",
-      "id": "[even if not]"
+      "zh-TW": "even if not",
+      "zh-CN": "even if not",
+      "ko": "even if not",
+      "vi": "even if not",
+      "id": "even if not"
     }
   },
   {
@@ -2781,11 +2781,11 @@ const N2_GRAMMAR = [
     "p": "ずにはいられない",
     "m": {
       "en": "cannot help but",
-      "zh-TW": "[cannot help but]",
-      "zh-CN": "[cannot help but]",
-      "ko": "[cannot help but]",
-      "vi": "[cannot help but]",
-      "id": "[cannot help but]"
+      "zh-TW": "cannot help but",
+      "zh-CN": "cannot help but",
+      "ko": "cannot help but",
+      "vi": "cannot help but",
+      "id": "cannot help but"
     }
   },
   {
@@ -2793,11 +2793,11 @@ const N2_GRAMMAR = [
     "p": "てはいられない",
     "m": {
       "en": "cannot afford to",
-      "zh-TW": "[cannot afford to]",
-      "zh-CN": "[cannot afford to]",
-      "ko": "[cannot afford to]",
-      "vi": "[cannot afford to]",
-      "id": "[cannot afford to]"
+      "zh-TW": "cannot afford to",
+      "zh-CN": "cannot afford to",
+      "ko": "cannot afford to",
+      "vi": "cannot afford to",
+      "id": "cannot afford to"
     }
   },
   {
@@ -2805,11 +2805,11 @@ const N2_GRAMMAR = [
     "p": "ずにはすまない",
     "m": {
       "en": "cannot help but",
-      "zh-TW": "[cannot help but]",
-      "zh-CN": "[cannot help but]",
-      "ko": "[cannot help but]",
-      "vi": "[cannot help but]",
-      "id": "[cannot help but]"
+      "zh-TW": "cannot help but",
+      "zh-CN": "cannot help but",
+      "ko": "cannot help but",
+      "vi": "cannot help but",
+      "id": "cannot help but"
     }
   },
   {
@@ -2817,11 +2817,11 @@ const N2_GRAMMAR = [
     "p": "ないではすまない",
     "m": {
       "en": "cannot get away without",
-      "zh-TW": "[cannot get away without]",
-      "zh-CN": "[cannot get away without]",
-      "ko": "[cannot get away without]",
-      "vi": "[cannot get away without]",
-      "id": "[cannot get away without]"
+      "zh-TW": "cannot get away without",
+      "zh-CN": "cannot get away without",
+      "ko": "cannot get away without",
+      "vi": "cannot get away without",
+      "id": "cannot get away without"
     }
   },
   {
@@ -2829,11 +2829,11 @@ const N2_GRAMMAR = [
     "p": "かねない",
     "m": {
       "en": "might; could",
-      "zh-TW": "[might; could]",
-      "zh-CN": "[might; could]",
-      "ko": "[might; could]",
-      "vi": "[might; could]",
-      "id": "[might; could]"
+      "zh-TW": "might; could",
+      "zh-CN": "might; could",
+      "ko": "might; could",
+      "vi": "might; could",
+      "id": "might; could"
     }
   },
   {
@@ -2841,11 +2841,11 @@ const N2_GRAMMAR = [
     "p": "かねる",
     "m": {
       "en": "cannot; hard to",
-      "zh-TW": "[cannot; hard to]",
-      "zh-CN": "[cannot; hard to]",
-      "ko": "[cannot; hard to]",
-      "vi": "[cannot; hard to]",
-      "id": "[cannot; hard to]"
+      "zh-TW": "cannot; hard to",
+      "zh-CN": "cannot; hard to",
+      "ko": "cannot; hard to",
+      "vi": "cannot; hard to",
+      "id": "cannot; hard to"
     }
   },
   {
@@ -2853,11 +2853,11 @@ const N2_GRAMMAR = [
     "p": "きる",
     "m": {
       "en": "completely; thoroughly",
-      "zh-TW": "[completely; thoroughly]",
-      "zh-CN": "[completely; thoroughly]",
-      "ko": "[completely; thoroughly]",
-      "vi": "[completely; thoroughly]",
-      "id": "[completely; thoroughly]"
+      "zh-TW": "completely; thoroughly",
+      "zh-CN": "completely; thoroughly",
+      "ko": "completely; thoroughly",
+      "vi": "completely; thoroughly",
+      "id": "completely; thoroughly"
     }
   },
   {
@@ -2865,11 +2865,11 @@ const N2_GRAMMAR = [
     "p": "きれない",
     "m": {
       "en": "cannot finish; too much to",
-      "zh-TW": "[cannot finish; too much to]",
-      "zh-CN": "[cannot finish; too much to]",
-      "ko": "[cannot finish; too much to]",
-      "vi": "[cannot finish; too much to]",
-      "id": "[cannot finish; too much to]"
+      "zh-TW": "cannot finish; too much to",
+      "zh-CN": "cannot finish; too much to",
+      "ko": "cannot finish; too much to",
+      "vi": "cannot finish; too much to",
+      "id": "cannot finish; too much to"
     }
   },
   {
@@ -2877,11 +2877,11 @@ const N2_GRAMMAR = [
     "p": "っぱなし",
     "m": {
       "en": "leaving as is",
-      "zh-TW": "[leaving as is]",
-      "zh-CN": "[leaving as is]",
-      "ko": "[leaving as is]",
-      "vi": "[leaving as is]",
-      "id": "[leaving as is]"
+      "zh-TW": "leaving as is",
+      "zh-CN": "leaving as is",
+      "ko": "leaving as is",
+      "vi": "leaving as is",
+      "id": "leaving as is"
     }
   },
   {
@@ -2889,11 +2889,11 @@ const N2_GRAMMAR = [
     "p": "がち",
     "m": {
       "en": "tend to; prone to",
-      "zh-TW": "[tend to; prone to]",
-      "zh-CN": "[tend to; prone to]",
-      "ko": "[tend to; prone to]",
-      "vi": "[tend to; prone to]",
-      "id": "[tend to; prone to]"
+      "zh-TW": "tend to; prone to",
+      "zh-CN": "tend to; prone to",
+      "ko": "tend to; prone to",
+      "vi": "tend to; prone to",
+      "id": "tend to; prone to"
     }
   },
   {
@@ -2902,11 +2902,11 @@ const N2_GRAMMAR = [
     "r": "ぎみ",
     "m": {
       "en": "somewhat; slightly",
-      "zh-TW": "[somewhat; slightly]",
-      "zh-CN": "[somewhat; slightly]",
-      "ko": "[somewhat; slightly]",
-      "vi": "[somewhat; slightly]",
-      "id": "[somewhat; slightly]"
+      "zh-TW": "somewhat; slightly",
+      "zh-CN": "somewhat; slightly",
+      "ko": "somewhat; slightly",
+      "vi": "somewhat; slightly",
+      "id": "somewhat; slightly"
     }
   },
   {
@@ -2914,11 +2914,11 @@ const N2_GRAMMAR = [
     "p": "げ",
     "m": {
       "en": "seemingly; looking",
-      "zh-TW": "[seemingly; looking]",
-      "zh-CN": "[seemingly; looking]",
-      "ko": "[seemingly; looking]",
-      "vi": "[seemingly; looking]",
-      "id": "[seemingly; looking]"
+      "zh-TW": "seemingly; looking",
+      "zh-CN": "seemingly; looking",
+      "ko": "seemingly; looking",
+      "vi": "seemingly; looking",
+      "id": "seemingly; looking"
     }
   },
   {
@@ -2926,11 +2926,11 @@ const N2_GRAMMAR = [
     "p": "だらけ",
     "m": {
       "en": "full of; covered with",
-      "zh-TW": "[full of; covered with]",
-      "zh-CN": "[full of; covered with]",
-      "ko": "[full of; covered with]",
-      "vi": "[full of; covered with]",
-      "id": "[full of; covered with]"
+      "zh-TW": "full of; covered with",
+      "zh-CN": "full of; covered with",
+      "ko": "full of; covered with",
+      "vi": "full of; covered with",
+      "id": "full of; covered with"
     }
   },
   {
@@ -2938,11 +2938,11 @@ const N2_GRAMMAR = [
     "p": "まみれ",
     "m": {
       "en": "covered with",
-      "zh-TW": "[covered with]",
-      "zh-CN": "[covered with]",
-      "ko": "[covered with]",
-      "vi": "[covered with]",
-      "id": "[covered with]"
+      "zh-TW": "covered with",
+      "zh-CN": "covered with",
+      "ko": "covered with",
+      "vi": "covered with",
+      "id": "covered with"
     }
   },
   {
@@ -2950,11 +2950,11 @@ const N2_GRAMMAR = [
     "p": "ずくめ",
     "m": {
       "en": "all; nothing but",
-      "zh-TW": "[all; nothing but]",
-      "zh-CN": "[all; nothing but]",
-      "ko": "[all; nothing but]",
-      "vi": "[all; nothing but]",
-      "id": "[all; nothing but]"
+      "zh-TW": "all; nothing but",
+      "zh-CN": "all; nothing but",
+      "ko": "all; nothing but",
+      "vi": "all; nothing but",
+      "id": "all; nothing but"
     }
   },
   {
@@ -2962,11 +2962,11 @@ const N2_GRAMMAR = [
     "p": "めく",
     "m": {
       "en": "seem like; have the air of",
-      "zh-TW": "[seem like; have the air of]",
-      "zh-CN": "[seem like; have the air of]",
-      "ko": "[seem like; have the air of]",
-      "vi": "[seem like; have the air of]",
-      "id": "[seem like; have the air of]"
+      "zh-TW": "seem like; have the air of",
+      "zh-CN": "seem like; have the air of",
+      "ko": "seem like; have the air of",
+      "vi": "seem like; have the air of",
+      "id": "seem like; have the air of"
     }
   },
   {
@@ -2974,11 +2974,11 @@ const N2_GRAMMAR = [
     "p": "にほかならない",
     "m": {
       "en": "nothing but; none other than",
-      "zh-TW": "[nothing but; none other than]",
-      "zh-CN": "[nothing but; none other than]",
-      "ko": "[nothing but; none other than]",
-      "vi": "[nothing but; none other than]",
-      "id": "[nothing but; none other than]"
+      "zh-TW": "nothing but; none other than",
+      "zh-CN": "nothing but; none other than",
+      "ko": "nothing but; none other than",
+      "vi": "nothing but; none other than",
+      "id": "nothing but; none other than"
     }
   },
   {
@@ -2986,11 +2986,11 @@ const N2_GRAMMAR = [
     "p": "に過ぎない",
     "m": {
       "en": "merely; only",
-      "zh-TW": "[merely; only]",
-      "zh-CN": "[merely; only]",
-      "ko": "[merely; only]",
-      "vi": "[merely; only]",
-      "id": "[merely; only]"
+      "zh-TW": "merely; only",
+      "zh-CN": "merely; only",
+      "ko": "merely; only",
+      "vi": "merely; only",
+      "id": "merely; only"
     }
   },
   {
@@ -2998,11 +2998,11 @@ const N2_GRAMMAR = [
     "p": "に限る",
     "m": {
       "en": "nothing better than",
-      "zh-TW": "[nothing better than]",
-      "zh-CN": "[nothing better than]",
-      "ko": "[nothing better than]",
-      "vi": "[nothing better than]",
-      "id": "[nothing better than]"
+      "zh-TW": "nothing better than",
+      "zh-CN": "nothing better than",
+      "ko": "nothing better than",
+      "vi": "nothing better than",
+      "id": "nothing better than"
     }
   },
   {
@@ -3010,11 +3010,11 @@ const N2_GRAMMAR = [
     "p": "に越したことはない",
     "m": {
       "en": "nothing better than",
-      "zh-TW": "[nothing better than]",
-      "zh-CN": "[nothing better than]",
-      "ko": "[nothing better than]",
-      "vi": "[nothing better than]",
-      "id": "[nothing better than]"
+      "zh-TW": "nothing better than",
+      "zh-CN": "nothing better than",
+      "ko": "nothing better than",
+      "vi": "nothing better than",
+      "id": "nothing better than"
     }
   }
 ];
