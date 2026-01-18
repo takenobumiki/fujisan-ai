@@ -1,10 +1,10 @@
-// Fujisan.AI Service Worker v19.7.3
+// Fujisan.AI Service Worker v19.7.4
 // ============================================================
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const CACHE_NAME = 'fujisan-v19.7.3';
-const APP_VERSION = '19.7.3';
+const CACHE_NAME = 'fujisan-v19.7.4';
+const APP_VERSION = '19.7.4';
 
 const urlsToCache = [
   '/',

@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.7.3';
+const APP_VERSION = '19.7.4';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -12951,11 +12951,11 @@ Be encouraging and natural.`,
 };
 
 const TALK_LEVEL_INSTRUCTIONS = {
-  N5: 'Use only N5 level Japanese: basic hiragana/katakana, simple present/past tense, basic particles (は、が、を、に、で), common greetings. Avoid kanji or add furigana in parentheses.',
-  N4: 'Use N4 level Japanese: て-form, たい-form, potential form, basic keigo, common N4 kanji with furigana for difficult ones.',
-  N3: 'Use N3 level Japanese: more complex grammar, conditional forms, passive/causative, intermediate vocabulary and kanji.',
-  N2: 'Use N2 level Japanese: advanced grammar patterns, formal expressions, news-level vocabulary, most common kanji without furigana.',
-  N1: 'Use native-level Japanese: natural expressions, idioms, nuanced grammar, full kanji usage, colloquialisms when appropriate.'
+  N5: `Use only N5 level Japanese. CRITICAL KANJI RULE: Only use these basic kanji: 一二三四五六七八九十百千万円年月日時分週間今何人男女子学生先名前大小中高新古長短多少早私友父母兄弟姉妹. ALL other kanji must be written in hiragana. Use simple present/past tense, basic particles (は、が、を、に、で).`,
+  N4: `Use N4 level Japanese. CRITICAL KANJI RULE: Only use N5+N4 level kanji. Any kanji beyond N4 level must be written in hiragana. Use て-form, たい-form, potential form.`,
+  N3: `Use N3 level Japanese. CRITICAL KANJI RULE: Only use N5+N4+N3 level kanji. Any kanji beyond N3 level must be written in hiragana. Use conditional forms, passive/causative.`,
+  N2: `Use N2 level Japanese. Use advanced grammar patterns, formal expressions. Most kanji are acceptable but rare ones should have furigana.`,
+  N1: `Use native-level Japanese: natural expressions, idioms, nuanced grammar, full kanji usage, colloquialisms when appropriate.`
 };
 
 // Talk state
@@ -13062,11 +13062,8 @@ async function startTalkUnit() {
     en: `Hello! Let's talk using ${level} vocabulary. What would you like to talk about?`
   };
   addTalkMessage('ai', firstMessage.ja, firstMessage.en);
-  showTalkSuggestions([
-    { ja: '自己紹介をしたい', en: getText('talk_intro_want') || 'I want to introduce myself' },
-    { ja: '趣味について話したい', en: getText('talk_hobby_want') || 'I want to talk about hobbies' },
-    { ja: '日本について質問がある', en: getText('talk_japan_question') || 'I have questions about Japan' }
-  ]);
+  // Hide suggestions for cleaner UI
+  showTalkSuggestions([]);
 }
 
 // Start scenario conversation
@@ -13082,7 +13079,8 @@ function startTalkScenario(scenarioId) {
   
   showTalkChat(getText(scenario.nameKey) || scenario.name);
   addTalkMessage('ai', scenario.firstMessage.ja, scenario.firstMessage.en);
-  showTalkSuggestions(scenario.suggestions);
+  // Hide suggestions for cleaner UI
+  showTalkSuggestions([]);
 }
 
 // Show chat interface
