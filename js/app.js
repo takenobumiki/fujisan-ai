@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.12';
+const APP_VERSION = '19.8.17';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -257,24 +257,20 @@ const UI_TEXTS = {
     onboarding_beginner: 'Beginner', onboarding_elementary: 'Elementary',
     onboarding_intermediate: 'Intermediate', onboarding_advanced: 'Advanced', onboarding_expert: 'Expert',
     onboarding_features: '3 Ways to Learn',
-    onboarding_drill: 'Drill', onboarding_drill_desc: 'Daily vocabulary, kanji & grammar practice',
-    onboarding_mock: 'Mock Test', onboarding_mock_desc: 'Real JLPT format with 20 practice sets',
-    onboarding_ai: 'AI Tutor', onboarding_ai_desc: 'Get personalized explanations for mistakes',
-    onboarding_ai_title: 'Meet Your AI Tutor',
-    onboarding_ai_subtitle: 'Like having a Japanese teacher available 24/7',
+    onboarding_drill: 'Drill', onboarding_drill_desc: 'Vocabulary, kanji & grammar practice',
+    onboarding_mock: 'Mock Test', onboarding_mock_desc: 'Real JLPT format practice tests',
+    onboarding_talk_feature: 'Talk', onboarding_talk_feature_desc: 'AI conversation practice with Sakura',
+    onboarding_sakura_title: 'Meet Sakura, Your AI Partner',
+    onboarding_sakura_desc: 'Practice real Japanese conversations anytime',
+    onboarding_talk: 'Talk with Sakura',
+    onboarding_talk_desc: 'Have natural voice conversations in Japanese - Sakura speaks and listens!',
     onboarding_ai_explain: 'Why? Button',
-    onboarding_ai_explain_desc: "Don't understand an answer? Tap \"Why?\" for instant AI explanation in your language",
-    onboarding_ai_chat: 'Ask AI Anything',
-    onboarding_ai_chat_desc: '"What\'s the difference between は and が?" - Just ask!',
+    onboarding_ai_explain_desc: "Don't understand? Tap \"Why?\" for instant AI explanations",
     onboarding_ai_coach: 'Smart Review',
-    onboarding_ai_coach_desc: 'AI tracks your mistakes and creates personalized review sessions',
-    onboarding_ai_note: 'AI features included free with all plans',
+    onboarding_ai_coach_desc: 'AI tracks your progress and helps you improve',
     onboarding_ready: "You're all set!",
-    onboarding_ready_desc: 'Start with Unit 1 and let AI guide your journey to JLPT success.',
-    onboarding_tip: 'Pro Tip:', onboarding_skip: 'Skip', onboarding_next: 'Next',
-    onboarding_units_title: 'Tap a Unit to Start',
-    onboarding_units_desc: 'Each unit contains ~22 questions. Complete units to build your skills!',
-    onboarding_units_tap: 'Tap any number to start practicing!',
+    onboarding_ready_desc: 'Start learning with Drill, test yourself with Mock, or chat with Sakura!',
+    onboarding_tip: 'Pro Tip:', onboarding_skip: 'Skip', onboarding_next: 'Next', onboarding_start: "Let's Go!",
     // Quiz/Drill
     quiz_prompt: 'What does this mean?', quiz_correct: 'Correct', quiz_wrong: 'Wrong', quiz_time: 'Time', correct_answer: 'Correct answer',
     quiz_review_title: 'Review Your Mistakes', quiz_review_btn: 'Review Mistakes',
@@ -738,24 +734,20 @@ const UI_TEXTS = {
     onboarding_beginner: '初學者', onboarding_elementary: '基礎',
     onboarding_intermediate: '中級', onboarding_advanced: '高級', onboarding_expert: '專家',
     onboarding_features: '3種學習方式',
-    onboarding_drill: '練習', onboarding_drill_desc: '每日單字、漢字和文法練習',
-    onboarding_mock: '模擬測驗', onboarding_mock_desc: '真實JLPT格式，20套練習題',
-    onboarding_ai: 'AI導師', onboarding_ai_desc: '針對錯誤獲得個人化解釋',
-    onboarding_ai_title: '認識您的AI導師',
-    onboarding_ai_subtitle: '就像有一位24小時待命的日語老師',
+    onboarding_drill: '練習', onboarding_drill_desc: '單字、漢字和文法練習',
+    onboarding_mock: '模擬測驗', onboarding_mock_desc: '真實JLPT格式練習題',
+    onboarding_talk_feature: '對話', onboarding_talk_feature_desc: '與Sakura進行AI會話練習',
+    onboarding_sakura_title: '認識Sakura，您的AI夥伴',
+    onboarding_sakura_desc: '隨時練習真實的日語對話',
+    onboarding_talk: '與Sakura對話',
+    onboarding_talk_desc: '用日語進行自然的語音對話 - Sakura會說會聽！',
     onboarding_ai_explain: '為什麼？按鈕',
-    onboarding_ai_explain_desc: '不懂答案？點擊「為什麼？」即可獲得您語言的AI解說',
-    onboarding_ai_chat: '隨時提問AI',
-    onboarding_ai_chat_desc: '「は和が有什麼區別？」- 直接問就好！',
+    onboarding_ai_explain_desc: '不懂？點擊「為什麼？」即可獲得AI解說',
     onboarding_ai_coach: '智能複習',
-    onboarding_ai_coach_desc: 'AI追蹤您的錯誤，創建個人化複習課程',
-    onboarding_ai_note: '所有方案均包含AI功能',
+    onboarding_ai_coach_desc: 'AI追蹤您的進度，幫助您提升',
     onboarding_ready: '準備就緒！',
-    onboarding_ready_desc: '從第1單元開始，讓AI引導您邁向JLPT成功。',
-    onboarding_tip: '小提示：', onboarding_skip: '跳過', onboarding_next: '下一步',
-    onboarding_units_title: '點擊單元開始學習',
-    onboarding_units_desc: '每個單元包含約22道題目。完成單元，提升實力！',
-    onboarding_units_tap: '點擊任意數字開始練習！',
+    onboarding_ready_desc: '開始練習、模擬測驗，或與Sakura聊天！',
+    onboarding_tip: '小提示：', onboarding_skip: '跳過', onboarding_next: '下一步', onboarding_start: '開始',
     quiz_prompt: '這是什麼意思？', quiz_correct: '正確', quiz_wrong: '錯誤', quiz_time: '時間', correct_answer: '正確答案',
     quiz_review_title: '複習錯誤', quiz_review_btn: '複習錯誤',
     quiz_try_again: '再試一次', quiz_home: '首頁', quiz_continue: '繼續', quiz_next_unit: '下一單元 →', quiz_next: '下一題 →',
@@ -1080,24 +1072,20 @@ const UI_TEXTS = {
     onboarding_beginner: '初学者', onboarding_elementary: '基础',
     onboarding_intermediate: '中级', onboarding_advanced: '高级', onboarding_expert: '专家',
     onboarding_features: '3种学习方式',
-    onboarding_drill: '练习', onboarding_drill_desc: '每日单词、汉字和语法练习',
-    onboarding_mock: '模拟测验', onboarding_mock_desc: '真实JLPT格式，20套练习题',
-    onboarding_ai: 'AI导师', onboarding_ai_desc: '针对错误获得个性化解释',
-    onboarding_ai_title: '认识您的AI导师',
-    onboarding_ai_subtitle: '就像有一位24小时待命的日语老师',
+    onboarding_drill: '练习', onboarding_drill_desc: '单词、汉字和语法练习',
+    onboarding_mock: '模拟测验', onboarding_mock_desc: '真实JLPT格式练习题',
+    onboarding_talk_feature: '对话', onboarding_talk_feature_desc: '与Sakura进行AI会话练习',
+    onboarding_sakura_title: '认识Sakura，您的AI伙伴',
+    onboarding_sakura_desc: '随时练习真实的日语对话',
+    onboarding_talk: '与Sakura对话',
+    onboarding_talk_desc: '用日语进行自然的语音对话 - Sakura会说会听！',
     onboarding_ai_explain: '为什么？按钮',
-    onboarding_ai_explain_desc: '不懂答案？点击「为什么？」即可获得您语言的AI解说',
-    onboarding_ai_chat: '随时提问AI',
-    onboarding_ai_chat_desc: '「は和が有什么区别？」- 直接问就好！',
+    onboarding_ai_explain_desc: '不懂？点击「为什么？」即可获得AI解说',
     onboarding_ai_coach: '智能复习',
-    onboarding_ai_coach_desc: 'AI追踪您的错误，创建个性化复习课程',
-    onboarding_ai_note: '所有方案均包含AI功能',
+    onboarding_ai_coach_desc: 'AI追踪您的进度，帮助您提升',
     onboarding_ready: '准备就绪！',
-    onboarding_ready_desc: '从第1单元开始，让AI引导您迈向JLPT成功。',
-    onboarding_tip: '小提示：', onboarding_skip: '跳过', onboarding_next: '下一步',
-    onboarding_units_title: '点击单元开始学习',
-    onboarding_units_desc: '每个单元包含约22道题目。完成单元，提升实力！',
-    onboarding_units_tap: '点击任意数字开始练习！',
+    onboarding_ready_desc: '开始练习、模拟测验，或与Sakura聊天！',
+    onboarding_tip: '小提示：', onboarding_skip: '跳过', onboarding_next: '下一步', onboarding_start: '开始',
     quiz_prompt: '这是什么意思？', quiz_correct: '正确', quiz_wrong: '错误', quiz_time: '时间', correct_answer: '正确答案',
     quiz_review_title: '复习错误', quiz_review_btn: '复习错误',
     quiz_try_again: '再试一次', quiz_home: '首页', quiz_continue: '继续', quiz_next_unit: '下一单元 →', quiz_next: '下一题 →',
@@ -1435,24 +1423,20 @@ const UI_TEXTS = {
     onboarding_beginner: '초급', onboarding_elementary: '기초',
     onboarding_intermediate: '중급', onboarding_advanced: '고급', onboarding_expert: '전문가',
     onboarding_features: '3가지 학습 방법',
-    onboarding_drill: '연습', onboarding_drill_desc: '매일 단어, 한자 및 문법 연습',
-    onboarding_mock: '모의 테스트', onboarding_mock_desc: '실제 JLPT 형식, 20세트 연습문제',
-    onboarding_ai: 'AI 튜터', onboarding_ai_desc: '실수에 대한 맞춤형 설명 받기',
-    onboarding_ai_title: 'AI 튜터를 만나보세요',
-    onboarding_ai_subtitle: '24시간 대기하는 일본어 선생님처럼',
+    onboarding_drill: '연습', onboarding_drill_desc: '단어, 한자 및 문법 연습',
+    onboarding_mock: '모의 테스트', onboarding_mock_desc: '실제 JLPT 형식 연습문제',
+    onboarding_talk_feature: '대화', onboarding_talk_feature_desc: 'Sakura와 AI 회화 연습',
+    onboarding_sakura_title: 'AI 파트너 Sakura를 만나보세요',
+    onboarding_sakura_desc: '언제든지 실제 일본어 대화를 연습하세요',
+    onboarding_talk: 'Sakura와 대화',
+    onboarding_talk_desc: '일본어로 자연스러운 음성 대화를 해보세요 - Sakura가 말하고 들어요!',
     onboarding_ai_explain: '왜? 버튼',
-    onboarding_ai_explain_desc: '답이 이해가 안 되나요? "왜?"를 탭하면 AI가 바로 설명해 드려요',
-    onboarding_ai_chat: 'AI에게 뭐든 물어보세요',
-    onboarding_ai_chat_desc: '"は와 が의 차이가 뭐예요?" - 그냥 물어보세요!',
+    onboarding_ai_explain_desc: '이해가 안 되나요? "왜?"를 탭하면 AI가 설명해 드려요',
     onboarding_ai_coach: '스마트 복습',
-    onboarding_ai_coach_desc: 'AI가 실수를 추적하고 맞춤형 복습 세션을 만들어요',
-    onboarding_ai_note: 'AI 기능은 모든 플랜에 무료 포함',
+    onboarding_ai_coach_desc: 'AI가 진행 상황을 추적하고 향상을 도와드려요',
     onboarding_ready: '준비 완료!',
-    onboarding_ready_desc: '1단원부터 시작하고 AI가 JLPT 성공으로 안내해 드립니다.',
-    onboarding_tip: '팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음',
-    onboarding_units_title: '유닛을 탭하여 시작하세요',
-    onboarding_units_desc: '각 유닛에는 약 22개의 문제가 있어요. 유닛을 완료하며 실력을 쌓으세요!',
-    onboarding_units_tap: '아무 번호나 탭하여 연습 시작!',
+    onboarding_ready_desc: '연습, 모의 테스트, 또는 Sakura와 채팅을 시작하세요!',
+    onboarding_tip: '팁:', onboarding_skip: '건너뛰기', onboarding_next: '다음', onboarding_start: '시작',
     quiz_prompt: '이것은 무슨 뜻인가요?', quiz_correct: '정답', quiz_wrong: '오답', quiz_time: '시간', correct_answer: '정답',
     quiz_review_title: '오답 복습', quiz_review_btn: '오답 복습',
     quiz_try_again: '다시 시도', quiz_home: '홈', quiz_continue: '계속', quiz_next_unit: '다음 단원 →', quiz_next: '다음 →',
@@ -1775,24 +1759,20 @@ const UI_TEXTS = {
     onboarding_beginner: 'Sơ cấp', onboarding_elementary: 'Cơ bản',
     onboarding_intermediate: 'Trung cấp', onboarding_advanced: 'Cao cấp', onboarding_expert: 'Chuyên gia',
     onboarding_features: '3 Cách học',
-    onboarding_drill: 'Luyện tập', onboarding_drill_desc: 'Luyện từ vựng, kanji & ngữ pháp hàng ngày',
-    onboarding_mock: 'Thi thử', onboarding_mock_desc: 'Định dạng JLPT thực, 20 bộ đề',
-    onboarding_ai: 'Gia sư AI', onboarding_ai_desc: 'Nhận giải thích cá nhân hóa cho các lỗi',
-    onboarding_ai_title: 'Gặp Gia sư AI của bạn',
-    onboarding_ai_subtitle: 'Như có một giáo viên tiếng Nhật sẵn sàng 24/7',
+    onboarding_drill: 'Luyện tập', onboarding_drill_desc: 'Luyện từ vựng, kanji & ngữ pháp',
+    onboarding_mock: 'Thi thử', onboarding_mock_desc: 'Đề thi định dạng JLPT thực',
+    onboarding_talk_feature: 'Hội thoại', onboarding_talk_feature_desc: 'Luyện hội thoại AI với Sakura',
+    onboarding_sakura_title: 'Gặp Sakura, đối tác AI của bạn',
+    onboarding_sakura_desc: 'Luyện hội thoại tiếng Nhật thực tế bất cứ lúc nào',
+    onboarding_talk: 'Trò chuyện với Sakura',
+    onboarding_talk_desc: 'Hội thoại tự nhiên bằng giọng nói tiếng Nhật - Sakura nói và nghe!',
     onboarding_ai_explain: 'Nút Tại sao?',
-    onboarding_ai_explain_desc: 'Không hiểu câu trả lời? Nhấn "Tại sao?" để AI giải thích ngay bằng ngôn ngữ của bạn',
-    onboarding_ai_chat: 'Hỏi AI bất cứ điều gì',
-    onboarding_ai_chat_desc: '"Sự khác biệt giữa は và が là gì?" - Cứ hỏi thôi!',
+    onboarding_ai_explain_desc: 'Không hiểu? Nhấn "Tại sao?" để AI giải thích ngay',
     onboarding_ai_coach: 'Ôn tập thông minh',
-    onboarding_ai_coach_desc: 'AI theo dõi lỗi sai và tạo buổi ôn tập riêng cho bạn',
-    onboarding_ai_note: 'Tính năng AI miễn phí với tất cả gói',
+    onboarding_ai_coach_desc: 'AI theo dõi tiến độ và giúp bạn cải thiện',
     onboarding_ready: 'Bạn đã sẵn sàng!',
-    onboarding_ready_desc: 'Bắt đầu với Bài 1 và để AI hướng dẫn bạn đến thành công JLPT.',
-    onboarding_tip: 'Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp',
-    onboarding_units_title: 'Chạm vào Bài để bắt đầu',
-    onboarding_units_desc: 'Mỗi bài có khoảng 22 câu hỏi. Hoàn thành bài để nâng cao kỹ năng!',
-    onboarding_units_tap: 'Chạm vào bất kỳ số nào để bắt đầu luyện tập!',
+    onboarding_ready_desc: 'Bắt đầu luyện tập, thi thử, hoặc trò chuyện với Sakura!',
+    onboarding_tip: 'Mẹo:', onboarding_skip: 'Bỏ qua', onboarding_next: 'Tiếp', onboarding_start: 'Bắt đầu',
     quiz_prompt: 'Điều này có nghĩa là gì?', quiz_correct: 'Đúng', quiz_wrong: 'Sai', quiz_time: 'Thời gian', correct_answer: 'Đáp án đúng',
     quiz_review_title: 'Xem lại lỗi sai', quiz_review_btn: 'Xem lại lỗi',
     quiz_try_again: 'Thử lại', quiz_home: 'Trang chủ', quiz_continue: 'Tiếp tục', quiz_next_unit: 'Bài tiếp theo →', quiz_next: 'Tiếp →',
@@ -2098,24 +2078,20 @@ const UI_TEXTS = {
     onboarding_beginner: 'Pemula', onboarding_elementary: 'Dasar',
     onboarding_intermediate: 'Menengah', onboarding_advanced: 'Lanjutan', onboarding_expert: 'Ahli',
     onboarding_features: '3 Cara Belajar',
-    onboarding_drill: 'Latihan', onboarding_drill_desc: 'Latihan kosakata, kanji & tata bahasa harian',
-    onboarding_mock: 'Simulasi', onboarding_mock_desc: 'Format JLPT asli, 20 set soal',
-    onboarding_ai: 'Tutor AI', onboarding_ai_desc: 'Dapatkan penjelasan personal untuk kesalahan',
-    onboarding_ai_title: 'Temui Tutor AI Anda',
-    onboarding_ai_subtitle: 'Seperti punya guru bahasa Jepang 24 jam',
+    onboarding_drill: 'Latihan', onboarding_drill_desc: 'Latihan kosakata, kanji & tata bahasa',
+    onboarding_mock: 'Simulasi', onboarding_mock_desc: 'Soal latihan format JLPT asli',
+    onboarding_talk_feature: 'Percakapan', onboarding_talk_feature_desc: 'Latihan percakapan AI dengan Sakura',
+    onboarding_sakura_title: 'Temui Sakura, partner AI Anda',
+    onboarding_sakura_desc: 'Latihan percakapan Jepang nyata kapan saja',
+    onboarding_talk: 'Ngobrol dengan Sakura',
+    onboarding_talk_desc: 'Percakapan suara alami dalam bahasa Jepang - Sakura berbicara dan mendengar!',
     onboarding_ai_explain: 'Tombol Kenapa?',
-    onboarding_ai_explain_desc: 'Tidak mengerti jawabannya? Ketuk "Kenapa?" untuk penjelasan AI dalam bahasa Anda',
-    onboarding_ai_chat: 'Tanya AI Apa Saja',
-    onboarding_ai_chat_desc: '"Apa bedanya は dan が?" - Langsung tanya saja!',
+    onboarding_ai_explain_desc: 'Tidak mengerti? Ketuk "Kenapa?" untuk penjelasan AI',
     onboarding_ai_coach: 'Review Pintar',
-    onboarding_ai_coach_desc: 'AI melacak kesalahan dan membuat sesi review khusus untuk Anda',
-    onboarding_ai_note: 'Fitur AI gratis di semua paket',
+    onboarding_ai_coach_desc: 'AI melacak kemajuan dan membantu Anda meningkat',
     onboarding_ready: 'Anda siap!',
-    onboarding_ready_desc: 'Mulai dari Unit 1 dan biarkan AI membimbing Anda menuju sukses JLPT.',
-    onboarding_tip: 'Tips:', onboarding_skip: 'Lewati', onboarding_next: 'Lanjut',
-    onboarding_units_title: 'Ketuk Unit untuk Mulai',
-    onboarding_units_desc: 'Setiap unit berisi sekitar 22 soal. Selesaikan unit untuk meningkatkan skill!',
-    onboarding_units_tap: 'Ketuk nomor mana saja untuk mulai latihan!',
+    onboarding_ready_desc: 'Mulai latihan, simulasi, atau ngobrol dengan Sakura!',
+    onboarding_tip: 'Tips:', onboarding_skip: 'Lewati', onboarding_next: 'Lanjut', onboarding_start: 'Mulai',
     quiz_prompt: 'Apa artinya ini?', quiz_correct: 'Benar', quiz_wrong: 'Salah', quiz_time: 'Waktu', correct_answer: 'Jawaban benar',
     quiz_review_title: 'Review Kesalahan', quiz_review_btn: 'Review Kesalahan',
     quiz_try_again: 'Coba lagi', quiz_home: 'Beranda', quiz_continue: 'Lanjut', quiz_next_unit: 'Unit Selanjutnya →', quiz_next: 'Lanjut →',
@@ -2416,19 +2392,17 @@ const UI_TEXTS = {
     onboarding_beginner: 'Principiante', onboarding_elementary: 'Elemental',
     onboarding_intermediate: 'Intermedio', onboarding_advanced: 'Avanzado', onboarding_expert: 'Experto',
     onboarding_features: '3 Formas de Aprender',
-    onboarding_drill: 'Práctica', onboarding_drill_desc: 'Vocabulario, kanji y gramática diarios',
-    onboarding_mock: 'Simulacro', onboarding_mock_desc: 'Formato JLPT real con 20 sets',
-    onboarding_ai: 'Tutor IA', onboarding_ai_desc: 'Explicaciones personalizadas para errores',
-    onboarding_ai_title: 'Conoce a tu Tutor IA', onboarding_ai_subtitle: 'Como tener un profesor 24/7',
-    onboarding_ai_explain: 'Botón ¿Por qué?', onboarding_ai_explain_desc: 'Toca "¿Por qué?" para explicación IA instantánea',
-    onboarding_ai_chat: 'Pregunta a la IA', onboarding_ai_chat_desc: '"¿Cuál es la diferencia entre は y が?"',
-    onboarding_ai_coach: 'Repaso Inteligente', onboarding_ai_coach_desc: 'La IA rastrea errores y crea repasos',
-    onboarding_ai_note: 'Funciones IA incluidas en todos los planes',
-    onboarding_ready: '¡Estás listo!', onboarding_ready_desc: 'Comienza con la Unidad 1.',
-    onboarding_tip: 'Consejo:', onboarding_skip: 'Saltar', onboarding_next: 'Siguiente',
-    onboarding_units_title: 'Toca una Unidad para empezar',
-    onboarding_units_desc: 'Cada unidad tiene ~22 preguntas. ¡Completa unidades para mejorar!',
-    onboarding_units_tap: '¡Toca cualquier número para empezar a practicar!',
+    onboarding_drill: 'Práctica', onboarding_drill_desc: 'Vocabulario, kanji y gramática',
+    onboarding_mock: 'Simulacro', onboarding_mock_desc: 'Exámenes formato JLPT real',
+    onboarding_talk_feature: 'Conversar', onboarding_talk_feature_desc: 'Practica conversación IA con Sakura',
+    onboarding_sakura_title: 'Conoce a Sakura, tu compañera IA',
+    onboarding_sakura_desc: 'Practica conversaciones reales en japonés cuando quieras',
+    onboarding_talk: 'Habla con Sakura',
+    onboarding_talk_desc: 'Conversaciones de voz naturales en japonés - ¡Sakura habla y escucha!',
+    onboarding_ai_explain: 'Botón ¿Por qué?', onboarding_ai_explain_desc: '¿No entiendes? Toca "¿Por qué?" para explicación IA',
+    onboarding_ai_coach: 'Repaso Inteligente', onboarding_ai_coach_desc: 'La IA rastrea tu progreso y te ayuda a mejorar',
+    onboarding_ready: '¡Estás listo!', onboarding_ready_desc: '¡Comienza a practicar, haz simulacros o chatea con Sakura!',
+    onboarding_tip: 'Consejo:', onboarding_skip: 'Saltar', onboarding_next: 'Siguiente', onboarding_start: 'Empezar',
     quiz_prompt: '¿Qué significa esto?', quiz_correct: 'Correcto', quiz_wrong: 'Incorrecto', quiz_time: 'Tiempo', correct_answer: 'Respuesta correcta',
     quiz_review_title: 'Revisa tus Errores', quiz_review_btn: 'Revisar Errores',
     quiz_try_again: 'Intentar de Nuevo', quiz_home: 'Inicio', quiz_continue: 'Continuar', quiz_next_unit: 'Siguiente Unidad →', quiz_next: 'Siguiente →',
@@ -2669,19 +2643,17 @@ const UI_TEXTS = {
     onboarding_beginner: 'Iniciante', onboarding_elementary: 'Elementar',
     onboarding_intermediate: 'Intermediário', onboarding_advanced: 'Avançado', onboarding_expert: 'Expert',
     onboarding_features: '3 Formas de Aprender',
-    onboarding_drill: 'Prática', onboarding_drill_desc: 'Vocabulário, kanji e gramática diários',
-    onboarding_mock: 'Simulado', onboarding_mock_desc: 'Formato JLPT real com 20 conjuntos',
-    onboarding_ai: 'Tutor IA', onboarding_ai_desc: 'Explicações personalizadas para erros',
-    onboarding_ai_title: 'Conheça seu Tutor IA', onboarding_ai_subtitle: 'Como ter um professor 24/7',
-    onboarding_ai_explain: 'Botão Por quê?', onboarding_ai_explain_desc: 'Toque "Por quê?" para explicação IA',
-    onboarding_ai_chat: 'Pergunte à IA', onboarding_ai_chat_desc: '"Qual a diferença entre は e が?"',
-    onboarding_ai_coach: 'Revisão Inteligente', onboarding_ai_coach_desc: 'A IA rastreia erros e cria revisões',
-    onboarding_ai_note: 'Recursos IA incluídos em todos os planos',
-    onboarding_ready: 'Você está pronto!', onboarding_ready_desc: 'Comece com a Unidade 1.',
-    onboarding_tip: 'Dica:', onboarding_skip: 'Pular', onboarding_next: 'Próximo',
-    onboarding_units_title: 'Toque numa Unidade para começar',
-    onboarding_units_desc: 'Cada unidade tem ~22 questões. Complete unidades para melhorar!',
-    onboarding_units_tap: 'Toque em qualquer número para começar a praticar!',
+    onboarding_drill: 'Prática', onboarding_drill_desc: 'Vocabulário, kanji e gramática',
+    onboarding_mock: 'Simulado', onboarding_mock_desc: 'Testes em formato JLPT real',
+    onboarding_talk_feature: 'Conversar', onboarding_talk_feature_desc: 'Pratique conversação IA com Sakura',
+    onboarding_sakura_title: 'Conheça Sakura, sua parceira IA',
+    onboarding_sakura_desc: 'Pratique conversas reais em japonês a qualquer momento',
+    onboarding_talk: 'Fale com Sakura',
+    onboarding_talk_desc: 'Conversas de voz naturais em japonês - Sakura fala e ouve!',
+    onboarding_ai_explain: 'Botão Por quê?', onboarding_ai_explain_desc: 'Não entende? Toque "Por quê?" para explicação IA',
+    onboarding_ai_coach: 'Revisão Inteligente', onboarding_ai_coach_desc: 'A IA rastreia seu progresso e ajuda você a melhorar',
+    onboarding_ready: 'Você está pronto!', onboarding_ready_desc: 'Comece a praticar, faça simulados ou converse com Sakura!',
+    onboarding_tip: 'Dica:', onboarding_skip: 'Pular', onboarding_next: 'Próximo', onboarding_start: 'Começar',
     quiz_prompt: 'O que significa?', quiz_correct: 'Correto', quiz_wrong: 'Incorreto', quiz_time: 'Tempo', correct_answer: 'Resposta correta',
     quiz_review_title: 'Revise seus Erros', quiz_review_btn: 'Revisar Erros',
     quiz_try_again: 'Tentar Novamente', quiz_home: 'Início', quiz_continue: 'Continuar', quiz_next_unit: 'Próxima Unidade →', quiz_next: 'Próximo →',
@@ -10900,7 +10872,7 @@ function logout() {
 
 // ========== ONBOARDING ==========
 let onboardingStep = 1;
-const totalOnboardingSteps = 6;
+const totalOnboardingSteps = 5;
 
 function showOnboarding() {
   if (state.onboardingComplete) return;
@@ -10925,7 +10897,12 @@ function updateOnboardingUI() {
   // Update button text
   const nextText = document.getElementById('onboarding-next-text');
   if (nextText) {
-    nextText.textContent = onboardingStep === totalOnboardingSteps ? "Let's Go!" : 'Next';
+    const texts = UI_TEXTS[state.lang || 'en'] || UI_TEXTS['en'];
+    if (onboardingStep === totalOnboardingSteps) {
+      nextText.textContent = texts.onboarding_start || "Let's Go!";
+    } else {
+      nextText.textContent = texts.onboarding_next || 'Next';
+    }
   }
 }
 
@@ -13372,14 +13349,27 @@ function addTalkMessage(role, ja, en, feedback = null) {
   msgDiv.className = `talk-message ${role}`;
   
   const userLabel = getText('talk_you') || 'You';
-  const avatarContent = role === 'ai' 
-    ? `<div class="ai-orb">
-        <div class="ai-orb-glow"></div>
-        <div class="ai-orb-ring2"></div>
-        <div class="ai-orb-ring"></div>
-        <div class="ai-orb-core"></div>
-      </div>`
-    : userLabel;
+  const sakuraSvg = `<div class="sakura-avatar">
+    <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="petalGrad" cx="30%" cy="30%">
+          <stop offset="0%" stop-color="#ffd1dc"/>
+          <stop offset="100%" stop-color="#ffb7c5"/>
+        </radialGradient>
+      </defs>
+      <!-- Center -->
+      <circle class="sakura-center" cx="20" cy="20" r="6" fill="#ffd1dc"/>
+      <!-- Petals -->
+      <ellipse class="sakura-petal sakura-petal-1" cx="20" cy="8" rx="5" ry="8" fill="url(#petalGrad)"/>
+      <ellipse class="sakura-petal sakura-petal-2" cx="31" cy="14" rx="5" ry="8" fill="url(#petalGrad)" transform="rotate(72 31 14)"/>
+      <ellipse class="sakura-petal sakura-petal-3" cx="28" cy="28" rx="5" ry="8" fill="url(#petalGrad)" transform="rotate(144 28 28)"/>
+      <ellipse class="sakura-petal sakura-petal-4" cx="12" cy="28" rx="5" ry="8" fill="url(#petalGrad)" transform="rotate(216 12 28)"/>
+      <ellipse class="sakura-petal sakura-petal-5" cx="9" cy="14" rx="5" ry="8" fill="url(#petalGrad)" transform="rotate(288 9 14)"/>
+      <!-- Inner glow -->
+      <circle cx="20" cy="20" r="4" fill="#fff5f7" opacity="0.6"/>
+    </svg>
+  </div>`;
+  const avatarContent = role === 'ai' ? sakuraSvg : userLabel;
   
   let bubbleContent = `<div class="talk-bubble-ja">${ja}</div>`;
   if (en) {
@@ -13416,6 +13406,14 @@ function addTalkMessage(role, ja, en, feedback = null) {
   }
   
   messagesEl.scrollTop = messagesEl.scrollHeight;
+  
+  // Auto-play AI messages
+  if (role === 'ai' && ja) {
+    // Small delay to let the UI update first
+    setTimeout(() => {
+      speakTalkMessage(ja);
+    }, 300);
+  }
 }
 
 // Show typing indicator
@@ -13426,11 +13424,22 @@ function showTalkTyping() {
   typingDiv.id = 'talk-typing';
   typingDiv.innerHTML = `
     <div class="talk-avatar">
-      <div class="ai-orb">
-        <div class="ai-orb-glow"></div>
-        <div class="ai-orb-ring2"></div>
-        <div class="ai-orb-ring"></div>
-        <div class="ai-orb-core"></div>
+      <div class="sakura-avatar">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="petalGradTyping" cx="30%" cy="30%">
+              <stop offset="0%" stop-color="#ffd1dc"/>
+              <stop offset="100%" stop-color="#ffb7c5"/>
+            </radialGradient>
+          </defs>
+          <circle class="sakura-center" cx="20" cy="20" r="6" fill="#ffd1dc"/>
+          <ellipse class="sakura-petal sakura-petal-1" cx="20" cy="8" rx="5" ry="8" fill="url(#petalGradTyping)"/>
+          <ellipse class="sakura-petal sakura-petal-2" cx="31" cy="14" rx="5" ry="8" fill="url(#petalGradTyping)" transform="rotate(72 31 14)"/>
+          <ellipse class="sakura-petal sakura-petal-3" cx="28" cy="28" rx="5" ry="8" fill="url(#petalGradTyping)" transform="rotate(144 28 28)"/>
+          <ellipse class="sakura-petal sakura-petal-4" cx="12" cy="28" rx="5" ry="8" fill="url(#petalGradTyping)" transform="rotate(216 12 28)"/>
+          <ellipse class="sakura-petal sakura-petal-5" cx="9" cy="14" rx="5" ry="8" fill="url(#petalGradTyping)" transform="rotate(288 9 14)"/>
+          <circle cx="20" cy="20" r="4" fill="#fff5f7" opacity="0.6"/>
+        </svg>
       </div>
     </div>
     <div class="talk-bubble">
@@ -13727,6 +13736,12 @@ function speakTalkMessage(text) {
   
   // Fix common TTS mispronunciations (replace kanji with hiragana)
   const ttsFixMap = {
+    'AIの': 'エーアイの',
+    'AIと': 'エーアイと',
+    'AIが': 'エーアイが',
+    'AIは': 'エーアイは',
+    'AIを': 'エーアイを',
+    'AIに': 'エーアイに',
     'AI': 'エーアイ',
     '行って': 'いって',
     '行った': 'いった',

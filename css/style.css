@@ -3921,56 +3921,81 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   background: transparent;
   position: relative;
 }
+
+/* Sakura Petals Animation */
+.sakura-avatar {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.sakura-avatar svg {
+  width: 100%;
+  height: 100%;
+}
+.sakura-petal {
+  fill: #ffb7c5;
+  opacity: 0.9;
+  transform-origin: center;
+}
+.sakura-petal-1 {
+  animation: petalFloat1 3s ease-in-out infinite;
+}
+.sakura-petal-2 {
+  animation: petalFloat2 3.5s ease-in-out infinite 0.3s;
+}
+.sakura-petal-3 {
+  animation: petalFloat3 2.8s ease-in-out infinite 0.6s;
+}
+.sakura-petal-4 {
+  animation: petalFloat4 3.2s ease-in-out infinite 0.9s;
+}
+.sakura-petal-5 {
+  animation: petalFloat5 3s ease-in-out infinite 1.2s;
+}
+.sakura-center {
+  fill: #ffd1dc;
+  animation: centerPulse 2s ease-in-out infinite;
+}
+@keyframes petalFloat1 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.9; }
+  50% { transform: translate(2px, -3px) rotate(10deg); opacity: 0.7; }
+}
+@keyframes petalFloat2 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.85; }
+  50% { transform: translate(-3px, -2px) rotate(-8deg); opacity: 0.6; }
+}
+@keyframes petalFloat3 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.9; }
+  50% { transform: translate(3px, 2px) rotate(12deg); opacity: 0.65; }
+}
+@keyframes petalFloat4 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.8; }
+  50% { transform: translate(-2px, 3px) rotate(-10deg); opacity: 0.55; }
+}
+@keyframes petalFloat5 {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); opacity: 0.85; }
+  50% { transform: translate(1px, -4px) rotate(6deg); opacity: 0.6; }
+}
+@keyframes centerPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+/* Legacy ai-orb support - redirect to sakura */
 .talk-message.ai .talk-avatar .ai-orb {
   width: 36px;
   height: 36px;
   position: relative;
+  display: none; /* Hide old orb */
 }
-.talk-message.ai .talk-avatar .ai-orb-core {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 20px;
-  height: 20px;
-  background: radial-gradient(circle at 30% 30%, #a78bfa, #667eea 50%, #4c1d95);
-  border-radius: 50%;
-  animation: orbPulse 2s ease-in-out infinite;
-  box-shadow: 0 0 15px rgba(102, 126, 234, 0.6), inset 0 0 10px rgba(255,255,255,0.3);
-}
-.talk-message.ai .talk-avatar .ai-orb-ring {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
-  border: 2px solid rgba(167, 139, 250, 0.4);
-  border-radius: 50%;
-  animation: orbRing 2s ease-in-out infinite;
-}
-.talk-message.ai .talk-avatar .ai-orb-ring2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 36px;
-  height: 36px;
-  border: 1px solid rgba(167, 139, 250, 0.2);
-  border-radius: 50%;
-  animation: orbRing 2s ease-in-out infinite 0.5s;
-}
+.talk-message.ai .talk-avatar .ai-orb-core,
+.talk-message.ai .talk-avatar .ai-orb-ring,
+.talk-message.ai .talk-avatar .ai-orb-ring2,
 .talk-message.ai .talk-avatar .ai-orb-glow {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 24px;
-  height: 24px;
-  background: radial-gradient(circle, rgba(167, 139, 250, 0.4) 0%, transparent 70%);
-  border-radius: 50%;
-  animation: orbGlow 3s ease-in-out infinite;
+  display: none;
 }
+
 @keyframes orbPulse {
   0%, 100% { transform: translate(-50%, -50%) scale(1); }
   50% { transform: translate(-50%, -50%) scale(1.15); }
