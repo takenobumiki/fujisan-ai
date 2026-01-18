@@ -8,7 +8,9 @@ const N4_GRAMMAR = [
       "zh-CN": "尽量",
       "ko": "~하도록 하다",
       "vi": "cố gắng",
-      "id": "berusaha"
+      "id": "berusaha",
+      "es": "try to",
+      "pt": "try to"
     }
   },
   {
@@ -20,7 +22,9 @@ const N4_GRAMMAR = [
       "zh-CN": "变得能",
       "ko": "~하게 되다",
       "vi": "trở nên",
-      "id": "menjadi bisa"
+      "id": "menjadi bisa",
+      "es": "come to",
+      "pt": "come to"
     }
   },
   {
@@ -32,7 +36,9 @@ const N4_GRAMMAR = [
       "zh-CN": "决定",
       "ko": "~하기로 하다",
       "vi": "quyết định",
-      "id": "memutuskan"
+      "id": "memutuskan",
+      "es": "decide to",
+      "pt": "decide to"
     }
   },
   {
@@ -44,7 +50,9 @@ const N4_GRAMMAR = [
       "zh-CN": "变成",
       "ko": "~하게 되다",
       "vi": "được quyết định",
-      "id": "diputuskan"
+      "id": "diputuskan",
+      "es": "it's decided",
+      "pt": "it's decided"
     }
   },
   {
@@ -56,7 +64,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不小心",
       "ko": "~해 버리다",
       "vi": "lỡ",
-      "id": "terlanjur"
+      "id": "terlanjur",
+      "es": "end up",
+      "pt": "end up"
     }
   },
   {
@@ -68,7 +78,9 @@ const N4_GRAMMAR = [
       "zh-CN": "事先",
       "ko": "~해 두다",
       "vi": "làm sẵn",
-      "id": "siap-siap"
+      "id": "siap-siap",
+      "es": "do in advance",
+      "pt": "do in advance"
     }
   },
   {
@@ -80,7 +92,9 @@ const N4_GRAMMAR = [
       "zh-CN": "已经",
       "ko": "~해 있다",
       "vi": "đã được",
-      "id": "sudah"
+      "id": "sudah",
+      "es": "has been done",
+      "pt": "has been done"
     }
   },
   {
@@ -92,7 +106,9 @@ const N4_GRAMMAR = [
       "zh-CN": "正要",
       "ko": "~하려던 참",
       "vi": "sắp",
-      "id": "akan"
+      "id": "akan",
+      "es": "about to",
+      "pt": "about to"
     }
   },
   {
@@ -104,7 +120,9 @@ const N4_GRAMMAR = [
       "zh-CN": "刚刚",
       "ko": "~한 지 얼마 안 됐다",
       "vi": "vừa mới",
-      "id": "baru saja"
+      "id": "baru saja",
+      "es": "just did",
+      "pt": "just did"
     }
   },
   {
@@ -116,7 +134,9 @@ const N4_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~할 것이다",
       "vi": "chắc hẳn",
-      "id": "seharusnya"
+      "id": "seharusnya",
+      "es": "should be",
+      "pt": "should be"
     }
   },
   {
@@ -128,7 +148,9 @@ const N4_GRAMMAR = [
       "zh-CN": "一边...一边",
       "ko": "~하면서",
       "vi": "vừa...vừa",
-      "id": "sambil"
+      "id": "sambil",
+      "es": "while doing",
+      "pt": "while doing"
     }
   },
   {
@@ -140,7 +162,9 @@ const N4_GRAMMAR = [
       "zh-CN": "又...又...",
       "ko": "~하거나",
       "vi": "vừa...vừa",
-      "id": "kadang"
+      "id": "kadang",
+      "es": "do things like",
+      "pt": "do things like"
     }
   },
   {
@@ -152,7 +176,9 @@ const N4_GRAMMAR = [
       "zh-CN": "...之后",
       "ko": "~한 후에",
       "vi": "sau khi",
-      "id": "setelah"
+      "id": "setelah",
+      "es": "after doing",
+      "pt": "after doing"
     }
   },
   {
@@ -165,7 +191,9 @@ const N4_GRAMMAR = [
       "zh-CN": "...之前",
       "ko": "~하기 전에",
       "vi": "trước khi",
-      "id": "sebelum"
+      "id": "sebelum",
+      "es": "before doing",
+      "pt": "before doing"
     }
   },
   {
@@ -178,7 +206,9 @@ const N4_GRAMMAR = [
       "zh-CN": "...之后",
       "ko": "~한 뒤에",
       "vi": "sau khi",
-      "id": "sesudah"
+      "id": "sesudah",
+      "es": "after doing",
+      "pt": "after doing"
     }
   },
   {
@@ -191,7 +221,9 @@ const N4_GRAMMAR = [
       "zh-CN": "...的时候",
       "ko": "~할 때",
       "vi": "khi",
-      "id": "ketika"
+      "id": "ketika",
+      "es": "when",
+      "pt": "when"
     }
   },
   {
@@ -204,7 +236,9 @@ const N4_GRAMMAR = [
       "zh-CN": "...期间",
       "ko": "~동안",
       "vi": "trong",
-      "id": "selama"
+      "id": "selama",
+      "es": "during",
+      "pt": "during"
     }
   },
   {
@@ -216,7 +250,9 @@ const N4_GRAMMAR = [
       "zh-CN": "在...之前",
       "ko": "~까지",
       "vi": "truoc",
-      "id": "sebelum"
+      "id": "sebelum",
+      "es": "by",
+      "pt": "by"
     }
   },
   {
@@ -228,7 +264,9 @@ const N4_GRAMMAR = [
       "zh-CN": "为了",
       "ko": "~위해",
       "vi": "de",
-      "id": "untuk"
+      "id": "untuk",
+      "es": "in order to",
+      "pt": "in order to"
     }
   },
   {
@@ -240,7 +278,9 @@ const N4_GRAMMAR = [
       "zh-CN": "虽然",
       "ko": "~는데도",
       "vi": "mac du",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -252,7 +292,9 @@ const N4_GRAMMAR = [
       "zh-CN": "看起来",
       "ko": "~것 같다",
       "vi": "co ve",
-      "id": "kelihatannya"
+      "id": "kelihatannya",
+      "es": "looks like",
+      "pt": "looks like"
     }
   },
   {
@@ -264,7 +306,9 @@ const N4_GRAMMAR = [
       "zh-CN": "听说",
       "ko": "~라고 한다",
       "vi": "nghe noi",
-      "id": "katanya"
+      "id": "katanya",
+      "es": "I heard",
+      "pt": "I heard"
     }
   },
   {
@@ -276,7 +320,9 @@ const N4_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~인 것 같다",
       "vi": "hinh nhu",
-      "id": "sepertinya"
+      "id": "sepertinya",
+      "es": "seems like",
+      "pt": "seems like"
     }
   },
   {
@@ -288,7 +334,9 @@ const N4_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~것 같다",
       "vi": "hinh nhu",
-      "id": "rupanya"
+      "id": "rupanya",
+      "es": "seems",
+      "pt": "seems"
     }
   },
   {
@@ -300,7 +348,9 @@ const N4_GRAMMAR = [
       "zh-CN": "也许",
       "ko": "~일지도",
       "vi": "co le",
-      "id": "mungkin"
+      "id": "mungkin",
+      "es": "might",
+      "pt": "might"
     }
   },
   {
@@ -312,7 +362,9 @@ const N4_GRAMMAR = [
       "zh-CN": "大概",
       "ko": "~겠지요",
       "vi": "co le",
-      "id": "mungkin"
+      "id": "mungkin",
+      "es": "probably",
+      "pt": "probably"
     }
   },
   {
@@ -324,7 +376,9 @@ const N4_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~해야 한다",
       "vi": "phai",
-      "id": "harus"
+      "id": "harus",
+      "es": "must",
+      "pt": "must"
     }
   },
   {
@@ -336,7 +390,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不必",
       "ko": "~않아도",
       "vi": "khong can",
-      "id": "tidak perlu"
+      "id": "tidak perlu",
+      "es": "dont have to",
+      "pt": "dont have to"
     }
   },
   {
@@ -348,7 +404,9 @@ const N4_GRAMMAR = [
       "zh-CN": "可以",
       "ko": "~해도 된다",
       "vi": "duoc phep",
-      "id": "boleh"
+      "id": "boleh",
+      "es": "may",
+      "pt": "may"
     }
   },
   {
@@ -360,7 +418,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不可以",
       "ko": "~하면 안 된다",
       "vi": "khong duoc",
-      "id": "tidak boleh"
+      "id": "tidak boleh",
+      "es": "must not",
+      "pt": "must not"
     }
   },
   {
@@ -372,7 +432,9 @@ const N4_GRAMMAR = [
       "zh-CN": "能够",
       "ko": "~할 수 있다",
       "vi": "co the",
-      "id": "bisa"
+      "id": "bisa",
+      "es": "can do",
+      "pt": "can do"
     }
   },
   {
@@ -384,7 +446,9 @@ const N4_GRAMMAR = [
       "zh-CN": "有时",
       "ko": "~때가 있다",
       "vi": "doi khi",
-      "id": "kadang"
+      "id": "kadang",
+      "es": "sometimes",
+      "pt": "sometimes"
     }
   },
   {
@@ -396,7 +460,9 @@ const N4_GRAMMAR = [
       "zh-CN": "曾经",
       "ko": "~적이 있다",
       "vi": "da tung",
-      "id": "pernah"
+      "id": "pernah",
+      "es": "have done",
+      "pt": "have done"
     }
   },
   {
@@ -408,7 +474,9 @@ const N4_GRAMMAR = [
       "zh-CN": "打算",
       "ko": "~할 생각",
       "vi": "dinh",
-      "id": "berniat"
+      "id": "berniat",
+      "es": "intend to",
+      "pt": "intend to"
     }
   },
   {
@@ -420,7 +488,9 @@ const N4_GRAMMAR = [
       "zh-CN": "预定",
       "ko": "~예정이다",
       "vi": "du dinh",
-      "id": "berencana"
+      "id": "berencana",
+      "es": "plan to",
+      "pt": "plan to"
     }
   },
   {
@@ -432,7 +502,9 @@ const N4_GRAMMAR = [
       "zh-CN": "最好",
       "ko": "~게 낫다",
       "vi": "nen",
-      "id": "sebaiknya"
+      "id": "sebaiknya",
+      "es": "should",
+      "pt": "should"
     }
   },
   {
@@ -444,7 +516,9 @@ const N4_GRAMMAR = [
       "zh-CN": "我认为",
       "ko": "~라고 생각",
       "vi": "toi nghi",
-      "id": "saya pikir"
+      "id": "saya pikir",
+      "es": "I think",
+      "pt": "I think"
     }
   },
   {
@@ -456,7 +530,9 @@ const N4_GRAMMAR = [
       "zh-CN": "说",
       "ko": "~라고 하다",
       "vi": "noi rang",
-      "id": "katakan"
+      "id": "katakan",
+      "es": "say that",
+      "pt": "say that"
     }
   },
   {
@@ -468,7 +544,9 @@ const N4_GRAMMAR = [
       "zh-CN": "是否",
       "ko": "~인지 아닌지",
       "vi": "co khong",
-      "id": "apakah"
+      "id": "apakah",
+      "es": "whether",
+      "pt": "whether"
     }
   },
   {
@@ -480,7 +558,9 @@ const N4_GRAMMAR = [
       "zh-CN": "试试看",
       "ko": "~해 보다",
       "vi": "thu",
-      "id": "coba"
+      "id": "coba",
+      "es": "try to",
+      "pt": "try to"
     }
   },
   {
@@ -492,7 +572,9 @@ const N4_GRAMMAR = [
       "zh-CN": "过来",
       "ko": "~해 오다",
       "vi": "den",
-      "id": "datang"
+      "id": "datang",
+      "es": "come to",
+      "pt": "come to"
     }
   },
   {
@@ -504,7 +586,9 @@ const N4_GRAMMAR = [
       "zh-CN": "下去",
       "ko": "~해 가다",
       "vi": "tiep tuc",
-      "id": "terus"
+      "id": "terus",
+      "es": "go on",
+      "pt": "go on"
     }
   },
   {
@@ -516,7 +600,9 @@ const N4_GRAMMAR = [
       "zh-CN": "为我",
       "ko": "~해 주다",
       "vi": "lam cho",
-      "id": "membantu"
+      "id": "membantu",
+      "es": "do for me",
+      "pt": "do for me"
     }
   },
   {
@@ -528,7 +614,9 @@ const N4_GRAMMAR = [
       "zh-CN": "为你",
       "ko": "~해 주다",
       "vi": "lam cho",
-      "id": "melakukan"
+      "id": "melakukan",
+      "es": "do for you",
+      "pt": "do for you"
     }
   },
   {
@@ -540,7 +628,9 @@ const N4_GRAMMAR = [
       "zh-CN": "请",
       "ko": "~해 받다",
       "vi": "duoc",
-      "id": "minta tolong"
+      "id": "minta tolong",
+      "es": "have done",
+      "pt": "have done"
     }
   },
   {
@@ -552,7 +642,9 @@ const N4_GRAMMAR = [
       "zh-CN": "让做",
       "ko": "~시키다",
       "vi": "bat",
-      "id": "menyuruh"
+      "id": "menyuruh",
+      "es": "make do",
+      "pt": "make do"
     }
   },
   {
@@ -564,7 +656,9 @@ const N4_GRAMMAR = [
       "zh-CN": "被迫",
       "ko": "~당하다",
       "vi": "bi bat",
-      "id": "dipaksa"
+      "id": "dipaksa",
+      "es": "be made to",
+      "pt": "be made to"
     }
   },
   {
@@ -576,7 +670,9 @@ const N4_GRAMMAR = [
       "zh-CN": "被",
       "ko": "~되다",
       "vi": "bi",
-      "id": "di-"
+      "id": "di-",
+      "es": "passive",
+      "pt": "passive"
     }
   },
   {
@@ -588,7 +684,9 @@ const N4_GRAMMAR = [
       "zh-CN": "能够",
       "ko": "~할 수 있다",
       "vi": "co the",
-      "id": "dapat"
+      "id": "dapat",
+      "es": "can",
+      "pt": "can"
     }
   },
   {
@@ -600,7 +698,9 @@ const N4_GRAMMAR = [
       "zh-CN": "想要",
       "ko": "~하려고",
       "vi": "dinh",
-      "id": "berpikir"
+      "id": "berpikir",
+      "es": "think of doing",
+      "pt": "think of doing"
     }
   },
   {
@@ -612,7 +712,9 @@ const N4_GRAMMAR = [
       "zh-CN": "试图",
       "ko": "~하려고 하다",
       "vi": "co",
-      "id": "mencoba"
+      "id": "mencoba",
+      "es": "try to",
+      "pt": "try to"
     }
   },
   {
@@ -624,7 +726,9 @@ const N4_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~하면",
       "vi": "neu",
-      "id": "jika"
+      "id": "jika",
+      "es": "if",
+      "pt": "if"
     }
   },
   {
@@ -636,7 +740,9 @@ const N4_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~하면",
       "vi": "neu",
-      "id": "kalau"
+      "id": "kalau",
+      "es": "if/when",
+      "pt": "if/when"
     }
   },
   {
@@ -648,7 +754,9 @@ const N4_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~라면",
       "vi": "neu",
-      "id": "jika"
+      "id": "jika",
+      "es": "if",
+      "pt": "if"
     }
   },
   {
@@ -660,7 +768,9 @@ const N4_GRAMMAR = [
       "zh-CN": "一...就",
       "ko": "~하면",
       "vi": "thi",
-      "id": "kalau"
+      "id": "kalau",
+      "es": "when",
+      "pt": "when"
     }
   },
   {
@@ -672,7 +782,9 @@ const N4_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "~해도",
       "vi": "du",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "even if",
+      "pt": "even if"
     }
   },
   {
@@ -684,7 +796,9 @@ const N4_GRAMMAR = [
       "zh-CN": "是",
       "ko": "~는 것은",
       "vi": "la",
-      "id": "adalah"
+      "id": "adalah",
+      "es": "it is that",
+      "pt": "it is that"
     }
   },
   {
@@ -696,7 +810,9 @@ const N4_GRAMMAR = [
       "zh-CN": "做是",
       "ko": "~는 것이",
       "vi": "viec",
-      "id": "adalah"
+      "id": "adalah",
+      "es": "doing is",
+      "pt": "doing is"
     }
   },
   {
@@ -708,7 +824,9 @@ const N4_GRAMMAR = [
       "zh-CN": "做",
       "ko": "~는 것을",
       "vi": "viec",
-      "id": "melakukan"
+      "id": "melakukan",
+      "es": "doing",
+      "pt": "doing"
     }
   },
   {
@@ -720,7 +838,9 @@ const N4_GRAMMAR = [
       "zh-CN": "是但",
       "ko": "~는 하지만",
       "vi": "nhung",
-      "id": "tapi"
+      "id": "tapi",
+      "es": "it is but",
+      "pt": "it is but"
     }
   },
   {
@@ -732,7 +852,9 @@ const N4_GRAMMAR = [
       "zh-CN": "而且",
       "ko": "~하고",
       "vi": "va",
-      "id": "dan"
+      "id": "dan",
+      "es": "and also",
+      "pt": "and also"
     }
   },
   {
@@ -744,7 +866,9 @@ const N4_GRAMMAR = [
       "zh-CN": "但是",
       "ko": "~하지만",
       "vi": "nhung",
-      "id": "tapi"
+      "id": "tapi",
+      "es": "but",
+      "pt": "but"
     }
   },
   {
@@ -756,7 +880,9 @@ const N4_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~니까",
       "vi": "vi",
-      "id": "karena"
+      "id": "karena",
+      "es": "because",
+      "pt": "because"
     }
   },
   {
@@ -768,7 +894,9 @@ const N4_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~어서",
       "vi": "vi",
-      "id": "karena"
+      "id": "karena",
+      "es": "because",
+      "pt": "because"
     }
   },
   {
@@ -780,7 +908,9 @@ const N4_GRAMMAR = [
       "zh-CN": "然后",
       "ko": "~하고",
       "vi": "roi",
-      "id": "lalu"
+      "id": "lalu",
+      "es": "and then",
+      "pt": "and then"
     }
   },
   {
@@ -792,7 +922,9 @@ const N4_GRAMMAR = [
       "zh-CN": "想",
       "ko": "~고 싶다",
       "vi": "muon",
-      "id": "ingin"
+      "id": "ingin",
+      "es": "want to",
+      "pt": "want to"
     }
   },
   {
@@ -804,7 +936,9 @@ const N4_GRAMMAR = [
       "zh-CN": "想要",
       "ko": "~하고 싶어하다",
       "vi": "muon",
-      "id": "ingin"
+      "id": "ingin",
+      "es": "want to",
+      "pt": "want to"
     }
   },
   {
@@ -816,7 +950,9 @@ const N4_GRAMMAR = [
       "zh-CN": "表现",
       "ko": "~해 하다",
       "vi": "to ra",
-      "id": "menunjukkan"
+      "id": "menunjukkan",
+      "es": "show signs of",
+      "pt": "show signs of"
     }
   },
   {
@@ -828,7 +964,9 @@ const N4_GRAMMAR = [
       "zh-CN": "太",
       "ko": "~너무",
       "vi": "qua",
-      "id": "terlalu"
+      "id": "terlalu",
+      "es": "too much",
+      "pt": "too much"
     }
   },
   {
@@ -840,7 +978,9 @@ const N4_GRAMMAR = [
       "zh-CN": "容易",
       "ko": "~하기 쉽다",
       "vi": "de",
-      "id": "mudah"
+      "id": "mudah",
+      "es": "easy to",
+      "pt": "easy to"
     }
   },
   {
@@ -852,7 +992,9 @@ const N4_GRAMMAR = [
       "zh-CN": "难",
       "ko": "~하기 어렵다",
       "vi": "kho",
-      "id": "sulit"
+      "id": "sulit",
+      "es": "hard to",
+      "pt": "hard to"
     }
   },
   {
@@ -865,7 +1007,9 @@ const N4_GRAMMAR = [
       "zh-CN": "开始",
       "ko": "~하기 시작",
       "vi": "bat dau",
-      "id": "mulai"
+      "id": "mulai",
+      "es": "start to",
+      "pt": "start to"
     }
   },
   {
@@ -878,7 +1022,9 @@ const N4_GRAMMAR = [
       "zh-CN": "结束",
       "ko": "~끝나다",
       "vi": "ket thuc",
-      "id": "selesai"
+      "id": "selesai",
+      "es": "acabar",
+      "pt": "acabar"
     }
   },
   {
@@ -891,7 +1037,9 @@ const N4_GRAMMAR = [
       "zh-CN": "继续",
       "ko": "~계속하다",
       "vi": "tiep tuc",
-      "id": "terus"
+      "id": "terus",
+      "es": "continuar",
+      "pt": "continuar"
     }
   },
   {
@@ -904,7 +1052,9 @@ const N4_GRAMMAR = [
       "zh-CN": "开始",
       "ko": "~하기 시작",
       "vi": "bat dau",
-      "id": "mulai"
+      "id": "mulai",
+      "es": "start to",
+      "pt": "start to"
     }
   },
   {
@@ -917,7 +1067,9 @@ const N4_GRAMMAR = [
       "zh-CN": "互相",
       "ko": "~서로",
       "vi": "nhau",
-      "id": "saling"
+      "id": "saling",
+      "es": "each other",
+      "pt": "each other"
     }
   },
   {
@@ -930,7 +1082,9 @@ const N4_GRAMMAR = [
       "zh-CN": "重新",
       "ko": "~다시 하다",
       "vi": "lam lai",
-      "id": "ulang"
+      "id": "ulang",
+      "es": "redo",
+      "pt": "redo"
     }
   },
   {
@@ -943,7 +1097,9 @@ const N4_GRAMMAR = [
       "zh-CN": "进入",
       "ko": "~들어가다",
       "vi": "vao",
-      "id": "masuk"
+      "id": "masuk",
+      "es": "into",
+      "pt": "into"
     }
   },
   {
@@ -956,7 +1112,9 @@ const N4_GRAMMAR = [
       "zh-CN": "方法",
       "ko": "~방법",
       "vi": "cach",
-      "id": "cara"
+      "id": "cara",
+      "es": "way of",
+      "pt": "way of"
     }
   },
   {
@@ -968,7 +1126,9 @@ const N4_GRAMMAR = [
       "zh-CN": "为了",
       "ko": "~하도록",
       "vi": "de",
-      "id": "supaya"
+      "id": "supaya",
+      "es": "so that",
+      "pt": "so that"
     }
   },
   {
@@ -980,7 +1140,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不可能",
       "ko": "~할 리가 없다",
       "vi": "khong the",
-      "id": "tidak mungkin"
+      "id": "tidak mungkin",
+      "es": "cant be",
+      "pt": "cant be"
     }
   },
   {
@@ -992,7 +1154,9 @@ const N4_GRAMMAR = [
       "zh-CN": "难怪",
       "ko": "~인 것이다",
       "vi": "that la",
-      "id": "pantas"
+      "id": "pantas",
+      "es": "no wonder",
+      "pt": "no wonder"
     }
   },
   {
@@ -1004,7 +1168,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不可能",
       "ko": "~할 리가 없다",
       "vi": "khong the",
-      "id": "tidak mungkin"
+      "id": "tidak mungkin",
+      "es": "no way",
+      "pt": "no way"
     }
   },
   {
@@ -1016,7 +1182,9 @@ const N4_GRAMMAR = [
       "zh-CN": "并非",
       "ko": "~는 것은 아니다",
       "vi": "khong phai",
-      "id": "bukan berarti"
+      "id": "bukan berarti",
+      "es": "not that",
+      "pt": "not that"
     }
   },
   {
@@ -1028,7 +1196,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不能",
       "ko": "~할 수 없다",
       "vi": "khong the",
-      "id": "tidak bisa"
+      "id": "tidak bisa",
+      "es": "cannot",
+      "pt": "cannot"
     }
   },
   {
@@ -1040,7 +1210,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不做而",
       "ko": "~하지 않고",
       "vi": "khong",
-      "id": "tanpa"
+      "id": "tanpa",
+      "es": "without doing",
+      "pt": "without doing"
     }
   },
   {
@@ -1052,7 +1224,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不做而",
       "ko": "~하지 않고",
       "vi": "khong",
-      "id": "tanpa"
+      "id": "tanpa",
+      "es": "without doing",
+      "pt": "without doing"
     }
   },
   {
@@ -1064,7 +1238,9 @@ const N4_GRAMMAR = [
       "zh-CN": "如果不",
       "ko": "~하지 않으면",
       "vi": "neu khong",
-      "id": "kalau tidak"
+      "id": "kalau tidak",
+      "es": "if not",
+      "pt": "if not"
     }
   },
   {
@@ -1076,7 +1252,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不而",
       "ko": "~하지 않고",
       "vi": "khong",
-      "id": "tidak"
+      "id": "tidak",
+      "es": "not and",
+      "pt": "not and"
     }
   },
   {
@@ -1088,7 +1266,9 @@ const N4_GRAMMAR = [
       "zh-CN": "只有",
       "ko": "~밖에 없다",
       "vi": "chi co",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -1100,7 +1280,9 @@ const N4_GRAMMAR = [
       "zh-CN": "只",
       "ko": "~만",
       "vi": "chi",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -1112,7 +1294,9 @@ const N4_GRAMMAR = [
       "zh-CN": "只",
       "ko": "~만",
       "vi": "chi",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -1124,7 +1308,9 @@ const N4_GRAMMAR = [
       "zh-CN": "甚至",
       "ko": "~조차",
       "vi": "tham chi",
-      "id": "bahkan"
+      "id": "bahkan",
+      "es": "even",
+      "pt": "even"
     }
   },
   {
@@ -1136,7 +1322,9 @@ const N4_GRAMMAR = [
       "zh-CN": "甚至",
       "ko": "~까지",
       "vi": "den",
-      "id": "sampai"
+      "id": "sampai",
+      "es": "even",
+      "pt": "even"
     }
   },
   {
@@ -1148,7 +1336,9 @@ const N4_GRAMMAR = [
       "zh-CN": "到",
       "ko": "~정도",
       "vi": "den muc",
-      "id": "sampai"
+      "id": "sampai",
+      "es": "to the extent",
+      "pt": "to the extent"
     }
   },
   {
@@ -1160,7 +1350,9 @@ const N4_GRAMMAR = [
       "zh-CN": "比",
       "ko": "~보다",
       "vi": "hon",
-      "id": "dari"
+      "id": "dari",
+      "es": "than",
+      "pt": "than"
     }
   },
   {
@@ -1172,7 +1364,9 @@ const N4_GRAMMAR = [
       "zh-CN": "不如",
       "ko": "~만큼 아니다",
       "vi": "khong bang",
-      "id": "tidak seperti"
+      "id": "tidak seperti",
+      "es": "not as",
+      "pt": "not as"
     }
   },
   {
@@ -1184,7 +1378,9 @@ const N4_GRAMMAR = [
       "zh-CN": "和一样",
       "ko": "~와 같다",
       "vi": "giong nhu",
-      "id": "sama seperti"
+      "id": "sama seperti",
+      "es": "same as",
+      "pt": "same as"
     }
   },
   {
@@ -1196,7 +1392,9 @@ const N4_GRAMMAR = [
       "zh-CN": "像",
       "ko": "~같은",
       "vi": "nhu",
-      "id": "seperti"
+      "id": "seperti",
+      "es": "gustar",
+      "pt": "gostar"
     }
   },
   {
@@ -1208,7 +1406,9 @@ const N4_GRAMMAR = [
       "zh-CN": "关于",
       "ko": "~에 대해",
       "vi": "ve",
-      "id": "tentang"
+      "id": "tentang",
+      "es": "about",
+      "pt": "about"
     }
   },
   {
@@ -1221,7 +1421,9 @@ const N4_GRAMMAR = [
       "zh-CN": "对于",
       "ko": "~에 대해",
       "vi": "đối với",
-      "id": "terhadap"
+      "id": "terhadap",
+      "es": "towards",
+      "pt": "towards"
     }
   },
   {
@@ -1233,7 +1435,9 @@ const N4_GRAMMAR = [
       "zh-CN": "根据",
       "ko": "~에 의해",
       "vi": "bởi",
-      "id": "oleh"
+      "id": "oleh",
+      "es": "by means of",
+      "pt": "by means of"
     }
   },
   {
@@ -1245,7 +1449,9 @@ const N4_GRAMMAR = [
       "zh-CN": "在",
       "ko": "~에서",
       "vi": "tại",
-      "id": "di"
+      "id": "di",
+      "es": "in/at",
+      "pt": "in/at"
     }
   },
   {
@@ -1258,7 +1464,9 @@ const N4_GRAMMAR = [
       "zh-CN": "关于",
       "ko": "~에 관해",
       "vi": "liên quan",
-      "id": "mengenai"
+      "id": "mengenai",
+      "es": "regarding",
+      "pt": "regarding"
     }
   },
   {
@@ -1270,7 +1478,9 @@ const N4_GRAMMAR = [
       "zh-CN": "与比较",
       "ko": "~에 비해",
       "vi": "so với",
-      "id": "dibandingkan"
+      "id": "dibandingkan",
+      "es": "compared to",
+      "pt": "compared to"
     }
   },
   {
@@ -1282,7 +1492,9 @@ const N4_GRAMMAR = [
       "zh-CN": "作为",
       "ko": "~로서",
       "vi": "với tư cách",
-      "id": "sebagai"
+      "id": "sebagai",
+      "es": "as",
+      "pt": "as"
     }
   },
   {
@@ -1294,7 +1506,9 @@ const N4_GRAMMAR = [
       "zh-CN": "对来说",
       "ko": "~에게",
       "vi": "đối với",
-      "id": "bagi"
+      "id": "bagi",
+      "es": "for",
+      "pt": "for"
     }
   },
   {
@@ -1306,7 +1520,9 @@ const N4_GRAMMAR = [
       "zh-CN": "以为首",
       "ko": "~를 비롯해",
       "vi": "bắt đầu từ",
-      "id": "dimulai dari"
+      "id": "dimulai dari",
+      "es": "starting with",
+      "pt": "starting with"
     }
   },
   {
@@ -1318,7 +1534,9 @@ const N4_GRAMMAR = [
       "zh-CN": "通过",
       "ko": "~를 통해",
       "vi": "thông qua",
-      "id": "melalui"
+      "id": "melalui",
+      "es": "through",
+      "pt": "through"
     }
   },
   {
@@ -1331,7 +1549,9 @@ const N4_GRAMMAR = [
       "zh-CN": "以为中心",
       "ko": "~를 중심으로",
       "vi": "lấy làm trung tâm",
-      "id": "berpusat pada"
+      "id": "berpusat pada",
+      "es": "centered on",
+      "pt": "centered on"
     }
   },
   {
@@ -1343,7 +1563,9 @@ const N4_GRAMMAR = [
       "zh-CN": "there are times when not ~",
       "ko": "there are times when not ~",
       "vi": "there are times when not ~",
-      "id": "there are times when not ~"
+      "id": "there are times when not ~",
+      "es": "there are times when not ~",
+      "pt": "there are times when not ~"
     },
     "ex": "Sometimes I don't eat."
   },
@@ -1356,7 +1578,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to refuse to ~",
       "ko": "to refuse to ~",
       "vi": "to refuse to ~",
-      "id": "to refuse to ~"
+      "id": "to refuse to ~",
+      "es": "to refuse to ~",
+      "pt": "to refuse to ~"
     },
     "ex": "He refuses to listen."
   },
@@ -1369,7 +1593,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to make sure to ~",
       "ko": "to make sure to ~",
       "vi": "to make sure to ~",
-      "id": "to make sure to ~"
+      "id": "to make sure to ~",
+      "es": "to make sure to ~",
+      "pt": "to make sure to ~"
     },
     "ex": "I make sure to exercise."
   },
@@ -1382,7 +1608,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to have become so that ~",
       "ko": "to have become so that ~",
       "vi": "to have become so that ~",
-      "id": "to have become so that ~"
+      "id": "to have become so that ~",
+      "es": "to have become so that ~",
+      "pt": "to have become so that ~"
     },
     "ex": "It has become easy."
   },
@@ -1395,7 +1623,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to make it a rule to ~",
       "ko": "to make it a rule to ~",
       "vi": "to make it a rule to ~",
-      "id": "to make it a rule to ~"
+      "id": "to make it a rule to ~",
+      "es": "to make it a rule to ~",
+      "pt": "to make it a rule to ~"
     },
     "ex": "I make it a rule to read."
   },
@@ -1408,7 +1638,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to be scheduled to ~",
       "ko": "to be scheduled to ~",
       "vi": "to be scheduled to ~",
-      "id": "to be scheduled to ~"
+      "id": "to be scheduled to ~",
+      "es": "to be scheduled to ~",
+      "pt": "to be scheduled to ~"
     },
     "ex": "I am scheduled to go."
   },
@@ -1421,7 +1653,9 @@ const N4_GRAMMAR = [
       "zh-CN": "there is no need to ~",
       "ko": "there is no need to ~",
       "vi": "there is no need to ~",
-      "id": "there is no need to ~"
+      "id": "there is no need to ~",
+      "es": "there is no need to ~",
+      "pt": "there is no need to ~"
     },
     "ex": "You don't need to worry."
   },
@@ -1434,7 +1668,9 @@ const N4_GRAMMAR = [
       "zh-CN": "should ~",
       "ko": "should ~",
       "vi": "should ~",
-      "id": "should ~"
+      "id": "should ~",
+      "es": "should ~",
+      "pt": "should ~"
     },
     "ex": "You should study more."
   },
@@ -1447,7 +1683,9 @@ const N4_GRAMMAR = [
       "zh-CN": "how ~!",
       "ko": "how ~!",
       "vi": "how ~!",
-      "id": "how ~!"
+      "id": "how ~!",
+      "es": "how ~!",
+      "pt": "how ~!"
     },
     "ex": "How happy I was!"
   },
@@ -1460,7 +1698,9 @@ const N4_GRAMMAR = [
       "zh-CN": "without ~ing",
       "ko": "without ~ing",
       "vi": "without ~ing",
-      "id": "without ~ing"
+      "id": "without ~ing",
+      "es": "without ~ing",
+      "pt": "without ~ing"
     },
     "ex": "Without giving up."
   },
@@ -1473,7 +1713,9 @@ const N4_GRAMMAR = [
       "zh-CN": "from the fact that ~",
       "ko": "from the fact that ~",
       "vi": "from the fact that ~",
-      "id": "from the fact that ~"
+      "id": "from the fact that ~",
+      "es": "from the fact that ~",
+      "pt": "from the fact that ~"
     },
     "ex": "From the fact that he is busy."
   },
@@ -1486,7 +1728,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to my ~",
       "ko": "to my ~",
       "vi": "to my ~",
-      "id": "to my ~"
+      "id": "to my ~",
+      "es": "to my ~",
+      "pt": "to my ~"
     },
     "ex": "To my surprise."
   },
@@ -1499,7 +1743,9 @@ const N4_GRAMMAR = [
       "zh-CN": "unless ~",
       "ko": "unless ~",
       "vi": "unless ~",
-      "id": "unless ~"
+      "id": "unless ~",
+      "es": "unless ~",
+      "pt": "unless ~"
     },
     "ex": "Unless you study."
   },
@@ -1512,7 +1758,9 @@ const N4_GRAMMAR = [
       "zh-CN": "because ~ is the type to",
       "ko": "because ~ is the type to",
       "vi": "because ~ is the type to",
-      "id": "because ~ is the type to"
+      "id": "because ~ is the type to",
+      "es": "because ~ is the type to",
+      "pt": "because ~ is the type to"
     },
     "ex": "Because he is kind."
   },
@@ -1525,7 +1773,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must ~",
       "ko": "must ~",
       "vi": "must ~",
-      "id": "must ~"
+      "id": "must ~",
+      "es": "must ~",
+      "pt": "must ~"
     },
     "ex": "I must go."
   },
@@ -1538,7 +1788,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must ~",
       "ko": "must ~",
       "vi": "must ~",
-      "id": "must ~"
+      "id": "must ~",
+      "es": "must ~",
+      "pt": "must ~"
     },
     "ex": "I must eat."
   },
@@ -1551,7 +1803,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must ~",
       "ko": "must ~",
       "vi": "must ~",
-      "id": "must ~"
+      "id": "must ~",
+      "es": "must ~",
+      "pt": "must ~"
     },
     "ex": "I must sleep."
   },
@@ -1564,7 +1818,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must ~",
       "ko": "must ~",
       "vi": "must ~",
-      "id": "must ~"
+      "id": "must ~",
+      "es": "must ~",
+      "pt": "must ~"
     },
     "ex": "I must work."
   },
@@ -1577,7 +1833,9 @@ const N4_GRAMMAR = [
       "zh-CN": "cannot help but ~",
       "ko": "cannot help but ~",
       "vi": "cannot help but ~",
-      "id": "cannot help but ~"
+      "id": "cannot help but ~",
+      "es": "cannot help but ~",
+      "pt": "cannot help but ~"
     },
     "ex": "I cannot help but laugh."
   },
@@ -1590,7 +1848,9 @@ const N4_GRAMMAR = [
       "zh-CN": "cannot help but ~",
       "ko": "cannot help but ~",
       "vi": "cannot help but ~",
-      "id": "cannot help but ~"
+      "id": "cannot help but ~",
+      "es": "cannot help but ~",
+      "pt": "cannot help but ~"
     },
     "ex": "I cannot help but cry."
   },
@@ -1603,7 +1863,9 @@ const N4_GRAMMAR = [
       "zh-CN": "cannot not ~",
       "ko": "cannot not ~",
       "vi": "cannot not ~",
-      "id": "cannot not ~"
+      "id": "cannot not ~",
+      "es": "cannot not ~",
+      "pt": "cannot not ~"
     },
     "ex": "I cannot not go."
   },
@@ -1616,7 +1878,9 @@ const N4_GRAMMAR = [
       "zh-CN": "have no choice but to ~",
       "ko": "have no choice but to ~",
       "vi": "have no choice but to ~",
-      "id": "have no choice but to ~"
+      "id": "have no choice but to ~",
+      "es": "have no choice but to ~",
+      "pt": "have no choice but to ~"
     },
     "ex": "I have no choice but to accept."
   },
@@ -1629,7 +1893,9 @@ const N4_GRAMMAR = [
       "zh-CN": "have no choice but to ~",
       "ko": "have no choice but to ~",
       "vi": "have no choice but to ~",
-      "id": "have no choice but to ~"
+      "id": "have no choice but to ~",
+      "es": "have no choice but to ~",
+      "pt": "have no choice but to ~"
     },
     "ex": "I have no choice but to wait."
   },
@@ -1642,7 +1908,9 @@ const N4_GRAMMAR = [
       "zh-CN": "have no choice but to ~",
       "ko": "have no choice but to ~",
       "vi": "have no choice but to ~",
-      "id": "have no choice but to ~"
+      "id": "have no choice but to ~",
+      "es": "have no choice but to ~",
+      "pt": "have no choice but to ~"
     },
     "ex": "I have no choice but to try."
   },
@@ -1655,7 +1923,9 @@ const N4_GRAMMAR = [
       "zh-CN": "have no choice but to ~",
       "ko": "have no choice but to ~",
       "vi": "have no choice but to ~",
-      "id": "have no choice but to ~"
+      "id": "have no choice but to ~",
+      "es": "have no choice but to ~",
+      "pt": "have no choice but to ~"
     },
     "ex": "I have no choice but to believe."
   },
@@ -1668,7 +1938,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it is impossible that not ~",
       "ko": "it is impossible that not ~",
       "vi": "it is impossible that not ~",
-      "id": "it is impossible that not ~"
+      "id": "it is impossible that not ~",
+      "es": "it is impossible that not ~",
+      "pt": "it is impossible that not ~"
     },
     "ex": "It is impossible that he doesn't know."
   },
@@ -1681,7 +1953,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it is impossible that not ~",
       "ko": "it is impossible that not ~",
       "vi": "it is impossible that not ~",
-      "id": "it is impossible that not ~"
+      "id": "it is impossible that not ~",
+      "es": "it is impossible that not ~",
+      "pt": "it is impossible that not ~"
     },
     "ex": "It is impossible that she doesn't come."
   },
@@ -1694,7 +1968,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it is not that not ~",
       "ko": "it is not that not ~",
       "vi": "it is not that not ~",
-      "id": "it is not that not ~"
+      "id": "it is not that not ~",
+      "es": "it is not that not ~",
+      "pt": "it is not that not ~"
     },
     "ex": "It is not that I don't understand."
   },
@@ -1707,7 +1983,9 @@ const N4_GRAMMAR = [
       "zh-CN": "I wish ~",
       "ko": "I wish ~",
       "vi": "I wish ~",
-      "id": "I wish ~"
+      "id": "I wish ~",
+      "es": "I wish ~",
+      "pt": "I wish ~"
     },
     "ex": "I wish I could go."
   },
@@ -1720,7 +1998,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it is not that not ~",
       "ko": "it is not that not ~",
       "vi": "it is not that not ~",
-      "id": "it is not that not ~"
+      "id": "it is not that not ~",
+      "es": "it is not that not ~",
+      "pt": "it is not that not ~"
     },
     "ex": "It is not impossible."
   },
@@ -1733,7 +2013,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it doesn't matter if ~",
       "ko": "it doesn't matter if ~",
       "vi": "it doesn't matter if ~",
-      "id": "it doesn't matter if ~"
+      "id": "it doesn't matter if ~",
+      "es": "it doesn't matter if ~",
+      "pt": "it doesn't matter if ~"
     },
     "ex": "It doesn't matter if you come late."
   },
@@ -1746,7 +2028,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it is okay to ~",
       "ko": "it is okay to ~",
       "vi": "it is okay to ~",
-      "id": "it is okay to ~"
+      "id": "it is okay to ~",
+      "es": "it is okay to ~",
+      "pt": "it is okay to ~"
     },
     "ex": "It is okay to use this."
   },
@@ -1759,7 +2043,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it is okay to ~",
       "ko": "it is okay to ~",
       "vi": "it is okay to ~",
-      "id": "it is okay to ~"
+      "id": "it is okay to ~",
+      "es": "it is okay to ~",
+      "pt": "it is okay to ~"
     },
     "ex": "It is okay to leave early."
   },
@@ -1772,7 +2058,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must not ~",
       "ko": "must not ~",
       "vi": "must not ~",
-      "id": "must not ~"
+      "id": "must not ~",
+      "es": "must not ~",
+      "pt": "must not ~"
     },
     "ex": "You must not lie."
   },
@@ -1785,7 +2073,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must not ~",
       "ko": "must not ~",
       "vi": "must not ~",
-      "id": "must not ~"
+      "id": "must not ~",
+      "es": "must not ~",
+      "pt": "must not ~"
     },
     "ex": "You must not be late."
   },
@@ -1798,7 +2088,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must not ~",
       "ko": "must not ~",
       "vi": "must not ~",
-      "id": "must not ~"
+      "id": "must not ~",
+      "es": "must not ~",
+      "pt": "must not ~"
     },
     "ex": "You must not forget."
   },
@@ -1811,7 +2103,9 @@ const N4_GRAMMAR = [
       "zh-CN": "must not ~",
       "ko": "must not ~",
       "vi": "must not ~",
-      "id": "must not ~"
+      "id": "must not ~",
+      "es": "must not ~",
+      "pt": "must not ~"
     },
     "ex": "You must not give up."
   },
@@ -1824,7 +2118,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to have someone do ~ (polite)",
       "ko": "to have someone do ~ (polite)",
       "vi": "to have someone do ~ (polite)",
-      "id": "to have someone do ~ (polite)"
+      "id": "to have someone do ~ (polite)",
+      "es": "to have someone do ~ (polite)",
+      "pt": "to have someone do ~ (polite)"
     },
     "ex": "I had you help me."
   },
@@ -1837,7 +2133,9 @@ const N4_GRAMMAR = [
       "zh-CN": "someone does ~ for me (polite)",
       "ko": "someone does ~ for me (polite)",
       "vi": "someone does ~ for me (polite)",
-      "id": "someone does ~ for me (polite)"
+      "id": "someone does ~ for me (polite)",
+      "es": "someone does ~ for me (polite)",
+      "pt": "someone does ~ for me (polite)"
     },
     "ex": "You helped me."
   },
@@ -1850,7 +2148,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to do ~ for someone (polite)",
       "ko": "to do ~ for someone (polite)",
       "vi": "to do ~ for someone (polite)",
-      "id": "to do ~ for someone (polite)"
+      "id": "to do ~ for someone (polite)",
+      "es": "to do ~ for someone (polite)",
+      "pt": "to do ~ for someone (polite)"
     },
     "ex": "I helped you."
   },
@@ -1863,7 +2163,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to do ~ for someone (casual)",
       "ko": "to do ~ for someone (casual)",
       "vi": "to do ~ for someone (casual)",
-      "id": "to do ~ for someone (casual)"
+      "id": "to do ~ for someone (casual)",
+      "es": "to do ~ for someone (casual)",
+      "pt": "to do ~ for someone (casual)"
     },
     "ex": "I helped him."
   },
@@ -1876,7 +2178,9 @@ const N4_GRAMMAR = [
       "zh-CN": "did ~ in advance",
       "ko": "did ~ in advance",
       "vi": "did ~ in advance",
-      "id": "did ~ in advance"
+      "id": "did ~ in advance",
+      "es": "did ~ in advance",
+      "pt": "did ~ in advance"
     },
     "ex": "I prepared beforehand."
   },
@@ -1889,7 +2193,9 @@ const N4_GRAMMAR = [
       "zh-CN": "do ~ in advance",
       "ko": "do ~ in advance",
       "vi": "do ~ in advance",
-      "id": "do ~ in advance"
+      "id": "do ~ in advance",
+      "es": "do ~ in advance",
+      "pt": "do ~ in advance"
     },
     "ex": "Please prepare beforehand."
   },
@@ -1902,7 +2208,9 @@ const N4_GRAMMAR = [
       "zh-CN": "want to do ~ in advance",
       "ko": "want to do ~ in advance",
       "vi": "want to do ~ in advance",
-      "id": "want to do ~ in advance"
+      "id": "want to do ~ in advance",
+      "es": "want to do ~ in advance",
+      "pt": "want to do ~ in advance"
     },
     "ex": "I want to prepare."
   },
@@ -1915,7 +2223,9 @@ const N4_GRAMMAR = [
       "zh-CN": "finished ~ing",
       "ko": "finished ~ing",
       "vi": "finished ~ing",
-      "id": "finished ~ing"
+      "id": "finished ~ing",
+      "es": "finished ~ing",
+      "pt": "finished ~ing"
     },
     "ex": "I accidentally ate everything."
   },
@@ -1928,7 +2238,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to finish ~ing (casual)",
       "ko": "to finish ~ing (casual)",
       "vi": "to finish ~ing (casual)",
-      "id": "to finish ~ing (casual)"
+      "id": "to finish ~ing (casual)",
+      "es": "to finish ~ing (casual)",
+      "pt": "to finish ~ing (casual)"
     },
     "ex": "I ate everything."
   },
@@ -1941,7 +2253,9 @@ const N4_GRAMMAR = [
       "zh-CN": "finished ~ing (casual)",
       "ko": "finished ~ing (casual)",
       "vi": "finished ~ing (casual)",
-      "id": "finished ~ing (casual)"
+      "id": "finished ~ing (casual)",
+      "es": "finished ~ing (casual)",
+      "pt": "finished ~ing (casual)"
     },
     "ex": "I accidentally forgot."
   },
@@ -1954,7 +2268,9 @@ const N4_GRAMMAR = [
       "zh-CN": "want to try ~ing",
       "ko": "want to try ~ing",
       "vi": "want to try ~ing",
-      "id": "want to try ~ing"
+      "id": "want to try ~ing",
+      "es": "want to try ~ing",
+      "pt": "want to try ~ing"
     },
     "ex": "I want to try going."
   },
@@ -1967,7 +2283,9 @@ const N4_GRAMMAR = [
       "zh-CN": "let's try ~ing",
       "ko": "let's try ~ing",
       "vi": "let's try ~ing",
-      "id": "let's try ~ing"
+      "id": "let's try ~ing",
+      "es": "let's try ~ing",
+      "pt": "let's try ~ing"
     },
     "ex": "Let's try eating."
   },
@@ -1980,7 +2298,9 @@ const N4_GRAMMAR = [
       "zh-CN": "have been ~ing",
       "ko": "have been ~ing",
       "vi": "have been ~ing",
-      "id": "have been ~ing"
+      "id": "have been ~ing",
+      "es": "have been ~ing",
+      "pt": "have been ~ing"
     },
     "ex": "I have been waiting."
   },
@@ -1993,7 +2313,9 @@ const N4_GRAMMAR = [
       "zh-CN": "went on ~ing",
       "ko": "went on ~ing",
       "vi": "went on ~ing",
-      "id": "went on ~ing"
+      "id": "went on ~ing",
+      "es": "went on ~ing",
+      "pt": "went on ~ing"
     },
     "ex": "It went on getting worse."
   },
@@ -2006,7 +2328,9 @@ const N4_GRAMMAR = [
       "zh-CN": "is ~ing",
       "ko": "is ~ing",
       "vi": "is ~ing",
-      "id": "is ~ing"
+      "id": "is ~ing",
+      "es": "is ~ing",
+      "pt": "is ~ing"
     },
     "ex": "I am studying."
   },
@@ -2019,7 +2343,9 @@ const N4_GRAMMAR = [
       "zh-CN": "was ~ing",
       "ko": "was ~ing",
       "vi": "was ~ing",
-      "id": "was ~ing"
+      "id": "was ~ing",
+      "es": "was ~ing",
+      "pt": "was ~ing"
     },
     "ex": "I was studying."
   },
@@ -2032,7 +2358,9 @@ const N4_GRAMMAR = [
       "zh-CN": "was in the state of ~",
       "ko": "was in the state of ~",
       "vi": "was in the state of ~",
-      "id": "was in the state of ~"
+      "id": "was in the state of ~",
+      "es": "was in the state of ~",
+      "pt": "was in the state of ~"
     },
     "ex": "The door was open."
   },
@@ -2045,7 +2373,9 @@ const N4_GRAMMAR = [
       "zh-CN": "cannot keep ~ing",
       "ko": "cannot keep ~ing",
       "vi": "cannot keep ~ing",
-      "id": "cannot keep ~ing"
+      "id": "cannot keep ~ing",
+      "es": "cannot keep ~ing",
+      "pt": "cannot keep ~ing"
     },
     "ex": "I cannot keep waiting."
   },
@@ -2058,7 +2388,9 @@ const N4_GRAMMAR = [
       "zh-CN": "to do nothing but ~",
       "ko": "to do nothing but ~",
       "vi": "to do nothing but ~",
-      "id": "to do nothing but ~"
+      "id": "to do nothing but ~",
+      "es": "to do nothing but ~",
+      "pt": "to do nothing but ~"
     },
     "ex": "He does nothing but play."
   },
@@ -2071,7 +2403,9 @@ const N4_GRAMMAR = [
       "zh-CN": "cannot keep ~ing",
       "ko": "cannot keep ~ing",
       "vi": "cannot keep ~ing",
-      "id": "cannot keep ~ing"
+      "id": "cannot keep ~ing",
+      "es": "cannot keep ~ing",
+      "pt": "cannot keep ~ing"
     },
     "ex": "I cannot keep crying."
   },
@@ -2084,7 +2418,9 @@ const N4_GRAMMAR = [
       "zh-CN": "is in the middle of ~ing",
       "ko": "is in the middle of ~ing",
       "vi": "is in the middle of ~ing",
-      "id": "is in the middle of ~ing"
+      "id": "is in the middle of ~ing",
+      "es": "is in the middle of ~ing",
+      "pt": "is in the middle of ~ing"
     },
     "ex": "I am in the middle of eating."
   },
@@ -2097,7 +2433,9 @@ const N4_GRAMMAR = [
       "zh-CN": "was in the middle of ~ing",
       "ko": "was in the middle of ~ing",
       "vi": "was in the middle of ~ing",
-      "id": "was in the middle of ~ing"
+      "id": "was in the middle of ~ing",
+      "es": "was in the middle of ~ing",
+      "pt": "was in the middle of ~ing"
     },
     "ex": "I was about to leave."
   },
@@ -2110,7 +2448,9 @@ const N4_GRAMMAR = [
       "zh-CN": "just finished ~ing",
       "ko": "just finished ~ing",
       "vi": "just finished ~ing",
-      "id": "just finished ~ing"
+      "id": "just finished ~ing",
+      "es": "just finished ~ing",
+      "pt": "just finished ~ing"
     },
     "ex": "I just finished eating."
   },
@@ -2123,7 +2463,9 @@ const N4_GRAMMAR = [
       "zh-CN": "try to; make sure to",
       "ko": "try to; make sure to",
       "vi": "try to; make sure to",
-      "id": "try to; make sure to"
+      "id": "try to; make sure to",
+      "es": "try to; make sure to",
+      "pt": "try to; make sure to"
     }
   },
   {
@@ -2135,7 +2477,9 @@ const N4_GRAMMAR = [
       "zh-CN": "come to; become able to",
       "ko": "come to; become able to",
       "vi": "come to; become able to",
-      "id": "come to; become able to"
+      "id": "come to; become able to",
+      "es": "come to; become able to",
+      "pt": "come to; become able to"
     }
   },
   {
@@ -2147,7 +2491,9 @@ const N4_GRAMMAR = [
       "zh-CN": "decide to",
       "ko": "decide to",
       "vi": "decide to",
-      "id": "decide to"
+      "id": "decide to",
+      "es": "decide to",
+      "pt": "decide to"
     }
   },
   {
@@ -2159,7 +2505,9 @@ const N4_GRAMMAR = [
       "zh-CN": "it has been decided that",
       "ko": "it has been decided that",
       "vi": "it has been decided that",
-      "id": "it has been decided that"
+      "id": "it has been decided that",
+      "es": "it has been decided that",
+      "pt": "it has been decided that"
     }
   },
   {
@@ -2171,7 +2519,9 @@ const N4_GRAMMAR = [
       "zh-CN": "should be; expected to",
       "ko": "should be; expected to",
       "vi": "should be; expected to",
-      "id": "should be; expected to"
+      "id": "should be; expected to",
+      "es": "should be; expected to",
+      "pt": "should be; expected to"
     }
   },
   {
@@ -2183,7 +2533,9 @@ const N4_GRAMMAR = [
       "zh-CN": "cannot be; impossible",
       "ko": "cannot be; impossible",
       "vi": "cannot be; impossible",
-      "id": "cannot be; impossible"
+      "id": "cannot be; impossible",
+      "es": "cannot be; impossible",
+      "pt": "cannot be; impossible"
     }
   },
   {
@@ -2195,7 +2547,9 @@ const N4_GRAMMAR = [
       "zh-CN": "about to; just did",
       "ko": "about to; just did",
       "vi": "about to; just did",
-      "id": "about to; just did"
+      "id": "about to; just did",
+      "es": "about to; just did",
+      "pt": "about to; just did"
     }
   },
   {
@@ -2207,7 +2561,9 @@ const N4_GRAMMAR = [
       "zh-CN": "just did; nothing but",
       "ko": "just did; nothing but",
       "vi": "just did; nothing but",
-      "id": "just did; nothing but"
+      "id": "just did; nothing but",
+      "es": "just did; nothing but",
+      "pt": "just did; nothing but"
     }
   },
   {
@@ -2219,7 +2575,9 @@ const N4_GRAMMAR = [
       "zh-CN": "seems like; apparently",
       "ko": "seems like; apparently",
       "vi": "seems like; apparently",
-      "id": "seems like; apparently"
+      "id": "seems like; apparently",
+      "es": "seems like; apparently",
+      "pt": "seems like; apparently"
     }
   },
   {
@@ -2231,7 +2589,9 @@ const N4_GRAMMAR = [
       "zh-CN": "looks like; appears",
       "ko": "looks like; appears",
       "vi": "looks like; appears",
-      "id": "looks like; appears"
+      "id": "looks like; appears",
+      "es": "looks like; appears",
+      "pt": "looks like; appears"
     }
   },
   {
@@ -2243,7 +2603,9 @@ const N4_GRAMMAR = [
       "zh-CN": "I heard that",
       "ko": "I heard that",
       "vi": "I heard that",
-      "id": "I heard that"
+      "id": "I heard that",
+      "es": "I heard that",
+      "pt": "I heard that"
     }
   },
   {
@@ -2255,7 +2617,9 @@ const N4_GRAMMAR = [
       "zh-CN": "like; similar to",
       "ko": "like; similar to",
       "vi": "like; similar to",
-      "id": "like; similar to"
+      "id": "like; similar to",
+      "es": "like; similar to",
+      "pt": "like; similar to"
     }
   },
   {
@@ -2267,7 +2631,9 @@ const N4_GRAMMAR = [
       "zh-CN": "might; maybe",
       "ko": "might; maybe",
       "vi": "might; maybe",
-      "id": "might; maybe"
+      "id": "might; maybe",
+      "es": "might; maybe",
+      "pt": "might; maybe"
     }
   },
   {
@@ -2279,7 +2645,9 @@ const N4_GRAMMAR = [
       "zh-CN": "probably; I think",
       "ko": "probably; I think",
       "vi": "probably; I think",
-      "id": "probably; I think"
+      "id": "probably; I think",
+      "es": "probably; I think",
+      "pt": "probably; I think"
     }
   },
   {
@@ -2291,7 +2659,9 @@ const N4_GRAMMAR = [
       "zh-CN": "probably; I think",
       "ko": "probably; I think",
       "vi": "probably; I think",
-      "id": "probably; I think"
+      "id": "probably; I think",
+      "es": "probably; I think",
+      "pt": "probably; I think"
     }
   },
   {
@@ -2303,7 +2673,9 @@ const N4_GRAMMAR = [
       "zh-CN": "intend to; plan to",
       "ko": "intend to; plan to",
       "vi": "intend to; plan to",
-      "id": "intend to; plan to"
+      "id": "intend to; plan to",
+      "es": "intend to; plan to",
+      "pt": "intend to; plan to"
     }
   },
   {
@@ -2315,7 +2687,9 @@ const N4_GRAMMAR = [
       "zh-CN": "sometimes; there are times when",
       "ko": "sometimes; there are times when",
       "vi": "sometimes; there are times when",
-      "id": "sometimes; there are times when"
+      "id": "sometimes; there are times when",
+      "es": "sometimes; there are times when",
+      "pt": "sometimes; there are times when"
     }
   },
   {
@@ -2327,7 +2701,9 @@ const N4_GRAMMAR = [
       "zh-CN": "can; be able to",
       "ko": "can; be able to",
       "vi": "can; be able to",
-      "id": "can; be able to"
+      "id": "can; be able to",
+      "es": "can; be able to",
+      "pt": "can; be able to"
     }
   },
   {
@@ -2339,7 +2715,9 @@ const N4_GRAMMAR = [
       "zh-CN": "have done before",
       "ko": "have done before",
       "vi": "have done before",
-      "id": "have done before"
+      "id": "have done before",
+      "es": "have done before",
+      "pt": "have done before"
     }
   },
   {
@@ -2351,7 +2729,9 @@ const N4_GRAMMAR = [
       "zh-CN": "should; had better",
       "ko": "should; had better",
       "vi": "should; had better",
-      "id": "should; had better"
+      "id": "should; had better",
+      "es": "should; had better",
+      "pt": "should; had better"
     }
   }
 ];

@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.18';
+const APP_VERSION = '19.8.21';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -6445,27 +6445,46 @@ function showLearningQuestion() {
     audioBtn.style.display = 'block';
     session.currentItem = item; // Store for playAudio
     
-    correct = item.m[state.lang] || item.m.en;
-    options = [correct];
-    // Filter to only use items with proper translations (not English fallback when lang != 'en')
+    // Determine if we should use user's language or fall back to English
     const hasProperTranslation = (i) => {
       if (state.lang === 'en') return true;
+      if (!i.m) return false;
       const trans = i.m[state.lang];
-      // Check if translation exists and is not just English (contains non-ASCII)
-      return trans && /[^\x00-\x7F]/.test(trans);
+      return trans && trans.trim() !== '' && /[^\x00-\x7F]/.test(trans);
     };
-    // Filter out items with same meaning (to avoid duplicate options)
-    sameTypePool.filter(i => {
-      if (i.id === item.id) return false;
-      if (!hasProperTranslation(i)) return false;
-      // Exclude items with same meaning
-      const iMeaning = i.m[state.lang] || i.m.en;
-      if (iMeaning === correct) return false;
-      return true;
-    })
-      .sort(() => Math.random() - 0.5)
-      .slice(0, 3)
-      .forEach(i => options.push(i.m[state.lang] || i.m.en));
+    
+    // Check if correct item has proper translation
+    const correctHasProperTrans = hasProperTranslation(item);
+    
+    // Get all items with proper translations for this language
+    const itemsWithTrans = sameTypePool.filter(i => 
+      i.id !== item.id && 
+      i.m && 
+      hasProperTranslation(i) &&
+      (i.m[state.lang] || i.m.en) !== (item.m[state.lang] || item.m.en) // different meaning
+    );
+    
+    // Decide language: use user's language only if we have enough options (3+)
+    const useUserLang = correctHasProperTrans && itemsWithTrans.length >= 3;
+    
+    if (useUserLang) {
+      // Use user's language
+      correct = item.m[state.lang];
+      options = [correct];
+      itemsWithTrans
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .forEach(i => options.push(i.m[state.lang]));
+    } else {
+      // Fall back to English for consistency
+      correct = item.m.en;
+      options = [correct];
+      sameTypePool
+        .filter(i => i.id !== item.id && i.m && i.m.en && i.m.en !== correct)
+        .sort(() => Math.random() - 0.5)
+        .slice(0, 3)
+        .forEach(i => options.push(i.m.en));
+    }
       
   } else if (skill === 'writing') {
     promptEl.textContent = getText('quiz_select_kanji') || 'Select the correct kanji/word';
@@ -6515,38 +6534,26 @@ function showLearningQuestion() {
     const extra = sameTypePool[Math.floor(Math.random() * sameTypePool.length)];
     if (extra) {
       let opt;
-      if (skill === 'listening' || skill === 'writing') opt = extra.k || extra.w || extra.p;
-      else if (skill === 'reading') {
+      if (skill === 'listening' || skill === 'writing') {
+        opt = extra.k || extra.w || extra.p;
+      } else if (skill === 'reading') {
         // For grammar items in reading skill, we ask for meaning not reading
         if (extra.p && extra.m) {
           opt = extra.m[state.lang] || extra.m.en;
         } else {
           opt = extra.r || extra.w;
         }
-      }
-      else if (skill === 'meaning') {
-        // For meaning skill, only use items with proper meaning data
-        if (extra.m && hasProperTrans(extra)) {
-          opt = extra.m[state.lang] || extra.m.en;
-        } else if (extra.m && attempts > 30) {
-          // After many attempts, use English as fallback
+      } else if (skill === 'meaning') {
+        // Already handled above with proper language consistency
+        // Just add English fallback if needed
+        if (extra.m && extra.m.en && extra.m.en !== correct) {
           opt = extra.m.en;
         }
       }
-      if (opt && !options.includes(opt)) options.push(opt);
+      if (opt && !options.includes(opt) && opt !== correct) options.push(opt);
     }
   }
   
-  // Final fallback: fill with English if still not enough
-  if (options.length < 4 && skill === 'meaning') {
-    const englishOptions = sameTypePool
-      .filter(i => i.m && i.m.en && !options.includes(i.m.en))
-      .map(i => i.m.en)
-      .sort(() => Math.random() - 0.5);
-    while (options.length < 4 && englishOptions.length > 0) {
-      options.push(englishOptions.pop());
-    }
-  }
   options = options.sort(() => Math.random() - 0.5);
   
   const optionsDiv = document.getElementById('quiz-options');

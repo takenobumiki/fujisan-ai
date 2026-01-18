@@ -12,7 +12,9 @@ const N5_KANJI = [
       "zh-CN": "一",
       "ko": "[one]",
       "vi": "[one]",
-      "id": "[one]"
+      "id": "[one]",
+      "es": "uno",
+      "pt": "um"
     },
     "ex": "一人",
     "exm": {
@@ -31,7 +33,9 @@ const N5_KANJI = [
       "zh-CN": "二",
       "ko": "[two]",
       "vi": "[two]",
-      "id": "[two]"
+      "id": "[two]",
+      "es": "dos",
+      "pt": "dois"
     },
     "ex": "二人",
     "exm": {
@@ -50,7 +54,9 @@ const N5_KANJI = [
       "zh-CN": "三",
       "ko": "[three]",
       "vi": "[three]",
-      "id": "[three]"
+      "id": "[three]",
+      "es": "tres",
+      "pt": "três"
     },
     "ex": "三人",
     "exm": {
@@ -69,7 +75,9 @@ const N5_KANJI = [
       "zh-CN": "四",
       "ko": "[four]",
       "vi": "[four]",
-      "id": "[four]"
+      "id": "[four]",
+      "es": "cuatro",
+      "pt": "quatro"
     },
     "ex": "四人",
     "exm": {
@@ -88,7 +96,9 @@ const N5_KANJI = [
       "zh-CN": "五",
       "ko": "[five]",
       "vi": "[five]",
-      "id": "[five]"
+      "id": "[five]",
+      "es": "cinco",
+      "pt": "cinco"
     },
     "ex": "五人",
     "exm": {
@@ -107,7 +117,9 @@ const N5_KANJI = [
       "zh-CN": "六",
       "ko": "[six]",
       "vi": "[six]",
-      "id": "[six]"
+      "id": "[six]",
+      "es": "seis",
+      "pt": "seis"
     },
     "ex": "六人",
     "exm": {
@@ -126,7 +138,9 @@ const N5_KANJI = [
       "zh-CN": "七",
       "ko": "[seven]",
       "vi": "[seven]",
-      "id": "[seven]"
+      "id": "[seven]",
+      "es": "siete",
+      "pt": "sete"
     },
     "ex": "七人",
     "exm": {
@@ -145,7 +159,9 @@ const N5_KANJI = [
       "zh-CN": "八",
       "ko": "[eight]",
       "vi": "[eight]",
-      "id": "[eight]"
+      "id": "[eight]",
+      "es": "ocho",
+      "pt": "oito"
     },
     "ex": "八人",
     "exm": {
@@ -164,7 +180,9 @@ const N5_KANJI = [
       "zh-CN": "九",
       "ko": "[nine]",
       "vi": "[nine]",
-      "id": "[nine]"
+      "id": "[nine]",
+      "es": "nueve",
+      "pt": "nove"
     },
     "ex": "九人",
     "exm": {
@@ -183,7 +201,9 @@ const N5_KANJI = [
       "zh-CN": "十",
       "ko": "[ten]",
       "vi": "[ten]",
-      "id": "[ten]"
+      "id": "[ten]",
+      "es": "diez",
+      "pt": "dez"
     },
     "ex": "十人",
     "exm": {
@@ -202,7 +222,9 @@ const N5_KANJI = [
       "zh-CN": "百",
       "ko": "[hundred]",
       "vi": "[hundred]",
-      "id": "[hundred]"
+      "id": "[hundred]",
+      "es": "cien",
+      "pt": "cem"
     },
     "ex": "百円",
     "exm": {
@@ -221,7 +243,9 @@ const N5_KANJI = [
       "zh-CN": "千",
       "ko": "[thousand]",
       "vi": "[thousand]",
-      "id": "[thousand]"
+      "id": "[thousand]",
+      "es": "mil",
+      "pt": "mil"
     },
     "ex": "千円",
     "exm": {
@@ -240,7 +264,9 @@ const N5_KANJI = [
       "zh-CN": "万",
       "ko": "[ten thousand]",
       "vi": "[ten thousand]",
-      "id": "[ten thousand]"
+      "id": "[ten thousand]",
+      "es": "diez mil",
+      "pt": "dez mil"
     },
     "ex": "一万円",
     "exm": {
@@ -259,7 +285,9 @@ const N5_KANJI = [
       "zh-CN": "日元",
       "ko": "[yen]",
       "vi": "[yen]",
-      "id": "[yen]"
+      "id": "[yen]",
+      "es": "yen",
+      "pt": "yen"
     },
     "ex": "百円",
     "exm": {
@@ -278,7 +306,9 @@ const N5_KANJI = [
       "zh-CN": "年",
       "ko": "[year]",
       "vi": "[year]",
-      "id": "[year]"
+      "id": "[year]",
+      "es": "año",
+      "pt": "ano"
     },
     "ex": "今年",
     "exm": {
@@ -297,7 +327,9 @@ const N5_KANJI = [
       "zh-CN": "月",
       "ko": "[month/moon]",
       "vi": "[month/moon]",
-      "id": "[month/moon]"
+      "id": "[month/moon]",
+      "es": "month/moon",
+      "pt": "month/moon"
     },
     "ex": "一月",
     "exm": {
@@ -316,7 +348,9 @@ const N5_KANJI = [
       "zh-CN": "日",
       "ko": "[day/sun]",
       "vi": "[day/sun]",
-      "id": "[day/sun]"
+      "id": "[day/sun]",
+      "es": "day/sun",
+      "pt": "day/sun"
     },
     "ex": "日曜日",
     "exm": {
@@ -335,7 +369,9 @@ const N5_KANJI = [
       "zh-CN": "周",
       "ko": "[week]",
       "vi": "[week]",
-      "id": "[week]"
+      "id": "[week]",
+      "es": "semana",
+      "pt": "semana"
     },
     "ex": "今週",
     "exm": {
@@ -354,7 +390,9 @@ const N5_KANJI = [
       "zh-CN": "时",
       "ko": "[time/hour]",
       "vi": "[time/hour]",
-      "id": "[time/hour]"
+      "id": "[time/hour]",
+      "es": "time/hour",
+      "pt": "time/hour"
     },
     "ex": "一時",
     "exm": {
@@ -373,7 +411,9 @@ const N5_KANJI = [
       "zh-CN": "分",
       "ko": "[minute]",
       "vi": "[minute]",
-      "id": "[minute]"
+      "id": "[minute]",
+      "es": "minuto",
+      "pt": "minuto"
     },
     "ex": "十分",
     "exm": {
@@ -392,7 +432,9 @@ const N5_KANJI = [
       "zh-CN": "半",
       "ko": "[half]",
       "vi": "[half]",
-      "id": "[half]"
+      "id": "[half]",
+      "es": "mitad",
+      "pt": "metade"
     },
     "ex": "一時半",
     "exm": {
@@ -411,7 +453,9 @@ const N5_KANJI = [
       "zh-CN": "现在",
       "ko": "[now]",
       "vi": "[now]",
-      "id": "[now]"
+      "id": "[now]",
+      "es": "ahora",
+      "pt": "agora"
     },
     "ex": "今日",
     "exm": {
@@ -430,7 +474,9 @@ const N5_KANJI = [
       "zh-CN": "先",
       "ko": "[previous]",
       "vi": "[previous]",
-      "id": "[previous]"
+      "id": "[previous]",
+      "es": "anterior",
+      "pt": "anterior"
     },
     "ex": "先週",
     "exm": {
@@ -449,7 +495,9 @@ const N5_KANJI = [
       "zh-CN": "来",
       "ko": "[come/next]",
       "vi": "[come/next]",
-      "id": "[come/next]"
+      "id": "[come/next]",
+      "es": "come/next",
+      "pt": "come/next"
     },
     "ex": "来週",
     "exm": {
@@ -468,7 +516,9 @@ const N5_KANJI = [
       "zh-CN": "每",
       "ko": "[every]",
       "vi": "[every]",
-      "id": "[every]"
+      "id": "[every]",
+      "es": "cada",
+      "pt": "cada"
     },
     "ex": "毎日",
     "exm": {
@@ -487,7 +537,9 @@ const N5_KANJI = [
       "zh-CN": "人",
       "ko": "[person]",
       "vi": "[person]",
-      "id": "[person]"
+      "id": "[person]",
+      "es": "persona",
+      "pt": "pessoa"
     },
     "ex": "日本人",
     "exm": {
@@ -506,7 +558,9 @@ const N5_KANJI = [
       "zh-CN": "子",
       "ko": "[child]",
       "vi": "[child]",
-      "id": "[child]"
+      "id": "[child]",
+      "es": "niño",
+      "pt": "criança"
     },
     "ex": "子供",
     "exm": {
@@ -525,7 +579,9 @@ const N5_KANJI = [
       "zh-CN": "女",
       "ko": "[woman]",
       "vi": "[woman]",
-      "id": "[woman]"
+      "id": "[woman]",
+      "es": "mujer",
+      "pt": "mulher"
     },
     "ex": "女の子",
     "exm": {
@@ -544,7 +600,9 @@ const N5_KANJI = [
       "zh-CN": "男",
       "ko": "[man]",
       "vi": "[man]",
-      "id": "[man]"
+      "id": "[man]",
+      "es": "hombre",
+      "pt": "homem"
     },
     "ex": "男の子",
     "exm": {
@@ -563,7 +621,9 @@ const N5_KANJI = [
       "zh-CN": "父",
       "ko": "[father]",
       "vi": "[father]",
-      "id": "[father]"
+      "id": "[father]",
+      "es": "padre",
+      "pt": "pai"
     },
     "ex": "お父さん",
     "exm": {
@@ -582,7 +642,9 @@ const N5_KANJI = [
       "zh-CN": "母",
       "ko": "[mother]",
       "vi": "[mother]",
-      "id": "[mother]"
+      "id": "[mother]",
+      "es": "madre",
+      "pt": "mãe"
     },
     "ex": "お母さん",
     "exm": {
@@ -601,7 +663,9 @@ const N5_KANJI = [
       "zh-CN": "友",
       "ko": "[friend]",
       "vi": "[friend]",
-      "id": "[friend]"
+      "id": "[friend]",
+      "es": "amigo",
+      "pt": "amigo"
     },
     "ex": "友達",
     "exm": {
@@ -620,7 +684,9 @@ const N5_KANJI = [
       "zh-CN": "学",
       "ko": "[study]",
       "vi": "[study]",
-      "id": "[study]"
+      "id": "[study]",
+      "es": "estudiar",
+      "pt": "estudar"
     },
     "ex": "学校",
     "exm": {
@@ -639,7 +705,9 @@ const N5_KANJI = [
       "zh-CN": "校",
       "ko": "[school]",
       "vi": "[school]",
-      "id": "[school]"
+      "id": "[school]",
+      "es": "escuela",
+      "pt": "escola"
     },
     "ex": "学校",
     "exm": {
@@ -658,7 +726,9 @@ const N5_KANJI = [
       "zh-CN": "生",
       "ko": "[life/born]",
       "vi": "[life/born]",
-      "id": "[life/born]"
+      "id": "[life/born]",
+      "es": "life/born",
+      "pt": "life/born"
     },
     "ex": "学生",
     "exm": {
@@ -677,7 +747,9 @@ const N5_KANJI = [
       "zh-CN": "本",
       "ko": "[book]",
       "vi": "[book]",
-      "id": "[book]"
+      "id": "[book]",
+      "es": "libro",
+      "pt": "livro"
     },
     "ex": "日本",
     "exm": {
@@ -696,7 +768,9 @@ const N5_KANJI = [
       "zh-CN": "什么",
       "ko": "[what]",
       "vi": "[what]",
-      "id": "[what]"
+      "id": "[what]",
+      "es": "what",
+      "pt": "what"
     },
     "ex": "何時",
     "exm": {
@@ -715,7 +789,9 @@ const N5_KANJI = [
       "zh-CN": "上",
       "ko": "[up/above]",
       "vi": "[up/above]",
-      "id": "[up/above]"
+      "id": "[up/above]",
+      "es": "up/above",
+      "pt": "up/above"
     },
     "ex": "上",
     "exm": {
@@ -734,7 +810,9 @@ const N5_KANJI = [
       "zh-CN": "下",
       "ko": "[down/below]",
       "vi": "[down/below]",
-      "id": "[down/below]"
+      "id": "[down/below]",
+      "es": "down/below",
+      "pt": "down/below"
     },
     "ex": "下",
     "exm": {
@@ -753,7 +831,9 @@ const N5_KANJI = [
       "zh-CN": "中",
       "ko": "[middle]",
       "vi": "[middle]",
-      "id": "[middle]"
+      "id": "[middle]",
+      "es": "medio",
+      "pt": "meio"
     },
     "ex": "中",
     "exm": {
@@ -772,7 +852,9 @@ const N5_KANJI = [
       "zh-CN": "外",
       "ko": "[outside]",
       "vi": "[outside]",
-      "id": "[outside]"
+      "id": "[outside]",
+      "es": "fuera",
+      "pt": "fora"
     },
     "ex": "外",
     "exm": {
@@ -791,7 +873,9 @@ const N5_KANJI = [
       "zh-CN": "右",
       "ko": "[right]",
       "vi": "[right]",
-      "id": "[right]"
+      "id": "[right]",
+      "es": "correcto",
+      "pt": "correto"
     },
     "ex": "右",
     "exm": {
@@ -810,7 +894,9 @@ const N5_KANJI = [
       "zh-CN": "左",
       "ko": "[left]",
       "vi": "[left]",
-      "id": "[left]"
+      "id": "[left]",
+      "es": "izquierda",
+      "pt": "esquerda"
     },
     "ex": "左",
     "exm": {
@@ -829,7 +915,9 @@ const N5_KANJI = [
       "zh-CN": "北",
       "ko": "[north]",
       "vi": "[north]",
-      "id": "[north]"
+      "id": "[north]",
+      "es": "norte",
+      "pt": "norte"
     },
     "ex": "北",
     "exm": {
@@ -848,7 +936,9 @@ const N5_KANJI = [
       "zh-CN": "南",
       "ko": "[south]",
       "vi": "[south]",
-      "id": "[south]"
+      "id": "[south]",
+      "es": "sur",
+      "pt": "sul"
     },
     "ex": "南",
     "exm": {
@@ -867,7 +957,9 @@ const N5_KANJI = [
       "zh-CN": "东",
       "ko": "[east]",
       "vi": "[east]",
-      "id": "[east]"
+      "id": "[east]",
+      "es": "este",
+      "pt": "leste"
     },
     "ex": "東京",
     "exm": {
@@ -886,7 +978,9 @@ const N5_KANJI = [
       "zh-CN": "西",
       "ko": "[west]",
       "vi": "[west]",
-      "id": "[west]"
+      "id": "[west]",
+      "es": "oeste",
+      "pt": "oeste"
     },
     "ex": "西",
     "exm": {
@@ -905,7 +999,9 @@ const N5_KANJI = [
       "zh-CN": "大",
       "ko": "[big]",
       "vi": "[big]",
-      "id": "[big]"
+      "id": "[big]",
+      "es": "grande",
+      "pt": "grande"
     },
     "ex": "大きい",
     "exm": {
@@ -924,7 +1020,9 @@ const N5_KANJI = [
       "zh-CN": "小",
       "ko": "[small]",
       "vi": "[small]",
-      "id": "[small]"
+      "id": "[small]",
+      "es": "pequeño",
+      "pt": "pequeno"
     },
     "ex": "小さい",
     "exm": {
@@ -943,7 +1041,9 @@ const N5_KANJI = [
       "zh-CN": "高",
       "ko": "[high]",
       "vi": "[high]",
-      "id": "[high]"
+      "id": "[high]",
+      "es": "alto",
+      "pt": "alto"
     },
     "ex": "高い",
     "exm": {
@@ -962,7 +1062,9 @@ const N5_KANJI = [
       "zh-CN": "森林",
       "ko": "숲",
       "vi": "rừng",
-      "id": "hutan"
+      "id": "hutan",
+      "es": "forest",
+      "pt": "forest"
     },
     "ex": "森の中",
     "exm": {
@@ -984,7 +1086,9 @@ const N5_KANJI = [
       "zh-CN": "树林",
       "ko": "수풀",
       "vi": "rừng nhỏ",
-      "id": "hutan kecil"
+      "id": "hutan kecil",
+      "es": "grove",
+      "pt": "grove"
     },
     "ex": "林を歩く",
     "exm": {
@@ -1006,7 +1110,9 @@ const N5_KANJI = [
       "zh-CN": "竹子",
       "ko": "대나무",
       "vi": "tre",
-      "id": "bambu"
+      "id": "bambu",
+      "es": "bamboo",
+      "pt": "bamboo"
     },
     "ex": "竹林",
     "exm": {
@@ -1028,7 +1134,9 @@ const N5_KANJI = [
       "zh-CN": "草",
       "ko": "풀",
       "vi": "cỏ",
-      "id": "rumput"
+      "id": "rumput",
+      "es": "grass",
+      "pt": "grass"
     },
     "ex": "草が生える",
     "exm": {
@@ -1050,7 +1158,9 @@ const N5_KANJI = [
       "zh-CN": "虫",
       "ko": "벌레",
       "vi": "côn trùng",
-      "id": "serangga"
+      "id": "serangga",
+      "es": "insect",
+      "pt": "insect"
     },
     "ex": "虫を見る",
     "exm": {
@@ -1072,7 +1182,9 @@ const N5_KANJI = [
       "zh-CN": "贝",
       "ko": "조개",
       "vi": "sò",
-      "id": "kerang"
+      "id": "kerang",
+      "es": "shellfish",
+      "pt": "shellfish"
     },
     "ex": "貝を拾う",
     "exm": {
@@ -1094,7 +1206,9 @@ const N5_KANJI = [
       "zh-CN": "石头",
       "ko": "돌",
       "vi": "đá",
-      "id": "batu"
+      "id": "batu",
+      "es": "piedra",
+      "pt": "pedra"
     },
     "ex": "石を投げる",
     "exm": {
@@ -1116,7 +1230,9 @@ const N5_KANJI = [
       "zh-CN": "线",
       "ko": "실",
       "vi": "sợi chỉ",
-      "id": "benang"
+      "id": "benang",
+      "es": "thread",
+      "pt": "thread"
     },
     "ex": "糸を切る",
     "exm": {
@@ -1138,7 +1254,9 @@ const N5_KANJI = [
       "zh-CN": "球/玉",
       "ko": "구슬",
       "vi": "viên ngọc",
-      "id": "bola/permata"
+      "id": "bola/permata",
+      "es": "ball/gem",
+      "pt": "ball/gem"
     },
     "ex": "玉を転がす",
     "exm": {
@@ -1160,7 +1278,9 @@ const N5_KANJI = [
       "zh-CN": "国王",
       "ko": "왕",
       "vi": "vua",
-      "id": "raja"
+      "id": "raja",
+      "es": "rey",
+      "pt": "rei"
     },
     "ex": "王様",
     "exm": {
@@ -1182,7 +1302,9 @@ const N5_KANJI = [
       "zh-CN": "正确",
       "ko": "바르다",
       "vi": "đúng",
-      "id": "benar"
+      "id": "benar",
+      "es": "correct",
+      "pt": "correct"
     },
     "ex": "正しい",
     "exm": {
@@ -1204,7 +1326,9 @@ const N5_KANJI = [
       "zh-CN": "文章",
       "ko": "글",
       "vi": "văn",
-      "id": "kalimat"
+      "id": "kalimat",
+      "es": "sentence",
+      "pt": "sentence"
     },
     "ex": "文を書く",
     "exm": {
@@ -1226,7 +1350,9 @@ const N5_KANJI = [
       "zh-CN": "字",
       "ko": "글자",
       "vi": "chữ",
-      "id": "huruf"
+      "id": "huruf",
+      "es": "character",
+      "pt": "character"
     },
     "ex": "字を読む",
     "exm": {
@@ -1248,7 +1374,9 @@ const N5_KANJI = [
       "zh-CN": "声音",
       "ko": "소리",
       "vi": "âm thanh",
-      "id": "suara"
+      "id": "suara",
+      "es": "sound",
+      "pt": "sound"
     },
     "ex": "音がする",
     "exm": {
@@ -1270,7 +1398,9 @@ const N5_KANJI = [
       "zh-CN": "快乐/音乐",
       "ko": "즐겁다",
       "vi": "vui",
-      "id": "menyenangkan"
+      "id": "menyenangkan",
+      "es": "fun/music",
+      "pt": "fun/music"
     },
     "ex": "楽しい",
     "exm": {
@@ -1292,7 +1422,9 @@ const N5_KANJI = [
       "zh-CN": "力量",
       "ko": "힘",
       "vi": "sức mạnh",
-      "id": "kekuatan"
+      "id": "kekuatan",
+      "es": "poder",
+      "pt": "poder"
     },
     "ex": "力がある",
     "exm": {
@@ -1314,7 +1446,9 @@ const N5_KANJI = [
       "zh-CN": "工艺",
       "ko": "공",
       "vi": "công",
-      "id": "kerajinan"
+      "id": "kerajinan",
+      "es": "craft",
+      "pt": "craft"
     },
     "ex": "工場",
     "exm": {
@@ -1336,7 +1470,9 @@ const N5_KANJI = [
       "zh-CN": "制作",
       "ko": "만들다",
       "vi": "làm",
-      "id": "membuat"
+      "id": "membuat",
+      "es": "hacer",
+      "pt": "fazer"
     },
     "ex": "作る",
     "exm": {
@@ -1358,7 +1494,9 @@ const N5_KANJI = [
       "zh-CN": "原本",
       "ko": "원래",
       "vi": "gốc",
-      "id": "asal"
+      "id": "asal",
+      "es": "origin",
+      "pt": "origin"
     },
     "ex": "元気",
     "exm": {
@@ -1380,7 +1518,9 @@ const N5_KANJI = [
       "zh-CN": "公共",
       "ko": "공공",
       "vi": "công",
-      "id": "umum"
+      "id": "umum",
+      "es": "público",
+      "pt": "público"
     },
     "ex": "公園",
     "exm": {
@@ -1402,7 +1542,9 @@ const N5_KANJI = [
       "zh-CN": "自己",
       "ko": "스스로",
       "vi": "tự",
-      "id": "sendiri"
+      "id": "sendiri",
+      "es": "uno mismo",
+      "pt": "si mesmo"
     },
     "ex": "自分",
     "exm": {
@@ -1424,7 +1566,9 @@ const N5_KANJI = [
       "zh-CN": "交",
       "ko": "사귀다",
       "vi": "giao",
-      "id": "bergaul"
+      "id": "bergaul",
+      "es": "mezclar",
+      "pt": "misturar"
     },
     "ex": "交差点",
     "exm": {
@@ -1446,7 +1590,9 @@ const N5_KANJI = [
       "zh-CN": "见面",
       "ko": "만나다",
       "vi": "gặp",
-      "id": "bertemu"
+      "id": "bertemu",
+      "es": "encontrar",
+      "pt": "encontrar"
     },
     "ex": "会う",
     "exm": {
@@ -1468,7 +1614,9 @@ const N5_KANJI = [
       "zh-CN": "公司",
       "ko": "회사",
       "vi": "công ty",
-      "id": "perusahaan"
+      "id": "perusahaan",
+      "es": "empresa",
+      "pt": "empresa"
     },
     "ex": "会社",
     "exm": {
@@ -1490,7 +1638,9 @@ const N5_KANJI = [
       "zh-CN": "相同",
       "ko": "같다",
       "vi": "giống",
-      "id": "sama"
+      "id": "sama",
+      "es": "mismo",
+      "pt": "mesmo"
     },
     "ex": "同じ",
     "exm": {
@@ -1512,7 +1662,9 @@ const N5_KANJI = [
       "zh-CN": "明亮",
       "ko": "밝다",
       "vi": "sáng",
-      "id": "terang"
+      "id": "terang",
+      "es": "brillante",
+      "pt": "brilhante"
     },
     "ex": "明るい",
     "exm": {
@@ -1534,7 +1686,9 @@ const N5_KANJI = [
       "zh-CN": "知道",
       "ko": "알다",
       "vi": "biết",
-      "id": "tahu"
+      "id": "tahu",
+      "es": "saber",
+      "pt": "saber"
     },
     "ex": "知る",
     "exm": {
@@ -1556,7 +1710,9 @@ const N5_KANJI = [
       "zh-CN": "道理",
       "ko": "이치",
       "vi": "lý",
-      "id": "alasan"
+      "id": "alasan",
+      "es": "razón",
+      "pt": "razão"
     },
     "ex": "理由",
     "exm": {
@@ -1578,7 +1734,9 @@ const N5_KANJI = [
       "zh-CN": "科目",
       "ko": "과",
       "vi": "khoa",
-      "id": "mata pelajaran"
+      "id": "mata pelajaran",
+      "es": "subject",
+      "pt": "subject"
     },
     "ex": "科学",
     "exm": {
@@ -1600,7 +1758,9 @@ const N5_KANJI = [
       "zh-CN": "教",
       "ko": "가르치다",
       "vi": "dạy",
-      "id": "mengajar"
+      "id": "mengajar",
+      "es": "enseñar",
+      "pt": "ensinar"
     },
     "ex": "教える",
     "exm": {
@@ -1622,7 +1782,9 @@ const N5_KANJI = [
       "zh-CN": "房间",
       "ko": "방",
       "vi": "phòng",
-      "id": "ruangan"
+      "id": "ruangan",
+      "es": "habitación",
+      "pt": "quarto"
     },
     "ex": "教室",
     "exm": {
@@ -1644,7 +1806,9 @@ const N5_KANJI = [
       "zh-CN": "计算",
       "ko": "세다",
       "vi": "tính",
-      "id": "menghitung"
+      "id": "menghitung",
+      "es": "measure",
+      "pt": "measure"
     },
     "ex": "計算",
     "exm": {
@@ -1666,7 +1830,9 @@ const N5_KANJI = [
       "zh-CN": "算",
       "ko": "계산",
       "vi": "tính",
-      "id": "hitung"
+      "id": "hitung",
+      "es": "calculate",
+      "pt": "calculate"
     },
     "ex": "算数",
     "exm": {
@@ -1688,7 +1854,9 @@ const N5_KANJI = [
       "zh-CN": "组",
       "ko": "조",
       "vi": "nhóm",
-      "id": "kelompok"
+      "id": "kelompok",
+      "es": "group",
+      "pt": "group"
     },
     "ex": "一組",
     "exm": {
@@ -1710,7 +1878,9 @@ const N5_KANJI = [
       "zh-CN": "画",
       "ko": "그림",
       "vi": "tranh",
-      "id": "gambar"
+      "id": "gambar",
+      "es": "imagen",
+      "pt": "imagem"
     },
     "ex": "絵を描く",
     "exm": {
@@ -1732,7 +1902,9 @@ const N5_KANJI = [
       "zh-CN": "线",
       "ko": "선",
       "vi": "đường",
-      "id": "garis"
+      "id": "garis",
+      "es": "line",
+      "pt": "line"
     },
     "ex": "線を引く",
     "exm": {
@@ -1754,7 +1926,9 @@ const N5_KANJI = [
       "zh-CN": "箭",
       "ko": "화살",
       "vi": "mũi tên",
-      "id": "panah"
+      "id": "panah",
+      "es": "arrow",
+      "pt": "arrow"
     },
     "ex": "矢を射る",
     "exm": {
@@ -1776,7 +1950,9 @@ const N5_KANJI = [
       "zh-CN": "弓",
       "ko": "활",
       "vi": "cung",
-      "id": "busur"
+      "id": "busur",
+      "es": "bow",
+      "pt": "bow"
     },
     "ex": "弓を引く",
     "exm": {
@@ -1798,7 +1974,9 @@ const N5_KANJI = [
       "zh-CN": "形状",
       "ko": "모양",
       "vi": "hình dạng",
-      "id": "bentuk"
+      "id": "bentuk",
+      "es": "shape",
+      "pt": "shape"
     },
     "ex": "丸い形",
     "exm": {
@@ -1820,7 +1998,9 @@ const N5_KANJI = [
       "zh-CN": "颜色",
       "ko": "색",
       "vi": "màu",
-      "id": "warna"
+      "id": "warna",
+      "es": "color",
+      "pt": "cor"
     },
     "ex": "色が変わる",
     "exm": {
@@ -1842,7 +2022,9 @@ const N5_KANJI = [
       "zh-CN": "黑色",
       "ko": "검정",
       "vi": "đen",
-      "id": "hitam"
+      "id": "hitam",
+      "es": "negro",
+      "pt": "preto"
     },
     "ex": "黒い猫",
     "exm": {
@@ -1864,7 +2046,9 @@ const N5_KANJI = [
       "zh-CN": "茶",
       "ko": "차",
       "vi": "trà",
-      "id": "teh"
+      "id": "teh",
+      "es": "té",
+      "pt": "chá"
     },
     "ex": "お茶を飲む",
     "exm": {
@@ -1886,7 +2070,9 @@ const N5_KANJI = [
       "zh-CN": "肉",
       "ko": "고기",
       "vi": "thịt",
-      "id": "daging"
+      "id": "daging",
+      "es": "carne",
+      "pt": "carne"
     },
     "ex": "肉を食べる",
     "exm": {
@@ -1908,7 +2094,9 @@ const N5_KANJI = [
       "zh-CN": "米",
       "ko": "쌀",
       "vi": "gạo",
-      "id": "beras"
+      "id": "beras",
+      "es": "arroz",
+      "pt": "arroz"
     },
     "ex": "米を炊く",
     "exm": {
@@ -1930,7 +2118,9 @@ const N5_KANJI = [
       "zh-CN": "麦",
       "ko": "보리",
       "vi": "lúa mì",
-      "id": "gandum"
+      "id": "gandum",
+      "es": "wheat",
+      "pt": "wheat"
     },
     "ex": "麦畑",
     "exm": {
@@ -1952,7 +2142,9 @@ const N5_KANJI = [
       "zh-CN": "门",
       "ko": "문",
       "vi": "cửa",
-      "id": "pintu"
+      "id": "pintu",
+      "es": "puerta",
+      "pt": "porta"
     },
     "ex": "戸を開ける",
     "exm": {
@@ -1974,7 +2166,9 @@ const N5_KANJI = [
       "zh-CN": "大门",
       "ko": "대문",
       "vi": "cổng",
-      "id": "gerbang"
+      "id": "gerbang",
+      "es": "gate",
+      "pt": "gate"
     },
     "ex": "門を出る",
     "exm": {
@@ -1996,7 +2190,9 @@ const N5_KANJI = [
       "zh-CN": "马",
       "ko": "말",
       "vi": "ngựa",
-      "id": "kuda"
+      "id": "kuda",
+      "es": "horse",
+      "pt": "horse"
     },
     "ex": "馬に乗る",
     "exm": {
@@ -2018,7 +2214,9 @@ const N5_KANJI = [
       "zh-CN": "牛",
       "ko": "소",
       "vi": "bò",
-      "id": "sapi"
+      "id": "sapi",
+      "es": "cow",
+      "pt": "cow"
     },
     "ex": "牛肉",
     "exm": {
@@ -2040,7 +2238,9 @@ const N5_KANJI = [
       "zh-CN": "鸟",
       "ko": "새",
       "vi": "chim",
-      "id": "burung"
+      "id": "burung",
+      "es": "bird",
+      "pt": "bird"
     },
     "ex": "鳥が飛ぶ",
     "exm": {
@@ -2062,7 +2262,9 @@ const N5_KANJI = [
       "zh-CN": "口",
       "ko": "[mouth]",
       "vi": "[mouth]",
-      "id": "[mouth]"
+      "id": "[mouth]",
+      "es": "boca",
+      "pt": "boca"
     },
     "ex": "",
     "exm": {
@@ -2081,7 +2283,9 @@ const N5_KANJI = [
       "zh-CN": "目",
       "ko": "[eye]",
       "vi": "[eye]",
-      "id": "[eye]"
+      "id": "[eye]",
+      "es": "ojo",
+      "pt": "olho"
     },
     "ex": "",
     "exm": {
@@ -2100,7 +2304,9 @@ const N5_KANJI = [
       "zh-CN": "耳",
       "ko": "[ear]",
       "vi": "[ear]",
-      "id": "[ear]"
+      "id": "[ear]",
+      "es": "oreja",
+      "pt": "orelha"
     },
     "ex": "",
     "exm": {
@@ -2119,7 +2325,9 @@ const N5_KANJI = [
       "zh-CN": "手",
       "ko": "[hand]",
       "vi": "[hand]",
-      "id": "[hand]"
+      "id": "[hand]",
+      "es": "mano",
+      "pt": "mão"
     },
     "ex": "",
     "exm": {
@@ -2138,7 +2346,9 @@ const N5_KANJI = [
       "zh-CN": "足",
       "ko": "[foot]",
       "vi": "[foot]",
-      "id": "[foot]"
+      "id": "[foot]",
+      "es": "pie",
+      "pt": "pé"
     },
     "ex": "",
     "exm": {
@@ -2157,7 +2367,9 @@ const N5_KANJI = [
       "zh-CN": "火",
       "ko": "[fire]",
       "vi": "[fire]",
-      "id": "[fire]"
+      "id": "[fire]",
+      "es": "fuego",
+      "pt": "fogo"
     },
     "ex": "",
     "exm": {
@@ -2176,7 +2388,9 @@ const N5_KANJI = [
       "zh-CN": "水",
       "ko": "[water]",
       "vi": "[water]",
-      "id": "[water]"
+      "id": "[water]",
+      "es": "agua",
+      "pt": "água"
     },
     "ex": "",
     "exm": {
@@ -2195,7 +2409,9 @@ const N5_KANJI = [
       "zh-CN": "木",
       "ko": "[tree]",
       "vi": "[tree]",
-      "id": "[tree]"
+      "id": "[tree]",
+      "es": "árbol",
+      "pt": "árvore"
     },
     "ex": "",
     "exm": {
@@ -2214,7 +2430,9 @@ const N5_KANJI = [
       "zh-CN": "金",
       "ko": "[money]",
       "vi": "[money]",
-      "id": "[money]"
+      "id": "[money]",
+      "es": "dinero",
+      "pt": "dinheiro"
     },
     "ex": "",
     "exm": {
@@ -2233,7 +2451,9 @@ const N5_KANJI = [
       "zh-CN": "土",
       "ko": "[earth]",
       "vi": "[earth]",
-      "id": "[earth]"
+      "id": "[earth]",
+      "es": "tierra",
+      "pt": "terra"
     },
     "ex": "",
     "exm": {
@@ -2252,7 +2472,9 @@ const N5_KANJI = [
       "zh-CN": "曜",
       "ko": "[day of week]",
       "vi": "[day of week]",
-      "id": "[day of week]"
+      "id": "[day of week]",
+      "es": "day of week",
+      "pt": "day of week"
     },
     "ex": "",
     "exm": {
@@ -2271,7 +2493,9 @@ const N5_KANJI = [
       "zh-CN": "山",
       "ko": "[mountain]",
       "vi": "[mountain]",
-      "id": "[mountain]"
+      "id": "[mountain]",
+      "es": "montaña",
+      "pt": "montanha"
     },
     "ex": "",
     "exm": {
@@ -2290,7 +2514,9 @@ const N5_KANJI = [
       "zh-CN": "川",
       "ko": "[river]",
       "vi": "[river]",
-      "id": "[river]"
+      "id": "[river]",
+      "es": "río",
+      "pt": "rio"
     },
     "ex": "",
     "exm": {
@@ -2309,7 +2535,9 @@ const N5_KANJI = [
       "zh-CN": "田",
       "ko": "[rice field]",
       "vi": "[rice field]",
-      "id": "[rice field]"
+      "id": "[rice field]",
+      "es": "rice field",
+      "pt": "rice field"
     },
     "ex": "",
     "exm": {
@@ -2328,7 +2556,9 @@ const N5_KANJI = [
       "zh-CN": "天",
       "ko": "[heaven]",
       "vi": "[heaven]",
-      "id": "[heaven]"
+      "id": "[heaven]",
+      "es": "heaven",
+      "pt": "heaven"
     },
     "ex": "",
     "exm": {
@@ -2347,7 +2577,9 @@ const N5_KANJI = [
       "zh-CN": "気",
       "ko": "[spirit]",
       "vi": "[spirit]",
-      "id": "[spirit]"
+      "id": "[spirit]",
+      "es": "spirit",
+      "pt": "spirit"
     },
     "ex": "",
     "exm": {
@@ -2366,7 +2598,9 @@ const N5_KANJI = [
       "zh-CN": "雨",
       "ko": "[rain]",
       "vi": "[rain]",
-      "id": "[rain]"
+      "id": "[rain]",
+      "es": "lluvia",
+      "pt": "chuva"
     },
     "ex": "",
     "exm": {
@@ -2385,7 +2619,9 @@ const N5_KANJI = [
       "zh-CN": "雪",
       "ko": "[snow]",
       "vi": "[snow]",
-      "id": "[snow]"
+      "id": "[snow]",
+      "es": "nieve",
+      "pt": "neve"
     },
     "ex": "",
     "exm": {
@@ -2404,7 +2640,9 @@ const N5_KANJI = [
       "zh-CN": "空",
       "ko": "[sky]",
       "vi": "[sky]",
-      "id": "[sky]"
+      "id": "[sky]",
+      "es": "cielo",
+      "pt": "céu"
     },
     "ex": "",
     "exm": {
@@ -2423,7 +2661,9 @@ const N5_KANJI = [
       "zh-CN": "長",
       "ko": "[long]",
       "vi": "[long]",
-      "id": "[long]"
+      "id": "[long]",
+      "es": "largo",
+      "pt": "longo"
     },
     "ex": "",
     "exm": {
@@ -2442,7 +2682,9 @@ const N5_KANJI = [
       "zh-CN": "国",
       "ko": "[country]",
       "vi": "[country]",
-      "id": "[country]"
+      "id": "[country]",
+      "es": "país",
+      "pt": "país"
     },
     "ex": "",
     "exm": {
@@ -2461,7 +2703,9 @@ const N5_KANJI = [
       "zh-CN": "行",
       "ko": "[go]",
       "vi": "[go]",
-      "id": "[go]"
+      "id": "[go]",
+      "es": "ir",
+      "pt": "ir"
     },
     "ex": "",
     "exm": {
@@ -2480,7 +2724,9 @@ const N5_KANJI = [
       "zh-CN": "出",
       "ko": "[exit]",
       "vi": "[exit]",
-      "id": "[exit]"
+      "id": "[exit]",
+      "es": "salir",
+      "pt": "sair"
     },
     "ex": "",
     "exm": {
@@ -2499,7 +2745,9 @@ const N5_KANJI = [
       "zh-CN": "入",
       "ko": "[enter]",
       "vi": "[enter]",
-      "id": "[enter]"
+      "id": "[enter]",
+      "es": "entrar",
+      "pt": "entrar"
     },
     "ex": "",
     "exm": {
@@ -2518,7 +2766,9 @@ const N5_KANJI = [
       "zh-CN": "食",
       "ko": "[eat]",
       "vi": "[eat]",
-      "id": "[eat]"
+      "id": "[eat]",
+      "es": "comer",
+      "pt": "comer"
     },
     "ex": "",
     "exm": {
@@ -2537,7 +2787,9 @@ const N5_KANJI = [
       "zh-CN": "飲",
       "ko": "[drink]",
       "vi": "[drink]",
-      "id": "[drink]"
+      "id": "[drink]",
+      "es": "beber",
+      "pt": "beber"
     },
     "ex": "",
     "exm": {
@@ -2556,7 +2808,9 @@ const N5_KANJI = [
       "zh-CN": "見",
       "ko": "[see]",
       "vi": "[see]",
-      "id": "[see]"
+      "id": "[see]",
+      "es": "ver",
+      "pt": "ver"
     },
     "ex": "",
     "exm": {
@@ -2575,7 +2829,9 @@ const N5_KANJI = [
       "zh-CN": "聞",
       "ko": "[hear]",
       "vi": "[hear]",
-      "id": "[hear]"
+      "id": "[hear]",
+      "es": "oír",
+      "pt": "ouvir"
     },
     "ex": "",
     "exm": {
@@ -2594,7 +2850,9 @@ const N5_KANJI = [
       "zh-CN": "書",
       "ko": "[write]",
       "vi": "[write]",
-      "id": "[write]"
+      "id": "[write]",
+      "es": "escribir",
+      "pt": "escrever"
     },
     "ex": "",
     "exm": {
@@ -2613,7 +2871,9 @@ const N5_KANJI = [
       "zh-CN": "読",
       "ko": "[read]",
       "vi": "[read]",
-      "id": "[read]"
+      "id": "[read]",
+      "es": "leer",
+      "pt": "ler"
     },
     "ex": "",
     "exm": {
@@ -2632,7 +2892,9 @@ const N5_KANJI = [
       "zh-CN": "話",
       "ko": "[talk]",
       "vi": "[talk]",
-      "id": "[talk]"
+      "id": "[talk]",
+      "es": "hablar",
+      "pt": "falar"
     },
     "ex": "",
     "exm": {
@@ -2651,7 +2913,9 @@ const N5_KANJI = [
       "zh-CN": "買",
       "ko": "[buy]",
       "vi": "[buy]",
-      "id": "[buy]"
+      "id": "[buy]",
+      "es": "comprar",
+      "pt": "comprar"
     },
     "ex": "",
     "exm": {
@@ -2670,7 +2934,9 @@ const N5_KANJI = [
       "zh-CN": "休",
       "ko": "[rest]",
       "vi": "[rest]",
-      "id": "[rest]"
+      "id": "[rest]",
+      "es": "rest",
+      "pt": "rest"
     },
     "ex": "",
     "exm": {
@@ -2689,7 +2955,9 @@ const N5_KANJI = [
       "zh-CN": "午",
       "ko": "[noon]",
       "vi": "[noon]",
-      "id": "[noon]"
+      "id": "[noon]",
+      "es": "mediodía",
+      "pt": "meio-dia"
     },
     "ex": "",
     "exm": {
@@ -2708,7 +2976,9 @@ const N5_KANJI = [
       "zh-CN": "前",
       "ko": "[before]",
       "vi": "[before]",
-      "id": "[before]"
+      "id": "[before]",
+      "es": "antes",
+      "pt": "antes"
     },
     "ex": "",
     "exm": {
@@ -2727,7 +2997,9 @@ const N5_KANJI = [
       "zh-CN": "後",
       "ko": "[after]",
       "vi": "[after]",
-      "id": "[after]"
+      "id": "[after]",
+      "es": "después",
+      "pt": "depois"
     },
     "ex": "",
     "exm": {
@@ -2746,7 +3018,9 @@ const N5_KANJI = [
       "zh-CN": "間",
       "ko": "[between]",
       "vi": "[between]",
-      "id": "[between]"
+      "id": "[between]",
+      "es": "between",
+      "pt": "between"
     },
     "ex": "",
     "exm": {
@@ -2765,7 +3039,9 @@ const N5_KANJI = [
       "zh-CN": "名",
       "ko": "[name]",
       "vi": "[name]",
-      "id": "[name]"
+      "id": "[name]",
+      "es": "nombre",
+      "pt": "nome"
     },
     "ex": "",
     "exm": {
@@ -2784,7 +3060,9 @@ const N5_KANJI = [
       "zh-CN": "電",
       "ko": "[electricity]",
       "vi": "[electricity]",
-      "id": "[electricity]"
+      "id": "[electricity]",
+      "es": "electricity",
+      "pt": "electricity"
     },
     "ex": "",
     "exm": {
@@ -2803,7 +3081,9 @@ const N5_KANJI = [
       "zh-CN": "車",
       "ko": "[car]",
       "vi": "[car]",
-      "id": "[car]"
+      "id": "[car]",
+      "es": "coche",
+      "pt": "carro"
     },
     "ex": "",
     "exm": {
@@ -2822,7 +3102,9 @@ const N5_KANJI = [
       "zh-CN": "道",
       "ko": "[road]",
       "vi": "[road]",
-      "id": "[road]"
+      "id": "[road]",
+      "es": "camino",
+      "pt": "estrada"
     },
     "ex": "",
     "exm": {
@@ -2841,7 +3123,9 @@ const N5_KANJI = [
       "zh-CN": "駅",
       "ko": "[station]",
       "vi": "[station]",
-      "id": "[station]"
+      "id": "[station]",
+      "es": "estación",
+      "pt": "estação"
     },
     "ex": "",
     "exm": {
@@ -2860,7 +3144,9 @@ const N5_KANJI = [
       "zh-CN": "花",
       "ko": "[flower]",
       "vi": "[flower]",
-      "id": "[flower]"
+      "id": "[flower]",
+      "es": "flor",
+      "pt": "flor"
     },
     "ex": "",
     "exm": {
@@ -2879,7 +3165,9 @@ const N5_KANJI = [
       "zh-CN": "魚",
       "ko": "[fish]",
       "vi": "[fish]",
-      "id": "[fish]"
+      "id": "[fish]",
+      "es": "pescado",
+      "pt": "peixe"
     },
     "ex": "",
     "exm": {

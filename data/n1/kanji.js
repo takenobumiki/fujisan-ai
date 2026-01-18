@@ -12,7 +12,9 @@ const N1_KANJI = [
       "zh-CN": "璧",
       "ko": "jewel",
       "vi": "jewel",
-      "id": "jewel"
+      "id": "jewel",
+      "es": "jewel",
+      "pt": "jewel"
     }
   },
   {
@@ -25,7 +27,9 @@ const N1_KANJI = [
       "zh-CN": "碧",
       "ko": "blue",
       "vi": "blue",
-      "id": "blue"
+      "id": "blue",
+      "es": "azul",
+      "pt": "azul"
     }
   },
   {
@@ -38,7 +42,9 @@ const N1_KANJI = [
       "zh-CN": "蔽",
       "ko": "cover",
       "vi": "cover",
-      "id": "cover"
+      "id": "cover",
+      "es": "cover",
+      "pt": "cover"
     }
   },
   {
@@ -51,7 +57,9 @@ const N1_KANJI = [
       "zh-CN": "餅",
       "ko": "rice cake",
       "vi": "rice cake",
-      "id": "rice cake"
+      "id": "rice cake",
+      "es": "rice cake",
+      "pt": "rice cake"
     }
   },
   {
@@ -64,7 +72,9 @@ const N1_KANJI = [
       "zh-CN": "篇",
       "ko": "volume",
       "vi": "volume",
-      "id": "volume"
+      "id": "volume",
+      "es": "volume",
+      "pt": "volume"
     }
   },
   {
@@ -77,7 +87,9 @@ const N1_KANJI = [
       "zh-CN": "边",
       "ko": "vicinity",
       "vi": "vicinity",
-      "id": "vicinity"
+      "id": "vicinity",
+      "es": "vicinity",
+      "pt": "vicinity"
     }
   },
   {
@@ -90,7 +102,9 @@ const N1_KANJI = [
       "zh-CN": "墓",
       "ko": "grave",
       "vi": "grave",
-      "id": "grave"
+      "id": "grave",
+      "es": "grave",
+      "pt": "grave"
     }
   },
   {
@@ -103,7 +117,9 @@ const N1_KANJI = [
       "zh-CN": "暮",
       "ko": "dusk",
       "vi": "dusk",
-      "id": "dusk"
+      "id": "dusk",
+      "es": "dusk",
+      "pt": "dusk"
     }
   },
   {
@@ -116,7 +132,9 @@ const N1_KANJI = [
       "zh-CN": "昧",
       "ko": "dark",
       "vi": "dark",
-      "id": "dark"
+      "id": "dark",
+      "es": "oscuro",
+      "pt": "escuro"
     }
   },
   {
@@ -129,7 +147,9 @@ const N1_KANJI = [
       "zh-CN": "又",
       "ko": "again",
       "vi": "again",
-      "id": "again"
+      "id": "again",
+      "es": "again",
+      "pt": "again"
     }
   },
   {
@@ -142,7 +162,9 @@ const N1_KANJI = [
       "zh-CN": "慢",
       "ko": "lazy",
       "vi": "lazy",
-      "id": "lazy"
+      "id": "lazy",
+      "es": "lazy",
+      "pt": "lazy"
     }
   },
   {
@@ -155,7 +177,9 @@ const N1_KANJI = [
       "zh-CN": "蜜",
       "ko": "honey",
       "vi": "honey",
-      "id": "honey"
+      "id": "honey",
+      "es": "honey",
+      "pt": "honey"
     }
   },
   {
@@ -168,7 +192,9 @@ const N1_KANJI = [
       "zh-CN": "娘",
       "ko": "daughter",
       "vi": "daughter",
-      "id": "daughter"
+      "id": "daughter",
+      "es": "daughter",
+      "pt": "daughter"
     }
   },
   {
@@ -181,7 +207,9 @@ const N1_KANJI = [
       "zh-CN": "冥",
       "ko": "dark",
       "vi": "dark",
-      "id": "dark"
+      "id": "dark",
+      "es": "oscuro",
+      "pt": "escuro"
     }
   },
   {
@@ -194,7 +222,9 @@ const N1_KANJI = [
       "zh-CN": "麺",
       "ko": "noodle",
       "vi": "noodle",
-      "id": "noodle"
+      "id": "noodle",
+      "es": "noodle",
+      "pt": "noodle"
     }
   },
   {
@@ -207,7 +237,9 @@ const N1_KANJI = [
       "zh-CN": "耗",
       "ko": "decrease",
       "vi": "decrease",
-      "id": "decrease"
+      "id": "decrease",
+      "es": "disminuir",
+      "pt": "diminuir"
     }
   },
   {
@@ -220,7 +252,9 @@ const N1_KANJI = [
       "zh-CN": "弥",
       "ko": "more",
       "vi": "more",
-      "id": "more"
+      "id": "more",
+      "es": "más",
+      "pt": "mais"
     }
   },
   {
@@ -233,7 +267,9 @@ const N1_KANJI = [
       "zh-CN": "与",
       "ko": "give",
       "vi": "give",
-      "id": "give"
+      "id": "give",
+      "es": "dar",
+      "pt": "dar"
     }
   },
   {
@@ -246,7 +282,9 @@ const N1_KANJI = [
       "zh-CN": "誉",
       "ko": "honor",
       "vi": "honor",
-      "id": "honor"
+      "id": "honor",
+      "es": "honor",
+      "pt": "honor"
     }
   },
   {
@@ -259,7 +297,9 @@ const N1_KANJI = [
       "zh-CN": "蓝",
       "ko": "indigo",
       "vi": "indigo",
-      "id": "indigo"
+      "id": "indigo",
+      "es": "indigo",
+      "pt": "indigo"
     }
   },
   {
@@ -272,7 +312,9 @@ const N1_KANJI = [
       "zh-CN": "兰",
       "ko": "orchid",
       "vi": "orchid",
-      "id": "orchid"
+      "id": "orchid",
+      "es": "orchid",
+      "pt": "orchid"
     }
   },
   {
@@ -285,7 +327,9 @@ const N1_KANJI = [
       "zh-CN": "璃",
       "ko": "glass",
       "vi": "glass",
-      "id": "glass"
+      "id": "glass",
+      "es": "glass",
+      "pt": "glass"
     }
   },
   {
@@ -298,7 +342,9 @@ const N1_KANJI = [
       "zh-CN": "痢",
       "ko": "diarrhea",
       "vi": "diarrhea",
-      "id": "diarrhea"
+      "id": "diarrhea",
+      "es": "diarrhea",
+      "pt": "diarrhea"
     }
   },
   {
@@ -311,7 +357,9 @@ const N1_KANJI = [
       "zh-CN": "慄",
       "ko": "shudder",
       "vi": "shudder",
-      "id": "shudder"
+      "id": "shudder",
+      "es": "shudder",
+      "pt": "shudder"
     }
   },
   {
@@ -324,7 +372,9 @@ const N1_KANJI = [
       "zh-CN": "侶",
       "ko": "companion",
       "vi": "companion",
-      "id": "companion"
+      "id": "companion",
+      "es": "companion",
+      "pt": "companion"
     }
   },
   {
@@ -337,7 +387,9 @@ const N1_KANJI = [
       "zh-CN": "僚",
       "ko": "colleague",
       "vi": "colleague",
-      "id": "colleague"
+      "id": "colleague",
+      "es": "colleague",
+      "pt": "colleague"
     }
   },
   {
@@ -350,7 +402,9 @@ const N1_KANJI = [
       "zh-CN": "寮",
       "ko": "dormitory",
       "vi": "dormitory",
-      "id": "dormitory"
+      "id": "dormitory",
+      "es": "dormitory",
+      "pt": "dormitory"
     }
   },
   {
@@ -363,7 +417,9 @@ const N1_KANJI = [
       "zh-CN": "瞭",
       "ko": "clear",
       "vi": "clear",
-      "id": "clear"
+      "id": "clear",
+      "es": "clear",
+      "pt": "clear"
     }
   },
   {
@@ -376,7 +432,9 @@ const N1_KANJI = [
       "zh-CN": "厘",
       "ko": "rin",
       "vi": "rin",
-      "id": "rin"
+      "id": "rin",
+      "es": "rin",
+      "pt": "rin"
     }
   },
   {
@@ -389,7 +447,9 @@ const N1_KANJI = [
       "zh-CN": "淋",
       "ko": "lonely",
       "vi": "lonely",
-      "id": "lonely"
+      "id": "lonely",
+      "es": "solo",
+      "pt": "solitário"
     }
   },
   {
@@ -402,7 +462,9 @@ const N1_KANJI = [
       "zh-CN": "燐",
       "ko": "phosphorus",
       "vi": "phosphorus",
-      "id": "phosphorus"
+      "id": "phosphorus",
+      "es": "phosphorus",
+      "pt": "phosphorus"
     }
   },
   {
@@ -415,7 +477,9 @@ const N1_KANJI = [
       "zh-CN": "琳",
       "ko": "jewel",
       "vi": "jewel",
-      "id": "jewel"
+      "id": "jewel",
+      "es": "jewel",
+      "pt": "jewel"
     }
   },
   {
@@ -428,7 +492,9 @@ const N1_KANJI = [
       "zh-CN": "临",
       "ko": "attend",
       "vi": "attend",
-      "id": "attend"
+      "id": "attend",
+      "es": "attend",
+      "pt": "attend"
     }
   },
   {
@@ -441,7 +507,9 @@ const N1_KANJI = [
       "zh-CN": "麟",
       "ko": "giraffe",
       "vi": "giraffe",
-      "id": "giraffe"
+      "id": "giraffe",
+      "es": "giraffe",
+      "pt": "giraffe"
     }
   },
   {
@@ -454,7 +522,9 @@ const N1_KANJI = [
       "zh-CN": "隷",
       "ko": "slave",
       "vi": "slave",
-      "id": "slave"
+      "id": "slave",
+      "es": "slave",
+      "pt": "slave"
     }
   },
   {
@@ -467,7 +537,9 @@ const N1_KANJI = [
       "zh-CN": "弄",
       "ko": "play with",
       "vi": "play with",
-      "id": "play with"
+      "id": "play with",
+      "es": "play with",
+      "pt": "play with"
     }
   },
   {
@@ -480,7 +552,9 @@ const N1_KANJI = [
       "zh-CN": "朗",
       "ko": "bright",
       "vi": "bright",
-      "id": "bright"
+      "id": "bright",
+      "es": "brillante",
+      "pt": "brilhante"
     }
   },
   {
@@ -493,7 +567,9 @@ const N1_KANJI = [
       "zh-CN": "籠",
       "ko": "basket",
       "vi": "basket",
-      "id": "basket"
+      "id": "basket",
+      "es": "basket",
+      "pt": "basket"
     }
   },
   {
@@ -506,7 +582,9 @@ const N1_KANJI = [
       "zh-CN": "聾",
       "ko": "deaf",
       "vi": "deaf",
-      "id": "deaf"
+      "id": "deaf",
+      "es": "deaf",
+      "pt": "deaf"
     }
   },
   {
@@ -519,7 +597,9 @@ const N1_KANJI = [
       "zh-CN": "禄",
       "ko": "stipend",
       "vi": "stipend",
-      "id": "stipend"
+      "id": "stipend",
+      "es": "stipend",
+      "pt": "stipend"
     }
   },
   {
@@ -532,7 +612,9 @@ const N1_KANJI = [
       "zh-CN": "肋",
       "ko": "rib",
       "vi": "rib",
-      "id": "rib"
+      "id": "rib",
+      "es": "rib",
+      "pt": "rib"
     }
   },
   {
@@ -545,7 +627,9 @@ const N1_KANJI = [
       "zh-CN": "椀",
       "ko": "bowl",
       "vi": "bowl",
-      "id": "bowl"
+      "id": "bowl",
+      "es": "bowl",
+      "pt": "bowl"
     }
   },
   {
@@ -558,7 +642,9 @@ const N1_KANJI = [
       "zh-CN": "渥",
       "ko": "kindness",
       "vi": "kindness",
-      "id": "kindness"
+      "id": "kindness",
+      "es": "kindness",
+      "pt": "kindness"
     }
   },
   {
@@ -571,7 +657,9 @@ const N1_KANJI = [
       "zh-CN": "旭",
       "ko": "rising sun",
       "vi": "rising sun",
-      "id": "rising sun"
+      "id": "rising sun",
+      "es": "rising sun",
+      "pt": "rising sun"
     }
   },
   {
@@ -584,7 +672,9 @@ const N1_KANJI = [
       "zh-CN": "葦",
       "ko": "reed",
       "vi": "reed",
-      "id": "reed"
+      "id": "reed",
+      "es": "reed",
+      "pt": "reed"
     }
   },
   {
@@ -597,7 +687,9 @@ const N1_KANJI = [
       "zh-CN": "芦",
       "ko": "reed",
       "vi": "reed",
-      "id": "reed"
+      "id": "reed",
+      "es": "reed",
+      "pt": "reed"
     }
   },
   {
@@ -610,7 +702,9 @@ const N1_KANJI = [
       "zh-CN": "斡",
       "ko": "arrange",
       "vi": "arrange",
-      "id": "arrange"
+      "id": "arrange",
+      "es": "arrange",
+      "pt": "arrange"
     }
   },
   {
@@ -623,7 +717,9 @@ const N1_KANJI = [
       "zh-CN": "姐",
       "ko": "elder sister",
       "vi": "elder sister",
-      "id": "elder sister"
+      "id": "elder sister",
+      "es": "elder sister",
+      "pt": "elder sister"
     }
   },
   {
@@ -636,7 +732,9 @@ const N1_KANJI = [
       "zh-CN": "虻",
       "ko": "gadfly",
       "vi": "gadfly",
-      "id": "gadfly"
+      "id": "gadfly",
+      "es": "gadfly",
+      "pt": "gadfly"
     }
   },
   {
@@ -649,7 +747,9 @@ const N1_KANJI = [
       "zh-CN": "飴",
       "ko": "candy",
       "vi": "candy",
-      "id": "candy"
+      "id": "candy",
+      "es": "candy",
+      "pt": "candy"
     }
   },
   {
@@ -662,7 +762,9 @@ const N1_KANJI = [
       "zh-CN": "絢",
       "ko": "brilliant",
       "vi": "brilliant",
-      "id": "brilliant"
+      "id": "brilliant",
+      "es": "brilliant",
+      "pt": "brilliant"
     }
   },
   {
@@ -675,7 +777,9 @@ const N1_KANJI = [
       "zh-CN": "綾",
       "ko": "twill",
       "vi": "twill",
-      "id": "twill"
+      "id": "twill",
+      "es": "twill",
+      "pt": "twill"
     }
   },
   {
@@ -688,7 +792,9 @@ const N1_KANJI = [
       "zh-CN": "鮎",
       "ko": "sweetfish",
       "vi": "sweetfish",
-      "id": "sweetfish"
+      "id": "sweetfish",
+      "es": "sweetfish",
+      "pt": "sweetfish"
     }
   },
   {
@@ -701,7 +807,9 @@ const N1_KANJI = [
       "zh-CN": "粟",
       "ko": "millet",
       "vi": "millet",
-      "id": "millet"
+      "id": "millet",
+      "es": "millet",
+      "pt": "millet"
     }
   },
   {
@@ -714,7 +822,9 @@ const N1_KANJI = [
       "zh-CN": "袷",
       "ko": "lined kimono",
       "vi": "lined kimono",
-      "id": "lined kimono"
+      "id": "lined kimono",
+      "es": "lined kimono",
+      "pt": "lined kimono"
     }
   },
   {
@@ -727,7 +837,9 @@ const N1_KANJI = [
       "zh-CN": "庵",
       "ko": "hermitage",
       "vi": "hermitage",
-      "id": "hermitage"
+      "id": "hermitage",
+      "es": "hermitage",
+      "pt": "hermitage"
     }
   },
   {
@@ -740,7 +852,9 @@ const N1_KANJI = [
       "zh-CN": "按",
       "ko": "consider",
       "vi": "consider",
-      "id": "consider"
+      "id": "consider",
+      "es": "consider",
+      "pt": "consider"
     }
   },
   {
@@ -753,7 +867,9 @@ const N1_KANJI = [
       "zh-CN": "茨",
       "ko": "thorn",
       "vi": "thorn",
-      "id": "thorn"
+      "id": "thorn",
+      "es": "thorn",
+      "pt": "thorn"
     }
   },
   {
@@ -766,7 +882,9 @@ const N1_KANJI = [
       "zh-CN": "迂",
       "ko": "detour",
       "vi": "detour",
-      "id": "detour"
+      "id": "detour",
+      "es": "detour",
+      "pt": "detour"
     }
   },
   {
@@ -779,7 +897,9 @@ const N1_KANJI = [
       "zh-CN": "卯",
       "ko": "hare",
       "vi": "hare",
-      "id": "hare"
+      "id": "hare",
+      "es": "hare",
+      "pt": "hare"
     }
   },
   {
@@ -792,7 +912,9 @@ const N1_KANJI = [
       "zh-CN": "鵜",
       "ko": "cormorant",
       "vi": "cormorant",
-      "id": "cormorant"
+      "id": "cormorant",
+      "es": "cormorant",
+      "pt": "cormorant"
     }
   },
   {
@@ -805,7 +927,9 @@ const N1_KANJI = [
       "zh-CN": "窺",
       "ko": "peek",
       "vi": "peek",
-      "id": "peek"
+      "id": "peek",
+      "es": "peek",
+      "pt": "peek"
     }
   },
   {
@@ -818,7 +942,9 @@ const N1_KANJI = [
       "zh-CN": "丑",
       "ko": "ox",
       "vi": "ox",
-      "id": "ox"
+      "id": "ox",
+      "es": "ox",
+      "pt": "ox"
     }
   },
   {
@@ -831,7 +957,9 @@ const N1_KANJI = [
       "zh-CN": "嘘",
       "ko": "lie",
       "vi": "lie",
-      "id": "lie"
+      "id": "lie",
+      "es": "mentira",
+      "pt": "mentira"
     }
   },
   {
@@ -844,7 +972,9 @@ const N1_KANJI = [
       "zh-CN": "唄",
       "ko": "song",
       "vi": "song",
-      "id": "song"
+      "id": "song",
+      "es": "canción",
+      "pt": "canção"
     }
   },
   {
@@ -857,7 +987,9 @@ const N1_KANJI = [
       "zh-CN": "蔚",
       "ko": "luxuriant",
       "vi": "luxuriant",
-      "id": "luxuriant"
+      "id": "luxuriant",
+      "es": "luxuriant",
+      "pt": "luxuriant"
     }
   },
   {
@@ -870,7 +1002,9 @@ const N1_KANJI = [
       "zh-CN": "鰻",
       "ko": "eel",
       "vi": "eel",
-      "id": "eel"
+      "id": "eel",
+      "es": "eel",
+      "pt": "eel"
     }
   },
   {
@@ -883,7 +1017,9 @@ const N1_KANJI = [
       "zh-CN": "畝",
       "ko": "ridge",
       "vi": "ridge",
-      "id": "ridge"
+      "id": "ridge",
+      "es": "ridge",
+      "pt": "ridge"
     }
   },
   {
@@ -896,7 +1032,9 @@ const N1_KANJI = [
       "zh-CN": "姥",
       "ko": "old woman",
       "vi": "old woman",
-      "id": "old woman"
+      "id": "old woman",
+      "es": "old woman",
+      "pt": "old woman"
     }
   },
   {
@@ -909,7 +1047,9 @@ const N1_KANJI = [
       "zh-CN": "瓜",
       "ko": "melon",
       "vi": "melon",
-      "id": "melon"
+      "id": "melon",
+      "es": "melon",
+      "pt": "melon"
     }
   },
   {
@@ -922,7 +1062,9 @@ const N1_KANJI = [
       "zh-CN": "閏",
       "ko": "leap",
       "vi": "leap",
-      "id": "leap"
+      "id": "leap",
+      "es": "leap",
+      "pt": "leap"
     }
   },
   {
@@ -935,7 +1077,9 @@ const N1_KANJI = [
       "zh-CN": "噂",
       "ko": "rumor",
       "vi": "rumor",
-      "id": "rumor"
+      "id": "rumor",
+      "es": "rumor",
+      "pt": "rumor"
     }
   },
   {
@@ -948,7 +1092,9 @@ const N1_KANJI = [
       "zh-CN": "云",
       "ko": "say",
       "vi": "say",
-      "id": "say"
+      "id": "say",
+      "es": "decir",
+      "pt": "dizer"
     }
   },
   {
@@ -961,7 +1107,9 @@ const N1_KANJI = [
       "zh-CN": "餌",
       "ko": "bait",
       "vi": "bait",
-      "id": "bait"
+      "id": "bait",
+      "es": "bait",
+      "pt": "bait"
     }
   },
   {
@@ -974,7 +1122,9 @@ const N1_KANJI = [
       "zh-CN": "叡",
       "ko": "wise",
       "vi": "wise",
-      "id": "wise"
+      "id": "wise",
+      "es": "wise",
+      "pt": "wise"
     }
   },
   {
@@ -987,7 +1137,9 @@ const N1_KANJI = [
       "zh-CN": "曳",
       "ko": "pull",
       "vi": "pull",
-      "id": "pull"
+      "id": "pull",
+      "es": "tirar",
+      "pt": "puxar"
     }
   },
   {
@@ -1000,7 +1152,9 @@ const N1_KANJI = [
       "zh-CN": "洩",
       "ko": "leak",
       "vi": "leak",
-      "id": "leak"
+      "id": "leak",
+      "es": "leak",
+      "pt": "leak"
     }
   },
   {
@@ -1013,7 +1167,9 @@ const N1_KANJI = [
       "zh-CN": "瑛",
       "ko": "crystal",
       "vi": "crystal",
-      "id": "crystal"
+      "id": "crystal",
+      "es": "crystal",
+      "pt": "crystal"
     }
   },
   {
@@ -1026,7 +1182,9 @@ const N1_KANJI = [
       "zh-CN": "盈",
       "ko": "full",
       "vi": "full",
-      "id": "full"
+      "id": "full",
+      "es": "lleno",
+      "pt": "cheio"
     }
   },
   {
@@ -1039,7 +1197,9 @@ const N1_KANJI = [
       "zh-CN": "穎",
       "ko": "clever",
       "vi": "clever",
-      "id": "clever"
+      "id": "clever",
+      "es": "clever",
+      "pt": "clever"
     }
   },
   {
@@ -1052,7 +1212,9 @@ const N1_KANJI = [
       "zh-CN": "頴",
       "ko": "grain",
       "vi": "grain",
-      "id": "grain"
+      "id": "grain",
+      "es": "grain",
+      "pt": "grain"
     }
   },
   {
@@ -1065,7 +1227,9 @@ const N1_KANJI = [
       "zh-CN": "榎",
       "ko": "hackberry",
       "vi": "hackberry",
-      "id": "hackberry"
+      "id": "hackberry",
+      "es": "hackberry",
+      "pt": "hackberry"
     }
   },
   {
@@ -1078,7 +1242,9 @@ const N1_KANJI = [
       "zh-CN": "厭",
       "ko": "dislike",
       "vi": "dislike",
-      "id": "dislike"
+      "id": "dislike",
+      "es": "dislike",
+      "pt": "dislike"
     }
   },
   {
@@ -1091,7 +1257,9 @@ const N1_KANJI = [
       "zh-CN": "堰",
       "ko": "dam",
       "vi": "dam",
-      "id": "dam"
+      "id": "dam",
+      "es": "dam",
+      "pt": "dam"
     }
   },
   {
@@ -1104,7 +1272,9 @@ const N1_KANJI = [
       "zh-CN": "奄",
       "ko": "cover",
       "vi": "cover",
-      "id": "cover"
+      "id": "cover",
+      "es": "cover",
+      "pt": "cover"
     }
   },
   {
@@ -1117,7 +1287,9 @@ const N1_KANJI = [
       "zh-CN": "延",
       "ko": "extend",
       "vi": "extend",
-      "id": "extend"
+      "id": "extend",
+      "es": "extend",
+      "pt": "extend"
     }
   },
   {
@@ -1130,7 +1302,9 @@ const N1_KANJI = [
       "zh-CN": "怨",
       "ko": "grudge",
       "vi": "grudge",
-      "id": "grudge"
+      "id": "grudge",
+      "es": "grudge",
+      "pt": "grudge"
     }
   },
   {
@@ -1143,7 +1317,9 @@ const N1_KANJI = [
       "zh-CN": "掩",
       "ko": "cover",
       "vi": "cover",
-      "id": "cover"
+      "id": "cover",
+      "es": "cover",
+      "pt": "cover"
     }
   },
   {
@@ -1156,7 +1332,9 @@ const N1_KANJI = [
       "zh-CN": "沿",
       "ko": "along",
       "vi": "along",
-      "id": "along"
+      "id": "along",
+      "es": "along",
+      "pt": "along"
     }
   },
   {
@@ -1169,7 +1347,9 @@ const N1_KANJI = [
       "zh-CN": "焔",
       "ko": "flame",
       "vi": "flame",
-      "id": "flame"
+      "id": "flame",
+      "es": "flame",
+      "pt": "flame"
     }
   },
   {
@@ -1182,7 +1362,9 @@ const N1_KANJI = [
       "zh-CN": "燕",
       "ko": "swallow",
       "vi": "swallow",
-      "id": "swallow"
+      "id": "swallow",
+      "es": "swallow",
+      "pt": "swallow"
     }
   },
   {
@@ -1195,7 +1377,9 @@ const N1_KANJI = [
       "zh-CN": "苑",
       "ko": "garden",
       "vi": "garden",
-      "id": "garden"
+      "id": "garden",
+      "es": "jardín",
+      "pt": "jardim"
     }
   },
   {
@@ -1208,7 +1392,9 @@ const N1_KANJI = [
       "zh-CN": "薗",
       "ko": "garden",
       "vi": "garden",
-      "id": "garden"
+      "id": "garden",
+      "es": "jardín",
+      "pt": "jardim"
     }
   },
   {
@@ -1221,7 +1407,9 @@ const N1_KANJI = [
       "zh-CN": "鴛",
       "ko": "mandarin duck",
       "vi": "mandarin duck",
-      "id": "mandarin duck"
+      "id": "mandarin duck",
+      "es": "mandarin duck",
+      "pt": "mandarin duck"
     }
   },
   {
@@ -1234,7 +1422,9 @@ const N1_KANJI = [
       "zh-CN": "塩",
       "ko": "salt",
       "vi": "salt",
-      "id": "salt"
+      "id": "salt",
+      "es": "salt",
+      "pt": "salt"
     }
   },
   {
@@ -1247,7 +1437,9 @@ const N1_KANJI = [
       "zh-CN": "於",
       "ko": "at",
       "vi": "at",
-      "id": "at"
+      "id": "at",
+      "es": "at",
+      "pt": "at"
     }
   },
   {
@@ -1260,7 +1452,9 @@ const N1_KANJI = [
       "zh-CN": "甥",
       "ko": "nephew",
       "vi": "nephew",
-      "id": "nephew"
+      "id": "nephew",
+      "es": "nephew",
+      "pt": "nephew"
     }
   },
   {
@@ -1273,7 +1467,9 @@ const N1_KANJI = [
       "zh-CN": "横",
       "ko": "horizontal",
       "vi": "horizontal",
-      "id": "horizontal"
+      "id": "horizontal",
+      "es": "horizontal",
+      "pt": "horizontal"
     }
   },
   {
@@ -1286,7 +1482,9 @@ const N1_KANJI = [
       "zh-CN": "襖",
       "ko": "sliding door",
       "vi": "sliding door",
-      "id": "sliding door"
+      "id": "sliding door",
+      "es": "sliding door",
+      "pt": "sliding door"
     }
   },
   {
@@ -1299,7 +1497,9 @@ const N1_KANJI = [
       "zh-CN": "鴬",
       "ko": "nightingale",
       "vi": "nightingale",
-      "id": "nightingale"
+      "id": "nightingale",
+      "es": "nightingale",
+      "pt": "nightingale"
     }
   },
   {
@@ -1312,7 +1512,9 @@ const N1_KANJI = [
       "zh-CN": "鷗",
       "ko": "gull",
       "vi": "gull",
-      "id": "gull"
+      "id": "gull",
+      "es": "gull",
+      "pt": "gull"
     }
   },
   {
@@ -1325,7 +1527,9 @@ const N1_KANJI = [
       "zh-CN": "黄",
       "ko": "yellow",
       "vi": "yellow",
-      "id": "yellow"
+      "id": "yellow",
+      "es": "amarillo",
+      "pt": "amarelo"
     }
   },
   {
@@ -1338,7 +1542,9 @@ const N1_KANJI = [
       "zh-CN": "岡",
       "ko": "hill",
       "vi": "hill",
-      "id": "hill"
+      "id": "hill",
+      "es": "hill",
+      "pt": "hill"
     }
   },
   {
@@ -1351,7 +1557,9 @@ const N1_KANJI = [
       "zh-CN": "荻",
       "ko": "reed",
       "vi": "reed",
-      "id": "reed"
+      "id": "reed",
+      "es": "reed",
+      "pt": "reed"
     }
   },
   {
@@ -1364,7 +1572,9 @@ const N1_KANJI = [
       "zh-CN": "桶",
       "ko": "bucket",
       "vi": "bucket",
-      "id": "bucket"
+      "id": "bucket",
+      "es": "bucket",
+      "pt": "bucket"
     }
   },
   {
@@ -1377,7 +1587,9 @@ const N1_KANJI = [
       "zh-CN": "牡",
       "ko": "male",
       "vi": "male",
-      "id": "male"
+      "id": "male",
+      "es": "male",
+      "pt": "male"
     }
   },
   {
@@ -1390,7 +1602,9 @@ const N1_KANJI = [
       "zh-CN": "俺",
       "ko": "I",
       "vi": "I",
-      "id": "I"
+      "id": "I",
+      "es": "I",
+      "pt": "I"
     }
   },
   {
@@ -1403,7 +1617,9 @@ const N1_KANJI = [
       "zh-CN": "伽",
       "ko": "nursing",
       "vi": "nursing",
-      "id": "nursing"
+      "id": "nursing",
+      "es": "nursing",
+      "pt": "nursing"
     }
   },
   {
@@ -1416,7 +1632,9 @@ const N1_KANJI = [
       "zh-CN": "加",
       "ko": "add",
       "vi": "add",
-      "id": "add"
+      "id": "add",
+      "es": "añadir",
+      "pt": "adicionar"
     }
   },
   {
@@ -1429,7 +1647,9 @@ const N1_KANJI = [
       "zh-CN": "嘉",
       "ko": "praise",
       "vi": "praise",
-      "id": "praise"
+      "id": "praise",
+      "es": "praise",
+      "pt": "praise"
     }
   },
   {
@@ -1442,7 +1662,9 @@ const N1_KANJI = [
       "zh-CN": "家",
       "ko": "house",
       "vi": "house",
-      "id": "house"
+      "id": "house",
+      "es": "casa",
+      "pt": "casa"
     }
   },
   {
@@ -1455,7 +1677,9 @@ const N1_KANJI = [
       "zh-CN": "果",
       "ko": "fruit",
       "vi": "fruit",
-      "id": "fruit"
+      "id": "fruit",
+      "es": "fruta",
+      "pt": "fruta"
     }
   },
   {
@@ -1468,7 +1692,9 @@ const N1_KANJI = [
       "zh-CN": "珂",
       "ko": "jewel",
       "vi": "jewel",
-      "id": "jewel"
+      "id": "jewel",
+      "es": "jewel",
+      "pt": "jewel"
     }
   },
   {
@@ -1481,7 +1707,9 @@ const N1_KANJI = [
       "zh-CN": "禾",
       "ko": "grain",
       "vi": "grain",
-      "id": "grain"
+      "id": "grain",
+      "es": "grain",
+      "pt": "grain"
     }
   },
   {
@@ -1494,7 +1722,9 @@ const N1_KANJI = [
       "zh-CN": "苛",
       "ko": "torment",
       "vi": "torment",
-      "id": "torment"
+      "id": "torment",
+      "es": "torment",
+      "pt": "torment"
     }
   },
   {
@@ -1507,7 +1737,9 @@ const N1_KANJI = [
       "zh-CN": "茄",
       "ko": "eggplant",
       "vi": "eggplant",
-      "id": "eggplant"
+      "id": "eggplant",
+      "es": "eggplant",
+      "pt": "eggplant"
     }
   },
   {
@@ -1520,7 +1752,9 @@ const N1_KANJI = [
       "zh-CN": "荷",
       "ko": "luggage",
       "vi": "luggage",
-      "id": "luggage"
+      "id": "luggage",
+      "es": "luggage",
+      "pt": "luggage"
     }
   },
   {
@@ -1533,7 +1767,9 @@ const N1_KANJI = [
       "zh-CN": "蝦",
       "ko": "shrimp",
       "vi": "shrimp",
-      "id": "shrimp"
+      "id": "shrimp",
+      "es": "shrimp",
+      "pt": "shrimp"
     }
   },
   {
@@ -1546,7 +1782,9 @@ const N1_KANJI = [
       "zh-CN": "课",
       "ko": "lesson",
       "vi": "lesson",
-      "id": "lesson"
+      "id": "lesson",
+      "es": "lesson",
+      "pt": "lesson"
     }
   },
   {
@@ -1559,7 +1797,9 @@ const N1_KANJI = [
       "zh-CN": "嘩",
       "ko": "noisy",
       "vi": "noisy",
-      "id": "noisy"
+      "id": "noisy",
+      "es": "noisy",
+      "pt": "noisy"
     }
   },
   {
@@ -1572,7 +1812,9 @@ const N1_KANJI = [
       "zh-CN": "貨",
       "ko": "freight",
       "vi": "freight",
-      "id": "freight"
+      "id": "freight",
+      "es": "freight",
+      "pt": "freight"
     }
   },
   {
@@ -1585,7 +1827,9 @@ const N1_KANJI = [
       "zh-CN": "迦",
       "ko": "Buddha",
       "vi": "Buddha",
-      "id": "Buddha"
+      "id": "Buddha",
+      "es": "Buddha",
+      "pt": "Buddha"
     }
   },
   {
@@ -1598,7 +1842,9 @@ const N1_KANJI = [
       "zh-CN": "霞",
       "ko": "haze",
       "vi": "haze",
-      "id": "haze"
+      "id": "haze",
+      "es": "haze",
+      "pt": "haze"
     }
   },
   {
@@ -1611,7 +1857,9 @@ const N1_KANJI = [
       "zh-CN": "俄",
       "ko": "sudden",
       "vi": "sudden",
-      "id": "sudden"
+      "id": "sudden",
+      "es": "sudden",
+      "pt": "sudden"
     }
   },
   {
@@ -1624,7 +1872,9 @@ const N1_KANJI = [
       "zh-CN": "峨",
       "ko": "high",
       "vi": "high",
-      "id": "high"
+      "id": "high",
+      "es": "alto",
+      "pt": "alto"
     }
   },
   {
@@ -1637,7 +1887,9 @@ const N1_KANJI = [
       "zh-CN": "我",
       "ko": "I",
       "vi": "I",
-      "id": "I"
+      "id": "I",
+      "es": "I",
+      "pt": "I"
     }
   },
   {
@@ -1650,7 +1902,9 @@ const N1_KANJI = [
       "zh-CN": "臥",
       "ko": "lie down",
       "vi": "lie down",
-      "id": "lie down"
+      "id": "lie down",
+      "es": "lie down",
+      "pt": "lie down"
     }
   },
   {
@@ -1663,7 +1917,9 @@ const N1_KANJI = [
       "zh-CN": "芽",
       "ko": "bud",
       "vi": "bud",
-      "id": "bud"
+      "id": "bud",
+      "es": "bud",
+      "pt": "bud"
     }
   },
   {
@@ -1676,7 +1932,9 @@ const N1_KANJI = [
       "zh-CN": "蛾",
       "ko": "moth",
       "vi": "moth",
-      "id": "moth"
+      "id": "moth",
+      "es": "moth",
+      "pt": "moth"
     }
   },
   {
@@ -1689,7 +1947,9 @@ const N1_KANJI = [
       "zh-CN": "駕",
       "ko": "vehicle",
       "vi": "vehicle",
-      "id": "vehicle"
+      "id": "vehicle",
+      "es": "vehicle",
+      "pt": "vehicle"
     }
   },
   {
@@ -1702,7 +1962,9 @@ const N1_KANJI = [
       "zh-CN": "回",
       "ko": "turn",
       "vi": "turn",
-      "id": "turn"
+      "id": "turn",
+      "es": "girar",
+      "pt": "virar"
     }
   },
   {
@@ -1715,7 +1977,9 @@ const N1_KANJI = [
       "zh-CN": "廻",
       "ko": "go around",
       "vi": "go around",
-      "id": "go around"
+      "id": "go around",
+      "es": "go around",
+      "pt": "go around"
     }
   },
   {
@@ -1728,7 +1992,9 @@ const N1_KANJI = [
       "zh-CN": "改",
       "ko": "change",
       "vi": "change",
-      "id": "change"
+      "id": "change",
+      "es": "cambiar",
+      "pt": "mudar"
     }
   },
   {
@@ -1741,7 +2007,9 @@ const N1_KANJI = [
       "zh-CN": "灰",
       "ko": "ash",
       "vi": "ash",
-      "id": "ash"
+      "id": "ash",
+      "es": "ash",
+      "pt": "ash"
     }
   },
   {
@@ -1754,7 +2022,9 @@ const N1_KANJI = [
       "zh-CN": "芥",
       "ko": "rubbish",
       "vi": "rubbish",
-      "id": "rubbish"
+      "id": "rubbish",
+      "es": "rubbish",
+      "pt": "rubbish"
     }
   },
   {
@@ -1767,7 +2037,9 @@ const N1_KANJI = [
       "zh-CN": "蟹",
       "ko": "crab",
       "vi": "crab",
-      "id": "crab"
+      "id": "crab",
+      "es": "crab",
+      "pt": "crab"
     }
   },
   {
@@ -1780,7 +2052,9 @@ const N1_KANJI = [
       "zh-CN": "凱",
       "ko": "victory",
       "vi": "victory",
-      "id": "victory"
+      "id": "victory",
+      "es": "victory",
+      "pt": "victory"
     }
   },
   {
@@ -1793,7 +2067,9 @@ const N1_KANJI = [
       "zh-CN": "咳",
       "ko": "cough",
       "vi": "cough",
-      "id": "cough"
+      "id": "cough",
+      "es": "cough",
+      "pt": "cough"
     }
   },
   {
@@ -1806,7 +2082,9 @@ const N1_KANJI = [
       "zh-CN": "崖",
       "ko": "cliff",
       "vi": "cliff",
-      "id": "cliff"
+      "id": "cliff",
+      "es": "cliff",
+      "pt": "cliff"
     }
   },
   {
@@ -1819,7 +2097,9 @@ const N1_KANJI = [
       "zh-CN": "碍",
       "ko": "hinder",
       "vi": "hinder",
-      "id": "hinder"
+      "id": "hinder",
+      "es": "hinder",
+      "pt": "hinder"
     }
   },
   {
@@ -1832,7 +2112,9 @@ const N1_KANJI = [
       "zh-CN": "鎧",
       "ko": "armor",
       "vi": "armor",
-      "id": "armor"
+      "id": "armor",
+      "es": "armor",
+      "pt": "armor"
     }
   },
   {
@@ -1845,7 +2127,9 @@ const N1_KANJI = [
       "zh-CN": "蛎",
       "ko": "oyster",
       "vi": "oyster",
-      "id": "oyster"
+      "id": "oyster",
+      "es": "oyster",
+      "pt": "oyster"
     }
   },
   {
@@ -1858,7 +2142,9 @@ const N1_KANJI = [
       "zh-CN": "鈎",
       "ko": "hook",
       "vi": "hook",
-      "id": "hook"
+      "id": "hook",
+      "es": "hook",
+      "pt": "hook"
     }
   },
   {
@@ -1871,7 +2157,9 @@ const N1_KANJI = [
       "zh-CN": "劃",
       "ko": "divide",
       "vi": "divide",
-      "id": "divide"
+      "id": "divide",
+      "es": "dividir",
+      "pt": "dividir"
     }
   },
   {
@@ -1884,7 +2172,9 @@ const N1_KANJI = [
       "zh-CN": "廓",
       "ko": "enclosure",
       "vi": "enclosure",
-      "id": "enclosure"
+      "id": "enclosure",
+      "es": "enclosure",
+      "pt": "enclosure"
     }
   },
   {
@@ -1897,7 +2187,9 @@ const N1_KANJI = [
       "zh-CN": "扩",
       "ko": "expand",
       "vi": "expand",
-      "id": "expand"
+      "id": "expand",
+      "es": "expand",
+      "pt": "expand"
     }
   },
   {
@@ -1910,7 +2202,9 @@ const N1_KANJI = [
       "zh-CN": "撹",
       "ko": "stir",
       "vi": "stir",
-      "id": "stir"
+      "id": "stir",
+      "es": "stir",
+      "pt": "stir"
     }
   },
   {
@@ -1923,7 +2217,9 @@ const N1_KANJI = [
       "zh-CN": "赫",
       "ko": "bright",
       "vi": "bright",
-      "id": "bright"
+      "id": "bright",
+      "es": "brillante",
+      "pt": "brilhante"
     }
   },
   {
@@ -1936,7 +2232,9 @@ const N1_KANJI = [
       "zh-CN": "革",
       "ko": "leather",
       "vi": "leather",
-      "id": "leather"
+      "id": "leather",
+      "es": "leather",
+      "pt": "leather"
     }
   },
   {
@@ -1949,7 +2247,9 @@ const N1_KANJI = [
       "zh-CN": "笠",
       "ko": "umbrella",
       "vi": "umbrella",
-      "id": "umbrella"
+      "id": "umbrella",
+      "es": "umbrella",
+      "pt": "umbrella"
     }
   },
   {
@@ -1962,7 +2262,9 @@ const N1_KANJI = [
       "zh-CN": "樫",
       "ko": "oak",
       "vi": "oak",
-      "id": "oak"
+      "id": "oak",
+      "es": "oak",
+      "pt": "oak"
     }
   },
   {
@@ -1975,7 +2277,9 @@ const N1_KANJI = [
       "zh-CN": "橿",
       "ko": "oak",
       "vi": "oak",
-      "id": "oak"
+      "id": "oak",
+      "es": "oak",
+      "pt": "oak"
     }
   },
   {
@@ -1988,7 +2292,9 @@ const N1_KANJI = [
       "zh-CN": "梶",
       "ko": "rudder",
       "vi": "rudder",
-      "id": "rudder"
+      "id": "rudder",
+      "es": "rudder",
+      "pt": "rudder"
     }
   },
   {
@@ -2001,7 +2307,9 @@ const N1_KANJI = [
       "zh-CN": "鰹",
       "ko": "bonito",
       "vi": "bonito",
-      "id": "bonito"
+      "id": "bonito",
+      "es": "bonito",
+      "pt": "bonito"
     }
   },
   {
@@ -2014,7 +2322,9 @@ const N1_KANJI = [
       "zh-CN": "恰",
       "ko": "just as",
       "vi": "just as",
-      "id": "just as"
+      "id": "just as",
+      "es": "just as",
+      "pt": "just as"
     }
   },
   {
@@ -2027,7 +2337,9 @@ const N1_KANJI = [
       "zh-CN": "葛",
       "ko": "kudzu",
       "vi": "kudzu",
-      "id": "kudzu"
+      "id": "kudzu",
+      "es": "kudzu",
+      "pt": "kudzu"
     }
   },
   {
@@ -2040,7 +2352,9 @@ const N1_KANJI = [
       "zh-CN": "叶",
       "ko": "grant",
       "vi": "grant",
-      "id": "grant"
+      "id": "grant",
+      "es": "grant",
+      "pt": "grant"
     }
   },
   {
@@ -2053,7 +2367,9 @@ const N1_KANJI = [
       "zh-CN": "噛",
       "ko": "bite",
       "vi": "bite",
-      "id": "bite"
+      "id": "bite",
+      "es": "bite",
+      "pt": "bite"
     }
   },
   {
@@ -2066,7 +2382,9 @@ const N1_KANJI = [
       "zh-CN": "鴨",
       "ko": "duck",
       "vi": "duck",
-      "id": "duck"
+      "id": "duck",
+      "es": "duck",
+      "pt": "duck"
     }
   },
   {
@@ -2079,7 +2397,9 @@ const N1_KANJI = [
       "zh-CN": "茅",
       "ko": "thatch",
       "vi": "thatch",
-      "id": "thatch"
+      "id": "thatch",
+      "es": "thatch",
+      "pt": "thatch"
     }
   },
   {
@@ -2092,7 +2412,9 @@ const N1_KANJI = [
       "zh-CN": "萱",
       "ko": "miscanthus",
       "vi": "miscanthus",
-      "id": "miscanthus"
+      "id": "miscanthus",
+      "es": "miscanthus",
+      "pt": "miscanthus"
     }
   },
   {
@@ -2105,7 +2427,9 @@ const N1_KANJI = [
       "zh-CN": "粥",
       "ko": "porridge",
       "vi": "porridge",
-      "id": "porridge"
+      "id": "porridge",
+      "es": "porridge",
+      "pt": "porridge"
     }
   },
   {
@@ -2118,7 +2442,9 @@ const N1_KANJI = [
       "zh-CN": "苅",
       "ko": "cut",
       "vi": "cut",
-      "id": "cut"
+      "id": "cut",
+      "es": "cortar",
+      "pt": "cortar"
     }
   },
   {
@@ -2131,7 +2457,9 @@ const N1_KANJI = [
       "zh-CN": "侃",
       "ko": "bold",
       "vi": "bold",
-      "id": "bold"
+      "id": "bold",
+      "es": "bold",
+      "pt": "bold"
     }
   },
   {
@@ -2144,7 +2472,9 @@ const N1_KANJI = [
       "zh-CN": "干",
       "ko": "dry",
       "vi": "dry",
-      "id": "dry"
+      "id": "dry",
+      "es": "seco",
+      "pt": "seco"
     }
   },
   {
@@ -2157,7 +2487,9 @@ const N1_KANJI = [
       "zh-CN": "感",
       "ko": "feel",
       "vi": "feel",
-      "id": "feel"
+      "id": "feel",
+      "es": "sentir",
+      "pt": "sentir"
     }
   },
   {
@@ -2170,7 +2502,9 @@ const N1_KANJI = [
       "zh-CN": "柑",
       "ko": "citrus",
       "vi": "citrus",
-      "id": "citrus"
+      "id": "citrus",
+      "es": "citrus",
+      "pt": "citrus"
     }
   },
   {
@@ -2183,7 +2517,9 @@ const N1_KANJI = [
       "zh-CN": "桓",
       "ko": "post",
       "vi": "post",
-      "id": "post"
+      "id": "post",
+      "es": "post",
+      "pt": "post"
     }
   },
   {
@@ -2196,7 +2532,9 @@ const N1_KANJI = [
       "zh-CN": "看",
       "ko": "see",
       "vi": "see",
-      "id": "see"
+      "id": "see",
+      "es": "ver",
+      "pt": "ver"
     }
   },
   {
@@ -2209,7 +2547,9 @@ const N1_KANJI = [
       "zh-CN": "竿",
       "ko": "pole",
       "vi": "pole",
-      "id": "pole"
+      "id": "pole",
+      "es": "pole",
+      "pt": "pole"
     }
   },
   {
@@ -2222,7 +2562,9 @@ const N1_KANJI = [
       "zh-CN": "管",
       "ko": "pipe",
       "vi": "pipe",
-      "id": "pipe"
+      "id": "pipe",
+      "es": "pipe",
+      "pt": "pipe"
     }
   },
   {
@@ -2235,7 +2577,9 @@ const N1_KANJI = [
       "zh-CN": "遺",
       "ko": "bequeath",
       "vi": "bequeath",
-      "id": "bequeath"
+      "id": "bequeath",
+      "es": "bequeath",
+      "pt": "bequeath"
     }
   },
   {
@@ -2248,7 +2592,9 @@ const N1_KANJI = [
       "zh-CN": "亀",
       "ko": "tortoise",
       "vi": "tortoise",
-      "id": "tortoise"
+      "id": "tortoise",
+      "es": "tortoise",
+      "pt": "tortoise"
     }
   },
   {
@@ -2261,7 +2607,9 @@ const N1_KANJI = [
       "zh-CN": "舷",
       "ko": "gunwale",
       "vi": "gunwale",
-      "id": "gunwale"
+      "id": "gunwale",
+      "es": "gunwale",
+      "pt": "gunwale"
     }
   },
   {
@@ -2274,7 +2622,9 @@ const N1_KANJI = [
       "zh-CN": "梗",
       "ko": "block",
       "vi": "block",
-      "id": "block"
+      "id": "block",
+      "es": "block",
+      "pt": "block"
     }
   },
   {
@@ -2287,7 +2637,9 @@ const N1_KANJI = [
       "zh-CN": "浩",
       "ko": "vast",
       "vi": "vast",
-      "id": "vast"
+      "id": "vast",
+      "es": "vast",
+      "pt": "vast"
     }
   },
   {
@@ -2300,7 +2652,9 @@ const N1_KANJI = [
       "zh-CN": "昏",
       "ko": "dark",
       "vi": "dark",
-      "id": "dark"
+      "id": "dark",
+      "es": "oscuro",
+      "pt": "escuro"
     }
   },
   {
@@ -2313,7 +2667,9 @@ const N1_KANJI = [
       "zh-CN": "匁",
       "ko": "monme",
       "vi": "monme",
-      "id": "monme"
+      "id": "monme",
+      "es": "monme",
+      "pt": "monme"
     }
   },
   {
@@ -2326,7 +2682,9 @@ const N1_KANJI = [
       "zh-CN": "旅",
       "ko": "trip",
       "vi": "trip",
-      "id": "trip"
+      "id": "trip",
+      "es": "viaje",
+      "pt": "viagem"
     }
   },
   {
@@ -2339,7 +2697,9 @@ const N1_KANJI = [
       "zh-CN": "瑠",
       "ko": "lapis lazuli",
       "vi": "lapis lazuli",
-      "id": "lapis lazuli"
+      "id": "lapis lazuli",
+      "es": "lapis lazuli",
+      "pt": "lapis lazuli"
     }
   },
   {
@@ -2352,7 +2712,9 @@ const N1_KANJI = [
       "zh-CN": "老",
       "ko": "old man",
       "vi": "old man",
-      "id": "old man"
+      "id": "old man",
+      "es": "old man",
+      "pt": "old man"
     }
   },
   {
@@ -2365,7 +2727,9 @@ const N1_KANJI = [
       "zh-CN": "愛",
       "ko": "love",
       "vi": "love",
-      "id": "love"
+      "id": "love",
+      "es": "amar",
+      "pt": "amar"
     }
   },
   {
@@ -2378,7 +2742,9 @@ const N1_KANJI = [
       "zh-CN": "衣",
       "ko": "garment",
       "vi": "garment",
-      "id": "garment"
+      "id": "garment",
+      "es": "garment",
+      "pt": "garment"
     }
   },
   {
@@ -2391,7 +2757,9 @@ const N1_KANJI = [
       "zh-CN": "位",
       "ko": "rank",
       "vi": "rank",
-      "id": "rank"
+      "id": "rank",
+      "es": "rank",
+      "pt": "rank"
     }
   },
   {
@@ -2404,7 +2772,9 @@ const N1_KANJI = [
       "zh-CN": "委",
       "ko": "committee",
       "vi": "committee",
-      "id": "committee"
+      "id": "committee",
+      "es": "committee",
+      "pt": "committee"
     }
   },
   {
@@ -2417,7 +2787,9 @@ const N1_KANJI = [
       "zh-CN": "胃",
       "ko": "stomach",
       "vi": "stomach",
-      "id": "stomach"
+      "id": "stomach",
+      "es": "stomach",
+      "pt": "stomach"
     }
   },
   {
@@ -2430,7 +2802,9 @@ const N1_KANJI = [
       "zh-CN": "印",
       "ko": "stamp",
       "vi": "stamp",
-      "id": "stamp"
+      "id": "stamp",
+      "es": "stamp",
+      "pt": "stamp"
     }
   },
   {
@@ -2443,7 +2817,9 @@ const N1_KANJI = [
       "zh-CN": "宇",
       "ko": "eaves",
       "vi": "eaves",
-      "id": "eaves"
+      "id": "eaves",
+      "es": "eaves",
+      "pt": "eaves"
     }
   },
   {
@@ -2456,7 +2832,9 @@ const N1_KANJI = [
       "zh-CN": "羽",
       "ko": "feathers",
       "vi": "feathers",
-      "id": "feathers"
+      "id": "feathers",
+      "es": "feathers",
+      "pt": "feathers"
     }
   },
   {
@@ -2469,7 +2847,9 @@ const N1_KANJI = [
       "zh-CN": "栄",
       "ko": "flourish",
       "vi": "flourish",
-      "id": "flourish"
+      "id": "flourish",
+      "es": "flourish",
+      "pt": "flourish"
     }
   },
   {
@@ -2482,7 +2862,9 @@ const N1_KANJI = [
       "zh-CN": "媛",
       "ko": "princess",
       "vi": "princess",
-      "id": "princess"
+      "id": "princess",
+      "es": "princess",
+      "pt": "princess"
     }
   },
   {
@@ -2495,7 +2877,9 @@ const N1_KANJI = [
       "zh-CN": "械",
       "ko": "contraption",
       "vi": "contraption",
-      "id": "contraption"
+      "id": "contraption",
+      "es": "contraption",
+      "pt": "contraption"
     }
   },
   {
@@ -2508,7 +2892,9 @@ const N1_KANJI = [
       "zh-CN": "楷",
       "ko": "square character",
       "vi": "square character",
-      "id": "square character"
+      "id": "square character",
+      "es": "square character",
+      "pt": "square character"
     }
   },
   {
@@ -2521,7 +2907,9 @@ const N1_KANJI = [
       "zh-CN": "潰",
       "ko": "crush",
       "vi": "crush",
-      "id": "crush"
+      "id": "crush",
+      "es": "crush",
+      "pt": "crush"
     }
   },
   {
@@ -2534,7 +2922,9 @@ const N1_KANJI = [
       "zh-CN": "巻",
       "ko": "scroll",
       "vi": "scroll",
-      "id": "scroll"
+      "id": "scroll",
+      "es": "scroll",
+      "pt": "scroll"
     }
   },
   {
@@ -2547,7 +2937,9 @@ const N1_KANJI = [
       "zh-CN": "玩",
       "ko": "play",
       "vi": "play",
-      "id": "play"
+      "id": "play",
+      "es": "jugar",
+      "pt": "jogar"
     }
   },
   {
@@ -2560,7 +2952,9 @@ const N1_KANJI = [
       "zh-CN": "希",
       "ko": "hope",
       "vi": "hope",
-      "id": "hope"
+      "id": "hope",
+      "es": "esperar",
+      "pt": "esperar"
     }
   },
   {
@@ -2573,7 +2967,9 @@ const N1_KANJI = [
       "zh-CN": "汽",
       "ko": "vapor",
       "vi": "vapor",
-      "id": "vapor"
+      "id": "vapor",
+      "es": "vapor",
+      "pt": "vapor"
     }
   },
   {
@@ -2586,7 +2982,9 @@ const N1_KANJI = [
       "zh-CN": "紀",
       "ko": "chronicle",
       "vi": "chronicle",
-      "id": "chronicle"
+      "id": "chronicle",
+      "es": "chronicle",
+      "pt": "chronicle"
     }
   },
   {
@@ -2599,7 +2997,9 @@ const N1_KANJI = [
       "zh-CN": "記",
       "ko": "scribe",
       "vi": "scribe",
-      "id": "scribe"
+      "id": "scribe",
+      "es": "scribe",
+      "pt": "scribe"
     }
   },
   {
@@ -2612,7 +3012,9 @@ const N1_KANJI = [
       "zh-CN": "期",
       "ko": "period",
       "vi": "period",
-      "id": "period"
+      "id": "period",
+      "es": "period",
+      "pt": "period"
     }
   },
   {
@@ -2625,7 +3027,9 @@ const N1_KANJI = [
       "zh-CN": "毀",
       "ko": "break",
       "vi": "break",
-      "id": "break"
+      "id": "break",
+      "es": "romper",
+      "pt": "quebrar"
     }
   },
   {
@@ -2638,7 +3042,9 @@ const N1_KANJI = [
       "zh-CN": "旗",
       "ko": "national flag",
       "vi": "national flag",
-      "id": "national flag"
+      "id": "national flag",
+      "es": "national flag",
+      "pt": "national flag"
     }
   },
   {
@@ -2651,7 +3057,9 @@ const N1_KANJI = [
       "zh-CN": "仇",
       "ko": "foe",
       "vi": "foe",
-      "id": "foe"
+      "id": "foe",
+      "es": "foe",
+      "pt": "foe"
     }
   },
   {
@@ -2664,7 +3072,9 @@ const N1_KANJI = [
       "zh-CN": "求",
       "ko": "request",
       "vi": "request",
-      "id": "request"
+      "id": "request",
+      "es": "request",
+      "pt": "request"
     }
   },
   {
@@ -2677,7 +3087,9 @@ const N1_KANJI = [
       "zh-CN": "汲",
       "ko": "draw water",
       "vi": "draw water",
-      "id": "draw water"
+      "id": "draw water",
+      "es": "draw water",
+      "pt": "draw water"
     }
   },
   {
@@ -2690,7 +3102,9 @@ const N1_KANJI = [
       "zh-CN": "級",
       "ko": "class",
       "vi": "class",
-      "id": "class"
+      "id": "class",
+      "es": "class",
+      "pt": "class"
     }
   },
   {
@@ -2703,7 +3117,9 @@ const N1_KANJI = [
       "zh-CN": "宮",
       "ko": "palace",
       "vi": "palace",
-      "id": "palace"
+      "id": "palace",
+      "es": "palace",
+      "pt": "palace"
     }
   },
   {
@@ -2716,7 +3132,9 @@ const N1_KANJI = [
       "zh-CN": "笈",
       "ko": "backpack box",
       "vi": "backpack box",
-      "id": "backpack box"
+      "id": "backpack box",
+      "es": "backpack box",
+      "pt": "backpack box"
     }
   },
   {
@@ -2729,7 +3147,9 @@ const N1_KANJI = [
       "zh-CN": "給",
       "ko": "salary",
       "vi": "salary",
-      "id": "salary"
+      "id": "salary",
+      "es": "salary",
+      "pt": "salary"
     }
   },
   {
@@ -2742,7 +3162,9 @@ const N1_KANJI = [
       "zh-CN": "挙",
       "ko": "raise",
       "vi": "raise",
-      "id": "raise"
+      "id": "raise",
+      "es": "criar",
+      "pt": "criar"
     }
   },
   {
@@ -2755,7 +3177,9 @@ const N1_KANJI = [
       "zh-CN": "漁",
       "ko": "fishing",
       "vi": "fishing",
-      "id": "fishing"
+      "id": "fishing",
+      "es": "fishing",
+      "pt": "fishing"
     }
   },
   {
@@ -2768,7 +3192,9 @@ const N1_KANJI = [
       "zh-CN": "京",
       "ko": "capital",
       "vi": "capital",
-      "id": "capital"
+      "id": "capital",
+      "es": "capital",
+      "pt": "capital"
     }
   },
   {
@@ -2781,7 +3207,9 @@ const N1_KANJI = [
       "zh-CN": "胸",
       "ko": "bosom",
       "vi": "bosom",
-      "id": "bosom"
+      "id": "bosom",
+      "es": "bosom",
+      "pt": "bosom"
     }
   },
   {
@@ -2794,7 +3222,9 @@ const N1_KANJI = [
       "zh-CN": "郷",
       "ko": "hometown",
       "vi": "hometown",
-      "id": "hometown"
+      "id": "hometown",
+      "es": "hometown",
+      "pt": "hometown"
     }
   },
   {
@@ -2807,7 +3237,9 @@ const N1_KANJI = [
       "zh-CN": "鏡",
       "ko": "mirror",
       "vi": "mirror",
-      "id": "mirror"
+      "id": "mirror",
+      "es": "mirror",
+      "pt": "mirror"
     }
   },
   {
@@ -2820,7 +3252,9 @@ const N1_KANJI = [
       "zh-CN": "競",
       "ko": "emulate",
       "vi": "emulate",
-      "id": "emulate"
+      "id": "emulate",
+      "es": "emulate",
+      "pt": "emulate"
     }
   },
   {
@@ -2833,7 +3267,9 @@ const N1_KANJI = [
       "zh-CN": "曲",
       "ko": "bend",
       "vi": "bend",
-      "id": "bend"
+      "id": "bend",
+      "es": "bend",
+      "pt": "bend"
     }
   },
   {
@@ -2846,7 +3282,9 @@ const N1_KANJI = [
       "zh-CN": "極",
       "ko": "poles",
       "vi": "poles",
-      "id": "poles"
+      "id": "poles",
+      "es": "poles",
+      "pt": "poles"
     }
   },
   {
@@ -2859,7 +3297,9 @@ const N1_KANJI = [
       "zh-CN": "勤",
       "ko": "diligence",
       "vi": "diligence",
-      "id": "diligence"
+      "id": "diligence",
+      "es": "diligence",
+      "pt": "diligence"
     }
   },
   {
@@ -2872,7 +3312,9 @@ const N1_KANJI = [
       "zh-CN": "緊",
       "ko": "tense",
       "vi": "tense",
-      "id": "tense"
+      "id": "tense",
+      "es": "tense",
+      "pt": "tense"
     }
   },
   {
@@ -2885,7 +3327,9 @@ const N1_KANJI = [
       "zh-CN": "沓",
       "ko": "shoes",
       "vi": "shoes",
-      "id": "shoes"
+      "id": "shoes",
+      "es": "shoes",
+      "pt": "shoes"
     }
   },
   {
@@ -2898,7 +3342,9 @@ const N1_KANJI = [
       "zh-CN": "熊",
       "ko": "bear",
       "vi": "bear",
-      "id": "bear"
+      "id": "bear",
+      "es": "bear",
+      "pt": "bear"
     }
   },
   {
@@ -2911,7 +3357,9 @@ const N1_KANJI = [
       "zh-CN": "君",
       "ko": "you",
       "vi": "you",
-      "id": "you"
+      "id": "you",
+      "es": "you",
+      "pt": "you"
     }
   },
   {
@@ -2924,7 +3372,9 @@ const N1_KANJI = [
       "zh-CN": "訓",
       "ko": "instruction",
       "vi": "instruction",
-      "id": "instruction"
+      "id": "instruction",
+      "es": "instruction",
+      "pt": "instruction"
     }
   },
   {
@@ -2937,7 +3387,9 @@ const N1_KANJI = [
       "zh-CN": "軍",
       "ko": "army",
       "vi": "army",
-      "id": "army"
+      "id": "army",
+      "es": "army",
+      "pt": "army"
     }
   },
   {
@@ -2950,7 +3402,9 @@ const N1_KANJI = [
       "zh-CN": "郡",
       "ko": "county",
       "vi": "county",
-      "id": "county"
+      "id": "county",
+      "es": "county",
+      "pt": "county"
     }
   },
   {
@@ -2963,7 +3417,9 @@ const N1_KANJI = [
       "zh-CN": "型",
       "ko": "mould",
       "vi": "mould",
-      "id": "mould"
+      "id": "mould",
+      "es": "mould",
+      "pt": "mould"
     }
   },
   {
@@ -2976,7 +3432,9 @@ const N1_KANJI = [
       "zh-CN": "敬",
       "ko": "respect",
       "vi": "respect",
-      "id": "respect"
+      "id": "respect",
+      "es": "respeto",
+      "pt": "respeito"
     }
   },
   {
@@ -2989,7 +3447,9 @@ const N1_KANJI = [
       "zh-CN": "警",
       "ko": "admonish",
       "vi": "admonish",
-      "id": "admonish"
+      "id": "admonish",
+      "es": "admonish",
+      "pt": "admonish"
     }
   },
   {
@@ -3002,7 +3462,9 @@ const N1_KANJI = [
       "zh-CN": "芸",
       "ko": "technique",
       "vi": "technique",
-      "id": "technique"
+      "id": "technique",
+      "es": "technique",
+      "pt": "technique"
     }
   },
   {
@@ -3015,7 +3477,9 @@ const N1_KANJI = [
       "zh-CN": "桁",
       "ko": "digit",
       "vi": "digit",
-      "id": "digit"
+      "id": "digit",
+      "es": "digit",
+      "pt": "digit"
     }
   },
   {
@@ -3028,7 +3492,9 @@ const N1_KANJI = [
       "zh-CN": "稀",
       "ko": "rare",
       "vi": "rare",
-      "id": "rare"
+      "id": "rare",
+      "es": "raro",
+      "pt": "raro"
     }
   },
   {
@@ -3041,7 +3507,9 @@ const N1_KANJI = [
       "zh-CN": "鴻",
       "ko": "large bird",
       "vi": "large bird",
-      "id": "large bird"
+      "id": "large bird",
+      "es": "large bird",
+      "pt": "large bird"
     }
   },
   {
@@ -3054,7 +3522,9 @@ const N1_KANJI = [
       "zh-CN": "劫",
       "ko": "kalpa",
       "vi": "kalpa",
-      "id": "kalpa"
+      "id": "kalpa",
+      "es": "kalpa",
+      "pt": "kalpa"
     }
   },
   {
@@ -3067,7 +3537,9 @@ const N1_KANJI = [
       "zh-CN": "穀",
       "ko": "grain",
       "vi": "grain",
-      "id": "grain"
+      "id": "grain",
+      "es": "grain",
+      "pt": "grain"
     }
   },
   {
@@ -3080,7 +3552,9 @@ const N1_KANJI = [
       "zh-CN": "腰",
       "ko": "loins",
       "vi": "loins",
-      "id": "loins"
+      "id": "loins",
+      "es": "loins",
+      "pt": "loins"
     }
   },
   {
@@ -3093,7 +3567,9 @@ const N1_KANJI = [
       "zh-CN": "骨",
       "ko": "skeleton",
       "vi": "skeleton",
-      "id": "skeleton"
+      "id": "skeleton",
+      "es": "skeleton",
+      "pt": "skeleton"
     }
   },
   {
@@ -3106,7 +3582,9 @@ const N1_KANJI = [
       "zh-CN": "込",
       "ko": "crowded",
       "vi": "crowded",
-      "id": "crowded"
+      "id": "crowded",
+      "es": "crowded",
+      "pt": "crowded"
     }
   },
   {
@@ -3119,7 +3597,9 @@ const N1_KANJI = [
       "zh-CN": "根",
       "ko": "root",
       "vi": "root",
-      "id": "root"
+      "id": "root",
+      "es": "root",
+      "pt": "root"
     }
   },
   {
@@ -3132,7 +3612,9 @@ const N1_KANJI = [
       "zh-CN": "沙",
       "ko": "sand",
       "vi": "sand",
-      "id": "sand"
+      "id": "sand",
+      "es": "sand",
+      "pt": "sand"
     }
   },
   {
@@ -3145,7 +3627,9 @@ const N1_KANJI = [
       "zh-CN": "座",
       "ko": "sit",
       "vi": "sit",
-      "id": "sit"
+      "id": "sit",
+      "es": "sentarse",
+      "pt": "sentar"
     }
   },
   {
@@ -3158,7 +3642,9 @@ const N1_KANJI = [
       "zh-CN": "挫",
       "ko": "crush",
       "vi": "crush",
-      "id": "crush"
+      "id": "crush",
+      "es": "crush",
+      "pt": "crush"
     }
   },
   {
@@ -3171,7 +3657,9 @@ const N1_KANJI = [
       "zh-CN": "祭",
       "ko": "ritual",
       "vi": "ritual",
-      "id": "ritual"
+      "id": "ritual",
+      "es": "ritual",
+      "pt": "ritual"
     }
   },
   {
@@ -3184,7 +3672,9 @@ const N1_KANJI = [
       "zh-CN": "裁",
       "ko": "tailor",
       "vi": "tailor",
-      "id": "tailor"
+      "id": "tailor",
+      "es": "tailor",
+      "pt": "tailor"
     }
   },
   {
@@ -3197,7 +3687,9 @@ const N1_KANJI = [
       "zh-CN": "材",
       "ko": "lumber",
       "vi": "lumber",
-      "id": "lumber"
+      "id": "lumber",
+      "es": "lumber",
+      "pt": "lumber"
     }
   },
   {
@@ -3210,7 +3702,9 @@ const N1_KANJI = [
       "zh-CN": "阪",
       "ko": "heights",
       "vi": "heights",
-      "id": "heights"
+      "id": "heights",
+      "es": "heights",
+      "pt": "heights"
     }
   },
   {
@@ -3223,7 +3717,9 @@ const N1_KANJI = [
       "zh-CN": "堺",
       "ko": "boundary",
       "vi": "boundary",
-      "id": "boundary"
+      "id": "boundary",
+      "es": "boundary",
+      "pt": "boundary"
     }
   },
   {
@@ -3236,7 +3732,9 @@ const N1_KANJI = [
       "zh-CN": "榊",
       "ko": "sacred tree",
       "vi": "sacred tree",
-      "id": "sacred tree"
+      "id": "sacred tree",
+      "es": "sacred tree",
+      "pt": "sacred tree"
     }
   },
   {
@@ -3249,7 +3747,9 @@ const N1_KANJI = [
       "zh-CN": "肴",
       "ko": "fish",
       "vi": "fish",
-      "id": "fish"
+      "id": "fish",
+      "es": "pescado",
+      "pt": "peixe"
     }
   },
   {
@@ -3262,7 +3762,9 @@ const N1_KANJI = [
       "zh-CN": "崎",
       "ko": "promontory",
       "vi": "promontory",
-      "id": "promontory"
+      "id": "promontory",
+      "es": "promontory",
+      "pt": "promontory"
     }
   },
   {
@@ -3275,7 +3777,9 @@ const N1_KANJI = [
       "zh-CN": "埼",
       "ko": "cape",
       "vi": "cape",
-      "id": "cape"
+      "id": "cape",
+      "es": "cape",
+      "pt": "cape"
     }
   },
   {
@@ -3288,7 +3792,9 @@ const N1_KANJI = [
       "zh-CN": "碕",
       "ko": "cape",
       "vi": "cape",
-      "id": "cape"
+      "id": "cape",
+      "es": "cape",
+      "pt": "cape"
     }
   },
   {
@@ -3301,7 +3807,9 @@ const N1_KANJI = [
       "zh-CN": "鷺",
       "ko": "heron",
       "vi": "heron",
-      "id": "heron"
+      "id": "heron",
+      "es": "heron",
+      "pt": "heron"
     }
   },
   {
@@ -3314,7 +3822,9 @@ const N1_KANJI = [
       "zh-CN": "昨",
       "ko": "yesterday",
       "vi": "yesterday",
-      "id": "yesterday"
+      "id": "yesterday",
+      "es": "ayer",
+      "pt": "ontem"
     }
   },
   {
@@ -3327,7 +3837,9 @@ const N1_KANJI = [
       "zh-CN": "朔",
       "ko": "first day of month",
       "vi": "first day of month",
-      "id": "first day of month"
+      "id": "first day of month",
+      "es": "first day of month",
+      "pt": "first day of month"
     }
   },
   {
@@ -3340,7 +3852,9 @@ const N1_KANJI = [
       "zh-CN": "渠",
       "ko": "ditch/canal",
       "vi": "ditch/canal",
-      "id": "ditch/canal"
+      "id": "ditch/canal",
+      "es": "ditch/canal",
+      "pt": "ditch/canal"
     }
   },
   {
@@ -3354,7 +3868,9 @@ const N1_KANJI = [
       "zh-CN": "gourd",
       "ko": "gourd",
       "vi": "gourd",
-      "id": "gourd"
+      "id": "gourd",
+      "es": "gourd",
+      "pt": "gourd"
     },
     "r": "ひょう"
   },
@@ -3369,7 +3885,9 @@ const N1_KANJI = [
       "zh-CN": "rice steamer",
       "ko": "rice steamer",
       "vi": "rice steamer",
-      "id": "rice steamer"
+      "id": "rice steamer",
+      "es": "rice steamer",
+      "pt": "rice steamer"
     },
     "r": "こしき"
   },
@@ -3384,7 +3902,9 @@ const N1_KANJI = [
       "zh-CN": "sweet",
       "ko": "sweet",
       "vi": "sweet",
-      "id": "sweet"
+      "id": "sweet",
+      "es": "sweet",
+      "pt": "sweet"
     },
     "r": "てん"
   },
@@ -3399,7 +3919,9 @@ const N1_KANJI = [
       "zh-CN": "field",
       "ko": "field",
       "vi": "field",
-      "id": "field"
+      "id": "field",
+      "es": "field",
+      "pt": "field"
     },
     "r": "はたけ、はた"
   },
@@ -3414,7 +3936,9 @@ const N1_KANJI = [
       "zh-CN": "end",
       "ko": "end",
       "vi": "end",
-      "id": "end"
+      "id": "end",
+      "es": "terminar",
+      "pt": "terminar"
     },
     "r": "ひつ"
   },
@@ -3429,7 +3953,9 @@ const N1_KANJI = [
       "zh-CN": "ridge",
       "ko": "ridge",
       "vi": "ridge",
-      "id": "ridge"
+      "id": "ridge",
+      "es": "ridge",
+      "pt": "ridge"
     },
     "r": "あぜ、けい"
   },
@@ -3444,7 +3970,9 @@ const N1_KANJI = [
       "zh-CN": "alienate",
       "ko": "alienate",
       "vi": "alienate",
-      "id": "alienate"
+      "id": "alienate",
+      "es": "alienate",
+      "pt": "alienate"
     },
     "r": "うと（い）、そ"
   },
@@ -3459,7 +3987,9 @@ const N1_KANJI = [
       "zh-CN": "sparse",
       "ko": "sparse",
       "vi": "sparse",
-      "id": "sparse"
+      "id": "sparse",
+      "es": "sparse",
+      "pt": "sparse"
     },
     "r": "そ"
   },
@@ -3474,7 +4004,9 @@ const N1_KANJI = [
       "zh-CN": "jaundice",
       "ko": "jaundice",
       "vi": "jaundice",
-      "id": "jaundice"
+      "id": "jaundice",
+      "es": "jaundice",
+      "pt": "jaundice"
     },
     "r": "たん"
   },
@@ -3489,7 +4021,9 @@ const N1_KANJI = [
       "zh-CN": "itchy",
       "ko": "itchy",
       "vi": "itchy",
-      "id": "itchy"
+      "id": "itchy",
+      "es": "itchy",
+      "pt": "itchy"
     },
     "r": "よう"
   },
@@ -3504,7 +4038,9 @@ const N1_KANJI = [
       "zh-CN": "spasm",
       "ko": "spasm",
       "vi": "spasm",
-      "id": "spasm"
+      "id": "spasm",
+      "es": "spasm",
+      "pt": "spasm"
     },
     "r": "けい"
   },
@@ -3519,7 +4055,9 @@ const N1_KANJI = [
       "zh-CN": "bruise",
       "ko": "bruise",
       "vi": "bruise",
-      "id": "bruise"
+      "id": "bruise",
+      "es": "bruise",
+      "pt": "bruise"
     },
     "r": "し"
   },
@@ -3534,7 +4072,9 @@ const N1_KANJI = [
       "zh-CN": "thin",
       "ko": "thin",
       "vi": "thin",
-      "id": "thin"
+      "id": "thin",
+      "es": "delgado",
+      "pt": "fino"
     },
     "r": "そう"
   },
@@ -3549,7 +4089,9 @@ const N1_KANJI = [
       "zh-CN": "phlegm",
       "ko": "phlegm",
       "vi": "phlegm",
-      "id": "phlegm"
+      "id": "phlegm",
+      "es": "phlegm",
+      "pt": "phlegm"
     },
     "r": "たん"
   },
@@ -3564,7 +4106,9 @@ const N1_KANJI = [
       "zh-CN": "numb",
       "ko": "numb",
       "vi": "numb",
-      "id": "numb"
+      "id": "numb",
+      "es": "numb",
+      "pt": "numb"
     },
     "r": "ひ"
   },
@@ -3579,7 +4123,9 @@ const N1_KANJI = [
       "zh-CN": "ulcer",
       "ko": "ulcer",
       "vi": "ulcer",
-      "id": "ulcer"
+      "id": "ulcer",
+      "es": "ulcer",
+      "pt": "ulcer"
     },
     "r": "よう"
   },
@@ -3594,7 +4140,9 @@ const N1_KANJI = [
       "zh-CN": "thin",
       "ko": "thin",
       "vi": "thin",
-      "id": "thin"
+      "id": "thin",
+      "es": "delgado",
+      "pt": "fino"
     },
     "r": "せき"
   },
@@ -3609,7 +4157,9 @@ const N1_KANJI = [
       "zh-CN": "cancer",
       "ko": "cancer",
       "vi": "cancer",
-      "id": "cancer"
+      "id": "cancer",
+      "es": "cancer",
+      "pt": "cancer"
     },
     "r": "がん"
   },
@@ -3624,7 +4174,9 @@ const N1_KANJI = [
       "zh-CN": "swamp",
       "ko": "swamp",
       "vi": "swamp",
-      "id": "swamp"
+      "id": "swamp",
+      "es": "swamp",
+      "pt": "swamp"
     },
     "r": "さつき、こう"
   },
@@ -3639,7 +4191,9 @@ const N1_KANJI = [
       "zh-CN": "white",
       "ko": "white",
       "vi": "white",
-      "id": "white"
+      "id": "white",
+      "es": "blanco",
+      "pt": "branco"
     },
     "r": "こう"
   },
@@ -3654,7 +4208,9 @@ const N1_KANJI = [
       "zh-CN": "skin",
       "ko": "skin",
       "vi": "skin",
-      "id": "skin"
+      "id": "skin",
+      "es": "skin",
+      "pt": "skin"
     },
     "r": "かわ、ひ"
   },
@@ -3669,7 +4225,9 @@ const N1_KANJI = [
       "zh-CN": "cup",
       "ko": "cup",
       "vi": "cup",
-      "id": "cup"
+      "id": "cup",
+      "es": "cup",
+      "pt": "cup"
     },
     "r": "はい"
   },
@@ -3684,7 +4242,9 @@ const N1_KANJI = [
       "zh-CN": "alliance",
       "ko": "alliance",
       "vi": "alliance",
-      "id": "alliance"
+      "id": "alliance",
+      "es": "alliance",
+      "pt": "alliance"
     },
     "r": "めい"
   },
@@ -3699,7 +4259,9 @@ const N1_KANJI = [
       "zh-CN": "hut",
       "ko": "hut",
       "vi": "hut",
-      "id": "hut"
+      "id": "hut",
+      "es": "hut",
+      "pt": "hut"
     },
     "r": "ろ"
   },
@@ -3714,7 +4276,9 @@ const N1_KANJI = [
       "zh-CN": "straight",
       "ko": "straight",
       "vi": "straight",
-      "id": "straight"
+      "id": "straight",
+      "es": "straight",
+      "pt": "straight"
     },
     "r": "なお（す）、ちょく"
   },
@@ -3729,7 +4293,9 @@ const N1_KANJI = [
       "zh-CN": "true",
       "ko": "true",
       "vi": "true",
-      "id": "true"
+      "id": "true",
+      "es": "verdadero",
+      "pt": "verdadeiro"
     },
     "r": "ま、しん"
   },
@@ -3744,7 +4310,9 @@ const N1_KANJI = [
       "zh-CN": "dazzling",
       "ko": "dazzling",
       "vi": "dazzling",
-      "id": "dazzling"
+      "id": "dazzling",
+      "es": "dazzling",
+      "pt": "dazzling"
     },
     "r": "まぶ（しい）、げん"
   },
@@ -3759,7 +4327,9 @@ const N1_KANJI = [
       "zh-CN": "friendly",
       "ko": "friendly",
       "vi": "friendly",
-      "id": "friendly"
+      "id": "friendly",
+      "es": "friendly",
+      "pt": "friendly"
     },
     "r": "むつ（まじい）、ぼく"
   },
@@ -3774,7 +4344,9 @@ const N1_KANJI = [
       "zh-CN": "glare",
       "ko": "glare",
       "vi": "glare",
-      "id": "glare"
+      "id": "glare",
+      "es": "glare",
+      "pt": "glare"
     },
     "r": "にら（む）、げい"
   },
@@ -3789,7 +4361,9 @@ const N1_KANJI = [
       "zh-CN": "close eyes",
       "ko": "close eyes",
       "vi": "close eyes",
-      "id": "close eyes"
+      "id": "close eyes",
+      "es": "close eyes",
+      "pt": "close eyes"
     },
     "r": "めい"
   },
@@ -3804,7 +4378,9 @@ const N1_KANJI = [
       "zh-CN": "glance",
       "ko": "glance",
       "vi": "glance",
-      "id": "glance"
+      "id": "glance",
+      "es": "glance",
+      "pt": "glance"
     },
     "r": "べつ"
   },
@@ -3819,7 +4395,9 @@ const N1_KANJI = [
       "zh-CN": "pupil",
       "ko": "pupil",
       "vi": "pupil",
-      "id": "pupil"
+      "id": "pupil",
+      "es": "pupil",
+      "pt": "pupil"
     },
     "r": "ひとみ、どう"
   },
@@ -3834,7 +4412,9 @@ const N1_KANJI = [
       "zh-CN": "rectangle",
       "ko": "rectangle",
       "vi": "rectangle",
-      "id": "rectangle"
+      "id": "rectangle",
+      "es": "rectangle",
+      "pt": "rectangle"
     },
     "r": "く"
   },
@@ -3849,7 +4429,9 @@ const N1_KANJI = [
       "zh-CN": "break",
       "ko": "break",
       "vi": "break",
-      "id": "break"
+      "id": "break",
+      "es": "romper",
+      "pt": "quebrar"
     },
     "r": "やぶ（る）、は"
   },
@@ -3864,7 +4446,9 @@ const N1_KANJI = [
       "zh-CN": "whetstone",
       "ko": "whetstone",
       "vi": "whetstone",
-      "id": "whetstone"
+      "id": "whetstone",
+      "es": "whetstone",
+      "pt": "whetstone"
     },
     "r": "れい"
   },
@@ -3879,7 +4463,9 @@ const N1_KANJI = [
       "zh-CN": "anchor",
       "ko": "anchor",
       "vi": "anchor",
-      "id": "anchor"
+      "id": "anchor",
+      "es": "anchor",
+      "pt": "anchor"
     },
     "r": "いかり、てい"
   },
@@ -3894,7 +4480,9 @@ const N1_KANJI = [
       "zh-CN": "bowl",
       "ko": "bowl",
       "vi": "bowl",
-      "id": "bowl"
+      "id": "bowl",
+      "es": "bowl",
+      "pt": "bowl"
     },
     "r": "わん"
   },
@@ -3909,7 +4497,9 @@ const N1_KANJI = [
       "zh-CN": "rock",
       "ko": "rock",
       "vi": "rock",
-      "id": "rock"
+      "id": "rock",
+      "es": "rock",
+      "pt": "rock"
     },
     "r": "いわ、ばん"
   },
@@ -3924,7 +4514,9 @@ const N1_KANJI = [
       "zh-CN": "ceremony",
       "ko": "ceremony",
       "vi": "ceremony",
-      "id": "ceremony"
+      "id": "ceremony",
+      "es": "ceremonia",
+      "pt": "cerimônia"
     },
     "r": "れい"
   },
@@ -3939,7 +4531,9 @@ const N1_KANJI = [
       "zh-CN": "enshrine",
       "ko": "enshrine",
       "vi": "enshrine",
-      "id": "enshrine"
+      "id": "enshrine",
+      "es": "enshrine",
+      "pt": "enshrine"
     },
     "r": "まつ（る）、し"
   },
@@ -3953,7 +4547,9 @@ const N1_KANJI = [
       "zh-CN": "鞍",
       "ko": "saddle",
       "vi": "saddle",
-      "id": "saddle"
+      "id": "saddle",
+      "es": "saddle",
+      "pt": "saddle"
     }
   },
   {
@@ -3966,7 +4562,9 @@ const N1_KANJI = [
       "zh-CN": "韋",
       "ko": "tanned leather",
       "vi": "tanned leather",
-      "id": "tanned leather"
+      "id": "tanned leather",
+      "es": "tanned leather",
+      "pt": "tanned leather"
     }
   },
   {
@@ -3979,7 +4577,9 @@ const N1_KANJI = [
       "zh-CN": "亥",
       "ko": "boar",
       "vi": "boar",
-      "id": "boar"
+      "id": "boar",
+      "es": "boar",
+      "pt": "boar"
     }
   },
   {
@@ -3992,7 +4592,9 @@ const N1_KANJI = [
       "zh-CN": "吋",
       "ko": "inch",
       "vi": "inch",
-      "id": "inch"
+      "id": "inch",
+      "es": "inch",
+      "pt": "inch"
     }
   },
   {
@@ -4005,7 +4607,9 @@ const N1_KANJI = [
       "zh-CN": "碓",
       "ko": "mortar",
       "vi": "mortar",
-      "id": "mortar"
+      "id": "mortar",
+      "es": "mortar",
+      "pt": "mortar"
     }
   },
   {
@@ -4018,7 +4622,9 @@ const N1_KANJI = [
       "zh-CN": "臼",
       "ko": "mortar",
       "vi": "mortar",
-      "id": "mortar"
+      "id": "mortar",
+      "es": "mortar",
+      "pt": "mortar"
     }
   },
   {
@@ -4031,7 +4637,9 @@ const N1_KANJI = [
       "zh-CN": "鴎",
       "ko": "seagull",
       "vi": "seagull",
-      "id": "seagull"
+      "id": "seagull",
+      "es": "seagull",
+      "pt": "seagull"
     }
   },
   {
@@ -4044,7 +4652,9 @@ const N1_KANJI = [
       "zh-CN": "咽",
       "ko": "throat",
       "vi": "throat",
-      "id": "throat"
+      "id": "throat",
+      "es": "throat",
+      "pt": "throat"
     }
   },
   {
@@ -4057,7 +4667,9 @@ const N1_KANJI = [
       "zh-CN": "拶",
       "ko": "[greeting]",
       "vi": "[greeting]",
-      "id": "[greeting]"
+      "id": "[greeting]",
+      "es": "greeting",
+      "pt": "greeting"
     },
     "ex": "",
     "exm": {
@@ -4076,7 +4688,9 @@ const N1_KANJI = [
       "zh-CN": "茜",
       "ko": "[madder]",
       "vi": "[madder]",
-      "id": "[madder]"
+      "id": "[madder]",
+      "es": "madder",
+      "pt": "madder"
     },
     "ex": "",
     "exm": {
@@ -4095,7 +4709,9 @@ const N1_KANJI = [
       "zh-CN": "或",
       "ko": "[some]",
       "vi": "[some]",
-      "id": "[some]"
+      "id": "[some]",
+      "es": "algunos",
+      "pt": "alguns"
     },
     "ex": "",
     "exm": {
@@ -4114,7 +4730,9 @@ const N1_KANJI = [
       "zh-CN": "胤",
       "ko": "[lineage]",
       "vi": "[lineage]",
-      "id": "[lineage]"
+      "id": "[lineage]",
+      "es": "lineage",
+      "pt": "lineage"
     },
     "ex": "",
     "exm": {
@@ -4133,7 +4751,9 @@ const N1_KANJI = [
       "zh-CN": "鬱",
       "ko": "[depression]",
       "vi": "[depression]",
-      "id": "[depression]"
+      "id": "[depression]",
+      "es": "depression",
+      "pt": "depression"
     },
     "ex": "",
     "exm": {
@@ -4152,7 +4772,9 @@ const N1_KANJI = [
       "zh-CN": "荏",
       "ko": "[sesame]",
       "vi": "[sesame]",
-      "id": "[sesame]"
+      "id": "[sesame]",
+      "es": "sesame",
+      "pt": "sesame"
     },
     "ex": "",
     "exm": {
@@ -4171,7 +4793,9 @@ const N1_KANJI = [
       "zh-CN": "魁",
       "ko": "[leader]",
       "vi": "[leader]",
-      "id": "[leader]"
+      "id": "[leader]",
+      "es": "leader",
+      "pt": "leader"
     },
     "ex": "",
     "exm": {
@@ -4190,7 +4814,9 @@ const N1_KANJI = [
       "zh-CN": "晦",
       "ko": "[dark]",
       "vi": "[dark]",
-      "id": "[dark]"
+      "id": "[dark]",
+      "es": "oscuro",
+      "pt": "escuro"
     },
     "ex": "",
     "exm": {
@@ -4209,7 +4835,9 @@ const N1_KANJI = [
       "zh-CN": "馨",
       "ko": "[fragrant]",
       "vi": "[fragrant]",
-      "id": "[fragrant]"
+      "id": "[fragrant]",
+      "es": "fragrant",
+      "pt": "fragrant"
     },
     "ex": "",
     "exm": {
@@ -4228,7 +4856,9 @@ const N1_KANJI = [
       "zh-CN": "鞠",
       "ko": "[ball]",
       "vi": "[ball]",
-      "id": "[ball]"
+      "id": "[ball]",
+      "es": "ball",
+      "pt": "ball"
     },
     "ex": "",
     "exm": {
@@ -4247,7 +4877,9 @@ const N1_KANJI = [
       "zh-CN": "鳩",
       "ko": "[pigeon]",
       "vi": "[pigeon]",
-      "id": "[pigeon]"
+      "id": "[pigeon]",
+      "es": "pigeon",
+      "pt": "pigeon"
     },
     "ex": "",
     "exm": {
@@ -4266,7 +4898,9 @@ const N1_KANJI = [
       "zh-CN": "赳",
       "ko": "[valiant]",
       "vi": "[valiant]",
-      "id": "[valiant]"
+      "id": "[valiant]",
+      "es": "valiant",
+      "pt": "valiant"
     },
     "ex": "",
     "exm": {
@@ -4285,7 +4919,9 @@ const N1_KANJI = [
       "zh-CN": "侠",
       "ko": "[chivalry]",
       "vi": "[chivalry]",
-      "id": "[chivalry]"
+      "id": "[chivalry]",
+      "es": "chivalry",
+      "pt": "chivalry"
     },
     "ex": "",
     "exm": {
@@ -4304,7 +4940,9 @@ const N1_KANJI = [
       "zh-CN": "僑",
       "ko": "[overseas]",
       "vi": "[overseas]",
-      "id": "[overseas]"
+      "id": "[overseas]",
+      "es": "overseas",
+      "pt": "overseas"
     },
     "ex": "",
     "exm": {
@@ -4323,7 +4961,9 @@ const N1_KANJI = [
       "zh-CN": "兇",
       "ko": "[evil]",
       "vi": "[evil]",
-      "id": "[evil]"
+      "id": "[evil]",
+      "es": "evil",
+      "pt": "evil"
     },
     "ex": "",
     "exm": {
@@ -4342,7 +4982,9 @@ const N1_KANJI = [
       "zh-CN": "饗",
       "ko": "[feast]",
       "vi": "[feast]",
-      "id": "[feast]"
+      "id": "[feast]",
+      "es": "feast",
+      "pt": "feast"
     },
     "ex": "",
     "exm": {
@@ -4361,7 +5003,9 @@ const N1_KANJI = [
       "zh-CN": "尭",
       "ko": "[high]",
       "vi": "[high]",
-      "id": "[high]"
+      "id": "[high]",
+      "es": "alto",
+      "pt": "alto"
     },
     "ex": "",
     "exm": {
@@ -4380,7 +5024,9 @@ const N1_KANJI = [
       "zh-CN": "桐",
       "ko": "[paulownia]",
       "vi": "[paulownia]",
-      "id": "[paulownia]"
+      "id": "[paulownia]",
+      "es": "paulownia",
+      "pt": "paulownia"
     },
     "ex": "",
     "exm": {
@@ -4399,7 +5045,9 @@ const N1_KANJI = [
       "zh-CN": "錦",
       "ko": "[brocade]",
       "vi": "[brocade]",
-      "id": "[brocade]"
+      "id": "[brocade]",
+      "es": "brocade",
+      "pt": "brocade"
     },
     "ex": "",
     "exm": {
@@ -4418,7 +5066,9 @@ const N1_KANJI = [
       "zh-CN": "僅",
       "ko": "[merely]",
       "vi": "[merely]",
-      "id": "[merely]"
+      "id": "[merely]",
+      "es": "merely",
+      "pt": "merely"
     },
     "ex": "",
     "exm": {
@@ -4437,7 +5087,9 @@ const N1_KANJI = [
       "zh-CN": "駒",
       "ko": "[horse]",
       "vi": "[horse]",
-      "id": "[horse]"
+      "id": "[horse]",
+      "es": "horse",
+      "pt": "horse"
     },
     "ex": "",
     "exm": {
@@ -4456,7 +5108,9 @@ const N1_KANJI = [
       "zh-CN": "栗",
       "ko": "[chestnut]",
       "vi": "[chestnut]",
-      "id": "[chestnut]"
+      "id": "[chestnut]",
+      "es": "chestnut",
+      "pt": "chestnut"
     },
     "ex": "",
     "exm": {
@@ -4475,7 +5129,9 @@ const N1_KANJI = [
       "zh-CN": "罫",
       "ko": "[ruled line]",
       "vi": "[ruled line]",
-      "id": "[ruled line]"
+      "id": "[ruled line]",
+      "es": "ruled line",
+      "pt": "ruled line"
     },
     "ex": "",
     "exm": {
@@ -4494,7 +5150,9 @@ const N1_KANJI = [
       "zh-CN": "詣",
       "ko": "[visit shrine]",
       "vi": "[visit shrine]",
-      "id": "[visit shrine]"
+      "id": "[visit shrine]",
+      "es": "visit shrine",
+      "pt": "visit shrine"
     },
     "ex": "",
     "exm": {
@@ -4513,7 +5171,9 @@ const N1_KANJI = [
       "zh-CN": "稽",
       "ko": "[consider]",
       "vi": "[consider]",
-      "id": "[consider]"
+      "id": "[consider]",
+      "es": "consider",
+      "pt": "consider"
     },
     "ex": "",
     "exm": {
@@ -4532,7 +5192,9 @@ const N1_KANJI = [
       "zh-CN": "憬",
       "ko": "[yearn]",
       "vi": "[yearn]",
-      "id": "[yearn]"
+      "id": "[yearn]",
+      "es": "yearn",
+      "pt": "yearn"
     },
     "ex": "",
     "exm": {
@@ -4551,7 +5213,9 @@ const N1_KANJI = [
       "zh-CN": "喧",
       "ko": "[noisy]",
       "vi": "[noisy]",
-      "id": "[noisy]"
+      "id": "[noisy]",
+      "es": "noisy",
+      "pt": "noisy"
     },
     "ex": "",
     "exm": {
@@ -4570,7 +5234,9 @@ const N1_KANJI = [
       "zh-CN": "乎",
       "ko": "[question]",
       "vi": "[question]",
-      "id": "[question]"
+      "id": "[question]",
+      "es": "pregunta",
+      "pt": "pergunta"
     },
     "ex": "",
     "exm": {
@@ -4589,7 +5255,9 @@ const N1_KANJI = [
       "zh-CN": "錮",
       "ko": "[imprison]",
       "vi": "[imprison]",
-      "id": "[imprison]"
+      "id": "[imprison]",
+      "es": "imprison",
+      "pt": "imprison"
     },
     "ex": "",
     "exm": {
@@ -4608,7 +5276,9 @@ const N1_KANJI = [
       "zh-CN": "敲",
       "ko": "[knock]",
       "vi": "[knock]",
-      "id": "[knock]"
+      "id": "[knock]",
+      "es": "knock",
+      "pt": "knock"
     },
     "ex": "",
     "exm": {
@@ -4627,7 +5297,9 @@ const N1_KANJI = [
       "zh-CN": "傲",
       "ko": "[proud]",
       "vi": "[proud]",
-      "id": "[proud]"
+      "id": "[proud]",
+      "es": "orgulloso",
+      "pt": "orgulhoso"
     },
     "ex": "",
     "exm": {
@@ -4646,7 +5318,9 @@ const N1_KANJI = [
       "zh-CN": "梱",
       "ko": "[pack]",
       "vi": "[pack]",
-      "id": "[pack]"
+      "id": "[pack]",
+      "es": "pack",
+      "pt": "pack"
     },
     "ex": "",
     "exm": {
@@ -4665,7 +5339,9 @@ const N1_KANJI = [
       "zh-CN": "些",
       "ko": "[little]",
       "vi": "[little]",
-      "id": "[little]"
+      "id": "[little]",
+      "es": "pequeño",
+      "pt": "pequeno"
     },
     "ex": "",
     "exm": {
@@ -4684,7 +5360,9 @@ const N1_KANJI = [
       "zh-CN": "嵯",
       "ko": "[steep]",
       "vi": "[steep]",
-      "id": "[steep]"
+      "id": "[steep]",
+      "es": "steep",
+      "pt": "steep"
     },
     "ex": "",
     "exm": {
@@ -4703,7 +5381,9 @@ const N1_KANJI = [
       "zh-CN": "紗",
       "ko": "[gauze]",
       "vi": "[gauze]",
-      "id": "[gauze]"
+      "id": "[gauze]",
+      "es": "gauze",
+      "pt": "gauze"
     },
     "ex": "",
     "exm": {
@@ -4722,7 +5402,9 @@ const N1_KANJI = [
       "zh-CN": "裟",
       "ko": "[Buddhist robe]",
       "vi": "[Buddhist robe]",
-      "id": "[Buddhist robe]"
+      "id": "[Buddhist robe]",
+      "es": "Buddhist robe",
+      "pt": "Buddhist robe"
     },
     "ex": "",
     "exm": {
@@ -4741,7 +5423,9 @@ const N1_KANJI = [
       "zh-CN": "砦",
       "ko": "[fort]",
       "vi": "[fort]",
-      "id": "[fort]"
+      "id": "[fort]",
+      "es": "fort",
+      "pt": "fort"
     },
     "ex": "",
     "exm": {
@@ -4760,7 +5444,9 @@ const N1_KANJI = [
       "zh-CN": "冴",
       "ko": "[clear]",
       "vi": "[clear]",
-      "id": "[clear]"
+      "id": "[clear]",
+      "es": "clear",
+      "pt": "clear"
     },
     "ex": "",
     "exm": {
@@ -4779,7 +5465,9 @@ const N1_KANJI = [
       "zh-CN": "窄",
       "ko": "[narrow]",
       "vi": "[narrow]",
-      "id": "[narrow]"
+      "id": "[narrow]",
+      "es": "estrecho",
+      "pt": "estreito"
     },
     "ex": "",
     "exm": {
@@ -4798,7 +5486,9 @@ const N1_KANJI = [
       "zh-CN": "炸",
       "ko": "[explode]",
       "vi": "[explode]",
-      "id": "[explode]"
+      "id": "[explode]",
+      "es": "explode",
+      "pt": "explode"
     },
     "ex": "",
     "exm": {
@@ -4817,7 +5507,9 @@ const N1_KANJI = [
       "zh-CN": "鮭",
       "ko": "[salmon]",
       "vi": "[salmon]",
-      "id": "[salmon]"
+      "id": "[salmon]",
+      "es": "salmon",
+      "pt": "salmon"
     },
     "ex": "",
     "exm": {
@@ -4836,7 +5528,9 @@ const N1_KANJI = [
       "zh-CN": "笹",
       "ko": "[bamboo grass]",
       "vi": "[bamboo grass]",
-      "id": "[bamboo grass]"
+      "id": "[bamboo grass]",
+      "es": "bamboo grass",
+      "pt": "bamboo grass"
     },
     "ex": "",
     "exm": {
@@ -4855,7 +5549,9 @@ const N1_KANJI = [
       "zh-CN": "匙",
       "ko": "[spoon]",
       "vi": "[spoon]",
-      "id": "[spoon]"
+      "id": "[spoon]",
+      "es": "spoon",
+      "pt": "spoon"
     },
     "ex": "",
     "exm": {
@@ -4874,7 +5570,9 @@ const N1_KANJI = [
       "zh-CN": "刷",
       "ko": "[print]",
       "vi": "[print]",
-      "id": "[print]"
+      "id": "[print]",
+      "es": "print",
+      "pt": "print"
     },
     "ex": "",
     "exm": {
@@ -4893,7 +5591,9 @@ const N1_KANJI = [
       "zh-CN": "薩",
       "ko": "[Satsuma]",
       "vi": "[Satsuma]",
-      "id": "[Satsuma]"
+      "id": "[Satsuma]",
+      "es": "Satsuma",
+      "pt": "Satsuma"
     },
     "ex": "",
     "exm": {
@@ -4912,7 +5612,9 @@ const N1_KANJI = [
       "zh-CN": "錆",
       "ko": "[rust]",
       "vi": "[rust]",
-      "id": "[rust]"
+      "id": "[rust]",
+      "es": "rust",
+      "pt": "rust"
     },
     "ex": "",
     "exm": {
@@ -4931,7 +5633,9 @@ const N1_KANJI = [
       "zh-CN": "鮫",
       "ko": "[shark]",
       "vi": "[shark]",
-      "id": "[shark]"
+      "id": "[shark]",
+      "es": "shark",
+      "pt": "shark"
     },
     "ex": "",
     "exm": {
@@ -4950,7 +5654,9 @@ const N1_KANJI = [
       "zh-CN": "晒",
       "ko": "[bleach]",
       "vi": "[bleach]",
-      "id": "[bleach]"
+      "id": "[bleach]",
+      "es": "bleach",
+      "pt": "bleach"
     },
     "ex": "",
     "exm": {
@@ -4969,7 +5675,9 @@ const N1_KANJI = [
       "zh-CN": "撒",
       "ko": "[scatter]",
       "vi": "[scatter]",
-      "id": "[scatter]"
+      "id": "[scatter]",
+      "es": "scatter",
+      "pt": "scatter"
     },
     "ex": "",
     "exm": {
@@ -4988,7 +5696,9 @@ const N1_KANJI = [
       "zh-CN": "燦",
       "ko": "[brilliant]",
       "vi": "[brilliant]",
-      "id": "[brilliant]"
+      "id": "[brilliant]",
+      "es": "brilliant",
+      "pt": "brilliant"
     },
     "ex": "",
     "exm": {
@@ -5007,7 +5717,9 @@ const N1_KANJI = [
       "zh-CN": "珊",
       "ko": "[coral]",
       "vi": "[coral]",
-      "id": "[coral]"
+      "id": "[coral]",
+      "es": "coral",
+      "pt": "coral"
     },
     "ex": "",
     "exm": {
@@ -5026,7 +5738,9 @@ const N1_KANJI = [
       "zh-CN": "纂",
       "ko": "[compile]",
       "vi": "[compile]",
-      "id": "[compile]"
+      "id": "[compile]",
+      "es": "compile",
+      "pt": "compile"
     },
     "ex": "",
     "exm": {
@@ -5045,7 +5759,9 @@ const N1_KANJI = [
       "zh-CN": "恣",
       "ko": "[arbitrary]",
       "vi": "[arbitrary]",
-      "id": "[arbitrary]"
+      "id": "[arbitrary]",
+      "es": "arbitrary",
+      "pt": "arbitrary"
     },
     "ex": "",
     "exm": {
@@ -5064,7 +5780,9 @@ const N1_KANJI = [
       "zh-CN": "姿",
       "ko": "[figure]",
       "vi": "[figure]",
-      "id": "[figure]"
+      "id": "[figure]",
+      "es": "figure",
+      "pt": "figure"
     },
     "ex": "",
     "exm": {
@@ -5083,7 +5801,9 @@ const N1_KANJI = [
       "zh-CN": "鹿",
       "ko": "[deer]",
       "vi": "[deer]",
-      "id": "[deer]"
+      "id": "[deer]",
+      "es": "deer",
+      "pt": "deer"
     },
     "ex": "",
     "exm": {
@@ -5102,7 +5822,9 @@ const N1_KANJI = [
       "zh-CN": "鴫",
       "ko": "[snipe]",
       "vi": "[snipe]",
-      "id": "[snipe]"
+      "id": "[snipe]",
+      "es": "snipe",
+      "pt": "snipe"
     },
     "ex": "",
     "exm": {
@@ -5121,7 +5843,9 @@ const N1_KANJI = [
       "zh-CN": "竺",
       "ko": "[India]",
       "vi": "[India]",
-      "id": "[India]"
+      "id": "[India]",
+      "es": "India",
+      "pt": "India"
     },
     "ex": "",
     "exm": {
@@ -5140,7 +5864,9 @@ const N1_KANJI = [
       "zh-CN": "宍",
       "ko": "[flesh]",
       "vi": "[flesh]",
-      "id": "[flesh]"
+      "id": "[flesh]",
+      "es": "flesh",
+      "pt": "flesh"
     },
     "ex": "",
     "exm": {
@@ -5159,7 +5885,9 @@ const N1_KANJI = [
       "zh-CN": "雫",
       "ko": "[drop]",
       "vi": "[drop]",
-      "id": "[drop]"
+      "id": "[drop]",
+      "es": "drop",
+      "pt": "drop"
     },
     "ex": "",
     "exm": {
@@ -5178,7 +5906,9 @@ const N1_KANJI = [
       "zh-CN": "柴",
       "ko": "[brushwood]",
       "vi": "[brushwood]",
-      "id": "[brushwood]"
+      "id": "[brushwood]",
+      "es": "brushwood",
+      "pt": "brushwood"
     },
     "ex": "",
     "exm": {
@@ -5197,7 +5927,9 @@ const N1_KANJI = [
       "zh-CN": "屡",
       "ko": "[often]",
       "vi": "[often]",
-      "id": "[often]"
+      "id": "[often]",
+      "es": "often",
+      "pt": "often"
     },
     "ex": "",
     "exm": {
@@ -5216,7 +5948,9 @@ const N1_KANJI = [
       "zh-CN": "蕊",
       "ko": "[stamen]",
       "vi": "[stamen]",
-      "id": "[stamen]"
+      "id": "[stamen]",
+      "es": "stamen",
+      "pt": "stamen"
     },
     "ex": "",
     "exm": {
@@ -5235,7 +5969,9 @@ const N1_KANJI = [
       "zh-CN": "縞",
       "ko": "[stripe]",
       "vi": "[stripe]",
-      "id": "[stripe]"
+      "id": "[stripe]",
+      "es": "stripe",
+      "pt": "stripe"
     },
     "ex": "",
     "exm": {
@@ -5254,7 +5990,9 @@ const N1_KANJI = [
       "zh-CN": "惹",
       "ko": "[attract]",
       "vi": "[attract]",
-      "id": "[attract]"
+      "id": "[attract]",
+      "es": "attract",
+      "pt": "attract"
     },
     "ex": "",
     "exm": {
@@ -5273,7 +6011,9 @@ const N1_KANJI = [
       "zh-CN": "勺",
       "ko": "[ladle]",
       "vi": "[ladle]",
-      "id": "[ladle]"
+      "id": "[ladle]",
+      "es": "ladle",
+      "pt": "ladle"
     },
     "ex": "",
     "exm": {
@@ -5292,7 +6032,9 @@ const N1_KANJI = [
       "zh-CN": "灼",
       "ko": "[burn]",
       "vi": "[burn]",
-      "id": "[burn]"
+      "id": "[burn]",
+      "es": "quemar",
+      "pt": "queimar"
     },
     "ex": "",
     "exm": {
@@ -5311,7 +6053,9 @@ const N1_KANJI = [
       "zh-CN": "錫",
       "ko": "[tin]",
       "vi": "[tin]",
-      "id": "[tin]"
+      "id": "[tin]",
+      "es": "tin",
+      "pt": "tin"
     },
     "ex": "",
     "exm": {
@@ -5330,7 +6074,9 @@ const N1_KANJI = [
       "zh-CN": "樹",
       "ko": "[tree]",
       "vi": "[tree]",
-      "id": "[tree]"
+      "id": "[tree]",
+      "es": "árbol",
+      "pt": "árvore"
     },
     "ex": "",
     "exm": {
@@ -5349,7 +6095,9 @@ const N1_KANJI = [
       "zh-CN": "洲",
       "ko": "[sandbar]",
       "vi": "[sandbar]",
-      "id": "[sandbar]"
+      "id": "[sandbar]",
+      "es": "sandbar",
+      "pt": "sandbar"
     },
     "ex": "",
     "exm": {
@@ -5368,7 +6116,9 @@ const N1_KANJI = [
       "zh-CN": "輯",
       "ko": "[compile]",
       "vi": "[compile]",
-      "id": "[compile]"
+      "id": "[compile]",
+      "es": "compile",
+      "pt": "compile"
     },
     "ex": "",
     "exm": {
@@ -5387,7 +6137,9 @@ const N1_KANJI = [
       "zh-CN": "酋",
       "ko": "[chief]",
       "vi": "[chief]",
-      "id": "[chief]"
+      "id": "[chief]",
+      "es": "chief",
+      "pt": "chief"
     },
     "ex": "",
     "exm": {
@@ -5406,7 +6158,9 @@ const N1_KANJI = [
       "zh-CN": "汁",
       "ko": "[juice]",
       "vi": "[juice]",
-      "id": "[juice]"
+      "id": "[juice]",
+      "es": "juice",
+      "pt": "juice"
     },
     "ex": "",
     "exm": {
@@ -5425,7 +6179,9 @@ const N1_KANJI = [
       "zh-CN": "峻",
       "ko": "[steep]",
       "vi": "[steep]",
-      "id": "[steep]"
+      "id": "[steep]",
+      "es": "steep",
+      "pt": "steep"
     },
     "ex": "",
     "exm": {
@@ -5444,7 +6200,9 @@ const N1_KANJI = [
       "zh-CN": "駿",
       "ko": "[swift horse]",
       "vi": "[swift horse]",
-      "id": "[swift horse]"
+      "id": "[swift horse]",
+      "es": "swift horse",
+      "pt": "swift horse"
     },
     "ex": "",
     "exm": {
@@ -5463,7 +6221,9 @@ const N1_KANJI = [
       "zh-CN": "竣",
       "ko": "[complete]",
       "vi": "[complete]",
-      "id": "[complete]"
+      "id": "[complete]",
+      "es": "complete",
+      "pt": "complete"
     },
     "ex": "",
     "exm": {
@@ -5482,7 +6242,9 @@ const N1_KANJI = [
       "zh-CN": "楯",
       "ko": "[shield]",
       "vi": "[shield]",
-      "id": "[shield]"
+      "id": "[shield]",
+      "es": "shield",
+      "pt": "shield"
     },
     "ex": "",
     "exm": {
@@ -5501,7 +6263,9 @@ const N1_KANJI = [
       "zh-CN": "隼",
       "ko": "[falcon]",
       "vi": "[falcon]",
-      "id": "[falcon]"
+      "id": "[falcon]",
+      "es": "falcon",
+      "pt": "falcon"
     },
     "ex": "",
     "exm": {
@@ -5520,7 +6284,9 @@ const N1_KANJI = [
       "zh-CN": "醇",
       "ko": "[pure sake]",
       "vi": "[pure sake]",
-      "id": "[pure sake]"
+      "id": "[pure sake]",
+      "es": "pure sake",
+      "pt": "pure sake"
     },
     "ex": "",
     "exm": {
@@ -5539,7 +6305,9 @@ const N1_KANJI = [
       "zh-CN": "楚",
       "ko": "[distinct]",
       "vi": "[distinct]",
-      "id": "[distinct]"
+      "id": "[distinct]",
+      "es": "distinct",
+      "pt": "distinct"
     },
     "ex": "",
     "exm": {
@@ -5558,7 +6326,9 @@ const N1_KANJI = [
       "zh-CN": "狙",
       "ko": "[aim]",
       "vi": "[aim]",
-      "id": "[aim]"
+      "id": "[aim]",
+      "es": "aim",
+      "pt": "aim"
     },
     "ex": "",
     "exm": {
@@ -5577,7 +6347,9 @@ const N1_KANJI = [
       "zh-CN": "鼠",
       "ko": "[rat]",
       "vi": "[rat]",
-      "id": "[rat]"
+      "id": "[rat]",
+      "es": "rat",
+      "pt": "rat"
     },
     "ex": "",
     "exm": {
@@ -5596,7 +6368,9 @@ const N1_KANJI = [
       "zh-CN": "塑",
       "ko": "[model]",
       "vi": "[model]",
-      "id": "[model]"
+      "id": "[model]",
+      "es": "model",
+      "pt": "model"
     },
     "ex": "",
     "exm": {
@@ -5615,7 +6389,9 @@ const N1_KANJI = [
       "zh-CN": "岨",
       "ko": "[rugged]",
       "vi": "[rugged]",
-      "id": "[rugged]"
+      "id": "[rugged]",
+      "es": "rugged",
+      "pt": "rugged"
     },
     "ex": "",
     "exm": {
@@ -5634,7 +6410,9 @@ const N1_KANJI = [
       "zh-CN": "奏",
       "ko": "[play music]",
       "vi": "[play music]",
-      "id": "[play music]"
+      "id": "[play music]",
+      "es": "play music",
+      "pt": "play music"
     },
     "ex": "",
     "exm": {
@@ -5653,7 +6431,9 @@ const N1_KANJI = [
       "zh-CN": "掻",
       "ko": "[scratch]",
       "vi": "[scratch]",
-      "id": "[scratch]"
+      "id": "[scratch]",
+      "es": "scratch",
+      "pt": "scratch"
     },
     "ex": "",
     "exm": {
@@ -5672,7 +6452,9 @@ const N1_KANJI = [
       "zh-CN": "槍",
       "ko": "[spear]",
       "vi": "[spear]",
-      "id": "[spear]"
+      "id": "[spear]",
+      "es": "spear",
+      "pt": "spear"
     },
     "ex": "",
     "exm": {
@@ -5691,7 +6473,9 @@ const N1_KANJI = [
       "zh-CN": "漕",
       "ko": "[row]",
       "vi": "[row]",
-      "id": "[row]"
+      "id": "[row]",
+      "es": "row",
+      "pt": "row"
     },
     "ex": "",
     "exm": {
@@ -5710,7 +6494,9 @@ const N1_KANJI = [
       "zh-CN": "爽",
       "ko": "[refreshing]",
       "vi": "[refreshing]",
-      "id": "[refreshing]"
+      "id": "[refreshing]",
+      "es": "refreshing",
+      "pt": "refreshing"
     },
     "ex": "",
     "exm": {
@@ -5729,7 +6515,9 @@ const N1_KANJI = [
       "zh-CN": "蒼",
       "ko": "[blue]",
       "vi": "[blue]",
-      "id": "[blue]"
+      "id": "[blue]",
+      "es": "azul",
+      "pt": "azul"
     },
     "ex": "",
     "exm": {
@@ -5748,7 +6536,9 @@ const N1_KANJI = [
       "zh-CN": "装",
       "ko": "[attire]",
       "vi": "[attire]",
-      "id": "[attire]"
+      "id": "[attire]",
+      "es": "attire",
+      "pt": "attire"
     },
     "ex": "",
     "exm": {
@@ -5767,7 +6557,9 @@ const N1_KANJI = [
       "zh-CN": "踪",
       "ko": "[trace]",
       "vi": "[trace]",
-      "id": "[trace]"
+      "id": "[trace]",
+      "es": "trace",
+      "pt": "trace"
     },
     "ex": "",
     "exm": {
@@ -5786,7 +6578,9 @@ const N1_KANJI = [
       "zh-CN": "綜",
       "ko": "[synthesize]",
       "vi": "[synthesize]",
-      "id": "[synthesize]"
+      "id": "[synthesize]",
+      "es": "synthesize",
+      "pt": "synthesize"
     },
     "ex": "",
     "exm": {
@@ -5805,7 +6599,9 @@ const N1_KANJI = [
       "zh-CN": "聡",
       "ko": "[wise]",
       "vi": "[wise]",
-      "id": "[wise]"
+      "id": "[wise]",
+      "es": "wise",
+      "pt": "wise"
     },
     "ex": "",
     "exm": {
@@ -5824,7 +6620,9 @@ const N1_KANJI = [
       "zh-CN": "袖",
       "ko": "[sleeve]",
       "vi": "[sleeve]",
-      "id": "[sleeve]"
+      "id": "[sleeve]",
+      "es": "sleeve",
+      "pt": "sleeve"
     },
     "ex": "",
     "exm": {
@@ -5843,7 +6641,9 @@ const N1_KANJI = [
       "zh-CN": "其",
       "ko": "[that]",
       "vi": "[that]",
-      "id": "[that]"
+      "id": "[that]",
+      "es": "that",
+      "pt": "that"
     },
     "ex": "",
     "exm": {
@@ -5862,7 +6662,9 @@ const N1_KANJI = [
       "zh-CN": "揃",
       "ko": "[arrange]",
       "vi": "[arrange]",
-      "id": "[arrange]"
+      "id": "[arrange]",
+      "es": "arrange",
+      "pt": "arrange"
     },
     "ex": "",
     "exm": {
@@ -5881,7 +6683,9 @@ const N1_KANJI = [
       "zh-CN": "遜",
       "ko": "[modest]",
       "vi": "[modest]",
-      "id": "[modest]"
+      "id": "[modest]",
+      "es": "modest",
+      "pt": "modest"
     },
     "ex": "",
     "exm": {
@@ -5900,7 +6704,9 @@ const N1_KANJI = [
       "zh-CN": "汰",
       "ko": "[select]",
       "vi": "[select]",
-      "id": "[select]"
+      "id": "[select]",
+      "es": "select",
+      "pt": "select"
     },
     "ex": "",
     "exm": {
@@ -5919,7 +6725,9 @@ const N1_KANJI = [
       "zh-CN": "楕",
       "ko": "[ellipse]",
       "vi": "[ellipse]",
-      "id": "[ellipse]"
+      "id": "[ellipse]",
+      "es": "ellipse",
+      "pt": "ellipse"
     },
     "ex": "",
     "exm": {
@@ -5938,7 +6746,9 @@ const N1_KANJI = [
       "zh-CN": "舵",
       "ko": "[rudder]",
       "vi": "[rudder]",
-      "id": "[rudder]"
+      "id": "[rudder]",
+      "es": "rudder",
+      "pt": "rudder"
     },
     "ex": "",
     "exm": {
@@ -5957,7 +6767,9 @@ const N1_KANJI = [
       "zh-CN": "堆",
       "ko": "[pile]",
       "vi": "[pile]",
-      "id": "[pile]"
+      "id": "[pile]",
+      "es": "pile",
+      "pt": "pile"
     },
     "ex": "",
     "exm": {
@@ -5976,7 +6788,9 @@ const N1_KANJI = [
       "zh-CN": "岱",
       "ko": "[Mt. Tai]",
       "vi": "[Mt. Tai]",
-      "id": "[Mt. Tai]"
+      "id": "[Mt. Tai]",
+      "es": "Mt. Tai",
+      "pt": "Mt. Tai"
     },
     "ex": "",
     "exm": {
@@ -5995,7 +6809,9 @@ const N1_KANJI = [
       "zh-CN": "戴",
       "ko": "[receive]",
       "vi": "[receive]",
-      "id": "[receive]"
+      "id": "[receive]",
+      "es": "recibir",
+      "pt": "receber"
     },
     "ex": "",
     "exm": {
@@ -6014,7 +6830,9 @@ const N1_KANJI = [
       "zh-CN": "醍",
       "ko": "[whey]",
       "vi": "[whey]",
-      "id": "[whey]"
+      "id": "[whey]",
+      "es": "whey",
+      "pt": "whey"
     },
     "ex": "",
     "exm": {
@@ -6033,7 +6851,9 @@ const N1_KANJI = [
       "zh-CN": "鷹",
       "ko": "[hawk]",
       "vi": "[hawk]",
-      "id": "[hawk]"
+      "id": "[hawk]",
+      "es": "hawk",
+      "pt": "hawk"
     },
     "ex": "",
     "exm": {
@@ -6052,7 +6872,9 @@ const N1_KANJI = [
       "zh-CN": "琢",
       "ko": "[polish]",
       "vi": "[polish]",
-      "id": "[polish]"
+      "id": "[polish]",
+      "es": "polish",
+      "pt": "polish"
     },
     "ex": "",
     "exm": {
@@ -6071,7 +6893,9 @@ const N1_KANJI = [
       "zh-CN": "凧",
       "ko": "[kite]",
       "vi": "[kite]",
-      "id": "[kite]"
+      "id": "[kite]",
+      "es": "kite",
+      "pt": "kite"
     },
     "ex": "",
     "exm": {
@@ -6090,7 +6914,9 @@ const N1_KANJI = [
       "zh-CN": "蛸",
       "ko": "[octopus]",
       "vi": "[octopus]",
-      "id": "[octopus]"
+      "id": "[octopus]",
+      "es": "octopus",
+      "pt": "octopus"
     },
     "ex": "",
     "exm": {
@@ -6109,7 +6935,9 @@ const N1_KANJI = [
       "zh-CN": "只",
       "ko": "[only]",
       "vi": "[only]",
-      "id": "[only]"
+      "id": "[only]",
+      "es": "only",
+      "pt": "only"
     },
     "ex": "",
     "exm": {
@@ -6128,7 +6956,9 @@ const N1_KANJI = [
       "zh-CN": "叩",
       "ko": "[knock]",
       "vi": "[knock]",
-      "id": "[knock]"
+      "id": "[knock]",
+      "es": "knock",
+      "pt": "knock"
     },
     "ex": "",
     "exm": {
@@ -6147,7 +6977,9 @@ const N1_KANJI = [
       "zh-CN": "辰",
       "ko": "[dragon]",
       "vi": "[dragon]",
-      "id": "[dragon]"
+      "id": "[dragon]",
+      "es": "dragon",
+      "pt": "dragon"
     },
     "ex": "",
     "exm": {
@@ -6166,7 +6998,9 @@ const N1_KANJI = [
       "zh-CN": "巽",
       "ko": "[southeast]",
       "vi": "[southeast]",
-      "id": "[southeast]"
+      "id": "[southeast]",
+      "es": "southeast",
+      "pt": "southeast"
     },
     "ex": "",
     "exm": {
@@ -6185,7 +7019,9 @@ const N1_KANJI = [
       "zh-CN": "竪",
       "ko": "[vertical]",
       "vi": "[vertical]",
-      "id": "[vertical]"
+      "id": "[vertical]",
+      "es": "vertical",
+      "pt": "vertical"
     },
     "ex": "",
     "exm": {
@@ -6204,7 +7040,9 @@ const N1_KANJI = [
       "zh-CN": "狸",
       "ko": "[raccoon]",
       "vi": "[raccoon]",
-      "id": "[raccoon]"
+      "id": "[raccoon]",
+      "es": "raccoon",
+      "pt": "raccoon"
     },
     "ex": "",
     "exm": {
@@ -6223,7 +7061,9 @@ const N1_KANJI = [
       "zh-CN": "樽",
       "ko": "[barrel]",
       "vi": "[barrel]",
-      "id": "[barrel]"
+      "id": "[barrel]",
+      "es": "barrel",
+      "pt": "barrel"
     },
     "ex": "",
     "exm": {
@@ -6242,7 +7082,9 @@ const N1_KANJI = [
       "zh-CN": "湛",
       "ko": "[deep]",
       "vi": "[deep]",
-      "id": "[deep]"
+      "id": "[deep]",
+      "es": "profundo",
+      "pt": "profundo"
     },
     "ex": "",
     "exm": {
@@ -6261,7 +7103,9 @@ const N1_KANJI = [
       "zh-CN": "坦",
       "ko": "[flat]",
       "vi": "[flat]",
-      "id": "[flat]"
+      "id": "[flat]",
+      "es": "flat",
+      "pt": "flat"
     },
     "ex": "",
     "exm": {
@@ -6280,7 +7124,9 @@ const N1_KANJI = [
       "zh-CN": "毯",
       "ko": "[rug]",
       "vi": "[rug]",
-      "id": "[rug]"
+      "id": "[rug]",
+      "es": "rug",
+      "pt": "rug"
     },
     "ex": "",
     "exm": {
@@ -6299,7 +7145,9 @@ const N1_KANJI = [
       "zh-CN": "綻",
       "ko": "[rip]",
       "vi": "[rip]",
-      "id": "[rip]"
+      "id": "[rip]",
+      "es": "rip",
+      "pt": "rip"
     },
     "ex": "",
     "exm": {
@@ -6318,7 +7166,9 @@ const N1_KANJI = [
       "zh-CN": "智",
       "ko": "[wisdom]",
       "vi": "[wisdom]",
-      "id": "[wisdom]"
+      "id": "[wisdom]",
+      "es": "wisdom",
+      "pt": "wisdom"
     },
     "ex": "",
     "exm": {
@@ -6337,7 +7187,9 @@ const N1_KANJI = [
       "zh-CN": "馳",
       "ko": "[gallop]",
       "vi": "[gallop]",
-      "id": "[gallop]"
+      "id": "[gallop]",
+      "es": "gallop",
+      "pt": "gallop"
     },
     "ex": "",
     "exm": {
@@ -6356,7 +7208,9 @@ const N1_KANJI = [
       "zh-CN": "衷",
       "ko": "[innermost]",
       "vi": "[innermost]",
-      "id": "[innermost]"
+      "id": "[innermost]",
+      "es": "innermost",
+      "pt": "innermost"
     },
     "ex": "",
     "exm": {
@@ -6375,7 +7229,9 @@ const N1_KANJI = [
       "zh-CN": "猪",
       "ko": "[boar]",
       "vi": "[boar]",
-      "id": "[boar]"
+      "id": "[boar]",
+      "es": "boar",
+      "pt": "boar"
     },
     "ex": "",
     "exm": {
@@ -6394,7 +7250,9 @@ const N1_KANJI = [
       "zh-CN": "兆",
       "ko": "[trillion]",
       "vi": "[trillion]",
-      "id": "[trillion]"
+      "id": "[trillion]",
+      "es": "trillion",
+      "pt": "trillion"
     },
     "ex": "",
     "exm": {
@@ -6413,7 +7271,9 @@ const N1_KANJI = [
       "zh-CN": "凋",
       "ko": "[wither]",
       "vi": "[wither]",
-      "id": "[wither]"
+      "id": "[wither]",
+      "es": "wither",
+      "pt": "wither"
     },
     "ex": "",
     "exm": {
@@ -6432,7 +7292,9 @@ const N1_KANJI = [
       "zh-CN": "喋",
       "ko": "[chatter]",
       "vi": "[chatter]",
-      "id": "[chatter]"
+      "id": "[chatter]",
+      "es": "chatter",
+      "pt": "chatter"
     },
     "ex": "",
     "exm": {
@@ -6451,7 +7313,9 @@ const N1_KANJI = [
       "zh-CN": "寵",
       "ko": "[favor]",
       "vi": "[favor]",
-      "id": "[favor]"
+      "id": "[favor]",
+      "es": "favor",
+      "pt": "favor"
     },
     "ex": "",
     "exm": {
@@ -6470,7 +7334,9 @@ const N1_KANJI = [
       "zh-CN": "帖",
       "ko": "[notebook]",
       "vi": "[notebook]",
-      "id": "[notebook]"
+      "id": "[notebook]",
+      "es": "notebook",
+      "pt": "notebook"
     },
     "ex": "",
     "exm": {
@@ -6489,7 +7355,9 @@ const N1_KANJI = [
       "zh-CN": "暢",
       "ko": "[fluent]",
       "vi": "[fluent]",
-      "id": "[fluent]"
+      "id": "[fluent]",
+      "es": "fluent",
+      "pt": "fluent"
     },
     "ex": "",
     "exm": {
@@ -6508,7 +7376,9 @@ const N1_KANJI = [
       "zh-CN": "潮",
       "ko": "[tide]",
       "vi": "[tide]",
-      "id": "[tide]"
+      "id": "[tide]",
+      "es": "tide",
+      "pt": "tide"
     },
     "ex": "",
     "exm": {
@@ -6527,7 +7397,9 @@ const N1_KANJI = [
       "zh-CN": "牒",
       "ko": "[document]",
       "vi": "[document]",
-      "id": "[document]"
+      "id": "[document]",
+      "es": "document",
+      "pt": "document"
     },
     "ex": "",
     "exm": {
@@ -6546,7 +7418,9 @@ const N1_KANJI = [
       "zh-CN": "銚",
       "ko": "[sake bottle]",
       "vi": "[sake bottle]",
-      "id": "[sake bottle]"
+      "id": "[sake bottle]",
+      "es": "sake bottle",
+      "pt": "sake bottle"
     },
     "ex": "",
     "exm": {
@@ -6565,7 +7439,9 @@ const N1_KANJI = [
       "zh-CN": "勅",
       "ko": "[imperial]",
       "vi": "[imperial]",
-      "id": "[imperial]"
+      "id": "[imperial]",
+      "es": "imperial",
+      "pt": "imperial"
     },
     "ex": "",
     "exm": {
@@ -6584,7 +7460,9 @@ const N1_KANJI = [
       "zh-CN": "朕",
       "ko": "[imperial we]",
       "vi": "[imperial we]",
-      "id": "[imperial we]"
+      "id": "[imperial we]",
+      "es": "imperial we",
+      "pt": "imperial we"
     },
     "ex": "",
     "exm": {
@@ -6603,7 +7481,9 @@ const N1_KANJI = [
       "zh-CN": "津",
       "ko": "[harbor]",
       "vi": "[harbor]",
-      "id": "[harbor]"
+      "id": "[harbor]",
+      "es": "harbor",
+      "pt": "harbor"
     },
     "ex": "",
     "exm": {
@@ -6622,7 +7502,9 @@ const N1_KANJI = [
       "zh-CN": "椎",
       "ko": "[spine]",
       "vi": "[spine]",
-      "id": "[spine]"
+      "id": "[spine]",
+      "es": "spine",
+      "pt": "spine"
     },
     "ex": "",
     "exm": {
@@ -6641,7 +7523,9 @@ const N1_KANJI = [
       "zh-CN": "槌",
       "ko": "[hammer]",
       "vi": "[hammer]",
-      "id": "[hammer]"
+      "id": "[hammer]",
+      "es": "hammer",
+      "pt": "hammer"
     },
     "ex": "",
     "exm": {
@@ -6660,7 +7544,9 @@ const N1_KANJI = [
       "zh-CN": "鎚",
       "ko": "[hammer]",
       "vi": "[hammer]",
-      "id": "[hammer]"
+      "id": "[hammer]",
+      "es": "hammer",
+      "pt": "hammer"
     },
     "ex": "",
     "exm": {
@@ -6679,7 +7565,9 @@ const N1_KANJI = [
       "zh-CN": "佃",
       "ko": "[cultivate]",
       "vi": "[cultivate]",
-      "id": "[cultivate]"
+      "id": "[cultivate]",
+      "es": "cultivate",
+      "pt": "cultivate"
     },
     "ex": "",
     "exm": {
@@ -6698,7 +7586,9 @@ const N1_KANJI = [
       "zh-CN": "辻",
       "ko": "[crossroads]",
       "vi": "[crossroads]",
-      "id": "[crossroads]"
+      "id": "[crossroads]",
+      "es": "crossroads",
+      "pt": "crossroads"
     },
     "ex": "",
     "exm": {
@@ -6717,7 +7607,9 @@ const N1_KANJI = [
       "zh-CN": "蔦",
       "ko": "[ivy]",
       "vi": "[ivy]",
-      "id": "[ivy]"
+      "id": "[ivy]",
+      "es": "ivy",
+      "pt": "ivy"
     },
     "ex": "",
     "exm": {
@@ -6736,7 +7628,9 @@ const N1_KANJI = [
       "zh-CN": "綴",
       "ko": "[compose]",
       "vi": "[compose]",
-      "id": "[compose]"
+      "id": "[compose]",
+      "es": "compose",
+      "pt": "compose"
     },
     "ex": "",
     "exm": {
@@ -6755,7 +7649,9 @@ const N1_KANJI = [
       "zh-CN": "鍔",
       "ko": "[sword guard]",
       "vi": "[sword guard]",
-      "id": "[sword guard]"
+      "id": "[sword guard]",
+      "es": "sword guard",
+      "pt": "sword guard"
     },
     "ex": "",
     "exm": {
@@ -6774,7 +7670,9 @@ const N1_KANJI = [
       "zh-CN": "椿",
       "ko": "[camellia]",
       "vi": "[camellia]",
-      "id": "[camellia]"
+      "id": "[camellia]",
+      "es": "camellia",
+      "pt": "camellia"
     },
     "ex": "",
     "exm": {
@@ -6793,7 +7691,9 @@ const N1_KANJI = [
       "zh-CN": "壺",
       "ko": "[jar]",
       "vi": "[jar]",
-      "id": "[jar]"
+      "id": "[jar]",
+      "es": "jar",
+      "pt": "jar"
     },
     "ex": "",
     "exm": {
@@ -6812,7 +7712,9 @@ const N1_KANJI = [
       "zh-CN": "爪",
       "ko": "[claw]",
       "vi": "[claw]",
-      "id": "[claw]"
+      "id": "[claw]",
+      "es": "claw",
+      "pt": "claw"
     },
     "ex": "",
     "exm": {
@@ -6831,7 +7733,9 @@ const N1_KANJI = [
       "zh-CN": "吊",
       "ko": "[hang]",
       "vi": "[hang]",
-      "id": "[hang]"
+      "id": "[hang]",
+      "es": "colgar",
+      "pt": "pendurar"
     },
     "ex": "",
     "exm": {
@@ -6850,7 +7754,9 @@ const N1_KANJI = [
       "zh-CN": "鶴",
       "ko": "[crane]",
       "vi": "[crane]",
-      "id": "[crane]"
+      "id": "[crane]",
+      "es": "crane",
+      "pt": "crane"
     },
     "ex": "",
     "exm": {
@@ -6869,7 +7775,9 @@ const N1_KANJI = [
       "zh-CN": "悌",
       "ko": "[respect]",
       "vi": "[respect]",
-      "id": "[respect]"
+      "id": "[respect]",
+      "es": "respeto",
+      "pt": "respeito"
     },
     "ex": "",
     "exm": {
@@ -6888,7 +7796,9 @@ const N1_KANJI = [
       "zh-CN": "諦",
       "ko": "[resign]",
       "vi": "[resign]",
-      "id": "[resign]"
+      "id": "[resign]",
+      "es": "resign",
+      "pt": "resign"
     },
     "ex": "",
     "exm": {
@@ -6907,7 +7817,9 @@ const N1_KANJI = [
       "zh-CN": "蹄",
       "ko": "[hoof]",
       "vi": "[hoof]",
-      "id": "[hoof]"
+      "id": "[hoof]",
+      "es": "hoof",
+      "pt": "hoof"
     },
     "ex": "",
     "exm": {
@@ -6926,7 +7838,9 @@ const N1_KANJI = [
       "zh-CN": "笛",
       "ko": "[flute]",
       "vi": "[flute]",
-      "id": "[flute]"
+      "id": "[flute]",
+      "es": "flute",
+      "pt": "flute"
     },
     "ex": "",
     "exm": {
@@ -6945,7 +7859,9 @@ const N1_KANJI = [
       "zh-CN": "溺",
       "ko": "[drown]",
       "vi": "[drown]",
-      "id": "[drown]"
+      "id": "[drown]",
+      "es": "drown",
+      "pt": "drown"
     },
     "ex": "",
     "exm": {
@@ -6964,7 +7880,9 @@ const N1_KANJI = [
       "zh-CN": "轍",
       "ko": "[rut]",
       "vi": "[rut]",
-      "id": "[rut]"
+      "id": "[rut]",
+      "es": "rut",
+      "pt": "rut"
     },
     "ex": "",
     "exm": {
@@ -6983,7 +7901,9 @@ const N1_KANJI = [
       "zh-CN": "填",
       "ko": "[fill]",
       "vi": "[fill]",
-      "id": "[fill]"
+      "id": "[fill]",
+      "es": "llenar",
+      "pt": "encher"
     },
     "ex": "",
     "exm": {
@@ -7002,7 +7922,9 @@ const N1_KANJI = [
       "zh-CN": "澱",
       "ko": "[sediment]",
       "vi": "[sediment]",
-      "id": "[sediment]"
+      "id": "[sediment]",
+      "es": "sediment",
+      "pt": "sediment"
     },
     "ex": "",
     "exm": {
@@ -7021,7 +7943,9 @@ const N1_KANJI = [
       "zh-CN": "堵",
       "ko": "[wall]",
       "vi": "[wall]",
-      "id": "[wall]"
+      "id": "[wall]",
+      "es": "wall",
+      "pt": "wall"
     },
     "ex": "",
     "exm": {
@@ -7040,7 +7964,9 @@ const N1_KANJI = [
       "zh-CN": "屠",
       "ko": "[slaughter]",
       "vi": "[slaughter]",
-      "id": "[slaughter]"
+      "id": "[slaughter]",
+      "es": "slaughter",
+      "pt": "slaughter"
     },
     "ex": "",
     "exm": {
@@ -7059,7 +7985,9 @@ const N1_KANJI = [
       "zh-CN": "徒",
       "ko": "[apprentice]",
       "vi": "[apprentice]",
-      "id": "[apprentice]"
+      "id": "[apprentice]",
+      "es": "apprentice",
+      "pt": "apprentice"
     },
     "ex": "",
     "exm": {
@@ -7078,7 +8006,9 @@ const N1_KANJI = [
       "zh-CN": "斗",
       "ko": "[dipper]",
       "vi": "[dipper]",
-      "id": "[dipper]"
+      "id": "[dipper]",
+      "es": "dipper",
+      "pt": "dipper"
     },
     "ex": "",
     "exm": {
@@ -7097,7 +8027,9 @@ const N1_KANJI = [
       "zh-CN": "杜",
       "ko": "[thicket]",
       "vi": "[thicket]",
-      "id": "[thicket]"
+      "id": "[thicket]",
+      "es": "thicket",
+      "pt": "thicket"
     },
     "ex": "",
     "exm": {
@@ -7116,7 +8048,9 @@ const N1_KANJI = [
       "zh-CN": "賭",
       "ko": "[gamble]",
       "vi": "[gamble]",
-      "id": "[gamble]"
+      "id": "[gamble]",
+      "es": "gamble",
+      "pt": "gamble"
     },
     "ex": "",
     "exm": {
@@ -7135,7 +8069,9 @@ const N1_KANJI = [
       "zh-CN": "鍍",
       "ko": "[gild]",
       "vi": "[gild]",
-      "id": "[gild]"
+      "id": "[gild]",
+      "es": "gild",
+      "pt": "gild"
     },
     "ex": "",
     "exm": {
@@ -7154,7 +8090,9 @@ const N1_KANJI = [
       "zh-CN": "砥",
       "ko": "[grindstone]",
       "vi": "[grindstone]",
-      "id": "[grindstone]"
+      "id": "[grindstone]",
+      "es": "grindstone",
+      "pt": "grindstone"
     },
     "ex": "",
     "exm": {
@@ -7173,7 +8111,9 @@ const N1_KANJI = [
       "zh-CN": "淘",
       "ko": "[wash]",
       "vi": "[wash]",
-      "id": "[wash]"
+      "id": "[wash]",
+      "es": "lavar",
+      "pt": "lavar"
     },
     "ex": "",
     "exm": {
@@ -7192,7 +8132,9 @@ const N1_KANJI = [
       "zh-CN": "涛",
       "ko": "[wave]",
       "vi": "[wave]",
-      "id": "[wave]"
+      "id": "[wave]",
+      "es": "wave",
+      "pt": "wave"
     },
     "ex": "",
     "exm": {
@@ -7211,7 +8153,9 @@ const N1_KANJI = [
       "zh-CN": "栃",
       "ko": "[horse chestnut]",
       "vi": "[horse chestnut]",
-      "id": "[horse chestnut]"
+      "id": "[horse chestnut]",
+      "es": "horse chestnut",
+      "pt": "horse chestnut"
     },
     "ex": "",
     "exm": {
@@ -7230,7 +8174,9 @@ const N1_KANJI = [
       "zh-CN": "苫",
       "ko": "[rush mat]",
       "vi": "[rush mat]",
-      "id": "[rush mat]"
+      "id": "[rush mat]",
+      "es": "rush mat",
+      "pt": "rush mat"
     },
     "ex": "",
     "exm": {
@@ -7249,7 +8195,9 @@ const N1_KANJI = [
       "zh-CN": "寅",
       "ko": "[tiger]",
       "vi": "[tiger]",
-      "id": "[tiger]"
+      "id": "[tiger]",
+      "es": "tiger",
+      "pt": "tiger"
     },
     "ex": "",
     "exm": {
@@ -7268,7 +8216,9 @@ const N1_KANJI = [
       "zh-CN": "酉",
       "ko": "[rooster]",
       "vi": "[rooster]",
-      "id": "[rooster]"
+      "id": "[rooster]",
+      "es": "rooster",
+      "pt": "rooster"
     },
     "ex": "",
     "exm": {
@@ -7287,7 +8237,9 @@ const N1_KANJI = [
       "zh-CN": "沌",
       "ko": "[chaos]",
       "vi": "[chaos]",
-      "id": "[chaos]"
+      "id": "[chaos]",
+      "es": "chaos",
+      "pt": "chaos"
     },
     "ex": "",
     "exm": {
@@ -7306,7 +8258,9 @@ const N1_KANJI = [
       "zh-CN": "遁",
       "ko": "[escape]",
       "vi": "[escape]",
-      "id": "[escape]"
+      "id": "[escape]",
+      "es": "escape",
+      "pt": "escape"
     },
     "ex": "",
     "exm": {
@@ -7325,7 +8279,9 @@ const N1_KANJI = [
       "zh-CN": "頓",
       "ko": "[suddenly]",
       "vi": "[suddenly]",
-      "id": "[suddenly]"
+      "id": "[suddenly]",
+      "es": "suddenly",
+      "pt": "suddenly"
     },
     "ex": "",
     "exm": {
@@ -7344,7 +8300,9 @@ const N1_KANJI = [
       "zh-CN": "貪",
       "ko": "[greedy]",
       "vi": "[greedy]",
-      "id": "[greedy]"
+      "id": "[greedy]",
+      "es": "greedy",
+      "pt": "greedy"
     },
     "ex": "",
     "exm": {
@@ -7363,7 +8321,9 @@ const N1_KANJI = [
       "zh-CN": "呑",
       "ko": "[swallow]",
       "vi": "[swallow]",
-      "id": "[swallow]"
+      "id": "[swallow]",
+      "es": "swallow",
+      "pt": "swallow"
     },
     "ex": "",
     "exm": {
@@ -7382,7 +8342,9 @@ const N1_KANJI = [
       "zh-CN": "丼",
       "ko": "[bowl]",
       "vi": "[bowl]",
-      "id": "[bowl]"
+      "id": "[bowl]",
+      "es": "bowl",
+      "pt": "bowl"
     },
     "ex": "",
     "exm": {
@@ -7401,7 +8363,9 @@ const N1_KANJI = [
       "zh-CN": "奈",
       "ko": "[what]",
       "vi": "[what]",
-      "id": "[what]"
+      "id": "[what]",
+      "es": "what",
+      "pt": "what"
     },
     "ex": "",
     "exm": {
@@ -7420,7 +8384,9 @@ const N1_KANJI = [
       "zh-CN": "乍",
       "ko": "[while]",
       "vi": "[while]",
-      "id": "[while]"
+      "id": "[while]",
+      "es": "while",
+      "pt": "while"
     },
     "ex": "",
     "exm": {
@@ -7439,7 +8405,9 @@ const N1_KANJI = [
       "zh-CN": "凪",
       "ko": "[calm]",
       "vi": "[calm]",
-      "id": "[calm]"
+      "id": "[calm]",
+      "es": "tranquilo",
+      "pt": "calmo"
     },
     "ex": "",
     "exm": {
@@ -7458,7 +8426,9 @@ const N1_KANJI = [
       "zh-CN": "謎",
       "ko": "[riddle]",
       "vi": "[riddle]",
-      "id": "[riddle]"
+      "id": "[riddle]",
+      "es": "riddle",
+      "pt": "riddle"
     },
     "ex": "",
     "exm": {
@@ -7477,7 +8447,9 @@ const N1_KANJI = [
       "zh-CN": "灘",
       "ko": "[open sea]",
       "vi": "[open sea]",
-      "id": "[open sea]"
+      "id": "[open sea]",
+      "es": "open sea",
+      "pt": "open sea"
     },
     "ex": "",
     "exm": {
@@ -7496,7 +8468,9 @@ const N1_KANJI = [
       "zh-CN": "捺",
       "ko": "[press]",
       "vi": "[press]",
-      "id": "[press]"
+      "id": "[press]",
+      "es": "press",
+      "pt": "press"
     },
     "ex": "",
     "exm": {
@@ -7515,7 +8489,9 @@ const N1_KANJI = [
       "zh-CN": "鍋",
       "ko": "[pot]",
       "vi": "[pot]",
-      "id": "[pot]"
+      "id": "[pot]",
+      "es": "pot",
+      "pt": "pot"
     },
     "ex": "",
     "exm": {
@@ -7534,7 +8510,9 @@ const N1_KANJI = [
       "zh-CN": "楢",
       "ko": "[oak]",
       "vi": "[oak]",
-      "id": "[oak]"
+      "id": "[oak]",
+      "es": "oak",
+      "pt": "oak"
     },
     "ex": "",
     "exm": {
@@ -7553,7 +8531,9 @@ const N1_KANJI = [
       "zh-CN": "馴",
       "ko": "[tame]",
       "vi": "[tame]",
-      "id": "[tame]"
+      "id": "[tame]",
+      "es": "tame",
+      "pt": "tame"
     },
     "ex": "",
     "exm": {
@@ -7572,7 +8552,9 @@ const N1_KANJI = [
       "zh-CN": "楠",
       "ko": "[camphor tree]",
       "vi": "[camphor tree]",
-      "id": "[camphor tree]"
+      "id": "[camphor tree]",
+      "es": "camphor tree",
+      "pt": "camphor tree"
     },
     "ex": "",
     "exm": {
@@ -7591,7 +8573,9 @@ const N1_KANJI = [
       "zh-CN": "汝",
       "ko": "[you]",
       "vi": "[you]",
-      "id": "[you]"
+      "id": "[you]",
+      "es": "you",
+      "pt": "you"
     },
     "ex": "",
     "exm": {
@@ -7610,7 +8594,9 @@ const N1_KANJI = [
       "zh-CN": "賑",
       "ko": "[bustling]",
       "vi": "[bustling]",
-      "id": "[bustling]"
+      "id": "[bustling]",
+      "es": "bustling",
+      "pt": "bustling"
     },
     "ex": "",
     "exm": {
@@ -7629,7 +8615,9 @@ const N1_KANJI = [
       "zh-CN": "廿",
       "ko": "[twenty]",
       "vi": "[twenty]",
-      "id": "[twenty]"
+      "id": "[twenty]",
+      "es": "twenty",
+      "pt": "twenty"
     },
     "ex": "",
     "exm": {
@@ -7648,7 +8636,9 @@ const N1_KANJI = [
       "zh-CN": "韮",
       "ko": "[leek]",
       "vi": "[leek]",
-      "id": "[leek]"
+      "id": "[leek]",
+      "es": "leek",
+      "pt": "leek"
     },
     "ex": "",
     "exm": {
@@ -7667,7 +8657,9 @@ const N1_KANJI = [
       "zh-CN": "濡",
       "ko": "[wet]",
       "vi": "[wet]",
-      "id": "[wet]"
+      "id": "[wet]",
+      "es": "mojado",
+      "pt": "molhado"
     },
     "ex": "",
     "exm": {
@@ -7686,7 +8678,9 @@ const N1_KANJI = [
       "zh-CN": "禰",
       "ko": "[ancestral shrine]",
       "vi": "[ancestral shrine]",
-      "id": "[ancestral shrine]"
+      "id": "[ancestral shrine]",
+      "es": "ancestral shrine",
+      "pt": "ancestral shrine"
     },
     "ex": "",
     "exm": {
@@ -7705,7 +8699,9 @@ const N1_KANJI = [
       "zh-CN": "葱",
       "ko": "[green onion]",
       "vi": "[green onion]",
-      "id": "[green onion]"
+      "id": "[green onion]",
+      "es": "green onion",
+      "pt": "green onion"
     },
     "ex": "",
     "exm": {
@@ -7724,7 +8720,9 @@ const N1_KANJI = [
       "zh-CN": "捏",
       "ko": "[fabricate]",
       "vi": "[fabricate]",
-      "id": "[fabricate]"
+      "id": "[fabricate]",
+      "es": "fabricate",
+      "pt": "fabricate"
     },
     "ex": "",
     "exm": {
@@ -7743,7 +8741,9 @@ const N1_KANJI = [
       "zh-CN": "膿",
       "ko": "[pus]",
       "vi": "[pus]",
-      "id": "[pus]"
+      "id": "[pus]",
+      "es": "pus",
+      "pt": "pus"
     },
     "ex": "",
     "exm": {
@@ -7762,7 +8762,9 @@ const N1_KANJI = [
       "zh-CN": "覗",
       "ko": "[peek]",
       "vi": "[peek]",
-      "id": "[peek]"
+      "id": "[peek]",
+      "es": "peek",
+      "pt": "peek"
     },
     "ex": "",
     "exm": {
@@ -7781,7 +8783,9 @@ const N1_KANJI = [
       "zh-CN": "蚤",
       "ko": "[flea]",
       "vi": "[flea]",
-      "id": "[flea]"
+      "id": "[flea]",
+      "es": "flea",
+      "pt": "flea"
     },
     "ex": "",
     "exm": {
@@ -7800,7 +8804,9 @@ const N1_KANJI = [
       "zh-CN": "喉",
       "ko": "[throat]",
       "vi": "[throat]",
-      "id": "[throat]"
+      "id": "[throat]",
+      "es": "throat",
+      "pt": "throat"
     },
     "ex": "",
     "exm": {
@@ -7819,7 +8825,9 @@ const N1_KANJI = [
       "zh-CN": "巴",
       "ko": "[comma]",
       "vi": "[comma]",
-      "id": "[comma]"
+      "id": "[comma]",
+      "es": "comma",
+      "pt": "comma"
     },
     "ex": "",
     "exm": {
@@ -7838,7 +8846,9 @@ const N1_KANJI = [
       "zh-CN": "罵",
       "ko": "[abuse]",
       "vi": "[abuse]",
-      "id": "[abuse]"
+      "id": "[abuse]",
+      "es": "abuse",
+      "pt": "abuse"
     },
     "ex": "",
     "exm": {
@@ -7857,7 +8867,9 @@ const N1_KANJI = [
       "zh-CN": "牌",
       "ko": "[tile]",
       "vi": "[tile]",
-      "id": "[tile]"
+      "id": "[tile]",
+      "es": "tile",
+      "pt": "tile"
     },
     "ex": "",
     "exm": {
@@ -7876,7 +8888,9 @@ const N1_KANJI = [
       "zh-CN": "胚",
       "ko": "[embryo]",
       "vi": "[embryo]",
-      "id": "[embryo]"
+      "id": "[embryo]",
+      "es": "embryo",
+      "pt": "embryo"
     },
     "ex": "",
     "exm": {
@@ -7895,7 +8909,9 @@ const N1_KANJI = [
       "zh-CN": "煤",
       "ko": "[soot]",
       "vi": "[soot]",
-      "id": "[soot]"
+      "id": "[soot]",
+      "es": "soot",
+      "pt": "soot"
     },
     "ex": "",
     "exm": {
@@ -7914,7 +8930,9 @@ const N1_KANJI = [
       "zh-CN": "珀",
       "ko": "[amber]",
       "vi": "[amber]",
-      "id": "[amber]"
+      "id": "[amber]",
+      "es": "amber",
+      "pt": "amber"
     },
     "ex": "",
     "exm": {
@@ -7933,7 +8951,9 @@ const N1_KANJI = [
       "zh-CN": "獏",
       "ko": "[tapir]",
       "vi": "[tapir]",
-      "id": "[tapir]"
+      "id": "[tapir]",
+      "es": "tapir",
+      "pt": "tapir"
     },
     "ex": "",
     "exm": {
@@ -7952,7 +8972,9 @@ const N1_KANJI = [
       "zh-CN": "箸",
       "ko": "[chopsticks]",
       "vi": "[chopsticks]",
-      "id": "[chopsticks]"
+      "id": "[chopsticks]",
+      "es": "chopsticks",
+      "pt": "chopsticks"
     },
     "ex": "",
     "exm": {
@@ -7971,7 +8993,9 @@ const N1_KANJI = [
       "zh-CN": "莫",
       "ko": "[must not]",
       "vi": "[must not]",
-      "id": "[must not]"
+      "id": "[must not]",
+      "es": "must not",
+      "pt": "must not"
     },
     "ex": "",
     "exm": {
@@ -7990,7 +9014,9 @@ const N1_KANJI = [
       "zh-CN": "斑",
       "ko": "[spot]",
       "vi": "[spot]",
-      "id": "[spot]"
+      "id": "[spot]",
+      "es": "spot",
+      "pt": "spot"
     },
     "ex": "",
     "exm": {
@@ -8009,7 +9035,9 @@ const N1_KANJI = [
       "zh-CN": "庇",
       "ko": "[shelter]",
       "vi": "[shelter]",
-      "id": "[shelter]"
+      "id": "[shelter]",
+      "es": "shelter",
+      "pt": "shelter"
     },
     "ex": "",
     "exm": {
@@ -8028,7 +9056,9 @@ const N1_KANJI = [
       "zh-CN": "菱",
       "ko": "[diamond]",
       "vi": "[diamond]",
-      "id": "[diamond]"
+      "id": "[diamond]",
+      "es": "diamond",
+      "pt": "diamond"
     },
     "ex": "",
     "exm": {
@@ -8047,7 +9077,9 @@ const N1_KANJI = [
       "zh-CN": "匹",
       "ko": "[counter]",
       "vi": "[counter]",
-      "id": "[counter]"
+      "id": "[counter]",
+      "es": "counter",
+      "pt": "counter"
     },
     "ex": "",
     "exm": {
@@ -8066,7 +9098,9 @@ const N1_KANJI = [
       "zh-CN": "紐",
       "ko": "[string]",
       "vi": "[string]",
-      "id": "[string]"
+      "id": "[string]",
+      "es": "string",
+      "pt": "string"
     },
     "ex": "",
     "exm": {
@@ -8085,7 +9119,9 @@ const N1_KANJI = [
       "zh-CN": "俵",
       "ko": "[bale]",
       "vi": "[bale]",
-      "id": "[bale]"
+      "id": "[bale]",
+      "es": "bale",
+      "pt": "bale"
     },
     "ex": "",
     "exm": {
@@ -8104,7 +9140,9 @@ const N1_KANJI = [
       "zh-CN": "票",
       "ko": "[vote]",
       "vi": "[vote]",
-      "id": "[vote]"
+      "id": "[vote]",
+      "es": "vote",
+      "pt": "vote"
     },
     "ex": "",
     "exm": {
@@ -8123,7 +9161,9 @@ const N1_KANJI = [
       "zh-CN": "豹",
       "ko": "[leopard]",
       "vi": "[leopard]",
-      "id": "[leopard]"
+      "id": "[leopard]",
+      "es": "leopard",
+      "pt": "leopard"
     },
     "ex": "",
     "exm": {
@@ -8142,7 +9182,9 @@ const N1_KANJI = [
       "zh-CN": "廟",
       "ko": "[mausoleum]",
       "vi": "[mausoleum]",
-      "id": "[mausoleum]"
+      "id": "[mausoleum]",
+      "es": "mausoleum",
+      "pt": "mausoleum"
     },
     "ex": "",
     "exm": {
@@ -8161,7 +9203,9 @@ const N1_KANJI = [
       "zh-CN": "秒",
       "ko": "[second]",
       "vi": "[second]",
-      "id": "[second]"
+      "id": "[second]",
+      "es": "second",
+      "pt": "second"
     },
     "ex": "",
     "exm": {
@@ -8180,7 +9224,9 @@ const N1_KANJI = [
       "zh-CN": "鋲",
       "ko": "[rivet]",
       "vi": "[rivet]",
-      "id": "[rivet]"
+      "id": "[rivet]",
+      "es": "rivet",
+      "pt": "rivet"
     },
     "ex": "",
     "exm": {
@@ -8199,7 +9245,9 @@ const N1_KANJI = [
       "zh-CN": "怖",
       "ko": "[fear]",
       "vi": "[fear]",
-      "id": "[fear]"
+      "id": "[fear]",
+      "es": "fear",
+      "pt": "fear"
     },
     "ex": "",
     "exm": {
@@ -8218,7 +9266,9 @@ const N1_KANJI = [
       "zh-CN": "撫",
       "ko": "[stroke]",
       "vi": "[stroke]",
-      "id": "[stroke]"
+      "id": "[stroke]",
+      "es": "stroke",
+      "pt": "stroke"
     },
     "ex": "",
     "exm": {
@@ -8237,7 +9287,9 @@ const N1_KANJI = [
       "zh-CN": "訃",
       "ko": "[obituary]",
       "vi": "[obituary]",
-      "id": "[obituary]"
+      "id": "[obituary]",
+      "es": "obituary",
+      "pt": "obituary"
     },
     "ex": "",
     "exm": {
@@ -8256,7 +9308,9 @@ const N1_KANJI = [
       "zh-CN": "楓",
       "ko": "[maple]",
       "vi": "[maple]",
-      "id": "[maple]"
+      "id": "[maple]",
+      "es": "maple",
+      "pt": "maple"
     },
     "ex": "",
     "exm": {
@@ -8275,7 +9329,9 @@ const N1_KANJI = [
       "zh-CN": "葺",
       "ko": "[thatch]",
       "vi": "[thatch]",
-      "id": "[thatch]"
+      "id": "[thatch]",
+      "es": "thatch",
+      "pt": "thatch"
     },
     "ex": "",
     "exm": {
@@ -8294,7 +9350,9 @@ const N1_KANJI = [
       "zh-CN": "奮",
       "ko": "[stir up]",
       "vi": "[stir up]",
-      "id": "[stir up]"
+      "id": "[stir up]",
+      "es": "stir up",
+      "pt": "stir up"
     },
     "ex": "",
     "exm": {
@@ -8313,7 +9371,9 @@ const N1_KANJI = [
       "zh-CN": "扮",
       "ko": "[disguise]",
       "vi": "[disguise]",
-      "id": "[disguise]"
+      "id": "[disguise]",
+      "es": "disguise",
+      "pt": "disguise"
     },
     "ex": "",
     "exm": {
@@ -8332,7 +9392,9 @@ const N1_KANJI = [
       "zh-CN": "焚",
       "ko": "[burn]",
       "vi": "[burn]",
-      "id": "[burn]"
+      "id": "[burn]",
+      "es": "quemar",
+      "pt": "queimar"
     },
     "ex": "",
     "exm": {
@@ -8351,7 +9413,9 @@ const N1_KANJI = [
       "zh-CN": "糞",
       "ko": "[feces]",
       "vi": "[feces]",
-      "id": "[feces]"
+      "id": "[feces]",
+      "es": "feces",
+      "pt": "feces"
     },
     "ex": "",
     "exm": {
@@ -8370,7 +9434,9 @@ const N1_KANJI = [
       "zh-CN": "陛",
       "ko": "[majesty]",
       "vi": "[majesty]",
-      "id": "[majesty]"
+      "id": "[majesty]",
+      "es": "majesty",
+      "pt": "majesty"
     },
     "ex": "",
     "exm": {
@@ -8389,7 +9455,9 @@ const N1_KANJI = [
       "zh-CN": "蔑",
       "ko": "[scorn]",
       "vi": "[scorn]",
-      "id": "[scorn]"
+      "id": "[scorn]",
+      "es": "scorn",
+      "pt": "scorn"
     },
     "ex": "",
     "exm": {
@@ -8408,7 +9476,9 @@ const N1_KANJI = [
       "zh-CN": "騙",
       "ko": "[deceive]",
       "vi": "[deceive]",
-      "id": "[deceive]"
+      "id": "[deceive]",
+      "es": "deceive",
+      "pt": "deceive"
     },
     "ex": "",
     "exm": {
@@ -8427,7 +9497,9 @@ const N1_KANJI = [
       "zh-CN": "鞭",
       "ko": "[whip]",
       "vi": "[whip]",
-      "id": "[whip]"
+      "id": "[whip]",
+      "es": "whip",
+      "pt": "whip"
     },
     "ex": "",
     "exm": {
@@ -8446,7 +9518,9 @@ const N1_KANJI = [
       "zh-CN": "輔",
       "ko": "[assist]",
       "vi": "[assist]",
-      "id": "[assist]"
+      "id": "[assist]",
+      "es": "assist",
+      "pt": "assist"
     },
     "ex": "",
     "exm": {
@@ -8465,7 +9539,9 @@ const N1_KANJI = [
       "zh-CN": "捧",
       "ko": "[dedicate]",
       "vi": "[dedicate]",
-      "id": "[dedicate]"
+      "id": "[dedicate]",
+      "es": "dedicate",
+      "pt": "dedicate"
     },
     "ex": "",
     "exm": {
@@ -8484,7 +9560,9 @@ const N1_KANJI = [
       "zh-CN": "烹",
       "ko": "[cooking]",
       "vi": "[cooking]",
-      "id": "[cooking]"
+      "id": "[cooking]",
+      "es": "cooking",
+      "pt": "cooking"
     },
     "ex": "",
     "exm": {
@@ -8503,7 +9581,9 @@ const N1_KANJI = [
       "zh-CN": "鋒",
       "ko": "[point]",
       "vi": "[point]",
-      "id": "[point]"
+      "id": "[point]",
+      "es": "point",
+      "pt": "point"
     },
     "ex": "",
     "exm": {
@@ -8522,7 +9602,9 @@ const N1_KANJI = [
       "zh-CN": "鳳",
       "ko": "[phoenix]",
       "vi": "[phoenix]",
-      "id": "[phoenix]"
+      "id": "[phoenix]",
+      "es": "phoenix",
+      "pt": "phoenix"
     },
     "ex": "",
     "exm": {
@@ -8541,7 +9623,9 @@ const N1_KANJI = [
       "zh-CN": "鵬",
       "ko": "[roc]",
       "vi": "[roc]",
-      "id": "[roc]"
+      "id": "[roc]",
+      "es": "roc",
+      "pt": "roc"
     },
     "ex": "",
     "exm": {
@@ -8560,7 +9644,9 @@ const N1_KANJI = [
       "zh-CN": "貌",
       "ko": "[countenance]",
       "vi": "[countenance]",
-      "id": "[countenance]"
+      "id": "[countenance]",
+      "es": "countenance",
+      "pt": "countenance"
     },
     "ex": "",
     "exm": {
@@ -8579,7 +9665,9 @@ const N1_KANJI = [
       "zh-CN": "坊",
       "ko": "[boy]",
       "vi": "[boy]",
-      "id": "[boy]"
+      "id": "[boy]",
+      "es": "boy",
+      "pt": "boy"
     },
     "ex": "",
     "exm": {
@@ -8598,7 +9686,9 @@ const N1_KANJI = [
       "zh-CN": "紡",
       "ko": "[spin]",
       "vi": "[spin]",
-      "id": "[spin]"
+      "id": "[spin]",
+      "es": "spin",
+      "pt": "spin"
     },
     "ex": "",
     "exm": {
@@ -8617,7 +9707,9 @@ const N1_KANJI = [
       "zh-CN": "肪",
       "ko": "[fat]",
       "vi": "[fat]",
-      "id": "[fat]"
+      "id": "[fat]",
+      "es": "fat",
+      "pt": "fat"
     },
     "ex": "",
     "exm": {
@@ -8636,7 +9728,9 @@ const N1_KANJI = [
       "zh-CN": "卜",
       "ko": "[divination]",
       "vi": "[divination]",
-      "id": "[divination]"
+      "id": "[divination]",
+      "es": "divination",
+      "pt": "divination"
     },
     "ex": "",
     "exm": {
@@ -8655,7 +9749,9 @@ const N1_KANJI = [
       "zh-CN": "勃",
       "ko": "[suddenly]",
       "vi": "[suddenly]",
-      "id": "[suddenly]"
+      "id": "[suddenly]",
+      "es": "suddenly",
+      "pt": "suddenly"
     },
     "ex": "",
     "exm": {
@@ -8674,7 +9770,9 @@ const N1_KANJI = [
       "zh-CN": "幌",
       "ko": "[canopy]",
       "vi": "[canopy]",
-      "id": "[canopy]"
+      "id": "[canopy]",
+      "es": "canopy",
+      "pt": "canopy"
     },
     "ex": "",
     "exm": {
@@ -8693,7 +9791,9 @@ const N1_KANJI = [
       "zh-CN": "枕",
       "ko": "[pillow]",
       "vi": "[pillow]",
-      "id": "[pillow]"
+      "id": "[pillow]",
+      "es": "pillow",
+      "pt": "pillow"
     },
     "ex": "",
     "exm": {
@@ -8712,7 +9812,9 @@ const N1_KANJI = [
       "zh-CN": "叉",
       "ko": "[fork]",
       "vi": "[fork]",
-      "id": "[fork]"
+      "id": "[fork]",
+      "es": "fork",
+      "pt": "fork"
     },
     "ex": "",
     "exm": {
@@ -8731,7 +9833,9 @@ const N1_KANJI = [
       "zh-CN": "亦",
       "ko": "[also]",
       "vi": "[also]",
-      "id": "[also]"
+      "id": "[also]",
+      "es": "also",
+      "pt": "also"
     },
     "ex": "",
     "exm": {
@@ -8750,7 +9854,9 @@ const N1_KANJI = [
       "zh-CN": "末",
       "ko": "[end]",
       "vi": "[end]",
-      "id": "[end]"
+      "id": "[end]",
+      "es": "terminar",
+      "pt": "terminar"
     },
     "ex": "",
     "exm": {
@@ -8769,7 +9875,9 @@ const N1_KANJI = [
       "zh-CN": "沫",
       "ko": "[foam]",
       "vi": "[foam]",
-      "id": "[foam]"
+      "id": "[foam]",
+      "es": "foam",
+      "pt": "foam"
     },
     "ex": "",
     "exm": {
@@ -8788,7 +9896,9 @@ const N1_KANJI = [
       "zh-CN": "麿",
       "ko": "[I]",
       "vi": "[I]",
-      "id": "[I]"
+      "id": "[I]",
+      "es": "I",
+      "pt": "I"
     },
     "ex": "",
     "exm": {
@@ -8807,7 +9917,9 @@ const N1_KANJI = [
       "zh-CN": "脈",
       "ko": "[pulse]",
       "vi": "[pulse]",
-      "id": "[pulse]"
+      "id": "[pulse]",
+      "es": "pulse",
+      "pt": "pulse"
     },
     "ex": "",
     "exm": {
@@ -8826,7 +9938,9 @@ const N1_KANJI = [
       "zh-CN": "螺",
       "ko": "[snail]",
       "vi": "[snail]",
-      "id": "[snail]"
+      "id": "[snail]",
+      "es": "snail",
+      "pt": "snail"
     },
     "ex": "",
     "exm": {
@@ -8845,7 +9959,9 @@ const N1_KANJI = [
       "zh-CN": "辣",
       "ko": "[bitter]",
       "vi": "[bitter]",
-      "id": "[bitter]"
+      "id": "[bitter]",
+      "es": "bitter",
+      "pt": "bitter"
     },
     "ex": "",
     "exm": {
@@ -8864,7 +9980,9 @@ const N1_KANJI = [
       "zh-CN": "裏",
       "ko": "[reverse]",
       "vi": "[reverse]",
-      "id": "[reverse]"
+      "id": "[reverse]",
+      "es": "reverse",
+      "pt": "reverse"
     },
     "ex": "",
     "exm": {
@@ -8883,7 +10001,9 @@ const N1_KANJI = [
       "zh-CN": "里",
       "ko": "[village]",
       "vi": "[village]",
-      "id": "[village]"
+      "id": "[village]",
+      "es": "aldea",
+      "pt": "vila"
     },
     "ex": "",
     "exm": {
@@ -8902,7 +10022,9 @@ const N1_KANJI = [
       "zh-CN": "李",
       "ko": "[plum]",
       "vi": "[plum]",
-      "id": "[plum]"
+      "id": "[plum]",
+      "es": "plum",
+      "pt": "plum"
     },
     "ex": "",
     "exm": {
@@ -8921,7 +10043,9 @@ const N1_KANJI = [
       "zh-CN": "琉",
       "ko": "[Ryukyu]",
       "vi": "[Ryukyu]",
-      "id": "[Ryukyu]"
+      "id": "[Ryukyu]",
+      "es": "Ryukyu",
+      "pt": "Ryukyu"
     },
     "ex": "",
     "exm": {
@@ -8940,7 +10064,9 @@ const N1_KANJI = [
       "zh-CN": "龍",
       "ko": "[dragon]",
       "vi": "[dragon]",
-      "id": "[dragon]"
+      "id": "[dragon]",
+      "es": "dragon",
+      "pt": "dragon"
     },
     "ex": "",
     "exm": {
@@ -8959,7 +10085,9 @@ const N1_KANJI = [
       "zh-CN": "稜",
       "ko": "[edge]",
       "vi": "[edge]",
-      "id": "[edge]"
+      "id": "[edge]",
+      "es": "edge",
+      "pt": "edge"
     },
     "ex": "",
     "exm": {
@@ -8978,7 +10106,9 @@ const N1_KANJI = [
       "zh-CN": "良",
       "ko": "[good]",
       "vi": "[good]",
-      "id": "[good]"
+      "id": "[good]",
+      "es": "bueno",
+      "pt": "bom"
     },
     "ex": "",
     "exm": {
@@ -8997,7 +10127,9 @@ const N1_KANJI = [
       "zh-CN": "諒",
       "ko": "[understand]",
       "vi": "[understand]",
-      "id": "[understand]"
+      "id": "[understand]",
+      "es": "entender",
+      "pt": "entender"
     },
     "ex": "",
     "exm": {
@@ -9016,7 +10148,9 @@ const N1_KANJI = [
       "zh-CN": "遼",
       "ko": "[distant]",
       "vi": "[distant]",
-      "id": "[distant]"
+      "id": "[distant]",
+      "es": "distant",
+      "pt": "distant"
     },
     "ex": "",
     "exm": {
@@ -9035,7 +10169,9 @@ const N1_KANJI = [
       "zh-CN": "緑",
       "ko": "[green]",
       "vi": "[green]",
-      "id": "[green]"
+      "id": "[green]",
+      "es": "verde",
+      "pt": "verde"
     },
     "ex": "",
     "exm": {
@@ -9054,7 +10190,9 @@ const N1_KANJI = [
       "zh-CN": "憐",
       "ko": "[pity]",
       "vi": "[pity]",
-      "id": "[pity]"
+      "id": "[pity]",
+      "es": "pity",
+      "pt": "pity"
     },
     "ex": "",
     "exm": {
@@ -9073,7 +10211,9 @@ const N1_KANJI = [
       "zh-CN": "嶺",
       "ko": "[peak]",
       "vi": "[peak]",
-      "id": "[peak]"
+      "id": "[peak]",
+      "es": "peak",
+      "pt": "peak"
     },
     "ex": "",
     "exm": {
@@ -9092,7 +10232,9 @@ const N1_KANJI = [
       "zh-CN": "怜",
       "ko": "[wise]",
       "vi": "[wise]",
-      "id": "[wise]"
+      "id": "[wise]",
+      "es": "wise",
+      "pt": "wise"
     },
     "ex": "",
     "exm": {
@@ -9111,7 +10253,9 @@ const N1_KANJI = [
       "zh-CN": "玲",
       "ko": "[sound of jewels]",
       "vi": "[sound of jewels]",
-      "id": "[sound of jewels]"
+      "id": "[sound of jewels]",
+      "es": "sound of jewels",
+      "pt": "sound of jewels"
     },
     "ex": "",
     "exm": {
@@ -9130,7 +10274,9 @@ const N1_KANJI = [
       "zh-CN": "牢",
       "ko": "[prison]",
       "vi": "[prison]",
-      "id": "[prison]"
+      "id": "[prison]",
+      "es": "prison",
+      "pt": "prison"
     },
     "ex": "",
     "exm": {
@@ -9149,7 +10295,9 @@ const N1_KANJI = [
       "zh-CN": "狼",
       "ko": "[wolf]",
       "vi": "[wolf]",
-      "id": "[wolf]"
+      "id": "[wolf]",
+      "es": "wolf",
+      "pt": "wolf"
     },
     "ex": "",
     "exm": {
@@ -9168,7 +10316,9 @@ const N1_KANJI = [
       "zh-CN": "脇",
       "ko": "[side]",
       "vi": "[side]",
-      "id": "[side]"
+      "id": "[side]",
+      "es": "side",
+      "pt": "side"
     },
     "ex": "",
     "exm": {

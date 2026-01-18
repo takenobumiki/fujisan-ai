@@ -11,7 +11,9 @@ const N3_GRAMMAR = [
       "zh-CN": "像",
       "ko": "~스럽다",
       "vi": "có vẻ",
-      "id": "seperti"
+      "id": "seperti",
+      "es": "ish",
+      "pt": "ish"
     }
   },
   {
@@ -23,7 +25,9 @@ const N3_GRAMMAR = [
       "zh-CN": "倾向",
       "ko": "~하기 쉽다",
       "vi": "hay",
-      "id": "cenderung"
+      "id": "cenderung",
+      "es": "tend to",
+      "pt": "tend to"
     }
   },
   {
@@ -36,7 +40,9 @@ const N3_GRAMMAR = [
       "zh-CN": "有点",
       "ko": "~기미",
       "vi": "hơi",
-      "id": "agak"
+      "id": "agak",
+      "es": "somewhat",
+      "pt": "somewhat"
     }
   },
   {
@@ -49,7 +55,9 @@ const N3_GRAMMAR = [
       "zh-CN": "适合",
       "ko": "~용",
       "vi": "phù hợp",
-      "id": "cocok untuk"
+      "id": "cocok untuk",
+      "es": "suitable for",
+      "pt": "suitable for"
     }
   },
   {
@@ -62,7 +70,9 @@ const N3_GRAMMAR = [
       "zh-CN": "针对",
       "ko": "~대상",
       "vi": "dành cho",
-      "id": "untuk"
+      "id": "untuk",
+      "es": "intended for",
+      "pt": "intended for"
     }
   },
   {
@@ -75,7 +85,9 @@ const N3_GRAMMAR = [
       "zh-CN": "取决于",
       "ko": "~에 달려있다",
       "vi": "tùy thuộc",
-      "id": "tergantung"
+      "id": "tergantung",
+      "es": "depending on",
+      "pt": "depending on"
     }
   },
   {
@@ -88,7 +100,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正在",
       "ko": "~하는 중",
       "vi": "đang",
-      "id": "sedang"
+      "id": "sedang",
+      "es": "in the middle of",
+      "pt": "in the middle of"
     }
   },
   {
@@ -101,7 +115,9 @@ const N3_GRAMMAR = [
       "zh-CN": "途中",
       "ko": "~도중",
       "vi": "giữa chừng",
-      "id": "di tengah"
+      "id": "di tengah",
+      "es": "on the way",
+      "pt": "on the way"
     }
   },
   {
@@ -114,7 +130,9 @@ const N3_GRAMMAR = [
       "zh-CN": "时候",
       "ko": "~때",
       "vi": "lúc",
-      "id": "saat"
+      "id": "saat",
+      "es": "when",
+      "pt": "when"
     }
   },
   {
@@ -127,7 +145,9 @@ const N3_GRAMMAR = [
       "zh-CN": "上",
       "ko": "~상",
       "vi": "về mặt",
-      "id": "dari segi"
+      "id": "dari segi",
+      "es": "from the standpoint",
+      "pt": "from the standpoint"
     }
   },
   {
@@ -139,7 +159,9 @@ const N3_GRAMMAR = [
       "zh-CN": "趁着",
       "ko": "~동안에",
       "vi": "trong khi",
-      "id": "selagi"
+      "id": "selagi",
+      "es": "while",
+      "pt": "while"
     }
   },
   {
@@ -151,7 +173,9 @@ const N3_GRAMMAR = [
       "zh-CN": "每次",
       "ko": "~할 때마다",
       "vi": "mỗi khi",
-      "id": "setiap kali"
+      "id": "setiap kali",
+      "es": "every time",
+      "pt": "every time"
     }
   },
   {
@@ -163,7 +187,9 @@ const N3_GRAMMAR = [
       "zh-CN": "多亏",
       "ko": "~덕분에",
       "vi": "nhờ",
-      "id": "berkat"
+      "id": "berkat",
+      "es": "thanks to",
+      "pt": "thanks to"
     }
   },
   {
@@ -175,7 +201,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~탓에",
       "vi": "vì",
-      "id": "karena"
+      "id": "karena",
+      "es": "because of",
+      "pt": "because of"
     }
   },
   {
@@ -187,7 +215,9 @@ const N3_GRAMMAR = [
       "zh-CN": "明明",
       "ko": "~주제에",
       "vi": "dù",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -199,7 +229,9 @@ const N3_GRAMMAR = [
       "zh-CN": "对于来说",
       "ko": "~치고는",
       "vi": "so với",
-      "id": "untuk"
+      "id": "untuk",
+      "es": "considering",
+      "pt": "considering"
     }
   },
   {
@@ -212,7 +244,9 @@ const N3_GRAMMAR = [
       "zh-CN": "相对",
       "ko": "~치고",
       "vi": "so với",
-      "id": "dibandingkan"
+      "id": "dibandingkan",
+      "es": "considering",
+      "pt": "considering"
     }
   },
   {
@@ -225,7 +259,9 @@ const N3_GRAMMAR = [
       "zh-CN": "关于",
       "ko": "~에 관해",
       "vi": "về",
-      "id": "mengenai"
+      "id": "mengenai",
+      "es": "regarding",
+      "pt": "regarding"
     }
   },
   {
@@ -238,7 +274,9 @@ const N3_GRAMMAR = [
       "zh-CN": "对于",
       "ko": "~에 대해",
       "vi": "đối với",
-      "id": "terhadap"
+      "id": "terhadap",
+      "es": "towards",
+      "pt": "towards"
     }
   },
   {
@@ -250,7 +288,9 @@ const N3_GRAMMAR = [
       "zh-CN": "关于",
       "ko": "~에 대해",
       "vi": "về",
-      "id": "tentang"
+      "id": "tentang",
+      "es": "about",
+      "pt": "about"
     }
   },
   {
@@ -262,7 +302,9 @@ const N3_GRAMMAR = [
       "zh-CN": "根据",
       "ko": "~에 의하면",
       "vi": "theo",
-      "id": "menurut"
+      "id": "menurut",
+      "es": "according to",
+      "pt": "according to"
     }
   },
   {
@@ -274,7 +316,9 @@ const N3_GRAMMAR = [
       "zh-CN": "由",
       "ko": "~에 의해",
       "vi": "bởi",
-      "id": "oleh"
+      "id": "oleh",
+      "es": "by",
+      "pt": "by"
     }
   },
   {
@@ -286,7 +330,9 @@ const N3_GRAMMAR = [
       "zh-CN": "作为",
       "ko": "~로서",
       "vi": "với tư cách",
-      "id": "sebagai"
+      "id": "sebagai",
+      "es": "as",
+      "pt": "as"
     }
   },
   {
@@ -298,7 +344,9 @@ const N3_GRAMMAR = [
       "zh-CN": "对来说",
       "ko": "~에게",
       "vi": "đối với",
-      "id": "bagi"
+      "id": "bagi",
+      "es": "for",
+      "pt": "for"
     }
   },
   {
@@ -310,7 +358,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在",
       "ko": "~에서",
       "vi": "tại",
-      "id": "di"
+      "id": "di",
+      "es": "in",
+      "pt": "in"
     }
   },
   {
@@ -322,7 +372,9 @@ const N3_GRAMMAR = [
       "zh-CN": "通过",
       "ko": "~를 통해",
       "vi": "qua",
-      "id": "melalui"
+      "id": "melalui",
+      "es": "through",
+      "pt": "through"
     }
   },
   {
@@ -334,7 +386,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以为首",
       "ko": "~를 비롯해",
       "vi": "bắt đầu từ",
-      "id": "dimulai dari"
+      "id": "dimulai dari",
+      "es": "starting with",
+      "pt": "starting with"
     }
   },
   {
@@ -347,7 +401,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以为中心",
       "ko": "~를 중심으로",
       "vi": "lấy làm trung tâm",
-      "id": "berpusat pada"
+      "id": "berpusat pada",
+      "es": "centered on",
+      "pt": "centered on"
     }
   },
   {
@@ -359,7 +415,9 @@ const N3_GRAMMAR = [
       "zh-CN": "顺便",
       "ko": "~하는 김에",
       "vi": "tiện thể",
-      "id": "sekalian"
+      "id": "sekalian",
+      "es": "while at it",
+      "pt": "while at it"
     }
   },
   {
@@ -371,7 +429,9 @@ const N3_GRAMMAR = [
       "zh-CN": "才",
       "ko": "~해서야 비로소",
       "vi": "mới",
-      "id": "baru setelah"
+      "id": "baru setelah",
+      "es": "only after",
+      "pt": "only after"
     }
   },
   {
@@ -383,7 +443,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不先就不行",
       "ko": "~하고 나서가 아니면",
       "vi": "không thì không",
-      "id": "kalau tidak dulu"
+      "id": "kalau tidak dulu",
+      "es": "unless",
+      "pt": "unless"
     }
   },
   {
@@ -395,7 +457,9 @@ const N3_GRAMMAR = [
       "zh-CN": "刚",
       "ko": "~하자마자",
       "vi": "vừa mới",
-      "id": "begitu"
+      "id": "begitu",
+      "es": "just as",
+      "pt": "just as"
     }
   },
   {
@@ -407,7 +471,9 @@ const N3_GRAMMAR = [
       "zh-CN": "没办法",
       "ko": "~할 수 없다",
       "vi": "không thể",
-      "id": "tidak bisa"
+      "id": "tidak bisa",
+      "es": "no way to",
+      "pt": "no way to"
     }
   },
   {
@@ -419,7 +485,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不得不",
       "ko": "~하지 않을 수 없다",
       "vi": "không thể không",
-      "id": "terpaksa"
+      "id": "terpaksa",
+      "es": "have no choice but",
+      "pt": "have no choice but"
     }
   },
   {
@@ -431,7 +499,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不能不",
       "ko": "~하지 않을 수 없다",
       "vi": "phải",
-      "id": "harus"
+      "id": "harus",
+      "es": "must",
+      "pt": "must"
     }
   },
   {
@@ -443,7 +513,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可能",
       "ko": "~할 리가 없다",
       "vi": "không thể nào",
-      "id": "tidak mungkin"
+      "id": "tidak mungkin",
+      "es": "imposible",
+      "pt": "impossível"
     }
   },
   {
@@ -455,7 +527,9 @@ const N3_GRAMMAR = [
       "zh-CN": "并非",
       "ko": "~인 것은 아니다",
       "vi": "không phải là",
-      "id": "bukan berarti"
+      "id": "bukan berarti",
+      "es": "not necessarily",
+      "pt": "not necessarily"
     }
   },
   {
@@ -467,7 +541,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一定",
       "ko": "~임에 틀림없다",
       "vi": "chắc chắn",
-      "id": "pasti"
+      "id": "pasti",
+      "es": "must be",
+      "pt": "must be"
     }
   },
   {
@@ -479,7 +555,9 @@ const N3_GRAMMAR = [
       "zh-CN": "肯定",
       "ko": "~로 정해져 있다",
       "vi": "chắc chắn",
-      "id": "pasti"
+      "id": "pasti",
+      "es": "surely",
+      "pt": "surely"
     }
   },
   {
@@ -491,7 +569,9 @@ const N3_GRAMMAR = [
       "zh-CN": "是吗",
       "ko": "~던가",
       "vi": "là gì nhỉ",
-      "id": "ya kan"
+      "id": "ya kan",
+      "es": "was it",
+      "pt": "was it"
     }
   },
   {
@@ -503,7 +583,9 @@ const N3_GRAMMAR = [
       "zh-CN": "绝不",
       "ko": "~할 것인가",
       "vi": "đâu có",
-      "id": "tidak akan"
+      "id": "tidak akan",
+      "es": "never",
+      "pt": "never"
     }
   },
   {
@@ -515,7 +597,9 @@ const N3_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~것이다",
       "vi": "nên",
-      "id": "seharusnya"
+      "id": "seharusnya",
+      "es": "should",
+      "pt": "should"
     }
   },
   {
@@ -527,7 +611,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然",
       "ko": "~기는 하지만",
       "vi": "tuy",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -539,7 +625,9 @@ const N3_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~하는 것이다",
       "vi": "nên",
-      "id": "sebaiknya"
+      "id": "sebaiknya",
+      "es": "should",
+      "pt": "should"
     }
   },
   {
@@ -551,7 +639,9 @@ const N3_GRAMMAR = [
       "zh-CN": "多么",
       "ko": "~인지",
       "vi": "biết bao",
-      "id": "betapa"
+      "id": "betapa",
+      "es": "how",
+      "pt": "how"
     }
   },
   {
@@ -563,7 +653,9 @@ const N3_GRAMMAR = [
       "zh-CN": "令人",
       "ko": "~게도",
       "vi": "thật",
-      "id": "sungguh"
+      "id": "sungguh",
+      "es": "to my",
+      "pt": "to my"
     }
   },
   {
@@ -575,7 +667,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不必",
       "ko": "~할 것 없다",
       "vi": "không cần",
-      "id": "tidak perlu"
+      "id": "tidak perlu",
+      "es": "no need",
+      "pt": "no need"
     }
   },
   {
@@ -587,7 +681,9 @@ const N3_GRAMMAR = [
       "zh-CN": "规定",
       "ko": "~하게 되어 있다",
       "vi": "được quy định",
-      "id": "seharusnya"
+      "id": "seharusnya",
+      "es": "supposed to",
+      "pt": "supposed to"
     }
   },
   {
@@ -599,7 +695,9 @@ const N3_GRAMMAR = [
       "zh-CN": "决定",
       "ko": "~하기로 하다",
       "vi": "quyết định",
-      "id": "memutuskan"
+      "id": "memutuskan",
+      "es": "decide to",
+      "pt": "decide to"
     }
   },
   {
@@ -611,7 +709,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结果",
       "ko": "~하게 되다",
       "vi": "kết quả là",
-      "id": "menjadi"
+      "id": "menjadi",
+      "es": "turn out",
+      "pt": "turn out"
     }
   },
   {
@@ -623,7 +723,9 @@ const N3_GRAMMAR = [
       "zh-CN": "有时候",
       "ko": "~할 때가 있다",
       "vi": "đôi khi",
-      "id": "kadang"
+      "id": "kadang",
+      "es": "sometimes",
+      "pt": "sometimes"
     }
   },
   {
@@ -635,7 +737,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正要",
       "ko": "~하려던 참이다",
       "vi": "sắp",
-      "id": "akan"
+      "id": "akan",
+      "es": "about to",
+      "pt": "about to"
     }
   },
   {
@@ -647,7 +751,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正当时",
       "ko": "~하는 때에",
       "vi": "đúng lúc",
-      "id": "tepat saat"
+      "id": "tepat saat",
+      "es": "just when",
+      "pt": "just when"
     }
   },
   {
@@ -659,7 +765,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "~해도",
       "vi": "dù",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "even if",
+      "pt": "even if"
     }
   },
   {
@@ -671,7 +779,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只是",
       "ko": "~뿐이다",
       "vi": "chỉ",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -683,7 +793,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只因为",
       "ko": "~하기만 해서",
       "vi": "chỉ vì",
-      "id": "hanya karena"
+      "id": "hanya karena",
+      "es": "just because",
+      "pt": "just because"
     }
   },
   {
@@ -695,7 +807,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不仅",
       "ko": "~뿐만 아니라",
       "vi": "không chỉ",
-      "id": "bukan hanya"
+      "id": "bukan hanya",
+      "es": "not only",
+      "pt": "not only"
     }
   },
   {
@@ -707,7 +821,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不仅",
       "ko": "~뿐만 아니라",
       "vi": "không chỉ",
-      "id": "tidak hanya"
+      "id": "tidak hanya",
+      "es": "not only",
+      "pt": "not only"
     }
   },
   {
@@ -719,7 +835,9 @@ const N3_GRAMMAR = [
       "zh-CN": "总是",
       "ko": "~하기만 하다",
       "vi": "cứ mãi",
-      "id": "selalu"
+      "id": "selalu",
+      "es": "always",
+      "pt": "always"
     }
   },
   {
@@ -731,7 +849,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只",
       "ko": "~뿐",
       "vi": "chỉ",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -743,7 +863,9 @@ const N3_GRAMMAR = [
       "zh-CN": "自从",
       "ko": "~한 채로",
       "vi": "từ khi",
-      "id": "sejak"
+      "id": "sejak",
+      "es": "since",
+      "pt": "since"
     }
   },
   {
@@ -755,7 +877,9 @@ const N3_GRAMMAR = [
       "zh-CN": "完全",
       "ko": "~하다",
       "vi": "hoàn toàn",
-      "id": "sepenuhnya"
+      "id": "sepenuhnya",
+      "es": "completely",
+      "pt": "completely"
     }
   },
   {
@@ -767,7 +891,9 @@ const N3_GRAMMAR = [
       "zh-CN": "无法完全",
       "ko": "~할 수 없다",
       "vi": "không thể hết",
-      "id": "tidak bisa sepenuhnya"
+      "id": "tidak bisa sepenuhnya",
+      "es": "cannot completely",
+      "pt": "cannot completely"
     }
   },
   {
@@ -779,7 +905,9 @@ const N3_GRAMMAR = [
       "zh-CN": "开始",
       "ko": "~하다가 말다",
       "vi": "bắt đầu",
-      "id": "mulai"
+      "id": "mulai",
+      "es": "begin to",
+      "pt": "begin to"
     }
   },
   {
@@ -791,7 +919,9 @@ const N3_GRAMMAR = [
       "zh-CN": "做到一半",
       "ko": "~하다 만",
       "vi": "dở dang",
-      "id": "setengah jadi"
+      "id": "setengah jadi",
+      "es": "half done",
+      "pt": "half done"
     }
   },
   {
@@ -803,7 +933,9 @@ const N3_GRAMMAR = [
       "zh-CN": "难以",
       "ko": "~하기 어렵다",
       "vi": "khó",
-      "id": "sulit"
+      "id": "sulit",
+      "es": "hard to",
+      "pt": "hard to"
     }
   },
   {
@@ -815,7 +947,9 @@ const N3_GRAMMAR = [
       "zh-CN": "难以",
       "ko": "~하기 어렵다",
       "vi": "không thể",
-      "id": "tidak bisa"
+      "id": "tidak bisa",
+      "es": "cannot",
+      "pt": "cannot"
     }
   },
   {
@@ -827,7 +961,9 @@ const N3_GRAMMAR = [
       "zh-CN": "可能会",
       "ko": "~할지도 모른다",
       "vi": "có thể",
-      "id": "mungkin"
+      "id": "mungkin",
+      "es": "might",
+      "pt": "might"
     }
   },
   {
@@ -839,7 +975,9 @@ const N3_GRAMMAR = [
       "zh-CN": "能够",
       "ko": "~할 수 있다",
       "vi": "có thể",
-      "id": "bisa"
+      "id": "bisa",
+      "es": "can",
+      "pt": "can"
     }
   },
   {
@@ -851,7 +989,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不能",
       "ko": "~할 수 없다",
       "vi": "không thể",
-      "id": "tidak bisa"
+      "id": "tidak bisa",
+      "es": "cannot",
+      "pt": "cannot"
     }
   },
   {
@@ -863,7 +1003,9 @@ const N3_GRAMMAR = [
       "zh-CN": "到底",
       "ko": "~해내다",
       "vi": "đến cùng",
-      "id": "sampai akhir"
+      "id": "sampai akhir",
+      "es": "through",
+      "pt": "through"
     }
   },
   {
@@ -875,7 +1017,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一直",
       "ko": "~하다",
       "vi": "liên tục",
-      "id": "terus menerus"
+      "id": "terus menerus",
+      "es": "keep doing",
+      "pt": "keep doing"
     }
   },
   {
@@ -887,7 +1031,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可能",
       "ko": "~할 리 없다",
       "vi": "không thể nào",
-      "id": "mustahil"
+      "id": "mustahil",
+      "es": "no chance",
+      "pt": "no chance"
     }
   },
   {
@@ -899,7 +1045,9 @@ const N3_GRAMMAR = [
       "zh-CN": "连",
       "ko": "~조차",
       "vi": "ngay cả",
-      "id": "bahkan"
+      "id": "bahkan",
+      "es": "even",
+      "pt": "even"
     }
   },
   {
@@ -911,7 +1059,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要",
       "ko": "~하기만 하면",
       "vi": "chỉ cần",
-      "id": "asalkan"
+      "id": "asalkan",
+      "es": "if only",
+      "pt": "if only"
     }
   },
   {
@@ -923,7 +1073,9 @@ const N3_GRAMMAR = [
       "zh-CN": "连",
       "ko": "~조차",
       "vi": "ngay cả",
-      "id": "bahkan"
+      "id": "bahkan",
+      "es": "even",
+      "pt": "even"
     }
   },
   {
@@ -935,7 +1087,9 @@ const N3_GRAMMAR = [
       "zh-CN": "连",
       "ko": "~조차",
       "vi": "ngay cả",
-      "id": "bahkan"
+      "id": "bahkan",
+      "es": "even",
+      "pt": "even"
     }
   },
   {
@@ -947,7 +1101,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正是",
       "ko": "~야말로",
       "vi": "chính là",
-      "id": "justru"
+      "id": "justru",
+      "es": "indeed",
+      "pt": "indeed"
     }
   },
   {
@@ -959,7 +1115,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正因为",
       "ko": "~이기 때문에",
       "vi": "chính vì",
-      "id": "justru karena"
+      "id": "justru karena",
+      "es": "precisely because",
+      "pt": "precisely because"
     }
   },
   {
@@ -971,7 +1129,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只有才",
       "ko": "~해야 비로소",
       "vi": "chỉ khi",
-      "id": "hanya dengan"
+      "id": "hanya dengan",
+      "es": "only by",
+      "pt": "only by"
     }
   },
   {
@@ -983,7 +1143,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只有才有",
       "ko": "~만의",
       "vi": "chỉ có ở",
-      "id": "khas"
+      "id": "khas",
+      "es": "unique to",
+      "pt": "unique to"
     }
   },
   {
@@ -995,7 +1157,9 @@ const N3_GRAMMAR = [
       "zh-CN": "越",
       "ko": "~할수록",
       "vi": "càng",
-      "id": "semakin"
+      "id": "semakin",
+      "es": "the more",
+      "pt": "the more"
     }
   },
   {
@@ -1007,7 +1171,9 @@ const N3_GRAMMAR = [
       "zh-CN": "到了程度",
       "ko": "~할 정도다",
       "vi": "đến mức",
-      "id": "sampai"
+      "id": "sampai",
+      "es": "so much that",
+      "pt": "so much that"
     }
   },
   {
@@ -1019,7 +1185,9 @@ const N3_GRAMMAR = [
       "zh-CN": "值得",
       "ko": "~할 만한",
       "vi": "đáng",
-      "id": "layak"
+      "id": "layak",
+      "es": "worth",
+      "pt": "worth"
     }
   },
   {
@@ -1031,7 +1199,9 @@ const N3_GRAMMAR = [
       "zh-CN": "大约",
       "ko": "~정도",
       "vi": "khoảng",
-      "id": "sekitar"
+      "id": "sekitar",
+      "es": "about",
+      "pt": "about"
     }
   },
   {
@@ -1043,7 +1213,9 @@ const N3_GRAMMAR = [
       "zh-CN": "到程度",
       "ko": "~정도",
       "vi": "đến mức",
-      "id": "sampai"
+      "id": "sampai",
+      "es": "to the extent",
+      "pt": "to the extent"
     }
   },
   {
@@ -1055,7 +1227,9 @@ const N3_GRAMMAR = [
       "zh-CN": "尽量",
       "ko": "~만큼",
       "vi": "hết mức",
-      "id": "sebanyak"
+      "id": "sebanyak",
+      "es": "as much as",
+      "pt": "as much as"
     }
   },
   {
@@ -1067,7 +1241,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正因为",
       "ko": "~만큼",
       "vi": "vì",
-      "id": "karena"
+      "id": "karena",
+      "es": "because",
+      "pt": "because"
     }
   },
   {
@@ -1079,7 +1255,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不愧是",
       "ko": "~답게",
       "vi": "xứng đáng",
-      "id": "pantas"
+      "id": "pantas",
+      "es": "as expected",
+      "pt": "as expected"
     }
   },
   {
@@ -1091,7 +1269,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不愧",
       "ko": "~할 만하다",
       "vi": "xứng đáng",
-      "id": "layak"
+      "id": "layak",
+      "es": "worth",
+      "pt": "worth"
     }
   },
   {
@@ -1104,7 +1284,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要",
       "ko": "~하는 한",
       "vi": "miễn là",
-      "id": "selama"
+      "id": "selama",
+      "es": "as long as",
+      "pt": "as long as"
     }
   },
   {
@@ -1117,7 +1299,9 @@ const N3_GRAMMAR = [
       "zh-CN": "就所知",
       "ko": "~하는 한에서는",
       "vi": "theo như",
-      "id": "sejauh"
+      "id": "sejauh",
+      "es": "as far as",
+      "pt": "as far as"
     }
   },
   {
@@ -1129,7 +1313,9 @@ const N3_GRAMMAR = [
       "zh-CN": "偏偏",
       "ko": "~에 한해서",
       "vi": "chỉ",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -1141,7 +1327,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不限于",
       "ko": "~에 한하지 않고",
       "vi": "không chỉ",
-      "id": "tidak terbatas pada"
+      "id": "tidak terbatas pada",
+      "es": "not only",
+      "pt": "not only"
     }
   },
   {
@@ -1153,7 +1341,9 @@ const N3_GRAMMAR = [
       "zh-CN": "未必",
       "ko": "~라고 할 수 없다",
       "vi": "chưa chắc",
-      "id": "belum tentu"
+      "id": "belum tentu",
+      "es": "not necessarily",
+      "pt": "not necessarily"
     }
   },
   {
@@ -1165,7 +1355,9 @@ const N3_GRAMMAR = [
       "zh-CN": "别说",
       "ko": "~은커녕",
       "vi": "đừng nói",
-      "id": "jangankan"
+      "id": "jangankan",
+      "es": "far from",
+      "pt": "far from"
     }
   },
   {
@@ -1177,7 +1369,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不是时候",
       "ko": "~할 때가 아니다",
       "vi": "không phải lúc",
-      "id": "bukan waktunya"
+      "id": "bukan waktunya",
+      "es": "no time for",
+      "pt": "no time for"
     }
   },
   {
@@ -1190,7 +1384,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一直",
       "ko": "~하기만 하다",
       "vi": "ngày càng",
-      "id": "terus"
+      "id": "terus",
+      "es": "keep doing",
+      "pt": "keep doing"
     }
   },
   {
@@ -1203,7 +1399,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一方面",
       "ko": "~하는 한편",
       "vi": "mặt khác",
-      "id": "di sisi lain"
+      "id": "di sisi lain",
+      "es": "while",
+      "pt": "while"
     }
   },
   {
@@ -1216,7 +1414,9 @@ const N3_GRAMMAR = [
       "zh-CN": "另一方面",
       "ko": "~하는 반면",
       "vi": "mặt khác",
-      "id": "sebaliknya"
+      "id": "sebaliknya",
+      "es": "on the other hand",
+      "pt": "on the other hand"
     }
   },
   {
@@ -1228,7 +1428,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以...为基础",
       "ko": "~을 바탕으로",
       "vi": "dựa trên",
-      "id": "berdasarkan"
+      "id": "berdasarkan",
+      "es": "based on",
+      "pt": "based on"
     }
   },
   {
@@ -1240,7 +1442,9 @@ const N3_GRAMMAR = [
       "zh-CN": "与...相比",
       "ko": "~에 비해",
       "vi": "so với",
-      "id": "dibandingkan"
+      "id": "dibandingkan",
+      "es": "compared to",
+      "pt": "compared to"
     }
   },
   {
@@ -1252,7 +1456,9 @@ const N3_GRAMMAR = [
       "zh-CN": "除了...之外",
       "ko": "~에 더하여",
       "vi": "ngoài ra",
-      "id": "selain"
+      "id": "selain",
+      "es": "in addition to",
+      "pt": "in addition to"
     }
   },
   {
@@ -1264,7 +1470,9 @@ const N3_GRAMMAR = [
       "zh-CN": "根据",
       "ko": "~에 따라",
       "vi": "tùy theo",
-      "id": "sesuai dengan"
+      "id": "sesuai dengan",
+      "es": "according to",
+      "pt": "according to"
     }
   },
   {
@@ -1276,7 +1484,9 @@ const N3_GRAMMAR = [
       "zh-CN": "基于",
       "ko": "~에 근거하여",
       "vi": "dựa vào",
-      "id": "berdasarkan"
+      "id": "berdasarkan",
+      "es": "based on",
+      "pt": "based on"
     }
   },
   {
@@ -1288,7 +1498,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...到",
       "ko": "~에 걸쳐",
       "vi": "từ...đến",
-      "id": "dari...sampai"
+      "id": "dari...sampai",
+      "es": "from...to",
+      "pt": "from...to"
     }
   },
   {
@@ -1300,7 +1512,9 @@ const N3_GRAMMAR = [
       "zh-CN": "遍及",
       "ko": "~에 걸쳐",
       "vi": "khắp",
-      "id": "sepanjang"
+      "id": "sepanjang",
+      "es": "throughout",
+      "pt": "throughout"
     }
   },
   {
@@ -1312,7 +1526,9 @@ const N3_GRAMMAR = [
       "zh-CN": "沿着",
       "ko": "~을 따라",
       "vi": "dọc theo",
-      "id": "sepanjang"
+      "id": "sepanjang",
+      "es": "along",
+      "pt": "along"
     }
   },
   {
@@ -1324,7 +1540,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不管",
       "ko": "~에 관계없이",
       "vi": "bất kể",
-      "id": "terlepas dari"
+      "id": "terlepas dari",
+      "es": "regardless of",
+      "pt": "regardless of"
     }
   },
   {
@@ -1336,7 +1554,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...之前",
       "ko": "~에 앞서",
       "vi": "trước khi",
-      "id": "sebelum"
+      "id": "sebelum",
+      "es": "prior to",
+      "pt": "prior to"
     }
   },
   {
@@ -1349,7 +1569,9 @@ const N3_GRAMMAR = [
       "zh-CN": "伴随着",
       "ko": "~에 따라",
       "vi": "đi kèm với",
-      "id": "bersama dengan"
+      "id": "bersama dengan",
+      "es": "along with",
+      "pt": "along with"
     }
   },
   {
@@ -1361,7 +1583,9 @@ const N3_GRAMMAR = [
       "zh-CN": "随着",
       "ko": "~에 따라",
       "vi": "theo",
-      "id": "seiring dengan"
+      "id": "seiring dengan",
+      "es": "as...then",
+      "pt": "as...then"
     }
   },
   {
@@ -1373,7 +1597,9 @@ const N3_GRAMMAR = [
       "zh-CN": "按照",
       "ko": "~에 따라",
       "vi": "theo",
-      "id": "mengikuti"
+      "id": "mengikuti",
+      "es": "following",
+      "pt": "following"
     }
   },
   {
@@ -1385,7 +1611,9 @@ const N3_GRAMMAR = [
       "zh-CN": "每/由于",
       "ko": "~당/~으로 인해",
       "vi": "mỗi/vì",
-      "id": "per/karena"
+      "id": "per/karena",
+      "es": "per/due to",
+      "pt": "per/due to"
     }
   },
   {
@@ -1397,7 +1625,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以...为契机",
       "ko": "~을 계기로",
       "vi": "nhân dịp",
-      "id": "sebagai pemicu"
+      "id": "sebagai pemicu",
+      "es": "triggered by",
+      "pt": "triggered by"
     }
   },
   {
@@ -1409,7 +1639,9 @@ const N3_GRAMMAR = [
       "zh-CN": "充满",
       "ko": "~을 담아",
       "vi": "với",
-      "id": "penuh dengan"
+      "id": "penuh dengan",
+      "es": "filled with",
+      "pt": "filled with"
     }
   },
   {
@@ -1421,7 +1653,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不论",
       "ko": "~을 불문하고",
       "vi": "bất kể",
-      "id": "tanpa memandang"
+      "id": "tanpa memandang",
+      "es": "regardless of",
+      "pt": "regardless of"
     }
   },
   {
@@ -1433,7 +1667,9 @@ const N3_GRAMMAR = [
       "zh-CN": "当然",
       "ko": "~은 물론",
       "vi": "đương nhiên",
-      "id": "tentu saja"
+      "id": "tentu saja",
+      "es": "not to mention",
+      "pt": "not to mention"
     }
   },
   {
@@ -1445,7 +1681,9 @@ const N3_GRAMMAR = [
       "zh-CN": "暂且不说",
       "ko": "~은 어쨌든",
       "vi": "không kể",
-      "id": "terlepas dari"
+      "id": "terlepas dari",
+      "es": "leaving aside",
+      "pt": "leaving aside"
     }
   },
   {
@@ -1457,7 +1695,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~부터가",
       "vi": "nhìn từ",
-      "id": "dari"
+      "id": "dari",
+      "es": "judging from",
+      "pt": "judging from"
     }
   },
   {
@@ -1469,7 +1709,9 @@ const N3_GRAMMAR = [
       "zh-CN": "既然",
       "ko": "~하는 이상",
       "vi": "đã",
-      "id": "karena"
+      "id": "karena",
+      "es": "since/now that",
+      "pt": "since/now that"
     }
   },
   {
@@ -1481,7 +1723,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然说",
       "ko": "~라고 해서",
       "vi": "chỉ vì",
-      "id": "hanya karena"
+      "id": "hanya karena",
+      "es": "just because",
+      "pt": "just because"
     }
   },
   {
@@ -1493,7 +1737,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...方面",
       "ko": "~하는 데 있어",
       "vi": "trên",
-      "id": "dalam hal"
+      "id": "dalam hal",
+      "es": "in terms of",
+      "pt": "in terms of"
     }
   },
   {
@@ -1505,7 +1751,9 @@ const N3_GRAMMAR = [
       "zh-CN": "既然",
       "ko": "~한 이상",
       "vi": "một khi đã",
-      "id": "karena sudah"
+      "id": "karena sudah",
+      "es": "now that",
+      "pt": "now that"
     }
   },
   {
@@ -1518,7 +1766,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...时",
       "ko": "~할 때",
       "vi": "khi",
-      "id": "pada saat"
+      "id": "pada saat",
+      "es": "when/at the time",
+      "pt": "when/at the time"
     }
   },
   {
@@ -1531,7 +1781,9 @@ const N3_GRAMMAR = [
       "zh-CN": "取决于",
       "ko": "~에 따라",
       "vi": "tùy thuộc vào",
-      "id": "tergantung pada"
+      "id": "tergantung pada",
+      "es": "depending on",
+      "pt": "depending on"
     }
   },
   {
@@ -1544,7 +1796,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正在...的时候",
       "ko": "~하는 중에",
       "vi": "đang giữa",
-      "id": "di tengah"
+      "id": "di tengah",
+      "es": "in the middle of",
+      "pt": "in the middle of"
     }
   },
   {
@@ -1557,7 +1811,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在途中",
       "ko": "~하는 도중에",
       "vi": "trên đường",
-      "id": "di tengah jalan"
+      "id": "di tengah jalan",
+      "es": "on the way",
+      "pt": "on the way"
     }
   },
   {
@@ -1569,7 +1825,9 @@ const N3_GRAMMAR = [
       "zh-CN": "经过...之后",
       "ko": "~끝에",
       "vi": "cuối cùng",
-      "id": "setelah"
+      "id": "setelah",
+      "es": "after/at the end",
+      "pt": "after/at the end"
     }
   },
   {
@@ -1581,7 +1839,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结果",
       "ko": "~한 끝에",
       "vi": "kết cục",
-      "id": "akhirnya"
+      "id": "akhirnya",
+      "es": "in the end",
+      "pt": "in the end"
     }
   },
   {
@@ -1594,7 +1854,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结果",
       "ko": "~한 결과",
       "vi": "kết quả",
-      "id": "sebagai hasil"
+      "id": "sebagai hasil",
+      "es": "as a result",
+      "pt": "as a result"
     }
   },
   {
@@ -1606,7 +1868,9 @@ const N3_GRAMMAR = [
       "zh-CN": "刚...就",
       "ko": "~하자마자",
       "vi": "vừa...thì",
-      "id": "segera setelah"
+      "id": "segera setelah",
+      "es": "just as",
+      "pt": "just as"
     }
   },
   {
@@ -1618,7 +1882,9 @@ const N3_GRAMMAR = [
       "zh-CN": "刚以为...就",
       "ko": "~하나 했더니",
       "vi": "vừa nghĩ...thì",
-      "id": "baru saja"
+      "id": "baru saja",
+      "es": "no sooner than",
+      "pt": "no sooner than"
     }
   },
   {
@@ -1630,7 +1896,9 @@ const N3_GRAMMAR = [
       "zh-CN": "自从...以来",
       "ko": "~한 이래",
       "vi": "từ khi",
-      "id": "sejak"
+      "id": "sejak",
+      "es": "since",
+      "pt": "since"
     }
   },
   {
@@ -1642,7 +1910,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正在",
       "ko": "~하고 있다",
       "vi": "đang dần",
-      "id": "sedang"
+      "id": "sedang",
+      "es": "in the process of",
+      "pt": "in the process of"
     }
   },
   {
@@ -1654,7 +1924,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然",
       "ko": "~하면서도",
       "vi": "mặc dù",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "while/although",
+      "pt": "while/although"
     }
   },
   {
@@ -1666,7 +1938,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然",
       "ko": "~하면서도",
       "vi": "mặc dù",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -1678,7 +1952,9 @@ const N3_GRAMMAR = [
       "zh-CN": "尽管",
       "ko": "~에도 불구하고",
       "vi": "mặc dù",
-      "id": "meskipun"
+      "id": "meskipun",
+      "es": "despite",
+      "pt": "despite"
     }
   },
   {
@@ -1690,7 +1966,9 @@ const N3_GRAMMAR = [
       "zh-CN": "相对于",
       "ko": "~치고는",
       "vi": "so với",
-      "id": "untuk"
+      "id": "untuk",
+      "es": "for/considering",
+      "pt": "for/considering"
     }
   },
   {
@@ -1702,7 +1980,9 @@ const N3_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~라면",
       "vi": "nếu",
-      "id": "jika"
+      "id": "jika",
+      "es": "if it were",
+      "pt": "if it were"
     }
   },
   {
@@ -1714,7 +1994,9 @@ const N3_GRAMMAR = [
       "zh-CN": "假设",
       "ko": "~라면",
       "vi": "nếu",
-      "id": "jika"
+      "id": "jika",
+      "es": "assuming",
+      "pt": "assuming"
     }
   },
   {
@@ -1726,7 +2008,9 @@ const N3_GRAMMAR = [
       "zh-CN": "如果不...的话",
       "ko": "~하지 않으면",
       "vi": "nếu không",
-      "id": "kecuali"
+      "id": "kecuali",
+      "es": "unless",
+      "pt": "unless"
     }
   },
   {
@@ -1738,7 +2022,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "~라고 해도",
       "vi": "dù có",
-      "id": "bahkan jika"
+      "id": "bahkan jika",
+      "es": "even if",
+      "pt": "even if"
     }
   },
   {
@@ -1750,7 +2036,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "설령~해도",
       "vi": "dù cho",
-      "id": "seandainya"
+      "id": "seandainya",
+      "es": "even if",
+      "pt": "even if"
     }
   },
   {
@@ -1762,7 +2050,9 @@ const N3_GRAMMAR = [
       "zh-CN": "越...越",
       "ko": "~하면 할수록",
       "vi": "càng...càng",
-      "id": "semakin"
+      "id": "semakin",
+      "es": "the more...the more",
+      "pt": "the more...the more"
     }
   },
   {
@@ -1774,7 +2064,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要",
       "ko": "~만 하면",
       "vi": "chỉ cần",
-      "id": "asalkan"
+      "id": "asalkan",
+      "es": "if only",
+      "pt": "if only"
     }
   },
   {
@@ -1786,7 +2078,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只能",
       "ko": "~할 수밖에 없다",
       "vi": "chỉ còn cách",
-      "id": "tidak ada pilihan"
+      "id": "tidak ada pilihan",
+      "es": "no choice but",
+      "pt": "no choice but"
     }
   },
   {
@@ -1798,7 +2092,9 @@ const N3_GRAMMAR = [
       "zh-CN": "非常",
       "ko": "~해서 못 견디겠다",
       "vi": "vô cùng",
-      "id": "sangat"
+      "id": "sangat",
+      "es": "unbearably",
+      "pt": "unbearably"
     }
   },
   {
@@ -1810,7 +2106,9 @@ const N3_GRAMMAR = [
       "zh-CN": "非常",
       "ko": "~해서 어쩔 수 없다",
       "vi": "rất",
-      "id": "sangat"
+      "id": "sangat",
+      "es": "extremely",
+      "pt": "extremely"
     }
   },
   {
@@ -1822,7 +2120,9 @@ const N3_GRAMMAR = [
       "zh-CN": "非常",
       "ko": "~해서 어쩔 수 없다",
       "vi": "không chịu được",
-      "id": "sangat"
+      "id": "sangat",
+      "es": "can't help",
+      "pt": "can't help"
     }
   },
   {
@@ -1834,7 +2134,9 @@ const N3_GRAMMAR = [
       "zh-CN": "受不了",
       "ko": "~해서 견딜 수 없다",
       "vi": "không chịu nổi",
-      "id": "tidak tahan"
+      "id": "tidak tahan",
+      "es": "unbearably",
+      "pt": "unbearably"
     }
   },
   {
@@ -1846,7 +2148,9 @@ const N3_GRAMMAR = [
       "zh-CN": "有...的可能",
       "ko": "~할 우려가 있다",
       "vi": "có nguy cơ",
-      "id": "ada risiko"
+      "id": "ada risiko",
+      "es": "there is a risk",
+      "pt": "there is a risk"
     }
   },
   {
@@ -1858,7 +2162,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一直",
       "ko": "~한 채로",
       "vi": "để yên",
-      "id": "dibiarkan"
+      "id": "dibiarkan",
+      "es": "left as is",
+      "pt": "left as is"
     }
   },
   {
@@ -1871,7 +2177,9 @@ const N3_GRAMMAR = [
       "zh-CN": "坚持到底",
       "ko": "끝까지 ~하다",
       "vi": "đến cùng",
-      "id": "sampai akhir"
+      "id": "sampai akhir",
+      "es": "through to the end",
+      "pt": "through to the end"
     }
   },
   {
@@ -1883,7 +2191,9 @@ const N3_GRAMMAR = [
       "zh-CN": "值得",
       "ko": "~할 보람",
       "vi": "đáng",
-      "id": "layak"
+      "id": "layak",
+      "es": "worth doing",
+      "pt": "worth doing"
     }
   },
   {
@@ -1895,7 +2205,9 @@ const N3_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~해야 한다",
       "vi": "nên",
-      "id": "harus"
+      "id": "harus",
+      "es": "should",
+      "pt": "should"
     }
   },
   {
@@ -1907,7 +2219,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不应该",
       "ko": "~해서는 안 된다",
       "vi": "không nên",
-      "id": "tidak seharusnya"
+      "id": "tidak seharusnya",
+      "es": "should not",
+      "pt": "should not"
     }
   },
   {
@@ -1919,7 +2233,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不应该",
       "ko": "~하는 게 아니다",
       "vi": "không nên",
-      "id": "tidak seharusnya"
+      "id": "tidak seharusnya",
+      "es": "shouldn't",
+      "pt": "shouldn't"
     }
   },
   {
@@ -1931,7 +2247,9 @@ const N3_GRAMMAR = [
       "zh-CN": "难怪",
       "ko": "~인 셈이다",
       "vi": "thảo nào",
-      "id": "pantas saja"
+      "id": "pantas saja",
+      "es": "that's why",
+      "pt": "that's why"
     }
   },
   {
@@ -1943,7 +2261,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不能",
       "ko": "~할 수 없다",
       "vi": "không thể",
-      "id": "tidak bisa"
+      "id": "tidak bisa",
+      "es": "cannot",
+      "pt": "cannot"
     }
   },
   {
@@ -1955,7 +2275,9 @@ const N3_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~할 것이다",
       "vi": "chắc là",
-      "id": "seharusnya"
+      "id": "seharusnya",
+      "es": "should be",
+      "pt": "should be"
     }
   },
   {
@@ -1967,7 +2289,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可能",
       "ko": "~할 리가 없다",
       "vi": "không thể",
-      "id": "tidak mungkin"
+      "id": "tidak mungkin",
+      "es": "can't be",
+      "pt": "can't be"
     }
   },
   {
@@ -1979,7 +2303,9 @@ const N3_GRAMMAR = [
       "zh-CN": "据说",
       "ko": "~라는 것이다",
       "vi": "nghĩa là",
-      "id": "artinya"
+      "id": "artinya",
+      "es": "it means that",
+      "pt": "it means that"
     }
   },
   {
@@ -1991,7 +2317,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽说",
       "ko": "~라고 해도",
       "vi": "dù nói là",
-      "id": "meskipun katanya"
+      "id": "meskipun katanya",
+      "es": "even though I say",
+      "pt": "even though I say"
     }
   },
   {
@@ -2003,7 +2331,9 @@ const N3_GRAMMAR = [
       "zh-CN": "说到",
       "ko": "~라고 하면",
       "vi": "nói đến",
-      "id": "berbicara tentang"
+      "id": "berbicara tentang",
+      "es": "speaking of",
+      "pt": "speaking of"
     }
   },
   {
@@ -2015,7 +2345,9 @@ const N3_GRAMMAR = [
       "zh-CN": "与其说",
       "ko": "~라기보다",
       "vi": "hơn là",
-      "id": "daripada"
+      "id": "daripada",
+      "es": "rather than",
+      "pt": "rather than"
     }
   },
   {
@@ -2027,7 +2359,9 @@ const N3_GRAMMAR = [
       "zh-CN": "所谓",
       "ko": "~라는 것은",
       "vi": "cái gọi là",
-      "id": "yang dimaksud"
+      "id": "yang dimaksud",
+      "es": "what is meant by",
+      "pt": "what is meant by"
     }
   },
   {
@@ -2039,7 +2373,9 @@ const N3_GRAMMAR = [
       "zh-CN": "才是",
       "ko": "~라는 것이다",
       "vi": "chính là",
-      "id": "itulah"
+      "id": "itulah",
+      "es": "that's what...is",
+      "pt": "that's what...is"
     }
   },
   {
@@ -2051,7 +2387,9 @@ const N3_GRAMMAR = [
       "zh-CN": "并非不",
       "ko": "~하지 않는 것은 아니다",
       "vi": "không phải không",
-      "id": "bukan tidak"
+      "id": "bukan tidak",
+      "es": "it's not that...not",
+      "pt": "it's not that...not"
     }
   },
   {
@@ -2063,7 +2401,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不禁",
       "ko": "~하지 않을 수 없다",
       "vi": "không thể không",
-      "id": "tidak bisa tidak"
+      "id": "tidak bisa tidak",
+      "es": "can't help but",
+      "pt": "can't help but"
     }
   },
   {
@@ -2075,7 +2415,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不能继续",
       "ko": "~하고 있을 수 없다",
       "vi": "không thể tiếp tục",
-      "id": "tidak bisa terus"
+      "id": "tidak bisa terus",
+      "es": "can't keep",
+      "pt": "can't keep"
     }
   },
   {
@@ -2087,7 +2429,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可",
       "ko": "~해서는 안 된다",
       "vi": "không được",
-      "id": "tidak boleh"
+      "id": "tidak boleh",
+      "es": "must not",
+      "pt": "must not"
     }
   },
   {
@@ -2099,7 +2443,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不仅",
       "ko": "~뿐만 아니라",
       "vi": "không chỉ",
-      "id": "tidak hanya"
+      "id": "tidak hanya",
+      "es": "not only",
+      "pt": "not only"
     }
   },
   {
@@ -2111,7 +2457,9 @@ const N3_GRAMMAR = [
       "zh-CN": "最好",
       "ko": "~가 최고다",
       "vi": "tốt nhất là",
-      "id": "tidak ada yang lebih baik"
+      "id": "tidak ada yang lebih baik",
+      "es": "nothing better than",
+      "pt": "nothing better than"
     }
   },
   {
@@ -2123,7 +2471,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只",
       "ko": "~뿐이다",
       "vi": "chỉ",
-      "id": "hanya"
+      "id": "hanya",
+      "es": "only/just",
+      "pt": "only/just"
     }
   },
   {
@@ -2135,7 +2485,9 @@ const N3_GRAMMAR = [
       "zh-CN": "几乎要",
       "ko": "~할 듯이",
       "vi": "như thể",
-      "id": "seolah-olah"
+      "id": "seolah-olah",
+      "es": "as if about to",
+      "pt": "as if about to"
     }
   },
   {
@@ -2147,7 +2499,9 @@ const N3_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~인 것처럼",
       "vi": "như thể",
-      "id": "seolah-olah"
+      "id": "seolah-olah",
+      "es": "as if",
+      "pt": "as if"
     }
   },
   {
@@ -2159,7 +2513,9 @@ const N3_GRAMMAR = [
       "zh-CN": "尽量",
       "ko": "~하도록 하다",
       "vi": "cố gắng",
-      "id": "berusaha"
+      "id": "berusaha",
+      "es": "try to",
+      "pt": "try to"
     }
   },
   {
@@ -2171,7 +2527,9 @@ const N3_GRAMMAR = [
       "zh-CN": "变得",
       "ko": "~하게 되다",
       "vi": "trở nên",
-      "id": "menjadi"
+      "id": "menjadi",
+      "es": "come to",
+      "pt": "come to"
     }
   },
   {
@@ -2183,7 +2541,9 @@ const N3_GRAMMAR = [
       "zh-CN": "试图",
       "ko": "~하려고 하다",
       "vi": "cố gắng",
-      "id": "mencoba"
+      "id": "mencoba",
+      "es": "try to",
+      "pt": "try to"
     }
   },
   {
@@ -2195,7 +2555,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不愿意",
       "ko": "~하려고 하지 않다",
       "vi": "không chịu",
-      "id": "tidak mau"
+      "id": "tidak mau",
+      "es": "refuse to",
+      "pt": "refuse to"
     }
   },
   {
@@ -2207,7 +2569,9 @@ const N3_GRAMMAR = [
       "zh-CN": "打算",
       "ko": "~하려고 생각하다",
       "vi": "định",
-      "id": "bermaksud"
+      "id": "bermaksud",
+      "es": "thinking of",
+      "pt": "thinking of"
     }
   },
   {
@@ -2219,7 +2583,9 @@ const N3_GRAMMAR = [
       "zh-CN": "有办法",
       "ko": "~할 방법이 있다",
       "vi": "có cách",
-      "id": "ada cara"
+      "id": "ada cara",
+      "es": "there is a way",
+      "pt": "there is a way"
     }
   },
   {
@@ -2231,7 +2597,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只不过",
       "ko": "~에 불과하다",
       "vi": "chỉ là",
-      "id": "hanyalah"
+      "id": "hanyalah",
+      "es": "nothing but",
+      "pt": "nothing but"
     }
   },
   {
@@ -2243,7 +2611,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正是",
       "ko": "~에 다름 아니다",
       "vi": "chính là",
-      "id": "tidak lain adalah"
+      "id": "tidak lain adalah",
+      "es": "nothing but",
+      "pt": "nothing but"
     }
   },
   {
@@ -2255,7 +2625,9 @@ const N3_GRAMMAR = [
       "zh-CN": "无疑",
       "ko": "~임에 틀림없다",
       "vi": "chắc chắn",
-      "id": "tidak diragukan"
+      "id": "tidak diragukan",
+      "es": "undoubtedly",
+      "pt": "undoubtedly"
     }
   },
   {
@@ -2267,7 +2639,9 @@ const N3_GRAMMAR = [
       "zh-CN": "相当于",
       "ko": "~에 해당하다",
       "vi": "tương đương",
-      "id": "setara dengan"
+      "id": "setara dengan",
+      "es": "equivalent to",
+      "pt": "equivalent to"
     }
   },
   {
@@ -2279,7 +2653,9 @@ const N3_GRAMMAR = [
       "zh-CN": "值此",
       "ko": "~에 즈음하여",
       "vi": "nhân dịp",
-      "id": "pada kesempatan"
+      "id": "pada kesempatan",
+      "es": "on the occasion of",
+      "pt": "on the occasion of"
     }
   },
   {
@@ -2291,7 +2667,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...方面",
       "ko": "~에 관해서는",
       "vi": "về việc",
-      "id": "dalam hal"
+      "id": "dalam hal",
+      "es": "when it comes to",
+      "pt": "when it comes to"
     }
   },
   {
@@ -2303,7 +2681,9 @@ const N3_GRAMMAR = [
       "zh-CN": "代替",
       "ko": "~을 대신하여",
       "vi": "thay cho",
-      "id": "menggantikan"
+      "id": "menggantikan",
+      "es": "instead of",
+      "pt": "instead of"
     }
   },
   {
@@ -2315,7 +2695,9 @@ const N3_GRAMMAR = [
       "zh-CN": "与...相反",
       "ko": "~에 반하여",
       "vi": "trái với",
-      "id": "bertentangan dengan"
+      "id": "bertentangan dengan",
+      "es": "contrary to",
+      "pt": "contrary to"
     }
   },
   {
@@ -2327,7 +2709,9 @@ const N3_GRAMMAR = [
       "zh-CN": "可以",
       "ko": "~해도 상관없다",
       "vi": "không sao",
-      "id": "tidak masalah"
+      "id": "tidak masalah",
+      "es": "don't mind if",
+      "pt": "don't mind if"
     }
   },
   {
@@ -2339,7 +2723,9 @@ const N3_GRAMMAR = [
       "zh-CN": "可以",
       "ko": "~해도 괜찮다",
       "vi": "không vấn đề",
-      "id": "tidak apa-apa"
+      "id": "tidak apa-apa",
+      "es": "it's okay to",
+      "pt": "it's okay to"
     }
   },
   {
@@ -2351,7 +2737,9 @@ const N3_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~하지 않으면 안 된다",
       "vi": "phải",
-      "id": "harus"
+      "id": "harus",
+      "es": "must",
+      "pt": "must"
     }
   },
   {
@@ -2363,7 +2751,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不禁",
       "ko": "~하지 않을 수 없다",
       "vi": "không thể không",
-      "id": "tidak bisa tidak"
+      "id": "tidak bisa tidak",
+      "es": "can't help but",
+      "pt": "can't help but"
     }
   },
   {
@@ -2375,7 +2765,9 @@ const N3_GRAMMAR = [
       "zh-CN": "希望",
       "ko": "~해 주었으면 한다",
       "vi": "muốn",
-      "id": "ingin"
+      "id": "ingin",
+      "es": "want someone to",
+      "pt": "want someone to"
     }
   },
   {
@@ -2387,7 +2779,9 @@ const N3_GRAMMAR = [
       "zh-CN": "希望",
       "ko": "~해 주었으면 한다",
       "vi": "muốn",
-      "id": "ingin"
+      "id": "ingin",
+      "es": "would like you to",
+      "pt": "would like you to"
     }
   },
   {
@@ -2399,7 +2793,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请让我",
       "ko": "~하게 해 주다",
       "vi": "cho phép tôi",
-      "id": "biarkan saya"
+      "id": "biarkan saya",
+      "es": "let me/allow me to",
+      "pt": "let me/allow me to"
     }
   },
   {
@@ -2411,7 +2807,9 @@ const N3_GRAMMAR = [
       "zh-CN": "被迫",
       "ko": "~시키다",
       "vi": "bị bắt",
-      "id": "dipaksa"
+      "id": "dipaksa",
+      "es": "be made to",
+      "pt": "be made to"
     }
   },
   {
@@ -2423,7 +2821,9 @@ const N3_GRAMMAR = [
       "zh-CN": "想要",
       "ko": "~하고 싶어하다",
       "vi": "muốn",
-      "id": "ingin"
+      "id": "ingin",
+      "es": "want to (3rd person)",
+      "pt": "want to (3rd person)"
     }
   },
   {
@@ -2435,7 +2835,9 @@ const N3_GRAMMAR = [
       "zh-CN": "最好",
       "ko": "~하는 게 좋다",
       "vi": "nên",
-      "id": "lebih baik"
+      "id": "lebih baik",
+      "es": "had better",
+      "pt": "had better"
     }
   },
   {
@@ -2447,7 +2849,9 @@ const N3_GRAMMAR = [
       "zh-CN": "关于",
       "ko": "~에 관한",
       "vi": "liên quan đến",
-      "id": "regarding"
+      "id": "regarding",
+      "es": "regarding",
+      "pt": "regarding"
     }
   },
   {
@@ -2459,7 +2863,9 @@ const N3_GRAMMAR = [
       "zh-CN": "沿着",
       "ko": "~에 따른",
       "vi": "theo",
-      "id": "along with"
+      "id": "along with",
+      "es": "along with",
+      "pt": "along with"
     }
   },
   {
@@ -2471,7 +2877,9 @@ const N3_GRAMMAR = [
       "zh-CN": "相应的",
       "ko": "~에 맞는",
       "vi": "theo",
-      "id": "according to"
+      "id": "according to",
+      "es": "according to",
+      "pt": "according to"
     }
   },
   {
@@ -2483,7 +2891,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...中的",
       "ko": "~에서의",
       "vi": "tại",
-      "id": "in/at"
+      "id": "in/at",
+      "es": "in/at",
+      "pt": "in/at"
     }
   },
   {
@@ -2496,7 +2906,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...之际",
       "ko": "~에 즈음하여",
       "vi": "nhân dịp",
-      "id": "on the occasion"
+      "id": "on the occasion",
+      "es": "on the occasion",
+      "pt": "on the occasion"
     }
   },
   {
@@ -2508,7 +2920,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...之前",
       "ko": "~에 앞서",
       "vi": "trước khi",
-      "id": "prior to"
+      "id": "prior to",
+      "es": "prior to",
+      "pt": "prior to"
     }
   },
   {
@@ -2520,7 +2934,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以...为契机",
       "ko": "~을 계기로",
       "vi": "nhân cơ hội",
-      "id": "taking opportunity"
+      "id": "taking opportunity",
+      "es": "taking opportunity",
+      "pt": "taking opportunity"
     }
   },
   {
@@ -2533,7 +2949,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...开始",
       "ko": "~을 시작으로",
       "vi": "bắt đầu từ",
-      "id": "beginning with"
+      "id": "beginning with",
+      "es": "beginning with",
+      "pt": "beginning with"
     }
   },
   {
@@ -2545,7 +2963,9 @@ const N3_GRAMMAR = [
       "zh-CN": "围绕",
       "ko": "~을 둘러싸고",
       "vi": "xung quanh",
-      "id": "concerning"
+      "id": "concerning",
+      "es": "concerning",
+      "pt": "concerning"
     }
   },
   {
@@ -2557,7 +2977,9 @@ const N3_GRAMMAR = [
       "zh-CN": "过于",
       "ko": "너무 ~한 나머지",
       "vi": "quá",
-      "id": "so much that"
+      "id": "so much that",
+      "es": "so much that",
+      "pt": "so much that"
     }
   },
   {
@@ -2569,7 +2991,9 @@ const N3_GRAMMAR = [
       "zh-CN": "是否",
       "ko": "~인지 아닌지",
       "vi": "có...hay không",
-      "id": "whether or not"
+      "id": "whether or not",
+      "es": "whether or not",
+      "pt": "whether or not"
     }
   },
   {
@@ -2581,7 +3005,9 @@ const N3_GRAMMAR = [
       "zh-CN": "要说为什么",
       "ko": "~냐 하면",
       "vi": "nếu hỏi tại sao",
-      "id": "the reason is"
+      "id": "the reason is",
+      "es": "the reason is",
+      "pt": "the reason is"
     }
   },
   {
@@ -2593,7 +3019,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一到...就",
       "ko": "~쯤 되면",
       "vi": "khi đến mức",
-      "id": "when it comes to"
+      "id": "when it comes to",
+      "es": "when it comes to",
+      "pt": "when it comes to"
     }
   },
   {
@@ -2605,7 +3033,9 @@ const N3_GRAMMAR = [
       "zh-CN": "无论...还是",
       "ko": "~든 ~든",
       "vi": "dù...hay",
-      "id": "whether...or"
+      "id": "whether...or",
+      "es": "whether...or",
+      "pt": "whether...or"
     }
   },
   {
@@ -2617,7 +3047,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不管...还是",
       "ko": "~이든 ~이든",
       "vi": "dù...hay",
-      "id": "whether...or"
+      "id": "whether...or",
+      "es": "whether...or",
+      "pt": "whether...or"
     }
   },
   {
@@ -2629,7 +3061,9 @@ const N3_GRAMMAR = [
       "zh-CN": "无论...还是",
       "ko": "~도 ~도",
       "vi": "cả...lẫn",
-      "id": "both...and"
+      "id": "both...and",
+      "es": "both...and",
+      "pt": "both...and"
     }
   },
   {
@@ -2641,7 +3075,9 @@ const N3_GRAMMAR = [
       "zh-CN": "什么...什么",
       "ko": "~니 ~니",
       "vi": "nào là",
-      "id": "such things as"
+      "id": "such things as",
+      "es": "such things as",
+      "pt": "such things as"
     }
   },
   {
@@ -2653,7 +3089,9 @@ const N3_GRAMMAR = [
       "zh-CN": "或...或",
       "ko": "~든지 ~든지",
       "vi": "hoặc",
-      "id": "either...or"
+      "id": "either...or",
+      "es": "either...or",
+      "pt": "either...or"
     }
   },
   {
@@ -2665,7 +3103,9 @@ const N3_GRAMMAR = [
       "zh-CN": "无论...还是",
       "ko": "~이든 ~이든",
       "vi": "dù...hay",
-      "id": "whether...or"
+      "id": "whether...or",
+      "es": "whether...or",
+      "pt": "whether...or"
     }
   },
   {
@@ -2677,7 +3117,9 @@ const N3_GRAMMAR = [
       "zh-CN": "每当...时",
       "ko": "~할 때마다",
       "vi": "mỗi khi",
-      "id": "whether...or"
+      "id": "whether...or",
+      "es": "whether...or",
+      "pt": "whether...or"
     }
   },
   {
@@ -2689,7 +3131,9 @@ const N3_GRAMMAR = [
       "zh-CN": "说到",
       "ko": "~라고 하면",
       "vi": "nói đến",
-      "id": "speaking of"
+      "id": "speaking of",
+      "es": "speaking of",
+      "pt": "speaking of"
     }
   },
   {
@@ -2701,7 +3145,9 @@ const N3_GRAMMAR = [
       "zh-CN": "说到",
       "ko": "~라고 하면",
       "vi": "nói đến",
-      "id": "speaking of"
+      "id": "speaking of",
+      "es": "speaking of",
+      "pt": "speaking of"
     }
   },
   {
@@ -2713,7 +3159,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~로 보면",
       "vi": "xét từ",
-      "id": "judging from"
+      "id": "judging from",
+      "es": "judging from",
+      "pt": "judging from"
     }
   },
   {
@@ -2725,7 +3173,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~로 본다면",
       "vi": "xét từ",
-      "id": "judging from"
+      "id": "judging from",
+      "es": "judging from",
+      "pt": "judging from"
     }
   },
   {
@@ -2737,7 +3187,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~로 보면",
       "vi": "nhìn từ",
-      "id": "looking from"
+      "id": "looking from",
+      "es": "looking from",
+      "pt": "looking from"
     }
   },
   {
@@ -2749,7 +3201,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来说",
       "ko": "~로 말하면",
       "vi": "nói từ",
-      "id": "speaking from"
+      "id": "speaking from",
+      "es": "speaking from",
+      "pt": "speaking from"
     }
   },
   {
@@ -2761,7 +3215,9 @@ const N3_GRAMMAR = [
       "zh-CN": "对...来说",
       "ko": "~로서는",
       "vi": "đối với",
-      "id": "from standpoint"
+      "id": "from standpoint",
+      "es": "from standpoint",
+      "pt": "from standpoint"
     }
   },
   {
@@ -2773,7 +3229,9 @@ const N3_GRAMMAR = [
       "zh-CN": "对...来说",
       "ko": "~입장에서 보면",
       "vi": "đối với",
-      "id": "from standpoint"
+      "id": "from standpoint",
+      "es": "from standpoint",
+      "pt": "from standpoint"
     }
   },
   {
@@ -2785,7 +3243,9 @@ const N3_GRAMMAR = [
       "zh-CN": "经过",
       "ko": "~을 거쳐",
       "vi": "qua",
-      "id": "through/via"
+      "id": "through/via",
+      "es": "through/via",
+      "pt": "through/via"
     }
   },
   {
@@ -2797,7 +3257,9 @@ const N3_GRAMMAR = [
       "zh-CN": "直到",
       "ko": "~에 이르기까지",
       "vi": "cho đến",
-      "id": "up until"
+      "id": "up until",
+      "es": "up until",
+      "pt": "up until"
     }
   },
   {
@@ -2809,7 +3271,9 @@ const N3_GRAMMAR = [
       "zh-CN": "至于",
       "ko": "~에 이르러서는",
       "vi": "đến",
-      "id": "as for"
+      "id": "as for",
+      "es": "as for",
+      "pt": "as for"
     }
   },
   {
@@ -2821,7 +3285,9 @@ const N3_GRAMMAR = [
       "zh-CN": "用",
       "ko": "~으로써",
       "vi": "bằng",
-      "id": "with/by means"
+      "id": "with/by means",
+      "es": "with/by means",
+      "pt": "with/by means"
     }
   },
   {
@@ -2833,7 +3299,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以...为基础",
       "ko": "~을 바탕으로",
       "vi": "dựa trên",
-      "id": "based on"
+      "id": "based on",
+      "es": "based on",
+      "pt": "based on"
     }
   },
   {
@@ -2845,7 +3313,9 @@ const N3_GRAMMAR = [
       "zh-CN": "基于",
       "ko": "~을 토대로",
       "vi": "dựa trên",
-      "id": "based on"
+      "id": "based on",
+      "es": "based on",
+      "pt": "based on"
     }
   },
   {
@@ -2857,7 +3327,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以...为前提",
       "ko": "~을 전제로",
       "vi": "với tiền đề",
-      "id": "on premise of"
+      "id": "on premise of",
+      "es": "on premise of",
+      "pt": "on premise of"
     }
   },
   {
@@ -2869,7 +3341,9 @@ const N3_GRAMMAR = [
       "zh-CN": "没有",
       "ko": "~을 빼고",
       "vi": "không có",
-      "id": "without"
+      "id": "without",
+      "es": "without",
+      "pt": "without"
     }
   },
   {
@@ -2881,7 +3355,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不顾",
       "ko": "~을 무시하고",
       "vi": "bất chấp",
-      "id": "despite"
+      "id": "despite",
+      "es": "despite",
+      "pt": "despite"
     }
   },
   {
@@ -2893,7 +3369,9 @@ const N3_GRAMMAR = [
       "zh-CN": "被迫",
       "ko": "~을 어쩔 수 없이",
       "vi": "bị buộc phải",
-      "id": "be forced to"
+      "id": "be forced to",
+      "es": "be forced to",
+      "pt": "be forced to"
     }
   },
   {
@@ -2905,7 +3383,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "~해 봤자",
       "vi": "dù có",
-      "id": "even if"
+      "id": "even if",
+      "es": "even if",
+      "pt": "even if"
     }
   },
   {
@@ -2917,7 +3397,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~라서",
       "vi": "vì",
-      "id": "because of"
+      "id": "because of",
+      "es": "because of",
+      "pt": "because of"
     }
   },
   {
@@ -2929,7 +3411,9 @@ const N3_GRAMMAR = [
       "zh-CN": "身为",
       "ko": "~라는 사람이",
       "vi": "là",
-      "id": "of all people"
+      "id": "of all people",
+      "es": "of all people",
+      "pt": "of all people"
     }
   },
   {
@@ -2941,7 +3425,9 @@ const N3_GRAMMAR = [
       "zh-CN": "到...地步",
       "ko": "~하면서까지",
       "vi": "đến mức",
-      "id": "to the extent"
+      "id": "to the extent",
+      "es": "to the extent",
+      "pt": "to the extent"
     }
   },
   {
@@ -2953,7 +3439,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不停地",
       "ko": "~해 마지않다",
       "vi": "không ngừng",
-      "id": "never stop"
+      "id": "never stop",
+      "es": "never stop",
+      "pt": "never stop"
     }
   },
   {
@@ -2965,7 +3453,9 @@ const N3_GRAMMAR = [
       "zh-CN": "无法忍受",
       "ko": "~에 못 견디다",
       "vi": "không chịu nổi",
-      "id": "unbearable"
+      "id": "unbearable",
+      "es": "unbearable",
+      "pt": "unbearable"
     }
   },
   {
@@ -2977,7 +3467,9 @@ const N3_GRAMMAR = [
       "zh-CN": "值得",
       "ko": "~할 만하다",
       "vi": "đáng",
-      "id": "worthy of"
+      "id": "worthy of",
+      "es": "worthy of",
+      "pt": "worthy of"
     }
   },
   {
@@ -2990,7 +3482,9 @@ const N3_GRAMMAR = [
       "zh-CN": "极致",
       "ko": "~의 극치",
       "vi": "đỉnh cao",
-      "id": "the height of"
+      "id": "the height of",
+      "es": "the height of",
+      "pt": "the height of"
     }
   },
   {
@@ -3002,7 +3496,9 @@ const N3_GRAMMAR = [
       "zh-CN": "让我们",
       "ko": "~하자",
       "vi": "hãy",
-      "id": "let's"
+      "id": "let's",
+      "es": "let's",
+      "pt": "let's"
     }
   },
   {
@@ -3014,7 +3510,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不会",
       "ko": "~하지 않겠다",
       "vi": "sẽ không",
-      "id": "won't/probably not"
+      "id": "won't/probably not",
+      "es": "won't/probably not",
+      "pt": "won't/probably not"
     }
   },
   {
@@ -3026,7 +3524,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不...吗",
       "ko": "~하지 않을까",
       "vi": "không...sao",
-      "id": "won't you"
+      "id": "won't you",
+      "es": "won't you",
+      "pt": "won't you"
     }
   },
   {
@@ -3038,7 +3538,9 @@ const N3_GRAMMAR = [
       "zh-CN": "难道不能",
       "ko": "~할 수 없을까",
       "vi": "không thể sao",
-      "id": "isn't there"
+      "id": "isn't there",
+      "es": "isn't there",
+      "pt": "isn't there"
     }
   },
   {
@@ -3050,7 +3552,9 @@ const N3_GRAMMAR = [
       "zh-CN": "并非不可能",
       "ko": "~하지 않는 것도 아니다",
       "vi": "không phải không",
-      "id": "not impossible"
+      "id": "not impossible",
+      "es": "not impossible",
+      "pt": "not impossible"
     }
   },
   {
@@ -3062,7 +3566,9 @@ const N3_GRAMMAR = [
       "zh-CN": "有...之处",
       "ko": "~한 점이 있다",
       "vi": "có",
-      "id": "there is"
+      "id": "there is",
+      "es": "there is",
+      "pt": "there is"
     }
   },
   {
@@ -3074,7 +3580,9 @@ const N3_GRAMMAR = [
       "zh-CN": "明明",
       "ko": "~것을",
       "vi": "mà",
-      "id": "even though"
+      "id": "even though",
+      "es": "even though",
+      "pt": "even though"
     }
   },
   {
@@ -3086,7 +3594,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~한 일이라",
       "vi": "vì",
-      "id": "because"
+      "id": "because",
+      "es": "because",
+      "pt": "because"
     }
   },
   {
@@ -3098,7 +3608,9 @@ const N3_GRAMMAR = [
       "zh-CN": "没有",
       "ko": "~하는 일 없이",
       "vi": "không",
-      "id": "without"
+      "id": "without",
+      "es": "without",
+      "pt": "without"
     }
   },
   {
@@ -3110,7 +3622,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不...就",
       "ko": "~함이 없이",
       "vi": "không",
-      "id": "without"
+      "id": "without",
+      "es": "without",
+      "pt": "without"
     }
   },
   {
@@ -3122,7 +3636,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~한 것으로 보아",
       "vi": "từ việc",
-      "id": "from the fact"
+      "id": "from the fact",
+      "es": "from the fact",
+      "pt": "from the fact"
     }
   },
   {
@@ -3134,7 +3650,9 @@ const N3_GRAMMAR = [
       "zh-CN": "在...面前",
       "ko": "~한 관계로",
       "vi": "trước mặt",
-      "id": "in front of"
+      "id": "in front of",
+      "es": "in front of",
+      "pt": "in front of"
     }
   },
   {
@@ -3146,7 +3664,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一旦...就",
       "ko": "~하면 그만",
       "vi": "một khi",
-      "id": "once...then"
+      "id": "once...then",
+      "es": "once...then",
+      "pt": "once...then"
     }
   },
   {
@@ -3158,7 +3678,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一...就",
       "ko": "~하자마자",
       "vi": "vừa...liền",
-      "id": "as soon as"
+      "id": "as soon as",
+      "es": "as soon as",
+      "pt": "as soon as"
     }
   },
   {
@@ -3170,7 +3692,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一...就",
       "ko": "~하자마자",
       "vi": "vừa...liền",
-      "id": "as soon as"
+      "id": "as soon as",
+      "es": "as soon as",
+      "pt": "as soon as"
     }
   },
   {
@@ -3182,7 +3706,9 @@ const N3_GRAMMAR = [
       "zh-CN": "刚...就",
       "ko": "~하기가 무섭게",
       "vi": "vừa...đã",
-      "id": "as soon as"
+      "id": "as soon as",
+      "es": "as soon as",
+      "pt": "as soon as"
     }
   },
   {
@@ -3194,7 +3720,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一...就",
       "ko": "~하자마자",
       "vi": "vừa...liền",
-      "id": "as soon as"
+      "id": "as soon as",
+      "es": "as soon as",
+      "pt": "as soon as"
     }
   },
   {
@@ -3206,7 +3734,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结果没有",
       "ko": "~하지 못한 채",
       "vi": "cuối cùng không",
-      "id": "end up not"
+      "id": "end up not",
+      "es": "end up not",
+      "pt": "end up not"
     }
   },
   {
@@ -3218,7 +3748,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使不",
       "ko": "~까지는 아니더라도",
       "vi": "dù không đến mức",
-      "id": "even if not"
+      "id": "even if not",
+      "es": "even if not",
+      "pt": "even if not"
     }
   },
   {
@@ -3230,7 +3762,9 @@ const N3_GRAMMAR = [
       "zh-CN": "保持着",
       "ko": "~한 채로",
       "vi": "trong khi",
-      "id": "while being"
+      "id": "while being",
+      "es": "while being",
+      "pt": "while being"
     }
   },
   {
@@ -3242,7 +3776,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不知不觉",
       "ko": "~인지 모르게",
       "vi": "vô tình",
-      "id": "without meaning"
+      "id": "without meaning",
+      "es": "without meaning",
+      "pt": "without meaning"
     }
   },
   {
@@ -3254,7 +3790,9 @@ const N3_GRAMMAR = [
       "zh-CN": "如果是",
       "ko": "~라면",
       "vi": "nếu là",
-      "id": "if it is"
+      "id": "if it is",
+      "es": "if it is",
+      "pt": "if it is"
     }
   },
   {
@@ -3266,7 +3804,9 @@ const N3_GRAMMAR = [
       "zh-CN": "好像在说",
       "ko": "~라는 듯이",
       "vi": "như thể nói",
-      "id": "as if to say"
+      "id": "as if to say",
+      "es": "as if to say",
+      "pt": "as if to say"
     }
   },
   {
@@ -3278,7 +3818,9 @@ const N3_GRAMMAR = [
       "zh-CN": "本以为",
       "ko": "~인가 했더니",
       "vi": "tưởng là",
-      "id": "contrary to"
+      "id": "contrary to",
+      "es": "contrary to",
+      "pt": "contrary to"
     }
   },
   {
@@ -3290,7 +3832,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然说",
       "ko": "~라고는 해도",
       "vi": "mặc dù nói là",
-      "id": "although"
+      "id": "although",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -3302,7 +3846,9 @@ const N3_GRAMMAR = [
       "zh-CN": "大约是",
       "ko": "~정도이다",
       "vi": "khoảng",
-      "id": "about"
+      "id": "about",
+      "es": "about",
+      "pt": "about"
     }
   },
   {
@@ -3314,7 +3860,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不只是",
       "ko": "~에만 해당되는 것이 아니다",
       "vi": "không chỉ",
-      "id": "not only"
+      "id": "not only",
+      "es": "not only",
+      "pt": "not only"
     }
   },
   {
@@ -3326,7 +3874,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结果",
       "ko": "~하는 꼴이다",
       "vi": "kết cục",
-      "id": "end up"
+      "id": "end up",
+      "es": "end up",
+      "pt": "end up"
     }
   },
   {
@@ -3338,7 +3888,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只是",
       "ko": "~할 뿐이다",
       "vi": "chỉ",
-      "id": "just"
+      "id": "just",
+      "es": "just",
+      "pt": "just"
     }
   },
   {
@@ -3350,7 +3902,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不必",
       "ko": "~할 것도 없다",
       "vi": "không cần",
-      "id": "no need"
+      "id": "no need",
+      "es": "no need",
+      "pt": "no need"
     }
   },
   {
@@ -3362,7 +3916,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "~라도",
       "vi": "dù",
-      "id": "even"
+      "id": "even",
+      "es": "even",
+      "pt": "even"
     }
   },
   {
@@ -3374,7 +3930,9 @@ const N3_GRAMMAR = [
       "zh-CN": "以自己的方式",
       "ko": "~나름대로",
       "vi": "theo cách",
-      "id": "in one's way"
+      "id": "in one's way",
+      "es": "in one's way",
+      "pt": "in one's way"
     }
   },
   {
@@ -3386,7 +3944,9 @@ const N3_GRAMMAR = [
       "zh-CN": "自己的",
       "ko": "~나름의",
       "vi": "của riêng",
-      "id": "one's own"
+      "id": "one's own",
+      "es": "one's own",
+      "pt": "one's own"
     }
   },
   {
@@ -3398,7 +3958,9 @@ const N3_GRAMMAR = [
       "zh-CN": "像...一样",
       "ko": "~따위",
       "vi": "như",
-      "id": "like"
+      "id": "like",
+      "es": "gustar",
+      "pt": "gostar"
     }
   },
   {
@@ -3410,7 +3972,9 @@ const N3_GRAMMAR = [
       "zh-CN": "取决于",
       "ko": "~여하에 따라",
       "vi": "tùy thuộc",
-      "id": "depending on"
+      "id": "depending on",
+      "es": "depending on",
+      "pt": "depending on"
     }
   },
   {
@@ -3422,7 +3986,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不管",
       "ko": "~여하에 관계없이",
       "vi": "bất kể",
-      "id": "regardless"
+      "id": "regardless",
+      "es": "regardless",
+      "pt": "regardless"
     }
   },
   {
@@ -3434,7 +4000,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不论",
       "ko": "~여하와 상관없이",
       "vi": "bất kể",
-      "id": "regardless"
+      "id": "regardless",
+      "es": "regardless",
+      "pt": "regardless"
     }
   },
   {
@@ -3447,7 +4015,9 @@ const N3_GRAMMAR = [
       "zh-CN": "非常",
       "ko": "~하기 짝이 없다",
       "vi": "vô cùng",
-      "id": "extremely"
+      "id": "extremely",
+      "es": "extremely",
+      "pt": "extremely"
     }
   },
   {
@@ -3459,7 +4029,9 @@ const N3_GRAMMAR = [
       "zh-CN": "极其",
       "ko": "~하기 짝이 없다",
       "vi": "cực kỳ",
-      "id": "extremely"
+      "id": "extremely",
+      "es": "extremely",
+      "pt": "extremely"
     }
   },
   {
@@ -3471,7 +4043,9 @@ const N3_GRAMMAR = [
       "zh-CN": "极其",
       "ko": "~하기 이를 데 없다",
       "vi": "cực kỳ",
-      "id": "extremely"
+      "id": "extremely",
+      "es": "extremely",
+      "pt": "extremely"
     }
   },
   {
@@ -3483,7 +4057,9 @@ const N3_GRAMMAR = [
       "zh-CN": "非常",
       "ko": "~지극히",
       "vi": "rất",
-      "id": "very"
+      "id": "very",
+      "es": "very",
+      "pt": "very"
     }
   },
   {
@@ -3495,7 +4071,9 @@ const N3_GRAMMAR = [
       "zh-CN": "身为",
       "ko": "~라는 자로서",
       "vi": "với tư cách",
-      "id": "as someone who"
+      "id": "as someone who",
+      "es": "as someone who",
+      "pt": "as someone who"
     }
   },
   {
@@ -3507,7 +4085,9 @@ const N3_GRAMMAR = [
       "zh-CN": "身处",
       "ko": "~에 있어",
       "vi": "trong",
-      "id": "being in"
+      "id": "being in",
+      "es": "being in",
+      "pt": "being in"
     }
   },
   {
@@ -3519,7 +4099,9 @@ const N3_GRAMMAR = [
       "zh-CN": "才",
       "ko": "~에서야",
       "vi": "mới",
-      "id": "at/being"
+      "id": "at/being",
+      "es": "at/being",
+      "pt": "at/being"
     }
   },
   {
@@ -3531,7 +4113,9 @@ const N3_GRAMMAR = [
       "zh-CN": "根据",
       "ko": "~에 입각하여",
       "vi": "theo",
-      "id": "in accordance"
+      "id": "in accordance",
+      "es": "in accordance",
+      "pt": "in accordance"
     }
   },
   {
@@ -3543,7 +4127,9 @@ const N3_GRAMMAR = [
       "zh-CN": "顺便",
       "ko": "~겸",
       "vi": "nhân tiện",
-      "id": "while doing"
+      "id": "while doing",
+      "es": "while doing",
+      "pt": "while doing"
     }
   },
   {
@@ -3555,7 +4141,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一边...一边",
       "ko": "~하는 한편",
       "vi": "bên cạnh",
-      "id": "while doing"
+      "id": "while doing",
+      "es": "while doing",
+      "pt": "while doing"
     }
   },
   {
@@ -3567,7 +4155,9 @@ const N3_GRAMMAR = [
       "zh-CN": "顺便",
       "ko": "~겸",
       "vi": "nhân tiện",
-      "id": "while doing"
+      "id": "while doing",
+      "es": "while doing",
+      "pt": "while doing"
     }
   },
   {
@@ -3579,7 +4169,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不顾",
       "ko": "~을 아랑곳하지 않고",
       "vi": "bất chấp",
-      "id": "despite"
+      "id": "despite",
+      "es": "despite",
+      "pt": "despite"
     }
   },
   {
@@ -3591,7 +4183,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不禁",
       "ko": "~을 금할 수 없다",
       "vi": "không thể không",
-      "id": "can't help"
+      "id": "can't help",
+      "es": "can't help",
+      "pt": "can't help"
     }
   },
   {
@@ -3603,7 +4197,9 @@ const N3_GRAMMAR = [
       "zh-CN": "为了",
       "ko": "~기 위하여",
       "vi": "để",
-      "id": "in order to"
+      "id": "in order to",
+      "es": "in order to",
+      "pt": "in order to"
     }
   },
   {
@@ -3615,7 +4211,9 @@ const N3_GRAMMAR = [
       "zh-CN": "为了",
       "ko": "~하고자",
       "vi": "để",
-      "id": "in order to"
+      "id": "in order to",
+      "es": "in order to",
+      "pt": "in order to"
     }
   },
   {
@@ -3627,7 +4225,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可",
       "ko": "~해서는 안 된다",
       "vi": "không được",
-      "id": "must not"
+      "id": "must not",
+      "es": "must not",
+      "pt": "must not"
     }
   },
   {
@@ -3639,7 +4239,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可",
       "ko": "~해서는 안 되는",
       "vi": "không được",
-      "id": "must not"
+      "id": "must not",
+      "es": "must not",
+      "pt": "must not"
     }
   },
   {
@@ -3651,7 +4253,9 @@ const N3_GRAMMAR = [
       "zh-CN": "既然",
       "ko": "~이상",
       "vi": "đã...thì",
-      "id": "now that"
+      "id": "now that",
+      "es": "now that",
+      "pt": "now that"
     }
   },
   {
@@ -3664,7 +4268,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要",
       "ko": "~하는 한",
       "vi": "miễn là",
-      "id": "as long as"
+      "id": "as long as",
+      "es": "as long as",
+      "pt": "as long as"
     }
   },
   {
@@ -3676,7 +4282,9 @@ const N3_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~스러운",
       "vi": "có vẻ",
-      "id": "seeming"
+      "id": "seeming",
+      "es": "seeming",
+      "pt": "seeming"
     }
   },
   {
@@ -3688,7 +4296,9 @@ const N3_GRAMMAR = [
       "zh-CN": "看似",
       "ko": "~스럽다",
       "vi": "giống như",
-      "id": "seem like"
+      "id": "seem like",
+      "es": "seem like",
+      "pt": "seem like"
     }
   },
   {
@@ -3700,7 +4310,9 @@ const N3_GRAMMAR = [
       "zh-CN": "装作",
       "ko": "~인 척하다",
       "vi": "giả vờ",
-      "id": "pretend"
+      "id": "pretend",
+      "es": "pretend",
+      "pt": "pretend"
     }
   },
   {
@@ -3712,7 +4324,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然",
       "ko": "~하면서도",
       "vi": "dù",
-      "id": "although"
+      "id": "although",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -3724,7 +4338,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一边...一边",
       "ko": "~하면서도",
       "vi": "dù",
-      "id": "while/although"
+      "id": "while/although",
+      "es": "while/although",
+      "pt": "while/although"
     }
   },
   {
@@ -3736,7 +4352,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正因为",
       "ko": "~이기에",
       "vi": "chính vì",
-      "id": "precisely because"
+      "id": "precisely because",
+      "es": "precisely because",
+      "pt": "precisely because"
     }
   },
   {
@@ -3748,7 +4366,9 @@ const N3_GRAMMAR = [
       "zh-CN": "既然",
       "ko": "~라면",
       "vi": "nếu đã",
-      "id": "since/given"
+      "id": "since/given",
+      "es": "since/given",
+      "pt": "since/given"
     }
   },
   {
@@ -3760,7 +4380,9 @@ const N3_GRAMMAR = [
       "zh-CN": "与...相比",
       "ko": "~에 비해",
       "vi": "so với",
-      "id": "compared to"
+      "id": "compared to",
+      "es": "compared to",
+      "pt": "compared to"
     }
   },
   {
@@ -3772,7 +4394,9 @@ const N3_GRAMMAR = [
       "zh-CN": "与...相比",
       "ko": "~에 비해",
       "vi": "so với",
-      "id": "compared to"
+      "id": "compared to",
+      "es": "compared to",
+      "pt": "compared to"
     }
   },
   {
@@ -3784,7 +4408,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~하는 것을 보니",
       "vi": "nhìn từ",
-      "id": "judging from"
+      "id": "judging from",
+      "es": "judging from",
+      "pt": "judging from"
     }
   },
   {
@@ -3796,7 +4422,9 @@ const N3_GRAMMAR = [
       "zh-CN": "从...来看",
       "ko": "~한 데서",
       "vi": "từ",
-      "id": "from the fact"
+      "id": "from the fact",
+      "es": "from the fact",
+      "pt": "from the fact"
     }
   },
   {
@@ -3808,7 +4436,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然有",
       "ko": "~은 있어도",
       "vi": "tuy có",
-      "id": "although"
+      "id": "although",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -3820,7 +4450,9 @@ const N3_GRAMMAR = [
       "zh-CN": "加上",
       "ko": "~와 어우러져",
       "vi": "kết hợp với",
-      "id": "combined with"
+      "id": "combined with",
+      "es": "combined with",
+      "pt": "combined with"
     }
   },
   {
@@ -3832,7 +4464,9 @@ const N3_GRAMMAR = [
       "zh-CN": "加上",
       "ko": "~와 더불어",
       "vi": "cùng với",
-      "id": "combined with"
+      "id": "combined with",
+      "es": "combined with",
+      "pt": "combined with"
     }
   },
   {
@@ -3844,7 +4478,9 @@ const N3_GRAMMAR = [
       "zh-CN": "受得了",
       "ko": "~에 견딜 수 있다",
       "vi": "chịu được",
-      "id": "can stand"
+      "id": "can stand",
+      "es": "can stand",
+      "pt": "can stand"
     }
   },
   {
@@ -3856,7 +4492,9 @@ const N3_GRAMMAR = [
       "zh-CN": "能忍受",
       "ko": "~에 견딜 수 있다",
       "vi": "chịu đựng được",
-      "id": "can endure"
+      "id": "can endure",
+      "es": "can endure",
+      "pt": "can endure"
     }
   },
   {
@@ -3868,7 +4506,9 @@ const N3_GRAMMAR = [
       "zh-CN": "值得",
       "ko": "~할 가치가 있다",
       "vi": "đáng",
-      "id": "worth"
+      "id": "worth",
+      "es": "worth",
+      "pt": "worth"
     }
   },
   {
@@ -3880,7 +4520,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~때문에",
       "vi": "vì",
-      "id": "because of"
+      "id": "because of",
+      "es": "because of",
+      "pt": "because of"
     }
   },
   {
@@ -3892,7 +4534,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~때문의",
       "vi": "do",
-      "id": "due to"
+      "id": "due to",
+      "es": "due to",
+      "pt": "due to"
     }
   },
   {
@@ -3904,7 +4548,9 @@ const N3_GRAMMAR = [
       "zh-CN": "有...才有",
       "ko": "~이 있어서의",
       "vi": "nhờ có",
-      "id": "thanks to"
+      "id": "thanks to",
+      "es": "thanks to",
+      "pt": "thanks to"
     }
   },
   {
@@ -3916,7 +4562,9 @@ const N3_GRAMMAR = [
       "zh-CN": "要是",
       "ko": "~하면",
       "vi": "nếu",
-      "id": "if/whenever"
+      "id": "if/whenever",
+      "es": "if/whenever",
+      "pt": "if/whenever"
     }
   },
   {
@@ -3928,7 +4576,9 @@ const N3_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~하면",
       "vi": "nếu",
-      "id": "if"
+      "id": "if",
+      "es": "if",
+      "pt": "if"
     }
   },
   {
@@ -3940,7 +4590,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正当...时",
       "ko": "~하는 것을",
       "vi": "lúc",
-      "id": "despite"
+      "id": "despite",
+      "es": "despite",
+      "pt": "despite"
     }
   },
   {
@@ -3952,7 +4604,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结果",
       "ko": "~해 보니",
       "vi": "khi thử",
-      "id": "when tried"
+      "id": "when tried",
+      "es": "when tried",
+      "pt": "when tried"
     }
   },
   {
@@ -3964,7 +4618,9 @@ const N3_GRAMMAR = [
       "zh-CN": "即使",
       "ko": "~해 봤자",
       "vi": "dù có",
-      "id": "even if"
+      "id": "even if",
+      "es": "even if",
+      "pt": "even if"
     }
   },
   {
@@ -3976,7 +4632,9 @@ const N3_GRAMMAR = [
       "zh-CN": "给你看",
       "ko": "~해 보이다",
       "vi": "sẽ làm cho xem",
-      "id": "will show"
+      "id": "will show",
+      "es": "will show",
+      "pt": "will show"
     }
   },
   {
@@ -3988,7 +4646,9 @@ const N3_GRAMMAR = [
       "zh-CN": "为...做",
       "ko": "~해 주다",
       "vi": "làm cho",
-      "id": "do for"
+      "id": "do for",
+      "es": "do for",
+      "pt": "do for"
     }
   },
   {
@@ -4000,7 +4660,9 @@ const N3_GRAMMAR = [
       "zh-CN": "为我做",
       "ko": "~해 주다",
       "vi": "làm cho tôi",
-      "id": "do for me"
+      "id": "do for me",
+      "es": "do for me",
+      "pt": "do for me"
     }
   },
   {
@@ -4012,7 +4674,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请",
       "ko": "~해 받다",
       "vi": "được",
-      "id": "have done"
+      "id": "have done",
+      "es": "have done",
+      "pt": "have done"
     }
   },
   {
@@ -4024,7 +4688,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请",
       "ko": "~해 주시다",
       "vi": "được",
-      "id": "have done (polite)"
+      "id": "have done (polite)",
+      "es": "have done (polite)",
+      "pt": "have done (polite)"
     }
   },
   {
@@ -4036,7 +4702,9 @@ const N3_GRAMMAR = [
       "zh-CN": "给",
       "ko": "~해 주다",
       "vi": "làm cho",
-      "id": "do for"
+      "id": "do for",
+      "es": "do for",
+      "pt": "do for"
     }
   },
   {
@@ -4048,7 +4716,9 @@ const N3_GRAMMAR = [
       "zh-CN": "给",
       "ko": "~해 드리다",
       "vi": "làm cho",
-      "id": "do for (humble)"
+      "id": "do for (humble)",
+      "es": "do for (humble)",
+      "pt": "do for (humble)"
     }
   },
   {
@@ -4060,7 +4730,9 @@ const N3_GRAMMAR = [
       "zh-CN": "先",
       "ko": "~해 두다",
       "vi": "làm trước",
-      "id": "do in advance"
+      "id": "do in advance",
+      "es": "do in advance",
+      "pt": "do in advance"
     }
   },
   {
@@ -4072,7 +4744,9 @@ const N3_GRAMMAR = [
       "zh-CN": "完成/不小心",
       "ko": "~해 버리다",
       "vi": "xong/lỡ",
-      "id": "end up doing"
+      "id": "end up doing",
+      "es": "end up doing",
+      "pt": "end up doing"
     }
   },
   {
@@ -4084,7 +4758,9 @@ const N3_GRAMMAR = [
       "zh-CN": "正在/着",
       "ko": "~하고 있다",
       "vi": "đang",
-      "id": "be -ing/state"
+      "id": "be -ing/state",
+      "es": "be -ing/state",
+      "pt": "be -ing/state"
     }
   },
   {
@@ -4096,7 +4772,9 @@ const N3_GRAMMAR = [
       "zh-CN": "已经...好了",
       "ko": "~해 있다",
       "vi": "đã được",
-      "id": "has been done"
+      "id": "has been done",
+      "es": "has been done",
+      "pt": "has been done"
     }
   },
   {
@@ -4108,7 +4786,9 @@ const N3_GRAMMAR = [
       "zh-CN": "继续",
       "ko": "~해 가다",
       "vi": "tiếp tục",
-      "id": "go on -ing"
+      "id": "go on -ing",
+      "es": "go on -ing",
+      "pt": "go on -ing"
     }
   },
   {
@@ -4120,7 +4800,9 @@ const N3_GRAMMAR = [
       "zh-CN": "开始",
       "ko": "~해 오다",
       "vi": "dần",
-      "id": "come to -ing"
+      "id": "come to -ing",
+      "es": "come to -ing",
+      "pt": "come to -ing"
     }
   },
   {
@@ -4132,7 +4814,9 @@ const N3_GRAMMAR = [
       "zh-CN": "没有在",
       "ko": "~하지 않고 있다",
       "vi": "không",
-      "id": "not doing"
+      "id": "not doing",
+      "es": "not doing",
+      "pt": "not doing"
     }
   },
   {
@@ -4144,7 +4828,9 @@ const N3_GRAMMAR = [
       "zh-CN": "没有在",
       "ko": "~하지 않고 있다",
       "vi": "không",
-      "id": "not doing"
+      "id": "not doing",
+      "es": "not doing",
+      "pt": "not doing"
     }
   },
   {
@@ -4156,7 +4842,9 @@ const N3_GRAMMAR = [
       "zh-CN": "做到一半",
       "ko": "~하다 말다",
       "vi": "dở dang",
-      "id": "half-done"
+      "id": "half-done",
+      "es": "half-done",
+      "pt": "half-done"
     }
   },
   {
@@ -4168,7 +4856,9 @@ const N3_GRAMMAR = [
       "zh-CN": "刚刚",
       "ko": "갓 ~한",
       "vi": "vừa mới",
-      "id": "just done"
+      "id": "just done",
+      "es": "just done",
+      "pt": "just done"
     }
   },
   {
@@ -4180,7 +4870,9 @@ const N3_GRAMMAR = [
       "zh-CN": "开始",
       "ko": "~하기 시작하다",
       "vi": "bắt đầu",
-      "id": "begin to"
+      "id": "begin to",
+      "es": "begin to",
+      "pt": "begin to"
     }
   },
   {
@@ -4192,7 +4884,9 @@ const N3_GRAMMAR = [
       "zh-CN": "开始",
       "ko": "~하기 시작하다",
       "vi": "bắt đầu",
-      "id": "start to"
+      "id": "start to",
+      "es": "start to",
+      "pt": "start to"
     }
   },
   {
@@ -4204,7 +4898,9 @@ const N3_GRAMMAR = [
       "zh-CN": "结束",
       "ko": "~하고 끝나다",
       "vi": "xong",
-      "id": "finish"
+      "id": "finish",
+      "es": "acabar",
+      "pt": "acabar"
     }
   },
   {
@@ -4216,7 +4912,9 @@ const N3_GRAMMAR = [
       "zh-CN": "继续",
       "ko": "~하고 계속하다",
       "vi": "tiếp tục",
-      "id": "continue"
+      "id": "continue",
+      "es": "continuar",
+      "pt": "continuar"
     }
   },
   {
@@ -4229,7 +4927,9 @@ const N3_GRAMMAR = [
       "zh-CN": "贯彻",
       "ko": "끝까지 ~하다",
       "vi": "xuyên suốt",
-      "id": "do throughout"
+      "id": "do throughout",
+      "es": "do throughout",
+      "pt": "do throughout"
     }
   },
   {
@@ -4241,7 +4941,9 @@ const N3_GRAMMAR = [
       "zh-CN": "重新",
       "ko": "다시 ~하다",
       "vi": "làm lại",
-      "id": "redo"
+      "id": "redo",
+      "es": "redo",
+      "pt": "redo"
     }
   },
   {
@@ -4253,7 +4955,9 @@ const N3_GRAMMAR = [
       "zh-CN": "回",
       "ko": "~되돌리다",
       "vi": "trả lại",
-      "id": "do back"
+      "id": "do back",
+      "es": "do back",
+      "pt": "do back"
     }
   },
   {
@@ -4265,7 +4969,9 @@ const N3_GRAMMAR = [
       "zh-CN": "互相",
       "ko": "서로 ~하다",
       "vi": "cùng nhau",
-      "id": "do together"
+      "id": "do together",
+      "es": "do together",
+      "pt": "do together"
     }
   },
   {
@@ -4277,7 +4983,9 @@ const N3_GRAMMAR = [
       "zh-CN": "一起",
       "ko": "~맞추다",
       "vi": "ghép lại",
-      "id": "do together"
+      "id": "do together",
+      "es": "do together",
+      "pt": "do together"
     }
   },
   {
@@ -4289,7 +4997,9 @@ const N3_GRAMMAR = [
       "zh-CN": "过于",
       "ko": "너무 ~하다",
       "vi": "quá",
-      "id": "too much"
+      "id": "too much",
+      "es": "too much",
+      "pt": "too much"
     }
   },
   {
@@ -4301,7 +5011,9 @@ const N3_GRAMMAR = [
       "zh-CN": "想要",
       "ko": "~하려 하다",
       "vi": "tỏ ra",
-      "id": "show signs"
+      "id": "show signs",
+      "es": "show signs",
+      "pt": "show signs"
     }
   },
   {
@@ -4313,7 +5025,9 @@ const N3_GRAMMAR = [
       "zh-CN": "方法",
       "ko": "~하는 법",
       "vi": "cách",
-      "id": "way of"
+      "id": "way of",
+      "es": "way of",
+      "pt": "way of"
     }
   },
   {
@@ -4325,7 +5039,9 @@ const N3_GRAMMAR = [
       "zh-CN": "方法",
       "ko": "~하는 방법",
       "vi": "cách",
-      "id": "way"
+      "id": "way",
+      "es": "way",
+      "pt": "way"
     }
   },
   {
@@ -4337,7 +5053,9 @@ const N3_GRAMMAR = [
       "zh-CN": "难以",
       "ko": "~하기 어렵다",
       "vi": "khó",
-      "id": "hard to"
+      "id": "hard to",
+      "es": "hard to",
+      "pt": "hard to"
     }
   },
   {
@@ -4349,7 +5067,9 @@ const N3_GRAMMAR = [
       "zh-CN": "难以",
       "ko": "~하기 어렵다",
       "vi": "khó",
-      "id": "hard to"
+      "id": "hard to",
+      "es": "hard to",
+      "pt": "hard to"
     }
   },
   {
@@ -4361,7 +5081,9 @@ const N3_GRAMMAR = [
       "zh-CN": "容易",
       "ko": "~하기 쉽다",
       "vi": "dễ",
-      "id": "easy to"
+      "id": "easy to",
+      "es": "easy to",
+      "pt": "easy to"
     }
   },
   {
@@ -4373,7 +5095,9 @@ const N3_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~인 것 같다",
       "vi": "có vẻ như",
-      "id": "seems like"
+      "id": "seems like",
+      "es": "seems like",
+      "pt": "seems like"
     }
   },
   {
@@ -4385,7 +5109,9 @@ const N3_GRAMMAR = [
       "zh-CN": "看起来",
       "ko": "~할 것 같다",
       "vi": "trông như",
-      "id": "looks like"
+      "id": "looks like",
+      "es": "looks like",
+      "pt": "looks like"
     }
   },
   {
@@ -4397,7 +5123,9 @@ const N3_GRAMMAR = [
       "zh-CN": "据说",
       "ko": "~라고 한다",
       "vi": "nghe nói",
-      "id": "I heard"
+      "id": "I heard",
+      "es": "I heard",
+      "pt": "I heard"
     }
   },
   {
@@ -4409,7 +5137,9 @@ const N3_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~같다",
       "vi": "như",
-      "id": "looks like"
+      "id": "looks like",
+      "es": "looks like",
+      "pt": "looks like"
     }
   },
   {
@@ -4421,7 +5151,9 @@ const N3_GRAMMAR = [
       "zh-CN": "好像",
       "ko": "~것 같다",
       "vi": "như",
-      "id": "seems"
+      "id": "seems",
+      "es": "seems",
+      "pt": "seems"
     }
   },
   {
@@ -4433,7 +5165,9 @@ const N3_GRAMMAR = [
       "zh-CN": "能够",
       "ko": "~할 수 있다",
       "vi": "có thể",
-      "id": "can do"
+      "id": "can do",
+      "es": "can do",
+      "pt": "can do"
     }
   },
   {
@@ -4445,7 +5179,9 @@ const N3_GRAMMAR = [
       "zh-CN": "习惯",
       "ko": "~하기로 하고 있다",
       "vi": "thường",
-      "id": "make a habit"
+      "id": "make a habit",
+      "es": "make a habit",
+      "pt": "make a habit"
     }
   },
   {
@@ -4457,7 +5193,9 @@ const N3_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~해야 한다",
       "vi": "phải",
-      "id": "must"
+      "id": "must",
+      "es": "must",
+      "pt": "must"
     }
   },
   {
@@ -4469,7 +5207,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不必",
       "ko": "~하지 않아도 된다",
       "vi": "không cần",
-      "id": "don't have to"
+      "id": "don't have to",
+      "es": "don't have to",
+      "pt": "don't have to"
     }
   },
   {
@@ -4481,7 +5221,9 @@ const N3_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~해야 한다",
       "vi": "phải",
-      "id": "must"
+      "id": "must",
+      "es": "must",
+      "pt": "must"
     }
   },
   {
@@ -4493,7 +5235,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可以",
       "ko": "~해서는 안 된다",
       "vi": "không được",
-      "id": "must not"
+      "id": "must not",
+      "es": "must not",
+      "pt": "must not"
     }
   },
   {
@@ -4505,7 +5249,9 @@ const N3_GRAMMAR = [
       "zh-CN": "可以",
       "ko": "~해도 된다",
       "vi": "được phép",
-      "id": "may"
+      "id": "may",
+      "es": "may",
+      "pt": "may"
     }
   },
   {
@@ -4517,7 +5263,9 @@ const N3_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~하지 않으면 안 된다",
       "vi": "phải",
-      "id": "must"
+      "id": "must",
+      "es": "must",
+      "pt": "must"
     }
   },
   {
@@ -4529,7 +5277,9 @@ const N3_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~해야 해",
       "vi": "phải",
-      "id": "must (casual)"
+      "id": "must (casual)",
+      "es": "must (casual)",
+      "pt": "must (casual)"
     }
   },
   {
@@ -4541,7 +5291,9 @@ const N3_GRAMMAR = [
       "zh-CN": "必须",
       "ko": "~해야 해",
       "vi": "phải",
-      "id": "must (casual)"
+      "id": "must (casual)",
+      "es": "must (casual)",
+      "pt": "must (casual)"
     }
   },
   {
@@ -4553,7 +5305,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不可以",
       "ko": "~하면 안 돼",
       "vi": "không được",
-      "id": "must not (casual)"
+      "id": "must not (casual)",
+      "es": "must not (casual)",
+      "pt": "must not (casual)"
     }
   },
   {
@@ -4565,7 +5319,9 @@ const N3_GRAMMAR = [
       "zh-CN": "如果",
       "ko": "~하면",
       "vi": "nếu",
-      "id": "if (casual)"
+      "id": "if (casual)",
+      "es": "if (casual)",
+      "pt": "if (casual)"
     }
   },
   {
@@ -4577,7 +5333,9 @@ const N3_GRAMMAR = [
       "zh-CN": "是...吗？",
       "ko": "~였던가",
       "vi": "là...nhỉ?",
-      "id": "was it?"
+      "id": "was it?",
+      "es": "was it?",
+      "pt": "was it?"
     }
   },
   {
@@ -4589,7 +5347,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不知道",
       "ko": "~일까",
       "vi": "không biết",
-      "id": "I wonder"
+      "id": "I wonder",
+      "es": "I wonder",
+      "pt": "I wonder"
     }
   },
   {
@@ -4601,7 +5361,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不知道",
       "ko": "~일까",
       "vi": "không biết",
-      "id": "I wonder"
+      "id": "I wonder",
+      "es": "I wonder",
+      "pt": "I wonder"
     }
   },
   {
@@ -4613,7 +5375,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~거든",
       "vi": "vì",
-      "id": "because"
+      "id": "because",
+      "es": "because",
+      "pt": "because"
     }
   },
   {
@@ -4625,7 +5389,9 @@ const N3_GRAMMAR = [
       "zh-CN": "因为",
       "ko": "~거든요",
       "vi": "vì mà",
-      "id": "because"
+      "id": "because",
+      "es": "because",
+      "pt": "because"
     }
   },
   {
@@ -4637,7 +5403,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不是吗",
       "ko": "~잖아",
       "vi": "không phải sao",
-      "id": "isn't it?"
+      "id": "isn't it?",
+      "es": "isn't it?",
+      "pt": "isn't it?"
     }
   },
   {
@@ -4649,7 +5417,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不是吗",
       "ko": "~지 않은가",
       "vi": "không phải sao",
-      "id": "isn't it?"
+      "id": "isn't it?",
+      "es": "isn't it?",
+      "pt": "isn't it?"
     }
   },
   {
@@ -4661,7 +5431,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不是吗",
       "ko": "~이 아닌가",
       "vi": "không phải sao",
-      "id": "isn't it?"
+      "id": "isn't it?",
+      "es": "isn't it?",
+      "pt": "isn't it?"
     }
   },
   {
@@ -4673,7 +5445,9 @@ const N3_GRAMMAR = [
       "zh-CN": "要不要",
       "ko": "~하지 않을래",
       "vi": "có muốn không",
-      "id": "won't you?"
+      "id": "won't you?",
+      "es": "won't you?",
+      "pt": "won't you?"
     }
   },
   {
@@ -4685,7 +5459,9 @@ const N3_GRAMMAR = [
       "zh-CN": "要不要",
       "ko": "~할까요",
       "vi": "để tôi",
-      "id": "shall I?"
+      "id": "shall I?",
+      "es": "shall I?",
+      "pt": "shall I?"
     }
   },
   {
@@ -4697,7 +5473,9 @@ const N3_GRAMMAR = [
       "zh-CN": "吧",
       "ko": "~합시다",
       "vi": "hãy",
-      "id": "let's"
+      "id": "let's",
+      "es": "let's",
+      "pt": "let's"
     }
   },
   {
@@ -4709,7 +5487,9 @@ const N3_GRAMMAR = [
       "zh-CN": "要不要",
       "ko": "~할까",
       "vi": "để tôi",
-      "id": "shall I?"
+      "id": "shall I?",
+      "es": "shall I?",
+      "pt": "shall I?"
     }
   },
   {
@@ -4721,7 +5501,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请",
       "ko": "~하세요",
       "vi": "hãy",
-      "id": "do (command)"
+      "id": "do (command)",
+      "es": "do (command)",
+      "pt": "do (command)"
     }
   },
   {
@@ -4733,7 +5515,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请",
       "ko": "~해",
       "vi": "làm đi",
-      "id": "please do"
+      "id": "please do",
+      "es": "please do",
+      "pt": "please do"
     }
   },
   {
@@ -4745,7 +5529,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不要",
       "ko": "~하지 마",
       "vi": "đừng",
-      "id": "don't"
+      "id": "don't",
+      "es": "don't",
+      "pt": "don't"
     }
   },
   {
@@ -4757,7 +5543,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不要",
       "ko": "~하지 마",
       "vi": "đừng",
-      "id": "don't"
+      "id": "don't",
+      "es": "don't",
+      "pt": "don't"
     }
   },
   {
@@ -4769,7 +5557,9 @@ const N3_GRAMMAR = [
       "zh-CN": "虽然",
       "ko": "~인데",
       "vi": "mặc dù",
-      "id": "although"
+      "id": "although",
+      "es": "although",
+      "pt": "although"
     }
   },
   {
@@ -4781,7 +5571,9 @@ const N3_GRAMMAR = [
       "zh-CN": "是",
       "ko": "~것이다",
       "vi": "là",
-      "id": "it is that"
+      "id": "it is that",
+      "es": "it is that",
+      "pt": "it is that"
     }
   },
   {
@@ -4793,7 +5585,9 @@ const N3_GRAMMAR = [
       "zh-CN": "是",
       "ko": "~거야",
       "vi": "là",
-      "id": "it is that"
+      "id": "it is that",
+      "es": "it is that",
+      "pt": "it is that"
     }
   },
   {
@@ -4805,7 +5599,9 @@ const N3_GRAMMAR = [
       "zh-CN": "打算",
       "ko": "~할 생각이다",
       "vi": "định",
-      "id": "intend to"
+      "id": "intend to",
+      "es": "intend to",
+      "pt": "intend to"
     }
   },
   {
@@ -4817,7 +5613,9 @@ const N3_GRAMMAR = [
       "zh-CN": "预定",
       "ko": "~할 예정이다",
       "vi": "dự định",
-      "id": "plan to"
+      "id": "plan to",
+      "es": "plan to",
+      "pt": "plan to"
     }
   },
   {
@@ -4829,7 +5627,9 @@ const N3_GRAMMAR = [
       "zh-CN": "应该",
       "ko": "~해야 한다",
       "vi": "nên",
-      "id": "should"
+      "id": "should",
+      "es": "should",
+      "pt": "should"
     }
   },
   {
@@ -4841,7 +5641,9 @@ const N3_GRAMMAR = [
       "zh-CN": "最好不要",
       "ko": "~하지 않는 게 좋다",
       "vi": "không nên",
-      "id": "better not"
+      "id": "better not",
+      "es": "better not",
+      "pt": "better not"
     }
   },
   {
@@ -4853,7 +5655,9 @@ const N3_GRAMMAR = [
       "zh-CN": "希望",
       "ko": "~면 좋겠다",
       "vi": "hy vọng",
-      "id": "hope/wish"
+      "id": "hope/wish",
+      "es": "hope/wish",
+      "pt": "hope/wish"
     }
   },
   {
@@ -4865,7 +5669,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要...就好",
       "ko": "~하면 된다",
       "vi": "chỉ cần",
-      "id": "should just"
+      "id": "should just",
+      "es": "should just",
+      "pt": "should just"
     }
   },
   {
@@ -4877,7 +5683,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要...就好",
       "ko": "~하면 된다",
       "vi": "chỉ cần",
-      "id": "should just"
+      "id": "should just",
+      "es": "should just",
+      "pt": "should just"
     }
   },
   {
@@ -4889,7 +5697,9 @@ const N3_GRAMMAR = [
       "zh-CN": "希望",
       "ko": "~해 주시기 바랍니다",
       "vi": "mong",
-      "id": "want someone to (polite)"
+      "id": "want someone to (polite)",
+      "es": "want someone to (polite)",
+      "pt": "want someone to (polite)"
     }
   },
   {
@@ -4901,7 +5711,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请让我",
       "ko": "~하게 해 달라",
       "vi": "cho tôi",
-      "id": "want to be allowed"
+      "id": "want to be allowed",
+      "es": "want to be allowed",
+      "pt": "want to be allowed"
     }
   },
   {
@@ -4913,7 +5725,9 @@ const N3_GRAMMAR = [
       "zh-CN": "请让我",
       "ko": "~하게 해 주세요",
       "vi": "xin cho tôi",
-      "id": "please let me"
+      "id": "please let me",
+      "es": "please let me",
+      "pt": "please let me"
     }
   },
   {
@@ -4925,7 +5739,9 @@ const N3_GRAMMAR = [
       "zh-CN": "让我",
       "ko": "~하겠습니다",
       "vi": "xin phép được",
-      "id": "let me (humble)"
+      "id": "let me (humble)",
+      "es": "let me (humble)",
+      "pt": "let me (humble)"
     }
   },
   {
@@ -4937,7 +5753,9 @@ const N3_GRAMMAR = [
       "zh-CN": "让",
       "ko": "~시키다",
       "vi": "bắt/cho",
-      "id": "make/let do"
+      "id": "make/let do",
+      "es": "make/let do",
+      "pt": "make/let do"
     }
   },
   {
@@ -4949,7 +5767,9 @@ const N3_GRAMMAR = [
       "zh-CN": "被",
       "ko": "~되다",
       "vi": "bị/được",
-      "id": "is done (passive)"
+      "id": "is done (passive)",
+      "es": "is done (passive)",
+      "pt": "is done (passive)"
     }
   },
   {
@@ -4961,7 +5781,9 @@ const N3_GRAMMAR = [
       "zh-CN": "被",
       "ko": "~되다",
       "vi": "bị/được",
-      "id": "is done (passive)"
+      "id": "is done (passive)",
+      "es": "is done (passive)",
+      "pt": "is done (passive)"
     }
   },
   {
@@ -4973,7 +5795,9 @@ const N3_GRAMMAR = [
       "zh-CN": "做到一半的",
       "ko": "~하다 만",
       "vi": "dở dang",
-      "id": "half-done"
+      "id": "half-done",
+      "es": "half-done",
+      "pt": "half-done"
     }
   },
   {
@@ -4985,7 +5809,9 @@ const N3_GRAMMAR = [
       "zh-CN": "照...的样子",
       "ko": "~대로",
       "vi": "theo",
-      "id": "according to"
+      "id": "according to",
+      "es": "according to",
+      "pt": "according to"
     }
   },
   {
@@ -4997,7 +5823,9 @@ const N3_GRAMMAR = [
       "zh-CN": "按照",
       "ko": "~대로",
       "vi": "theo",
-      "id": "according to"
+      "id": "according to",
+      "es": "according to",
+      "pt": "according to"
     }
   },
   {
@@ -5009,7 +5837,9 @@ const N3_GRAMMAR = [
       "zh-CN": "保持原样",
       "ko": "~채로",
       "vi": "như cũ",
-      "id": "as is"
+      "id": "as is",
+      "es": "as is",
+      "pt": "as is"
     }
   },
   {
@@ -5021,7 +5851,9 @@ const N3_GRAMMAR = [
       "zh-CN": "随着",
       "ko": "~는 대로",
       "vi": "theo",
-      "id": "as...wants"
+      "id": "as...wants",
+      "es": "as...wants",
+      "pt": "as...wants"
     }
   },
   {
@@ -5033,7 +5865,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只要",
       "ko": "~만으로",
       "vi": "chỉ bằng",
-      "id": "just by"
+      "id": "just by",
+      "es": "just by",
+      "pt": "just by"
     }
   },
   {
@@ -5045,7 +5879,9 @@ const N3_GRAMMAR = [
       "zh-CN": "足够的",
       "ko": "~만큼의",
       "vi": "đủ",
-      "id": "enough to"
+      "id": "enough to",
+      "es": "enough to",
+      "pt": "enough to"
     }
   },
   {
@@ -5057,7 +5893,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只有",
       "ko": "~밖에 없다",
       "vi": "chỉ",
-      "id": "only"
+      "id": "only",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -5069,7 +5907,9 @@ const N3_GRAMMAR = [
       "zh-CN": "只有",
       "ko": "~만",
       "vi": "chỉ",
-      "id": "only"
+      "id": "only",
+      "es": "only",
+      "pt": "only"
     }
   },
   {
@@ -5081,7 +5921,9 @@ const N3_GRAMMAR = [
       "zh-CN": "更不用说",
       "ko": "~은커녕",
       "vi": "chứ đừng nói",
-      "id": "let alone"
+      "id": "let alone",
+      "es": "let alone",
+      "pt": "let alone"
     }
   },
   {
@@ -5093,7 +5935,9 @@ const N3_GRAMMAR = [
       "zh-CN": "不用说",
       "ko": "~도 그렇거니와",
       "vi": "không kể",
-      "id": "not to mention"
+      "id": "not to mention",
+      "es": "not to mention",
+      "pt": "not to mention"
     }
   },
   {
@@ -5105,7 +5949,9 @@ const N3_GRAMMAR = [
       "zh-CN": "包括",
       "ko": "~을 비롯하여",
       "vi": "bao gồm",
-      "id": "including"
+      "id": "including",
+      "es": "including",
+      "pt": "including"
     }
   },
   {
@@ -5117,7 +5963,9 @@ const N3_GRAMMAR = [
       "zh-CN": "in order to; for the purpose of",
       "ko": "in order to; for the purpose of",
       "vi": "in order to; for the purpose of",
-      "id": "in order to; for the purpose of"
+      "id": "in order to; for the purpose of",
+      "es": "in order to; for the purpose of",
+      "pt": "in order to; for the purpose of"
     }
   },
   {
@@ -5129,7 +5977,9 @@ const N3_GRAMMAR = [
       "zh-CN": "so that; in order to",
       "ko": "so that; in order to",
       "vi": "so that; in order to",
-      "id": "so that; in order to"
+      "id": "so that; in order to",
+      "es": "so that; in order to",
+      "pt": "so that; in order to"
     }
   },
   {
@@ -5141,7 +5991,9 @@ const N3_GRAMMAR = [
       "zh-CN": "as; in the role of",
       "ko": "as; in the role of",
       "vi": "as; in the role of",
-      "id": "as; in the role of"
+      "id": "as; in the role of",
+      "es": "as; in the role of",
+      "pt": "as; in the role of"
     }
   },
   {
@@ -5153,7 +6005,9 @@ const N3_GRAMMAR = [
       "zh-CN": "about; concerning",
       "ko": "about; concerning",
       "vi": "about; concerning",
-      "id": "about; concerning"
+      "id": "about; concerning",
+      "es": "about; concerning",
+      "pt": "about; concerning"
     }
   },
   {
@@ -5165,7 +6019,9 @@ const N3_GRAMMAR = [
       "zh-CN": "by means of; depending on",
       "ko": "by means of; depending on",
       "vi": "by means of; depending on",
-      "id": "by means of; depending on"
+      "id": "by means of; depending on",
+      "es": "by means of; depending on",
+      "pt": "by means of; depending on"
     }
   },
   {
@@ -5178,7 +6034,9 @@ const N3_GRAMMAR = [
       "zh-CN": "toward; in contrast to",
       "ko": "toward; in contrast to",
       "vi": "toward; in contrast to",
-      "id": "toward; in contrast to"
+      "id": "toward; in contrast to",
+      "es": "toward; in contrast to",
+      "pt": "toward; in contrast to"
     }
   },
   {
@@ -5190,7 +6048,9 @@ const N3_GRAMMAR = [
       "zh-CN": "in; at; on",
       "ko": "in; at; on",
       "vi": "in; at; on",
-      "id": "in; at; on"
+      "id": "in; at; on",
+      "es": "in; at; on",
+      "pt": "in; at; on"
     }
   },
   {
@@ -5202,7 +6062,9 @@ const N3_GRAMMAR = [
       "zh-CN": "for; to",
       "ko": "for; to",
       "vi": "for; to",
-      "id": "for; to"
+      "id": "for; to",
+      "es": "for; to",
+      "pt": "for; to"
     }
   },
   {
@@ -5214,7 +6076,9 @@ const N3_GRAMMAR = [
       "zh-CN": "compared to",
       "ko": "compared to",
       "vi": "compared to",
-      "id": "compared to"
+      "id": "compared to",
+      "es": "compared to",
+      "pt": "compared to"
     }
   },
   {
@@ -5227,7 +6091,9 @@ const N3_GRAMMAR = [
       "zh-CN": "regarding; concerning",
       "ko": "regarding; concerning",
       "vi": "regarding; concerning",
-      "id": "regarding; concerning"
+      "id": "regarding; concerning",
+      "es": "regarding; concerning",
+      "pt": "regarding; concerning"
     }
   },
   {
@@ -5239,7 +6105,9 @@ const N3_GRAMMAR = [
       "zh-CN": "based on",
       "ko": "based on",
       "vi": "based on",
-      "id": "based on"
+      "id": "based on",
+      "es": "based on",
+      "pt": "based on"
     }
   },
   {
@@ -5251,7 +6119,9 @@ const N3_GRAMMAR = [
       "zh-CN": "through; via",
       "ko": "through; via",
       "vi": "through; via",
-      "id": "through; via"
+      "id": "through; via",
+      "es": "through; via",
+      "pt": "through; via"
     }
   },
   {
@@ -5263,7 +6133,9 @@ const N3_GRAMMAR = [
       "zh-CN": "that's why; no wonder",
       "ko": "that's why; no wonder",
       "vi": "that's why; no wonder",
-      "id": "that's why; no wonder"
+      "id": "that's why; no wonder",
+      "es": "that's why; no wonder",
+      "pt": "that's why; no wonder"
     }
   },
   {
@@ -5275,7 +6147,9 @@ const N3_GRAMMAR = [
       "zh-CN": "it doesn't mean that",
       "ko": "it doesn't mean that",
       "vi": "it doesn't mean that",
-      "id": "it doesn't mean that"
+      "id": "it doesn't mean that",
+      "es": "it doesn't mean that",
+      "pt": "it doesn't mean that"
     }
   },
   {
@@ -5287,7 +6161,9 @@ const N3_GRAMMAR = [
       "zh-CN": "there's no way that",
       "ko": "there's no way that",
       "vi": "there's no way that",
-      "id": "there's no way that"
+      "id": "there's no way that",
+      "es": "there's no way that",
+      "pt": "there's no way that"
     }
   },
   {
@@ -5299,7 +6175,9 @@ const N3_GRAMMAR = [
       "zh-CN": "cannot; must not",
       "ko": "cannot; must not",
       "vi": "cannot; must not",
-      "id": "cannot; must not"
+      "id": "cannot; must not",
+      "es": "cannot; must not",
+      "pt": "cannot; must not"
     }
   },
   {
@@ -5311,7 +6189,9 @@ const N3_GRAMMAR = [
       "zh-CN": "have no choice but to",
       "ko": "have no choice but to",
       "vi": "have no choice but to",
-      "id": "have no choice but to"
+      "id": "have no choice but to",
+      "es": "have no choice but to",
+      "pt": "have no choice but to"
     }
   },
   {
@@ -5323,7 +6203,9 @@ const N3_GRAMMAR = [
       "zh-CN": "cannot help but",
       "ko": "cannot help but",
       "vi": "cannot help but",
-      "id": "cannot help but"
+      "id": "cannot help but",
+      "es": "cannot help but",
+      "pt": "cannot help but"
     }
   },
   {
@@ -5335,7 +6217,9 @@ const N3_GRAMMAR = [
       "zh-CN": "unbearably; extremely",
       "ko": "unbearably; extremely",
       "vi": "unbearably; extremely",
-      "id": "unbearably; extremely"
+      "id": "unbearably; extremely",
+      "es": "unbearably; extremely",
+      "pt": "unbearably; extremely"
     }
   },
   {
@@ -5347,7 +6231,9 @@ const N3_GRAMMAR = [
       "zh-CN": "can't help but",
       "ko": "can't help but",
       "vi": "can't help but",
-      "id": "can't help but"
+      "id": "can't help but",
+      "es": "can't help but",
+      "pt": "can't help but"
     }
   },
   {
@@ -5359,7 +6245,9 @@ const N3_GRAMMAR = [
       "zh-CN": "can't help; extremely",
       "ko": "can't help; extremely",
       "vi": "can't help; extremely",
-      "id": "can't help; extremely"
+      "id": "can't help; extremely",
+      "es": "can't help; extremely",
+      "pt": "can't help; extremely"
     }
   },
   {
@@ -5371,7 +6259,9 @@ const N3_GRAMMAR = [
       "zh-CN": "thanks to",
       "ko": "thanks to",
       "vi": "thanks to",
-      "id": "thanks to"
+      "id": "thanks to",
+      "es": "thanks to",
+      "pt": "thanks to"
     }
   },
   {
@@ -5383,7 +6273,9 @@ const N3_GRAMMAR = [
       "zh-CN": "because of; due to",
       "ko": "because of; due to",
       "vi": "because of; due to",
-      "id": "because of; due to"
+      "id": "because of; due to",
+      "es": "because of; due to",
+      "pt": "because of; due to"
     }
   },
   {
@@ -5395,7 +6287,9 @@ const N3_GRAMMAR = [
       "zh-CN": "after; upon",
       "ko": "after; upon",
       "vi": "after; upon",
-      "id": "after; upon"
+      "id": "after; upon",
+      "es": "after; upon",
+      "pt": "after; upon"
     }
   },
   {
@@ -5407,7 +6301,9 @@ const N3_GRAMMAR = [
       "zh-CN": "in addition to",
       "ko": "in addition to",
       "vi": "in addition to",
-      "id": "in addition to"
+      "id": "in addition to",
+      "es": "in addition to",
+      "pt": "in addition to"
     }
   },
   {
@@ -5420,7 +6316,9 @@ const N3_GRAMMAR = [
       "zh-CN": "on the other hand; while",
       "ko": "on the other hand; while",
       "vi": "on the other hand; while",
-      "id": "on the other hand; while"
+      "id": "on the other hand; while",
+      "es": "on the other hand; while",
+      "pt": "on the other hand; while"
     }
   },
   {
@@ -5433,7 +6331,9 @@ const N3_GRAMMAR = [
       "zh-CN": "on the other hand; while",
       "ko": "on the other hand; while",
       "vi": "on the other hand; while",
-      "id": "on the other hand; while"
+      "id": "on the other hand; while",
+      "es": "on the other hand; while",
+      "pt": "on the other hand; while"
     }
   }
 ];
