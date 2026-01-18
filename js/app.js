@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.0';
+const APP_VERSION = '19.8.1';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13013,12 +13013,19 @@ async function fetchCachedContext() {
   
   try {
     const lang = state.lang || 'en';
-    const response = await fetch(`/.netlify/functions/get-context?lang=${lang}`);
+    // Use scheduled-context endpoint which has its own caching
+    const response = await fetch('/.netlify/functions/scheduled-context');
     const data = await response.json();
-    if (data.context) {
-      talkState.cachedContext = data.context;
+    
+    if (data.contexts && data.contexts[lang]) {
+      talkState.cachedContext = data.contexts[lang];
       talkState.lastContextFetch = now;
-      return data.context;
+      return data.contexts[lang];
+    } else if (data.contexts && data.contexts['ja']) {
+      // Fallback to Japanese context
+      talkState.cachedContext = data.contexts['ja'];
+      talkState.lastContextFetch = now;
+      return data.contexts['ja'];
     }
   } catch (e) {
     console.error('Failed to fetch context:', e);

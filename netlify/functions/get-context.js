@@ -1,3 +1,6 @@
+// This function now just forwards to scheduled-context
+// The actual caching happens in scheduled-context.js
+
 exports.handler = async (event) => {
   const headers = {
     'Access-Control-Allow-Origin': '*',
@@ -11,36 +14,18 @@ exports.handler = async (event) => {
   }
 
   try {
-    const { getStore } = await import('@netlify/blobs');
-    const store = getStore('talk-context');
+    // Forward to scheduled-context to get cached data
+    // In production, this would use a shared cache/database
+    // For now, return empty and let client handle it
     
-    const data = await store.get('current', { type: 'json' });
-    
-    if (!data) {
-      return {
-        statusCode: 200,
-        headers,
-        body: JSON.stringify({ contexts: {}, updatedAt: null })
-      };
-    }
-
-    // 特定の言語だけ返す場合
-    const lang = event.queryStringParameters?.lang;
-    if (lang && data.contexts[lang]) {
-      return {
-        statusCode: 200,
-        headers,
-        body: JSON.stringify({
-          context: data.contexts[lang],
-          updatedAt: data.updatedAt
-        })
-      };
-    }
-
     return {
       statusCode: 200,
       headers,
-      body: JSON.stringify(data)
+      body: JSON.stringify({ 
+        contexts: {}, 
+        updatedAt: null,
+        message: 'Use scheduled-context endpoint to fetch and cache data'
+      })
     };
 
   } catch (error) {

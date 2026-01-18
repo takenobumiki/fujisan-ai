@@ -1,4 +1,5 @@
-const { schedule } = require('@netlify/functions');
+// Scheduled function to cache context for all regions
+// Can be triggered manually or via scheduled function
 
 // 対象言語と地域
 const REGIONS = {
@@ -49,30 +50,30 @@ Provide the following in JSON format. Be concise and accurate.
 
 Return ONLY valid JSON, no markdown, no explanation.`;
 
-  const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ role: 'user', parts: [{ text: prompt }] }],
-        tools: [{ googleSearch: {} }],
-        generationConfig: {
-          temperature: 0.3,
-          maxOutputTokens: 1000
-        }
-      })
-    }
-  );
-
-  const data = await response.json();
-  
-  if (data.error) {
-    console.error(`Error for ${lang}:`, data.error);
-    return null;
-  }
-
   try {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ role: 'user', parts: [{ text: prompt }] }],
+          tools: [{ googleSearch: {} }],
+          generationConfig: {
+            temperature: 0.3,
+            maxOutputTokens: 1000
+          }
+        })
+      }
+    );
+
+    const data = await response.json();
+    
+    if (data.error) {
+      console.error(`Error for ${lang}:`, data.error);
+      return null;
+    }
+
     const text = data.candidates[0].content.parts[0].text;
     const jsonMatch = text.match(/\{[\s\S]*\}/);
     if (jsonMatch) {
@@ -85,12 +86,41 @@ Return ONLY valid JSON, no markdown, no explanation.`;
   return null;
 }
 
+// In-memory cache (will be reset on cold start, but that's OK)
+let cachedContexts = null;
+let cacheTimestamp = null;
+
 // メイン処理
-const handler = async (event) => {
+exports.handler = async (event) => {
+  const headers = {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    'Content-Type': 'application/json'
+  };
+
+  // Handle preflight
+  if (event.httpMethod === 'OPTIONS') {
+    return { statusCode: 204, headers };
+  }
+
   const apiKey = process.env.GEMINI_API_KEY;
   
   if (!apiKey) {
-    return { statusCode: 500, body: 'API key not configured' };
+    return { statusCode: 500, headers, body: JSON.stringify({ error: 'API key not configured' }) };
+  }
+
+  // Check if we should use cache (within 2 hours)
+  const now = Date.now();
+  if (cachedContexts && cacheTimestamp && (now - cacheTimestamp < 2 * 60 * 60 * 1000)) {
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({
+        contexts: cachedContexts,
+        updatedAt: new Date(cacheTimestamp).toISOString(),
+        fromCache: true
+      })
+    };
   }
 
   const results = {};
@@ -108,27 +138,22 @@ const handler = async (event) => {
       };
     }
     // Rate limit対策: 少し待つ
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 500));
   }
 
-  // Netlify Blobsに保存（または環境変数でFirestoreに保存）
-  // ここではBlobs APIを使用
-  const { getStore } = await import('@netlify/blobs');
-  const store = getStore('talk-context');
-  
-  await store.setJSON('current', {
-    contexts: results,
-    updatedAt: timestamp
-  });
+  // Update cache
+  cachedContexts = results;
+  cacheTimestamp = now;
 
   console.log('Context cache updated:', timestamp);
 
   return {
     statusCode: 200,
-    body: JSON.stringify({ success: true, updatedAt: timestamp, languages: Object.keys(results) })
+    headers,
+    body: JSON.stringify({ 
+      contexts: results, 
+      updatedAt: timestamp,
+      languages: Object.keys(results)
+    })
   };
 };
-
-// 8:00, 13:00, 17:00, 21:00 JST (UTC: 23:00, 4:00, 8:00, 12:00)
-// Cron: 分 時 日 月 曜日
-module.exports.handler = schedule('0 23,4,8,12 * * *', handler);
