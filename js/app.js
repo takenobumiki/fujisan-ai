@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.7.5';
+const APP_VERSION = '19.7.6';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -3600,15 +3600,17 @@ function hideAppLoadingOverlay() {
   }
 }
 
+let currentScreenId = 'drill'; // Track current screen
+
 function showScreen(id) {
-  console.log('showScreen called with id:', id);
+  // Skip if already on the same screen
+  if (id === currentScreenId) return;
+  currentScreenId = id;
+  
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   const targetScreen = document.getElementById('screen-' + id);
-  console.log('Target screen element:', targetScreen);
   if (targetScreen) {
     targetScreen.classList.add('active');
-  } else {
-    console.error('Screen not found: screen-' + id);
   }
   document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.screen === id));
   // Update footer nav (90-point dashboard)
