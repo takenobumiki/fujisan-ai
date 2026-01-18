@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.26';
+const APP_VERSION = '19.8.27';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -12941,11 +12941,33 @@ Be encouraging and natural.`,
 };
 
 const TALK_LEVEL_INSTRUCTIONS = {
-  N5: `Use only N5 level Japanese. CRITICAL KANJI RULE: Only use these basic kanji: 一二三四五六七八九十百千万円年月日時分週間今何人男女子学生先名前大小中高新古長短多少早私友父母兄弟姉妹. ALL other kanji must be written in hiragana. Use simple present/past tense, basic particles (は、が、を、に、で).`,
-  N4: `Use N4 level Japanese. CRITICAL KANJI RULE: Only use N5+N4 level kanji. Any kanji beyond N4 level must be written in hiragana. Use て-form, たい-form, potential form.`,
-  N3: `Use N3 level Japanese. CRITICAL KANJI RULE: Only use N5+N4+N3 level kanji. Any kanji beyond N3 level must be written in hiragana. Use conditional forms, passive/causative.`,
-  N2: `Use N2 level Japanese. Use advanced grammar patterns, formal expressions. Most kanji are acceptable but rare ones should have furigana.`,
-  N1: `Use native-level Japanese: natural expressions, idioms, nuanced grammar, full kanji usage, colloquialisms when appropriate.`
+  N5: `STRICT N5 LEVEL RULES:
+【漢字】Only use these 100 kanji: 一二三四五六七八九十百千万円年月日時分半週間今何人男女子学生先名前大小中高新古長短多少白黒赤青北南東西外国語話読書聞見食飲行来出入休買売会社車駅電気天山川雨火水木金土上下左右前後朝昼晩夜毎作友父母兄弟姉妹私. Any other kanji must be in hiragana.
+【文法】Only use: です/ます, は/が/を/に/で/へ/と/から/まで, い/な-adjectives, 〜たい, 〜ている, 〜た (past), 〜ない, 〜てください, numbers+counters
+【語彙】Use only basic daily vocabulary: greetings, family, food, time, places, colors, basic verbs (食べる、飲む、行く、来る、見る、聞く、読む、書く、話す、買う、etc.)
+【例】「きょうは なにを たべましたか？」「わたしは ラーメンが すきです。」`,
+
+  N4: `STRICT N4 LEVEL RULES:
+【漢字】Use only N5 + N4 level kanji (about 300 total). N3+ kanji must be written in hiragana. Common N4 kanji: 会社員 店 病院 図書館 公園 教室 部屋 窓 席 問題 答 質問 意味 漢字 文 声 音 歌 写真 絵 色 動物 鳥 犬 猫 花 海 空 風 雪 春 夏 秋 冬 頭 顔 目 耳 口 手 足 体 心 力 運動 仕事 料理 旅行 音楽 映画 試験 宿題 練習 説明 注意 etc.
+【文法】Add: 〜てform connections, 〜たり〜たり, 〜ながら, 〜てもいい/〜てはいけない, 可能形 (〜られる/〜える), 〜つもり, 〜ようと思う, 〜そうだ (looks like), 〜ことがある
+【語彙】Expand to: transportation, shopping, hobbies, weather, health, work basics
+【例】「週末は何をしましたか？」「映画を見たり、友達と食事をしたりしました。」`,
+
+  N3: `STRICT N3 LEVEL RULES:
+【漢字】Use N5+N4+N3 kanji (about 650 total). N2/N1 kanji should be in hiragana.
+【文法】Add: 〜ようにする/なる, 〜ことにする/なる, 受身形, 使役形, 〜させられる, 〜ば/〜たら/〜なら conditionals, 〜ために, 〜ように, 〜らしい, 〜ようだ, 〜はずだ, 〜わけだ
+【語彙】Include: abstract concepts, emotions, social situations, basic business terms
+【例】「最近忙しくて、運動する時間がなかなか取れないんです。」`,
+
+  N2: `N2 LEVEL GUIDELINES:
+【漢字】Most common kanji OK. Use furigana for rare kanji if needed.
+【文法】Use advanced patterns: 〜に関して, 〜において, 〜に対して, 〜を通じて, 〜にもかかわらず, 〜どころか, 〜ものの, 〜つつ, 敬語 (尊敬語/謙譲語), formal expressions
+【語彙】Business, news, academic vocabulary acceptable
+【例】「経済状況が厳しいにもかかわらず、新しいプロジェクトを始めることになりました。」`,
+
+  N1: `N1 NATIVE LEVEL:
+Use completely natural Japanese including: idioms (慣用句), proverbs (ことわざ), colloquial expressions, literary expressions, nuanced keigo, full kanji without restriction, newspaper/academic vocabulary
+【例】「一石二鳥とはまさにこのことですね。」「彼女の話には一理あると思います。」`
 };
 
 // Talk state
