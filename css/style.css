@@ -3814,6 +3814,27 @@ body { font-family: 'Inter', 'Montserrat', 'Noto Sans JP', -apple-system, sans-s
   cursor: pointer;
 }
 
+/* Talk Level Display (read-only) */
+.talk-level-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+.talk-level-label {
+  color: var(--text-secondary);
+}
+.talk-level-badge {
+  background: var(--level-color, var(--primary));
+  color: white;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
 /* Chat Screen */
 .talk-chat {
   display: flex;

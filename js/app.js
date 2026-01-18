@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.3';
+const APP_VERSION = '19.8.5';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13200,6 +13200,12 @@ function initTalkScreen() {
   loadTalkProfile();
   updateTalkUnitCard();
   initTalkInputListeners();
+  
+  // Update level badge display
+  const levelBadge = document.getElementById('talk-level-badge');
+  if (levelBadge) {
+    levelBadge.textContent = state.level || 'N5';
+  }
   
   // Apply placeholder translation
   const talkInput = document.getElementById('talk-input');

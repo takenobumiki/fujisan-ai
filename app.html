@@ -529,6 +529,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-1 2l5 5h-5V4zM6 20V4h6v6h6v10H6z"/></svg>
       <span data-i18n="nav_mock">Mock</span>
     </button>
+    <button class="footer-btn-90" data-screen="talk" onclick="showScreen('talk')">
+      <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+      <span data-i18n="nav_talk">Talk</span>
+    </button>
   </nav>
 </div>
 
@@ -621,13 +625,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </div>
   
-  <!-- Level Mini Buttons -->
-  <div class="level-mini-bar">
-    <button class="level-mini-btn active" data-level="N5">N5</button>
-    <button class="level-mini-btn" data-level="N4">N4</button>
-    <button class="level-mini-btn" data-level="N3">N3</button>
-    <button class="level-mini-btn" data-level="N2">N2</button>
-    <button class="level-mini-btn" data-level="N1">N1</button>
+  <!-- Current Level Display (read-only) -->
+  <div class="talk-level-display">
+    <span class="talk-level-label" data-i18n="talk_current_level">Current Level:</span>
+    <span class="talk-level-badge" id="talk-level-badge">N5</span>
   </div>
   
   <div class="main-content-90">
