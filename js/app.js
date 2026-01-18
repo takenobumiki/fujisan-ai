@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.8';
+const APP_VERSION = '19.8.9';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13064,58 +13064,81 @@ async function generateOpeningMessage() {
   // First time user - ask name FIRST (before anything else)
   if (!talkProfile.name && talkProfile.conversationCount <= 1) {
     return {
-      ja: `${greeting.ja} 初めまして！私はAIの会話パートナーです。お名前を教えてもらえますか？`,
-      en: `${greeting.en} Nice to meet you! I'm your AI conversation partner. May I know your name?`
+      ja: `こんにちは！初めまして。私はAIの会話パートナーです。お名前を教えてもらえますか？`,
+      en: `Hello! Nice to meet you! I'm your AI conversation partner. May I know your name?`
     };
   }
   
-  const context = await fetchCachedContext();
-  
-  let topicMessage = { ja: '', en: '' };
+  // Get user name for greeting
+  const userName = talkProfile.name ? `${talkProfile.name}さん` : '';
   
   // If returning user with pending follow-up
   if (talkProfile.pendingFollowUp && talkProfile.conversationCount > 1) {
     return {
-      ja: `${greeting.ja} ${talkProfile.pendingFollowUp}`,
+      ja: `${userName}${userName ? '、' : ''}${greeting.ja.replace(/さん、|さん/g, '')} ${talkProfile.pendingFollowUp}`,
       en: greeting.en
     };
   }
   
-  // Check user interests and context
+  // Simple time-based greetings with optional topic
+  const hour = new Date().getHours();
+  let topicMessage = { ja: '', en: '' };
+  
+  // Check user interests for personalized topic
   const topInterest = getTopInterest();
   
-  if (context) {
-    if (topInterest === 'anime' && context.anime?.trending?.[0]) {
+  if (topInterest === 'anime') {
+    topicMessage = {
+      ja: '最近、何かアニメを見ていますか？',
+      en: 'Have you been watching any anime lately?'
+    };
+  } else if (topInterest === 'sports') {
+    topicMessage = {
+      ja: '最近、スポーツは見ましたか？',
+      en: 'Have you watched any sports lately?'
+    };
+  } else if (topInterest === 'music') {
+    topicMessage = {
+      ja: '最近、どんな音楽を聴いていますか？',
+      en: 'What kind of music have you been listening to?'
+    };
+  } else if (topInterest === 'food') {
+    topicMessage = {
+      ja: '今日は何を食べましたか？',
+      en: 'What did you eat today?'
+    };
+  } else {
+    // Default topics based on time
+    if (hour >= 5 && hour < 12) {
       topicMessage = {
-        ja: `最近「${context.anime.trending[0]}」が人気みたいですね。見ていますか？`,
-        en: `"${context.anime.trending[0]}" seems popular lately. Are you watching it?`
+        ja: '今日は何をする予定ですか？',
+        en: 'What are your plans for today?'
       };
-    } else if (topInterest === 'sports' && context.sports?.recent) {
+    } else if (hour >= 12 && hour < 18) {
       topicMessage = {
-        ja: `${context.sports.recent}。スポーツは好きですか？`,
-        en: `${context.sports.recent}. Do you like sports?`
+        ja: '今日はどうですか？',
+        en: 'How is your day going?'
       };
-    } else if (topInterest === 'news' && context.news?.[0]) {
+    } else {
       topicMessage = {
-        ja: `${context.news[0].headline}というニュースがありましたね。`,
-        en: `There was news about "${context.news[0].headline}".`
-      };
-    } else if (context.weather) {
-      topicMessage = {
-        ja: `今日の天気は${context.weather.description}ですね。`,
-        en: `The weather today is ${context.weather.condition}.`
-      };
-    } else if (context.anime?.trending?.[0]) {
-      // Default to anime for language learners
-      topicMessage = {
-        ja: `最近「${context.anime.trending[0]}」というアニメが人気みたいですよ。知っていますか？`,
-        en: `"${context.anime.trending[0]}" anime seems popular lately. Do you know it?`
+        ja: '今日はどんな一日でしたか？',
+        en: 'How was your day?'
       };
     }
   }
   
+  // Build greeting with user name
+  let jaGreeting = '';
+  if (hour >= 5 && hour < 12) {
+    jaGreeting = userName ? `${userName}、おはようございます！` : 'おはようございます！';
+  } else if (hour >= 12 && hour < 18) {
+    jaGreeting = userName ? `${userName}、こんにちは！` : 'こんにちは！';
+  } else {
+    jaGreeting = userName ? `${userName}、こんばんは！` : 'こんばんは！';
+  }
+  
   return {
-    ja: `${greeting.ja} ${topicMessage.ja}`,
+    ja: `${jaGreeting} ${topicMessage.ja}`,
     en: `${greeting.en} ${topicMessage.en}`
   };
 }
@@ -13557,24 +13580,11 @@ async function callTalkGemini(userMessage, emotion = null) {
     emotionContext = `\nUSER EMOTION: ${emotionResponses[emotion] || ''}`;
   }
   
-  // Build cached context
-  let cachedInfo = '';
-  if (talkState.cachedContext) {
-    const ctx = talkState.cachedContext;
-    cachedInfo = `
-CURRENT REAL-WORLD INFO (use naturally when relevant):`;
-    if (ctx.weather) cachedInfo += `\n- Weather: ${ctx.weather.description || ctx.weather.condition}`;
-    if (ctx.anime?.trending) cachedInfo += `\n- Popular anime: ${ctx.anime.trending.slice(0, 2).join(', ')}`;
-    if (ctx.news?.[0]) cachedInfo += `\n- Recent news: ${ctx.news[0].headline}`;
-    if (ctx.sports?.recent) cachedInfo += `\n- Sports: ${ctx.sports.recent}`;
-    if (ctx.events?.holiday) cachedInfo += `\n- Holiday: ${ctx.events.holiday}`;
-  }
-  
   const userContext = `
 CURRENT CONTEXT:
 - Current time: ${userTime} (${timeOfDay})
 - Current date: ${userDate}
-${profileContext}${cachedInfo}${emotionContext}`;
+${profileContext}${emotionContext}`;
 
   const commonRules = `
 CONVERSATION STYLE - BE NATURAL AND FRIENDLY:
