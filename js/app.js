@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.5';
+const APP_VERSION = '19.8.6';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13581,19 +13581,25 @@ ${profileContext}${cachedInfo}${emotionContext}`;
   const commonRules = `
 CONVERSATION STYLE - BE NATURAL AND FRIENDLY:
 1. NEVER use markdown: no **, no *, no quotes
-2. Use natural Japanese with appropriate 相槌 (aizuchi) like へー、なるほど、そうですか
+2. Use natural, colloquial Japanese - speak like a real Japanese person
 3. Keep responses short (1-2 sentences)
 4. Show genuine interest in what the user says
 5. React to their emotions appropriately
 6. Ask follow-up questions naturally
 7. Use the user's name occasionally if known
-8. Reference current context (weather, news, anime) when natural
+8. Use appropriate 相槌 (aizuchi) like へー、なるほど、そうなんですね
+
+CRITICAL - NATURAL JAPANESE:
+- Use natural contractions: 書けません (not 書くことができません)
+- Avoid overly formal or textbook Japanese
+- Sound like a native speaker in casual conversation
+- Use common expressions: すごい！いいですね！そうなんだ！
 
 FORBIDDEN:
 - **word** or *word* formatting
-- Robotic or formal responses
+- Robotic or textbook-style Japanese
 - Asking multiple questions at once
-- Ignoring user's emotions`;
+- Unnatural grammar like ～ことができません (use ～られません/～れません instead)`;
 
 
   if (talkState.isUnitMode && talkState.unitRestrictions) {
