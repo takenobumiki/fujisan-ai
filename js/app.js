@@ -3,7 +3,7 @@
 // 【重要】バージョン更新時は sync-version.sh を実行すること！
 // 手動編集禁止 - versionファイルが Single Source of Truth
 // ============================================================
-const APP_VERSION = '19.8.17';
+const APP_VERSION = '19.8.18';
 const STORAGE_KEY = 'fujisan_v1820';
 const PROGRESS_KEY_PREFIX = 'fujisan_progress_';
 
@@ -13038,30 +13038,46 @@ function getTimeBasedGreeting() {
 async function generateOpeningMessage() {
   const hour = new Date().getHours();
   
-  // First time user - ask name FIRST (before anything else)
-  if (!talkProfile.name && talkProfile.conversationCount <= 1) {
-    return {
-      ja: 'こんにちは！初めまして。私はさくらです。日本語の練習を手伝いますね！お名前を教えてもらえますか？',
-      en: "Hello! Nice to meet you! I'm Sakura. I'll help you practice Japanese! May I know your name?"
-    };
+  // If we don't know the user's name, always ask first
+  if (!talkProfile.name) {
+    let greeting = '';
+    if (hour >= 5 && hour < 12) {
+      greeting = 'おはようございます';
+    } else if (hour >= 12 && hour < 18) {
+      greeting = 'こんにちは';
+    } else {
+      greeting = 'こんばんは';
+    }
+    
+    if (talkProfile.conversationCount <= 1) {
+      return {
+        ja: `${greeting}！初めまして。私はさくらです。日本語の練習を手伝いますね！お名前を教えてもらえますか？`,
+        en: `Hello! Nice to meet you! I'm Sakura. I'll help you practice Japanese! May I know your name?`
+      };
+    } else {
+      return {
+        ja: `${greeting}！さくらです。あ、そういえば、お名前をまだ聞いていませんでしたね。お名前は何ですか？`,
+        en: `Hello! It's Sakura. Oh, I realized I haven't asked your name yet. What's your name?`
+      };
+    }
   }
   
   // Get user name for greeting
-  const userName = talkProfile.name || '';
+  const userName = talkProfile.name;
   
-  // Build time-based greeting
+  // Build time-based greeting (at this point, userName is guaranteed to exist)
   let jaGreeting = '';
   let enGreeting = '';
   
   if (hour >= 5 && hour < 12) {
-    jaGreeting = userName ? `${userName}さん、おはようございます！` : 'おはようございます！';
-    enGreeting = userName ? `Good morning, ${userName}!` : 'Good morning!';
+    jaGreeting = `${userName}さん、おはようございます！`;
+    enGreeting = `Good morning, ${userName}!`;
   } else if (hour >= 12 && hour < 18) {
-    jaGreeting = userName ? `${userName}さん、こんにちは！` : 'こんにちは！';
-    enGreeting = userName ? `Hello, ${userName}!` : 'Hello!';
+    jaGreeting = `${userName}さん、こんにちは！`;
+    enGreeting = `Hello, ${userName}!`;
   } else {
-    jaGreeting = userName ? `${userName}さん、こんばんは！` : 'こんばんは！';
-    enGreeting = userName ? `Good evening, ${userName}!` : 'Good evening!';
+    jaGreeting = `${userName}さん、こんばんは！`;
+    enGreeting = `Good evening, ${userName}!`;
   }
   
   // If returning user with pending follow-up
@@ -13559,8 +13575,11 @@ async function callTalkGemini(userMessage, emotion = null) {
   
   // Build user profile context
   let profileContext = '';
+  let nameInstruction = '';
   if (talkProfile.name) {
     profileContext += `- User's name: ${talkProfile.name} (address them by name occasionally)\n`;
+  } else {
+    nameInstruction = `\nIMPORTANT: You don't know the user's name yet. In your first message, naturally ask for their name (e.g., "お名前は何ですか？" or "お名前を教えてください"). Never say "〜さん" without knowing their actual name.\n`;
   }
   const topInterest = getTopInterest();
   if (topInterest) {
@@ -13584,7 +13603,7 @@ async function callTalkGemini(userMessage, emotion = null) {
 CURRENT CONTEXT:
 - Current time: ${userTime} (${timeOfDay})
 - Current date: ${userDate}
-${profileContext}${emotionContext}`;
+${profileContext}${emotionContext}${nameInstruction}`;
 
   const commonRules = `
 CONVERSATION STYLE - BE NATURAL AND FRIENDLY:
@@ -13764,7 +13783,25 @@ function speakTalkMessage(text) {
     '上手': 'じょうず',
     '何': 'なに',
     '何か': 'なにか',
-    '何も': 'なにも'
+    '何も': 'なにも',
+    '豚骨': 'とんこつ',
+    '醤油': 'しょうゆ',
+    '味噌': 'みそ',
+    '塩': 'しお',
+    '今朝': 'けさ',
+    '今年': 'ことし',
+    '去年': 'きょねん',
+    '来年': 'らいねん',
+    '一日': 'いちにち',
+    '二日': 'ふつか',
+    '七日': 'なのか',
+    '八日': 'ようか',
+    '九日': 'ここのか',
+    '十日': 'とおか',
+    '二十日': 'はつか',
+    '日本': 'にほん',
+    '日本語': 'にほんご',
+    '日曜日': 'にちようび'
   };
   
   for (const [kanji, hiragana] of Object.entries(ttsFixMap)) {
